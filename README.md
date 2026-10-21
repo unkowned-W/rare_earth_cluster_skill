@@ -1,6 +1,6 @@
 ﻿# Rare-earth cluster skill（全项目卡片）
 
-此目录仿照 `high_quality_samples/`，包含合成、CIF 结构、综述卡片的独立副本，以及化合物级 `cluster_ledger.csv`、`SKILL.md` 和 `references/prompts.md`。原始 `data/` 卡片未改动。总账是可重建的检索索引，字段语义见 `references/ledger_schema.md`。
+此目录，包含合成、CIF 结构、综述卡片的独立副本，以及化合物级 `cluster_ledger.csv`、`SKILL.md` 和 `references/prompts.md`。总账是可重建的检索索引，字段语义见 `references/ledger_schema.md`。
 
 从项目根目录运行：
 
