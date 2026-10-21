@@ -1,0 +1,273 @@
+{
+  "refcode": "AJUVEK",
+  "ccdc_number": "2379211",
+  "dois": [
+    "10.1039/d4dt02976c"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2379211.cif",
+  "formula_moiety": "C62 H92 Eu4 N4 O22",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "30.6175(11)",
+    "b": "13.7197(5)",
+    "c": "22.6347(9)",
+    "alpha": "90",
+    "beta": "128.483(2)",
+    "gamma": "90",
+    "volume": "7442.79",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O18",
+        "O21",
+        "O3",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O13",
+        "O20",
+        "O21",
+        "O5",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O15",
+        "O19",
+        "O20",
+        "O21",
+        "O3"
+      ]
+    },
+    {
+      "label": "Eu4",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O16",
+        "O17",
+        "O19",
+        "O22",
+        "O3",
+        "O6",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O21"
+        ],
+        "metal_metal_separation_angstrom": 3.758,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 107.89,
+            "metal_oxygen_distances_angstrom": [
+              2.332,
+              2.317
+            ]
+          },
+          {
+            "oxygen": "O21",
+            "angle_deg": 101.83,
+            "metal_oxygen_distances_angstrom": [
+              2.44,
+              2.401
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O21",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.957,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 110.33,
+            "metal_oxygen_distances_angstrom": [
+              2.38,
+              2.44
+            ]
+          },
+          {
+            "oxygen": "O21",
+            "angle_deg": 110.33,
+            "metal_oxygen_distances_angstrom": [
+              2.44,
+              2.38
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Eu4"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.88,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 102.74,
+            "metal_oxygen_distances_angstrom": [
+              2.388,
+              2.577
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 108.48,
+            "metal_oxygen_distances_angstrom": [
+              2.38,
+              2.401
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O20",
+          "O21"
+        ],
+        "metal_metal_separation_angstrom": 3.88,
+        "bridge_geometry": [
+          {
+            "oxygen": "O21",
+            "angle_deg": 108.48,
+            "metal_oxygen_distances_angstrom": [
+              2.401,
+              2.38
+            ]
+          },
+          {
+            "oxygen": "O20",
+            "angle_deg": 102.74,
+            "metal_oxygen_distances_angstrom": [
+              2.577,
+              2.388
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu3",
+          "Eu4"
+        ],
+        "shared_oxygen_labels": [
+          "O19",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.758,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 101.83,
+            "metal_oxygen_distances_angstrom": [
+              2.44,
+              2.401
+            ]
+          },
+          {
+            "oxygen": "O19",
+            "angle_deg": 107.89,
+            "metal_oxygen_distances_angstrom": [
+              2.332,
+              2.317
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2",
+        "Eu3",
+        "Eu4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "AJUVEK crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C62 H92 Eu4 N4 O22. From the CIF bond table, Eu1 (Eu) has 6 O neighbors; Eu2 (Eu) has 8 O neighbors; Eu3 (Eu) has 6 O neighbors; Eu4 (Eu) has 8 O neighbors. Oxygen-bridged metal-site graph: 5 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.758-3.957 Å (not direct metal-metal bonds). Computed M-O-M angles span 101.83-110.33°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C62H92Eu4N4O22. Explicit grouped units in the article formula/name: 2 μ3-OH (explicit grouped unit in article compound name (structural notation)), 1 OH (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d4dt02976c",
+    "formula": "C62H92Eu4N4O22",
+    "compound_name": "[Eu4(μ3-OH)2{py2C(OH)O}2(O2CCMe3)8]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "OH",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

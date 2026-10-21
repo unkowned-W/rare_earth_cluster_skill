@@ -1,0 +1,146 @@
+{
+  "refcode": "QUWCUI",
+  "ccdc_number": "1057005",
+  "dois": [
+    "10.1002/chem.201502416"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1057005.cif",
+  "formula_moiety": "C152 H100 Dy4 F36 N8 O26 S24,4(C6 H14)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "15.9808(9)",
+    "b": "19.7562(10)",
+    "c": "21.1041(11)",
+    "alpha": "63.020(2)",
+    "beta": "70.935(2)",
+    "gamma": "84.378(2)",
+    "volume": "5602.13",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O13",
+        "O20",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O16",
+        "O17",
+        "O18",
+        "O19"
+      ]
+    },
+    {
+      "label": "Dy4",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O20",
+        "O21",
+        "O22",
+        "O23",
+        "O24",
+        "O25",
+        "O26",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy2",
+          "Dy4"
+        ],
+        "shared_oxygen_labels": [
+          "O20",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 4.131,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 117.54,
+            "metal_oxygen_distances_angstrom": [
+              2.39,
+              2.442
+            ]
+          },
+          {
+            "oxygen": "O20",
+            "angle_deg": 117.54,
+            "metal_oxygen_distances_angstrom": [
+              2.442,
+              2.39
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1"
+      ],
+      [
+        "Dy2",
+        "Dy4"
+      ],
+      [
+        "Dy3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "QUWCUI crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C152 H100 Dy4 F36 N8 O26 S24,4(C6 H14). From the CIF bond table, Dy1 (Dy) has 6 O neighbors; Dy2 (Dy) has 8 O neighbors; Dy3 (Dy) has 6 O neighbors; Dy4 (Dy) has 8 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.131-4.131 Å (not direct metal-metal bonds). Computed M-O-M angles span 117.54-117.54°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C176H156Dy4F36N8O26S24.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/chem.201502416",
+    "formula": "C176H156Dy4F36N8O26S24",
+    "compound_name": "[Dy4(tta)12(L)2]·(C6H14)4",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

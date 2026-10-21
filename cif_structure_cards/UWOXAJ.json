@@ -1,0 +1,161 @@
+{
+  "refcode": "UWOXAJ",
+  "ccdc_number": "2485470",
+  "dois": [
+    "10.1016/j.molstruc.2026.145491"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2485470.cif",
+  "formula_moiety": "C88 H118 N8 O18 Tb3 3+,7(C1 H4 O1),3(N1 O3 1-),4(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "14.7526(8)",
+    "b": "20.5934(10)",
+    "c": "36.518(2)",
+    "alpha": "90",
+    "beta": "96.613(2)",
+    "gamma": "90",
+    "volume": "11020.6",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O17",
+        "O18",
+        "O3",
+        "O4",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3",
+        "O5"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O13",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.747,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 106.04,
+            "metal_oxygen_distances_angstrom": [
+              2.393,
+              2.297
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 108.91,
+            "metal_oxygen_distances_angstrom": [
+              2.317,
+              2.288
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.729,
+        "bridge_geometry": [
+          {
+            "oxygen": "O9",
+            "angle_deg": 108.08,
+            "metal_oxygen_distances_angstrom": [
+              2.316,
+              2.291
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 105.58,
+            "metal_oxygen_distances_angstrom": [
+              2.362,
+              2.32
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "UWOXAJ crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C88 H118 N8 O18 Tb3 3+,7(C1 H4 O1),3(N1 O3 1-),4(H2 O1). From the CIF bond table, Tb1 (Tb) has 8 O neighbors; Tb2 (Tb) has 3 O neighbors; Tb3 (Tb) has 3 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.729-3.747 Å (not direct metal-metal bonds). Computed M-O-M angles span 105.58-108.91°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C95H142N11O32Tb3. Explicit grouped units in the article formula/name: 2 H2O (explicit grouped unit in article compound name (structural notation)), 3 NO3 (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.molstruc.2026.145491",
+    "formula": "C95H142N11O32Tb3",
+    "compound_name": "[Tb3(HL)2(H2O)2](NO3)3·H2O·CH3OH (H4L = N,N′,N″,N‴-tetra(2-hydroxy-3-methoxy-5-methylbenzyl)-1,4,7,10-tetraazacyclododecane)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "NO3",
+        "count": 3,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

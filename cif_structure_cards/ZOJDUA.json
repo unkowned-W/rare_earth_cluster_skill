@@ -1,0 +1,202 @@
+{
+  "refcode": "ZOJDUA",
+  "ccdc_number": "1895875",
+  "dois": [
+    "10.1016/j.poly.2019.05.002"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1895875.cif",
+  "formula_moiety": "C120 H94 Gd4 N6 O22,4(C1 H4 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "14.1840(9)",
+    "b": "15.3070(9)",
+    "c": "16.5200(10)",
+    "alpha": "96.346(3)",
+    "beta": "111.513(3)",
+    "gamma": "114.233(3)",
+    "volume": "2895.19",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O2A",
+        "O4",
+        "O6",
+        "O6A",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Gd2",
+      "element": "Gd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O2A",
+        "O3",
+        "O4",
+        "O5",
+        "O9"
+      ]
+    },
+    {
+      "label": "Gd1A",
+      "element": "Gd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O11A",
+        "O2",
+        "O4A",
+        "O6",
+        "O6A",
+        "O7A",
+        "O8A"
+      ]
+    },
+    {
+      "label": "Gd2A",
+      "element": "Gd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10A",
+        "O1A",
+        "O2",
+        "O3A",
+        "O4A",
+        "O5A",
+        "O9A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Gd1",
+          "Gd1A"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O6A"
+        ],
+        "metal_metal_separation_angstrom": 3.685,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 106.0,
+            "metal_oxygen_distances_angstrom": [
+              2.262,
+              2.352
+            ]
+          },
+          {
+            "oxygen": "O6A",
+            "angle_deg": 106.0,
+            "metal_oxygen_distances_angstrom": [
+              2.352,
+              2.262
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1",
+          "Gd2"
+        ],
+        "shared_oxygen_labels": [
+          "O2A",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.823,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 110.95,
+            "metal_oxygen_distances_angstrom": [
+              2.306,
+              2.335
+            ]
+          },
+          {
+            "oxygen": "O2A",
+            "angle_deg": 109.56,
+            "metal_oxygen_distances_angstrom": [
+              2.381,
+              2.299
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1A",
+          "Gd2A"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O4A"
+        ],
+        "metal_metal_separation_angstrom": 3.823,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 109.56,
+            "metal_oxygen_distances_angstrom": [
+              2.381,
+              2.299
+            ]
+          },
+          {
+            "oxygen": "O4A",
+            "angle_deg": 110.95,
+            "metal_oxygen_distances_angstrom": [
+              2.306,
+              2.335
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Gd1",
+        "Gd1A",
+        "Gd2",
+        "Gd2A"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ZOJDUA crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C120 H94 Gd4 N6 O22,4(C1 H4 O1). From the CIF bond table, Gd1 (Gd) has 7 O neighbors; Gd2 (Gd) has 7 O neighbors; Gd1A (Gd) has 7 O neighbors; Gd2A (Gd) has 7 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.685-3.823 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.00-110.95°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C124H110Gd4N6O26.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.poly.2019.05.002",
+    "formula": "C124H110Gd4N6O26",
+    "compound_name": "[Gd4(L)2(dbm)6(CH3OH)2] (linear-shaped tetranuclear gadolinium cluster)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

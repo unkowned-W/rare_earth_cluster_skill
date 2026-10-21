@@ -1,0 +1,509 @@
+{
+  "title": "Salen-Based [Zn2Ln3] Complexes with Fluorescence and Single-Molecule-Magnet Properties",
+  "doi": "10.1021/ic9007944",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Zn2Tb3(m-salen)3(N3)5(OH)2]",
+      "formula": "[Zn2Tb3(m-salen)3(N3)5(OH)2]",
+      "ccdc_numbers": [
+        "728857"
+      ],
+      "ccdc_refcodes": [
+        "WUHGUC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "V-shaped pentanuclear [Zn2Ln3] m-salen cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "To a solution of H2m-salen (1 equiv), NaN3 (3 equiv), and NEt3 (2 equiv) in MeOH/MeCN (2:20 mL/mL) were added ZnCl2 (1 equiv) and Ln(NO3)3·nH2O (1 equiv; Ln = Tb) with stirring. After 1 h, the filtrate was allowed to crystallize at room temperature by slow evaporation. NEt3 deprotonates the ligand and promotes μ3-OH formation from water in the metal salts.",
+        "reagents": [
+          {
+            "name": "H2m-salen (N,N'-ethylenebis(3-methoxysalicylideneamine))",
+            "formula": "C18H20N2O4",
+            "role": "ligand",
+            "amount": "1 equiv"
+          },
+          {
+            "name": "sodium azide",
+            "formula": "NaN3",
+            "role": "azide source/bridging ligand",
+            "amount": "3 equiv"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "2 equiv"
+          },
+          {
+            "name": "zinc chloride",
+            "formula": "ZnCl2",
+            "role": "Zn source",
+            "amount": "1 equiv"
+          },
+          {
+            "name": "terbium nitrate hydrate",
+            "formula": "Tb(NO3)3·nH2O",
+            "role": "Ln source",
+            "amount": "1 equiv"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN"
+        ],
+        "temperature": "room temperature (crystallization)",
+        "time": "1 h stirring, then slow evaporation",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by filtration and slow evaporation",
+        "workup_and_crystallization": "filtrate crystallized at room temperature by slow evaporation",
+        "yield": "45–55% (family range)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Strong TbIII fluorescence in CHCl3 (ligand-sensitized emission plus Zn-related band). χT = 41.4 cm3 K mol−1 at 300 K (1000 Oe), decreasing to 25.8 cm3 K mol−1 at 1.8 K; no out-of-phase ac signal above 1.8 K; magnetization not saturating at 7 T below 8 K.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "emission maxima",
+            "value": "460, 492, 545, 585, 620",
+            "unit": "nm",
+            "conditions": "0.024 g in 8 mL CHCl3, λex = 400 nm; 545 nm strongest Tb 5D4→7F5"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 41.4,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 25.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 1000 Oe"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "abstract/introduction synthesis paragraph"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "general formula [Zn2Ln3(m-salen)3(N3)5(OH)2]"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 728857 WUHGUC"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "synthetic paragraph with equivalents and MeOH/MeCN 2:20 mL"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Figure 2, Figure S4–S6; dc/ac magnetism text"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Zn2Eu3(m-salen)3(N3)5(OH)2]",
+      "formula": "[Zn2Eu3(m-salen)3(N3)5(OH)2]",
+      "ccdc_numbers": [
+        "728855"
+      ],
+      "ccdc_refcodes": [
+        "WUHGIQ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "V-shaped pentanuclear [Zn2Ln3] m-salen cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 using Eu(NO3)3·nH2O (1 equiv) with H2m-salen (1 equiv), NaN3 (3 equiv), NEt3 (2 equiv), and ZnCl2 (1 equiv) in MeOH/MeCN (2:20 mL/mL); 1 h stirring then crystallization of the filtrate by slow evaporation at room temperature.",
+        "reagents": [
+          {
+            "name": "H2m-salen (N,N'-ethylenebis(3-methoxysalicylideneamine))",
+            "formula": "C18H20N2O4",
+            "role": "ligand",
+            "amount": "1 equiv"
+          },
+          {
+            "name": "sodium azide",
+            "formula": "NaN3",
+            "role": "azide source/bridging ligand",
+            "amount": "3 equiv"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "2 equiv"
+          },
+          {
+            "name": "zinc chloride",
+            "formula": "ZnCl2",
+            "role": "Zn source",
+            "amount": "1 equiv"
+          },
+          {
+            "name": "europium nitrate hydrate",
+            "formula": "Eu(NO3)3·nH2O",
+            "role": "Ln source",
+            "amount": "1 equiv"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN"
+        ],
+        "temperature": "room temperature (crystallization)",
+        "time": "1 h stirring, then slow evaporation",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by filtration and slow evaporation",
+        "workup_and_crystallization": "filtrate crystallized at room temperature by slow evaporation",
+        "yield": "45–55% (family range)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Eu analogue shows only weak emission (poor ligand-to-Eu energy match). χT = 4.1 cm3 K mol−1 at 300 K from thermally populated EuIII excited states, falling to 0.04 cm3 K mol−1 at 1.8 K (diamagnetic 7F0 ground state). No out-of-phase ac signal above 1.8 K.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "emission intensity",
+            "value": "weak (no significant Eu fluorescence)",
+            "unit": null,
+            "conditions": "solution emission; Figure S5"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 4.1,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 0.04,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 1000 Oe"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "general formula Ln = EuIII (2)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 728855 WUHGIQ"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "shared synthetic paragraph"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "fluorescence paragraph and dc susceptibility"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Zn2Ho3(m-salen)3(N3)5(OH)2]",
+      "formula": "[Zn2Ho3(m-salen)3(N3)5(OH)2]",
+      "ccdc_numbers": [
+        "728856"
+      ],
+      "ccdc_refcodes": [
+        "WUHGOW"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "V-shaped pentanuclear [Zn2Ln3] m-salen cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 using Ho(NO3)3·nH2O (1 equiv) with H2m-salen (1 equiv), NaN3 (3 equiv), NEt3 (2 equiv), and ZnCl2 (1 equiv) in MeOH/MeCN (2:20 mL/mL); 1 h stirring then crystallization of the filtrate by slow evaporation at room temperature.",
+        "reagents": [
+          {
+            "name": "H2m-salen (N,N'-ethylenebis(3-methoxysalicylideneamine))",
+            "formula": "C18H20N2O4",
+            "role": "ligand",
+            "amount": "1 equiv"
+          },
+          {
+            "name": "sodium azide",
+            "formula": "NaN3",
+            "role": "azide source/bridging ligand",
+            "amount": "3 equiv"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "2 equiv"
+          },
+          {
+            "name": "zinc chloride",
+            "formula": "ZnCl2",
+            "role": "Zn source",
+            "amount": "1 equiv"
+          },
+          {
+            "name": "holmium nitrate hydrate",
+            "formula": "Ho(NO3)3·nH2O",
+            "role": "Ln source",
+            "amount": "1 equiv"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN"
+        ],
+        "temperature": "room temperature (crystallization)",
+        "time": "1 h stirring, then slow evaporation",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by filtration and slow evaporation",
+        "workup_and_crystallization": "filtrate crystallized at room temperature by slow evaporation",
+        "yield": "45–55% (family range)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χT = 39.9 cm3 K mol−1 at 300 K (1000 Oe), decreasing to 18.0 cm3 K mol−1 at 1.8 K; magnetization not saturating at 7 T below 8 K; no out-of-phase ac signal above 1.8 K. Fluorescence of 3 is not reported as a measured emission spectrum.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 39.9,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 18.0,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 1000 Oe"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "general formula Ln = HoIII (3)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 728856 WUHGOW"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "shared synthetic paragraph"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc susceptibility and ac text for 1–3"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Zn2Dy3(m-salen)3(N3)5(OH)2]",
+      "formula": "[Zn2Dy3(m-salen)3(N3)5(OH)2]",
+      "ccdc_numbers": [
+        "728854"
+      ],
+      "ccdc_refcodes": [
+        "WUHGEM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "V-shaped pentanuclear [Zn2Ln3] m-salen cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 using Dy(NO3)3·nH2O (1 equiv) with H2m-salen (1 equiv), NaN3 (3 equiv), NEt3 (2 equiv), and ZnCl2 (1 equiv) in MeOH/MeCN (2:20 mL/mL); 1 h stirring then crystallization of the filtrate by slow evaporation at room temperature.",
+        "reagents": [
+          {
+            "name": "H2m-salen (N,N'-ethylenebis(3-methoxysalicylideneamine))",
+            "formula": "C18H20N2O4",
+            "role": "ligand",
+            "amount": "1 equiv"
+          },
+          {
+            "name": "sodium azide",
+            "formula": "NaN3",
+            "role": "azide source/bridging ligand",
+            "amount": "3 equiv"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "2 equiv"
+          },
+          {
+            "name": "zinc chloride",
+            "formula": "ZnCl2",
+            "role": "Zn source",
+            "amount": "1 equiv"
+          },
+          {
+            "name": "dysprosium nitrate hydrate",
+            "formula": "Dy(NO3)3·nH2O",
+            "role": "Ln source",
+            "amount": "1 equiv"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN"
+        ],
+        "temperature": "room temperature (crystallization)",
+        "time": "1 h stirring, then slow evaporation",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by filtration and slow evaporation",
+        "workup_and_crystallization": "filtrate crystallized at room temperature by slow evaporation",
+        "yield": "45–55% (family range)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "SMM: frequency-dependent ac χ″ with characteristic frequency 280 Hz at 1.8 K; Arrhenius Ueff = 13.4 K, τ0 ≈ 3.3×10−7 s. χT = 39.1 cm3 K mol−1 at 300 K decreasing to 11.6 cm3 K mol−1 at 1.8 K. Micro-SQUID loops below 1.1 K are three-step and become temperature-independent below 0.4 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 39.1,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 11.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac characteristic frequency",
+            "value": 280,
+            "unit": "Hz",
+            "conditions": "1.8 K, Hdc = 0 Oe, 10–1000 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff",
+            "value": 13.4,
+            "unit": "K",
+            "conditions": "activated relaxation from ac data up to 2.6 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "3.3e-7",
+            "unit": "s",
+            "conditions": "Arrhenius fit of ac relaxation time"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "hysteresis/SMM blocking",
+            "value": "three-step loops; T-independent below 0.4 K",
+            "unit": null,
+            "conditions": "single-crystal micro-SQUID, 1.1–0.04 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "general formula Ln = DyIII (4)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 728854 WUHGEM"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "shared synthetic paragraph"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Figures 3–4 and ac/micro-SQUID discussion"
+        }
+      ]
+    }
+  ]
+}

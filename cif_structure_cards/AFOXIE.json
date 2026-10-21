@@ -1,0 +1,169 @@
+{
+  "refcode": "AFOXIE",
+  "ccdc_number": "905255",
+  "dois": [
+    "10.1039/c3dt51706c"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\905255.cif",
+  "formula_moiety": "C81 H54 N9 O9 Y3,C4 H10 O2",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "16.9402(19)",
+    "b": "24.619(3)",
+    "c": "18.248(2)",
+    "alpha": "90.00",
+    "beta": "91.536(2)",
+    "gamma": "90.00",
+    "volume": "7607.61",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Y1",
+      "element": "Y",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O1B",
+        "O1C",
+        "O1E",
+        "O1F",
+        "O1G",
+        "O1I"
+      ]
+    },
+    {
+      "label": "Y2",
+      "element": "Y",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O1B",
+        "O1C",
+        "O1D"
+      ]
+    },
+    {
+      "label": "Y3",
+      "element": "Y",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1E",
+        "O1F",
+        "O1G",
+        "O1H"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Y1",
+          "Y2"
+        ],
+        "shared_oxygen_labels": [
+          "O1A",
+          "O1B",
+          "O1C"
+        ],
+        "metal_metal_separation_angstrom": 3.5,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1A",
+            "angle_deg": 96.64,
+            "metal_oxygen_distances_angstrom": [
+              2.336,
+              2.35
+            ]
+          },
+          {
+            "oxygen": "O1B",
+            "angle_deg": 98.42,
+            "metal_oxygen_distances_angstrom": [
+              2.3,
+              2.322
+            ]
+          },
+          {
+            "oxygen": "O1C",
+            "angle_deg": 93.17,
+            "metal_oxygen_distances_angstrom": [
+              2.474,
+              2.342
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Y1",
+          "Y3"
+        ],
+        "shared_oxygen_labels": [
+          "O1E",
+          "O1F",
+          "O1G"
+        ],
+        "metal_metal_separation_angstrom": 3.496,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1E",
+            "angle_deg": 97.57,
+            "metal_oxygen_distances_angstrom": [
+              2.317,
+              2.33
+            ]
+          },
+          {
+            "oxygen": "O1F",
+            "angle_deg": 96.39,
+            "metal_oxygen_distances_angstrom": [
+              2.33,
+              2.36
+            ]
+          },
+          {
+            "oxygen": "O1G",
+            "angle_deg": 93.81,
+            "metal_oxygen_distances_angstrom": [
+              2.465,
+              2.32
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Y1",
+        "Y2",
+        "Y3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "AFOXIE crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C81 H54 N9 O9 Y3,C4 H10 O2. From the CIF bond table, Y1 (Y) has 7 O neighbors; Y2 (Y) has 4 O neighbors; Y3 (Y) has 4 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.496-3.500 Å (not direct metal-metal bonds). Computed M-O-M angles span 93.17-98.42°; individual values and O labels are in metal_framework.links. Article card reports molecular formula Y3Q9·DME (C85H64N9O11Y3).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c3dt51706c",
+    "formula": "Y3Q9·DME (C85H64N9O11Y3)",
+    "compound_name": "yttrium 8-quinolinolate DME solvate (Y3Q9·DME)",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

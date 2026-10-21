@@ -1,0 +1,120 @@
+{
+  "refcode": "IWENED01",
+  "ccdc_number": "253710",
+  "dois": [
+    "10.1016/j.poly.2009.08.024"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\253710.cif",
+  "formula_moiety": "C54 H42 O18 Pr2",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "21.373(2)",
+    "b": "15.136(2)",
+    "c": "15.644(2)",
+    "alpha": "90",
+    "beta": "97.570(9)",
+    "gamma": "90",
+    "volume": "5016.75",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Pr1",
+      "element": "Pr",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1D",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Pr1D",
+      "element": "Pr",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1D",
+        "O2D",
+        "O3D",
+        "O4D",
+        "O5D",
+        "O7D",
+        "O8D"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Pr1",
+          "Pr1D"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O1D"
+        ],
+        "metal_metal_separation_angstrom": 4.086,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 111.54,
+            "metal_oxygen_distances_angstrom": [
+              2.49,
+              2.452
+            ]
+          },
+          {
+            "oxygen": "O1D",
+            "angle_deg": 111.54,
+            "metal_oxygen_distances_angstrom": [
+              2.452,
+              2.49
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Pr1",
+        "Pr1D"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "IWENED01 crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C54 H42 O18 Pr2. From the CIF bond table, Pr1 (Pr) has 8 O neighbors; Pr1D (Pr) has 8 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 1 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.086-4.086 Å (not direct metal-metal bonds). Computed M-O-M angles span 111.54-111.54°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Ln2(μ2-L)2(L)4]·nH2O (n = 0–3; L = 2,6-diformyl-p-cresolate; Ln = Pr–Tb except Pm, Er, Tm, Y); crystallographically determined [Pr2(μ2-L)2(L)4]. Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.poly.2009.08.024",
+    "formula": "[Ln2(μ2-L)2(L)4]·nH2O (n = 0–3; L = 2,6-diformyl-p-cresolate; Ln = Pr–Tb except Pm, Er, Tm, Y); crystallographically determined [Pr2(μ2-L)2(L)4]",
+    "compound_name": "bis(μ2-2,6-diformyl-p-cresolato)tetrakis(2,6-diformyl-p-cresolato)diln(III) (structurally determined for Ln = Pr)",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

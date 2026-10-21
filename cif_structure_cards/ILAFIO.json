@@ -1,0 +1,142 @@
+{
+  "refcode": "ILAFIO",
+  "ccdc_number": "2373577",
+  "dois": [
+    "10.1002/asia.202400964"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2373577.cif",
+  "formula_moiety": "C53 H79 Ce3 Li2 N18 O3,0.5(C6 H14)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.1590(18)",
+    "b": "13.601(4)",
+    "c": "21.017(4)",
+    "alpha": "90.56(2)",
+    "beta": "94.712(14)",
+    "gamma": "108.17(2)",
+    "volume": "3288.9",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Ce3",
+      "element": "Ce",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ce1",
+          "Ce2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.904,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 117.88,
+            "metal_oxygen_distances_angstrom": [
+              2.269,
+              2.288
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce1",
+          "Ce3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.876,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 116.52,
+            "metal_oxygen_distances_angstrom": [
+              2.269,
+              2.288
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2",
+          "Ce3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.904,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 117.15,
+            "metal_oxygen_distances_angstrom": [
+              2.288,
+              2.288
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1",
+        "Ce2",
+        "Ce3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ILAFIO crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C53 H79 Ce3 Li2 N18 O3,0.5(C6 H14). From the CIF bond table, Ce1 (Ce) has 1 O neighbors; Ce2 (Ce) has 1 O neighbors; Ce3 (Ce) has 1 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.876-3.904 Å (not direct metal-metal bonds). Computed M-O-M angles span 116.52-117.88°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C53H79Ce3Li2N18O3·0.5(C6H14).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/asia.202400964",
+    "formula": "C53H79Ce3Li2N18O3·0.5(C6H14)",
+    "compound_name": "[Ce3O(Me2pz)9Li2(thf)2]·0.5hexane",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

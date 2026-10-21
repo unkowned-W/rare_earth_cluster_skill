@@ -1,0 +1,149 @@
+{
+  "refcode": "WAQYET",
+  "ccdc_number": "280447",
+  "dois": [
+    "10.1021/ic048550b"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\280447.cif",
+  "formula_moiety": "C72 H87 Dy3 N2 O9,C7 H8",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21",
+  "international_tables_number": "4",
+  "unit_cell": {
+    "a": "11.758(2)",
+    "b": "22.320(4)",
+    "c": "14.171(3)",
+    "alpha": "90",
+    "beta": "94.503(4)",
+    "gamma": "90",
+    "volume": "3707.54",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.726,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 109.61,
+            "metal_oxygen_distances_angstrom": [
+              2.297,
+              2.264
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 110.65,
+            "metal_oxygen_distances_angstrom": [
+              2.322,
+              2.209
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.719,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 108.9,
+            "metal_oxygen_distances_angstrom": [
+              2.261,
+              2.309
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 107.99,
+            "metal_oxygen_distances_angstrom": [
+              2.271,
+              2.326
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "WAQYET crystallizes in the monoclinic crystal system with space group P 21. Reported CIF formula moiety: C72 H87 Dy3 N2 O9,C7 H8. From the CIF bond table, Dy1 (Dy) has 4 O neighbors; Dy2 (Dy) has 5 O neighbors; Dy3 (Dy) has 4 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.719-3.726 Å (not direct metal-metal bonds). Computed M-O-M angles span 107.99-110.65°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C72H87Dy3N2O9·C7H8.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic048550b",
+    "formula": "C72H87Dy3N2O9·C7H8",
+    "compound_name": "(DMP)Dy(μ-DMP)4[Dy(DMP)2(NH3)]2·toluene",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "refcode": "HOTYAS",
+  "ccdc_number": "1000323",
+  "dois": [
+    "10.1016/j.saa.2015.01.082"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1000323.cif",
+  "formula_moiety": "C86 H66 N10 O18 Yb4,C3 H7 N1 O1,2(C1 H4 O1),9(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "20.264(6)",
+    "b": "18.236(5)",
+    "c": "29.037(8)",
+    "alpha": "90.00",
+    "beta": "104.050(4)",
+    "gamma": "90.00",
+    "volume": "10409.2",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O3",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O13",
+        "O17",
+        "O2",
+        "O3",
+        "O4",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O13",
+        "O14",
+        "O18",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb4",
+      "element": "Yb",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O14",
+        "O15"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O3",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.502,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 101.01,
+            "metal_oxygen_distances_angstrom": [
+              2.227,
+              2.311
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 98.71,
+            "metal_oxygen_distances_angstrom": [
+              2.289,
+              2.327
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 98.46,
+            "metal_oxygen_distances_angstrom": [
+              2.249,
+              2.374
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb2",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.734,
+        "bridge_geometry": [
+          {
+            "oxygen": "O8",
+            "angle_deg": 108.62,
+            "metal_oxygen_distances_angstrom": [
+              2.334,
+              2.263
+            ]
+          },
+          {
+            "oxygen": "O13",
+            "angle_deg": 108.43,
+            "metal_oxygen_distances_angstrom": [
+              2.283,
+              2.32
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb3",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O11",
+          "O14"
+        ],
+        "metal_metal_separation_angstrom": 3.485,
+        "bridge_geometry": [
+          {
+            "oxygen": "O10",
+            "angle_deg": 97.91,
+            "metal_oxygen_distances_angstrom": [
+              2.33,
+              2.292
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 102.07,
+            "metal_oxygen_distances_angstrom": [
+              2.269,
+              2.213
+            ]
+          },
+          {
+            "oxygen": "O14",
+            "angle_deg": 98.08,
+            "metal_oxygen_distances_angstrom": [
+              2.335,
+              2.28
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2",
+        "Yb3",
+        "Yb4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "HOTYAS crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C86 H66 N10 O18 Yb4,C3 H7 N1 O1,2(C1 H4 O1),9(H2 O1). From the CIF bond table, Yb1 (Yb) has 4 O neighbors; Yb2 (Yb) has 8 O neighbors; Yb3 (Yb) has 8 O neighbors; Yb4 (Yb) has 4 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.485-3.734 Å (not direct metal-metal bonds). Computed M-O-M angles span 97.91-108.62°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C91H99N11O30Yb4.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.saa.2015.01.082",
+    "formula": "C91H99N11O30Yb4",
+    "compound_name": "[Yb4(H2L)2(L)2(DMF)2]·DMF·2MeOH·9H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

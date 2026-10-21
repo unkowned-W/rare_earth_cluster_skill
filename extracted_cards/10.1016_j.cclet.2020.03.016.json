@@ -1,0 +1,232 @@
+{
+  "title": "Construction of a nano-rectangular Zn-Nd complex with near-infrared luminescent response towards metal ions",
+  "doi": "10.1016/j.cclet.2020.03.016",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Zn2Nd4L2(OAc)10(OH)2(CH3OH)2] (H2L = bis(3-methoxysalicylidene)ethylene-1,2-phenylenediamine)",
+      "formula": "[Zn2Nd4L2(OAc)10(OH)2(CH3OH)2]",
+      "ccdc_numbers": [
+        "1971956"
+      ],
+      "ccdc_refcodes": [
+        "XUSGAW"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Nd"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "nano-rectangular centrosymmetric Zn2Nd4 Schiff-base cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Under dry oxygen-free dinitrogen using Schlenk techniques, Zn(OAc)2·2H2O (0.30 mmol, 0.0658 g), NdCl3·6H2O (0.60 mmol, 0.2154 g) and H2L (0.30 mmol, 0.0324 g) were dissolved in 50 mL MeOH at room temperature, and triethylamine in EtOH (1.0 mol/L, 1 mL) was added. The solution was stirred and heated under reflux for 30 min, then filtered. Yellow crystals of 1 formed by slow diffusion of diethyl ether into the filtrate at room temperature over two months. The product was collected and dried at 120 °C for 2 h. The crystalline solid also contains lattice [ZnCl2(H2O)CH3OH]. Yield: 0.0981 g (25%). m.p. > 200 °C (dec.).",
+        "reagents": [
+          {
+            "name": "Zn(OAc)2·2H2O",
+            "formula": "Zn(OAc)2·2H2O",
+            "role": "metal source",
+            "amount": "0.30 mmol, 0.0658 g"
+          },
+          {
+            "name": "NdCl3·6H2O",
+            "formula": "NdCl3·6H2O",
+            "role": "rare-earth source",
+            "amount": "0.60 mmol, 0.2154 g"
+          },
+          {
+            "name": "H2L",
+            "formula": null,
+            "role": "Schiff-base ligand",
+            "amount": "0.30 mmol, 0.0324 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1.0 mol/L in EtOH, 1 mL"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "EtOH",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature, then reflux; crystallization at room temperature",
+        "time": "30 min reflux; crystallization over two months; drying 2 h at 120 °C",
+        "ph": null,
+        "vessel_or_method": "Schlenk reflux in MeOH under dry oxygen-free dinitrogen, then diethyl ether diffusion",
+        "workup_and_crystallization": "Filtered; yellow crystals by slow diffusion of diethyl ether into the filtrate at room temperature over two months; collected and dried in an oven at 120 °C for 2 h. Lattice [ZnCl2(H2O)CH3OH] is present in the crystalline solid.",
+        "yield": "0.0981 g (25%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Ligand-centered excitation sensitizes typical Nd3+ NIR emission. In CH3CN the lifetime is 6.2 μs (consistent with ΦLn = 2.5% using τ0 = 250 μs), Φem = 0.8% and ηsens = 32%; Φem falls to 0.5% in DMF/H2O (1:1). Added metal acetates quench the 1054 nm emission in DMF, most strongly for Li+, Na+ and K+ (ppm-level NIR response); Li+ also lowers ηsens.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "NIR emission lifetime",
+            "value": "6.2",
+            "unit": "μs",
+            "conditions": "CH3CN; ΦLn = τ/τ0 = 2.5% with τ0 = 250 μs"
+          },
+          {
+            "property_type": "optical",
+            "name": "intrinsic quantum yield ΦLn",
+            "value": "2.5",
+            "unit": "%",
+            "conditions": "Nd3+ in 1; τ0 = 250 μs"
+          },
+          {
+            "property_type": "optical",
+            "name": "overall NIR emission quantum yield Φem",
+            "value": "0.8",
+            "unit": "%",
+            "conditions": "CH3CN; integrating sphere"
+          },
+          {
+            "property_type": "optical",
+            "name": "energy-transfer efficiency ηsens",
+            "value": "32",
+            "unit": "%",
+            "conditions": "Φem/ΦLn from Zn/L centers to Nd3+"
+          },
+          {
+            "property_type": "optical",
+            "name": "overall NIR emission quantum yield Φem",
+            "value": "0.5",
+            "unit": "%",
+            "conditions": "DMF/H2O (1:1)"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern-Volmer constant KSV",
+            "value": "2.98e4",
+            "unit": "L/mol",
+            "conditions": "Li+ acetate in DMF; emission at 1054 nm; 1 at 50 μmol/L"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern-Volmer constant KSV",
+            "value": "2.64e4",
+            "unit": "L/mol",
+            "conditions": "Na+; 1054 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern-Volmer constant KSV",
+            "value": "1.77e4",
+            "unit": "L/mol",
+            "conditions": "K+; 1054 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern-Volmer constant KSV",
+            "value": "0.06e4",
+            "unit": "L/mol",
+            "conditions": "Zn2+; 1054 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern-Volmer constant KSV",
+            "value": "0.04e4",
+            "unit": "L/mol",
+            "conditions": "Mg2+; 1054 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "limit of detection",
+            "value": "0.47",
+            "unit": "μmol/L",
+            "conditions": "Li+; 3σ/KSV"
+          },
+          {
+            "property_type": "optical",
+            "name": "limit of detection",
+            "value": "0.53",
+            "unit": "μmol/L",
+            "conditions": "Na+; 3σ/KSV"
+          },
+          {
+            "property_type": "optical",
+            "name": "limit of detection",
+            "value": "0.79",
+            "unit": "μmol/L",
+            "conditions": "K+; 3σ/KSV"
+          },
+          {
+            "property_type": "optical",
+            "name": "half-quenching concentration",
+            "value": "45.7",
+            "unit": "μmol/L",
+            "conditions": "Li+; >50% decrease of 1054 nm intensity"
+          },
+          {
+            "property_type": "optical",
+            "name": "half-quenching concentration",
+            "value": "47.4",
+            "unit": "μmol/L",
+            "conditions": "Na+; 1054 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "half-quenching concentration",
+            "value": "61.4",
+            "unit": "μmol/L",
+            "conditions": "K+; 1054 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR emission lifetime after Li+",
+            "value": "5.6",
+            "unit": "μs",
+            "conditions": "added Li+ 45.7 μmol/L; Φem = 0.3%, ΦLn = 2.2%, ηsens = 13.6%"
+          },
+          {
+            "property_type": "optical",
+            "name": "excitation wavelength",
+            "value": "395",
+            "unit": "nm",
+            "conditions": "luminescent response of 1 (50 μmol/L) to Li+ in DMF"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "title, abstract, and discussion of complex 1; CCDC 1971956"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1971956, refcode XUSGAW"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Fig. 1; 6-metal Zn2Nd4 rectangular core"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI section 2, Preparation of complex 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "photophysical discussion, Figs. 3–4 and Figs. S5–S7"
+        }
+      ]
+    }
+  ]
+}

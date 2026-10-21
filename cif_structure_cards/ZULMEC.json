@@ -1,0 +1,157 @@
+{
+  "refcode": "ZULMEC",
+  "ccdc_number": "2335115",
+  "dois": [
+    "10.1039/d4ce01245c"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2335115.cif",
+  "formula_moiety": "(C126 H86 Ce2 N18 O25)n",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "17.3238(3)",
+    "b": "18.1345(4)",
+    "c": "18.2145(4)",
+    "alpha": "87.982(2)",
+    "beta": "83.510(2)",
+    "gamma": "77.240(2)",
+    "volume": "5544.85",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O1_2",
+        "O2",
+        "O25",
+        "O5_2",
+        "O6",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O14",
+        "O17",
+        "O18",
+        "O18_2",
+        "O21",
+        "O22_2",
+        "O25"
+      ]
+    },
+    {
+      "label": "Ce1_2",
+      "element": "Ce",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O5"
+      ]
+    },
+    {
+      "label": "Ce2_2",
+      "element": "Ce",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O18",
+        "O18_2",
+        "O22"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ce1",
+          "Ce2"
+        ],
+        "shared_oxygen_labels": [
+          "O25"
+        ],
+        "metal_metal_separation_angstrom": 4.864,
+        "bridge_geometry": [
+          {
+            "oxygen": "O25",
+            "angle_deg": 124.5,
+            "metal_oxygen_distances_angstrom": [
+              2.688,
+              2.808
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2",
+          "Ce2_2"
+        ],
+        "shared_oxygen_labels": [
+          "O18",
+          "O18_2"
+        ],
+        "metal_metal_separation_angstrom": 4.022,
+        "bridge_geometry": [
+          {
+            "oxygen": "O18",
+            "angle_deg": 96.54,
+            "metal_oxygen_distances_angstrom": [
+              2.929,
+              2.443
+            ]
+          },
+          {
+            "oxygen": "O18_2",
+            "angle_deg": 96.54,
+            "metal_oxygen_distances_angstrom": [
+              2.443,
+              2.929
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1",
+        "Ce2",
+        "Ce2_2"
+      ],
+      [
+        "Ce1_2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ZULMEC crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: (C126 H86 Ce2 N18 O25)n. From the CIF bond table, Ce1 (Ce) has 7 O neighbors; Ce2 (Ce) has 8 O neighbors; Ce1_2 (Ce) has 2 O neighbors; Ce2_2 (Ce) has 3 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 4.022-4.864 Å (not direct metal-metal bonds). Computed M-O-M angles span 96.54-124.50°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C126H86N18O25Ce2.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d4ce01245c",
+    "formula": "C126H86N18O25Ce2",
+    "compound_name": "[Ce2(μ-H2O)(μ-H2L)6]n (H3L = 4-[3,5-bis(2-hydroxyphenyl)-1,2,4-triazol-1-yl]benzoic acid)",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

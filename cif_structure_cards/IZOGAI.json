@@ -1,0 +1,181 @@
+{
+  "refcode": "IZOGAI",
+  "ccdc_number": "1021523",
+  "dois": [
+    "10.1039/d1dt01525g"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1021523.cif",
+  "formula_moiety": "(C97 H70 Dy4 N12 O22)n,2(C1 H4 O1),C2 H3 N1,H2 O1",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "14.4228(7)",
+    "b": "17.5511(9)",
+    "c": "20.2386(10)",
+    "alpha": "106.3810(10)",
+    "beta": "94.9340(10)",
+    "gamma": "93.7770(10)",
+    "volume": "4875.13",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O14",
+        "O15",
+        "O16",
+        "O2",
+        "O4"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O13",
+        "O17",
+        "O4",
+        "O5",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O19",
+        "O20",
+        "O21",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Dy4",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O18",
+        "O22",
+        "O3_2",
+        "O7"
+      ]
+    },
+    {
+      "label": "Dy4_2",
+      "element": "Dy",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O3"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.73,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 102.64,
+            "metal_oxygen_distances_angstrom": [
+              2.332,
+              2.445
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 106.15,
+            "metal_oxygen_distances_angstrom": [
+              2.304,
+              2.362
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy3",
+          "Dy4"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.749,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 105.18,
+            "metal_oxygen_distances_angstrom": [
+              2.344,
+              2.376
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 105.91,
+            "metal_oxygen_distances_angstrom": [
+              2.314,
+              2.383
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2"
+      ],
+      [
+        "Dy3",
+        "Dy4"
+      ],
+      [
+        "Dy4_2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "IZOGAI crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: (C97 H70 Dy4 N12 O22)n,2(C1 H4 O1),C2 H3 N1,H2 O1. From the CIF bond table, Dy1 (Dy) has 6 O neighbors; Dy2 (Dy) has 6 O neighbors; Dy3 (Dy) has 6 O neighbors; Dy4 (Dy) has 6 O neighbors; Dy4_2 (Dy) has 1 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.730-3.749 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.64-106.15°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C101H83Dy4N13O25.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d1dt01525g",
+    "formula": "C101H83Dy4N13O25",
+    "compound_name": "([Dy4(HL)4(C6H5COO)4(CH3OH)(H2O)]·2CH3OH·CH3CN·H2O)n",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

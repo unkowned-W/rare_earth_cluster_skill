@@ -1,0 +1,138 @@
+{
+  "title": "A Discrete Dysprosium Trigonal Prism Showing Single-Molecule Magnet Behaviour",
+  "doi": "10.1002/chem.201102547",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "hexanuclear dysprosium trigonal prism [Dy6(OAc)3(μ3-CO3)2(L)5(HL)(MeOH)2]·4H2O·5MeOH·EtOH",
+      "formula": "[Dy6(OAc)3(μ3-CO3)2(L)5(HL)(MeOH)2]·4H2O·5MeOH·EtOH (H2L = (E)-N'-(2-hydroxy-3-methoxybenzylidene)pyrazine-2-carbohydrazide)",
+      "ccdc_numbers": [
+        "830076"
+      ],
+      "ccdc_refcodes": [
+        "QAVSOX"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "carbonate-templated Dy6 trigonal prism"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A solution of Dy(OAc)3·6H2O (53.3 mg, 0.15 mmol) and H2L (40.5 mg, 0.15 mmol) in MeOH/EtOH/CH2Cl2 (15 mL, 1:1:2 v/v) was stirred with triethylamine (0.6 mmol) for 8 h. The resultant yellow solution was left unperturbed for slow evaporation of the solvent. Yellow single crystals suitable for X-ray diffraction formed after one week. Atmospheric CO2 is incorporated as μ3-carbonate templates in the Dy3 faces.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) acetate hexahydrate",
+            "formula": "Dy(OAc)3·6H2O",
+            "role": "metal salt",
+            "amount": "53.3 mg, 0.15 mmol"
+          },
+          {
+            "name": "(E)-N'-(2-hydroxy-3-methoxybenzylidene)pyrazine-2-carbohydrazide",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "40.5 mg, 0.15 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.6 mmol (6 equiv)"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "EtOH",
+          "CH2Cl2"
+        ],
+        "temperature": null,
+        "time": "stirred 8 h; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution stirring followed by slow evaporation",
+        "workup_and_crystallization": "yellow solution left unperturbed to allow slow evaporation; yellow single crystals formed after one week",
+        "yield": "16 mg (43%, based on metal salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Discrete Dy6 trigonal-prism SMM. χMT at 300 K is 85.78 cm3 K mol−1 (expected 85.02 for six DyIII). AC susceptibility under zero dc field shows slow magnetic relaxation. Below 3 K a temperature-independent QTM regime is observed (τ = 0.07461 s); above ~8 K an Arrhenius fit gives Ueff ≈ 56 K and τ0 = 6.6×10−6 s. No hysteresis on a conventional SQUID, but temperature-dependent hysteresis loops appear below 5 K on a SQUID-VSM at 0.07 T s−1.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 85.78,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff",
+            "value": 56,
+            "unit": "K",
+            "conditions": "Arrhenius fit of τ above 8 K; zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "6.6e-6",
+            "unit": "s",
+            "conditions": "Arrhenius fit above 8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "quantum tunnelling relaxation time",
+            "value": 0.07461,
+            "unit": "s",
+            "conditions": "temperature-independent regime below 3 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "hysteresis observation temperature",
+            "value": "<5",
+            "unit": "K",
+            "conditions": "powder sample, SQUID-VSM, sweep rate 0.07 T s-1 (70 mT s-1)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "title"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "narrative paragraph introducing compound 1; Experimental Section"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of the complex 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism discussion; Figures 2–4"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 830076 / QAVSOX"
+        }
+      ]
+    }
+  ]
+}

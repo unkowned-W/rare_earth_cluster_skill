@@ -1,0 +1,326 @@
+{
+  "refcode": "TINFIG",
+  "ccdc_number": "644265",
+  "dois": [
+    "10.1021/ic7008682"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\644265.cif",
+  "formula_moiety": "C116 H120 Br8 Cl8 Eu8 N8 O36 4+,4(Cl1 1-),2(C1 H4 O1),14(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "21.184(4)",
+    "b": "32.694(7)",
+    "c": "32.822(7)",
+    "alpha": "90",
+    "beta": "95.79(3)",
+    "gamma": "90",
+    "volume": "22616.2",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O13",
+        "O14",
+        "O2",
+        "O3",
+        "O4",
+        "O9"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O15",
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O16",
+        "O18",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Eu4",
+      "element": "Eu",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O17",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Eu1B",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10B",
+        "O13B",
+        "O14B",
+        "O1B",
+        "O2B",
+        "O3B",
+        "O4B",
+        "O9B"
+      ]
+    },
+    {
+      "label": "Eu2B",
+      "element": "Eu",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O10B",
+        "O15B",
+        "O2B",
+        "O3B"
+      ]
+    },
+    {
+      "label": "Eu3B",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O11B",
+        "O12B",
+        "O16B",
+        "O18B",
+        "O5B",
+        "O6B",
+        "O7B",
+        "O8B"
+      ]
+    },
+    {
+      "label": "Eu4B",
+      "element": "Eu",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O12B",
+        "O17B",
+        "O6B",
+        "O7B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.613,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 100.81,
+            "metal_oxygen_distances_angstrom": [
+              2.378,
+              2.31
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 100.6,
+            "metal_oxygen_distances_angstrom": [
+              2.358,
+              2.339
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 95.55,
+            "metal_oxygen_distances_angstrom": [
+              2.508,
+              2.37
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1B",
+          "Eu2B"
+        ],
+        "shared_oxygen_labels": [
+          "O10B",
+          "O2B",
+          "O3B"
+        ],
+        "metal_metal_separation_angstrom": 3.613,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2B",
+            "angle_deg": 100.81,
+            "metal_oxygen_distances_angstrom": [
+              2.378,
+              2.31
+            ]
+          },
+          {
+            "oxygen": "O3B",
+            "angle_deg": 100.6,
+            "metal_oxygen_distances_angstrom": [
+              2.358,
+              2.339
+            ]
+          },
+          {
+            "oxygen": "O10B",
+            "angle_deg": 95.55,
+            "metal_oxygen_distances_angstrom": [
+              2.508,
+              2.37
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu3",
+          "Eu4"
+        ],
+        "shared_oxygen_labels": [
+          "O12",
+          "O6",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.608,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 98.91,
+            "metal_oxygen_distances_angstrom": [
+              2.384,
+              2.365
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 101.23,
+            "metal_oxygen_distances_angstrom": [
+              2.401,
+              2.266
+            ]
+          },
+          {
+            "oxygen": "O12",
+            "angle_deg": 95.31,
+            "metal_oxygen_distances_angstrom": [
+              2.503,
+              2.378
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu3B",
+          "Eu4B"
+        ],
+        "shared_oxygen_labels": [
+          "O12B",
+          "O6B",
+          "O7B"
+        ],
+        "metal_metal_separation_angstrom": 3.608,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6B",
+            "angle_deg": 98.91,
+            "metal_oxygen_distances_angstrom": [
+              2.384,
+              2.365
+            ]
+          },
+          {
+            "oxygen": "O7B",
+            "angle_deg": 101.23,
+            "metal_oxygen_distances_angstrom": [
+              2.401,
+              2.266
+            ]
+          },
+          {
+            "oxygen": "O12B",
+            "angle_deg": 95.31,
+            "metal_oxygen_distances_angstrom": [
+              2.503,
+              2.378
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2"
+      ],
+      [
+        "Eu1B",
+        "Eu2B"
+      ],
+      [
+        "Eu3",
+        "Eu4"
+      ],
+      [
+        "Eu3B",
+        "Eu4B"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "TINFIG crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C116 H120 Br8 Cl8 Eu8 N8 O36 4+,4(Cl1 1-),2(C1 H4 O1),14(H2 O1). From the CIF bond table, Eu1 (Eu) has 8 O neighbors; Eu2 (Eu) has 4 O neighbors; Eu3 (Eu) has 8 O neighbors; Eu4 (Eu) has 4 O neighbors; Eu1B (Eu) has 8 O neighbors; Eu2B (Eu) has 4 O neighbors; Eu3B (Eu) has 8 O neighbors; Eu4B (Eu) has 4 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 4 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.608-3.613 Å (not direct metal-metal bonds). Computed M-O-M angles span 95.31-101.23°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Eu8L4(1,4-BDC)2Cl8(MeOH)12]·4Cl·2MeOH·18H2O (H2L = bis(5-bromo-3-methoxysalicylidene)ethylene-1,2-phenylenediamine; 1,4-H2BDC = 1,4-benzenedicarboxylic acid).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic7008682",
+    "formula": "[Eu8L4(1,4-BDC)2Cl8(MeOH)12]·4Cl·2MeOH·18H2O (H2L = bis(5-bromo-3-methoxysalicylidene)ethylene-1,2-phenylenediamine; 1,4-H2BDC = 1,4-benzenedicarboxylic acid)",
+    "compound_name": "[Eu8L4(1,4-BDC)2Cl8(MeOH)12]·4Cl·2MeOH·18H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

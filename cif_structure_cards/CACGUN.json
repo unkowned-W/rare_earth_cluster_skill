@@ -1,0 +1,224 @@
+{
+  "refcode": "CACGUN",
+  "ccdc_number": "2448643",
+  "dois": [
+    "10.1039/d5dt01067e"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2448643.cif",
+  "formula_moiety": "C31 H44 Cl1 Ho3 N3 O13 3+,3(Cl1 1-),0.5(C2 H6 O1)",
+  "crystal_system": "rhombohedral",
+  "space_group_hm": "R -3",
+  "international_tables_number": "148",
+  "unit_cell": {
+    "a": "31.88400(10)",
+    "b": "31.88400(10)",
+    "c": "26.85650(10)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "120",
+    "volume": "23644.3",
+    "Z": "18"
+  },
+  "metal_sites": [
+    {
+      "label": "Ho2",
+      "element": "Ho",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O2",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Ho3",
+      "element": "Ho",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ho1",
+      "element": "Ho",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O13",
+        "O2",
+        "O3",
+        "O7",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ho1",
+          "Ho2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.524,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 96.36,
+            "metal_oxygen_distances_angstrom": [
+              2.379,
+              2.35
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 98.68,
+            "metal_oxygen_distances_angstrom": [
+              2.326,
+              2.319
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 95.56,
+            "metal_oxygen_distances_angstrom": [
+              2.394,
+              2.364
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho1",
+          "Ho3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.584,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 98.16,
+            "metal_oxygen_distances_angstrom": [
+              2.379,
+              2.364
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 97.94,
+            "metal_oxygen_distances_angstrom": [
+              2.394,
+              2.356
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 99.02,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.348
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho2",
+          "Ho3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.524,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 96.75,
+            "metal_oxygen_distances_angstrom": [
+              2.35,
+              2.364
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 97.69,
+            "metal_oxygen_distances_angstrom": [
+              2.328,
+              2.352
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 96.58,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.356
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ho1",
+        "Ho2",
+        "Ho3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "CACGUN crystallizes in the rhombohedral crystal system with space group R -3. Reported CIF formula moiety: C31 H44 Cl1 Ho3 N3 O13 3+,3(Cl1 1-),0.5(C2 H6 O1). From the CIF bond table, Ho2 (Ho) has 7 O neighbors; Ho3 (Ho) has 7 O neighbors; Ho1 (Ho) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.524-3.584 Å (not direct metal-metal bonds). Computed M-O-M angles span 95.56-99.02°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Ho3(OH)2(o-pbd)3Cl(H2O)3(EtOH)2]·3Cl. Explicit grouped units in the article formula/name: 2 OH (explicit grouped unit in article formula), 3 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d5dt01067e",
+    "formula": "[Ho3(OH)2(o-pbd)3Cl(H2O)3(EtOH)2]·3Cl",
+    "compound_name": "[Ho3(OH)2(o-pbd)3Cl(H2O)3(EtOH)2]·3Cl",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 3,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

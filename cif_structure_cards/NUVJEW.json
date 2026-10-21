@@ -1,0 +1,228 @@
+{
+  "refcode": "NUVJEW",
+  "ccdc_number": "1981343",
+  "dois": [
+    "10.1016/j.jssc.2020.121475"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1981343.cif",
+  "formula_moiety": "C72 H56 Dy4 N12 O16",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "14.5730(7)",
+    "b": "14.6595(7)",
+    "c": "20.2033(13)",
+    "alpha": "71.918(5)",
+    "beta": "90.219(5)",
+    "gamma": "65.507(5)",
+    "volume": "3689.66",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O15",
+        "O3",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Dy4",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O16",
+        "O2",
+        "O3",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O14",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O13",
+        "O2",
+        "O6",
+        "O8",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.823,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 110.48,
+            "metal_oxygen_distances_angstrom": [
+              2.319,
+              2.335
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 107.18,
+            "metal_oxygen_distances_angstrom": [
+              2.369,
+              2.381
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy4"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.946,
+        "bridge_geometry": [
+          {
+            "oxygen": "O9",
+            "angle_deg": 114.12,
+            "metal_oxygen_distances_angstrom": [
+              2.38,
+              2.322
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 110.31,
+            "metal_oxygen_distances_angstrom": [
+              2.403,
+              2.405
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O12",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.928,
+        "bridge_geometry": [
+          {
+            "oxygen": "O12",
+            "angle_deg": 114.46,
+            "metal_oxygen_distances_angstrom": [
+              2.304,
+              2.368
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 109.31,
+            "metal_oxygen_distances_angstrom": [
+              2.437,
+              2.378
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy3",
+          "Dy4"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.876,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 111.94,
+            "metal_oxygen_distances_angstrom": [
+              2.318,
+              2.358
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 108.81,
+            "metal_oxygen_distances_angstrom": [
+              2.369,
+              2.397
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3",
+        "Dy4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "NUVJEW crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C72 H56 Dy4 N12 O16. From the CIF bond table, Dy3 (Dy) has 6 O neighbors; Dy4 (Dy) has 6 O neighbors; Dy2 (Dy) has 6 O neighbors; Dy1 (Dy) has 6 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.823-3.946 Å (not direct metal-metal bonds). Computed M-O-M angles span 107.18-114.46°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C72H56Dy4N12O16.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.jssc.2020.121475",
+    "formula": "C72H56Dy4N12O16",
+    "compound_name": "[Dy4(L1)4(CH3OH)4]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

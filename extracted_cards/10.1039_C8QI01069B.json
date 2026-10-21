@@ -1,0 +1,158 @@
+{
+  "title": "A triangular Dy3 single-molecule toroic with high inversion energy barrier: magnetic properties and multiple-step assembly mechanism",
+  "doi": "10.1039/c8qi01069b",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "triangular Dy3 cluster [Dy3(L)5(NO3)4] (L = (1-methyl-1H-benzo[d]imidazol-2-yl)methanolate)",
+      "formula": "[Dy3(L)5(NO3)4]·MeOH (C45H45Dy3N14O17·CH4O)",
+      "ccdc_numbers": [
+        "1859220"
+      ],
+      "ccdc_refcodes": [
+        "YILNEP"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "triangular Dy3 single-molecule toroic / SMT with μ3-O capped Dy3 triangle"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "HL (1 mmol, 0.1600 g) and Dy(NO3)3·6H2O (0.5 mmol, 0.2285 g) were placed in a 10 mL PTFE reactor with 5 mL methanol and 5 mL acetonitrile and stirred. Three drops of triethylamine (NEt3) were added within 2 min. The reactor was heated at 100 °C for 48 h, then cooled, yielding colorless/anhydrous transparent crystals of 1.",
+        "reagents": [
+          {
+            "name": "HL ((1-methyl-1H-benzo[d]imidazol-2-yl)methanol)",
+            "formula": "C9H10N2O",
+            "role": "ligand",
+            "amount": "1 mmol (0.1600 g)"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.5 mmol (0.2285 g)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "three drops, added within 2 min"
+          }
+        ],
+        "solvents": [
+          "methanol (5 mL)",
+          "acetonitrile (5 mL)"
+        ],
+        "temperature": "100 °C (solvothermal; introduction also mentions 80 °C solvent temperature)",
+        "time": "48 h",
+        "ph": null,
+        "vessel_or_method": "10 mL polytetrafluoroethylene reactor; solvothermal",
+        "workup_and_crystallization": "reaction terminated after 48 h, yielding anhydrous/colorless transparent crystals",
+        "yield": "89% (based on HL)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Triangular Dy3 SMT/SMM with toroidal magnetic moment. χmT(300 K)=40.53 cm3 K mol−1 (vs 42.51 expected for 3 Dy(III)); decreases to 1.07 cm3 K mol−1 at 2 K. M(2 K, 7 T)=15.61 Nβ with low-field inflection ~6 kOe and hysteresis step at H=0.6 T. Zero-field ac χ″ frequency dependence below ~36 K; Cole–Cole Debye fits give Ueff=130 K and τ0=2.8×10−7 s (highest reported among triangular Dy3 SMTs). CASSCF/SINGLE_ANISO supports suppressed ground-state QTM.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 40.53,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe, polycrystalline"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 1.07,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 15.61,
+            "unit": "Nβ",
+            "conditions": "2 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "M(H) inflection / hysteresis crossing field",
+            "value": "inflection ~6 kOe; hysteresis steep rise at H=0.6 T",
+            "unit": null,
+            "conditions": "low-field M(H); hysteresis loops at various temperatures (Fig. 2f)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac out-of-phase χ″ onset (SMM)",
+            "value": "frequency-dependent χ″ below ~36 K",
+            "unit": null,
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff",
+            "value": 130,
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit of Cole–Cole relaxation times"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "2.8e-7",
+            "unit": "s",
+            "conditions": "zero dc field Arrhenius law"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.11–0.41",
+            "unit": null,
+            "conditions": "Debye model fits (Table S6)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Introduction; Experimental synthesis of 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Introduction and elemental analysis for [Dy3(L)5(NO3)4]"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental crystallography; CCDC 1859220"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row YILNEP / 1859220"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "The synthesis method of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 2"
+        }
+      ]
+    }
+  ]
+}

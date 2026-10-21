@@ -1,0 +1,170 @@
+{
+  "title": "Single-molecule magnet behavior in an octanuclear dysprosium(III) aggregate inherited from helical triangular Dy3 SMM-building blocks",
+  "doi": "10.1039/c6dt01718e",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy8L6(μ3-OH)4(μ2-CH3O)2(CH3OH)6(H2O)2]·6H2O·10CH3OH·2CH3CN",
+      "formula": "C118H150Dy8N26O48",
+      "ccdc_numbers": [
+        "1449906"
+      ],
+      "ccdc_refcodes": [
+        "ENENOC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear Dy8 cluster of two helical Dy3 triangles linked by a [Dy(μ2-CH3O)2Dy]4+ unit"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "DyCl3·6H2O (0.1 mmol, 0.038 g) was added to a suspension of H3L (0.1 mmol, 0.031 g) in MeOH/MeCN (10 mL/5 mL), followed by Et3N (0.4 mmol, 0.056 mL). The resulting red solution was stirred for 4 h and filtered. The filtrate was exposed to air for slow evaporation. Dark red needles of 1 suitable for X-ray diffraction were collected after one week.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol, 0.038 g"
+          },
+          {
+            "name": "(3-hydroxy)-N'-((8-hydroxyquinolin-2-yl)methylene)picolinohydrazide",
+            "formula": "H3L",
+            "role": "ligand",
+            "amount": "0.1 mmol, 0.031 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.4 mmol, 0.056 mL"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN"
+        ],
+        "temperature": null,
+        "time": "stirred 4 h; crystals after one week",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by filtration and slow evaporation in air",
+        "workup_and_crystallization": "filtered; filtrate exposed to air for slow solvent evaporation; dark red needles collected after one week",
+        "yield": "5 mg (10%, based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Octanuclear Dy8 cluster 1 is a zero-dc-field SMM inherited from helical Dy3 building blocks. Room-temperature χMT is 116.1 cm3 K mol−1 (expected 113.4 for eight DyIII). χMT decreases to 61.09 cm3 K mol−1 at 2 K, consistent with thermal depopulation/anisotropy and possible weak antiferromagnetic exchange. Frequency-dependent ac susceptibilities appear below 12 K under zero dc field. High-T Arrhenius fit (7–10 K) gives Ueff = 18 K and τ0 = 9.74×10−6 s; a combined Orbach/direct/QTM fit over the full range gives Ueff = 28 K, τ0 = 4.95×10−6 s, A = 225.7 s−1 K−1 and τQTM = 0.4 ms. Cole–Cole α = 0.2–0.4.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 116.1,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature; dc field 1000 Oe; 2–300 K range"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 61.09,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K; dc field 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (Arrhenius, high-T)",
+            "value": 18,
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit of τ from χ″(ν) at 7–10 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (Arrhenius, high-T)",
+            "value": "9.74e-6",
+            "unit": "s",
+            "conditions": "zero dc field; 7–10 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (Orbach+direct+QTM)",
+            "value": 28,
+            "unit": "K",
+            "conditions": "zero dc field; full-range fit of eqn (1)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (Orbach+direct+QTM)",
+            "value": "4.95e-6",
+            "unit": "s",
+            "conditions": "zero dc field; full-range fit of eqn (1)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "A (direct process)",
+            "value": 225.7,
+            "unit": "s−1 K−1",
+            "conditions": "zero dc field; eqn (1)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τQTM",
+            "value": 0.4,
+            "unit": "ms",
+            "conditions": "zero dc field; eqn (1)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.2–0.4",
+            "unit": null,
+            "conditions": "1.9–5.0 K; zero dc field; generalized Debye model"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; Experimental, Synthesis of complex 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Crystal data for complex 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Crystallographic data collection and refinement, CCDC 1449906"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ENENOC for DOI 10.1039/C6DT01718E"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and discussion, Structure; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of complex 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 4–6; Table 1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "title": "A trinuclear terbium complex with two coordinated water molecules as a fluorescent chemosensor for trace caffeic acid detection in serum",
+  "doi": "10.1016/j.molstruc.2026.145491",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "TbL",
+      "compound_name": "[Tb3(HL)2(H2O)2](NO3)3·H2O·CH3OH (H4L = N,N′,N″,N‴-tetra(2-hydroxy-3-methoxy-5-methylbenzyl)-1,4,7,10-tetraazacyclododecane)",
+      "formula": "C95H142N11O32Tb3",
+      "ccdc_numbers": [
+        "2485470"
+      ],
+      "ccdc_refcodes": [
+        "UWOXAJ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "trinuclear Tb3 cluster with two cyclen-derived HL3− ligands and two coordinated water molecules"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Tb(NO3)3·6H2O (0.2718 g, 0.6 mmol) was added to a methanol solution of H4L (0.3092 g, 0.4 mmol). The mixture was sonicated until complete dissolution, then aqueous NaOH (0.048 g, 1.2 mmol) was added dropwise until fully dissolved. The solution was kept in a drying oven at 338 K for 6 h, cooled to room temperature, and left for solvent evaporation for two days, giving 241 mg of transparent single crystals formulated as [Tb3(HL)2(H2O)2](NO3)3·H2O·CH3OH. Crystals were washed with acetonitrile before characterization. Ligand H4L was prepared by a published procedure.",
+        "reagents": [
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2718 g, 0.6 mmol"
+          },
+          {
+            "name": "N,N′,N″,N‴-tetra(2-hydroxy-3-methoxy-5-methylbenzyl)-1,4,7,10-tetraazacyclododecane",
+            "formula": "H4L",
+            "role": "chelating ligand",
+            "amount": "0.3092 g, 0.4 mmol"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "base",
+            "amount": "0.048 g, 1.2 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "water",
+          "acetonitrile"
+        ],
+        "temperature": "sonication/mixing at room temperature; 338 K for 6 h, then cooled to room temperature",
+        "time": "6 h at 338 K, then solvent evaporation for two days",
+        "ph": null,
+        "vessel_or_method": "sonication followed by drying-oven heating and solvent evaporation",
+        "workup_and_crystallization": "cooled to room temperature and left for solvent evaporation for two days to afford transparent single crystals; crystals washed with acetonitrile",
+        "yield": "241 mg, 58%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "TbL shows intense green Tb(III) luminescence via ligand antenna effect and acts as a selective fluorescent chemosensor for caffeic acid. Emission is quenched upon CA binding (1:1, K = 1.38×10^7 M−1), which displaces the two coordinated waters; LOD is 0.12 μM and the probe was applied to CA in human serum.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV absorption maximum",
+            "value": 294,
+            "unit": "nm",
+            "conditions": "TbL; Fig. S2"
+          },
+          {
+            "property_type": "optical",
+            "name": "excitation maxima",
+            "value": "207 and 307",
+            "unit": "nm",
+            "conditions": "TbL in PBS/DMF (50 vol% DMF), pH 6.8, 298 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maxima (5D4→7FJ)",
+            "value": "495, 545, 587, 623",
+            "unit": "nm",
+            "conditions": "λex = 307 nm; strongest band at 545 nm (5D4→7F5)"
+          },
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield",
+            "value": 40.5,
+            "unit": "%",
+            "conditions": "solid state, 298 K, FLS920 (Fig. S4)"
+          },
+          {
+            "property_type": "optical",
+            "name": "fluorescence lifetime τ(H2O)",
+            "value": 0.916,
+            "unit": "ms",
+            "conditions": "TbL without CA, 298 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "fluorescence lifetime τ(D2O)",
+            "value": 1.293,
+            "unit": "ms",
+            "conditions": "TbL without CA, 298 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "fluorescence lifetime τ(H2O) with CA",
+            "value": 0.699,
+            "unit": "ms",
+            "conditions": "TbL + CA, 298 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "fluorescence lifetime τ(D2O) with CA",
+            "value": 0.704,
+            "unit": "ms",
+            "conditions": "TbL + CA, 298 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "hydration number q (Horrocks)",
+            "value": "1.345 without CA; −0.303 with CA; Δq = 1.6",
+            "unit": null,
+            "conditions": "from H2O/D2O lifetimes (Table 3, Eq. S7)"
+          },
+          {
+            "property_type": "optical",
+            "name": "limit of detection for caffeic acid",
+            "value": 0.12,
+            "unit": "μM",
+            "conditions": "TbL 5 μM; CA 5–500 μM; I545 vs log CCA; 3σ/K; λex = 307 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "binding constant K (TbL–CA)",
+            "value": "1.38e7",
+            "unit": "M−1",
+            "conditions": "Job’s method, total [CA]+[TbL] = 34 μM, 1:1 binding"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "article title"
+        },
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "abstract; section 1; section 2.3"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.3 elemental analysis C95H142N11O32Tb3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Fig. 1 caption CCDC 2485470"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row UWOXAJ"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "section 3.1 crystallographic analysis"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.3 Synthesis of TbL"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "sections 2.4, 3.2–3.5; Tables 1–3; Figs. 2–4"
+        }
+      ]
+    }
+  ]
+}

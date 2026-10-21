@@ -1,0 +1,422 @@
+{
+  "title": "Crystal Structures, Magnetic Relaxation, Magnetic Refrigeration, Hirshfeld Surface Analysis, and Theoretical Calculations for Three High-Nuclear CoII6LnIII4 Complexes (Ln = Gd, Dy, and Er)",
+  "doi": "10.1021/acs.cgd.5c01396",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1_Gd",
+      "compound_name": "[Co6Gd4(HL)4(pdmH)2(pdm)8Cl2]·3CH3CN·9H2O",
+      "formula": "[Co6Gd4(HL)4(pdmH)2(pdm)8Cl2]·3CH3CN·9H2O (C118H154Cl2Co6Gd4N14O45; Mr = 3542.06; CCDC formula C118H136Cl2Co6Gd4N14O36·3(C2H3N)·9(H2O))",
+      "ccdc_numbers": [
+        "2417775"
+      ],
+      "ccdc_refcodes": [
+        "UQEDED"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Co6Ln4 core of two Co3Ln2O8 subunits (three defective cubanes per subunit) linked by alkoxido O atoms from pdm2−"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under aerobic conditions at room temperature, Gd(NO3)3·6H2O (0.0456 g, 0.1 mmol), CoCl2·6H2O (0.0475 g, 0.2 mmol), H2L ligand (1 mL, 0.2 mmol), pdmH2 (0.0276 g, 0.2 mmol), and triethylamine (0.0810 g, 0.8 mmol) were dissolved in CH3CN (15 mL) and stirred at room temperature for 30 min. The brown, clear solution was filtered, and the filtrate was sealed and naturally evaporated at room temperature. Gray-violet crystals suitable for single-crystal X-ray diffraction were obtained after 3 days, washed with CH3CN, and dried in air.",
+        "reagents": [
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.0456 g, 0.1 mmol"
+          },
+          {
+            "name": "cobalt(II) chloride hexahydrate",
+            "formula": "CoCl2·6H2O",
+            "role": "Co source",
+            "amount": "0.0475 g, 0.2 mmol"
+          },
+          {
+            "name": "2-[[2-(2-hydroxy-ethoxy)-ethylimino]-methyl]-6-methoxyphenol",
+            "formula": "H2L",
+            "role": "Schiff-base ligand",
+            "amount": "1 mL, 0.2 mmol"
+          },
+          {
+            "name": "2,6-pyridinedimethanol",
+            "formula": "pdmH2",
+            "role": "auxiliary ligand",
+            "amount": "0.0276 g, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.0810 g, 0.8 mmol"
+          }
+        ],
+        "solvents": [
+          "CH3CN"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 30 min; crystals after 3 days",
+        "ph": null,
+        "vessel_or_method": "aerobic solution reaction; filtration and slow evaporation",
+        "workup_and_crystallization": "filter brown clear solution; sealed filtrate evaporated at room temperature; gray-violet crystals washed with CH3CN and dried in air",
+        "yield": "0.0329 g, about 38.9% based on Gd salt"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc χMT at 1000 Oe shows 45.85 cm3 K mol−1 at 300 K, a minimum of 45.36 cm3 K mol−1 at 30 K, and 49.64 cm3 K mol−1 at 2.0 K; Curie–Weiss fit gives C = 45.81 cm3 K mol−1 and θ = 0.023 K. Magnetization reaches 37.58 μB at 7.0 T and 2.0 K. Zero-field ac data show temperature-dependent χ″ below 7.5 K but no χ″ peaks, so Ueff could not be extracted; applied dc fields 0–3000 Oe at 2.0 K did not suppress QTM. Magnetocaloric −ΔSm = 26.68 J kg−1 K−1 at ΔH = 7 T and 3.0 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 45.85,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 45.36,
+            "unit": "cm3 K mol−1",
+            "conditions": "30 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 49.64,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 45.81,
+            "unit": "cm3 K mol−1",
+            "conditions": "Curie–Weiss fit of 1/χM vs T, 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss temperature θ",
+            "value": 0.023,
+            "unit": "K",
+            "conditions": "Curie–Weiss fit, 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 37.58,
+            "unit": "μB",
+            "conditions": "7.0 T, 2.0 K; M(H) 0–7 T at 2–10 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change −ΔSm",
+            "value": 26.68,
+            "unit": "J kg−1 K−1",
+            "conditions": "ΔH = 7 T, T = 3.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac out-of-phase χ″",
+            "value": "temperature-dependent below 7.5 K; no peaks; Ueff not obtained",
+            "unit": null,
+            "conditions": "zero dc field, 5.0 Oe ac field, 1–999 Hz, 2–20 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 2.1.1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.1.1 elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "deposition numbers 2417774–2417775 and 2465448"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row UQEDED / 2417775"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "abstract; crystal structure discussion"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.1.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.4; Figures 4 and 8; Table 3"
+        }
+      ]
+    },
+    {
+      "compound_label": "2_Dy",
+      "compound_name": "[Co6Dy4(HL)4(pdmH)2(pdm)8Cl2]·8H2O",
+      "formula": "[Co6Dy4(HL)4(pdmH)2(pdm)8Cl2]·8H2O (C118H152Cl2Co6Dy4N14O44; Mr = 3545.02; CCDC formula C118H136Cl2Co6Dy4N14O36·8(H2O))",
+      "ccdc_numbers": [
+        "2417774"
+      ],
+      "ccdc_refcodes": [
+        "UQEDIH"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "isostructural Co6Ln4 cluster with two Co3Ln2O8 subunits of defective cubanes"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same method as 1_Gd except that Gd(NO3)3·6H2O was replaced with Dy(NO3)3·6H2O (0.0459 g, 0.1 mmol). After 3 days, gray-violet crystals suitable for single-crystal X-ray diffraction were obtained, washed with CH3CN, and dried in air.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.0459 g, 0.1 mmol"
+          },
+          {
+            "name": "cobalt(II) chloride hexahydrate",
+            "formula": "CoCl2·6H2O",
+            "role": "Co source",
+            "amount": "0.0475 g, 0.2 mmol (same as 1_Gd)"
+          },
+          {
+            "name": "2-[[2-(2-hydroxy-ethoxy)-ethylimino]-methyl]-6-methoxyphenol",
+            "formula": "H2L",
+            "role": "Schiff-base ligand",
+            "amount": "1 mL, 0.2 mmol (same as 1_Gd)"
+          },
+          {
+            "name": "2,6-pyridinedimethanol",
+            "formula": "pdmH2",
+            "role": "auxiliary ligand",
+            "amount": "0.0276 g, 0.2 mmol (same as 1_Gd)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.0810 g, 0.8 mmol (same as 1_Gd)"
+          }
+        ],
+        "solvents": [
+          "CH3CN"
+        ],
+        "temperature": "room temperature",
+        "time": "crystals after 3 days (same procedure as 1_Gd, including 30 min stirring)",
+        "ph": null,
+        "vessel_or_method": "same aerobic solution/evaporation method as 1_Gd",
+        "workup_and_crystallization": "gray-violet crystals washed with CH3CN and dried in air",
+        "yield": "0.0336 g, about 39.5% based on Dy salt"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 71.13 cm3 K mol−1 at 300 K under 1000 Oe. M(H) at 2–6 K rises faster at low field than 1_Gd, indicating larger anisotropy. Zero-field ac χ″ is temperature-dependent below 8.0 K (higher than 1_Gd) but peaks are absent so Ueff could not be obtained; dc fields 0–3000 Oe at 2.0 K had no obvious effect.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 71.13,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac out-of-phase χ″",
+            "value": "temperature-dependent below 8.0 K; no peaks; Ueff not obtained",
+            "unit": null,
+            "conditions": "zero dc field, 5.0 Oe ac field, 1–999 Hz, 2–20 K; Figure 5"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "section 2.1.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.1.2 elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "deposition numbers 2417774–2417775 and 2465448"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row UQEDIH / 2417774"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.1.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.4; Figures 4 and 5"
+        }
+      ]
+    },
+    {
+      "compound_label": "3_Er",
+      "compound_name": "[Co6Er4(HL)4(pdmH)2(pdm)8Cl2]·CH3CN·6H2O",
+      "formula": "[Co6Er4(HL)4(pdmH)2(pdm)8Cl2]·CH3CN·6H2O (C118H148Cl2Co6Er4N14O42; Mr = 3528.05; CCDC formula C118H136Cl2Co6Er4N14O36·C2H3N·6(H2O))",
+      "ccdc_numbers": [
+        "2465448"
+      ],
+      "ccdc_refcodes": [
+        "UQEDON"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "isostructural Co6Ln4 cluster with two Co3Ln2O8 subunits of defective cubanes"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same method as 1_Gd except that Gd(NO3)3·6H2O was replaced with Er(NO3)3·6H2O (0.0461 g, 0.1 mmol). After 3 days, gray-violet crystals suitable for single-crystal X-ray diffraction were obtained, washed with CH3CN, and dried in air.",
+        "reagents": [
+          {
+            "name": "erbium(III) nitrate hexahydrate",
+            "formula": "Er(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.0461 g, 0.1 mmol"
+          },
+          {
+            "name": "cobalt(II) chloride hexahydrate",
+            "formula": "CoCl2·6H2O",
+            "role": "Co source",
+            "amount": "0.0475 g, 0.2 mmol (same as 1_Gd)"
+          },
+          {
+            "name": "2-[[2-(2-hydroxy-ethoxy)-ethylimino]-methyl]-6-methoxyphenol",
+            "formula": "H2L",
+            "role": "Schiff-base ligand",
+            "amount": "1 mL, 0.2 mmol (same as 1_Gd)"
+          },
+          {
+            "name": "2,6-pyridinedimethanol",
+            "formula": "pdmH2",
+            "role": "auxiliary ligand",
+            "amount": "0.0276 g, 0.2 mmol (same as 1_Gd)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.0810 g, 0.8 mmol (same as 1_Gd)"
+          }
+        ],
+        "solvents": [
+          "CH3CN"
+        ],
+        "temperature": "room temperature",
+        "time": "crystals after 3 days (same procedure as 1_Gd, including 30 min stirring)",
+        "ph": null,
+        "vessel_or_method": "same aerobic solution/evaporation method as 1_Gd",
+        "workup_and_crystallization": "gray-violet crystals washed with CH3CN and dried in air",
+        "yield": "0.0353 g, about 39.56% based on Er salt"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 60.34 cm3 K mol−1 at 300 K under 1000 Oe. Low-field magnetization rises faster than 1_Gd. No out-of-phase ac χ″ signals between 2.0 and 20 K, so 3_Er does not show slow magnetic relaxation under the reported conditions.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 60.34,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac out-of-phase χ″",
+            "value": "no χ″ signals; no slow magnetic relaxation",
+            "unit": null,
+            "conditions": "zero dc field, 5.0 Oe ac field, 1–999 Hz, 2.0–20 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "section 2.1.3"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.1.3 elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "deposition number 2465448"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row UQEDON / 2465448"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.1.3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.4; Figure 4; Figure S19"
+        }
+      ]
+    }
+  ]
+}

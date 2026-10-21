@@ -1,0 +1,227 @@
+{
+  "refcode": "LIHCEL",
+  "ccdc_number": "653687",
+  "dois": [
+    "10.1021/ja0726198"
+  ],
+  "source_data_block": "SQUEEZE",
+  "source_cif": "CIFs\\653687.cif",
+  "formula_moiety": "C132 H204 La20 N36 Ni30 O216, 72 H2 O",
+  "crystal_system": "trigonal",
+  "space_group_hm": "R -3",
+  "international_tables_number": null,
+  "unit_cell": {
+    "a": "29.927(3)",
+    "b": "29.927(3)",
+    "c": "39.912(8)",
+    "alpha": "90.00",
+    "beta": "90.00",
+    "gamma": "120.00",
+    "volume": "30958(8)",
+    "Z": "3"
+  },
+  "metal_sites": [
+    {
+      "label": "La1",
+      "element": "La",
+      "occupancy": 1.0,
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O21",
+        "O22"
+      ]
+    },
+    {
+      "label": "La2",
+      "element": "La",
+      "occupancy": 1.0,
+      "oxygen_coordination_number": 15,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O21",
+        "O22",
+        "O23",
+        "O27",
+        "O28",
+        "O29",
+        "O3",
+        "O31",
+        "O5"
+      ]
+    },
+    {
+      "label": "La3",
+      "element": "La",
+      "occupancy": 1.0,
+      "oxygen_coordination_number": 11,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O23",
+        "O25",
+        "O26",
+        "O30",
+        "O31",
+        "O32",
+        "O33",
+        "O7"
+      ]
+    },
+    {
+      "label": "La4",
+      "element": "La",
+      "occupancy": 1.0,
+      "oxygen_coordination_number": 11,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O19",
+        "O25",
+        "O26",
+        "O27",
+        "O29",
+        "O32",
+        "O33",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ni1",
+      "element": "Ni",
+      "occupancy": 1.0,
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O18",
+        "O2",
+        "O21",
+        "O3"
+      ]
+    },
+    {
+      "label": "Ni2",
+      "element": "Ni",
+      "occupancy": 1.0,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O23",
+        "O24",
+        "O4",
+        "O5",
+        "O7"
+      ]
+    },
+    {
+      "label": "Ni3",
+      "element": "Ni",
+      "occupancy": 1.0,
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O15",
+        "O26",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ni4",
+      "element": "Ni",
+      "occupancy": 1.0,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O13",
+        "O16",
+        "O20",
+        "O25"
+      ]
+    },
+    {
+      "label": "Ni10",
+      "element": "Ni",
+      "occupancy": 1.0,
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O17",
+        "O19",
+        "O27",
+        "O6"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "La1"
+      ],
+      [
+        "La2"
+      ],
+      [
+        "La3"
+      ],
+      [
+        "La4"
+      ],
+      [
+        "Ni1"
+      ],
+      [
+        "Ni10"
+      ],
+      [
+        "Ni2"
+      ],
+      [
+        "Ni3"
+      ],
+      [
+        "Ni4"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "undetermined (missing bonds, symmetry links, or consistent periodic-image geometry)",
+    "omitted_nonidentity_symmetry_bonds": 77,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LIHCEL crystallizes in the trigonal crystal system with space group R -3. Reported CIF formula moiety: C132 H204 La20 N36 Ni30 O216, 72 H2 O. From the CIF bond table, La1 (La) has 9 O neighbors; La2 (La) has 15 O neighbors; La3 (La) has 11 O neighbors; La4 (La) has 11 O neighbors; Ni1 (Ni) has 7 O neighbors; Ni2 (Ni) has 5 O neighbors; Ni3 (Ni) has 7 O neighbors; Ni4 (Ni) has 5 O neighbors; Ni10 (Ni) has 7 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula [La20Ni30(IDA)30(CO3)6(NO3)6(OH)30(H2O)12](CO3)6·72H2O. Explicit grouped units in the article formula/name: 6 NO3 (explicit grouped unit in article formula), 30 OH (explicit grouped unit in article formula), 12 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ja0726198",
+    "formula": "[La20Ni30(IDA)30(CO3)6(NO3)6(OH)30(H2O)12](CO3)6·72H2O",
+    "compound_name": "La20Ni30 iminodiacetate Keplerate cluster",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "insufficient_graph",
+    "nuclearity": 50,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count",
+    "reason": "missing links or omitted symmetry bonds"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 6,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "OH",
+        "count": 30,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 12,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "refcode": "MAVSIO",
+  "ccdc_number": "1523028",
+  "dois": [
+    "10.1039/c7dt00635g"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1523028.cif",
+  "formula_moiety": "C65 H87 N18 O6 Pr3,2(C4 H8 O1)",
+  "crystal_system": "orthorhombic",
+  "space_group_hm": "P 21 21 21",
+  "international_tables_number": "19",
+  "unit_cell": {
+    "a": "16.1890(3)",
+    "b": "20.1148(4)",
+    "c": "23.3716(4)",
+    "alpha": "90.00",
+    "beta": "90.00",
+    "gamma": "90.00",
+    "volume": "7610.69",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Pr3",
+      "element": "Pr",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "label": "Pr2",
+      "element": "Pr",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Pr1",
+      "element": "Pr",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Pr1",
+          "Pr2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O3",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.918,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 108.46,
+            "metal_oxygen_distances_angstrom": [
+              2.423,
+              2.405
+            ]
+          },
+          {
+            "oxygen": "O1",
+            "angle_deg": 108.93,
+            "metal_oxygen_distances_angstrom": [
+              2.429,
+              2.386
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 86.63,
+            "metal_oxygen_distances_angstrom": [
+              2.826,
+              2.884
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Pr2",
+          "Pr3"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.971,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 109.46,
+            "metal_oxygen_distances_angstrom": [
+              2.403,
+              2.46
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 111.2,
+            "metal_oxygen_distances_angstrom": [
+              2.377,
+              2.435
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Pr1",
+        "Pr2",
+        "Pr3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "MAVSIO crystallizes in the orthorhombic crystal system with space group P 21 21 21. Reported CIF formula moiety: C65 H87 N18 O6 Pr3,2(C4 H8 O1). From the CIF bond table, Pr3 (Pr) has 3 O neighbors; Pr2 (Pr) has 5 O neighbors; Pr1 (Pr) has 3 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.918-3.971 Å (not direct metal-metal bonds). Computed M-O-M angles span 86.63-111.20°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C65H87N18O6Pr3,2(C4H8O).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c7dt00635g",
+    "formula": "C65H87N18O6Pr3,2(C4H8O)",
+    "compound_name": "[Pr3(Me2pz)5(pchd)2(thf)2]·2THF",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

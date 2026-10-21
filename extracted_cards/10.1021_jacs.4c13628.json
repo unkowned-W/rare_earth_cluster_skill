@@ -1,0 +1,246 @@
+{
+  "title": "Quantum Spin Wave Excited from a Cr–Dy Single-Molecule Magnet",
+  "doi": "10.1021/jacs.4c13628",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "{Dy4Cr2}",
+      "compound_name": "Dy4Cr2(μ3-F)2(mdea)3(piv)10",
+      "formula": "C65H123Cr2Dy4F2N3O26",
+      "ccdc_numbers": [
+        "2018761"
+      ],
+      "ccdc_refcodes": [
+        "BUJZOZ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "fluoride-bridged 4+2 Dy4Cr2 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "A mixture of Dy2(piv)6(Hpiv)6 (1.4 g, 0.9 mmol), chromium acetylacetonate (349 mg, 1 mmol), N-methyldiethanolamine (357 mg, 3 mmol) and NH4F (74 mg, 2 mmol) was stirred in 7 mL acetonitrile and 1 mL DMF in air for 15 min. The slurry was transferred into a 15 mL Teflon-lined autoclave and heated at 150 °C for 72 h, then cooled to room temperature. Red-violet block-like crystals were collected, washed with acetonitrile, and dried in air. The precursor [Dy2(O2CtBu)6(HO2CtBu)6] was prepared as described previously.",
+        "reagents": [
+          {
+            "name": "Dy2(piv)6(Hpiv)6",
+            "formula": "[Dy2(O2CtBu)6(HO2CtBu)6]",
+            "role": "dysprosium precursor",
+            "amount": "1.4 g, 0.9 mmol"
+          },
+          {
+            "name": "chromium acetylacetonate",
+            "formula": null,
+            "role": "chromium source",
+            "amount": "349 mg, 1 mmol"
+          },
+          {
+            "name": "N-methyldiethanolamine",
+            "formula": "H2mdea",
+            "role": "ligand",
+            "amount": "357 mg, 3 mmol"
+          },
+          {
+            "name": "ammonium fluoride",
+            "formula": "NH4F",
+            "role": "fluoride source",
+            "amount": "74 mg, 2 mmol"
+          },
+          {
+            "name": "acetonitrile",
+            "formula": "CH3CN",
+            "role": "solvent",
+            "amount": "7 mL"
+          },
+          {
+            "name": "N,N-dimethylformamide",
+            "formula": "DMF",
+            "role": "solvent",
+            "amount": "1 mL"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "DMF"
+        ],
+        "temperature": "stirred at ambient temperature, then heated at 150 °C and cooled to room temperature",
+        "time": "15 min stirring, then 72 h heating",
+        "ph": null,
+        "vessel_or_method": "15 mL Teflon-lined autoclave, solvothermal, in air",
+        "workup_and_crystallization": "Cooled to room temperature; red-violet block-like crystals collected, washed with acetonitrile, and dried in air.",
+        "yield": "~50% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Ferrimagnetic {Dy4Cr2} single-molecule magnet with slow relaxation, Ueff = 17.1(3) K (12 cm−1), τ0 = 4.75(2)×10−7 s, and a step-like hysteresis loop (Hc = 0.1 T at 0.4 K, 14 Oe s−1). Inelastic neutron scattering shows quantized spin-wave excitations at 3.63, 5.61, 8.28 and 11.76 cm−1 (108, 176, 246 and 352 GHz), fitted by L&E-band theory with Δ/2 = 2.08 cm−1 and ε(q) = 2.5 cm−1. The quantum tunneling gap is restricted below 3.8×10−7 cm−1 through nine levels.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "60.22",
+            "unit": "cm^3 K mol−1",
+            "conditions": "300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": "41.82",
+            "unit": "cm^3 K mol−1",
+            "conditions": "about 9.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT maximum after minimum",
+            "value": "45.09",
+            "unit": "cm^3 K mol−1",
+            "conditions": "below the 9.8 K minimum"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant",
+            "value": "62.3",
+            "unit": "cm^3 mol−1 K",
+            "conditions": "Curie–Weiss fit, 100–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie–Weiss temperature",
+            "value": "-10.14",
+            "unit": "K",
+            "conditions": "Curie–Weiss fit, 100–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "21.8",
+            "unit": "μB",
+            "conditions": "2 K, 7 T, not saturated"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.02–0.12",
+            "unit": null,
+            "conditions": "zero dc field, generalized Debye fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "17.1(3)",
+            "unit": "K",
+            "conditions": "zero dc field, Orbach/Arrhenius fit; equivalent to 12 cm−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "4.75(2)×10−7",
+            "unit": "s",
+            "conditions": "zero dc field, Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "coercive field",
+            "value": "0.1",
+            "unit": "T",
+            "conditions": "0.4 K, sweep rate 14 Oe s−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "TB^hys",
+            "value": "~2",
+            "unit": "K",
+            "conditions": "opened hysteresis at 100 Oe/s; closed at 50 Oe/s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "TB^zfc",
+            "value": "<2",
+            "unit": "K",
+            "conditions": "no FC/ZFC bifurcation at 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "TB^100s",
+            "value": "0.89",
+            "unit": "K",
+            "conditions": "extrapolated from Arrhenius law"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "quantum tunneling gap",
+            "value": "<3.8×10−7",
+            "unit": "cm−1",
+            "conditions": "restricted through nine levels"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "INS peak energies",
+            "value": "3.63, 5.61, 8.28, 11.76",
+            "unit": "cm−1",
+            "conditions": "zero field; 108, 176, 246 and 352 GHz; INS2 at 5.61 cm−1 is a hot transition"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "L&E-band Δ/2",
+            "value": "2.08",
+            "unit": "cm−1",
+            "conditions": "fit to INS and rotational-band model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "spin-wave dispersion ε(q)",
+            "value": "2.5",
+            "unit": "cm−1",
+            "conditions": "L&E-band model"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract and Results, Crystal Structure"
+        },
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Synthesis elemental analysis Dy4Cr2F2C65H123O26N3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Accession Codes, deposition 2018761"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC refcode BUJZOZ"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal Structure, Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Synthesis of {Dy4Cr2}"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Property, Figures 2–4, and Inelastic Neutron Scattering"
+        }
+      ]
+    }
+  ]
+}

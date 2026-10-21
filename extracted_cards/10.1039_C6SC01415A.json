@@ -1,0 +1,221 @@
+{
+  "title": "Observation of the influence of dipolar and spin frustration effects on the magnetocaloric properties of a trigonal prismatic {Gd7} molecular nanomagnet",
+  "doi": "10.1039/c6sc01415a",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "(iPr2NH2)6[Gd7(μ3-OH)3(CO3)6(O2CtBu)12]",
+      "formula": "(iPr2NH2)6[Gd7(μ3-OH)3(CO3)6(O2CtBu)12]",
+      "ccdc_numbers": [
+        "1458052"
+      ],
+      "ccdc_refcodes": [
+        "ULESOV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "trigonal-prismatic {Gd7} cage of three vertex-sharing {Gd3(μ3-OH)} triangles"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Compound 1 was synthesized by refluxing [Gd2(O2CtBu)6(HO2CtBu)6] (0.469 g, 3 mmol) and diisopropylamine (iPr2NH) (0.3 mL, 2.0 mmol) in acetonitrile (20 mL) for 3 h. The solution was filtered and left undisturbed at about 5 °C for about one week. Hexagonal colorless crystals suitable for X-ray diffraction were collected. Elemental analysis was obtained after drying at 80 °C for about 12 h, which removes lattice MeCN; the dried composition is given as Gd7N6O45C102H204. The main text only states that 1 is obtained from [Gd2(O2CtBu)6(HO2CtBu)6] and iPr2NH in MeCN and refers the procedure to the ESI.",
+        "reagents": [
+          {
+            "name": "[Gd2(O2CtBu)6(HO2CtBu)6]",
+            "formula": "[Gd2(O2CtBu)6(HO2CtBu)6]",
+            "role": "starting material",
+            "amount": "0.469 g, 3 mmol"
+          },
+          {
+            "name": "diisopropylamine",
+            "formula": "iPr2NH",
+            "role": "base",
+            "amount": "0.3 mL, 2.0 mmol"
+          },
+          {
+            "name": "acetonitrile",
+            "formula": "MeCN",
+            "role": "solvent",
+            "amount": "20 mL"
+          }
+        ],
+        "solvents": [
+          "acetonitrile"
+        ],
+        "temperature": "reflux, then standing at about 5 °C",
+        "time": "3 h reflux, then about one week",
+        "ph": null,
+        "vessel_or_method": "reflux followed by undisturbed standing",
+        "workup_and_crystallization": "The solution was filtered and left undisturbed at about 5 °C for about one week to give hexagonal colorless crystals. Several crystals gave identical unit cells. For elemental analysis the sample was dried at 80 °C for about 12 h, losing lattice MeCN.",
+        "yield": "192 mg (67%), based on [Gd2(O2CtBu)6(HO2CtBu)6]"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Compound 1 is a weakly coupled, geometrically frustrated homometallic Gd7 cluster studied as a cryogenic magnetocaloric refrigerant. χMT is near the free-ion value down to about 10 K and then falls; magnetization saturates near 49 μB. Indirect MCE analysis gives −ΔSm = 30.8 J kg−1 K−1 at 2.1 K for ΔB0 = 7 T (83% of the full spin entropy). Isotropic exchanges are very weak (J1 = J2 = −0.02 cm−1, J3 = 0) and comparable to intramolecular dipolar couplings, which rearrange states below about 2 K, smear frustration signatures in the isentropes, and limit the lowest temperatures reached. Direct adiabatic demagnetization cools below 100 mK, with an example from 0.6 K at 1.5 T to Tad = 0.13 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "55.2",
+            "unit": "emu K mol−1",
+            "conditions": "room temperature, B0 = 0.1 T; calculated 55.1 emu K mol−1 for seven non-interacting s = 7/2, g = 2.00"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "43.5",
+            "unit": "emu K mol−1",
+            "conditions": "2 K, B0 = 0.1 T; χMT constant to about 10 K then drops sharply"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "saturation magnetization",
+            "value": "48.7",
+            "unit": "μB",
+            "conditions": "7 T, 2 K; full polarization limit 49.0 μB for seven s = 7/2, g = 2.00"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization plateau",
+            "value": "35",
+            "unit": "μB",
+            "conditions": "about 0.3–0.6 T; metastable configuration assigned as outer Gd spins aligned against the central Gd (S = 35/2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "lattice specific-heat coefficient C/T^3",
+            "value": "0.05",
+            "unit": "J kg−1 K−1",
+            "conditions": "Debye lattice contribution at the lowest temperatures; C lattice-dominated above about 5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm",
+            "value": "30.8",
+            "unit": "J kg−1 K−1",
+            "conditions": "maximum at 2.1 K for ΔB0 = (7 − 0) T, from C(B0,T) and M(B0,T)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "full magnetic entropy Sm",
+            "value": "36.9",
+            "unit": "J kg−1 K−1",
+            "conditions": "nR ln(2s+1) with n = 7, s = 7/2; reached in zero field above about 3 K; 30.8 is 83% of this value"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J1",
+            "value": "-0.02",
+            "unit": "cm−1",
+            "conditions": "best fit of χMT(T) and M(B0) to Heisenberg model; J1 between central Gd and all others; g = 2.00"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J2",
+            "value": "-0.02",
+            "unit": "cm−1",
+            "conditions": "edges between triangular faces of the trigonal prism; g = 2.00"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J3",
+            "value": "0",
+            "unit": "cm−1",
+            "conditions": "edges of the triangular faces; g = 2.00"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "intramolecular dipolar tensor element magnitude",
+            "value": "0.014 to 0.033",
+            "unit": "cm−1",
+            "conditions": "shortest Gd···Gd contacts, edges between triangular faces"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective internal field Beff",
+            "value": "0.5",
+            "unit": "T",
+            "conditions": "fictitious field used to mimic dipolar broadening of C(T) at B0 = 0"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective internal field Beff",
+            "value": "0.2",
+            "unit": "T",
+            "conditions": "at applied B0 = 1 T; not required at larger applied fields"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "adiabatic temperature Tad",
+            "value": "0.13",
+            "unit": "K",
+            "conditions": "direct quasi-adiabatic demagnetization from B0 = 1.5 T and T0 = 0.6 K (ESI example T0 = 0.58 K); temperatures below 100 mK are also reported"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "nearest ground-state total spins",
+            "value": null,
+            "unit": null,
+            "conditions": "Heisenberg model with the fitted J values: lowest eigenstates S = 13/2, 11/2 and 15/2 lie within 0.005 cm−1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Results and discussion; crystal-data note"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Notes and references, crystal data for 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Crystallography, CCDC 1458052"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ULESOV / 1458052"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and discussion; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Details, Preparation of compound 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Results and discussion (reagents named; quantities only in ESI)"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and discussion; Figs. 2 and 3; Conclusions"
+        },
+        {
+          "field": "properties",
+          "source": "supporting_information",
+          "location": "Physical characterization; Figs. S1–S6"
+        }
+      ]
+    }
+  ]
+}

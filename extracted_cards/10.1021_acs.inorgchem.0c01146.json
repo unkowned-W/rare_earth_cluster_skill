@@ -1,0 +1,192 @@
+{
+  "title": "Construction of Chiral “Triple-Decker” Nd(III) Nanocluster with High NIR Luminescence Sensitivity toward Co(II)",
+  "doi": "10.1021/acs.inorgchem.0c01146",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Nd3L3(OAc)3] (L = deprotonated N,N′-bis(3-methoxysalicylidene)(4-methylphenylene)-1,2-diamine)",
+      "formula": "C75H69N6Nd3O18·CH4O·4H2O",
+      "ccdc_numbers": [
+        "1988628"
+      ],
+      "ccdc_refcodes": [
+        "SULYEG"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Nd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "chiral triple-decker Nd3 Schiff-base nanocluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "All reactions were performed under dry oxygen-free dinitrogen using standard Schlenk techniques. Ligand H2L was prepared by dissolving 2-hydroxy-3-methoxybenzaldehyde (20.0 mmol, 3.04 g) in 15 mL EtOH, adding dropwise over 30 min a 20 mL EtOH solution of 4-methylbenzene-1,2-diamine (10.0 mmol, 1.22 g), stirring under reflux for 4 h, filtering, washing the yellow solid with EtOH (3 × 5 mL), and drying at 100 °C for 2 h (yield 2.49 g, 82%). For 1, Nd(OAc)3·6H2O (0.20 mmol, 0.068 g) and H2L (0.20 mmol, 0.078 g) were dissolved in 15 mL MeOH at room temperature, then 1 mL of a 1.0 mol/L EtOH solution of triethylamine was added. The mixture was stirred under reflux for 30 min and filtered. Pale yellow crystals formed after one week by slow diffusion of diethyl ether into the filtrate. The main text only states that H2L and Nd(OAc)3·6H2O in refluxing MeOH, followed by diethyl ether diffusion, give 1, without reagent quantities.",
+        "reagents": [
+          {
+            "name": "neodymium(III) acetate hexahydrate",
+            "formula": "Nd(OAc)3·6H2O",
+            "role": "metal source",
+            "amount": "0.20 mmol, 0.068 g"
+          },
+          {
+            "name": "N,N′-bis(3-methoxysalicylidene)(4-methylphenylene)-1,2-diamine",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.20 mmol, 0.078 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1 mL of 1.0 mol/L EtOH solution"
+          },
+          {
+            "name": "2-hydroxy-3-methoxybenzaldehyde",
+            "formula": null,
+            "role": "ligand precursor",
+            "amount": "20.0 mmol, 3.04 g"
+          },
+          {
+            "name": "4-methylbenzene-1,2-diamine",
+            "formula": null,
+            "role": "ligand precursor",
+            "amount": "10.0 mmol, 1.22 g"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "EtOH",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature dissolution, then reflux; ligand dried at 100 °C",
+        "time": "30 min reflux for 1; crystals after one week",
+        "ph": null,
+        "vessel_or_method": "Schlenk conditions under dry oxygen-free dinitrogen; slow diethyl ether diffusion",
+        "workup_and_crystallization": "filtered; pale yellow crystals by slow diffusion of diethyl ether into the filtrate",
+        "yield": "0.0203 g (30%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "1 shows ligand-sensitized NIR Nd(III) luminescence (LMET efficiency 13.8%) and acts as a selective Co(II) luminescence sensor in CH3CN, with KSV 9.96×10^4 M^-1 and LOD 0.97 μM; other tested cations quench much more weakly or slightly enhance emission.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "NIR emission lifetime",
+            "value": "4.0",
+            "unit": "μs",
+            "conditions": "complex 1; Figure S7b, spectra recorded in CH3CN"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission quantum yield",
+            "value": "0.22",
+            "unit": "%",
+            "conditions": "Φem of 1; Figure S7b"
+          },
+          {
+            "property_type": "optical",
+            "name": "intrinsic quantum yield",
+            "value": "1.6",
+            "unit": "%",
+            "conditions": "ΦLn = τ/τ0 with τ0 = 250 μs (natural lifetime of Nd(III))"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-to-metal energy-transfer efficiency",
+            "value": "13.8",
+            "unit": "%",
+            "conditions": "ηsens = Φem/ΦLn"
+          },
+          {
+            "property_type": "optical",
+            "name": "excitation maximum",
+            "value": "about 300",
+            "unit": "nm",
+            "conditions": "excitation spectrum of 1; absorption of H2L also near 300 nm; sensing excitation λex = 296 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "monitored emission wavelength",
+            "value": "1066",
+            "unit": "nm",
+            "conditions": "Nd(III) NIR emission in CH3CN; intensity decreases by more than 50% at 25 μM Co(II)"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern-Volmer quenching constant",
+            "value": "9.96e4",
+            "unit": "M^-1",
+            "conditions": "KSV of 1 toward Co(II); other metal cations <0.4×10^4 M^-1"
+          },
+          {
+            "property_type": "optical",
+            "name": "limit of detection",
+            "value": "0.97",
+            "unit": "μM",
+            "conditions": "LOD = 3σ/KSV for Co(II); σ from 21 blank measurements"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime after Co(II)",
+            "value": "2.3",
+            "unit": "μs",
+            "conditions": "after addition of 25 μM Co(II); Figure S10"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission quantum yield after Co(II)",
+            "value": "0.09",
+            "unit": "%",
+            "conditions": "Φem after 25 μM Co(II)"
+          },
+          {
+            "property_type": "optical",
+            "name": "LMET efficiency after Co(II)",
+            "value": "9.8",
+            "unit": "%",
+            "conditions": "ηsens after addition of 25 μM Co(II)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract and introduction, complex 1"
+        },
+        {
+          "field": "formula",
+          "source": "external_metadata",
+          "location": "CCDC SULYEG / 1988628; SI crystallography also gives C76H72Nd3N6O23"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Accession Codes, CCDC 1988628"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Figure 1 discussion of triple-decker structure"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI section 3, Preparation of [Nd3L3(OAc)3] (1)"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photoluminescence discussion, Figures 2–4 and associated SI figures S7 and S10"
+        }
+      ]
+    }
+  ]
+}

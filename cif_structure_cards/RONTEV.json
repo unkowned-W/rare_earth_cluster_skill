@@ -1,0 +1,220 @@
+{
+  "refcode": "RONTEV",
+  "ccdc_number": "1021470",
+  "dois": [
+    "10.1039/c4dt02630f"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1021470.cif",
+  "formula_moiety": "C26 H56 Dy4 N6 O35 P4 4-,4(C5 H6 N1 1+)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "44.8591(11)",
+    "b": "19.1273(5)",
+    "c": "23.9486(5)",
+    "alpha": "90",
+    "beta": "91.090(2)",
+    "gamma": "90",
+    "volume": "20545",
+    "Z": "8"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1N",
+        "O1P",
+        "O2N",
+        "O4N",
+        "O4P",
+        "O5N",
+        "O7N",
+        "O7P",
+        "O8N"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O13N",
+        "O14N",
+        "O1OH",
+        "O2",
+        "O2P",
+        "O3",
+        "O3P",
+        "O5P"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10N",
+        "O11N",
+        "O11P",
+        "O1OH",
+        "O3P",
+        "O8P",
+        "O9P"
+      ]
+    },
+    {
+      "label": "Dy4",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10P",
+        "O16N",
+        "O17N",
+        "O1OH",
+        "O4",
+        "O5P",
+        "O6P",
+        "O8P"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O1OH",
+          "O3P"
+        ],
+        "metal_metal_separation_angstrom": 3.793,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1OH",
+            "angle_deg": 108.48,
+            "metal_oxygen_distances_angstrom": [
+              2.328,
+              2.347
+            ]
+          },
+          {
+            "oxygen": "O3P",
+            "angle_deg": 105.28,
+            "metal_oxygen_distances_angstrom": [
+              2.471,
+              2.3
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy4"
+        ],
+        "shared_oxygen_labels": [
+          "O1OH",
+          "O5P"
+        ],
+        "metal_metal_separation_angstrom": 3.788,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1OH",
+            "angle_deg": 107.45,
+            "metal_oxygen_distances_angstrom": [
+              2.328,
+              2.371
+            ]
+          },
+          {
+            "oxygen": "O5P",
+            "angle_deg": 103.82,
+            "metal_oxygen_distances_angstrom": [
+              2.3,
+              2.51
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy3",
+          "Dy4"
+        ],
+        "shared_oxygen_labels": [
+          "O1OH",
+          "O8P"
+        ],
+        "metal_metal_separation_angstrom": 3.841,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1OH",
+            "angle_deg": 109.02,
+            "metal_oxygen_distances_angstrom": [
+              2.347,
+              2.371
+            ]
+          },
+          {
+            "oxygen": "O8P",
+            "angle_deg": 107.19,
+            "metal_oxygen_distances_angstrom": [
+              2.49,
+              2.28
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1"
+      ],
+      [
+        "Dy2",
+        "Dy3",
+        "Dy4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "RONTEV crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C26 H56 Dy4 N6 O35 P4 4-,4(C5 H6 N1 1+). From the CIF bond table, Dy1 (Dy) has 9 O neighbors; Dy2 (Dy) has 8 O neighbors; Dy3 (Dy) has 8 O neighbors; Dy4 (Dy) has 8 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 2 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.788-3.841 Å (not direct metal-metal bonds). Computed M-O-M angles span 103.82-109.02°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [pyH]4[Dy4(μ3-OH)(O3P tBu)3(HO3P tBu)(O2C tBu)2(NO3)6]. Explicit grouped units in the article formula/name: 1 μ3-OH (explicit grouped unit in article formula), 6 NO3 (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c4dt02630f",
+    "formula": "[pyH]4[Dy4(μ3-OH)(O3P tBu)3(HO3P tBu)(O2C tBu)2(NO3)6]",
+    "compound_name": "tetrapyridinium [Dy4(μ3-OH)(O3P tBu)3(HO3P tBu)(O2C tBu)2(NO3)6]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-OH",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 6,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

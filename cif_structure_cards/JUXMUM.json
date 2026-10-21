@@ -1,0 +1,99 @@
+{
+  "refcode": "JUXMUM",
+  "ccdc_number": "966601",
+  "dois": [
+    "10.1007/s11172-014-0520-z"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\966601.cif",
+  "formula_moiety": "C26 H26 Ce2 F36 O10",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "9.5337(2)",
+    "b": "18.0454(3)",
+    "c": "13.5300(2)",
+    "alpha": "90.00",
+    "beta": "105.518(2)",
+    "gamma": "90.00",
+    "volume": "2242.84",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1S",
+        "O2",
+        "O2S",
+        "O3",
+        "O8"
+      ]
+    },
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O3",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ce1",
+          "Ce2"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 4.064,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 111.52,
+            "metal_oxygen_distances_angstrom": [
+              2.487,
+              2.429
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 111.52,
+            "metal_oxygen_distances_angstrom": [
+              2.429,
+              2.487
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1",
+        "Ce2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "JUXMUM crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C26 H26 Ce2 F36 O10. From the CIF bond table, Ce1 (Ce) has 6 O neighbors; Ce2 (Ce) has 6 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 1 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.064-4.064 Å (not direct metal-metal bonds). Computed M-O-M angles span 111.52-111.52°; individual values and O labels are in metal_framework.links.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review."
+}

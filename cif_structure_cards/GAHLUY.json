@@ -1,0 +1,240 @@
+{
+  "refcode": "GAHLUY",
+  "ccdc_number": "774594",
+  "dois": [
+    "10.1039/c0dt00349b"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\774594.cif",
+  "formula_moiety": "C36 H108 Ce3 N6 O3 Si12",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.4998(2)",
+    "b": "21.6470(6)",
+    "c": "26.9181(7)",
+    "alpha": "83.7670(10)",
+    "beta": "78.217(2)",
+    "gamma": "79.110(2)",
+    "volume": "6983.12",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3"
+      ]
+    },
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2"
+      ]
+    },
+    {
+      "label": "Ce3",
+      "element": "Ce",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "label": "Ce4",
+      "element": "Ce",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "label": "Ce5",
+      "element": "Ce",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Ce6",
+      "element": "Ce",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O5",
+        "O6"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ce1",
+          "Ce2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.998,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 145.16,
+            "metal_oxygen_distances_angstrom": [
+              2.094,
+              2.096
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce1",
+          "Ce3"
+        ],
+        "shared_oxygen_labels": [
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.966,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 143.34,
+            "metal_oxygen_distances_angstrom": [
+              2.107,
+              2.071
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2",
+          "Ce3"
+        ],
+        "shared_oxygen_labels": [
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.967,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 142.54,
+            "metal_oxygen_distances_angstrom": [
+              2.079,
+              2.11
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce4",
+          "Ce5"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.991,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 145.03,
+            "metal_oxygen_distances_angstrom": [
+              2.095,
+              2.089
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce4",
+          "Ce6"
+        ],
+        "shared_oxygen_labels": [
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.983,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 145.37,
+            "metal_oxygen_distances_angstrom": [
+              2.087,
+              2.086
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce5",
+          "Ce6"
+        ],
+        "shared_oxygen_labels": [
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.985,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 143.64,
+            "metal_oxygen_distances_angstrom": [
+              2.092,
+              2.102
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1",
+        "Ce2",
+        "Ce3"
+      ],
+      [
+        "Ce4",
+        "Ce5",
+        "Ce6"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "GAHLUY crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C36 H108 Ce3 N6 O3 Si12. From the CIF bond table, Ce1 (Ce) has 2 O neighbors; Ce2 (Ce) has 2 O neighbors; Ce3 (Ce) has 2 O neighbors; Ce4 (Ce) has 2 O neighbors; Ce5 (Ce) has 2 O neighbors; Ce6 (Ce) has 2 O neighbors. Oxygen-bridged metal-site graph: 6 pairs, 2 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.966-3.998 Å (not direct metal-metal bonds). Computed M-O-M angles span 142.54-145.37°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C36H108Ce3N6O3Si12.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c0dt00349b",
+    "formula": "C36H108Ce3N6O3Si12",
+    "compound_name": "[{Ce(NR2)2(μ-O)}3] (R = SiMe3)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

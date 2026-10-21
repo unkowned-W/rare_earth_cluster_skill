@@ -1,0 +1,186 @@
+{
+  "title": "Toroidal versus centripetal arrangement of the magnetic moment in a Dy4 tetrahedron",
+  "doi": "10.1039/d1cc06265d",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Dy4",
+      "compound_name": "[Dy4(μ4-O)L2(HL)2(CH3O)4]·4CH3OH·H2O",
+      "formula": "C68H76Dy4N12O18S4",
+      "ccdc_numbers": [
+        "2117123"
+      ],
+      "ccdc_refcodes": [
+        "MAQGEU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "μ4-oxo Dy4 tetrahedron"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "One-pot in situ ligand formation: a mixture of Dy(NO3)3·6H2O (0.1 mmol), 2-hydrazino benzothiazole (0.1 mmol), o-vanillin (0.1 mmol), methanol (10 mL), and Et3N (0.3 mmol) was sealed in a 20 mL glass vial and heated at 90 °C for 1 h under autogenous pressure. After cooling to room temperature over 12 h, yellow block crystals of [Dy4(μ4-O)L2(HL)2(CH3O)4]·4CH3OH·H2O were isolated. L/HL are the doubly and singly deprotonated hydrazone ligands from condensation of 2-hydrazinobenzothiazole and o-vanillin.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "2-hydrazino benzothiazole",
+            "formula": null,
+            "role": "ligand precursor",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "o-vanillin",
+            "formula": null,
+            "role": "ligand precursor",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.3 mmol"
+          },
+          {
+            "name": "methanol",
+            "formula": "CH3OH",
+            "role": "solvent",
+            "amount": "10 mL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "90 °C, then cooled to room temperature",
+        "time": "1 h at 90 °C; cooling over 12 h",
+        "ph": null,
+        "vessel_or_method": "sealed 20 mL glass vial under autogenous pressure",
+        "workup_and_crystallization": "Yellow block single crystals isolated from the vial after cooling to room temperature.",
+        "yield": "39.2 mg (73.7% based on metal salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "DC data show χMT falling from 55.60 to 14.77 cm3 K mol−1 (300 to 2 K) because of antiferromagnetic Dy···Dy coupling, with a low-field magnetization feature consistent with a weakly magnetic ground state. Zero-field AC susceptibility shows SMM relaxation (Ueff = 1.97 K) together with Raman relaxation. Ab initio axes are arranged toroidally rather than toward the central μ4-oxo ligand, supporting single-molecule toroic behavior and a small net ground-state moment of about 4.4 μB.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "55.60",
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1 kOe (1000 Oe), polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "14.77",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "1.97",
+            "unit": "K",
+            "conditions": "zero dc field; Orbach plus Raman fit of τ vs 1/T from χ'' maxima"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "2.1e-4",
+            "unit": "s",
+            "conditions": "zero dc field; same Orbach–Raman fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C",
+            "value": "1.91",
+            "unit": null,
+            "conditions": "zero dc field; 1/τobs = C T^n + τ0−1 exp(−Ueff/T)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman exponent n",
+            "value": "3.76",
+            "unit": null,
+            "conditions": "zero dc field; same fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Debye α",
+            "value": "0.2–0.41",
+            "unit": null,
+            "conditions": "generalized Debye fit of Cole–Cole plots, zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ground-to-first-excited crystal-field gap",
+            "value": "46.26",
+            "unit": "cm−1",
+            "conditions": "CASSCF/RASSI/SINGLE_ANISO on mononuclear Dy fragments (other Dy sites replaced by Lu); gap larger than 46.26 cm−1 for each DyIII"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "net ground-state magnetic moment",
+            "value": "4.4",
+            "unit": "μB",
+            "conditions": "calculated exchange ground state; moment perpendicular to the toroidal plane in Fig. 4"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "synthesis paragraph and Fig. 1 discussion"
+        },
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Experimental Section, elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Crystallography; CCDC 2117123"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC refcode MAQGEU"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, Synthesis of Dy4"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Fig. 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "DC/AC discussion, Figs. 2–4, and ab initio section"
+        },
+        {
+          "field": "properties",
+          "source": "supporting_information",
+          "location": "Magnetic Measurements"
+        }
+      ]
+    }
+  ]
+}

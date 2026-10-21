@@ -1,0 +1,262 @@
+{
+  "refcode": "KADPAK",
+  "ccdc_number": "1993427",
+  "dois": [
+    "10.1039/d0nj04469e"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1993427.cif",
+  "formula_moiety": "C71 H85 Gd5 N12 O30,2(C1 H2 Cl2),2(C1 H4 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "14.5276(9)",
+    "b": "15.8334(10)",
+    "c": "20.5190(12)",
+    "alpha": "86.122(3)",
+    "beta": "74.422(3)",
+    "gamma": "89.583(3)",
+    "volume": "4535.73",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O14",
+        "O16",
+        "O17",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Gd2",
+      "element": "Gd",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O20",
+        "O4",
+        "O8"
+      ]
+    },
+    {
+      "label": "Gd3",
+      "element": "Gd",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Gd4",
+      "element": "Gd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O13",
+        "O18",
+        "O2",
+        "O27"
+      ]
+    },
+    {
+      "label": "Gd5",
+      "element": "Gd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O14",
+        "O15",
+        "O17",
+        "O19",
+        "O23",
+        "O3"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Gd1",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.901,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 114.61,
+            "metal_oxygen_distances_angstrom": [
+              2.301,
+              2.334
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 110.2,
+            "metal_oxygen_distances_angstrom": [
+              2.357,
+              2.399
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1",
+          "Gd5"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O14",
+          "O17"
+        ],
+        "metal_metal_separation_angstrom": 3.646,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 104.25,
+            "metal_oxygen_distances_angstrom": [
+              2.326,
+              2.293
+            ]
+          },
+          {
+            "oxygen": "O14",
+            "angle_deg": 96.85,
+            "metal_oxygen_distances_angstrom": [
+              2.434,
+              2.44
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 92.84,
+            "metal_oxygen_distances_angstrom": [
+              2.45,
+              2.581
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd2",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O4",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.924,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 110.65,
+            "metal_oxygen_distances_angstrom": [
+              2.375,
+              2.397
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 115.54,
+            "metal_oxygen_distances_angstrom": [
+              2.309,
+              2.33
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd2",
+          "Gd4"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O11",
+          "O12"
+        ],
+        "metal_metal_separation_angstrom": 3.651,
+        "bridge_geometry": [
+          {
+            "oxygen": "O10",
+            "angle_deg": 105.53,
+            "metal_oxygen_distances_angstrom": [
+              2.307,
+              2.278
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 96.62,
+            "metal_oxygen_distances_angstrom": [
+              2.457,
+              2.432
+            ]
+          },
+          {
+            "oxygen": "O12",
+            "angle_deg": 92.53,
+            "metal_oxygen_distances_angstrom": [
+              2.472,
+              2.58
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Gd1",
+        "Gd2",
+        "Gd3",
+        "Gd4",
+        "Gd5"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "KADPAK crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C71 H85 Gd5 N12 O30,2(C1 H2 Cl2),2(C1 H4 O1). From the CIF bond table, Gd1 (Gd) has 6 O neighbors; Gd2 (Gd) has 6 O neighbors; Gd3 (Gd) has 6 O neighbors; Gd4 (Gd) has 7 O neighbors; Gd5 (Gd) has 7 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.646-3.924 Å (not direct metal-metal bonds). Computed M-O-M angles span 92.53-115.54°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C75H98Cl4Gd5N12O32.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d0nj04469e",
+    "formula": "C75H98Cl4Gd5N12O32",
+    "compound_name": "[Gd5(L)4(acac)7]·2CH3OH·2CH2Cl2",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

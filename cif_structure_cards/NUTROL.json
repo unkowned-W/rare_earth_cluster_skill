@@ -1,0 +1,81 @@
+{
+  "refcode": "NUTROL",
+  "ccdc_number": "1016560",
+  "dois": [
+    "10.1021/ja508880z"
+  ],
+  "source_data_block": "2",
+  "source_cif": "CIFs\\1016560.cif",
+  "formula_moiety": "C48 H76 As3 O2 S6 Yb3, C4 H8 O",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "13.009(3)",
+    "b": "13.399(3)",
+    "c": "19.680(4)",
+    "alpha": "85.64(3)",
+    "beta": "87.33(3)",
+    "gamma": "69.09(3)",
+    "volume": "3194.7(13)",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O2A",
+        "O2B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Yb1"
+      ],
+      [
+        "Yb2"
+      ],
+      [
+        "Yb3"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "undetermined (missing bonds, symmetry links, or consistent periodic-image geometry)",
+    "omitted_nonidentity_symmetry_bonds": 3,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "NUTROL crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C48 H76 As3 O2 S6 Yb3, C4 H8 O. From the CIF bond table, Yb1 (Yb) has 0 O neighbors; Yb2 (Yb) has 1 O neighbors; Yb3 (Yb) has 2 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C48H76As3O2S6Yb3·C4H8O.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ja508880z",
+    "formula": "C48H76As3O2S6Yb3·C4H8O",
+    "compound_name": "[(Cp*Yb)3As2S4(Cp*AsS2)(thf)2]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

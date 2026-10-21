@@ -1,0 +1,145 @@
+{
+  "title": "Luminescence thermometry in a Dy4 single molecule magnet",
+  "doi": "10.1039/d2dt02250h",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1·CH3OH",
+      "compound_name": "[Dy4(1,1,4-H3L^r)2(OAc)6]·CH3OH",
+      "formula": "C67H88Dy4N8O19",
+      "ccdc_numbers": [
+        "2184024"
+      ],
+      "ccdc_refcodes": [
+        "TETPER"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear tetranuclear Dy4 acetate/aminophenol cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A methanol solution of Dy(OAc)3 was added to a chloroform solution of a mixture of 1,2,4-H6L^r and 1,1,4-H6L^r. The mixture was stirred at room temperature for 12 h, then concentrated to one-third of its volume. Slow evaporation of the concentrated solution yielded single crystals of 1·CH3OH suitable for X-ray diffraction. The crystals were filtered and dried under vacuum. The same complex is isolated at a 1:1 ligand:dysprosium salt molar ratio.",
+        "reagents": [
+          {
+            "name": "dysprosium acetate",
+            "formula": "Dy(OAc)3",
+            "role": "metal source",
+            "amount": "0.135 g, 0.397 mmol"
+          },
+          {
+            "name": "mixture of 1,2,4-H6L^r and 1,1,4-H6L^r",
+            "formula": "H6L^r",
+            "role": "ligand",
+            "amount": "0.100 g, 0.198 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "chloroform"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h stirring, followed by slow evaporation",
+        "ph": null,
+        "vessel_or_method": "solution mixing, stirring, concentration, and slow evaporation",
+        "workup_and_crystallization": "concentrated to 1/3 volume; slow evaporation yielded single crystals; crystals filtered and dried on a vacuum line",
+        "yield": "0.06 g (31%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Air-stable linear Dy4 SMM with multiple relaxation pathways (Orbach, Raman, QTM) and Ueff = 39.7 K. Temperature-dependent ligand triplet plus Dy(III) 4f emission enables ratiometric luminescent thermometry from 11–295 K, with maximum Sr = 1.6% K−1 and minimum δT = 1.1 K at 295 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 54.1,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 25.4,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 23.8,
+            "unit": "NμB",
+            "conditions": "2.0 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "39.7 K (27.6 cm−1)",
+            "unit": null,
+            "conditions": "zero dc field; Orbach+Raman+QTM fit of τ−1 vs T; τ0 = 3.9×10−6 s, C = 4.0 s−1 K−n, n = 3.1, τQTM = 1.0×10−3 s"
+          },
+          {
+            "property_type": "optical",
+            "name": "luminescent thermometry operating range",
+            "value": "11–295",
+            "unit": "K",
+            "conditions": "ratiometric Δ = I(ligand)/I(Dy 4F9/2→6H13/2); excitation 358 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "maximum relative thermal sensitivity Sr",
+            "value": 1.6,
+            "unit": "% K−1",
+            "conditions": "295 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "minimum temperature uncertainty δT",
+            "value": 1.1,
+            "unit": "K",
+            "conditions": "295 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; Experimental/Syntheses"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental/Syntheses elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2184024 / TETPER"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "X-ray diffraction studies; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental/Syntheses"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Luminescence/Thermometric characterization; Fig. 2–7"
+        }
+      ]
+    }
+  ]
+}

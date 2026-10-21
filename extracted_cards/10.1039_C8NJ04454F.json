@@ -1,0 +1,500 @@
+{
+  "title": "A series of [2 × 2] square grid LnIII clusters: a large magnetocaloric effect and single-molecule-magnet behavior",
+  "doi": "10.1039/c8nj04454f",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Gd4(L)4(μ2-CH3O)4]·4CH3OH",
+      "formula": "C64H72Gd4N12O20",
+      "ccdc_numbers": [
+        "1832176"
+      ],
+      "ccdc_refcodes": [
+        "JOKFIB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "[2 × 2] square-grid Ln4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "To a stirred solution of H3L (0.025 mmol) in methanol (20 mL) was added Gd(acac)3·2H2O (0.025 mmol) in dichloromethane (5 mL). The mixture was stirred at room temperature for 30 min, then heated under reflux for 12 h to afford a light yellow solution, cooled to room temperature, filtered, and left unperturbed for slow evaporation. After about one week, crystals of 1 suitable for X-ray diffraction were obtained (yield 45% based on Gd).",
+        "reagents": [
+          {
+            "name": "N′-(2-hydroxybenzylidene)-6-(hydroxymethyl)picolinohydrazide (H3L)",
+            "formula": "C14H13N3O3",
+            "role": "ligand",
+            "amount": "0.025 mmol"
+          },
+          {
+            "name": "Gd(acac)3·2H2O",
+            "formula": "Gd(acac)3·2H2O",
+            "role": "metal salt",
+            "amount": "0.025 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "dichloromethane"
+        ],
+        "temperature": "room temperature then reflux",
+        "time": "stirred 30 min; reflux 12 h; crystallization about 1 week",
+        "ph": null,
+        "vessel_or_method": "solvent volatilization / slow evaporation after reflux",
+        "workup_and_crystallization": "cooled, filtered, and left unperturbed for slow evaporation at room temperature; crystals after about one week",
+        "yield": "45% based on Gd"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Weak antiferromagnetic Gd···Gd coupling (J = −0.022 cm−1, g = 2.03). Large magnetocaloric effect with −ΔSm = 34.46 J kg−1 K−1 at 2.0 K and ΔH = 7.0 T. Magnetization saturates at 28.02 Nβ.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 31.95,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 14.81,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J",
+            "value": -0.022,
+            "unit": "cm−1",
+            "conditions": "fit of χMT vs T with isotropic Gd4 Hamiltonian; g = 2.03, R = 0.99962"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization Msat",
+            "value": 28.02,
+            "unit": "Nβ",
+            "conditions": "2.0–10.0 K, 0–8.0 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change −ΔSm",
+            "value": 34.46,
+            "unit": "J kg−1 K−1",
+            "conditions": "T = 2.0 K, ΔH = 7.0 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of clusters 1–4"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1832176 / JOKFIB (Gd formula match)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of clusters 1–4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 2–3"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Tb4(L)4(μ2-CH3O)4]·4CH3OH",
+      "formula": "C64H72Tb4N12O20",
+      "ccdc_numbers": [
+        "1832173"
+      ],
+      "ccdc_refcodes": [
+        "JOKFOH"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "[2 × 2] square-grid Ln4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 from H3L (0.025 mmol) in methanol (20 mL) and Tb(acac)3·2H2O (0.025 mmol) in dichloromethane (5 mL): stirred 30 min at room temperature, refluxed 12 h, filtered, and crystallized by slow evaporation (yield 41% based on Tb).",
+        "reagents": [
+          {
+            "name": "N′-(2-hydroxybenzylidene)-6-(hydroxymethyl)picolinohydrazide (H3L)",
+            "formula": "C14H13N3O3",
+            "role": "ligand",
+            "amount": "0.025 mmol"
+          },
+          {
+            "name": "Tb(acac)3·2H2O",
+            "formula": "Tb(acac)3·2H2O",
+            "role": "metal salt",
+            "amount": "0.025 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "dichloromethane"
+        ],
+        "temperature": "room temperature then reflux",
+        "time": "stirred 30 min; reflux 12 h; crystallization about 1 week",
+        "ph": null,
+        "vessel_or_method": "solvent volatilization / slow evaporation after reflux",
+        "workup_and_crystallization": "cooled, filtered, slow evaporation at room temperature",
+        "yield": "41% based on Tb"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "χMT decreases from 47.84 to 29.93 cm3 K mol−1 (300–2.0 K). No out-of-phase ac signals under zero dc field (not an SMM). Solid-state TbIII luminescence at room temperature (λex = 285 nm) with dual-exponential lifetimes 9.51 and 50.92 ms.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 47.84,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 29.93,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility χ″",
+            "value": "no frequency-dependent out-of-phase signals",
+            "unit": null,
+            "conditions": "zero dc field, 3.0 Oe ac, 2.0–20.0 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maxima",
+            "value": "490, 545, 584, 616",
+            "unit": "nm",
+            "conditions": "solid state, room temperature, λex = 285 nm; TbIII 5D4 → 7FJ transitions"
+          },
+          {
+            "property_type": "optical",
+            "name": "luminescence lifetime τ1",
+            "value": 9.51,
+            "unit": "ms",
+            "conditions": "solid state, λex = 285 nm, double-exponential fit"
+          },
+          {
+            "property_type": "optical",
+            "name": "luminescence lifetime τ2",
+            "value": 50.92,
+            "unit": "ms",
+            "conditions": "solid state, λex = 285 nm, double-exponential fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of clusters 1–4"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1832173 / JOKFOH (Tb formula match)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of clusters 1–4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Luminescence properties; Magnetic properties; Fig. 2; Fig. S4–S5, S7"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Dy4(L)4(μ2-CH3O)4]·4CH3OH",
+      "formula": "C64H72Dy4N12O20",
+      "ccdc_numbers": [
+        "1832174"
+      ],
+      "ccdc_refcodes": [
+        "JOKFUN"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "[2 × 2] square-grid Ln4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 from H3L (0.025 mmol) in methanol (20 mL) and Dy(acac)3·2H2O (0.025 mmol) in dichloromethane (5 mL): stirred 30 min at room temperature, refluxed 12 h, filtered, and crystallized by slow evaporation (yield 39% based on Dy).",
+        "reagents": [
+          {
+            "name": "N′-(2-hydroxybenzylidene)-6-(hydroxymethyl)picolinohydrazide (H3L)",
+            "formula": "C14H13N3O3",
+            "role": "ligand",
+            "amount": "0.025 mmol"
+          },
+          {
+            "name": "Dy(acac)3·2H2O",
+            "formula": "Dy(acac)3·2H2O",
+            "role": "metal salt",
+            "amount": "0.025 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "dichloromethane"
+        ],
+        "temperature": "room temperature then reflux",
+        "time": "stirred 30 min; reflux 12 h; crystallization about 1 week",
+        "ph": null,
+        "vessel_or_method": "solvent volatilization / slow evaporation after reflux",
+        "workup_and_crystallization": "cooled, filtered, slow evaporation at room temperature",
+        "yield": "39% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "χMT decreases from 56.86 to 26.69 cm3 K mol−1. Zero-field SMM behavior with ΔE/kB = 42.76 K and τ0 = 1.02 × 10−6 s (Arrhenius, T > 5 K); combined Orbach/Raman/direct fit gives 44.8 K. Under 2000 Oe, ΔE/kB = 56.31 K. Solid-state DyIII emission at 575 and 628 nm (λex = 285 nm).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 56.86,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 26.69,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB",
+            "value": 42.76,
+            "unit": "K",
+            "conditions": "zero dc field Arrhenius fit of ln τ vs 1/T above 5.0 K; τ0 = 1.02 × 10−6 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "1.02e-6",
+            "unit": "s",
+            "conditions": "zero dc field Arrhenius fit above 5.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB (Orbach/Raman/direct)",
+            "value": 44.8,
+            "unit": "K",
+            "conditions": "zero dc field, 2.0–14.0 K; τ0 = 8.06 × 10−6 s, n = 5.2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB",
+            "value": 56.31,
+            "unit": "K",
+            "conditions": "2000 Oe dc field Arrhenius fit; τ0 = 3.50 × 10−7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.08–0.36",
+            "unit": null,
+            "conditions": "zero dc field, 2.0–14.0 K, generalized Debye model"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maxima",
+            "value": "575, 628",
+            "unit": "nm",
+            "conditions": "solid state, room temperature, λex = 285 nm; 4F9/2 → 6H13/2 and 6H11/2"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of clusters 1–4"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1832174 / JOKFUN (Dy formula match)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of clusters 1–4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Luminescence properties; Magnetic properties; Fig. 2, 4–6; Table 2"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Ho4(L)4(μ2-CH3O)4]·4CH3OH",
+      "formula": "C64H72Ho4N12O20",
+      "ccdc_numbers": [
+        "1832175"
+      ],
+      "ccdc_refcodes": [
+        "JOKGAU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "[2 × 2] square-grid Ln4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 from H3L (0.025 mmol) in methanol (20 mL) and Ho(acac)3·2H2O (0.025 mmol) in dichloromethane (5 mL): stirred 30 min at room temperature, refluxed 12 h, filtered, and crystallized by slow evaporation (yield 48% based on Ho).",
+        "reagents": [
+          {
+            "name": "N′-(2-hydroxybenzylidene)-6-(hydroxymethyl)picolinohydrazide (H3L)",
+            "formula": "C14H13N3O3",
+            "role": "ligand",
+            "amount": "0.025 mmol"
+          },
+          {
+            "name": "Ho(acac)3·2H2O",
+            "formula": "Ho(acac)3·2H2O",
+            "role": "metal salt",
+            "amount": "0.025 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "dichloromethane"
+        ],
+        "temperature": "room temperature then reflux",
+        "time": "stirred 30 min; reflux 12 h; crystallization about 1 week",
+        "ph": null,
+        "vessel_or_method": "solvent volatilization / slow evaporation after reflux",
+        "workup_and_crystallization": "cooled, filtered, slow evaporation at room temperature",
+        "yield": "48% based on Ho"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT decreases from 56.73 to 21.55 cm3 K mol−1 (300–2.0 K). No frequency-dependent out-of-phase ac signals under zero dc field; not an SMM.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 56.73,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 21.55,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility χ″",
+            "value": "no frequency-dependent out-of-phase signals",
+            "unit": null,
+            "conditions": "zero dc field, 3.0 Oe ac, 2.0–20.0 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of clusters 1–4"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1832175 / JOKGAU (Ho formula match)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of clusters 1–4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 2; Fig. S9"
+        }
+      ]
+    }
+  ]
+}

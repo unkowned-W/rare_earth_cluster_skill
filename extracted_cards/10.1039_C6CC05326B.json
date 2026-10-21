@@ -1,0 +1,216 @@
+{
+  "title": "A planar triangular Dy3 + Dy3 single-molecule magnet with a toroidal magnetic moment",
+  "doi": "10.1039/c6cc05326b",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Dy6[Br]",
+      "compound_name": "[Dy6L2(μ3-OH)4(μ2-OH)2(H2O)12]·8Br·2CH3CN·6CH3OH",
+      "formula": "C50H96Br8Dy6N14O32",
+      "ccdc_numbers": [
+        "1445859"
+      ],
+      "ccdc_refcodes": [
+        "IQUWAU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "edge-to-edge planar Dy3+Dy3 double triangle"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "4,6-Dihydrazinopyrimidine (0.1 mmol) was dissolved in methanol/acetonitrile (1:2, 15 mL), and o-vanillin (0.2 mmol) was added. The mixture was stirred for 5 min, then KOH (0.2 mmol) and DyBr3·6H2O (0.2 mmol) were added successively. The mixture was stirred at room temperature for 3 h and left for slow solvent evaporation. Yellow crystals of Dy6[Br] formed after about one week. H2L is the in situ Schiff-base ligand from 4,6-dihydrazinopyrimidine and o-vanillin. The main text only states that reaction of H2L with DyBr3·6H2O followed by KOH gave yellow crystals over about one week, without quantities.",
+        "reagents": [
+          {
+            "name": "4,6-dihydrazinopyrimidine",
+            "formula": null,
+            "role": "ligand precursor",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "o-vanillin",
+            "formula": null,
+            "role": "ligand precursor",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "potassium hydroxide",
+            "formula": "KOH",
+            "role": "base",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "dysprosium(III) bromide hexahydrate",
+            "formula": "DyBr3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "acetonitrile"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 3 h; crystals after about one week",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by slow evaporation",
+        "workup_and_crystallization": "resultant solution left unperturbed for slow evaporation; yellow single crystals",
+        "yield": "25 mg (24.8%, based on the metal salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dy6[Br] is a zero-field SMM with two relaxation processes and a toroidal magnetic moment in the ground state. χMT falls from 83.9 cm3 mol−1 K at room temperature to 10.36 cm3 mol−1 K at 2 K. The fast-relaxation barrier is 98 K (stated as 97.7 K in the conclusion), comparable to the Dy6–SCN and Dy6–NO3 analogues, while axial water ligands reorient the Dy easy axes into a toroidal arrangement.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "83.9",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature, 0.1 T; expected 85.02 cm3 mol−1 K for six uncoupled Dy(III)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "10.36",
+            "unit": "cm3 mol−1 K",
+            "conditions": "2 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "31.23",
+            "unit": "μB",
+            "conditions": "1.9 K, plateau near 30 kOe; inflection near 7 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (slow relaxation)",
+            "value": "27",
+            "unit": "K",
+            "conditions": "zero dc field; also 19 cm−1; Arrhenius fit of SR process, 1.9–5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (slow relaxation)",
+            "value": "1.56e-6",
+            "unit": "s",
+            "conditions": "zero dc field, SR process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (fast relaxation)",
+            "value": "98",
+            "unit": "K",
+            "conditions": "zero dc field; also 68 cm−1; conclusion quotes 97.7 K; ac field 3.0 Oe, 0.1–1500 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (fast relaxation)",
+            "value": "5.25e-7",
+            "unit": "s",
+            "conditions": "zero dc field, FR process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.62 and 0.55",
+            "unit": null,
+            "conditions": "two modified Debye processes, 1.9–5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.14–0.58",
+            "unit": null,
+            "conditions": "single generalized Debye process, 10–22 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ground KD gz",
+            "value": "19.75, 19.68, 19.67",
+            "unit": null,
+            "conditions": "CASSCF/SI-SO, Dy1/Dy2/Dy3 of Dy6[Br]; gx≈0.00/0.00/0.01, gy≈0.00/0.00/0.01"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "first excited KD energy",
+            "value": "208, 211, 199",
+            "unit": "cm−1",
+            "conditions": "Dy1, Dy2, Dy3 of Dy6[Br], Table S6"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Lines exchange coupling",
+            "value": "-7.5",
+            "unit": "cm−1",
+            "conditions": "Dy6[Br], Ising form of Lines model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "dipolar interaction (zz)",
+            "value": "-1.48, -1.54, -1.81",
+            "unit": "cm−1",
+            "conditions": "Dy1–Dy2, Dy1–Dy3, Dy2–Dy3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "total magnetic interaction",
+            "value": "-8.98, -9.04, -9.31",
+            "unit": "cm−1",
+            "conditions": "exchange plus dipolar, Dy1–Dy2, Dy1–Dy3, Dy2–Dy3"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "discussion of Dy6[Br] assembly"
+        },
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Synthesis of Dy6[Br]; Table S1 empirical formula"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "X-ray Crystallography"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "IQUWAU / 1445859"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Fig. 1 and structural discussion"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, Synthesis of the Complex Dy6[Br]"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Figs. 2–4 and ac/dc magnetic discussion"
+        },
+        {
+          "field": "properties",
+          "source": "supporting_information",
+          "location": "Tables S6 and S7"
+        }
+      ]
+    }
+  ]
+}

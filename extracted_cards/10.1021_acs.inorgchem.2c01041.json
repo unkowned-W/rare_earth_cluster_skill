@@ -1,0 +1,422 @@
+{
+  "title": "Synthesis, Structure, and Zero-Field SMM Behavior of Homometallic Dy2, Dy4, and Dy6 Complexes",
+  "doi": "10.1021/acs.inorgchem.2c01041",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy2(H2L)2(NO3)][NO3]·2H2O·CH3OH",
+      "formula": "C37H48Dy2N10O17",
+      "ccdc_numbers": [
+        "2162479"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "dinuclear Dy2 complex with unsymmetrical H2L2− hydrazone ligands and bridging nitrate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(NO3)3·5H2O (0.048 g, 0.11 mmol) was added to a methanol solution (30 mL) of H4L (0.040 g, 0.11 mmol) at room temperature, affording a yellow solution. Triethylamine (0.046 mL, 0.33 mmol) was added and the mixture was stirred overnight at room temperature. The solution was filtered and the filtrate was evaporated in vacuo to a yellow residue, which was dissolved in methanol (5 mL) and crystallized by slow evaporation. X-ray quality crystals formed within 3–4 days.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "metal salt",
+            "amount": "0.048 g, 0.11 mmol"
+          },
+          {
+            "name": "6-((bis(2-hydroxyethyl)amino)-N′-(2-hydroxybenzylidene)picolinohydrazide",
+            "formula": "H4L",
+            "role": "ligand",
+            "amount": "0.040 g, 0.11 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.046 mL, 0.33 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "overnight stirring; crystals in 3–4 days",
+        "ph": null,
+        "vessel_or_method": "solution synthesis followed by filtration and vacuum evaporation",
+        "workup_and_crystallization": "filtrate evaporated in vacuo; residue redissolved in methanol (5 mL) and crystallized by slow evaporation",
+        "yield": "0.051 g, 76.1% (based on Dy(III) salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field SMM with slow magnetization relaxation. χMT at room temperature is 28.80 cm3 mol−1 K and falls to 26.02 cm3 mol−1 K at low T. Under zero field Ueff = 87(1) K and τ0 = 6.4(3)×10−9 s; under 0.1 T, Ueff = 101(3) K and τ0 = 2.5(1)×10−9 s. Relaxation is dominated by single Dy(III) centers (Raman/Orbach or TA-QTM).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "28.80",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature; dc field 0.1 T (Figure 8)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "26.02",
+            "unit": "cm3 mol−1 K",
+            "conditions": "low-temperature minimum"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "87(1)",
+            "unit": "K",
+            "conditions": "zero applied field, Orbach process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "6.4(3)×10−9",
+            "unit": "s",
+            "conditions": "zero applied field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "101(3)",
+            "unit": "K",
+            "conditions": "applied field 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "2.5(1)×10−9",
+            "unit": "s",
+            "conditions": "applied field 0.1 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental synthesis of 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1 CCDC no. 2162479"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Abstract; Magnetic properties discussion; Figure 8"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy4(HL)2(piv)4(OH)2]",
+      "formula": "C56H76Dy4N8O18",
+      "ccdc_numbers": [
+        "2162480"
+      ],
+      "ccdc_refcodes": [
+        "LESYOB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "butterfly/defective-cubane Dy4 cluster with triply deprotonated HL3− and pivalate coligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Solid DyCl3·6H2O (0.082 g, 0.22 mmol) and H4L (0.040 g, 0.11 mmol) were taken in methanol (30 mL) and stirred for 5 min at room temperature. Tetrabutylammonium hydroxide (0.55 mmol) was added dropwise. After 15 min, pivalic acid (0.22 mmol) was added and the mixture was stirred for 8 h at room temperature. Volatiles were removed in vacuo to a semisolid yellow residue, which was dissolved in methanol (5 mL) and chloroform (2 mL) and crystallized by slow evaporation. Suitable crystals were harvested in 2–3 days.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.082 g, 0.22 mmol"
+          },
+          {
+            "name": "6-((bis(2-hydroxyethyl)amino)-N′-(2-hydroxybenzylidene)picolinohydrazide",
+            "formula": "H4L",
+            "role": "ligand",
+            "amount": "0.040 g, 0.11 mmol"
+          },
+          {
+            "name": "tetrabutylammonium hydroxide",
+            "formula": "NBu4OH",
+            "role": "base",
+            "amount": "0.55 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "pivH",
+            "role": "coligand",
+            "amount": "0.22 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "chloroform"
+        ],
+        "temperature": "room temperature",
+        "time": "8 h stirring; crystals in 2–3 days",
+        "ph": null,
+        "vessel_or_method": "solution synthesis with vacuum removal of volatiles",
+        "workup_and_crystallization": "residue dissolved in methanol (5 mL) and chloroform (2 mL); crystallization by slow evaporation",
+        "yield": "0.047 g, 47.9%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field SMM with butterfly Dy4 topology. χMT = 56.90 cm3 mol−1 K at room temperature, decreasing to 32.94 cm3 mol−1 K at low T. Single-Orbach fit: Ueff = 31(2) K, τ0 = 4.2(1)×10−7 s; two-Orbach processes: Ueff1 = 37(8) K, τ01 = 2(1)×10−7 s and Ueff2 = 8(4) K, τ02 = 5(6)×10−5 s. Theory supports a toroidal magnetic state.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "56.90",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature; dc field 0.1 T (Figure 8)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "32.94",
+            "unit": "cm3 mol−1 K",
+            "conditions": "low-temperature minimum"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "31(2)",
+            "unit": "K",
+            "conditions": "zero field, single Orbach process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "4.2(1)×10−7",
+            "unit": "s",
+            "conditions": "zero field, single Orbach process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff1",
+            "value": "37(8)",
+            "unit": "K",
+            "conditions": "zero field, two-Orbach model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ01",
+            "value": "2(1)×10−7",
+            "unit": "s",
+            "conditions": "zero field, two-Orbach model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff2",
+            "value": "8(4)",
+            "unit": "K",
+            "conditions": "zero field, two-Orbach model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ02",
+            "value": "5(6)×10−5",
+            "unit": "s",
+            "conditions": "zero field, two-Orbach model"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Scheme 2; Experimental synthesis of 2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2162480 / LESYOB"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Abstract; Magnetic properties; Figures 8 and 10"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Dy6(H2L)3(μ3-OH)(μ3-CO3)3(CH3OH)4(H2O)8]Cl5·3H2O",
+      "formula": "C61H99N12O37Dy6Cl5",
+      "ccdc_numbers": [
+        "2162481"
+      ],
+      "ccdc_refcodes": [
+        "LESYUH"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "propeller-shaped hexanuclear Dy6 cluster assembled with μ3-OH and atmospheric-CO2-derived μ3-carbonate ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "DyCl3·6H2O (0.082 g, 0.22 mmol) and H4L (0.040 g, 0.11 mmol) were dissolved in methanol (30 mL) and stirred vigorously for 10 min at room temperature. Triethylamine (0.33 mmol) was added dropwise and the mixture was stirred for 7 h. Volatiles were removed in vacuo to a yellow residue, which was dissolved in methanol (5 mL) and chloroform (5 mL) and crystallized by slow evaporation. Suitable crystals were obtained in 2–3 days. Carbonate ligands arise from atmospheric CO2 fixation under basic conditions; the complex did not form under completely inert conditions.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.082 g, 0.22 mmol"
+          },
+          {
+            "name": "6-((bis(2-hydroxyethyl)amino)-N′-(2-hydroxybenzylidene)picolinohydrazide",
+            "formula": "H4L",
+            "role": "ligand",
+            "amount": "0.040 g, 0.11 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.33 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "chloroform"
+        ],
+        "temperature": "room temperature",
+        "time": "7 h stirring; crystals in 2–3 days",
+        "ph": null,
+        "vessel_or_method": "solution synthesis in air (atmospheric CO2 fixation); vacuum evaporation",
+        "workup_and_crystallization": "residue dissolved in methanol (5 mL) and chloroform (5 mL); crystallization by slow evaporation",
+        "yield": "0.045 g, 45.4% (based on Dy(III) salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field SMM with double magnetization relaxation. χMT = 83.70 cm3 mol−1 K at room temperature, decreasing to 50.29 cm3 mol−1 K at low T. Dual Orbach parameters: Ueff1 = 62.4(3) K, τ01 = 4.6(3)×10−8 s and Ueff2 = 2(1) K, τ02 = 4.6(2)×10−5 s.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "83.70",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature; dc field 0.1 T (Figure 8)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "50.29",
+            "unit": "cm3 mol−1 K",
+            "conditions": "low-temperature minimum"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff1",
+            "value": "62.4(3)",
+            "unit": "K",
+            "conditions": "zero field, double relaxation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ01",
+            "value": "4.6(3)×10−8",
+            "unit": "s",
+            "conditions": "zero field, double relaxation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff2",
+            "value": "2(1)",
+            "unit": "K",
+            "conditions": "zero field, double relaxation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ02",
+            "value": "4.6(2)×10−5",
+            "unit": "s",
+            "conditions": "zero field, double relaxation"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental synthesis of 3"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2162481 / LESYUH"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 3; Synthetic Aspects"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Abstract; Magnetic properties; Figure 8"
+        }
+      ]
+    }
+  ]
+}

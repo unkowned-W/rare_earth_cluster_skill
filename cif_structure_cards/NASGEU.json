@@ -1,0 +1,163 @@
+{
+  "refcode": "NASGEU",
+  "ccdc_number": "275553",
+  "dois": [
+    "10.1021/ja051292c"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\275553.cif",
+  "formula_moiety": "C88 H68 Br8 N8 O18 Tb3 1+,Cl1 1-,9(C1 H4 O1),4(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "22.764(5)",
+    "b": "19.015(4)",
+    "c": "29.285(6)",
+    "alpha": "90",
+    "beta": "104.78(3)",
+    "gamma": "90",
+    "volume": "12256.8",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O2",
+        "O3",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O14",
+        "O15",
+        "O18",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.884,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 114.6,
+            "metal_oxygen_distances_angstrom": [
+              2.308,
+              2.307
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 109.56,
+            "metal_oxygen_distances_angstrom": [
+              2.459,
+              2.294
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O11"
+        ],
+        "metal_metal_separation_angstrom": 3.871,
+        "bridge_geometry": [
+          {
+            "oxygen": "O10",
+            "angle_deg": 114.82,
+            "metal_oxygen_distances_angstrom": [
+              2.291,
+              2.304
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 109.98,
+            "metal_oxygen_distances_angstrom": [
+              2.278,
+              2.447
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "NASGEU crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C88 H68 Br8 N8 O18 Tb3 1+,Cl1 1-,9(C1 H4 O1),4(H2 O1). From the CIF bond table, Tb1 (Tb) has 6 O neighbors; Tb2 (Tb) has 4 O neighbors; Tb3 (Tb) has 6 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.871-3.884 Å (not direct metal-metal bonds). Computed M-O-M angles span 109.56-114.82°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Tb3L4(H2O)2]Cl·9CH3OH·4H2O (C97H112Br8ClN8O31Tb3). Explicit grouped units in the article formula/name: 2 H2O (explicit grouped unit in article formula), 2 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ja051292c",
+    "formula": "[Tb3L4(H2O)2]Cl·9CH3OH·4H2O (C97H112Br8ClN8O31Tb3)",
+    "compound_name": "[Tb3L4(H2O)2]Cl (L = N,N'-bis(5-bromo-3-methoxysalicylidene)phenylene-1,2-diamine)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

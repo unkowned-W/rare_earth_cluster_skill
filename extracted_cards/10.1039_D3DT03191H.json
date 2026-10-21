@@ -1,0 +1,147 @@
+{
+  "title": "Reversible single-crystal to single-crystal transformation between triangular single-molecule toroics",
+  "doi": "10.1039/d3dt03191h",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy3(HL)(H2L)(NO3)4]·C3H6O (H4L = N,N,N',N'-tetrakis(2-hydroxyethyl)ethylenediamine)",
+      "formula": "C23H49Dy3N8O21",
+      "ccdc_numbers": [
+        "2290194"
+      ],
+      "ccdc_refcodes": [
+        "MOCNOL"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "triangular Dy3 single-molecule toroic"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Compound 1, [Dy3(HL)(H2L)(NO3)4]·C2H5OH, was prepared by the previously reported procedure. Crystals of 1 were placed in 30 mL of acetone at room temperature. After five days, the needle-like crystals of 1 had converted into block crystals of 2 by solvent exchange. The main text additionally states that the transformation is reversible: 2 returns to 1 on heating at 373 K in ethanol. No yield is reported.",
+        "reagents": [
+          {
+            "name": "[Dy3(HL)(H2L)(NO3)4]·C2H5OH (compound 1)",
+            "formula": null,
+            "role": "precursor crystals",
+            "amount": null
+          },
+          {
+            "name": "acetone",
+            "formula": "C3H6O",
+            "role": "solvent",
+            "amount": "30 mL"
+          }
+        ],
+        "solvents": [
+          "acetone"
+        ],
+        "temperature": "room temperature",
+        "time": "5 days",
+        "ph": null,
+        "vessel_or_method": "soaking/solvent exchange",
+        "workup_and_crystallization": "Needle-like crystals of 1 convert in situ to block crystals of 2; structure determined by single-crystal X-ray diffraction at 120 K.",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Compound 2 is a triangular Dy3 single-molecule toroic/SMM. χMT is 43.26 cm3 K mol−1 at 300 K under 0.1 T, falls to 9.94 cm3 K mol−1 at 2 K, and shows a maximum near 4.5 K. Magnetization does not saturate by 7 T and no hysteresis is observed at 2 K. Zero-field ac susceptibility shows two relaxation processes; Table S3 assigns the faster process to Raman plus Orbach relaxation (Ueff = 72.0 cm−1) and the slower process to QTM plus Orbach relaxation (Ueff = 59.0 cm−1). The main text instead describes the slow process as Raman/Orbach and the fast process as QTM/Orbach.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "43.26",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, H = 0.1 T, polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "9.94",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, H = 0.1 T, polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT maximum",
+            "value": null,
+            "unit": null,
+            "conditions": "around 4.5 K, H = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic hysteresis",
+            "value": "none evident",
+            "unit": null,
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (faster relaxation)",
+            "value": "72.0",
+            "unit": "cm−1",
+            "conditions": "zero static field; Table S3 faster process, Raman + Orbach; τ0 = 9.8×10−6 s, B = 0.40"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (slower relaxation)",
+            "value": "59.0",
+            "unit": "cm−1",
+            "conditions": "zero static field; Table S3 slower process, QTM + Orbach; τ0 = 3.0×10−6 s, C = 262.94"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "introduction, compound 2"
+        },
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Table S1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Table S1"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC refcode MOCNOL"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structural discussion and Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental details, S1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion and Figs. 3–4"
+        },
+        {
+          "field": "properties.measurements",
+          "source": "supporting_information",
+          "location": "Table S3"
+        }
+      ]
+    }
+  ]
+}

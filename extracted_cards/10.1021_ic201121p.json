@@ -1,0 +1,151 @@
+{
+  "title": "Hexanuclear Dysprosium(III) Compound Incorporating Vertex- and Edge-Sharing Dy3 Triangles Exhibiting Single-Molecule-Magnet Behavior",
+  "doi": "10.1021/ic201121p",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "hexanuclear dysprosium(III) cluster [Dy6(μ3-OH)3(μ3-CO3)(μ-OMe)(HL)6(MeOH)4(H2O)2]·3MeOH·2H2O",
+      "formula": "[Dy6(μ3-OH)3(μ3-CO3)(μ-OMe)(HL)6(MeOH)4(H2O)2]·3MeOH·2H2O",
+      "ccdc_numbers": [
+        "826831"
+      ],
+      "ccdc_refcodes": [
+        "XEHDAR"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "hexanuclear Dy6 cluster of vertex- and edge-sharing Dy3 triangles"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Reaction of DyCl3·6H2O with H2L (also written HL in the main-text sentence) in MeOH/CH2Cl2 in the presence of triethylamine (5 equiv) produces yellow crystals of hexanuclear complex 1. Atmospheric CO2 is incorporated as carbonate during cluster assembly. Detailed experimental procedures are stated to be in the SI, which was not supplied in this run.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": null
+          },
+          {
+            "name": "(E)-N'-(2-hydroxybenzylidene)pyrazine-2-carbohydrazide",
+            "formula": "H2L",
+            "role": "polydentate Schiff-base ligand",
+            "amount": null
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "5 equiv"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "CH2Cl2"
+        ],
+        "temperature": null,
+        "time": null,
+        "ph": null,
+        "vessel_or_method": null,
+        "workup_and_crystallization": "yellow crystals of complex 1",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dy6 complex 1 is an SMM. χMT at 300 K is 84.8 cm3 K mol−1 (expected 85.02 for six uncoupled DyIII). χMT decreases to 68.6 cm3 K mol−1 at 2 K. Magnetization reaches 30.9 μB at 1.9 K and 7 T without saturation; M vs H/T curves do not superimpose. Zero-field ac data show frequency-dependent χ″ below 30 K and two Arrhenius regimes (Δ = 5.6 and 37.9 K; τ0 = 4.2×10−5 and 3.8×10−6 s). Applied dc fields have little effect on the dynamics above 1.9 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 84.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 68.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 30.9,
+            "unit": "μB",
+            "conditions": "1.9 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ (low-T regime)",
+            "value": 5.6,
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit of τ from frequency-dependent ac data 1.9–17 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "preexponential factor τ0 (low-T regime)",
+            "value": "4.2e-5",
+            "unit": "s",
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ (high-T regime)",
+            "value": 37.9,
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit of τ from frequency-dependent ac data 1.9–17 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "preexponential factor τ0 (high-T regime)",
+            "value": "3.8e-6",
+            "unit": "s",
+            "conditions": "zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract and introductory formula of complex 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "paragraph introducing complex 1"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "paragraph after Scheme 1 (reaction of DyCl3·6H2O with ligand)"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism text and Figures 2–3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 826831 / XEHDAR"
+        }
+      ]
+    }
+  ]
+}

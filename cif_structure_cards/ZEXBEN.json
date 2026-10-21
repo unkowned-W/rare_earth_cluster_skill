@@ -1,0 +1,202 @@
+{
+  "refcode": "ZEXBEN",
+  "ccdc_number": "2089624",
+  "dois": [
+    "10.1016/j.inoche.2021.109062"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2089624.cif",
+  "formula_moiety": "C118 H100 Ho4 N8 O22,4(C1 H4 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.7836(5)",
+    "b": "14.7848(6)",
+    "c": "17.4185(7)",
+    "alpha": "84.256(3)",
+    "beta": "68.867(4)",
+    "gamma": "66.390(4)",
+    "volume": "2809.91",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Ho1",
+      "element": "Ho",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O4",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Ho2",
+      "element": "Ho",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O15",
+        "O16",
+        "O2",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ho3",
+      "element": "Ho",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O17",
+        "O18",
+        "O19",
+        "O20",
+        "O23"
+      ]
+    },
+    {
+      "label": "Ho4",
+      "element": "Ho",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O2",
+        "O21",
+        "O22",
+        "O23",
+        "O24",
+        "O3"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ho1",
+          "Ho2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O10"
+        ],
+        "metal_metal_separation_angstrom": 3.806,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 104.38,
+            "metal_oxygen_distances_angstrom": [
+              2.466,
+              2.35
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 115.76,
+            "metal_oxygen_distances_angstrom": [
+              2.259,
+              2.235
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho2",
+          "Ho4"
+        ],
+        "shared_oxygen_labels": [
+          "O15",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.781,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 108.06,
+            "metal_oxygen_distances_angstrom": [
+              2.315,
+              2.357
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 108.06,
+            "metal_oxygen_distances_angstrom": [
+              2.357,
+              2.315
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho3",
+          "Ho4"
+        ],
+        "shared_oxygen_labels": [
+          "O14",
+          "O23"
+        ],
+        "metal_metal_separation_angstrom": 3.806,
+        "bridge_geometry": [
+          {
+            "oxygen": "O14",
+            "angle_deg": 104.38,
+            "metal_oxygen_distances_angstrom": [
+              2.466,
+              2.35
+            ]
+          },
+          {
+            "oxygen": "O23",
+            "angle_deg": 115.76,
+            "metal_oxygen_distances_angstrom": [
+              2.259,
+              2.235
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ho1",
+        "Ho2",
+        "Ho3",
+        "Ho4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ZEXBEN crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C118 H100 Ho4 N8 O22,4(C1 H4 O1). From the CIF bond table, Ho1 (Ho) has 6 O neighbors; Ho2 (Ho) has 8 O neighbors; Ho3 (Ho) has 6 O neighbors; Ho4 (Ho) has 8 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.781-3.806 Å (not direct metal-metal bonds). Computed M-O-M angles span 104.38-115.76°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C122H116Ho4N8O26.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.inoche.2021.109062",
+    "formula": "C122H116Ho4N8O26",
+    "compound_name": "[Ho4(dbm)6(L)2(CH3OH)3]·2CH3OH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

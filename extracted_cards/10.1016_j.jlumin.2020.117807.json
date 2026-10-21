@@ -1,0 +1,198 @@
+{
+  "title": "Construction of a nanoscale Yb(III) Schiff base complex with NIR luminescence response to anions and nitro explosives",
+  "doi": "10.1016/j.jlumin.2020.117807",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Yb6(L1)2(L2)4(OH)4(CF3SO3)2(DMF)2(EtOH)4]·2(CF3SO3)·2OH",
+      "formula": "C122H122F12N6O44S4Yb6",
+      "ccdc_numbers": [
+        "2034937"
+      ],
+      "ccdc_refcodes": [
+        "MACSOC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "hexanuclear Yb(III) Schiff-base/salicylaldehyde cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Yb(CF3SO3)3 (0.20 mmol, 0.1241 g), H2L1 (0.20 mmol, 0.1104 g) and H2L2 (0.20 mmol, 0.0304 g) were dissolved in 50 mL MeOH at room temperature, then a solution of triethylamine in EtOH (1.0 mol/L, 1 mL) was added. The resulting solution was heated for 30 min under reflux. Yellow crystalline product of 1 was obtained by slow diffusion of ether into the solution at room temperature after two weeks, then dried in air for one week.",
+        "reagents": [
+          {
+            "name": "ytterbium(III) trifluoromethanesulfonate",
+            "formula": "Yb(CF3SO3)3",
+            "role": "metal salt",
+            "amount": "0.20 mmol, 0.1241 g"
+          },
+          {
+            "name": "N,N'-bis(3-methoxysalicylidene)(binaphthyl)-1,4-diamine",
+            "formula": "H2L1",
+            "role": "Schiff base ligand",
+            "amount": "0.20 mmol, 0.1104 g"
+          },
+          {
+            "name": "3-methoxysalicylaldehyde",
+            "formula": "H2L2",
+            "role": "salicylaldehyde ligand",
+            "amount": "0.20 mmol, 0.0304 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1.0 mol/L in EtOH, 1 mL"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "EtOH",
+          "ether"
+        ],
+        "temperature": "room temperature dissolution; reflux for heating; room-temperature crystallization",
+        "time": "30 min reflux; two weeks crystallization; one week air drying",
+        "ph": null,
+        "vessel_or_method": "reflux followed by slow ether diffusion crystallization",
+        "workup_and_crystallization": "Yellow crystals obtained by slow diffusion of ether into the refluxed solution at room temperature after two weeks; product dried in air for one week.",
+        "yield": "0.0489 g (39%, based on Yb(CF3SO3)3)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "In CH3CN, 1 shows typical Yb(III) NIR emission at 983 nm (2F5/2→2F7/2) with ligand-centered excitation at 298 and 378 nm (antenna/LMET). Lifetime 8.05 μs, emission quantum yield 0.06(±0.01)%, intrinsic Yb quantum yield 0.40%, estimated LMET efficiency ~15%. NIR luminescence is quenched by anions and nitro explosives, most strongly by F− and picric acid (PA), with KSV 4.01×10^4 M−1 and 8.57×10^4 M−1 and LODs 6.72×10−7 M and 3.14×10−7 M, respectively; quenching of F− and PA is not disrupted by other anions or explosives.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "NIR emission wavelength",
+            "value": 983,
+            "unit": "nm",
+            "conditions": "CH3CN, 10 μM, λex = 378 nm, 2F5/2→2F7/2"
+          },
+          {
+            "property_type": "optical",
+            "name": "excitation bands",
+            "value": "298 and 378",
+            "unit": "nm",
+            "conditions": "CH3CN, λem = 983 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-centered absorption",
+            "value": "284 and 373",
+            "unit": "nm",
+            "conditions": "CH3CN"
+          },
+          {
+            "property_type": "optical",
+            "name": "luminescence lifetime τ",
+            "value": 8.05,
+            "unit": "μs",
+            "conditions": "CH3CN (Fig. S6)"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission quantum yield φem",
+            "value": "0.06 (±0.01)",
+            "unit": "%",
+            "conditions": "CH3CN"
+          },
+          {
+            "property_type": "optical",
+            "name": "intrinsic Yb quantum yield φLn",
+            "value": 0.4,
+            "unit": "%",
+            "conditions": "calculated as τ/τ0 with τ0 = 2000 μs"
+          },
+          {
+            "property_type": "optical",
+            "name": "LMET efficiency ηsens",
+            "value": 15,
+            "unit": "%",
+            "conditions": "estimated as φem/φLn"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern–Volmer quenching constant KSV (F−)",
+            "value": "4.01e4",
+            "unit": "M−1",
+            "conditions": "CH3CN, monitoring 983 nm, λex = 378 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern–Volmer quenching constant KSV (PA)",
+            "value": "8.57e4",
+            "unit": "M−1",
+            "conditions": "CH3CN, monitoring 983 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "limit of detection (F−)",
+            "value": "6.72e-7",
+            "unit": "M",
+            "conditions": "LOD = 3σ/KSV, NIR luminescence response in CH3CN"
+          },
+          {
+            "property_type": "optical",
+            "name": "limit of detection (PA)",
+            "value": "3.14e-7",
+            "unit": "M",
+            "conditions": "LOD = 3σ/KSV, NIR luminescence response in CH3CN"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern–Volmer quenching constant KSV (2-NP)",
+            "value": "0.74e4",
+            "unit": "M−1",
+            "conditions": "CH3CN"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Section 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Section 2.2 crystallography"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Section 2.2; Appendix supplementary materials"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC metadata MACSOC"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Section 3.1; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 3; Figs. 3–9"
+        }
+      ]
+    }
+  ]
+}

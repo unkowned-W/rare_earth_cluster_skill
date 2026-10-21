@@ -1,0 +1,408 @@
+{
+  "title": "Tricine-supported polyoxo(alkoxo)lanthanide cluster {Ln15} (Ln = Eu, Gd, Tb) with magnetic refrigerant and fluorescent properties",
+  "doi": "10.26599/pom.2023.9140026",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Eu15(μ3-OH)20(μ5-Cl)(H3L)8(H2L)2(H2O)10](Cl)3·(NO3)9·20H2O·4CH3OH",
+      "formula": "[Eu15(μ3-OH)20(μ5-Cl)(C6H12NO5)8(C6H11NO5)2(H2O)10](Cl)3·(NO3)9·20H2O·4CH3OH",
+      "ccdc_numbers": [
+        "2263402"
+      ],
+      "ccdc_refcodes": [
+        "KIGNOH"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 15,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "wheel-like polyoxo(alkoxo)lanthanide cluster with μ5-chloride template"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "n-[2-Hydroxy-1,1-bis(hydroxymethyl)ethyl]-glycine (0.36 g, 2.0 mmol), Eu(NO3)3·6H2O (1.34 g, 3.0 mmol), and KCl (0.1 g, 0.13 mmol) were dissolved in CH3OH/H2O (10 mL, v/v = 1:1) under stirring. Triethylamine (0.56 mL, 4.0 mmol) was added dropwise to the clear solution. The colorless solution was filtered and left undisturbed for 3 days. Colorless crystals were isolated by filtration and washed with ethanol.",
+        "reagents": [
+          {
+            "name": "n-[2-hydroxy-1,1-bis(hydroxymethyl)ethyl]-glycine (tricine, H4L)",
+            "formula": "C6H13NO5",
+            "role": "ligand",
+            "amount": "0.36 g, 2.0 mmol"
+          },
+          {
+            "name": "europium(III) nitrate hexahydrate",
+            "formula": "Eu(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "1.34 g, 3.0 mmol"
+          },
+          {
+            "name": "potassium chloride",
+            "formula": "KCl",
+            "role": "chloride template source",
+            "amount": "0.1 g, 0.13 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.56 mL, 4.0 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "water",
+          "ethanol (wash)"
+        ],
+        "temperature": null,
+        "time": "3 days",
+        "ph": null,
+        "vessel_or_method": "stirred mixed-solvent hydrolysis, filtration, undisturbed crystallization",
+        "workup_and_crystallization": "filtered colorless solution left undisturbed for 3 days; colorless crystals isolated by filtration and washed with ethanol",
+        "yield": "~31.2% based on Eu"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Solid-state Eu(III) photoluminescence: excitation maximum ~395 nm (7F0→5L6); emission at 582, 594, 619, 654, and 698 nm (5D0→7FJ, J=0–4). 5D0 lifetime 890 μs; quantum yield 11.18%. Red emission with CIE (0.561, 0.358) and color temperature 1457 K.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "excitation maximum",
+            "value": 395,
+            "unit": "nm",
+            "conditions": "solid state, room temperature, monitored at 594 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission bands (5D0→7F0–4)",
+            "value": "582, 594, 619, 654, 698",
+            "unit": "nm",
+            "conditions": "solid state, λex = 395 nm, room temperature"
+          },
+          {
+            "property_type": "optical",
+            "name": "5D0 lifetime",
+            "value": 890,
+            "unit": "μs",
+            "conditions": "solid state; λex = 395 nm, λem = 594 nm; single-exponential fit"
+          },
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield",
+            "value": 11.18,
+            "unit": "%",
+            "conditions": "solid state"
+          },
+          {
+            "property_type": "optical",
+            "name": "CIE chromaticity coordinates",
+            "value": "(0.561, 0.358)",
+            "unit": null,
+            "conditions": "from emission spectrum"
+          },
+          {
+            "property_type": "optical",
+            "name": "color temperature",
+            "value": 1457,
+            "unit": "K",
+            "conditions": "calculated from CIE chromaticity"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Introduction; Section 2.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Introduction; Section 2.2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2263402 / KIGNOH matched to Eu15 formula"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Abstract; photoluminescence discussion; Figures 2–3"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Gd15(μ3-OH)20(μ5-Cl)(H3L)8(H2L)2(H2O)10](Cl)3·(NO3)9·22H2O·3CH3OH",
+      "formula": "[Gd15(μ3-OH)20(μ5-Cl)(C6H12NO5)8(C6H11NO5)2(H2O)10](Cl)3·(NO3)9·22H2O·3CH3OH",
+      "ccdc_numbers": [
+        "2191867"
+      ],
+      "ccdc_refcodes": [
+        "YIFBEY"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 15,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "wheel-like polyoxo(alkoxo)lanthanide cluster with μ5-chloride template"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Complex 2 was obtained by the same hydrolysis procedure as 1, using Gd(NO3)3·6H2O in place of Eu(NO3)3·6H2O: tricine (0.36 g, 2.0 mmol), Gd(NO3)3·6H2O, and KCl (0.1 g, 0.13 mmol) in CH3OH/H2O (10 mL, v/v = 1:1), with triethylamine (0.56 mL, 4.0 mmol) added dropwise; filtered and left undisturbed for 3 days; crystals isolated by filtration and washed with ethanol.",
+        "reagents": [
+          {
+            "name": "n-[2-hydroxy-1,1-bis(hydroxymethyl)ethyl]-glycine (tricine, H4L)",
+            "formula": "C6H13NO5",
+            "role": "ligand",
+            "amount": "0.36 g, 2.0 mmol (same procedure as 1)"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "used instead of Eu(NO3)3·6H2O (3.0 mmol scale of 1)"
+          },
+          {
+            "name": "potassium chloride",
+            "formula": "KCl",
+            "role": "chloride template source",
+            "amount": "0.1 g, 0.13 mmol (same procedure as 1)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.56 mL, 4.0 mmol (same procedure as 1)"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "water",
+          "ethanol (wash)"
+        ],
+        "temperature": null,
+        "time": "3 days",
+        "ph": null,
+        "vessel_or_method": "same mixed-solvent hydrolysis as 1",
+        "workup_and_crystallization": "same as 1: filtration, undisturbed crystallization, isolation and ethanol wash",
+        "yield": "~29.2% based on Gd"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility of 2 under 1000 Oe (2–300 K): χmT = 113.44 cm3·K·mol−1 at room temperature (calc. 118.1 for 15 uncoupled Gd(III), S=7/2, g=2), remaining nearly constant to ~60 K then falling to 73.2 cm3·K·mol−1 at 2 K, indicating antiferromagnetic Gd···Gd interactions. Curie–Weiss fit (50–300 K): C = 114.91 cm3·K·mol−1, θ = −1.27 K. Magnetization reaches 86.6 NμB at 2 K and 7 T without saturation (expected 105 NμB). Magnetocaloric −ΔSm max = 29.9 J·kg−1·K−1 at 3 K and 7 T.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 113.44,
+            "unit": "cm3·K·mol−1",
+            "conditions": "1000 Oe, room temperature"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 73.2,
+            "unit": "cm3·K·mol−1",
+            "conditions": "1000 Oe, 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 114.91,
+            "unit": "cm3·K·mol−1",
+            "conditions": "Curie–Weiss fit of χm−1 vs T, 50–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": -1.27,
+            "unit": "K",
+            "conditions": "Curie–Weiss fit, 50–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 86.6,
+            "unit": "NμB",
+            "conditions": "2 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change −ΔSm",
+            "value": 29.9,
+            "unit": "J·kg−1·K−1",
+            "conditions": "3 K, 7 T; Maxwell relation from 0–7 T magnetization (2.0–10 K)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Introduction; Section 2.2; Table 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Introduction; Table 1 empirical formula C63H214N19Cl4Gd15O132"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Section 2.3 CCDC 2191867"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "YIFBEY / 2191867"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion; Figures 4–5"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Tb15(μ3-OH)20(μ5-Cl)(H3L)8(H2L)2(H2O)10](Cl)4·(NO3)8·22H2O·5CH3OH",
+      "formula": "[Tb15(μ3-OH)20(μ5-Cl)(C6H12NO5)8(C6H11NO5)2(H2O)10](Cl)4·(NO3)8·22H2O·5CH3OH",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 15,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "wheel-like polyoxo(alkoxo)lanthanide cluster with μ5-chloride template (isostructural to 1 and 2; no SCXRD CCDC number reported in main text)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Complex 3 was obtained by the same hydrolysis procedure as 1, using Tb(NO3)3·6H2O in place of Eu(NO3)3·6H2O: tricine (0.36 g, 2.0 mmol), Tb(NO3)3·6H2O, and KCl (0.1 g, 0.13 mmol) in CH3OH/H2O (10 mL, v/v = 1:1), with triethylamine (0.56 mL, 4.0 mmol) added dropwise; filtered and left undisturbed for 3 days; crystals isolated by filtration and washed with ethanol.",
+        "reagents": [
+          {
+            "name": "n-[2-hydroxy-1,1-bis(hydroxymethyl)ethyl]-glycine (tricine, H4L)",
+            "formula": "C6H13NO5",
+            "role": "ligand",
+            "amount": "0.36 g, 2.0 mmol (same procedure as 1)"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "used instead of Eu(NO3)3·6H2O (3.0 mmol scale of 1)"
+          },
+          {
+            "name": "potassium chloride",
+            "formula": "KCl",
+            "role": "chloride template source",
+            "amount": "0.1 g, 0.13 mmol (same procedure as 1)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.56 mL, 4.0 mmol (same procedure as 1)"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "water",
+          "ethanol (wash)"
+        ],
+        "temperature": null,
+        "time": "3 days",
+        "ph": null,
+        "vessel_or_method": "same mixed-solvent hydrolysis as 1",
+        "workup_and_crystallization": "same as 1: filtration, undisturbed crystallization, isolation and ethanol wash",
+        "yield": "~35.4% based on Tb"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Solid-state Tb(III) photoluminescence: characteristic emission at 491, 548, 587, and 623 nm (5D4→7F6,5,4,3). 5D4 lifetime 250 μs; quantum yield 22.36%. Green emission with CIE (0.304, 0.546).",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "emission bands (5D4→7F6,5,4,3)",
+            "value": "491, 548, 587, 623",
+            "unit": "nm",
+            "conditions": "solid state, room temperature; excitation spectrum discussed with λex = 370 nm for lifetime"
+          },
+          {
+            "property_type": "optical",
+            "name": "5D4 lifetime",
+            "value": 250,
+            "unit": "μs",
+            "conditions": "solid state; λex = 370 nm, λem = 548 nm; single-exponential fit"
+          },
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield",
+            "value": 22.36,
+            "unit": "%",
+            "conditions": "solid state"
+          },
+          {
+            "property_type": "optical",
+            "name": "CIE chromaticity coordinates",
+            "value": "(0.304, 0.546)",
+            "unit": null,
+            "conditions": "from emission spectrum"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Introduction; Section 2.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Introduction formula and Section 2.2 EA C65H222N19Cl4Tb15O134 (5 MeOH)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "photoluminescence discussion; Figures 2–3"
+        }
+      ]
+    }
+  ]
+}

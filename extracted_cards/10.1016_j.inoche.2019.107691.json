@@ -1,0 +1,156 @@
+{
+  "title": "A novel Dy4III cluster constructed by a multidentate 8-hydroxyquinoline Schiff base ligand: Structure and slow magnetic relaxation behavior",
+  "doi": "10.1016/j.inoche.2019.107691",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4(TTA)4L4(H2O)2]·4CH3OH; H2L = 2-[(4-methyl-6-carboxyphenyl)imino]methyl-8-hydroxyquinoline (SI; main text inconsistently names a 4-methoxyphenyl analogue), TTA = 2-thenoyltrifluoroacetone",
+      "formula": "C108H84Dy4F12N8O26S4 ([Dy4(TTA)4L4(H2O)2]·4CH3OH; unsolvated core C104H68Dy4F12N8O22S4)",
+      "ccdc_numbers": [
+        "1405998"
+      ],
+      "ccdc_refcodes": [
+        "ZUJPOM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetranuclear Dy4 parallelogram bridged by phenolate μ-O and carboxylate oxygen atoms of L2-"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "H2L was prepared by aldimine condensation of 2-amino-5-methylbenzoic acid (12.0 mmol) with 8-hydroxyquinoline-2-carboxaldehyde (12.0 mmol) in ethanol, stirred at room temperature for 6 h; the yellow precipitate was washed with ethanol, dried in vacuo, and purified by column chromatography (1/3 dichloromethane/petroleum ether containing 1% triethylamine) to give a deep yellow solid (2.51 g, 68.1%). Dy(TTA)3·2H2O was prepared by a literature method. Cluster 1: a solution of Dy(TTA)3·2H2O (0.025 mmol, 0.0215 g) in 15 mL n-heptane was refluxed for 3 h, cooled to 75 °C, and treated with H2L (0.025 mmol, 0.0077 g) in CH2Cl2 (3 mL). The mixture was stirred for 1 h at 75 °C, cooled to room temperature, filtered, kept in the dark, and concentrated by slow evaporation at 4 °C. Needle-shaped red crystals formed after 3 days.",
+        "reagents": [
+          {
+            "name": "2-amino-5-methylbenzoic acid",
+            "formula": "C8H9NO2",
+            "role": "ligand precursor",
+            "amount": "12.0 mmol"
+          },
+          {
+            "name": "8-hydroxyquinoline-2-carboxaldehyde",
+            "formula": null,
+            "role": "ligand precursor",
+            "amount": "12.0 mmol"
+          },
+          {
+            "name": "Dy(TTA)3·2H2O",
+            "formula": null,
+            "role": "metal precursor",
+            "amount": "0.025 mmol; 0.0215 g"
+          },
+          {
+            "name": "H2L (2-[(4-methyl-6-carboxyphenyl)imino]methyl-8-hydroxyquinoline)",
+            "formula": "C18H14N2O3",
+            "role": "Schiff-base ligand",
+            "amount": "0.025 mmol; 0.0077 g"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "dichloromethane",
+          "petroleum ether",
+          "n-heptane",
+          "CH2Cl2"
+        ],
+        "temperature": "ligand: room temperature; cluster: reflux, then 75 °C, then room temperature; crystallization at 4 °C",
+        "time": "ligand: 6 h; cluster: 3 h reflux plus 1 h at 75 °C; crystals after 3 days",
+        "ph": null,
+        "vessel_or_method": "solution reflux followed by slow evaporation",
+        "workup_and_crystallization": "filtration, storage in the dark, slow evaporation at 4 °C; needle-shaped red crystals after 3 days",
+        "yield": "cluster 1: 33% based on Dy; H2L: 2.51 g, 68.1%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Cluster 1 shows slow magnetic relaxation under zero dc field: χ″ is frequency dependent below 10 K with no peaks down to 2.0 K, ascribed to quantum tunneling of the magnetization. χMT falls from 56.64 cm^3 K mol^-1 at 300 K (near the 56.89 cm^3 K mol^-1 expected for four DyIII ions) to 38.15 cm^3 K mol^-1 at 2.0 K, attributed to weak antiferromagnetic exchange and/or thermal depopulation of DyIII Stark sublevels. Magnetization at 2.0 K does not saturate (23.05 Nβ at 80 kOe versus 40 Nβ theoretical), and M vs H/T curves (2.0–8.0 K) do not superimpose. An approximate barrier is ΔE/kB ≈ 1.47 K with τ0 ≈ 4.4×10^-6 s. Luminescence instrumentation is mentioned, but no optical data are reported.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "56.64",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, dc field 1.0 kOe (1000 Oe), solid state, MPMS-XL7"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "38.15",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "2.0 K, dc field 1.0 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": "23.05",
+            "unit": "Nβ",
+            "conditions": "2.0 K, 80 kOe; no saturation (Fig. S5)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "energy barrier ΔE/kB",
+            "value": "1.47",
+            "unit": "K",
+            "conditions": "zero dc field; estimated from ln(χ″/χ′) vs T^-1; fit over 111–3111 Hz and 2.0–3.2 K (Fig. S6)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "4.4e-6",
+            "unit": "s",
+            "conditions": "zero dc field; same approximate fit as ΔE/kB"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "title, abstract, introduction"
+        },
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Synthesis of cluster 1 elemental analysis; Table S1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Crystal Structure Determinations"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ZUJPOM / 1405998"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structural discussion, Figs. 1–2"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, Synthesis of H2L and Synthesis of cluster 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion, Figs. 3–5"
+        },
+        {
+          "field": "properties",
+          "source": "supporting_information",
+          "location": "Figs. S5–S6"
+        }
+      ]
+    }
+  ]
+}

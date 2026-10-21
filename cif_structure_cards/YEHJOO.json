@@ -1,0 +1,275 @@
+{
+  "refcode": "YEHJOO",
+  "ccdc_number": "2089106",
+  "dois": [
+    "10.1016/j.jlumin.2022.119067"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2089106.cif",
+  "formula_moiety": "C92 H82 N12 Nd5 O34 1+,H1 O1 1-",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "31.316(8)",
+    "b": "31.089(8)",
+    "c": "14.382(3)",
+    "alpha": "90",
+    "beta": "101.739(4)",
+    "gamma": "90",
+    "volume": "13709.2",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Nd1",
+      "element": "Nd",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O6",
+        "O6A",
+        "O7",
+        "O7A"
+      ]
+    },
+    {
+      "label": "Nd2",
+      "element": "Nd",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O2",
+        "O3",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Nd3",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O12",
+        "O13",
+        "O17",
+        "O2",
+        "O3",
+        "O4",
+        "O9"
+      ]
+    },
+    {
+      "label": "Nd2A",
+      "element": "Nd",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O13A",
+        "O2A",
+        "O3A",
+        "O5A",
+        "O6A",
+        "O7A"
+      ]
+    },
+    {
+      "label": "Nd3A",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O10A",
+        "O12A",
+        "O13A",
+        "O17A",
+        "O1A",
+        "O2A",
+        "O3A",
+        "O4A",
+        "O9A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Nd1",
+          "Nd2"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.848,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 113.68,
+            "metal_oxygen_distances_angstrom": [
+              2.292,
+              2.305
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 111.38,
+            "metal_oxygen_distances_angstrom": [
+              2.316,
+              2.343
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Nd1",
+          "Nd2A"
+        ],
+        "shared_oxygen_labels": [
+          "O6A",
+          "O7A"
+        ],
+        "metal_metal_separation_angstrom": 3.848,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6A",
+            "angle_deg": 113.68,
+            "metal_oxygen_distances_angstrom": [
+              2.292,
+              2.305
+            ]
+          },
+          {
+            "oxygen": "O7A",
+            "angle_deg": 111.38,
+            "metal_oxygen_distances_angstrom": [
+              2.316,
+              2.343
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Nd2",
+          "Nd3"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.427,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 95.94,
+            "metal_oxygen_distances_angstrom": [
+              2.311,
+              2.303
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 96.33,
+            "metal_oxygen_distances_angstrom": [
+              2.297,
+              2.303
+            ]
+          },
+          {
+            "oxygen": "O13",
+            "angle_deg": 99.0,
+            "metal_oxygen_distances_angstrom": [
+              2.204,
+              2.302
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Nd2A",
+          "Nd3A"
+        ],
+        "shared_oxygen_labels": [
+          "O13A",
+          "O2A",
+          "O3A"
+        ],
+        "metal_metal_separation_angstrom": 3.427,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2A",
+            "angle_deg": 95.94,
+            "metal_oxygen_distances_angstrom": [
+              2.311,
+              2.303
+            ]
+          },
+          {
+            "oxygen": "O3A",
+            "angle_deg": 96.33,
+            "metal_oxygen_distances_angstrom": [
+              2.297,
+              2.303
+            ]
+          },
+          {
+            "oxygen": "O13A",
+            "angle_deg": 99.0,
+            "metal_oxygen_distances_angstrom": [
+              2.204,
+              2.302
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Nd1",
+        "Nd2",
+        "Nd2A",
+        "Nd3",
+        "Nd3A"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "YEHJOO crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C92 H82 N12 Nd5 O34 1+,H1 O1 1-. From the CIF bond table, Nd1 (Nd) has 4 O neighbors; Nd2 (Nd) has 6 O neighbors; Nd3 (Nd) has 9 O neighbors; Nd2A (Nd) has 6 O neighbors; Nd3A (Nd) has 9 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.427-3.848 Å (not direct metal-metal bonds). Computed M-O-M angles span 95.94-113.68°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C92H80N12O35Nd5. Explicit grouped units in the article formula/name: 4 NO3 (explicit grouped unit in article compound name (structural notation)), 2 OH (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.jlumin.2022.119067",
+    "formula": "C92H80N12O35Nd5",
+    "compound_name": "[Nd5L4(NO3)4(OH)2]·OH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 4,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "title": "Underlining the Importance of Peripheral Protic Functional Groups to Enhance the Proton Exchange of Gd-Based MRI Contrast Agents",
+  "doi": "10.1021/acs.inorgchem.1c01927",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "GdL1",
+      "compound_name": "gadolinium(III) complex of (R)-2,2',2''-(10-(2-hydroxy-3-methoxy-3-oxopropyl)-1,4,7,10-tetraazacyclododecane-1,4,7-triyl)triacetic acid",
+      "formula": "C18H29GdN4O9",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 1,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "HPDO3A-like Gd(III) chelate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "L1 was prepared by ring-opening of (R)-methyl glycidate with DO3A(tBu)3, followed by TFA/DCM deprotection of the tert-butyl esters and HPLC-MS purification. GdL1 was obtained by dissolving L1 (31 mg, 0.06 mmol) in H2O (1 mL), adding 1 equiv of GdCl3 in H2O (0.2 mL), adjusting the pH to 7 with 0.1 M NaOH, stirring at room temperature overnight, and lyophilizing.",
+        "reagents": [
+          {
+            "name": "DO3A(tBu)3",
+            "formula": "C26H50N4O6",
+            "role": "macrocyclic precursor",
+            "amount": "200 mg, 0.4 mmol"
+          },
+          {
+            "name": "(R)-methyl glycidate",
+            "formula": "C4H6O3",
+            "role": "alkylating agent",
+            "amount": "172 µL, 4 mmol"
+          },
+          {
+            "name": "L1(OtBu)3",
+            "formula": "C30H56N4O9",
+            "role": "protected ligand intermediate",
+            "amount": "96 mg, 0.16 mmol (for deprotection); 192 mg, 0.31 mmol isolated, 78% yield"
+          },
+          {
+            "name": "trifluoroacetic acid",
+            "formula": "C2HF3O2",
+            "role": "deprotection reagent",
+            "amount": "DCM:TFA 1:1 v/v, 8 mL"
+          },
+          {
+            "name": "L1 (HCl salt)",
+            "formula": "C18H32N4O9",
+            "role": "chelating ligand",
+            "amount": "31 mg, 0.06 mmol; isolated 62 mg, 0.12 mmol, 75% yield"
+          },
+          {
+            "name": "gadolinium(III) chloride",
+            "formula": "GdCl3",
+            "role": "metal source",
+            "amount": "1 equiv in 0.2 mL H2O"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "pH adjustment",
+            "amount": "0.1 M, to pH 7"
+          }
+        ],
+        "solvents": [
+          "t-BuOH",
+          "CH2Cl2",
+          "MeOH",
+          "TFA",
+          "H2O"
+        ],
+        "temperature": "reflux 16 h for L1(OtBu)3; room temperature overnight for complexation; rt 16 h for TFA deprotection",
+        "time": "16 h (protection/deprotection); overnight (complexation)",
+        "ph": "7.0",
+        "vessel_or_method": "reflux in t-BuOH; silica chromatography; HPLC-MS (Method B); aqueous complexation and lyophilization",
+        "workup_and_crystallization": "L1 purified by semipreparative HPLC-MS, converted to HCl salt by two evaporations from 1 M HCl, and freeze-dried. GdL1 isolated by lyophilization; no single-crystal structure reported.",
+        "yield": "L1 75% (62 mg); GdL1 yield not reported"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "GdL1 is a q=1 HPDO3A-like MRI contrast-agent analogue whose longitudinal relaxivity at pH 7.4 is 4.7 mM−1 s−1 (20 MHz, 25 °C). pH-dependent r1 and NMRD profiles were used to extract proton-exchange and Solomon–Bloembergen–Morgan parameters; the ester analogue lacks the strong acid/base-catalyzed OH proton exchange seen for the carboxylate analogue GdL2.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "longitudinal relaxivity r1",
+            "value": 4.7,
+            "unit": "mM-1 s-1",
+            "conditions": "20 MHz (0.47 T), 25 °C, pH 7.4"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pH-dependent r1 titration",
+            "value": null,
+            "unit": null,
+            "conditions": "21 MHz, 1 mM GdL1, 0.15 M NaCl, 4 < pH < 10"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section, L1 and GdL1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, ESI-MS of GdL1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Preparation of Gd(III) Complexes"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Abstract; Relaxometric Characterization; Figure 1B; Figure 2"
+        }
+      ]
+    },
+    {
+      "compound_label": "GdL2",
+      "compound_name": "gadolinium(III) complex of (R)-2,2',2''-(10-(2-carboxy-2-hydroxyethyl)-1,4,7,10-tetraazacyclododecane-1,4,7-triyl)triacetic acid",
+      "formula": "C17H26GdN4O9",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 1,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "HPDO3A-like Gd(III) chelate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "L2 was obtained by LiOH hydrolysis of the methyl ester of L1(OtBu)3, followed by TFA/DCM deprotection and HPLC-MS purification. GdL2 was prepared from L2 (15 mg, 0.03 mmol) in H2O (1 mL) with 1 equiv of GdCl3 in H2O (0.2 mL); the pH was adjusted to 7 with 0.1 M NaOH, the solution was kept at room temperature overnight, and the complex was lyophilized.",
+        "reagents": [
+          {
+            "name": "L1(OtBu)3",
+            "formula": "C30H56N4O9",
+            "role": "protected ester precursor",
+            "amount": "96 mg, 0.16 mmol"
+          },
+          {
+            "name": "lithium hydroxide",
+            "formula": "LiOH",
+            "role": "ester hydrolysis",
+            "amount": "2 mL of 2 M aqueous LiOH"
+          },
+          {
+            "name": "L2(OtBu)3",
+            "formula": "C29H54N4O9",
+            "role": "protected ligand intermediate",
+            "amount": "63 mg, 0.10 mmol, 66% yield"
+          },
+          {
+            "name": "trifluoroacetic acid",
+            "formula": "C2HF3O2",
+            "role": "deprotection reagent",
+            "amount": "DCM:TFA 1:1 v/v, 8 mL"
+          },
+          {
+            "name": "L2 (HCl salt)",
+            "formula": "C17H30N4O9",
+            "role": "chelating ligand",
+            "amount": "15 mg, 0.03 mmol for complexation; isolated 30 mg, 0.06 mmol, 60% yield"
+          },
+          {
+            "name": "gadolinium(III) chloride",
+            "formula": "GdCl3",
+            "role": "metal source",
+            "amount": "1 equiv in 0.2 mL H2O"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "pH adjustment",
+            "amount": "0.1 M, to pH 7"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "H2O",
+          "CH2Cl2",
+          "TFA"
+        ],
+        "temperature": "50 °C for ester hydrolysis (4 h); rt 16 h for TFA deprotection; room temperature overnight for complexation",
+        "time": "4 h (hydrolysis); 16 h (deprotection); overnight (complexation)",
+        "ph": "hydrolysis quenched at pH 5; complexation at pH 7.0",
+        "vessel_or_method": "aqueous/methanol hydrolysis; HPLC-MS (Method B); aqueous complexation and lyophilization",
+        "workup_and_crystallization": "After hydrolysis, methanol was removed and the aqueous residue extracted with DCM; L2 was HPLC-purified, converted to the HCl salt, and freeze-dried. GdL2 was isolated by lyophilization. Mononuclear GdL2 itself was not the CCDC-deposited crystal.",
+        "yield": "L2 60% (30 mg); GdL2 yield not reported"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Solution GdL2 shows r1 = 5.1 mM−1 s−1 at 20 MHz, 25 °C, pH 7.4. An intramolecular hydrogen bond between the coordinated hydroxyl and the pendant carboxylate enables fast acid- and base-catalyzed proton exchange (kH = 1.5×10^11 M−1 s−1; kOH = 1.7×10^9 M−1 s−1). Thermodynamic stability log K_GdL = 19.26 and dissociation half-life t1/2 = 2.14×10^7 h (pH 7.4, 0.15 M NaCl, 25 °C) were reported. NMRD analysis invoked a small second-sphere water contribution (~0.3 mM−1 s−1 at 20 MHz, 298 K).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "longitudinal relaxivity r1",
+            "value": 5.1,
+            "unit": "mM-1 s-1",
+            "conditions": "20 MHz, 25 °C, pH 7.4"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "acid-catalyzed proton-exchange rate constant kH",
+            "value": "1.5e11",
+            "unit": "M-1 s-1",
+            "conditions": "from pH-dependent r1 of GdL2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "base-catalyzed proton-exchange rate constant kOH",
+            "value": "1.7e9",
+            "unit": "M-1 s-1",
+            "conditions": "from pH-dependent r1 of GdL2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "stability constant log K_GdL",
+            "value": 19.26,
+            "unit": null,
+            "conditions": "potentiometry; compared at 25 °C"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "dissociation half-life t1/2",
+            "value": "2.14e7",
+            "unit": "h",
+            "conditions": "pH 7.4, 0.15 M NaCl, 25 °C"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Scheme 1; Experimental Section, L2 and GdL2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, ESI-MS of GdL2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Preparation of Gd(III) Complexes"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Abstract; Relaxometric Characterization; Figure 1A; Figure 2; Table 1"
+        }
+      ]
+    },
+    {
+      "compound_label": "{[(Gd(H2O)2)2[Gd(L2)H-1(HO-)]2]}·20H2O",
+      "compound_name": "tetranuclear dimeric gadolinium(III) complex of deprotonated L2 with bridging alkoxide and hydroxide",
+      "formula": "C34H60Gd4N8O24·20H2O",
+      "ccdc_numbers": [
+        "2087813"
+      ],
+      "ccdc_refcodes": [
+        "OBEGUB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetranuclear Gd4 dimer of two [Gd(L2)H-1(OH)]3− and two [Gd(H2O)2]3+ units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "The mononuclear complex GdL2 was first prepared from L2 (15 mg, 0.03 mmol) and 1 equiv GdCl3 in water at pH 7 as described for the Gd(III) complexes. Single crystals of formula {[(Gd(H2O)2)2[Gd(L2)H-1(HO-)]2]}·20H2O were then grown by slow evaporation of water from a solution of GdL2 at pH 9.0 in the presence of a slight excess of Gd(OH)3.",
+        "reagents": [
+          {
+            "name": "L2 (HCl salt)",
+            "formula": "C17H30N4O9",
+            "role": "chelating ligand (via GdL2 precursor)",
+            "amount": "15 mg, 0.03 mmol"
+          },
+          {
+            "name": "gadolinium(III) chloride",
+            "formula": "GdCl3",
+            "role": "metal source for GdL2",
+            "amount": "1 equiv in 0.2 mL H2O"
+          },
+          {
+            "name": "gadolinium(III) hydroxide",
+            "formula": "Gd(OH)3",
+            "role": "excess Gd source for tetranuclear crystallization",
+            "amount": "slight excess (amount not quantified)"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "pH adjustment",
+            "amount": "to pH 9.0 for crystallization (0.1 M used to reach pH 7 in precursor)"
+          }
+        ],
+        "solvents": [
+          "H2O"
+        ],
+        "temperature": "room temperature complexation; crystal data collected at 100 K",
+        "time": "overnight complexation; crystallization by slow evaporation (duration not specified)",
+        "ph": "9.0 (crystallization); precursor prepared at pH 7.0",
+        "vessel_or_method": "slow evaporation of aqueous solution; synchrotron single-crystal XRD (Elettra XRD1)",
+        "workup_and_crystallization": "Slow evaporation of water from GdL2 at pH 9 with slight excess Gd(OH)3 afforded triclinic crystals. The asymmetric unit contains one L2 moiety; a crystallographic inversion center generates the tetranuclear dimer, with lattice water filling hydrogen-bonded voids.",
+        "yield": null
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": "Magnetic/relaxometric data in the paper refer to mononuclear solution GdL2 rather than the solid tetranuclear crystal. The structure is a 0D Gd4 dimer with bridging alkoxide and hydroxide and TSAP geometry at the chelated Gd centers.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "X-ray Diffraction Studies; Abstract"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Accession Codes, CCDC 2087813"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row OBEGUB / 2087813"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "X-ray Structure of the [Gd(L2)H-1(OH-)]3− Complex; Figure 3"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, crystal growth paragraph"
+        }
+      ]
+    }
+  ]
+}

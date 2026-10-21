@@ -1,0 +1,919 @@
+{
+  "title": "Modulation of the relaxation dynamics of linear-shaped tetranuclear rare-earth clusters through utilizing different solvents",
+  "doi": "10.1039/c6dt03500k",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Y4(dbm)8L2(DMF)2]·2CH2Cl2·2C2H3N·C3H7NO·H2O",
+      "formula": "C160H139Cl4N13O26Y4",
+      "ccdc_numbers": [
+        "1486219"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric linear tetranuclear RE4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "General protocol for 1–6: RE(dbm)3·2H2O (RE = Y, 0.05 mmol) was dissolved in acetonitrile (20 mL). A solution of HL (0.05 mmol, 0.0136 g) in dichloromethane (10 mL) and DMF (2 mL) was added. The mixture was stirred and refluxed at 70 °C for 3 h, cooled to room temperature, filtered, and the filtrate was concentrated by slow evaporation to give block-shaped yellow crystals after a few days.",
+        "reagents": [
+          {
+            "name": "Y(dbm)3·2H2O",
+            "formula": "Y(dbm)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.05 mmol"
+          },
+          {
+            "name": "HL (2-[(2-(hydroxyimino)propanehydrazide)methyl]-8-hydroxyquinoline)",
+            "formula": "C13H12N4O3",
+            "role": "ligand",
+            "amount": "0.05 mmol, 0.0136 g"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "dichloromethane",
+          "DMF"
+        ],
+        "temperature": "70 °C (reflux)",
+        "time": "3 h",
+        "ph": null,
+        "vessel_or_method": "solution reflux then slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate concentrated by slow evaporation at room temperature; block-shaped yellow crystals",
+        "yield": "ca. 57% (based on Y)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "UV–vis of 1–9 in MeOH shows analogous bands at ca. 204.5, 250 and 349 nm. Photoluminescence of 1 in MeOH is similar to free HL.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "ca. 204.5, 250, 349",
+            "unit": "nm",
+            "conditions": "MeOH, 1e-5 mol L-1, 200–400 nm, ambient temperature (complexes 1–9)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1; Experimental EA for 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of tetranuclear complexes 1–6"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Single-crystal X-ray crystallography (CCDC 1486219–1486227 for 1–9)"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "UV–vis and Photoluminescent properties"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Tb4(dbm)8L2(DMF)2]·2C2H3N",
+      "formula": "C156H128N12O24Tb4",
+      "ccdc_numbers": [
+        "1486220"
+      ],
+      "ccdc_refcodes": [
+        "OBIHOZ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric linear tetranuclear RE4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general protocol as 1–6 using Tb(dbm)3·2H2O (0.05 mmol) with HL (0.05 mmol, 0.0136 g) in MeCN/CH2Cl2/DMF, refluxed at 70 °C for 3 h, then slow evaporation.",
+        "reagents": [
+          {
+            "name": "Tb(dbm)3·2H2O",
+            "formula": "Tb(dbm)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.05 mmol"
+          },
+          {
+            "name": "HL",
+            "formula": "C13H12N4O3",
+            "role": "ligand",
+            "amount": "0.05 mmol, 0.0136 g"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "dichloromethane",
+          "DMF"
+        ],
+        "temperature": "70 °C (reflux)",
+        "time": "3 h",
+        "ph": null,
+        "vessel_or_method": "solution reflux then slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate concentrated by slow evaporation; yellow crystals",
+        "yield": "ca. 55% (based on Tb)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "χMT(300 K)=47.19 cm3 K mol-1 (theory 47.28 for 4 TbIII) decreasing to 32.33 at 2 K (1000 Oe). No SMM/relaxation under zero dc field. Very weak fluorescence in MeOH; UV bands as for 1–9.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 47.19,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 32.33,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "ca. 204.5, 250, 349",
+            "unit": "nm",
+            "conditions": "MeOH, 1e-5 mol L-1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental compound 2; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1486220 / OBIHOZ"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of complexes 1–6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 2; Magnetic properties; Photoluminescent properties"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Dy4(dbm)8L2(DMF)2]",
+      "formula": "C152H122Dy4N10O24",
+      "ccdc_numbers": [
+        "1486221"
+      ],
+      "ccdc_refcodes": [
+        "OBIHUF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric linear tetranuclear RE4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general protocol as 1–6 using Dy(dbm)3·2H2O (0.05 mmol) with HL (0.05 mmol, 0.0136 g) in MeCN/CH2Cl2/DMF, refluxed at 70 °C for 3 h, then slow evaporation.",
+        "reagents": [
+          {
+            "name": "Dy(dbm)3·2H2O",
+            "formula": "Dy(dbm)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.05 mmol"
+          },
+          {
+            "name": "HL",
+            "formula": "C13H12N4O3",
+            "role": "ligand",
+            "amount": "0.05 mmol, 0.0136 g"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "dichloromethane",
+          "DMF"
+        ],
+        "temperature": "70 °C (reflux)",
+        "time": "3 h",
+        "ph": null,
+        "vessel_or_method": "solution reflux then slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate concentrated by slow evaporation; yellow crystals",
+        "yield": "ca. 55% (based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "SMM under zero dc field with one relaxation process; Ueff=35.41 K, τ0=8.315e-7 s. Under 1500 Oe dc field, two frequency-dependent ac peaks (χ′ maxima 2.8 and 10.4 K; χ″ 2.2 and 8.1 K at 3111 Hz). Cole–Cole α=0.13–0.39. χMT 58.27 (300 K) to 23.28 (2 K). Weak fluorescence; UV as for 1–9.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 58.27,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 23.28,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 35.41,
+            "unit": "K",
+            "conditions": "Arrhenius fit of ac χ″ vs frequency, 2–11 K, 0 Oe dc, Hac=3 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": 8.315e-07,
+            "unit": "s",
+            "conditions": "Arrhenius fit, 0 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.13–0.39",
+            "unit": null,
+            "conditions": "generalized Debye, 2–11 K, 0 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "dual ac χ″ peak temperatures",
+            "value": "2.2 and 8.1",
+            "unit": "K",
+            "conditions": "1500 Oe dc, 3111 Hz, Hac=3 Oe"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "ca. 204.5, 250, 349",
+            "unit": "nm",
+            "conditions": "MeOH, 1e-5 mol L-1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental compound 3; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1486221 / OBIHUF"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of complexes 1–6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 2; Figs. 5, 7–9; Magnetic properties"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Ho4(dbm)8L2(DMF)2]·2C2H3N",
+      "formula": "C156H128Ho4N12O24",
+      "ccdc_numbers": [
+        "1486222"
+      ],
+      "ccdc_refcodes": [
+        "OBIJAN"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric linear tetranuclear RE4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general protocol as 1–6 using Ho(dbm)3·2H2O (0.05 mmol) with HL (0.05 mmol, 0.0136 g) in MeCN/CH2Cl2/DMF, refluxed at 70 °C for 3 h, then slow evaporation.",
+        "reagents": [
+          {
+            "name": "Ho(dbm)3·2H2O",
+            "formula": "Ho(dbm)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.05 mmol"
+          },
+          {
+            "name": "HL",
+            "formula": "C13H12N4O3",
+            "role": "ligand",
+            "amount": "0.05 mmol, 0.0136 g"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "dichloromethane",
+          "DMF"
+        ],
+        "temperature": "70 °C (reflux)",
+        "time": "3 h",
+        "ph": null,
+        "vessel_or_method": "solution reflux then slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate concentrated by slow evaporation; yellow crystals",
+        "yield": "ca. 58% (based on Ho)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "χMT 57.83 (300 K) vs theory 56.28 for 4 HoIII, decreasing to 31.83 at 2 K. UV–vis as for 1–9. No SMM analysis reported for Ho.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 57.83,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 31.83,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "ca. 204.5, 250, 349",
+            "unit": "nm",
+            "conditions": "MeOH, 1e-5 mol L-1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental compound 4; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1486222 / OBIJAN"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of complexes 1–6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 2; UV–vis"
+        }
+      ]
+    },
+    {
+      "compound_label": "5",
+      "compound_name": "[Er4(dbm)8L2(DMF)2]",
+      "formula": "C152H122Er4N10O24",
+      "ccdc_numbers": [
+        "1486223"
+      ],
+      "ccdc_refcodes": [
+        "OBIJER"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric linear tetranuclear RE4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general protocol as 1–6 using Er(dbm)3·2H2O (0.05 mmol) with HL (0.05 mmol, 0.0136 g) in MeCN/CH2Cl2/DMF, refluxed at 70 °C for 3 h, then slow evaporation.",
+        "reagents": [
+          {
+            "name": "Er(dbm)3·2H2O",
+            "formula": "Er(dbm)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.05 mmol"
+          },
+          {
+            "name": "HL",
+            "formula": "C13H12N4O3",
+            "role": "ligand",
+            "amount": "0.05 mmol, 0.0136 g"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "dichloromethane",
+          "DMF"
+        ],
+        "temperature": "70 °C (reflux)",
+        "time": "3 h",
+        "ph": null,
+        "vessel_or_method": "solution reflux then slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate concentrated by slow evaporation; yellow crystals",
+        "yield": "ca. 52% (based on Er)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "χMT 45.36 (300 K) vs theory 45.92 for 4 ErIII, decreasing to 22.02 at 2 K. UV–vis as for 1–9.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 45.36,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 22.02,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "ca. 204.5, 250, 349",
+            "unit": "nm",
+            "conditions": "MeOH, 1e-5 mol L-1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental compound 5; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1486223 / OBIJER"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of complexes 1–6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 2; UV–vis"
+        }
+      ]
+    },
+    {
+      "compound_label": "6",
+      "compound_name": "[Lu4(dbm)8L2(DMF)2]",
+      "formula": "C152H122Lu4N10O24",
+      "ccdc_numbers": [
+        "1486224"
+      ],
+      "ccdc_refcodes": [
+        "OBIJIV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Lu"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric linear tetranuclear RE4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general protocol as 1–6 using Lu(dbm)3·2H2O (0.05 mmol) with HL (0.05 mmol, 0.0136 g) in MeCN/CH2Cl2/DMF, refluxed at 70 °C for 3 h, then slow evaporation.",
+        "reagents": [
+          {
+            "name": "Lu(dbm)3·2H2O",
+            "formula": "Lu(dbm)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.05 mmol"
+          },
+          {
+            "name": "HL",
+            "formula": "C13H12N4O3",
+            "role": "ligand",
+            "amount": "0.05 mmol, 0.0136 g"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "dichloromethane",
+          "DMF"
+        ],
+        "temperature": "70 °C (reflux)",
+        "time": "3 h",
+        "ph": null,
+        "vessel_or_method": "solution reflux then slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate concentrated by slow evaporation; yellow crystals",
+        "yield": "ca. 60% (based on Lu)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "UV–vis as for 1–9. Photoluminescence of 6 in MeOH is similar to free HL. No magnetic data (diamagnetic LuIII).",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "ca. 204.5, 250, 349",
+            "unit": "nm",
+            "conditions": "MeOH, 1e-5 mol L-1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental compound 6; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1486224 / OBIJIV"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of complexes 1–6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "UV–vis; Photoluminescent properties"
+        }
+      ]
+    },
+    {
+      "compound_label": "7",
+      "compound_name": "[Tb4(dbm)8L2(C2H5OH)2]·6C2H3N",
+      "formula": "C162H138N14O24Tb4",
+      "ccdc_numbers": [
+        "1486225"
+      ],
+      "ccdc_refcodes": [
+        "OBIJOB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric linear tetranuclear RE4 cluster with ethanol ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "General protocol for 7–9: a 16 mL acetonitrile solution of HL (0.05 mmol, 0.0136 g) was added to RE(dbm)3·2H2O (RE = Tb, 0.05 mmol) in 16 mL ethanol. Heated to 80 °C and stirred for 3 h, cooled, filtered, and the filtrate concentrated by slow evaporation. Block-shaped yellow crystals collected within 3–5 d.",
+        "reagents": [
+          {
+            "name": "Tb(dbm)3·2H2O",
+            "formula": "Tb(dbm)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.05 mmol"
+          },
+          {
+            "name": "HL",
+            "formula": "C13H12N4O3",
+            "role": "ligand",
+            "amount": "0.05 mmol, 0.0136 g"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "ethanol"
+        ],
+        "temperature": "80 °C",
+        "time": "3 h (reaction); crystals in 3–5 d",
+        "ph": null,
+        "vessel_or_method": "heated solution then slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate slow evaporation at room temperature; block-shaped yellow crystals",
+        "yield": "ca. 54% (based on Tb)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "χMT 47.78 (300 K) to 34.40 (2 K). No magnetic relaxation under zero dc field (not SMM). Very weak fluorescence; UV as for 1–9.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 47.78,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 34.4,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "ca. 204.5, 250, 349",
+            "unit": "nm",
+            "conditions": "MeOH, 1e-5 mol L-1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental compound 7; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1486225 / OBIJOB"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of complexes 7–9"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 2; Magnetic properties"
+        }
+      ]
+    },
+    {
+      "compound_label": "8",
+      "compound_name": "[Dy4(dbm)8L2(C2H5OH)2]·3C2H3N",
+      "formula": "C156H129Dy4N11O24",
+      "ccdc_numbers": [
+        "1486226"
+      ],
+      "ccdc_refcodes": [
+        "OBIJUH"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric linear tetranuclear RE4 cluster with ethanol ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same protocol as 7–9 using Dy(dbm)3·2H2O (0.05 mmol) and HL (0.05 mmol, 0.0136 g) in MeCN/EtOH at 80 °C for 3 h, then slow evaporation (crystals in 3–5 d).",
+        "reagents": [
+          {
+            "name": "Dy(dbm)3·2H2O",
+            "formula": "Dy(dbm)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.05 mmol"
+          },
+          {
+            "name": "HL",
+            "formula": "C13H12N4O3",
+            "role": "ligand",
+            "amount": "0.05 mmol, 0.0136 g"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "ethanol"
+        ],
+        "temperature": "80 °C",
+        "time": "3 h (reaction); crystals in 3–5 d",
+        "ph": null,
+        "vessel_or_method": "heated solution then slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate slow evaporation; block-shaped yellow crystals",
+        "yield": "ca. 57% (based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "SMM-like slow relaxation under zero dc field but no χ″ peak maxima, attributed to fast QTM. χMT 58.66 (300 K) to 40.21 (2 K). Weak fluorescence; UV as for 1–9.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 58.66,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 40.21,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "ca. 204.5, 250, 349",
+            "unit": "nm",
+            "conditions": "MeOH, 1e-5 mol L-1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental compound 8; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1486226 / OBIJUH"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of complexes 7–9"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 2; Fig. 6; Magnetic properties"
+        }
+      ]
+    },
+    {
+      "compound_label": "9",
+      "compound_name": "[Ho4(dbm)8L2(C2H5OH)2]·6C2H3N",
+      "formula": "C162H138Ho4N14O24",
+      "ccdc_numbers": [
+        "1486227"
+      ],
+      "ccdc_refcodes": [
+        "OBIKAO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric linear tetranuclear RE4 cluster with ethanol ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same protocol as 7–9 using Ho(dbm)3·2H2O (0.05 mmol) and HL (0.05 mmol, 0.0136 g) in MeCN/EtOH at 80 °C for 3 h, then slow evaporation (crystals in 3–5 d).",
+        "reagents": [
+          {
+            "name": "Ho(dbm)3·2H2O",
+            "formula": "Ho(dbm)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.05 mmol"
+          },
+          {
+            "name": "HL",
+            "formula": "C13H12N4O3",
+            "role": "ligand",
+            "amount": "0.05 mmol, 0.0136 g"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "ethanol"
+        ],
+        "temperature": "80 °C",
+        "time": "3 h (reaction); crystals in 3–5 d",
+        "ph": null,
+        "vessel_or_method": "heated solution then slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate slow evaporation; block-shaped yellow crystals",
+        "yield": "ca. 58% (based on Ho)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "χMT 57.39 (300 K) to 30.89 (2 K). UV–vis as for 1–9. No SMM analysis reported for Ho.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 57.39,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 30.89,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "ca. 204.5, 250, 349",
+            "unit": "nm",
+            "conditions": "MeOH, 1e-5 mol L-1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental compound 9; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1486227 / OBIKAO"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of complexes 7–9"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 2; UV–vis"
+        }
+      ]
+    }
+  ]
+}

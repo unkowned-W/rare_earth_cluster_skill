@@ -1,0 +1,142 @@
+{
+  "refcode": "JOSHUU10",
+  "ccdc_number": "1189162",
+  "dois": [
+    "10.1021/om950691l"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1189162.cif",
+  "formula_moiety": "C61 H159 B24 Gd3 Li6 O5 Si12,C6 H6",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "16.035(7)",
+    "b": "16.883(6)",
+    "c": "23.903(9)",
+    "alpha": "89.04(3)",
+    "beta": "88.87(3)",
+    "gamma": "67.95(3)",
+    "volume": "5996.21",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Gd2",
+      "element": "Gd",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Gd3",
+      "element": "Gd",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Gd1",
+          "Gd2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.772,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 118.1,
+            "metal_oxygen_distances_angstrom": [
+              2.199,
+              2.2
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.779,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 119.42,
+            "metal_oxygen_distances_angstrom": [
+              2.199,
+              2.177
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd2",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.787,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 119.87,
+            "metal_oxygen_distances_angstrom": [
+              2.2,
+              2.177
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Gd1",
+        "Gd2",
+        "Gd3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "JOSHUU10 crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C61 H159 B24 Gd3 Li6 O5 Si12,C6 H6. From the CIF bond table, Gd1 (Gd) has 1 O neighbors; Gd2 (Gd) has 1 O neighbors; Gd3 (Gd) has 1 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.772-3.787 Å (not direct metal-metal bonds). Computed M-O-M angles span 118.10-119.87°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [C61H159B24O5Si12Li6Gd3]·1.5[C6H6].",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/om950691l",
+    "formula": "[C61H159B24O5Si12Li6Gd3]·1.5[C6H6]",
+    "compound_name": "{[η5-1-Gd-2,3-(SiMe3)2-2,3-C2B4H4]3[(μ2-1-Li-2,3-(SiMe3)2-2,3-C2B4H4)3(μ3-OMe)][μ2-Li(C4H8O)]3(μ3-O)}·1.5C6H6",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

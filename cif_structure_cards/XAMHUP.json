@@ -1,0 +1,150 @@
+{
+  "refcode": "XAMHUP",
+  "ccdc_number": "259740",
+  "dois": [
+    "10.1016/j.molstruc.2005.02.017"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\259740.cif",
+  "formula_moiety": "C60 H40 Er3 N10 O14 1+,C6 H4 N1 O3 1-,0.5(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "21.359(6)",
+    "b": "20.010(5)",
+    "c": "17.347(5)",
+    "alpha": "90",
+    "beta": "122.193(4)",
+    "gamma": "90",
+    "volume": "6274.16",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Er1",
+      "element": "Er",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1B",
+        "O4",
+        "O4B"
+      ]
+    },
+    {
+      "label": "Er2",
+      "element": "Er",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1B",
+        "O6",
+        "O6B"
+      ]
+    },
+    {
+      "label": "Er3",
+      "element": "Er",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O3",
+        "O3B",
+        "O4",
+        "O4B",
+        "O7",
+        "O7B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Er1",
+          "Er2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O1B"
+        ],
+        "metal_metal_separation_angstrom": 3.713,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 105.47,
+            "metal_oxygen_distances_angstrom": [
+              2.291,
+              2.374
+            ]
+          },
+          {
+            "oxygen": "O1B",
+            "angle_deg": 105.47,
+            "metal_oxygen_distances_angstrom": [
+              2.291,
+              2.374
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er1",
+          "Er3"
+        ],
+        "shared_oxygen_labels": [
+          "O4",
+          "O4B"
+        ],
+        "metal_metal_separation_angstrom": 3.761,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 102.56,
+            "metal_oxygen_distances_angstrom": [
+              2.327,
+              2.492
+            ]
+          },
+          {
+            "oxygen": "O4B",
+            "angle_deg": 102.56,
+            "metal_oxygen_distances_angstrom": [
+              2.327,
+              2.492
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Er1",
+        "Er2",
+        "Er3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "XAMHUP crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C60 H40 Er3 N10 O14 1+,C6 H4 N1 O3 1-,0.5(H2 O1). From the CIF bond table, Er1 (Er) has 4 O neighbors; Er2 (Er) has 4 O neighbors; Er3 (Er) has 6 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.713-3.761 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.56-105.47°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C66H45N11O17.5Er3.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.molstruc.2005.02.017",
+    "formula": "C66H45N11O17.5Er3",
+    "compound_name": "Er3(picO)4(phen)3(H2O)2·HpicO·0.5H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

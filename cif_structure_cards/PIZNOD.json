@@ -1,0 +1,177 @@
+{
+  "refcode": "PIZNOD",
+  "ccdc_number": "972754",
+  "dois": [
+    "10.1021/ic402936z"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\972754.cif",
+  "formula_moiety": "C109 H216 N12 O27 Tb4 2-,2(C8 H20 N1 1+)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "31.399(6)",
+    "b": "27.759(5)",
+    "c": "17.295(3)",
+    "alpha": "90.00",
+    "beta": "92.963(2)",
+    "gamma": "90.00",
+    "volume": "15054.3",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O112",
+        "O12",
+        "O122",
+        "O21",
+        "O31"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O22",
+        "O3",
+        "O32",
+        "O41",
+        "O42",
+        "O51",
+        "O61"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O3",
+        "O52",
+        "O62",
+        "O71",
+        "O72",
+        "O81",
+        "O91"
+      ]
+    },
+    {
+      "label": "Tb4",
+      "element": "Tb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O101",
+        "O102",
+        "O111",
+        "O121",
+        "O2",
+        "O82",
+        "O92"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb4"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 4.35,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 116.97,
+            "metal_oxygen_distances_angstrom": [
+              2.339,
+              2.758
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 4.28,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 120.91,
+            "metal_oxygen_distances_angstrom": [
+              2.325,
+              2.592
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb3",
+          "Tb4"
+        ],
+        "shared_oxygen_labels": [
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 4.446,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 130.3,
+            "metal_oxygen_distances_angstrom": [
+              2.486,
+              2.413
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3",
+        "Tb4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "PIZNOD crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C109 H216 N12 O27 Tb4 2-,2(C8 H20 N1 1+). From the CIF bond table, Tb1 (Tb) has 7 O neighbors; Tb2 (Tb) has 7 O neighbors; Tb3 (Tb) has 8 O neighbors; Tb4 (Tb) has 8 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 4.280-4.446 Å (not direct metal-metal bonds). Computed M-O-M angles span 116.97-130.30°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C125H256N14O27Tb4.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic402936z",
+    "formula": "C125H256N14O27Tb4",
+    "compound_name": "[NH2Bu2]2[Tb4(CO3)(O2CNBu2)12]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

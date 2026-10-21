@@ -1,0 +1,525 @@
+{
+  "title": "A family of tetranuclear quinolinolate Dy(III)-based single-molecule magnets: effects of periphery ligand replacement on their magnetic relaxation",
+  "doi": "10.1039/c5dt04362j",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[{Dy(q)2(acac)}2(μ3-OH)2{Dy(q)(acac)}2]·(CH2Cl2)2",
+      "formula": "C76H70Cl4Dy4N6O16",
+      "ccdc_numbers": [
+        "1400353"
+      ],
+      "ccdc_refcodes": [
+        "IPONEI"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "planar tetranuclear Dy4 cluster with 8-quinolinolate and peripheral β-diketonate ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dyq3·H2O (0.047 g, 0.075 mmol) and equimolar Dy(acac)3·H2O (0.036 g, 0.075 mmol) were added to dichloromethane (30 mL) and stirred for 3 hours, giving a clear solution. After filtration, the concentrated dichloromethane solution was layered with n-hexane to afford yellow crystals after one week.",
+        "reagents": [
+          {
+            "name": "Dyq3·H2O",
+            "formula": "Dyq3·H2O",
+            "role": "metal/ligand precursor",
+            "amount": "0.047 g, 0.075 mmol"
+          },
+          {
+            "name": "Dy(acac)3·H2O",
+            "formula": "Dy(acac)3·H2O",
+            "role": "metal/ligand precursor",
+            "amount": "0.036 g, 0.075 mmol"
+          }
+        ],
+        "solvents": [
+          "dichloromethane",
+          "n-hexane"
+        ],
+        "temperature": null,
+        "time": "stirred 3 h; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by filtration and layering crystallization",
+        "workup_and_crystallization": "filtration; concentrated CH2Cl2 solution layered with n-hexane; yellow crystals after one week",
+        "yield": "0.062 g (75.2%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field Dy4 SMM. χMT = 58.02 cm3 K mol−1 at 300 K (1000 Oe), decreasing to 31.06 cm3 K mol−1 at 1.8 K. Magnetization at 2 K reaches 22.35 Nβ without saturation at 7 T. Frequency-dependent χ″ peaks near 10 K indicate slow relaxation with QTM below ~7 K. Raman+Orbach fits give Ueff/kB = 50 K, τ0 = 2.7×10−6 s at zero field and Ueff/kB = 64 K, τ0 = 9.6×10−7 s at 600 Oe; high-T Arrhenius linear region Ueff/kB = 52 K at zero field. Cole–Cole α = 0.03–0.3 (5–11.5 K).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 58.02,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 31.06,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 22.35,
+            "unit": "Nβ",
+            "conditions": "2 K, up to 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": 50,
+            "unit": "K",
+            "conditions": "zero dc field; Raman+Orbach fit, n=1.2, τ0=2.7e-6 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": 64,
+            "unit": "K",
+            "conditions": "600 Oe dc; Raman+Orbach fit, n=2.5, τ0=9.6e-7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB (Arrhenius high-T linear region)",
+            "value": 52,
+            "unit": "K",
+            "conditions": "zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1400353 / IPONEI"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 2–4"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[{Dy(q)2(DBM)}2(μ3-OH)2{Dy(q)(DBM)}2]·(CH2Cl2)5",
+      "formula": "C119H90Cl10Dy4N6O16",
+      "ccdc_numbers": [
+        "1400355"
+      ],
+      "ccdc_refcodes": [
+        "IPONIM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "planar tetranuclear Dy4 cluster with 8-quinolinolate and peripheral β-diketonate ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same procedure as complex 1: 1:1 reaction of Dyq3·H2O and Dy(DBM)3 hydrate in dichloromethane, filtration, and layering of the concentrated CH2Cl2 solution with n-hexane to give yellow crystals after one week.",
+        "reagents": [
+          {
+            "name": "Dyq3·H2O",
+            "formula": "Dyq3·H2O",
+            "role": "metal/ligand precursor",
+            "amount": "equimolar 1:1 with Dy(DBM)3 hydrate; same procedure as 1"
+          },
+          {
+            "name": "Dy(DBM)3 hydrate",
+            "formula": "Dy(DBM)3·nH2O",
+            "role": "metal/ligand precursor",
+            "amount": "equimolar 1:1 with Dyq3·H2O; same procedure as 1"
+          }
+        ],
+        "solvents": [
+          "dichloromethane",
+          "n-hexane"
+        ],
+        "temperature": null,
+        "time": "crystals after 1 week (same procedure as 1, which was stirred 3 h)",
+        "ph": null,
+        "vessel_or_method": "solution reaction, filtration, and layering crystallization (same as 1)",
+        "workup_and_crystallization": "filtration; concentrated CH2Cl2 layered with n-hexane; yellow crystals after one week",
+        "yield": "0.057 g (76.3%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field Dy4 SMM. χMT = 56.41 cm3 K mol−1 at 300 K, 35.95 cm3 K mol−1 at 1.8 K. Magnetization 23.24 Nβ without saturation at 7 T. χ″ peaks from ~7–12 K (1–1000 Hz); first clear peak at 325 Hz. Raman+Orbach: Ueff/kB = 46 K, τ0 = 2.6×10−6 s (zero field) and 71 K, τ0 = 3.7×10−7 s (1500 Oe). High-T Arrhenius Ueff/kB = 41 K at zero field. Cole–Cole α = 0.07–0.3 (5.5–11 K).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 56.41,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 35.95,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 23.24,
+            "unit": "Nβ",
+            "conditions": "2 K, up to 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": 46,
+            "unit": "K",
+            "conditions": "zero dc field; Raman+Orbach fit, n=1.5, τ0=2.6e-6 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": 71,
+            "unit": "K",
+            "conditions": "1500 Oe dc; Raman+Orbach fit, n=2.9, τ0=3.7e-7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB (Arrhenius high-T linear region)",
+            "value": 41,
+            "unit": "K",
+            "conditions": "zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1400355 / IPONIM"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1 and 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 2–4"
+        }
+      ]
+    },
+    {
+      "compound_label": "2a",
+      "compound_name": "[{Y(q)2(DBM)}2(μ3-OH)2{Dy(q)(DBM)}2]·(CH2Cl2)6",
+      "formula": "C117H86Cl6Dy2Y2N6O16 (as written in EA as C117H86Cl6Dy4N6O16; 50% Y/Dy diluted analogue of 2)",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy",
+          "Y"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "planar tetranuclear 8-quinolinolate/β-diketonate cluster; 50% magnetically diluted analogue of 2"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Yq3·H2O (0.027 g, 0.05 mmol) and equimolar Dy(DBM)3·2H2O (0.044 g, 0.05 mmol) were added to dichloromethane (20 mL) and stirred for half an hour, giving a clear solution. After filtration, the concentrated dichloromethane solution was layered with n-hexane to afford yellow crystals after one week.",
+        "reagents": [
+          {
+            "name": "Yq3·H2O",
+            "formula": "Yq3·H2O",
+            "role": "diamagnetic metal/ligand precursor",
+            "amount": "0.027 g, 0.05 mmol"
+          },
+          {
+            "name": "Dy(DBM)3·2H2O",
+            "formula": "Dy(DBM)3·2H2O",
+            "role": "paramagnetic metal/ligand precursor",
+            "amount": "0.044 g, 0.05 mmol"
+          }
+        ],
+        "solvents": [
+          "dichloromethane",
+          "n-hexane"
+        ],
+        "temperature": null,
+        "time": "stirred 0.5 h; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution reaction, filtration, and layering crystallization",
+        "workup_and_crystallization": "filtration; concentrated CH2Cl2 layered with n-hexane; yellow crystals after one week",
+        "yield": "0.053 g (74.6%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "50% Y-diluted analogue of 2 used to show molecular-origin relaxation. Nearly identical χ″ peaks versus 2, with more pronounced low-T QTM. Extracted Ueff/kB = 39 K, τ0 = 3.9×10−6 s from ln(τ) vs 1/T.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": 39,
+            "unit": "K",
+            "conditions": "diluted sample 2a; τ0 = 3.9e-6 s; Fig. S17"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 2a"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 2a"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; diluted-sample ac data"
+        }
+      ]
+    },
+    {
+      "compound_label": "2b",
+      "compound_name": "[{Dy(q)2(DBM)}2(μ3-OH)2{Y(q)(DBM)}2]·(CH2Cl2)3",
+      "formula": "C120H92Cl12Dy2Y2N6O16 (EA given as C120H92Cl12Dy4N6O16; 50% Y/Dy diluted analogue of 2)",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy",
+          "Y"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "planar tetranuclear 8-quinolinolate/β-diketonate cluster; 50% magnetically diluted analogue of 2"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dyq3·H2O (0.031 g, 0.05 mmol) and equimolar Y(DBM)3·2H2O (0.040 g, 0.05 mmol) were added to dichloromethane (20 mL) and stirred for half an hour, giving a clear solution. After filtration, the concentrated dichloromethane solution was layered with n-hexane to afford yellow crystals after one week.",
+        "reagents": [
+          {
+            "name": "Dyq3·H2O",
+            "formula": "Dyq3·H2O",
+            "role": "paramagnetic metal/ligand precursor",
+            "amount": "0.031 g, 0.05 mmol"
+          },
+          {
+            "name": "Y(DBM)3·2H2O",
+            "formula": "Y(DBM)3·2H2O",
+            "role": "diamagnetic metal/ligand precursor",
+            "amount": "0.040 g, 0.05 mmol"
+          }
+        ],
+        "solvents": [
+          "dichloromethane",
+          "n-hexane"
+        ],
+        "temperature": null,
+        "time": "stirred 0.5 h; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution reaction, filtration, and layering crystallization",
+        "workup_and_crystallization": "filtration; concentrated CH2Cl2 layered with n-hexane; yellow crystals after one week",
+        "yield": "0.047 g (66.2%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Complementary 50% Y-diluted analogue of 2. Relaxation remains molecular; Ueff/kB = 39 K, τ0 = 3.7×10−6 s. QTM is faster than in undiluted 2.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": 39,
+            "unit": "K",
+            "conditions": "diluted sample 2b; τ0 = 3.7e-6 s; Fig. S17"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 2b"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 2b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; diluted-sample ac data"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[{Dy(q)2(hfac)}2(μ3-OH)2{Dy(q)(hfac)}2]·CHCl3",
+      "formula": "C75H43Cl3Dy4F24N6O16",
+      "ccdc_numbers": [
+        "1400356"
+      ],
+      "ccdc_refcodes": [
+        "IPONOS"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "planar tetranuclear Dy4 cluster with 8-quinolinolate and peripheral β-diketonate ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same procedure as used for 2 (itself the same CH2Cl2 solution/layering method as 1), from 1:1 Dyq3·H2O and Dy(hfac)3 hydrate, yielding the CHCl3 solvate.",
+        "reagents": [
+          {
+            "name": "Dyq3·H2O",
+            "formula": "Dyq3·H2O",
+            "role": "metal/ligand precursor",
+            "amount": "equimolar 1:1; same procedure as 2/1"
+          },
+          {
+            "name": "Dy(hfac)3 hydrate",
+            "formula": "Dy(hfac)3·nH2O",
+            "role": "metal/ligand precursor",
+            "amount": "equimolar 1:1; same procedure as 2/1"
+          }
+        ],
+        "solvents": [
+          "dichloromethane",
+          "n-hexane",
+          "chloroform (lattice solvent in product)"
+        ],
+        "temperature": null,
+        "time": "crystals after 1 week (same procedure as 1/2)",
+        "ph": null,
+        "vessel_or_method": "solution reaction, filtration, and layering crystallization (same as 2)",
+        "workup_and_crystallization": "same workup as 1/2; product isolated as the CHCl3 solvate",
+        "yield": "0.101 g (69.8%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Field-induced rather than zero-field SMM despite a similar Dy4 core. χMT = 57.17 cm3 K mol−1 at 300 K and 35.32 cm3 K mol−1 at 1.8 K. Magnetization 24.51 Nβ without saturation at 7 T. Only rising frequency-dependent χ″ vs T at zero field; no full χ″ vs ν peaks even under 1500 Oe, so Ueff could not be extracted. QTM is more pronounced than in 1 and 2.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 57.17,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 35.32,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 24.51,
+            "unit": "Nβ",
+            "conditions": "2 K, up to 7 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 3"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1400356 / IPONOS"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 2 and 5"
+        }
+      ]
+    }
+  ]
+}

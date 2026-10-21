@@ -1,0 +1,540 @@
+{
+  "title": "Slow Magnetic Relaxation and Single Molecule Toroidal Behaviour in a Family of Heptanuclear {CrIIILnIII6} (Ln = Tb, Ho, and Er) Complexes",
+  "doi": "10.1002/anie.201711844",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[CrIIITbIII6(OH)8(o-tol)12(NO3)(MeOH)5]·2MeOH",
+      "formula": "[CrTb6(OH)8(o-tol)12(NO3)(MeOH)5]·2MeOH",
+      "ccdc_numbers": [
+        "1530337"
+      ],
+      "ccdc_refcodes": [
+        "TEMVIT"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "heptanuclear {CrLn6} of two Ln3 triangles linked by octahedral CrIII"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Under aerobic conditions, Cr(NO3)3·9H2O (0.4 g, 1 mmol) and Tb(NO3)3·6H2O (0.22 g, 0.5 mmol) were dissolved in MeCN (20 mL). ortho-Toluic acid (0.14 g, 1.0 mmol) and triethylamine (0.55 mL, 4.0 mmol) were added to give a pale purple solution, which was stirred for 4 h. The solvent was removed to a purple oil, which was redissolved in MeOH/iPrOH (1:1) and left for slow evaporation. Pale purple crystals formed within 10–15 days.",
+        "reagents": [
+          {
+            "name": "chromium(III) nitrate nonahydrate",
+            "formula": "Cr(NO3)3·9H2O",
+            "role": "metal source",
+            "amount": "0.4 g, 1 mmol"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.22 g, 0.5 mmol"
+          },
+          {
+            "name": "ortho-toluic acid",
+            "formula": null,
+            "role": "ligand",
+            "amount": "0.14 g, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": null,
+            "role": "base",
+            "amount": "0.55 mL, 4.0 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH",
+          "iPrOH"
+        ],
+        "temperature": null,
+        "time": "stirred 4 h; crystals in 10–15 days",
+        "ph": null,
+        "vessel_or_method": "aerobic solution reaction followed by slow evaporation",
+        "workup_and_crystallization": "Solvent removed to a purple oil, redissolved in MeOH/iPrOH (1:1), and crystallized by slow evaporation.",
+        "yield": "approximately 30% crystalline product"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Field-induced SMM: no zero-field out-of-phase ac signal, but frequency-dependent maxima below about 4 K in 3000 Oe with two processes (Ueff = 12.3 K, τ0 = 6.3×10−8 s for the thermally activated process; a second, nearly temperature-independent QTM process). Room-temperature χMT = 68.95 cm3 K mol−1 and M = 28 Nβ at 2 K and 5 T without saturation. μ-SQUID hysteresis opens below 0.03 K. Ab initio/POLY_ANISO analysis gives antiferromagnetic Cr–Tb and Tb–Tb coupling and a small exchange barrier of 0.65 cm−1, and predicts a con-rotating ferrotoroidal ground state.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 68.95,
+            "unit": "cm3 K mol-1",
+            "conditions": "room temperature"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 28,
+            "unit": "Nβ",
+            "conditions": "2 K, 5 T, not saturated"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 12.3,
+            "unit": "K",
+            "conditions": "ac susceptibility, 3000 Oe dc field, 3.5 Oe ac field, Arrhenius fit of the temperature-dependent process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "6.3e-8",
+            "unit": "s",
+            "conditions": "3000 Oe dc field, temperature-dependent relaxation process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "coercive field",
+            "value": 0.4,
+            "unit": "T",
+            "conditions": "μ-SQUID, hysteresis below 0.03 K, 0.03 K, sweep rate 0.14 T/s, field along the Ln–Ln bond between triangles"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange relaxation barrier",
+            "value": 0.65,
+            "unit": "cm-1",
+            "conditions": "POLY_ANISO exchange-coupled ground to first excited state"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1 total Cr–Tb",
+            "value": -0.1,
+            "unit": "cm-1",
+            "conditions": "computed Jexch = -0.2, Jdip = 0.1 cm-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J2 total Tb–Tb",
+            "value": -0.08,
+            "unit": "cm-1",
+            "conditions": "computed Jexch = -0.1, Jdip = 0.02 cm-1; zJ = -0.01 cm-1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "introduction, molecular formulae of 1–3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1530337 / TEMVIT"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion, Figures 2–6 and Table 1"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[CrIIIHoIII6(OH)8(o-tol)12(NO3)(MeOH)5]·2MeOH",
+      "formula": "[CrHo6(OH)8(o-tol)12(NO3)(MeOH)5]·2MeOH",
+      "ccdc_numbers": [
+        "1530338"
+      ],
+      "ccdc_refcodes": [
+        "TEMVOZ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "heptanuclear {CrLn6} of two Ln3 triangles linked by octahedral CrIII"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "The procedure for 1 was followed under aerobic conditions, replacing the terbium salt with Ho(NO3)3·6H2O (0.22 g, 0.5 mmol). Cr(NO3)3·9H2O (0.4 g, 1 mmol), ortho-toluic acid (0.14 g, 1.0 mmol) and triethylamine (0.55 mL, 4.0 mmol) in MeCN (20 mL) were used as for 1; the mixture was stirred for 4 h, the solvent removed, and the residue crystallized by slow evaporation from MeOH/iPrOH (1:1). Pale purple crystals formed within 10–15 days.",
+        "reagents": [
+          {
+            "name": "chromium(III) nitrate nonahydrate",
+            "formula": "Cr(NO3)3·9H2O",
+            "role": "metal source",
+            "amount": "0.4 g, 1 mmol"
+          },
+          {
+            "name": "holmium(III) nitrate hexahydrate",
+            "formula": "Ho(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.22 g, 0.5 mmol"
+          },
+          {
+            "name": "ortho-toluic acid",
+            "formula": null,
+            "role": "ligand",
+            "amount": "0.14 g, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": null,
+            "role": "base",
+            "amount": "0.55 mL, 4.0 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH",
+          "iPrOH"
+        ],
+        "temperature": null,
+        "time": "stirred 4 h; crystals in 10–15 days",
+        "ph": null,
+        "vessel_or_method": "aerobic solution reaction followed by slow evaporation",
+        "workup_and_crystallization": "Same work-up as 1: solvent removed and the residue crystallized from MeOH/iPrOH (1:1) by slow evaporation.",
+        "yield": "approximately 25% crystalline product"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Room-temperature χMT = 86.32 cm3 K mol−1 and M = 36 Nβ at 2 K and 5 T. No out-of-phase ac signal is observed in zero field or in a 3000 Oe bias field. μ-SQUID hysteresis is observed below 0.03 K. Calculations give ferromagnetic Ho–Ho coupling (Jtot = 0.6 cm−1) from a small anisotropy–vector angle (17.6°) and antiferromagnetic Cr–Ho coupling, with an exchange barrier of only 0.1 cm−1, and predict a con-rotating ferrotoroidal ground state.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 86.32,
+            "unit": "cm3 K mol-1",
+            "conditions": "room temperature"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 36,
+            "unit": "Nβ",
+            "conditions": "2 K, 5 T, not saturated"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "coercive field",
+            "value": 0.4,
+            "unit": "T",
+            "conditions": "μ-SQUID, hysteresis below 0.03 K; Figure 4, 0.03 K, sweep rate 0.14 T s−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange relaxation barrier",
+            "value": 0.1,
+            "unit": "cm-1",
+            "conditions": "POLY_ANISO exchange-coupled ground to first excited state"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1 total Cr–Ho",
+            "value": -0.25,
+            "unit": "cm-1",
+            "conditions": "computed Jexch = -0.18, Jdip = -0.07 cm-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J2 total Ho–Ho",
+            "value": 0.6,
+            "unit": "cm-1",
+            "conditions": "computed Jexch = 0.5, Jdip = 0.1 cm-1; zJ = -0.01 cm-1; θ = 17.6°"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "introduction, molecular formulae of 1–3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1530338 / TEMVOZ"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion, Figures 2 and 4–6 and Table 1"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[CrIIIErIII6(OH)8(o-tol)12(NO3)(MeOH)5]·2MeOH",
+      "formula": "[CrEr6(OH)8(o-tol)12(NO3)(MeOH)5]·2MeOH",
+      "ccdc_numbers": [
+        "1530339"
+      ],
+      "ccdc_refcodes": [
+        "TEMVUF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "heptanuclear {CrLn6} of two Ln3 triangles linked by octahedral CrIII"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "The procedure for 1 was followed under aerobic conditions, replacing the terbium salt with Er(NO3)3·6H2O (0.22 g, 0.5 mmol). Cr(NO3)3·9H2O (0.4 g, 1 mmol), ortho-toluic acid (0.14 g, 1.0 mmol) and triethylamine (0.55 mL, 4.0 mmol) in MeCN (20 mL) were used as for 1; the mixture was stirred for 4 h, the solvent removed, and the residue crystallized by slow evaporation from MeOH/iPrOH (1:1). Pale purple crystals formed within 10–15 days.",
+        "reagents": [
+          {
+            "name": "chromium(III) nitrate nonahydrate",
+            "formula": "Cr(NO3)3·9H2O",
+            "role": "metal source",
+            "amount": "0.4 g, 1 mmol"
+          },
+          {
+            "name": "erbium(III) nitrate hexahydrate",
+            "formula": "Er(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.22 g, 0.5 mmol"
+          },
+          {
+            "name": "ortho-toluic acid",
+            "formula": null,
+            "role": "ligand",
+            "amount": "0.14 g, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": null,
+            "role": "base",
+            "amount": "0.55 mL, 4.0 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH",
+          "iPrOH"
+        ],
+        "temperature": null,
+        "time": "stirred 4 h; crystals in 10–15 days",
+        "ph": null,
+        "vessel_or_method": "aerobic solution reaction followed by slow evaporation",
+        "workup_and_crystallization": "Same work-up as 1: solvent removed and the residue crystallized from MeOH/iPrOH (1:1) by slow evaporation.",
+        "yield": "approximately 40% crystalline product"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Field-induced SMM: no zero-field χ″, but frequency-dependent maxima below about 4 K in 3000 Oe. Two relaxation processes are observed; the temperature-dependent process has Ueff = 4.5 K and τ0 = 9.1×10−8 s. Room-temperature χMT = 67.25 cm3 K mol−1 and M = 30 Nβ at 2 K and 5 T. No μ-SQUID hysteresis is observed. Exchange coupling is the strongest of the series and antiferromagnetic (Cr–Er Jtot = −1.2 cm−1; Er–Er Jtot = −0.85 cm−1). The calculated ground-state barrier is 0.4 cm−1, with a second excited-state barrier of 3.5 cm−1 (5.0 K). A local toroidal moment is not predicted.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 67.25,
+            "unit": "cm3 K mol-1",
+            "conditions": "room temperature"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 30,
+            "unit": "Nβ",
+            "conditions": "2 K, 5 T, not saturated"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 4.5,
+            "unit": "K",
+            "conditions": "ac susceptibility, 3000 Oe dc field, temperature-dependent process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "9.1e-8",
+            "unit": "s",
+            "conditions": "3000 Oe dc field, temperature-dependent relaxation process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange relaxation barrier",
+            "value": 0.4,
+            "unit": "cm-1",
+            "conditions": "POLY_ANISO exchange-coupled ground to first excited state"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "second calculated relaxation barrier",
+            "value": 3.5,
+            "unit": "cm-1",
+            "conditions": "relaxation via the third excited exchange state; equivalent to 5.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1 total Cr–Er",
+            "value": -1.2,
+            "unit": "cm-1",
+            "conditions": "computed Jexch = -1.0, Jdip = -0.2 cm-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J2 total Er–Er",
+            "value": -0.85,
+            "unit": "cm-1",
+            "conditions": "computed Jexch = -0.8, Jdip = -0.05 cm-1; zJ = -0.04 cm-1; θ = 59.5°"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "introduction, molecular formulae of 1–3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1530339 / TEMVUF; lattice includes MeOH and iPrOH"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, synthesis of 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion, Figures 2 and 3 and Table 1"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[AlIIILuIII6(OH)8(o-tol)12(NO3)(MeOH)5]·2MeOH",
+      "formula": "[AlLu6(OH)8(o-tol)12(NO3)(MeOH)5]·2MeOH",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Lu"
+        ],
+        "other_metal_elements": [
+          "Al"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "diamagnetic {AlLu6} analogue of the heptanuclear {CrLn6} family"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "The procedure for 1 was followed under aerobic conditions using Lu(NO3)3·6H2O (0.22 g, 0.5 mmol) and Al(NO3)3·9H2O (0.375 g, 1 mmol) in place of the terbium and chromium nitrates, with ortho-toluic acid (0.14 g, 1.0 mmol) and triethylamine (0.55 mL, 4.0 mmol) in MeCN (20 mL). After the same 4 h stirring, solvent removal and slow evaporation from MeOH/iPrOH (1:1), colorless crystals formed within 10–15 days.",
+        "reagents": [
+          {
+            "name": "aluminium(III) nitrate nonahydrate",
+            "formula": "Al(NO3)3·9H2O",
+            "role": "metal source",
+            "amount": "0.375 g, 1 mmol"
+          },
+          {
+            "name": "lutetium(III) nitrate hexahydrate",
+            "formula": "Lu(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.22 g, 0.5 mmol"
+          },
+          {
+            "name": "ortho-toluic acid",
+            "formula": null,
+            "role": "ligand",
+            "amount": "0.14 g, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": null,
+            "role": "base",
+            "amount": "0.55 mL, 4.0 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH",
+          "iPrOH"
+        ],
+        "temperature": null,
+        "time": "stirred 4 h; crystals in 10–15 days",
+        "ph": null,
+        "vessel_or_method": "aerobic solution reaction followed by slow evaporation",
+        "workup_and_crystallization": "Same work-up as 1; colorless crystals from MeOH/iPrOH (1:1) by slow evaporation.",
+        "yield": "approximately 40% crystalline product"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "dilution discussion, diamagnetic {AlLu6} matrix"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, synthesis of 4"
+        }
+      ]
+    }
+  ]
+}

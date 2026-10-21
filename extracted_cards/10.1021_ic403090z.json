@@ -1,0 +1,673 @@
+{
+  "title": "Hexanuclear, Heterometallic, Ni3Ln3 Complexes Possessing O-Capped Homo- and Heterometallic Structural Subunits: SMM Behavior of the Dysprosium Analogue",
+  "doi": "10.1021/ic403090z",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Ni3Dy3(μ3-O)(μ3-OH)3(L)3(μ-OOCCMe3)3](ClO4)·8CH3CN·3CH2Cl2·5.5H2O",
+      "formula": "[Ni3Dy3(μ3-O)(μ3-OH)3(L)3(μ-OOCCMe3)3](ClO4)·8CH3CN·3CH2Cl2·5.5H2O",
+      "ccdc_numbers": [
+        "1020356"
+      ],
+      "ccdc_refcodes": [
+        "VOKPAO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "O-capped Ni3Ln3 hexanuclear cluster with incomplete cubane (Ln2NiO4/Ln3O4) subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "General protocol for 1–5: a methanolic solution (5 mL) of Ln(NO3)3·nH2O (3 equiv) was added dropwise under stirring to a 20 mL methanolic solution of LH2 (2 equiv) and triethylamine (8 equiv). Solid Ni(ClO4)2·6H2O (3 equiv) was added and the mixture was stirred 1.5 h, giving a deep green solution. Pivalic acid (4 equiv) was then added and stirring continued 12 h. Solvent was removed in vacuo; the green solid was washed with diethyl ether (3 × 5 mL), redissolved in acetonitrile/dichloromethane (1:1), filtered, and crystallized by slow evaporation at room temperature. After 1 week, green block crystals suitable for X-ray analysis were isolated. For 1 the stated quantities were used; yield based on Dy.",
+        "reagents": [
+          {
+            "name": "nickel(II) perchlorate hexahydrate",
+            "formula": "Ni(ClO4)2·6H2O",
+            "role": "Ni source",
+            "amount": "0.062 g, 0.169 mmol (3 equiv)"
+          },
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "Ln source",
+            "amount": "0.074 g, 0.169 mmol (3 equiv; OCR in MD as mg)"
+          },
+          {
+            "name": "LH2 (6,6'-{(2-(dimethylamino)ethylazanediyl)bis(methylene)}bis(2-methoxy-4-methylphenol))",
+            "formula": "C22H32N2O4",
+            "role": "chelating ligand",
+            "amount": "0.044 g, 0.113 mmol (2 equiv)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.046 g, 0.454 mmol (8 equiv)"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "HOOCCMe3",
+            "role": "bridging coligand",
+            "amount": "0.023 g, 0.223 mmol (4 equiv)"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "diethyl ether (wash)",
+          "acetonitrile",
+          "dichloromethane"
+        ],
+        "temperature": "room temperature crystallization",
+        "time": "1.5 h after Ni addition, then 12 h after pivalic acid; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution stirring; crystallization by slow evaporation",
+        "workup_and_crystallization": "solvent stripped in vacuo; green solid washed with Et2O (3 × 5 mL), redissolved in MeCN/CH2Cl2 (1:1), filtered; slow evaporation at RT gave green blocks",
+        "yield": "0.096 g, 57% (based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "DC susceptibility (1.8–300 K, 0.05 T) and magnetization data for the Ni3Dy3 cluster; χT vs T shows a minimum near 45 K then an increase to 1.8 K, interpreted as competition between crystal-field depopulation and intramolecular Ni–Ln ferromagnetic coupling. Zero-field ac data are frequency-dependent; under 3000 Oe, 1 shows χ'/χ'' maxima and SMM-like slow relaxation with a very small estimated barrier (~10 K). Cole–Cole fit at 1.8 K indicates a broad distribution of relaxation times.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT (room temperature)",
+            "value": "44.8",
+            "unit": "emu K mol-1",
+            "conditions": "polycrystalline sample, 0.05 T, 1.8–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization at 7 T",
+            "value": "19.0",
+            "unit": "μB",
+            "conditions": "high field 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff (Arrhenius estimate)",
+            "value": "about 10",
+            "unit": "K",
+            "conditions": "ac susceptibility under 3000 Oe dc field; 2 Oe oscillating field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "about 1e-6",
+            "unit": "s",
+            "conditions": "Arrhenius estimate from ac data under 3000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole α",
+            "value": "0.262(4)",
+            "unit": null,
+            "conditions": "1.8 K, 3000 Oe dc, 2 Oe oscillating field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ0",
+            "value": "8.07(2)",
+            "unit": "emu mol-1",
+            "conditions": "Cole-Cole fit at 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ∞",
+            "value": "1.27(3)",
+            "unit": "emu mol-1",
+            "conditions": "Cole-Cole fit at 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "relaxation time τ",
+            "value": "0.000818(8)",
+            "unit": "s",
+            "conditions": "Cole-Cole fit at 1.8 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental syntheses of 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract and Experimental Section, compound 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1020356 / VOKPAO"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Results (core of 1, Figures 3–5)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Preparation of hexanuclear complexes 1–5 and compound 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Studies; Figures 6, 9, 10; Conclusion"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Ni3Tb3(μ3-O)(μ3-OH)3(L)3(μ-OOCCMe3)3](ClO4)·5CH2Cl2·6.5H2O",
+      "formula": "[Ni3Tb3(μ3-O)(μ3-OH)3(L)3(μ-OOCCMe3)3](ClO4)·5CH2Cl2·6.5H2O",
+      "ccdc_numbers": [
+        "1020357"
+      ],
+      "ccdc_refcodes": [
+        "VOKPES"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "O-capped Ni3Ln3 hexanuclear cluster with incomplete cubane (Ln2NiO4/Ln3O4) subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same general methanolic protocol as 1–5 using Tb(NO3)3·5H2O; work-up and crystallization identical (Et2O wash; MeCN/CH2Cl2 1:1 slow evaporation, 1 week, green blocks).",
+        "reagents": [
+          {
+            "name": "nickel(II) perchlorate hexahydrate",
+            "formula": "Ni(ClO4)2·6H2O",
+            "role": "Ni source",
+            "amount": "0.062 g, 0.169 mmol"
+          },
+          {
+            "name": "terbium(III) nitrate pentahydrate",
+            "formula": "Tb(NO3)3·5H2O",
+            "role": "Ln source",
+            "amount": "0.074 g, 0.170 mmol (OCR in MD as mg)"
+          },
+          {
+            "name": "LH2",
+            "formula": "C22H32N2O4",
+            "role": "chelating ligand",
+            "amount": "0.044 g, 0.113 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.046 g, 0.454 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "HOOCCMe3",
+            "role": "bridging coligand",
+            "amount": "0.023 g, 0.223 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "diethyl ether (wash)",
+          "acetonitrile",
+          "dichloromethane"
+        ],
+        "temperature": "room temperature crystallization",
+        "time": "1.5 h then 12 h stirring; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution stirring; slow evaporation",
+        "workup_and_crystallization": "as for 1; green block crystals",
+        "yield": "0.090 g, 56% (based on Tb)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "DC χT increases on cooling to a maximum near 3 K, consistent with Ni–Ln ferromagnetic coupling competing with crystal-field effects. No out-of-phase ac signal down to 1.8 K (0 or 3000 Oe). Magnetization at 7 T is 21.3 μB.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT (room temperature)",
+            "value": "39.7",
+            "unit": "emu K mol-1",
+            "conditions": "0.05 T, 1.8–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization at 7 T",
+            "value": "21.3",
+            "unit": "μB",
+            "conditions": "7 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section, compound 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1020357 / VOKPES"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, complexes 1–5 and 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Studies; Figure 6"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Ni3Gd3(μ3-O)(μ3-OH)3(L)3(μ-OOCCMe3)3](ClO4)·15CH3CN·18CH2Cl2·3MeOH·7.5H2O",
+      "formula": "[Ni3Gd3(μ3-O)(μ3-OH)3(L)3(μ-OOCCMe3)3](ClO4)·15CH3CN·18CH2Cl2·3CH3OH·7.5H2O",
+      "ccdc_numbers": [
+        "1020358"
+      ],
+      "ccdc_refcodes": [
+        "VOKPIW"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "O-capped Ni3Ln3 hexanuclear cluster with incomplete cubane (Ln2NiO4/Ln3O4) subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same general protocol as 1–5 using Gd(NO3)3·6H2O; identical work-up and crystallization.",
+        "reagents": [
+          {
+            "name": "nickel(II) perchlorate hexahydrate",
+            "formula": "Ni(ClO4)2·6H2O",
+            "role": "Ni source",
+            "amount": "0.062 g, 0.169 mmol"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.077 g, 0.170 mmol (OCR in MD as mg)"
+          },
+          {
+            "name": "LH2",
+            "formula": "C22H32N2O4",
+            "role": "chelating ligand",
+            "amount": "0.044 g, 0.113 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.046 g, 0.454 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "HOOCCMe3",
+            "role": "bridging coligand",
+            "amount": "0.023 g, 0.225 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "diethyl ether (wash)",
+          "acetonitrile",
+          "dichloromethane"
+        ],
+        "temperature": "room temperature crystallization",
+        "time": "1.5 h then 12 h stirring; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution stirring; slow evaporation",
+        "workup_and_crystallization": "as for 1; green block crystals",
+        "yield": "0.109 g, 41% (based on Gd)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Isotropic Gd analogue: χT increases on cooling to a maximum near 3 K. Magpack fit of χT(T) with Ni–Gd (J1) ferromagnetic and Gd–Gd (J2) weakly antiferromagnetic exchange plus a small AF mean-field zJ gives S = 27/2 ground state. Magnetization at 7 T is 26.8 μB and continues to rise linearly at high field due to low-lying excited states. No ac out-of-phase signal down to 1.8 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT (room temperature)",
+            "value": "27.3",
+            "unit": "emu K mol-1",
+            "conditions": "0.05 T, 1.8–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g",
+            "value": "2.01(1)",
+            "unit": null,
+            "conditions": "fit of χT(T) with Magpack; Ni anisotropy neglected"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1 (Ni–Gd)",
+            "value": "0.96(1)",
+            "unit": "cm-1",
+            "conditions": "spin Hamiltonian in Magnetic Studies; Figure 7"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J2 (Gd–Gd)",
+            "value": "-0.18(1)",
+            "unit": "cm-1",
+            "conditions": "same fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "zJ (intermolecular, mean-field)",
+            "value": "-0.043(1)",
+            "unit": "cm-1",
+            "conditions": "same fit; R = 1.3e-5"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "spin ground state S",
+            "value": "27/2",
+            "unit": null,
+            "conditions": "from larger ferromagnetic Ni–Gd interaction"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization at 7 T",
+            "value": "26.8",
+            "unit": "μB",
+            "conditions": "7 T; expected ~27 μB"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section, compound 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1020358 / VOKPIW"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, complexes 1–5 and 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Studies; Figure 7"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Ni3Ho3(μ3-O)(μ3-OH)3(L)3(μ-OOCCMe3)3](ClO4)·15CH3CN·20CH2Cl2·6MeOH·9.5H2O",
+      "formula": "[Ni3Ho3(μ3-O)(μ3-OH)3(L)3(μ-OOCCMe3)3](ClO4)·15CH3CN·20CH2Cl2·6CH3OH·9.5H2O",
+      "ccdc_numbers": [
+        "1020359"
+      ],
+      "ccdc_refcodes": [
+        "VOKPOC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "O-capped Ni3Ln3 hexanuclear cluster with incomplete cubane (Ln2NiO4/Ln3O4) subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same general protocol as 1–5 using Ho(NO3)3·5H2O; identical work-up and crystallization.",
+        "reagents": [
+          {
+            "name": "nickel(II) perchlorate hexahydrate",
+            "formula": "Ni(ClO4)2·6H2O",
+            "role": "Ni source",
+            "amount": "0.062 g, 0.169 mmol"
+          },
+          {
+            "name": "holmium(III) nitrate pentahydrate",
+            "formula": "Ho(NO3)3·5H2O",
+            "role": "Ln source",
+            "amount": "0.075 g, 0.170 mmol (OCR in MD as 0.75 mg)"
+          },
+          {
+            "name": "LH2",
+            "formula": "C22H32N2O4",
+            "role": "chelating ligand",
+            "amount": "0.044 g, 0.113 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.046 g, 0.454 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "HOOCCMe3",
+            "role": "bridging coligand",
+            "amount": "0.023 g, 0.223 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "diethyl ether (wash)",
+          "acetonitrile",
+          "dichloromethane"
+        ],
+        "temperature": "room temperature crystallization",
+        "time": "1.5 h then 12 h stirring; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution stirring; slow evaporation",
+        "workup_and_crystallization": "as for 1; green block crystals",
+        "yield": "0.112 g, 40% (based on Ho)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χT decreases rapidly on cooling; crystal-field depopulation of Ho(III) dominates intramolecular coupling, so the 3d–4f interaction sign is not unambiguous. Magnetization at 7 T (17.6 μB) rises more slowly than for the other analogues. No ac out-of-phase signal down to 1.8 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT (room temperature)",
+            "value": "46.2",
+            "unit": "emu K mol-1",
+            "conditions": "0.05 T, 1.8–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization at 7 T",
+            "value": "17.6",
+            "unit": "μB",
+            "conditions": "7 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section, compound 4"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1020359 / VOKPOC"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, complexes 1–5 and 4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Studies; Figure 6"
+        }
+      ]
+    },
+    {
+      "compound_label": "5",
+      "compound_name": "[Ni3Er3(μ3-O)(μ3-OH)3(L)3(μ-OOCCMe3)3](ClO4)·3CH2Cl2·2MeOH·3H2O",
+      "formula": "[Ni3Er3(μ3-O)(μ3-OH)3(L)3(μ-OOCCMe3)3](ClO4)·3CH2Cl2·2CH3OH·3H2O",
+      "ccdc_numbers": [
+        "1020360"
+      ],
+      "ccdc_refcodes": [
+        "VOKPUI"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "O-capped Ni3Ln3 hexanuclear cluster with incomplete cubane (Ln2NiO4/Ln3O4) subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same general protocol as 1–5 using Er(NO3)3·5H2O; identical work-up and crystallization.",
+        "reagents": [
+          {
+            "name": "nickel(II) perchlorate hexahydrate",
+            "formula": "Ni(ClO4)2·6H2O",
+            "role": "Ni source",
+            "amount": "0.062 g, 0.169 mmol"
+          },
+          {
+            "name": "erbium(III) nitrate pentahydrate",
+            "formula": "Er(NO3)3·5H2O",
+            "role": "Ln source",
+            "amount": "0.075 g, 0.169 mmol (OCR in MD as mg)"
+          },
+          {
+            "name": "LH2",
+            "formula": "C22H32N2O4",
+            "role": "chelating ligand",
+            "amount": "0.044 g, 0.113 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.046 g, 0.454 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "HOOCCMe3",
+            "role": "bridging coligand",
+            "amount": "0.023 g, 0.223 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "diethyl ether (wash)",
+          "acetonitrile",
+          "dichloromethane"
+        ],
+        "temperature": "room temperature crystallization",
+        "time": "1.5 h then 12 h stirring; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution stirring; slow evaporation",
+        "workup_and_crystallization": "as for 1; green block crystals",
+        "yield": "0.086 g, 57% (based on Er)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χT decreases to a minimum near 10 K then increases to 1.8 K, interpreted as competition between crystal-field depopulation and intramolecular Ni–Ln ferromagnetic coupling. Magnetization at 7 T is 21.7 μB. No ac out-of-phase signal down to 1.8 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT (room temperature)",
+            "value": "38.5",
+            "unit": "emu K mol-1",
+            "conditions": "0.05 T, 1.8–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization at 7 T",
+            "value": "21.7",
+            "unit": "μB",
+            "conditions": "7 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section, compound 5"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1020360 / VOKPUI"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, complexes 1–5 and 5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Studies; Figure 6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "refcode": "QINDIE",
+  "ccdc_number": "2263145",
+  "dois": [
+    "10.1039/d3dt01489d"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2263145.cif",
+  "formula_moiety": "C94 H100 F12 Gd6 N16 O26 2+,2(N1 O3 1-)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "14.8651(4)",
+    "b": "20.3306(5)",
+    "c": "19.4606(5)",
+    "alpha": "90",
+    "beta": "98.435(2)",
+    "gamma": "90",
+    "volume": "5817.69",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O13",
+        "O2",
+        "O21",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Gd2",
+      "element": "Gd",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O3",
+        "O4",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Gd3",
+      "element": "Gd",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O4",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Gd4",
+      "element": "Gd",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O18",
+        "O21",
+        "O22",
+        "O29",
+        "O5"
+      ]
+    },
+    {
+      "label": "Gd5",
+      "element": "Gd",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O19",
+        "O20",
+        "O24",
+        "O25",
+        "O26"
+      ]
+    },
+    {
+      "label": "Gd6",
+      "element": "Gd",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O20",
+        "O23",
+        "O24",
+        "O27",
+        "O28"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Gd1",
+          "Gd4"
+        ],
+        "shared_oxygen_labels": [
+          "O21",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.864,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 108.63,
+            "metal_oxygen_distances_angstrom": [
+              2.382,
+              2.376
+            ]
+          },
+          {
+            "oxygen": "O21",
+            "angle_deg": 108.63,
+            "metal_oxygen_distances_angstrom": [
+              2.376,
+              2.382
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd2",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O4",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.783,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 109.33,
+            "metal_oxygen_distances_angstrom": [
+              2.322,
+              2.316
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 110.65,
+            "metal_oxygen_distances_angstrom": [
+              2.299,
+              2.301
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd5",
+          "Gd6"
+        ],
+        "shared_oxygen_labels": [
+          "O20",
+          "O24"
+        ],
+        "metal_metal_separation_angstrom": 3.783,
+        "bridge_geometry": [
+          {
+            "oxygen": "O20",
+            "angle_deg": 109.33,
+            "metal_oxygen_distances_angstrom": [
+              2.322,
+              2.316
+            ]
+          },
+          {
+            "oxygen": "O24",
+            "angle_deg": 110.65,
+            "metal_oxygen_distances_angstrom": [
+              2.299,
+              2.301
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Gd1",
+        "Gd4"
+      ],
+      [
+        "Gd2",
+        "Gd3"
+      ],
+      [
+        "Gd5",
+        "Gd6"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "QINDIE crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C94 H100 F12 Gd6 N16 O26 2+,2(N1 O3 1-). From the CIF bond table, Gd1 (Gd) has 6 O neighbors; Gd2 (Gd) has 5 O neighbors; Gd3 (Gd) has 5 O neighbors; Gd4 (Gd) has 6 O neighbors; Gd5 (Gd) has 5 O neighbors; Gd6 (Gd) has 5 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.783-3.864 Å (not direct metal-metal bonds). Computed M-O-M angles span 108.63-110.65°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C94H100Gd6F12N18O32.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d3dt01489d",
+    "formula": "C94H100Gd6F12N18O32",
+    "compound_name": "[Gd6(HL)4(tfa)4(MeOH)2]·2NO3",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "title": "Construction of a 18-Metal Neodymium(III) Nanoring with NIR Luminescent Sensing to Antibiotics",
+  "doi": "10.1021/acs.inorgchem.0c02840",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "18-metal neodymium(III) nanoring",
+      "formula": "[Nd18(L1)8(HL2)2(OAc)20(MeOH)8(EtOH)6(H2O)4]·2(MeOH)·6(H2O)",
+      "ccdc_numbers": [
+        "2019266"
+      ],
+      "ccdc_refcodes": [
+        "WACJOD"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 18,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Nd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "Nd18 nanoring"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "At room temperature, triethylamine in 1 mL of MeOH (1.0 mol/L) was added to an EtOH solution (9 mL) of Nd(OAc)3·4H2O (0.20 mmol, 0.0640 g), H4L1 (0.20 mmol, 0.0756 g), and H2L2 (0.10 mmol, 0.0136 g). The mixed solution was heated under reflux for 30 min with stirring. Slow diffusion of diethyl ether into the solution at room temperature afforded pale red crystals of 1 after 1 week. Isolated yield 31% (0.0269 g) based on Nd(OAc)3·4H2O.",
+        "reagents": [
+          {
+            "name": "neodymium(III) acetate tetrahydrate",
+            "formula": "Nd(OAc)3·4H2O",
+            "role": "metal source",
+            "amount": "0.20 mmol, 0.0640 g"
+          },
+          {
+            "name": "H4L1 (hexadentate salen-type Schiff base from 2,3-dihydroxybenzaldehyde and 4,5-dimethyl-1,2-phenylenediamine)",
+            "formula": "H4L1",
+            "role": "ligand",
+            "amount": "0.20 mmol, 0.0756 g"
+          },
+          {
+            "name": "H2L2",
+            "formula": "H2L2",
+            "role": "coligand",
+            "amount": "0.10 mmol, 0.0136 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1.0 mol/L in 1 mL MeOH"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "EtOH",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature addition, then reflux; crystallization at room temperature",
+        "time": "reflux 30 min; crystallization 1 week",
+        "ph": null,
+        "vessel_or_method": "solution reflux followed by slow diethyl ether diffusion",
+        "workup_and_crystallization": "slow diffusion of diethyl ether into the reaction solution at room temperature; pale red crystalline material isolated after 1 week",
+        "yield": "31% (0.0269 g) based on Nd(OAc)3·4H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "In CH3CN, 1 shows NIR Nd(III) emission at 884, 1064, and 1337 nm upon 371 nm excitation (lifetime 6.44 μs at 1064 nm; ΦLn 2.58%; overall Φem 0.17%; sensitization efficiency 6.59%). It acts as a selective NIR luminescent sensor for nitrofuran antibiotics via inner-filter quenching, with KSV 1.4×10^4–3.5×10^4 M−1 and LODs 0.9–2.2 μM; selectivity is retained in the presence of other antibiotics.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "NIR emission maxima",
+            "value": "884, 1064, 1337",
+            "unit": "nm",
+            "conditions": "CH3CN; λex = 371 nm; 4F3/2 → 4Ij/2 (j = 9, 11, 13)"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime",
+            "value": 6.44,
+            "unit": "μs",
+            "conditions": "most intense emission at 1064 nm (Figure S7)"
+          },
+          {
+            "property_type": "optical",
+            "name": "intrinsic quantum yield ΦLn",
+            "value": 2.58,
+            "unit": "%",
+            "conditions": "Nd(III) in 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "overall NIR emission quantum yield Φem",
+            "value": 0.17,
+            "unit": "%",
+            "conditions": "Nd(III) nanoring"
+          },
+          {
+            "property_type": "optical",
+            "name": "sensitization efficiency ηsens",
+            "value": 6.59,
+            "unit": "%",
+            "conditions": "ηsens = Φem/ΦLn"
+          },
+          {
+            "property_type": "optical",
+            "name": "KSV NFT",
+            "value": "2.4e4",
+            "unit": "M−1",
+            "conditions": "1 (10 μM) in CH3CN; λex = 371 nm; emission at 1064 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "KSV NFZ",
+            "value": "3.5e4",
+            "unit": "M−1",
+            "conditions": "1 (10 μM) in CH3CN; λex = 371 nm; emission at 1064 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "KSV FZD",
+            "value": "2.3e4",
+            "unit": "M−1",
+            "conditions": "1 (10 μM) in CH3CN; λex = 371 nm; emission at 1064 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "KSV FTD",
+            "value": "1.4e4",
+            "unit": "M−1",
+            "conditions": "1 (10 μM) in CH3CN; λex = 371 nm; emission at 1064 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD NFT/NFZ/FZD/FTD",
+            "value": "0.9, 1.3, 1.3, 2.2",
+            "unit": "μM",
+            "conditions": "LOD = 3σ/KSV"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section synthesis of 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section; crystallography formula C252H290N16Nd18O104"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Crystallography; Accession Codes CCDC 2019266"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row WACJOD / 2019266"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and Discussion; Figure 1 nanoring structure"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photoluminescence Properties; Luminescent Response Behavior to Antibiotics; Figures 3–5"
+        }
+      ]
+    }
+  ]
+}

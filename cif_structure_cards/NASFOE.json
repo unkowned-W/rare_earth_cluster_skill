@@ -1,0 +1,267 @@
+{
+  "refcode": "NASFOE",
+  "ccdc_number": "824903",
+  "dois": [
+    "10.1016/j.inoche.2011.08.007"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\824903.cif",
+  "formula_moiety": "C56 H72 Eu2 Mn2 N12 O14,C2 H3 N1",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "11.4011(10)",
+    "b": "18.9209(16)",
+    "c": "16.7171(14)",
+    "alpha": "90",
+    "beta": "106.44(1)",
+    "gamma": "90",
+    "volume": "3458.76",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Mn1",
+      "element": "Mn",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1B",
+        "O2",
+        "O3B",
+        "O4"
+      ]
+    },
+    {
+      "label": "Eu1B",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1B",
+        "O2B",
+        "O3B",
+        "O5B",
+        "O6B",
+        "O7B"
+      ]
+    },
+    {
+      "label": "Mn1B",
+      "element": "Mn",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1B",
+        "O2B",
+        "O3",
+        "O4B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Mn1"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.574,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 95.48,
+            "metal_oxygen_distances_angstrom": [
+              2.551,
+              2.271
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 109.54,
+            "metal_oxygen_distances_angstrom": [
+              2.451,
+              1.907
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Mn1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.589,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 103.52,
+            "metal_oxygen_distances_angstrom": [
+              2.551,
+              1.998
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 111.76,
+            "metal_oxygen_distances_angstrom": [
+              2.429,
+              1.891
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1B",
+          "Mn1"
+        ],
+        "shared_oxygen_labels": [
+          "O1B",
+          "O3B"
+        ],
+        "metal_metal_separation_angstrom": 3.589,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1B",
+            "angle_deg": 103.52,
+            "metal_oxygen_distances_angstrom": [
+              2.551,
+              1.998
+            ]
+          },
+          {
+            "oxygen": "O3B",
+            "angle_deg": 111.76,
+            "metal_oxygen_distances_angstrom": [
+              2.429,
+              1.891
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1B",
+          "Mn1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1B",
+          "O2B"
+        ],
+        "metal_metal_separation_angstrom": 3.574,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1B",
+            "angle_deg": 95.48,
+            "metal_oxygen_distances_angstrom": [
+              2.551,
+              2.271
+            ]
+          },
+          {
+            "oxygen": "O2B",
+            "angle_deg": 109.54,
+            "metal_oxygen_distances_angstrom": [
+              2.451,
+              1.907
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Mn1",
+          "Mn1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O1B"
+        ],
+        "metal_metal_separation_angstrom": 3.29,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 100.63,
+            "metal_oxygen_distances_angstrom": [
+              2.271,
+              1.998
+            ]
+          },
+          {
+            "oxygen": "O1B",
+            "angle_deg": 100.63,
+            "metal_oxygen_distances_angstrom": [
+              1.998,
+              2.271
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu1B",
+        "Mn1",
+        "Mn1B"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "NASFOE crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C56 H72 Eu2 Mn2 N12 O14,C2 H3 N1. From the CIF bond table, Eu1 (Eu) has 6 O neighbors; Mn1 (Mn) has 5 O neighbors; Eu1B (Eu) has 6 O neighbors; Mn1B (Mn) has 5 O neighbors. Oxygen-bridged metal-site graph: 5 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.290-3.589 Å (not direct metal-metal bonds). Computed M-O-M angles span 95.48-111.76°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [MnIII2EuIII2(hmp)6(μ-N3)2(piv)4]·2CH3CN. Article name explicitly identifies Mn(III), Eu(III).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.inoche.2011.08.007",
+    "formula": "[MnIII2EuIII2(hmp)6(μ-N3)2(piv)4]·2CH3CN",
+    "compound_name": "[MnIII2EuIII2(hmp)6(μ-N3)2(piv)4]·2CH3CN",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "Mn",
+        "state": "III",
+        "basis": "article compound name"
+      },
+      {
+        "element": "Eu",
+        "state": "III",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

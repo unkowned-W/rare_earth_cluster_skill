@@ -1,0 +1,204 @@
+{
+  "refcode": "LIDREX",
+  "ccdc_number": "808802",
+  "dois": [
+    "10.1021/cg3015546"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\808802.cif",
+  "formula_moiety": "C87 H45 Eu3 F36 N9 O30 Tb1,3(C6 H14)",
+  "crystal_system": "rhombohedral",
+  "space_group_hm": "R -3",
+  "international_tables_number": "148",
+  "unit_cell": {
+    "a": "24.8541(7)",
+    "b": "24.8541(7)",
+    "c": "42.446(4)",
+    "alpha": "90.00",
+    "beta": "90.00",
+    "gamma": "120.00",
+    "volume": "22707.2",
+    "Z": "6"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O17",
+        "O18",
+        "O28",
+        "O29",
+        "O30",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O15",
+        "O2",
+        "O3",
+        "O4",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O13",
+        "O14",
+        "O16",
+        "O17",
+        "O27"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O21",
+        "O24",
+        "O25",
+        "O26",
+        "O28",
+        "O29",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Tb1"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 4.036,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 108.39,
+            "metal_oxygen_distances_angstrom": [
+              2.495,
+              2.482
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 113.47,
+            "metal_oxygen_distances_angstrom": [
+              2.37,
+              2.458
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Tb1"
+        ],
+        "shared_oxygen_labels": [
+          "O16",
+          "O17"
+        ],
+        "metal_metal_separation_angstrom": 4.038,
+        "bridge_geometry": [
+          {
+            "oxygen": "O16",
+            "angle_deg": 108.44,
+            "metal_oxygen_distances_angstrom": [
+              2.495,
+              2.482
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 113.46,
+            "metal_oxygen_distances_angstrom": [
+              2.37,
+              2.46
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu3",
+          "Tb1"
+        ],
+        "shared_oxygen_labels": [
+          "O28",
+          "O29"
+        ],
+        "metal_metal_separation_angstrom": 4.038,
+        "bridge_geometry": [
+          {
+            "oxygen": "O28",
+            "angle_deg": 108.42,
+            "metal_oxygen_distances_angstrom": [
+              2.495,
+              2.483
+            ]
+          },
+          {
+            "oxygen": "O29",
+            "angle_deg": 113.49,
+            "metal_oxygen_distances_angstrom": [
+              2.37,
+              2.459
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2",
+        "Eu3",
+        "Tb1"
+      ]
+    ],
+    "topology": "branched tree",
+    "approximate_shape": "three-dimensional metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LIDREX crystallizes in the rhombohedral crystal system with space group R -3. Reported CIF formula moiety: C87 H45 Eu3 F36 N9 O30 Tb1,3(C6 H14). From the CIF bond table, Tb1 (Tb) has 9 O neighbors; Eu1 (Eu) has 7 O neighbors; Eu2 (Eu) has 7 O neighbors; Eu3 (Eu) has 7 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a branched tree with three-dimensional metal-site arrangement. Computed bridged metal-metal separations span 4.036-4.038 Å (not direct metal-metal bonds). Computed M-O-M angles span 108.39-113.49°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C87H45Eu3F36N9O30Tb·3C6H14.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/cg3015546",
+    "formula": "C87H45Eu3F36N9O30Tb·3C6H14",
+    "compound_name": "TbL3{Eu(hfac)2(CH3COO)}3 configurational isomer",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

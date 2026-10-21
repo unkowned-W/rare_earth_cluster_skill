@@ -1,0 +1,435 @@
+{
+  "title": "A family of novel Mn3Ln4 clusters displaying single-molecule magnet behavior",
+  "doi": "10.1039/c4dt01816h",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[MnIIMnIII2DyIII4(mosao)2(mosaoH)4(piv)4(N-mdea)4]·4MeCN",
+      "formula": "C96H138Dy4Mn3N14O34",
+      "ccdc_numbers": [
+        "1007481"
+      ],
+      "ccdc_refcodes": [
+        "BOLSEC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Mn3Ln4 heptanuclear cluster with two MnIIILn2(μ3-OR)2 triangles linked to a central MnII"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "To a stirred colorless MeCN solution of mosaoH2, [Mn3O(piv)6(py)3] and Ln(NO3)3·6H2O (Ln = Dy) were added N-mdeaH2 and NEt3. The resulting brown solution was stirred for 5 minutes and filtered. The filtrate was left undisturbed at room temperature for three days to deposit prismatic black crystals of 1.",
+        "reagents": [
+          {
+            "name": "3-methyloxysalicylaldoxime (mosaoH2)",
+            "formula": "C8H9NO3",
+            "role": "ligand",
+            "amount": "0.023 g, 0.125 mmol"
+          },
+          {
+            "name": "[Mn3O(piv)6(py)3]",
+            "formula": "[Mn3O(piv)6(py)3]",
+            "role": "Mn source / starting cluster",
+            "amount": "0.026 g, 0.025 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.125 mmol"
+          },
+          {
+            "name": "N-methyl diethanolamine (N-mdeaH2)",
+            "formula": "C5H13NO2",
+            "role": "coligand",
+            "amount": "0.16 g, 0.13 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.21 mL, 1.5 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 5 minutes; crystallized 3 days",
+        "ph": null,
+        "vessel_or_method": "solution reaction in MeCN followed by filtration and undisturbed crystallization",
+        "workup_and_crystallization": "brown solution stirred 5 min and filtered; filtrate left undisturbed at room temperature for three days to give little prismatic black crystals",
+        "yield": "~40% (based on Ln)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility (2.0–300 K, 0.1 T) is dominated by Dy single-ion effects. χmT = 66.17 cm3 K mol−1 at 300 K, decreasing to 61.65 cm3 K mol−1 at 15 K and 43.08 cm3 K mol−1 at 2 K. Reduced magnetization is nonsuperimposable (anisotropy/low-lying states). A hysteresis loop is observed in M vs H at 2 K. Frequency-dependent ac signals (zero dc field, 3.0 G ac, 311–2311 Hz) indicate SMM behavior with χm″ peak maxima above 2.0 K; Arrhenius fit gives Ueff = 9.27 K and τ0 = 7.37 × 10−6 s.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 66.17,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 61.65,
+            "unit": "cm3 K mol−1",
+            "conditions": "15 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 43.08,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 9.27,
+            "unit": "K",
+            "conditions": "zero dc field, 3.0 G ac field, Arrhenius fit of thermally activated region"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "7.37e-6",
+            "unit": "s",
+            "conditions": "Arrhenius fit of ac relaxation times"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract / Experimental Syntheses"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1 (1·4MeCN)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1007481 / BOLSEC"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Syntheses"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties / ac susceptibility; Fig. 2 and Fig. 4"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[MnIIMnIII2TbIII4(mosao)2(mosaoH)4(piv)4(N-mdea)4]·6MeCN",
+      "formula": "C100H144Tb4Mn3N16O34",
+      "ccdc_numbers": [
+        "1017149"
+      ],
+      "ccdc_refcodes": [
+        "BOLSOM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Mn3Ln4 heptanuclear cluster with two MnIIILn2(μ3-OR)2 triangles linked to a central MnII"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 by adding N-mdeaH2 and NEt3 to a stirred MeCN solution of mosaoH2, [Mn3O(piv)6(py)3] and Tb(NO3)3·6H2O. The brown solution was stirred 5 minutes, filtered, and left undisturbed at room temperature for three days to give prismatic black crystals.",
+        "reagents": [
+          {
+            "name": "3-methyloxysalicylaldoxime (mosaoH2)",
+            "formula": "C8H9NO3",
+            "role": "ligand",
+            "amount": "0.023 g, 0.125 mmol"
+          },
+          {
+            "name": "[Mn3O(piv)6(py)3]",
+            "formula": "[Mn3O(piv)6(py)3]",
+            "role": "Mn source / starting cluster",
+            "amount": "0.026 g, 0.025 mmol"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.125 mmol"
+          },
+          {
+            "name": "N-methyl diethanolamine (N-mdeaH2)",
+            "formula": "C5H13NO2",
+            "role": "coligand",
+            "amount": "0.16 g, 0.13 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.21 mL, 1.5 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 5 minutes; crystallized 3 days",
+        "ph": null,
+        "vessel_or_method": "solution reaction in MeCN followed by filtration and undisturbed crystallization",
+        "workup_and_crystallization": "brown solution stirred 5 min and filtered; filtrate left undisturbed at room temperature for three days to give little prismatic black crystals",
+        "yield": "~40% (based on Ln)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility is dominated by Tb single-ion effects. χmT = 54.70 cm3 K mol−1 at 300 K, decreasing to 51.43 cm3 K mol−1 at 18 K, then a small rise to 51.66 cm3 K mol−1 at 14.5 K and 47.09 cm3 K mol−1 at 2 K. No significant hysteresis at 2 K. Frequency-dependent ac χm″ signals indicate slow relaxation, but peak maxima lie well below 2.0 K so no Arrhenius barrier was extracted.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 54.7,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 51.43,
+            "unit": "cm3 K mol−1",
+            "conditions": "18 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 51.66,
+            "unit": "cm3 K mol−1",
+            "conditions": "14.5 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 47.09,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 0.1 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract / Experimental Syntheses"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1 (2·6MeCN)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1017149 / BOLSOM"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Syntheses"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties / ac susceptibility; Fig. 2 and Fig. S7"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[MnIIMnIII2YIII4(mosao)2(mosaoH)4(piv)4(N-mdea)4]·3MeCN",
+      "formula": "C94H135Y4Mn3N13O34",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Mn3Ln4 heptanuclear cluster with two MnIIILn2(μ3-OR)2 triangles linked to a central MnII"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 by adding N-mdeaH2 and NEt3 to a stirred MeCN solution of mosaoH2, [Mn3O(piv)6(py)3] and Y(NO3)3·6H2O. The brown solution was stirred 5 minutes, filtered, and left undisturbed at room temperature for three days to give prismatic black crystals.",
+        "reagents": [
+          {
+            "name": "3-methyloxysalicylaldoxime (mosaoH2)",
+            "formula": "C8H9NO3",
+            "role": "ligand",
+            "amount": "0.023 g, 0.125 mmol"
+          },
+          {
+            "name": "[Mn3O(piv)6(py)3]",
+            "formula": "[Mn3O(piv)6(py)3]",
+            "role": "Mn source / starting cluster",
+            "amount": "0.026 g, 0.025 mmol"
+          },
+          {
+            "name": "yttrium(III) nitrate hexahydrate",
+            "formula": "Y(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.125 mmol"
+          },
+          {
+            "name": "N-methyl diethanolamine (N-mdeaH2)",
+            "formula": "C5H13NO2",
+            "role": "coligand",
+            "amount": "0.16 g, 0.13 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.21 mL, 1.5 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 5 minutes; crystallized 3 days",
+        "ph": null,
+        "vessel_or_method": "solution reaction in MeCN followed by filtration and undisturbed crystallization",
+        "workup_and_crystallization": "brown solution stirred 5 min and filtered; filtrate left undisturbed at room temperature for three days to give little prismatic black crystals",
+        "yield": "~40% (based on Ln)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "With diamagnetic YIII, χmT = 10.50 cm3 K mol−1 at 300 K, rising to 20.07 cm3 K mol−1 at 3 K then 19.58 cm3 K mol−1 at 2 K, indicating ferromagnetic Mn–Mn coupling via oximate NO bridges. Fit of χmT vs T: g = 1.95(8), J = 1.11(6) cm−1, zJ′ = −0.01 K, S = 13/2 ground state. Reduced-magnetization fit: g* = 1.85(9), D = −0.46(2) cm−1. No significant hysteresis at 2 K. Frequency-dependent ac χm″ peaks above 2.0 K; Arrhenius fit gives Ueff = 13.83 K and τ0 = 3.50 × 10−7 s.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 10.5,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 20.07,
+            "unit": "cm3 K mol−1",
+            "conditions": "3 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 19.58,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g",
+            "value": "1.95(8)",
+            "unit": null,
+            "conditions": "fit of χmT vs T, linear MnIII–MnII–MnIII model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J",
+            "value": "1.11(6)",
+            "unit": "cm−1",
+            "conditions": "Ĥ = −2J(S1S2 + S2S3); mean-field zJ′ = −0.01 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ground-state spin S",
+            "value": "13/2",
+            "unit": null,
+            "conditions": "from χmT fit and magnetization analysis"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "zero-field splitting D",
+            "value": "-0.46(2)",
+            "unit": "cm−1",
+            "conditions": "ANISO-FIT of M/(NμB) vs H/T, 0.1–5 T, 2.0–5.0 K; g* = 1.85(9)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 13.83,
+            "unit": "K",
+            "conditions": "zero dc field, 3.0 G ac field, Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "3.50e-7",
+            "unit": "s",
+            "conditions": "Arrhenius fit of ac relaxation times"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract / Experimental Syntheses"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1 (3·3MeCN)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Syntheses"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties / Fig. 2–4"
+        }
+      ]
+    }
+  ]
+}

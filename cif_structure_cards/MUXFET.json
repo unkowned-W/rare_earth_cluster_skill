@@ -1,0 +1,210 @@
+{
+  "refcode": "MUXFET",
+  "ccdc_number": "2017774",
+  "dois": [
+    "10.1107/s2056989020009998"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2017774.cif",
+  "formula_moiety": "C96 H80 Er4 N8 O2,2(C6 H6)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.8857(8)",
+    "b": "13.6846(9)",
+    "c": "13.7411(9)",
+    "alpha": "61.3447(8)",
+    "beta": "82.7796(10)",
+    "gamma": "83.0804(10)",
+    "volume": "2104.36",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Er1",
+      "element": "Er",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Er2",
+      "element": "Er",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2"
+      ]
+    },
+    {
+      "label": "Er3",
+      "element": "Er",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O2"
+      ]
+    },
+    {
+      "label": "Er4",
+      "element": "Er",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Er1",
+          "Er2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.933,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 133.25,
+            "metal_oxygen_distances_angstrom": [
+              2.094,
+              2.19
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er1",
+          "Er4"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.573,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 110.84,
+            "metal_oxygen_distances_angstrom": [
+              2.094,
+              2.245
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er2",
+          "Er3"
+        ],
+        "shared_oxygen_labels": [
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.573,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 110.84,
+            "metal_oxygen_distances_angstrom": [
+              2.245,
+              2.094
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er2",
+          "Er4"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.484,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 103.53,
+            "metal_oxygen_distances_angstrom": [
+              2.19,
+              2.245
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 103.53,
+            "metal_oxygen_distances_angstrom": [
+              2.245,
+              2.19
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er3",
+          "Er4"
+        ],
+        "shared_oxygen_labels": [
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.933,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 133.25,
+            "metal_oxygen_distances_angstrom": [
+              2.094,
+              2.19
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Er1",
+        "Er2",
+        "Er3",
+        "Er4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "MUXFET crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C96 H80 Er4 N8 O2,2(C6 H6). From the CIF bond table, Er1 (Er) has 1 O neighbors; Er2 (Er) has 2 O neighbors; Er3 (Er) has 1 O neighbors; Er4 (Er) has 2 O neighbors. Oxygen-bridged metal-site graph: 5 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.484-3.933 Å (not direct metal-metal bonds). Computed M-O-M angles span 103.53-133.25°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Er4(C12H10N)8O2]·2C6H6. Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1107/s2056989020009998",
+    "formula": "[Er4(C12H10N)8O2]·2C6H6",
+    "compound_name": "bis(μ-diphenylamido-κ2N:N)bis[μ-1κN:2(η6)-diphenylamido]tetrakis(diphenylamido-κN)di-μ3-oxido-tetraerbium(III) benzene disolvate",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

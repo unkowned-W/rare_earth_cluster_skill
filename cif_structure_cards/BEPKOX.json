@@ -1,0 +1,114 @@
+{
+  "refcode": "BEPKOX",
+  "ccdc_number": "230568",
+  "dois": [
+    "10.1002/anie.200353449"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\230568.cif",
+  "formula_moiety": "2(C16 H36 N1 1+),C80 H96 Gd2 O28 S8 2-,4(C1 H3 N1 O2)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "17.2391(18)",
+    "b": "14.6013(15)",
+    "c": "26.650(3)",
+    "alpha": "90",
+    "beta": "95.779(3)",
+    "gamma": "90",
+    "volume": "6674.07",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O13",
+        "O14",
+        "O3",
+        "O6",
+        "O6B",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Gd1B",
+      "element": "Gd",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O12B",
+        "O13B",
+        "O14B",
+        "O3B",
+        "O6",
+        "O6B",
+        "O7B",
+        "O9B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Gd1",
+          "Gd1B"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O6B"
+        ],
+        "metal_metal_separation_angstrom": 3.969,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 110.03,
+            "metal_oxygen_distances_angstrom": [
+              2.39,
+              2.454
+            ]
+          },
+          {
+            "oxygen": "O6B",
+            "angle_deg": 110.03,
+            "metal_oxygen_distances_angstrom": [
+              2.454,
+              2.39
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Gd1",
+        "Gd1B"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "BEPKOX crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: 2(C16 H36 N1 1+),C80 H96 Gd2 O28 S8 2-,4(C1 H3 N1 O2). From the CIF bond table, Gd1 (Gd) has 8 O neighbors; Gd1B (Gd) has 8 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 1 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.969-3.969 Å (not direct metal-metal bonds). Computed M-O-M angles span 110.03-110.03°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C116H180N6O36S8Gd2.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/anie.200353449",
+    "formula": "C116H180N6O36S8Gd2",
+    "compound_name": "(n-Bu4N)2[{Gd(L)(H2O)2}2]·4MeNO2",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

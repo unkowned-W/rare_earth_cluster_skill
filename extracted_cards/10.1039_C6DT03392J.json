@@ -1,0 +1,335 @@
+{
+  "title": "Supramolecular 3d–4f single-molecule magnet architectures",
+  "doi": "10.1039/c6dt03392j",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "{[Dy(OAc)3(H2O)3][Dy(H2O)3(prop·SMe)3][H2O⊂Cr3Dy6(OAc)12(H2bda)3(glyc)3(ox)3(prop·SMe)3]2(H2O)}·12H2O·1.5MeCN",
+      "formula": "C6H15DyO9,C12H27DyO9S3,2(C72H120Cr3Dy6N3O57S3),15(H2O),1.5(C2H3N)",
+      "ccdc_numbers": [
+        "1487793"
+      ],
+      "ccdc_refcodes": [
+        "EWAXEH02"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "hydrogen-bonded {Cr3Ln6} sandwich supramolecular aggregate {Cr6Ln14(H2O)3}"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "One-pot aerobic reaction of basic chromium(III) acetate [Cr3(OH)2(OAc)7] and Dy(OAc)3·4H2O in a 1:1 metal ratio with 2.0 eq. of Hbda in MeCN under reflux, followed by addition of 2.2 eq. of 3-(methylthio)propionic acid (Hprop·SMe). Oxalate and glycolate ligands form in situ by aerobic catalytic oxidation of acetate; direct addition of oxalic and glycolic acids did not afford crystalline product. Detailed quantities and work-up are referred to the ESI. Octahedrally shaped crystals of 1 are obtained.",
+        "reagents": [
+          {
+            "name": "basic chromium(III) acetate",
+            "formula": "[Cr3(OH)2(OAc)7]",
+            "role": "Cr source",
+            "amount": "1:1 metal ratio vs Ln"
+          },
+          {
+            "name": "dysprosium(III) acetate tetrahydrate",
+            "formula": "Dy(OAc)3·4H2O",
+            "role": "Ln source",
+            "amount": "1:1 metal ratio vs Cr"
+          },
+          {
+            "name": "N-butyldiethanolamine",
+            "formula": "Hbda",
+            "role": "ligand",
+            "amount": "2.0 eq."
+          },
+          {
+            "name": "3-(methylthio)propionic acid",
+            "formula": "Hprop·SMe",
+            "role": "ligand",
+            "amount": "2.2 eq."
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "reflux",
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "one-pot aerobic reflux in MeCN",
+        "workup_and_crystallization": "isolation of octahedrally shaped single crystals; detailed work-up in ESI",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Compound 1 is an SMM. Open hysteresis loops persist up to 1.6 K (sweep rate 0.14 T s−1). AC data give Ueff = 8.3 cm−1. Coercivity increases with decreasing T and increasing sweep rate. No QTM steps near zero field. Quantum relaxation time approaches ~10 s. Magnetization normalized to Ms at 1.4 T.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 8.3,
+            "unit": "cm^-1",
+            "conditions": "from ac susceptibility; SMM energy barrier"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "hysteresis_loop_temperature",
+            "value": 1.6,
+            "unit": "K",
+            "conditions": "open loops up to 1.6 K; sweep rate 0.14 T s^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "field_sweep_rate",
+            "value": 0.14,
+            "unit": "T s^-1",
+            "conditions": "micro-SQUID hysteresis; also 0.03 K sweep-rate dependence"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "quantum_relaxation_time",
+            "value": 10,
+            "unit": "s",
+            "conditions": "approaches ~10 s from dc magnetization decay 1.3–0.03 K at zero field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ms_normalization_field",
+            "value": 1.4,
+            "unit": "T",
+            "conditions": "Fig. 3; M/Ms"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "introduction paragraph with formulae of 1 and 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1487793 / EWAXEH02"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "paragraph on one-pot aerobic reactions"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "abstract; magnetic discussion; Fig. 3"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "{[Tb(OAc)3(H2O)3][Tb(H2O)3(prop·SMe)3][H2O⊂Cr3Tb6(OAc)12(H2bda)3(glyc)3(ox)3(prop·SMe)3]2(H2O)}·11.25H2O·1.5MeCN",
+      "formula": "C6H15O9Tb,C12H27O9S3Tb,2(C72H120Cr3N3O57S3Tb6),14.25(H2O),1.5(C2H3N)",
+      "ccdc_numbers": [
+        "1487794"
+      ],
+      "ccdc_refcodes": [
+        "EWAXIL02"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "hydrogen-bonded {Cr3Ln6} sandwich supramolecular aggregate {Cr6Ln14(H2O)3}"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 by one-pot aerobic reaction of [Cr3(OH)2(OAc)7] and Tb(OAc)3·4H2O in a 1:1 metal ratio with 2.0 eq. Hbda in MeCN under reflux, then 2.2 eq. Hprop·SMe. Isostructural with 1 (space group P31c). Detailed quantities referred to ESI.",
+        "reagents": [
+          {
+            "name": "basic chromium(III) acetate",
+            "formula": "[Cr3(OH)2(OAc)7]",
+            "role": "Cr source",
+            "amount": "1:1 metal ratio vs Ln"
+          },
+          {
+            "name": "terbium(III) acetate tetrahydrate",
+            "formula": "Tb(OAc)3·4H2O",
+            "role": "Ln source",
+            "amount": "1:1 metal ratio vs Cr"
+          },
+          {
+            "name": "N-butyldiethanolamine",
+            "formula": "Hbda",
+            "role": "ligand",
+            "amount": "2.0 eq."
+          },
+          {
+            "name": "3-(methylthio)propionic acid",
+            "formula": "Hprop·SMe",
+            "role": "ligand",
+            "amount": "2.2 eq."
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "reflux",
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "one-pot aerobic reflux in MeCN",
+        "workup_and_crystallization": "octahedrally shaped crystals; detailed work-up in ESI",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Compound 2 is an SMM. Open hysteresis loops persist up to 1 K (0.14 T s−1). AC data give Ueff = 3.4 cm−1. Zero-field loop width slightly broader than 1; quantum relaxation time approaches ~100 s, indicating slower zero-field QTM than in the Dy analogue.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 3.4,
+            "unit": "cm^-1",
+            "conditions": "from ac susceptibility"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "hysteresis_loop_temperature",
+            "value": 1,
+            "unit": "K",
+            "conditions": "open loops up to 1 K; sweep rate 0.14 T s^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "quantum_relaxation_time",
+            "value": 100,
+            "unit": "s",
+            "conditions": "approaches ~100 s from dc magnetization decay 1.3–0.03 K at zero field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "introduction formulae of 1 and 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1487794 / EWAXIL02"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "one-pot aerobic reaction paragraph"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "abstract; magnetic discussion"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "{[Tb(OAc)3(H2O)3]2[H2O⊂Cr3Tb6(OAc)15(H2bda)3(glyc)3(ox)3]2(H2O)}·10.5H2O·1.5MeCN",
+      "formula": "C6H15O9Tb,C66H108Cr3N3O57Tb6,6.75(H2O),0.75(C2H3N)",
+      "ccdc_numbers": [
+        "1487795"
+      ],
+      "ccdc_refcodes": [
+        "EWAXOR02"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "quasi-isostructural thioether-free {Cr3Ln6} sandwich aggregate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "When Hprop·SMe is replaced by 4-(methylthio)phenol (Hphe·SMe) under otherwise identical conditions (1:1 [Cr3(OH)2(OAc)7]/Tb(OAc)3·4H2O, 2.0 eq. Hbda, MeCN reflux), slightly larger single crystals of thioether-free 3 are obtained in low yields. Hphe·SMe is required for isolation although it is not present in the product.",
+        "reagents": [
+          {
+            "name": "basic chromium(III) acetate",
+            "formula": "[Cr3(OH)2(OAc)7]",
+            "role": "Cr source",
+            "amount": "1:1 metal ratio vs Ln"
+          },
+          {
+            "name": "terbium(III) acetate tetrahydrate",
+            "formula": "Tb(OAc)3·4H2O",
+            "role": "Ln source",
+            "amount": "1:1 metal ratio vs Cr"
+          },
+          {
+            "name": "N-butyldiethanolamine",
+            "formula": "Hbda",
+            "role": "ligand",
+            "amount": "2.0 eq."
+          },
+          {
+            "name": "4-(methylthio)phenol",
+            "formula": "Hphe·SMe",
+            "role": "crystallization additive (not incorporated)",
+            "amount": "replaces 2.2 eq. Hprop·SMe under otherwise identical conditions"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "reflux",
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "one-pot aerobic reflux; otherwise identical to 1/2",
+        "workup_and_crystallization": "slightly larger single crystals; Hphe·SMe required for isolation",
+        "yield": "low yields"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "synthesis paragraph introducing compound 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1487795 / EWAXOR02"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Hphe·SMe replacement paragraph"
+        }
+      ]
+    }
+  ]
+}

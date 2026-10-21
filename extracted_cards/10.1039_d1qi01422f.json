@@ -1,0 +1,486 @@
+{
+  "title": "Synthesis and structures of fluoride-bridged dysprosium clusters: influence of fluoride ions on magnetic relaxation behaviors",
+  "doi": "10.1039/d1qi01422f",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1Dy",
+      "compound_name": "[{Cp'2Dy}(μ-F)]3·toluene",
+      "formula": "C48H78Dy3F3Si6·C7H8",
+      "ccdc_numbers": [
+        "2121103"
+      ],
+      "ccdc_refcodes": [
+        "KEGVEB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "fluoride-bridged triangular Dy3 metallocene"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Under argon (glovebox or Schlenk), an equivalent of Et3N·HF was added very slowly to a cold THF solution of [Cp'3Dy] (Cp' = C5H4SiMe3). After filtration and solvent removal, crystallization from toluene gave 1Dy. The paper states that the protonation level depends on the crystallization solvent and the Et3N·HF/[Cp'3Dy] ratio and refers the experimental quantities to the ESI. Et3N·HF itself was made by mixing Et3N·3HF with two equivalents of Et3N; THF and toluene were dried.",
+        "reagents": [
+          {
+            "name": "[Cp'3Dy]",
+            "formula": null,
+            "role": "dysprosium precursor",
+            "amount": "200 mg, 0.348 mmol"
+          },
+          {
+            "name": "Et3N·HF",
+            "formula": null,
+            "role": "fluoride source",
+            "amount": "an equivalent"
+          },
+          {
+            "name": "THF",
+            "formula": "C4H8O",
+            "role": "reaction solvent",
+            "amount": "10 mL"
+          },
+          {
+            "name": "toluene",
+            "formula": "C7H8",
+            "role": "crystallization solvent",
+            "amount": "2 mL"
+          }
+        ],
+        "solvents": [
+          "THF",
+          "toluene"
+        ],
+        "temperature": "cold THF solution; manipulations otherwise at room temperature",
+        "time": "stirred 24 h; crystallization for several days",
+        "ph": null,
+        "vessel_or_method": "argon glovebox or Schlenk; slow addition, filtration, solvent removal, crystallization",
+        "workup_and_crystallization": "Filter, remove solvent, crystallize the raw product from toluene to give 1Dy·toluene.",
+        "yield": "54 mg"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "1Dy shows slow magnetization relaxation (SMM) between 2 and 10 K. Zero-field relaxation was fit to Orbach, Raman and QTM processes (Ueff = 87 K); under 1.5 kOe the QTM term is suppressed and Ueff = 95 K. The abstract quotes a 95 K barrier. χmT decreases on cooling, consistent with Stark-level depopulation and low-temperature antiferromagnetic interactions. The thermo-assisted relaxation is attributed to the {Cp'2Dy} fragment; the calculated blocking barrier is 80 K (55.8 cm−1).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "42.34",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature, 1 kOe; assigned to 1Dy because 3 × 14.17 cm3 mol−1 K matches the second listed value (sentence order is not the Fig. 4 caption order 1Dy–4Dy)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "15.28",
+            "unit": "cm3 mol−1 K",
+            "conditions": "2 K, 1 kOe; same list order as the room-temperature values"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "15.76",
+            "unit": "Nβ",
+            "conditions": "2 K, 50 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "87",
+            "unit": "K",
+            "conditions": "zero dc field; Orbach+Raman+QTM fit; τ0 = 3.22×10−9 s, n = 7.49, C = 0.0017 s−1 K−n, τtunneling = 4.23×10−5 s; ac 100–10000 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "95",
+            "unit": "K",
+            "conditions": "1.5 kOe dc field, 3 Oe ac; Orbach+Raman fit; τ0 = 2.27×10−9 s, n = 4.27, C = 0.186 s−1 K−n"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.29–0.08",
+            "unit": null,
+            "conditions": "above 4 K, zero dc field, single relaxation process"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "external_metadata",
+          "location": "CCDC KEGVEB / 2121103"
+        },
+        {
+          "field": "synthesis.procedure",
+          "source": "main_text",
+          "location": "Synthesis and structural characterization; Experimental section materials"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Figs. 4–6"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI experimental synthesis paragraph for 1Dy"
+        }
+      ]
+    },
+    {
+      "compound_label": "2Dy",
+      "compound_name": "[{Cp'2Dy(μ-F)2}2{(Cp')(THF)Dy(μ-F)}2]·hexane",
+      "formula": "C56H94Dy4F6O2Si6·C6H14",
+      "ccdc_numbers": [
+        "2121109"
+      ],
+      "ccdc_refcodes": [
+        "KEGVIF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "fluoride-bridged Dy4 butterfly/chair metallocene"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Prepared by the same slow addition of an equivalent of Et3N·HF to cold THF [Cp'3Dy], followed by filtration and solvent removal. Crystallization from hexane, rather than toluene, afforded tetranuclear 2Dy with a disordered hexane in the lattice. Detailed quantities are stated to be in the ESI.",
+        "reagents": [
+          {
+            "name": "[Cp'3Dy]",
+            "formula": null,
+            "role": "dysprosium precursor",
+            "amount": "200 mg, 0.348 mmol"
+          },
+          {
+            "name": "Et3N·HF",
+            "formula": null,
+            "role": "fluoride source",
+            "amount": "an equivalent"
+          },
+          {
+            "name": "THF",
+            "formula": "C4H8O",
+            "role": "reaction solvent and ligand",
+            "amount": "10 mL"
+          },
+          {
+            "name": "hexane",
+            "formula": "C6H14",
+            "role": "crystallization solvent",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "THF",
+          "hexane"
+        ],
+        "temperature": "cold THF solution; manipulations otherwise at room temperature",
+        "time": "stirred 24 h (same as 1Dy)",
+        "ph": null,
+        "vessel_or_method": "argon glovebox or Schlenk; slow addition, filtration, solvent removal, crystallization",
+        "workup_and_crystallization": "Filter, remove solvent, crystallize from hexane to give 2Dy·hexane.",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "2Dy is an SMM with ac relaxation below 10 K, in a similar temperature window to 1Dy. Zero-field Orbach+Raman+QTM fitting gives Ueff = 89 K; a 2 kOe field gives Ueff = 97 K (the abstract rounds the barrier to 98 K). Calculated single-ion barriers for Dy3 and Dy4 are 162 K and 166 K and differ from experiment, which is ascribed to weak coupling. Relaxation is again associated with [Cp'2Dy(μ-F)2] motifs.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "57.19",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature, 1 kOe; assigned to 2Dy because 4 × 14.17 cm3 mol−1 K matches the third listed value"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "20.19",
+            "unit": "cm3 mol−1 K",
+            "conditions": "2 K, 1 kOe; same list order as the room-temperature values"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "20.34",
+            "unit": "Nβ",
+            "conditions": "2 K, 50 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "89",
+            "unit": "K",
+            "conditions": "zero dc field; Orbach+Raman+QTM fit; τ0 = 4.47×10−9 s, n = 8.61, C = 0.00015 s−1 K−n, τtunneling = 2.21×10−5 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "97",
+            "unit": "K",
+            "conditions": "2 kOe dc field, 3 Oe ac; Orbach+Raman fit; τ0 = 1.38×10−9 s, n = 3.87, C = 0.268 s−1 K−n"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "external_metadata",
+          "location": "CCDC KEGVIF / 2121109"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Synthesis and structural characterization"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Figs. 7–8"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI experimental synthesis paragraph for 2Dy"
+        }
+      ]
+    },
+    {
+      "compound_label": "3Dy",
+      "compound_name": "heptanuclear fluoride-bridged dysprosium cluster",
+      "formula": "C64H110Dy7F15O4Si6·C6H14",
+      "ccdc_numbers": [
+        "2121121"
+      ],
+      "ccdc_refcodes": [
+        "KEGVUR"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "heptanuclear Dy7 core with three types of fluoride bridges"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "In the same {Cp'3Dy + Et3N·HF} system used for 1Dy/2Dy, the molar ratio of [Cp'3Dy] to Et3N·HF was changed to 1:1.5. The heptanuclear cluster 3Dy (C64H110Dy7F15O4Si6·hex) was obtained after fine-tuning the reaction and crystallization conditions. Manipulations were under argon; THF and hexane were dried. Absolute masses, time and isolated yield are not given in the main text.",
+        "reagents": [
+          {
+            "name": "[Cp'3Dy]",
+            "formula": null,
+            "role": "dysprosium precursor",
+            "amount": "1 molar part relative to Et3N·HF"
+          },
+          {
+            "name": "Et3N·HF",
+            "formula": null,
+            "role": "fluoride source",
+            "amount": "1.5 molar parts relative to [Cp'3Dy]"
+          },
+          {
+            "name": "THF",
+            "formula": "C4H8O",
+            "role": "solvent/ligand",
+            "amount": null
+          },
+          {
+            "name": "hexane",
+            "formula": "C6H14",
+            "role": "lattice solvent / crystallization",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "THF",
+          "hexane"
+        ],
+        "temperature": null,
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "argon glovebox or Schlenk; stoichiometry changed to 1:1.5",
+        "workup_and_crystallization": "Crystallization conditions were adjusted to isolate 3Dy as a hexane solvate; no further work-up detail in the main text.",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "3Dy shows dc susceptibility and magnetization typical of weakly coupled Dy(III) ions, but no frequency-dependent out-of-phase ac peaks in any applied field, so it is not an SMM. Extra fluoride coordination is said to disrupt the [Cp'2Dy]+ motifs that cause relaxation in 1Dy and 2Dy.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "101.29",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature, 1 kOe; assigned to 3Dy because 7 × 14.17 cm3 mol−1 K matches the fourth listed value"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "47.31",
+            "unit": "cm3 mol−1 K",
+            "conditions": "2 K, 1 kOe; same list order as the room-temperature values"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "37.96",
+            "unit": "Nβ",
+            "conditions": "2 K, 50 kOe"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Synthesis and structural characterization"
+        },
+        {
+          "field": "formula",
+          "source": "external_metadata",
+          "location": "CCDC KEGVUR / 2121121"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Synthesis and structural characterization"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties"
+        }
+      ]
+    },
+    {
+      "compound_label": "4Dy",
+      "compound_name": "[Cp'2Dy(μ-OH)]2",
+      "formula": "C32H54Dy2O2Si4",
+      "ccdc_numbers": [
+        "2121120"
+      ],
+      "ccdc_refcodes": [
+        "KEGVOL"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "hydroxide-bridged dinuclear Dy metallocene"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "The hydroxide-bridged dinuclear complex 4Dy was prepared by a method similar to the fluoride-cluster reactions for comparison of OH versus F bridges. No reagent amounts, solvent quantities, time or yield for 4Dy are given in the main text.",
+        "reagents": [
+          {
+            "name": "[Cp'3Dy]",
+            "formula": null,
+            "role": "presumed dysprosium precursor by analogy",
+            "amount": "350 mg, 0.610 mmol"
+          },
+          {
+            "name": "H2O",
+            "formula": "H2O",
+            "role": "hydroxide source",
+            "amount": "0.610 mmol in 10 mL toluene"
+          },
+          {
+            "name": "toluene",
+            "formula": "C7H8",
+            "role": "reaction and crystallization solvent",
+            "amount": "10 mL for the water solution; 2 mL for crystallization"
+          }
+        ],
+        "solvents": [
+          "toluene"
+        ],
+        "temperature": "addition and stirring at −20 °C; crystallization at −25 °C",
+        "time": "stirred overnight; crystallization for several days",
+        "ph": null,
+        "vessel_or_method": "similar method to the fluoride clusters; argon atmosphere for the general manipulations",
+        "workup_and_crystallization": "Precipitate collected by filtration and dried under vacuum; solid dissolved in 2 mL toluene and stored at −25 °C for several days to give colorless single crystals.",
+        "yield": "83 mg"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "4Dy was measured for comparison with the fluoride clusters. It shows the usual decrease of χmT on cooling and anisotropic magnetization, but no frequency-dependent ac susceptibility and no obvious slow relaxation under zero field.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "28.93",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature, 1 kOe; assigned to 4Dy because 2 × 14.17 cm3 mol−1 K matches the first listed value"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "13.07",
+            "unit": "cm3 mol−1 K",
+            "conditions": "2 K, 1 kOe; same list order as the room-temperature values"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "10.51",
+            "unit": "Nβ",
+            "conditions": "2 K, 50 kOe"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "external_metadata",
+          "location": "CCDC KEGVOL / 2121120"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Introduction; Synthesis and structural characterization"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 4"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI experimental synthesis paragraph for 4Dy"
+        }
+      ]
+    }
+  ]
+}

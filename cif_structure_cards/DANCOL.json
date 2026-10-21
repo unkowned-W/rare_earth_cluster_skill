@@ -1,0 +1,91 @@
+{
+  "refcode": "DANCOL",
+  "ccdc_number": "256495",
+  "dois": [
+    "10.1021/ic048736a"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\256495.cif",
+  "formula_moiety": "C27 H16 Cl6 Er1 N3 O5,3(C4 H8 O2)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21",
+  "international_tables_number": "4",
+  "unit_cell": {
+    "a": "13.378(3)",
+    "b": "24.139(5)",
+    "c": "13.622(3)",
+    "alpha": "90",
+    "beta": "106.12(3)",
+    "gamma": "90",
+    "volume": "4226.02",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Er1",
+      "element": "Er",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O14",
+        "O15",
+        "O19",
+        "O20"
+      ]
+    },
+    {
+      "label": "Er2",
+      "element": "Er",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O17",
+        "O18",
+        "O21",
+        "O22"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Er1"
+      ],
+      [
+        "Er2"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "DANCOL crystallizes in the monoclinic crystal system with space group P 21. Reported CIF formula moiety: C27 H16 Cl6 Er1 N3 O5,3(C4 H8 O2). From the CIF bond table, Er1 (Er) has 5 O neighbors; Er2 (Er) has 5 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula Er(Q57Cl)3(H2O)2·6C4H8O2. Explicit grouped units in the article formula/name: 2 H2O (explicit grouped unit in article formula). Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic048736a",
+    "formula": "Er(Q57Cl)3(H2O)2·6C4H8O2",
+    "compound_name": "tris(5,7-dichloro-8-quinolinato)erbium(III) aqua complex dioxane solvate",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

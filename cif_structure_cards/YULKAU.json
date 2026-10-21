@@ -1,0 +1,124 @@
+{
+  "refcode": "YULKAU",
+  "ccdc_number": "1991063",
+  "dois": [
+    "10.1039/d0dt01095b"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1991063.cif",
+  "formula_moiety": "C80 H112 N8 O4 Sm4,2(C7 H8)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "17.9470(8)",
+    "b": "21.5868(6)",
+    "c": "23.2649(9)",
+    "alpha": "90",
+    "beta": "108.706(4)",
+    "gamma": "90",
+    "volume": "8537.14",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm1",
+      "element": "Sm",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O2"
+      ]
+    },
+    {
+      "label": "Sm2",
+      "element": "Sm",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O4"
+      ]
+    },
+    {
+      "label": "Sm3",
+      "element": "Sm",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O3"
+      ]
+    },
+    {
+      "label": "Sm4",
+      "element": "Sm",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O4"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Sm2",
+          "Sm4"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.776,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 102.11,
+            "metal_oxygen_distances_angstrom": [
+              2.442,
+              2.413
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 102.11,
+            "metal_oxygen_distances_angstrom": [
+              2.413,
+              2.442
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Sm1"
+      ],
+      [
+        "Sm2",
+        "Sm4"
+      ],
+      [
+        "Sm3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "YULKAU crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C80 H112 N8 O4 Sm4,2(C7 H8). From the CIF bond table, Sm1 (Sm) has 1 O neighbors; Sm2 (Sm) has 2 O neighbors; Sm3 (Sm) has 1 O neighbors; Sm4 (Sm) has 2 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.776-3.776 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.11-102.11°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C80H112N8O4Sm4.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d0dt01095b",
+    "formula": "C80H112N8O4Sm4",
+    "compound_name": "(η5:η1:η5:η1-Et8-calix[4]pyrrolyl)2Sm4(μ-O)2(thf)2",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

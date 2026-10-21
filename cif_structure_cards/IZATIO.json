@@ -1,0 +1,247 @@
+{
+  "refcode": "IZATIO",
+  "ccdc_number": "1486548",
+  "dois": [
+    "10.1002/zaac.201600253"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1486548.cif",
+  "formula_moiety": "C54 H60 Gd3 N30 Ni3 O23 1+,10.75(C1 H4 O1),N1 O3 1-",
+  "crystal_system": "cubic",
+  "space_group_hm": "I -4 3 d",
+  "international_tables_number": "220",
+  "unit_cell": {
+    "a": "33.5253(10)",
+    "b": "33.5253(10)",
+    "c": "33.5253(10)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "37680.6",
+    "Z": "16"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O3G",
+        "O4",
+        "O5",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ni1",
+      "element": "Ni",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Gd1G",
+      "element": "Gd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1G",
+        "O2G",
+        "O3G",
+        "O3J",
+        "O4G",
+        "O5G",
+        "O7",
+        "O8",
+        "O9G"
+      ]
+    },
+    {
+      "label": "Ni1G",
+      "element": "Ni",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Gd1J",
+      "element": "Gd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1J",
+        "O2J",
+        "O3",
+        "O3J",
+        "O4J",
+        "O5J",
+        "O7",
+        "O8",
+        "O9J"
+      ]
+    },
+    {
+      "label": "Ni1J",
+      "element": "Ni",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Gd1",
+          "Gd1G"
+        ],
+        "shared_oxygen_labels": [
+          "O3G",
+          "O7",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.866,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 110.13,
+            "metal_oxygen_distances_angstrom": [
+              2.358,
+              2.358
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 109.69,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.364
+            ]
+          },
+          {
+            "oxygen": "O3G",
+            "angle_deg": 104.47,
+            "metal_oxygen_distances_angstrom": [
+              2.45,
+              2.44
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1",
+          "Gd1J"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O7",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.866,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 104.47,
+            "metal_oxygen_distances_angstrom": [
+              2.44,
+              2.45
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 110.13,
+            "metal_oxygen_distances_angstrom": [
+              2.358,
+              2.358
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 109.69,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.364
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1G",
+          "Gd1J"
+        ],
+        "shared_oxygen_labels": [
+          "O3J",
+          "O7",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.866,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 110.13,
+            "metal_oxygen_distances_angstrom": [
+              2.358,
+              2.358
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 109.69,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.364
+            ]
+          },
+          {
+            "oxygen": "O3J",
+            "angle_deg": 104.47,
+            "metal_oxygen_distances_angstrom": [
+              2.45,
+              2.44
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Gd1",
+        "Gd1G",
+        "Gd1J"
+      ],
+      [
+        "Ni1"
+      ],
+      [
+        "Ni1G"
+      ],
+      [
+        "Ni1J"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "IZATIO crystallizes in the cubic crystal system with space group I -4 3 d. Reported CIF formula moiety: C54 H60 Gd3 N30 Ni3 O23 1+,10.75(C1 H4 O1),N1 O3 1-. From the CIF bond table, Gd1 (Gd) has 9 O neighbors; Ni1 (Ni) has 0 O neighbors; Gd1G (Gd) has 9 O neighbors; Ni1G (Ni) has 0 O neighbors; Gd1J (Gd) has 9 O neighbors; Ni1J (Ni) has 0 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 4 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.866-3.866 Å (not direct metal-metal bonds). Computed M-O-M angles span 104.47-110.13°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C64.75H103Gd3Ni3N31O36.75.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/zaac.201600253",
+    "formula": "C64.75H103Gd3Ni3N31O36.75",
+    "compound_name": "{[Gd3Ni3(H2O)3(mpko)9(O2)(NO3)3](NO3)·10.75CH3OH}",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

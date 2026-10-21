@@ -1,0 +1,155 @@
+{
+  "refcode": "BOGWUR",
+  "ccdc_number": "1002845",
+  "dois": [
+    "10.1021/om5000198"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1002845.cif",
+  "formula_moiety": "C96 H112 Eu3 N8 O4,4.5(C7 H8)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "14.7809(5)",
+    "b": "15.3099(8)",
+    "c": "28.410(2)",
+    "alpha": "82.961(7)",
+    "beta": "79.210(7)",
+    "gamma": "65.305(5)",
+    "volume": "5730.69",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O3",
+        "O4"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.809,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 105.7,
+            "metal_oxygen_distances_angstrom": [
+              2.341,
+              2.437
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 106.22,
+            "metal_oxygen_distances_angstrom": [
+              2.318,
+              2.443
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.817,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 106.9,
+            "metal_oxygen_distances_angstrom": [
+              2.432,
+              2.319
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 106.41,
+            "metal_oxygen_distances_angstrom": [
+              2.435,
+              2.332
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2",
+        "Eu3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "BOGWUR crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C96 H112 Eu3 N8 O4,4.5(C7 H8). From the CIF bond table, Eu1 (Eu) has 2 O neighbors; Eu2 (Eu) has 4 O neighbors; Eu3 (Eu) has 2 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.809-3.817 Å (not direct metal-metal bonds). Computed M-O-M angles span 105.70-106.90°; individual values and O labels are in metal_framework.links. Article card reports molecular formula L4EuIII2EuII·4.5C7H8 (crystal/anal. C127.5H148N8O4Eu3). Article name explicitly identifies Eu(III), Eu(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/om5000198",
+    "formula": "L4EuIII2EuII·4.5C7H8 (crystal/anal. C127.5H148N8O4Eu3)",
+    "compound_name": "mixed-valent europium complex L4EuIII2EuII·4.5C7H8",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "Eu",
+        "state": "III",
+        "basis": "article compound name"
+      },
+      {
+        "element": "Eu",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

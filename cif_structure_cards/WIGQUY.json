@@ -1,0 +1,172 @@
+{
+  "refcode": "WIGQUY",
+  "ccdc_number": "148853",
+  "dois": [
+    "10.1021/ic9909532"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\148853.cif",
+  "formula_moiety": "C72 H102 Eu3 O12",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "12.0468(6)",
+    "b": "11.9257(6)",
+    "c": "24.2959(13)",
+    "alpha": "90",
+    "beta": "100.1190(10)",
+    "gamma": "90",
+    "volume": "3436.21",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1B",
+        "O2",
+        "O2B",
+        "O3",
+        "O3B"
+      ]
+    },
+    {
+      "label": "Eu1B",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1B",
+        "O2B",
+        "O3B",
+        "O4B",
+        "O5B",
+        "O6B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.503,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 88.9,
+            "metal_oxygen_distances_angstrom": [
+              2.456,
+              2.546
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 88.08,
+            "metal_oxygen_distances_angstrom": [
+              2.459,
+              2.58
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 88.9,
+            "metal_oxygen_distances_angstrom": [
+              2.45,
+              2.551
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1B",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O1B",
+          "O2B",
+          "O3B"
+        ],
+        "metal_metal_separation_angstrom": 3.503,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1B",
+            "angle_deg": 88.9,
+            "metal_oxygen_distances_angstrom": [
+              2.456,
+              2.546
+            ]
+          },
+          {
+            "oxygen": "O2B",
+            "angle_deg": 88.08,
+            "metal_oxygen_distances_angstrom": [
+              2.459,
+              2.58
+            ]
+          },
+          {
+            "oxygen": "O3B",
+            "angle_deg": 88.9,
+            "metal_oxygen_distances_angstrom": [
+              2.45,
+              2.551
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu1B",
+        "Eu2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "WIGQUY crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C72 H102 Eu3 O12. From the CIF bond table, Eu1 (Eu) has 6 O neighbors; Eu2 (Eu) has 6 O neighbors; Eu1B (Eu) has 6 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.503-3.503 Å (not direct metal-metal bonds). Computed M-O-M angles span 88.08-88.90°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Eu(OC6H3Me2-2,6)2(THF)2]3.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic9909532",
+    "formula": "[Eu(OC6H3Me2-2,6)2(THF)2]3",
+    "compound_name": "[Eu(OC6H3Me2-2,6)2(THF)2]3",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

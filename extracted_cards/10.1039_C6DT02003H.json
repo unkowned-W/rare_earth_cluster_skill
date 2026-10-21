@@ -1,0 +1,166 @@
+{
+  "title": "A novel oxime-derived 3d–4f single-molecule magnet exhibiting two single-ion magnetic relaxations",
+  "doi": "10.1039/c6dt02003h",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4Ni6(μ3-OH)2(CH3COO)2(Hpzaox)6(pzaox)6](ClO4)2·5CH3OH·2CH3CN",
+      "formula": "C73H88Cl2Dy4N50Ni6O31",
+      "ccdc_numbers": [
+        "1444993"
+      ],
+      "ccdc_refcodes": [
+        "IQACOU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "butterfly-shaped {Dy4(μ3-OH)2} core with peripheral square-planar Ni(II) ions"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of Dy(OAc)3·4H2O (41.2 mg, 0.1 mmol), Ni(ClO4)2·6H2O (35.4 mg, 0.1 mmol), Hpzaox (82.3 mg, 0.2 mmol) and triethylamine (121.4 mg, 1.2 mmol) in mixed CH3CN–CH3OH (v:v = 1:1, 10 mL) was sealed in a Parr Teflon-lined stainless steel vessel (23.0 mL) and heated at 70 °C for 12 h under autogenous pressure. After cooling to room temperature at 1.2 °C h−1, red block-shaped crystals suitable for X-ray analysis were obtained directly, washed with cold methanol and dried in air.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) acetate tetrahydrate",
+            "formula": "Dy(OAc)3·4H2O",
+            "role": "rare-earth source",
+            "amount": "41.2 mg, 0.1 mmol"
+          },
+          {
+            "name": "nickel(II) perchlorate hexahydrate",
+            "formula": "Ni(ClO4)2·6H2O",
+            "role": "3d metal source",
+            "amount": "35.4 mg, 0.1 mmol"
+          },
+          {
+            "name": "pyrazine-2-amidoxime",
+            "formula": "Hpzaox",
+            "role": "bridging ligand",
+            "amount": "82.3 mg, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "121.4 mg, 1.2 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "methanol"
+        ],
+        "temperature": "70 °C (solvothermal); cooled at 1.2 °C h−1 to room temperature",
+        "time": "12 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal reaction in a Parr Teflon-lined stainless steel vessel (23.0 mL) under autogenous pressure",
+        "workup_and_crystallization": "red block-shaped crystals obtained directly after cooling; washed with cold methanol and dried in air",
+        "yield": "66% based on Ni(II) salt"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Magnetically isolated {Dy4Ni6} cluster with a paramagnetic butterfly {Dy4(μ3-OH)2} core and diamagnetic square-planar Ni(II). Weak intramolecular ferromagnetic coupling is indicated by a low-T χMT upturn. Field-induced SMM behaviour with two thermally activated single-ion relaxations is observed under 1.0 kOe dc field; no hysteresis at 2.0 or 4.0 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "56.27",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, Hdc = 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "51.78",
+            "unit": "cm3 K mol−1",
+            "conditions": "12.0 K, Hdc = 1 kOe (minimum)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "53.37",
+            "unit": "cm3 K mol−1",
+            "conditions": "3.0 K, Hdc = 1 kOe (maximum after upturn)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "21.52",
+            "unit": "Nβ",
+            "conditions": "2.0 K, around 9.0 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB (low-T relaxation)",
+            "value": "48.6",
+            "unit": "K",
+            "conditions": "Hdc = 1000 Oe, Hac = 3.5 Oe; Arrhenius fit, τ0 = 7.8 × 10−8 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB (high-T relaxation)",
+            "value": "97.1",
+            "unit": "K",
+            "conditions": "Hdc = 1000 Oe, Hac = 3.5 Oe; Arrhenius fit, τ0 = 4.6 × 10−9 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α1",
+            "value": "0.203–0.267",
+            "unit": null,
+            "conditions": "5.0–10.0 K, 1.0 kOe dc field; two modified Debye models"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α2",
+            "value": "0.0198–0.132",
+            "unit": null,
+            "conditions": "5.0–10.0 K, 1.0 kOe dc field; two modified Debye models"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1 empirical formula"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC row for DOI 10.1039/C6DT02003H (1444993 / IQACOU)"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; crystal structure discussion; Conclusions"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 3–5"
+        }
+      ]
+    }
+  ]
+}

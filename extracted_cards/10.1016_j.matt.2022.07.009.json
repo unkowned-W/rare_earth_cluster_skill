@@ -1,0 +1,262 @@
+{
+  "title": "Suppression of zero-field quantum tunneling of magnetization by a fluorido bridge for a \"very hard\" 3d-4f single-molecule magnet",
+  "doi": "10.1016/j.matt.2022.07.009",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "DyC",
+      "compound_name": "[Dy3Cr3(μ3-F)(μ3-OH)3(mdea)3(piv)8(DMF)]·H2O·CH3CN",
+      "formula": "Dy3Cr3FC60H120N5O27",
+      "ccdc_numbers": [
+        "2018759"
+      ],
+      "ccdc_refcodes": [
+        "RIYQOJ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "triangle-in-triangle Cr3Dy3 cluster with a central μ3-fluorido bridge"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of Dy2(piv)6(Hpiv)6 (700 mg, 0.45 mmol), chromium acetylacetonate (349 mg, 1 mmol), N-methyldiethanolamine (357 mg, 3 mmol), and NH4F (74 mg, 2 mmol) was stirred in 7 mL acetonitrile and 1 mL DMF in air for 15 min. The slurry was transferred into a 15-mL Teflon-lined autoclave and heated at 150 °C for 72 h, then cooled to room temperature and filtered. Red-violet block-like crystals were isolated by evaporation.",
+        "reagents": [
+          {
+            "name": "Dy2(piv)6(Hpiv)6",
+            "formula": "Dy2(O2CtBu)6(HO2CtBu)6",
+            "role": "Dy starting material",
+            "amount": "700 mg, 0.45 mmol"
+          },
+          {
+            "name": "chromium acetylacetonate",
+            "formula": "Cr(acac)3",
+            "role": "Cr starting material",
+            "amount": "349 mg, 1 mmol"
+          },
+          {
+            "name": "N-methyldiethanolamine",
+            "formula": "H2mdea",
+            "role": "ligand",
+            "amount": "357 mg, 3 mmol"
+          },
+          {
+            "name": "ammonium fluoride",
+            "formula": "NH4F",
+            "role": "fluoride source",
+            "amount": "74 mg, 2 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "DMF"
+        ],
+        "temperature": "150 °C",
+        "time": "15 min stirring, then 72 h heating",
+        "ph": null,
+        "vessel_or_method": "15-mL Teflon-lined autoclave, solvothermal, in air",
+        "workup_and_crystallization": "Cooled to room temperature, filtered, and red-violet block-like crystals isolated by evaporation.",
+        "yield": "70% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "DyC is a ferrimagnetic 3d-4f SMM. A central μ3-fluoride produces ferromagnetic Dy–Dy coupling and a ground moment of 10.7 μB, almost completely suppressing zero-field QTM. Hysteresis is observed below 5 K, with TB(ZFC) = 1.6 K, a coercive field of 1.3 T at 0.03 K (0.5 mT/s), and remanence squareness above 0.97 up to 0.7 K. Double-Orbach/Raman/QTM fitting gives U1 = 17(3) K and U2 = 38(4) K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "48.07",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": "37.20",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "about 18 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT peak",
+            "value": "46.72",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "on cooling below about 18 K, before the drop to 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "43.63",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant",
+            "value": "48.1",
+            "unit": "cm^3 mol^-1 K",
+            "conditions": "Curie–Weiss fit, 100–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant",
+            "value": "-8.66",
+            "unit": "K",
+            "conditions": "Curie–Weiss fit, 100–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "14.0",
+            "unit": "μB",
+            "conditions": "2 K, 5 T; 39.0 emu/g, not saturated"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ground magnetic moment",
+            "value": "10.7",
+            "unit": "μB",
+            "conditions": "½ gz μB of the ferrimagnetic ground state"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "TB(ZFC)",
+            "value": "1.6",
+            "unit": "K",
+            "conditions": "maximum of the ZFC magnetization"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "TB(hysteresis)",
+            "value": "5",
+            "unit": "K",
+            "conditions": "hysteresis loops detected below 5 K at 8 mT/s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "coercive field",
+            "value": "1.3",
+            "unit": "T",
+            "conditions": "0.03 K, field sweep rate 0.5 mT/s; increases from 0.5 to 128 mT/s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "remanence squareness",
+            "value": ">0.97",
+            "unit": null,
+            "conditions": "up to 0.7 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "U1",
+            "value": "17(3)",
+            "unit": "K",
+            "conditions": "τ01 = 3(1)×10^-5 s; double-exponential Arrhenius plus Raman and QTM fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "U2",
+            "value": "38(4)",
+            "unit": "K",
+            "conditions": "τ02 = 7(2)×10^-9 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman parameters",
+            "value": "C = 1.3(4)×10^-6, n = 2(1)",
+            "unit": "s K^-n",
+            "conditions": "combined ac and dc relaxation fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τQTM",
+            "value": "6(2)×10^7",
+            "unit": "s",
+            "conditions": "from the multi-process relaxation fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "zero-field relaxation time",
+            "value": "up to 10^8",
+            "unit": "s",
+            "conditions": "dc magnetization decay on a single crystal, zero field, 0.03–1.5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac relaxation time range",
+            "value": "0.04 to 0.000208",
+            "unit": "s",
+            "conditions": "zero dc field, 2.3–3.8 K, Cole–Cole/Debye fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "resonant QTM field",
+            "value": "0.75",
+            "unit": "T",
+            "conditions": "dM/dH at 0.03 K; calculated avoided crossing near 0.9 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ground-state tunneling gap Δtun",
+            "value": "1.1×10^-7",
+            "unit": "cm^-1",
+            "conditions": "calculated; tunnel probability Pm,m' = 4.3%"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cr(III) zero-field splitting D",
+            "value": "0.08",
+            "unit": "cm^-1",
+            "conditions": "individual Cr(III) sites"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Results and discussion, Synthesis; Experimental procedures, Synthesis"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Results, Synthesis paragraph and elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental procedures, X-ray crystallography"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row RIYQOJ / 2018759"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results, structure description and Figures 1–2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental procedures, Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic property section; Figures 2–3; Theoretical studies"
+        }
+      ]
+    }
+  ]
+}

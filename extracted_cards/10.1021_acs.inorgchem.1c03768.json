@@ -1,0 +1,319 @@
+{
+  "title": "Two Heterometallic Nanoclusters [DyIII4NiII8] and [DyIII10MnIII4MnII2]: Structure, Assembly Mechanism, and Magnetic Properties",
+  "doi": "10.1021/acs.inorgchem.1c03768",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4Ni8(μ3-OH)8(L)8(OAc)4(H2O)4]·3.25EtOH·4CH3CN",
+      "formula": "[Dy4Ni8(μ3-OH)8(L)8(OAc)4(H2O)4]·3.25EtOH·4CH3CN (L = 4-bromo-2-[(2-hydroxypropylimino)methyl]phenolate; EA C102.5H139.5Br8Dy4N12Ni8O39.25)",
+      "ccdc_numbers": [
+        "2116917"
+      ],
+      "ccdc_refcodes": [
+        "DARKOA"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "cyclic vertex-sharing tetracubane square-like ring of Dy2Ni2O4 cubanes"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "4-Bromo-2-[(2-hydroxypropylimino)methyl]phenol (0.0258 g, 0.1 mmol), Ni(OAc)2·4H2O (0.1 mmol, 0.0249 g), and Dy(NO3)3·6H2O (0.1 mmol, 0.0456 g) were dissolved in ethanol (1 mL) and acetonitrile (1 mL) in a 20 cm Pyrex tube, and 30 μL of triethylamine was added. The tube was sealed under vacuum and heated at 80 °C for 3 days. Cooling to room temperature gave light green crystals of 1 (29% based on Dy).",
+        "reagents": [
+          {
+            "name": "4-bromo-2-[(2-hydroxypropylimino)methyl]phenol",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.0258 g, 0.1 mmol"
+          },
+          {
+            "name": "nickel(II) acetate tetrahydrate",
+            "formula": "Ni(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol, 0.0249 g"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol, 0.0456 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "30 μL"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "acetonitrile"
+        ],
+        "temperature": "80 °C",
+        "time": "3 days",
+        "ph": null,
+        "vessel_or_method": "20 cm Pyrex tube sealed under vacuum and heated in an oven",
+        "workup_and_crystallization": "Sufficient cooling of the reaction solution to room temperature afforded light green crystals.",
+        "yield": "29% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Cluster 1 shows slow magnetic relaxation and is a field-induced single-molecule magnet, with an optimum dc field of 1000 Oe. χMT rises on cooling and reaches 86.55 cm3 K mol−1 at 2 K. Combined Orbach, Raman, and QTM fitting gives Ueff/kB = 81.14 K. Only a tiny hysteresis loop is observed at 2 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "65.63",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc, polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT maximum",
+            "value": "67.27",
+            "unit": "cm3 K mol−1",
+            "conditions": "140 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": "66.21",
+            "unit": "cm3 K mol−1",
+            "conditions": "22 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "86.55",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "40.02",
+            "unit": "NμB",
+            "conditions": "2 K, 70 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole α",
+            "value": "0.0238–0.2169",
+            "unit": null,
+            "conditions": "Debye fit of variable-frequency ac data under the optimum 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": "81.14",
+            "unit": "K",
+            "conditions": "fit of ln(τ/s) vs T−1 neglecting the direct term; τ0 = 6.21(2)×10−11 s, C = 0.034(1) s−1 K−n, n = 3.09(2), τQTM−1 = 1.34(1)×10−5 s−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "optimum dc field",
+            "value": "1000",
+            "unit": "Oe",
+            "conditions": "ac susceptibility, 0–10000 Hz, 2 Oe oscillating field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract and Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Single-crystal X-ray crystallography; CCDC 2116917 for 1"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC refcode DARKOA, deposition 2116917"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal Structure of 1 and comparative discussion of the tetracubane ring"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties and Figure 5"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy10MnIII4MnII2O4(OH)12(OAc)16(L)4(HL)2(EtOH)2]·2EtOH·2CH3CN·2H2O",
+      "formula": "[Dy10MnIII4MnII2O4(OH)12(OAc)16(L)4(HL)2(EtOH)2]·2EtOH·2CH3CN·2H2O (EA C104H156Br6Dy10Mn6N8O66)",
+      "ccdc_numbers": [
+        "2116918"
+      ],
+      "ccdc_refcodes": [
+        "DARFOV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 16,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "cyclic vertex-sharing tetracubane square-like ring with Dy4O4 and Dy3MnO4 cubanes and face-sharing Dy4MnIII2O8 units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "The synthesis of 2 follows that of 1, using 4-bromo-2-[(2-hydroxypropylimino)methyl]phenol (0.0258 g, 0.1 mmol), Mn(OAc)2·4H2O (0.1 mmol, 0.0245 g) in place of the Ni(II) salt, and Dy(NO3)3·6H2O (0.1 mmol, 0.0456 g) in ethanol (1 mL) and acetonitrile (1 mL) with 30 μL triethylamine in a sealed Pyrex tube at 80 °C for 3 days. Yield 31% based on Dy.",
+        "reagents": [
+          {
+            "name": "4-bromo-2-[(2-hydroxypropylimino)methyl]phenol",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.0258 g, 0.1 mmol"
+          },
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol, 0.0245 g"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol, 0.0456 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "30 μL"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "acetonitrile"
+        ],
+        "temperature": "80 °C",
+        "time": "3 days",
+        "ph": null,
+        "vessel_or_method": "Pyrex tube sealed under vacuum and heated in an oven, same method as 1",
+        "workup_and_crystallization": "Cooling to room temperature gave crystalline product 2.",
+        "yield": "31% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Cluster 2 shows slow magnetic relaxation, but no dc field suppresses quantum tunneling, so dynamic measurements were made at 0 Oe. χMT falls from 166.26 cm3 K mol−1 at 300 K to 110.12 cm3 K mol−1 at 2 K. An Arrhenius fit gives a small barrier Ueff/kB = 11.38 K. Only a tiny hysteresis loop is observed at 2 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "166.26",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc; calculated spin-only value 162.45 cm3 K mol−1 for 10 Dy(III), 4 Mn(III), and 2 Mn(II)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "153.68",
+            "unit": "cm3 K mol−1",
+            "conditions": "55 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "110.12",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "76.44",
+            "unit": "NμB",
+            "conditions": "2 K, 70 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole α",
+            "value": "0.0246–0.4530",
+            "unit": null,
+            "conditions": "Debye fit of variable-frequency ac data at 0 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": "11.38",
+            "unit": "K",
+            "conditions": "Arrhenius fit of ln τ vs T−1 at 0 Oe; τ0 = 1.99×10−7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "optimum dc field",
+            "value": "0",
+            "unit": "Oe",
+            "conditions": "no external field suppressed QTM; ac data 0–10000 Hz, 2 Oe oscillating field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract and Experimental Section, Synthesis of 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Single-crystal X-ray crystallography; CCDC 2116918 for 2"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC refcode DARFOV, deposition 2116918"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal Structure of 2 and tetracubane comparison"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties and Figure 5"
+        }
+      ]
+    }
+  ]
+}

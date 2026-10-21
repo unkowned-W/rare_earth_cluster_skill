@@ -1,0 +1,160 @@
+{
+  "refcode": "LATKIA",
+  "ccdc_number": "1203840",
+  "dois": [
+    "10.1021/ic00068a020"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1203840.cif",
+  "formula_moiety": "C43 H69 Gd3 N12 O21 2-,2(Na1 1+),17(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.428(3)",
+    "b": "12.459(2)",
+    "c": "24.272(4)",
+    "alpha": "82.07(2)",
+    "beta": "87.39(2)",
+    "gamma": "71.20(2)",
+    "volume": "3523.76",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O19",
+        "O2",
+        "O20",
+        "O3"
+      ]
+    },
+    {
+      "label": "Gd2",
+      "element": "Gd",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O19",
+        "O21",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Gd3",
+      "element": "Gd",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O14",
+        "O15",
+        "O20",
+        "O21"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Gd1",
+          "Gd2"
+        ],
+        "shared_oxygen_labels": [
+          "O19"
+        ],
+        "metal_metal_separation_angstrom": 4.913,
+        "bridge_geometry": [
+          {
+            "oxygen": "O19",
+            "angle_deg": 171.51,
+            "metal_oxygen_distances_angstrom": [
+              2.5,
+              2.427
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O20"
+        ],
+        "metal_metal_separation_angstrom": 4.893,
+        "bridge_geometry": [
+          {
+            "oxygen": "O20",
+            "angle_deg": 168.39,
+            "metal_oxygen_distances_angstrom": [
+              2.432,
+              2.486
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd2",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O21"
+        ],
+        "metal_metal_separation_angstrom": 4.897,
+        "bridge_geometry": [
+          {
+            "oxygen": "O21",
+            "angle_deg": 170.26,
+            "metal_oxygen_distances_angstrom": [
+              2.475,
+              2.44
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Gd1",
+        "Gd2",
+        "Gd3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LATKIA crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C43 H69 Gd3 N12 O21 2-,2(Na1 1+),17(H2 O1). From the CIF bond table, Gd1 (Gd) has 5 O neighbors; Gd2 (Gd) has 5 O neighbors; Gd3 (Gd) has 5 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 4.893-4.913 Å (not direct metal-metal bonds). Computed M-O-M angles span 168.39-171.51°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [{Gd(DO3A)}3Na2CO3]·17H2O. Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic00068a020",
+    "formula": "[{Gd(DO3A)}3Na2CO3]·17H2O",
+    "compound_name": "tris{gadolinium(III) 1,4,7-tris(carboxymethyl)-1,4,7,10-tetraazacyclododecane} disodium carbonate heptadecahydrate",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

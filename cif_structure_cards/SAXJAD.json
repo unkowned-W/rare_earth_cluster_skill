@@ -1,0 +1,262 @@
+{
+  "refcode": "SAXJAD",
+  "ccdc_number": "291016",
+  "dois": [
+    "10.1021/ja054261q"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\291016.cif",
+  "formula_moiety": "C128 H144 Ce8 O10 Se18,5.25(C4 H8 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "16.8040(19)",
+    "b": "16.7175(19)",
+    "c": "28.929(3)",
+    "alpha": "90",
+    "beta": "91.455(2)",
+    "gamma": "90",
+    "volume": "8124.14",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O2"
+      ]
+    },
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3"
+      ]
+    },
+    {
+      "label": "Ce3",
+      "element": "Ce",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1B",
+        "O4"
+      ]
+    },
+    {
+      "label": "Ce4",
+      "element": "Ce",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O5"
+      ]
+    },
+    {
+      "label": "Ce1B",
+      "element": "Ce",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O2B"
+      ]
+    },
+    {
+      "label": "Ce2B",
+      "element": "Ce",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1B",
+        "O3B"
+      ]
+    },
+    {
+      "label": "Ce3B",
+      "element": "Ce",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O4B"
+      ]
+    },
+    {
+      "label": "Ce4B",
+      "element": "Ce",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1B",
+        "O5B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ce2",
+          "Ce3B"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.877,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 117.17,
+            "metal_oxygen_distances_angstrom": [
+              2.314,
+              2.228
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2",
+          "Ce4"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.887,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 117.08,
+            "metal_oxygen_distances_angstrom": [
+              2.314,
+              2.242
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2B",
+          "Ce3"
+        ],
+        "shared_oxygen_labels": [
+          "O1B"
+        ],
+        "metal_metal_separation_angstrom": 3.877,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1B",
+            "angle_deg": 117.17,
+            "metal_oxygen_distances_angstrom": [
+              2.314,
+              2.228
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2B",
+          "Ce4B"
+        ],
+        "shared_oxygen_labels": [
+          "O1B"
+        ],
+        "metal_metal_separation_angstrom": 3.887,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1B",
+            "angle_deg": 117.08,
+            "metal_oxygen_distances_angstrom": [
+              2.314,
+              2.242
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce3",
+          "Ce4B"
+        ],
+        "shared_oxygen_labels": [
+          "O1B"
+        ],
+        "metal_metal_separation_angstrom": 3.956,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1B",
+            "angle_deg": 124.47,
+            "metal_oxygen_distances_angstrom": [
+              2.228,
+              2.242
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce3B",
+          "Ce4"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.956,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 124.47,
+            "metal_oxygen_distances_angstrom": [
+              2.228,
+              2.242
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1"
+      ],
+      [
+        "Ce1B"
+      ],
+      [
+        "Ce2",
+        "Ce3B",
+        "Ce4"
+      ],
+      [
+        "Ce2B",
+        "Ce3",
+        "Ce4B"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "SAXJAD crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C128 H144 Ce8 O10 Se18,5.25(C4 H8 O1). From the CIF bond table, Ce1 (Ce) has 1 O neighbors; Ce2 (Ce) has 2 O neighbors; Ce3 (Ce) has 2 O neighbors; Ce4 (Ce) has 2 O neighbors; Ce1B (Ce) has 1 O neighbors; Ce2B (Ce) has 2 O neighbors; Ce3B (Ce) has 2 O neighbors; Ce4B (Ce) has 2 O neighbors. Oxygen-bridged metal-site graph: 6 pairs, 4 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.877-3.956 Å (not direct metal-metal bonds). Computed M-O-M angles span 117.08-124.47°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C128H144O10Ce8Se18·5.25(C4H8O).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ja054261q",
+    "formula": "C128H144O10Ce8Se18·5.25(C4H8O)",
+    "compound_name": "(THF)8Ce8(μ3-O)2(μ5-Se)2(SePh)16·5.25THF",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

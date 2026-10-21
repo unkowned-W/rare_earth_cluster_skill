@@ -1,0 +1,646 @@
+{
+  "title": "Light Conversion Control in NIR-Emissive Optical Materials Based on Heterolanthanide ErxYb3-x Quinolinolato Molecular Components",
+  "doi": "10.1021/acs.chemmater.5b01109",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "homoleptic ytterbium 8-quinolinolate trinuclear complex Yb3Q9",
+      "formula": "Yb3Q9·3H2O (Q = 8-quinolinolato; C81H54Yb3N9O9·3H2O)",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "trinuclear Ln3Q9 8-quinolinolate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A few drops of 28% aqueous NH3 were added to a suspension of 8-hydroxyquinoline (0.145 g, 1 mmol) in water (100 mL) under stirring to a final NH3 concentration of 2.0 × 10^-2 mol dm^-3 (pH ≈ 10). After 30 min, an aqueous solution of YbCl3·6H2O (0.129 g, 0.33 mmol) was added. The mixture was allowed to react for 2 days until unreacted white ligand disappeared. A yellow precipitate was collected by filtration, washed with water, 0.1 M NaOH, and water, and dried in an oven at 60 °C overnight (almost quantitative yield). The solid was dissolved in warm CH3CN, the solvent was rotary-evaporated to incipient precipitation, and yellow microcrystals of 1 formed after several days.",
+        "reagents": [
+          {
+            "name": "8-hydroxyquinoline",
+            "formula": "C9H7NO",
+            "role": "ligand",
+            "amount": "0.145 g, 1 mmol"
+          },
+          {
+            "name": "ammonia (28% aqueous)",
+            "formula": "NH3",
+            "role": "base for ligand deprotonation",
+            "amount": "few drops to 2.0 × 10^-2 mol dm^-3"
+          },
+          {
+            "name": "ytterbium(III) chloride hexahydrate",
+            "formula": "YbCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.129 g, 0.33 mmol"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "wash",
+            "amount": "0.1 M"
+          }
+        ],
+        "solvents": [
+          "H2O",
+          "CH3CN"
+        ],
+        "temperature": "ligand deprotonation at ambient conditions; drying at 60 °C; recrystallization from warm CH3CN",
+        "time": "30 min after NH3 addition, then 2 days reaction; dried overnight; crystals after several days",
+        "ph": "≈10 after NH3 addition",
+        "vessel_or_method": "one-pot aqueous precipitation followed by CH3CN recrystallization",
+        "workup_and_crystallization": "filtration; wash with water, 0.1 M NaOH, and water; oven-dry at 60 °C; dissolve in warm CH3CN and rotary-evaporate to incipient precipitation to give yellow microcrystals",
+        "yield": "almost quantitative"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Homoleptic Yb3Q9 shows ligand-centered visible photophysics and NIR Yb3+ 2F5/2 → 2F7/2 emission near 977–980 nm after ligand excitation. Ligand-to-Yb sensitization via the quinolinolate triplet is highly efficient (triplet lifetimes ~100–150 ps). In DMSO, Yb luminescence lifetimes of 1 and 1b are similar; in the crystalline solid, τYb(1) = 10.10 μs at 980 nm.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV–vis–NIR absorption (DMSO)",
+            "value": "381 nm (2.25 × 10^4 mol^-1 dm^3 cm^-1); 977 nm (Yb3+ 2F5/2 ← 2F7/2, ε ≈ 20)",
+            "unit": null,
+            "conditions": "DMSO solution"
+          },
+          {
+            "property_type": "optical",
+            "name": "diffuse-reflectance bands",
+            "value": "262, 344, 385; 928, 952, 979 nm (Yb 2F7/2 ↔ 2F5/2); 1147 nm (3ν C–H); 1678 nm (2ν C–H)",
+            "unit": "nm",
+            "conditions": "solid DR"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand triplet lifetime τT",
+            "value": "100–150",
+            "unit": "ps",
+            "conditions": "visible time-resolved PL/ESA; series including 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "Yb3+ emission lifetime τYb (solid)",
+            "value": 10.1,
+            "unit": "μs",
+            "conditions": "crystalline sample, 980 nm"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section, Synthesis of 1 and 1b"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, CHN for 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1 and 1b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results photophysical studies; Experimental analytical data for 1"
+        }
+      ]
+    },
+    {
+      "compound_label": "1b",
+      "compound_name": "heteroleptic ytterbium 8-quinolinolate nitrate trinuclear complex Yb3Q8NO3",
+      "formula": "Yb3Q8NO3·3H2O (Q = 8-quinolinolato; C72H48Yb3N9O11·3H2O)",
+      "ccdc_numbers": [
+        "1054887"
+      ],
+      "ccdc_refcodes": [
+        "DURLOT"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "trinuclear Ln3Q8(NO3) cluster with κ2-nitrate on the inner Yb"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1: 8-hydroxyquinoline (0.145 g, 1 mmol) in water (100 mL) was deprotonated with 28% NH3 to 2.0 × 10^-2 mol dm^-3 (pH ≈ 10). After 30 min, aqueous Yb(NO3)3·6H2O (0.154 g, 0.33 mmol) was added and the mixture reacted for 2 days. The yellow precipitate was filtered, washed with water, 0.1 M NaOH, and water, and dried at 60 °C overnight (almost quantitative). Recrystallization from warm CH3CN gave yellow crystals of 1b; a colorless needle (0.011 × 0.019 × 0.099 mm3) was used for single-crystal XRD (CCDC 1054887).",
+        "reagents": [
+          {
+            "name": "8-hydroxyquinoline",
+            "formula": "C9H7NO",
+            "role": "ligand",
+            "amount": "0.145 g, 1 mmol"
+          },
+          {
+            "name": "ammonia (28% aqueous)",
+            "formula": "NH3",
+            "role": "base for ligand deprotonation",
+            "amount": "few drops to 2.0 × 10^-2 mol dm^-3"
+          },
+          {
+            "name": "ytterbium(III) nitrate hexahydrate",
+            "formula": "Yb(NO3)3·6H2O",
+            "role": "metal source (nitrate retained in product)",
+            "amount": "0.154 g, 0.33 mmol"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "wash",
+            "amount": "0.1 M"
+          }
+        ],
+        "solvents": [
+          "H2O",
+          "CH3CN"
+        ],
+        "temperature": "drying at 60 °C; recrystallization from warm CH3CN",
+        "time": "30 min then 2 days reaction; dried overnight; crystals after several days",
+        "ph": "≈10 after NH3 addition",
+        "vessel_or_method": "one-pot aqueous precipitation; single-crystal XRD on Bruker D8 VENTURE (Mo Kα)",
+        "workup_and_crystallization": "filtration and washing as for 1; CH3CN recrystallization; XRD on needle crystal of 1b",
+        "yield": "almost quantitative"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "1b retains efficient ligand-to-Yb sensitization and NIR Yb emission near 977–980 nm. In DMSO, Yb lifetimes of 1 and 1b are similar despite nitrate substitution. In the solid state, τYb(1b) = 11.29 μs at 980 nm, longer than 1 (10.10 μs), attributed to fewer CH quenchers around Yb after replacing one Q by NO3-.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV–vis–NIR absorption (DMSO)",
+            "value": "378 nm (2.06 × 10^4 mol^-1 dm^3 cm^-1); 977 nm (Yb3+ 2F5/2 ← 2F7/2)",
+            "unit": null,
+            "conditions": "DMSO solution"
+          },
+          {
+            "property_type": "optical",
+            "name": "Yb3+ emission lifetime τYb (solid)",
+            "value": 11.29,
+            "unit": "μs",
+            "conditions": "crystalline sample, 980 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "ESI-MS fragment",
+            "value": "1671.87 ([Yb3Q8]+)",
+            "unit": "m/z",
+            "conditions": "CH3CN/CH3OH 3/1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Results, structure of 1b; Experimental Synthesis of 1 and 1b"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental CHN for 1b; Figure 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Data Collection and Structure Determination for 1b"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row DURLOT / 1054887"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1 and 1b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "solid-state NIR lifetime comparison of 1 vs 1b; Experimental data for 1b"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "homoleptic mixed Er/Yb 8-quinolinolate complex ErYb2Q9",
+      "formula": "ErYb2Q9·3H2O (C81H54ErYb2N9O9·3H2O)",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er",
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "trinuclear Ln3Q9 8-quinolinolate cluster (isostructural to reported ErYb2Q9)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same aqueous one-pot procedure as 1: 1 mmol deprotonated 8-hydroxyquinoline treated with a mixture of 0.22 mmol YbCl3·6H2O and 0.11 mmol ErCl3·6H2O in water. Yellow precipitate collected, washed with water, 0.1 M NaOH, and water, dried at 60 °C overnight (yield >95%), and recrystallized from CH3CN to yellow microcrystals. The product was also obtained from two equivalents of Er3+ chloride plus one equivalent of Yb3+ acetate or triflate (text notes this for the Er-rich analogue pathway; for 2 the chloride mixture above is the stated recipe).",
+        "reagents": [
+          {
+            "name": "8-hydroxyquinoline (deprotonated)",
+            "formula": "C9H7NO",
+            "role": "ligand",
+            "amount": "1 mmol"
+          },
+          {
+            "name": "ytterbium(III) chloride hexahydrate",
+            "formula": "YbCl3·6H2O",
+            "role": "majority metal source",
+            "amount": "0.22 mmol"
+          },
+          {
+            "name": "erbium(III) chloride hexahydrate",
+            "formula": "ErCl3·6H2O",
+            "role": "minority metal source",
+            "amount": "0.11 mmol"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "wash",
+            "amount": "0.1 M"
+          }
+        ],
+        "solvents": [
+          "H2O",
+          "CH3CN"
+        ],
+        "temperature": "drying at 60 °C; recrystallization from CH3CN",
+        "time": "procedure as for 1 (2 days); dried overnight",
+        "ph": "≈10 (ligand deprotonation as for 1)",
+        "vessel_or_method": "one-pot aqueous precipitation",
+        "workup_and_crystallization": "filtration, aqueous/NaOH washes, oven dry, recrystallization from CH3CN",
+        "yield": ">95%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Mixed Er/Yb species 2 shows dual NIR luminescence at ~1 μm (Yb) and ~1.5 μm (Er) after ligand excitation, with quantitative Yb-to-Er RET favored by short intermetallic distances. Ligand-to-metal sensitization remains highly efficient. GLYMO silica films doped with 2 retain solution-like dual NIR emission and RET dynamics (Yb 980 nm: 1.48 μs 60% and 6.57 μs 40%; Er 1540 nm: 0.41 μs 60% and 1.81 μs 40%; λexc 355 nm).",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV–vis–NIR absorption (DMSO)",
+            "value": "381 nm (2.25 × 10^4); Er f–f at 522 and 652 nm; 977 nm (Yb and Er)",
+            "unit": null,
+            "conditions": "DMSO"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR PL of GLYMO film doped with 2, Yb decay",
+            "value": "τYb1 = 1.48 μs (60%); τYb2 = 6.57 μs (40%)",
+            "unit": null,
+            "conditions": "980 nm, λexc 355 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR PL of GLYMO film doped with 2, Er decay",
+            "value": "τEr1 = 0.41 μs (60%); τEr2 = 1.81 μs (40%)",
+            "unit": null,
+            "conditions": "1540 nm, λexc 355 nm"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Synthesis of 2, 3, 2b, and 3b"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental CHN for 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Synthesis of 2, 3, 2b, and 3b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "NIR photophysics; Figure 9 Er/Yb-doped silica films"
+        }
+      ]
+    },
+    {
+      "compound_label": "2b",
+      "compound_name": "heteroleptic mixed Er/Yb 8-quinolinolate nitrate complex ErYb2Q8NO3",
+      "formula": "ErYb2Q8NO3·3H2O (C72H48ErYb2N9O11·3H2O)",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er",
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "trinuclear Ln3Q8(NO3) cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same procedure as 1/1b using 1 mmol deprotonated ligand plus 0.22 mmol YbCl3·6H2O and 0.11 mmol Er(NO3)3·6H2O in water. Yellow precipitate washed (water, 0.1 M NaOH, water), dried at 60 °C overnight (yield >95%), and recrystallized from CH3CN. ICP-MS Er/Yb atomic ratio 1:2.44.",
+        "reagents": [
+          {
+            "name": "8-hydroxyquinoline (deprotonated)",
+            "formula": "C9H7NO",
+            "role": "ligand",
+            "amount": "1 mmol"
+          },
+          {
+            "name": "ytterbium(III) chloride hexahydrate",
+            "formula": "YbCl3·6H2O",
+            "role": "majority metal source",
+            "amount": "0.22 mmol"
+          },
+          {
+            "name": "erbium(III) nitrate hexahydrate",
+            "formula": "Er(NO3)3·6H2O",
+            "role": "nitrate-bearing metal source",
+            "amount": "0.11 mmol"
+          }
+        ],
+        "solvents": [
+          "H2O",
+          "CH3CN"
+        ],
+        "temperature": "drying at 60 °C",
+        "time": "as for 1 (2 days); dried overnight",
+        "ph": "≈10 (as for 1)",
+        "vessel_or_method": "one-pot aqueous precipitation",
+        "workup_and_crystallization": "filtration, washes, oven dry, CH3CN recrystallization",
+        "yield": ">95%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "2b exhibits ligand-sensitized dual NIR emission of Yb (~977–980 nm) and Er (~1533 nm) and efficient Yb-to-Er RET; heteroleptic geometry shortens intermetallic distances relative to homoleptic analogues, enhancing RET. Solution Yb/Er lifetimes are similar to 2.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV–vis–NIR absorption (DMSO)",
+            "value": "378 nm (2.09 × 10^4); 522, 652, 977 nm (Er and Yb f–f)",
+            "unit": null,
+            "conditions": "DMSO"
+          },
+          {
+            "property_type": "optical",
+            "name": "diffuse-reflectance Er 4I13/2 ← 4I15/2",
+            "value": 1533,
+            "unit": "nm",
+            "conditions": "solid DR"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Synthesis of 2, 3, 2b, and 3b"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental CHN for 2b"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Synthesis of 2, 3, 2b, and 3b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "NIR photophysics of heteroleptic series; Experimental data for 2b"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "homoleptic mixed Er/Yb 8-quinolinolate complex Er2YbQ9",
+      "formula": "Er2YbQ9·3H2O (C81H54Er2YbN9O9·3H2O)",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er",
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "trinuclear Ln3Q9 8-quinolinolate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same procedure as 1 using 1 mmol deprotonated ligand with 0.22 mmol ErCl3·6H2O and 0.11 mmol YbCl3·6H2O in water. Isolation as for 1 (yield >95%); yellow microcrystals from CH3CN. The same product was obtained when two equivalents of Er3+ chloride were reacted with one equivalent of Yb3+ acetate or triflate. ICP-MS Er/Yb 1:0.56.",
+        "reagents": [
+          {
+            "name": "8-hydroxyquinoline (deprotonated)",
+            "formula": "C9H7NO",
+            "role": "ligand",
+            "amount": "1 mmol"
+          },
+          {
+            "name": "erbium(III) chloride hexahydrate",
+            "formula": "ErCl3·6H2O",
+            "role": "majority metal source",
+            "amount": "0.22 mmol"
+          },
+          {
+            "name": "ytterbium(III) chloride hexahydrate",
+            "formula": "YbCl3·6H2O",
+            "role": "minority metal source",
+            "amount": "0.11 mmol"
+          }
+        ],
+        "solvents": [
+          "H2O",
+          "CH3CN"
+        ],
+        "temperature": "drying at 60 °C",
+        "time": "as for 1; dried overnight",
+        "ph": "≈10 (as for 1)",
+        "vessel_or_method": "one-pot aqueous precipitation",
+        "workup_and_crystallization": "filtration, washes, oven dry, CH3CN recrystallization",
+        "yield": ">95%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Er-rich homoleptic 3 shows dual NIR Yb/Er luminescence after ligand excitation. Yb-to-Er RET is quantitative and 1540 nm intensity is largely independent of the number of Er ions across the mixed series. Powder XRD confirmed isostructurality of 1 and 3 with previously reported 2.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV–vis–NIR absorption (DMSO)",
+            "value": "381 nm (2.25 × 10^4); Er f–f 522, 652 nm; 977 nm (Yb/Er)",
+            "unit": null,
+            "conditions": "DMSO"
+          },
+          {
+            "property_type": "optical",
+            "name": "diffuse-reflectance Er 4I13/2 ← 4I15/2",
+            "value": 1533,
+            "unit": "nm",
+            "conditions": "solid DR"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Synthesis of 2, 3, 2b, and 3b"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental analytical data for 3"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Synthesis of 2, 3, 2b, and 3b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "NIR photophysics of mixed Er/Yb series"
+        }
+      ]
+    },
+    {
+      "compound_label": "3b",
+      "compound_name": "heteroleptic mixed Er/Yb 8-quinolinolate nitrate complex Er2YbQ8NO3",
+      "formula": "Er2YbQ8NO3·3H2O (C72H48Er2YbN9O11·3H2O)",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er",
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "trinuclear Ln3Q8(NO3) cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same procedure as 1b using 1 mmol deprotonated ligand with 0.22 mmol ErCl3·6H2O and 0.11 mmol Yb(NO3)3·6H2O in water. Isolated as a yellow solid (yield >95%) and recrystallized from CH3CN. ICP-MS Er/Yb 1:0.54; ESI-MS m/z 1660.1 assigned to [Er2YbQ8]+.",
+        "reagents": [
+          {
+            "name": "8-hydroxyquinoline (deprotonated)",
+            "formula": "C9H7NO",
+            "role": "ligand",
+            "amount": "1 mmol"
+          },
+          {
+            "name": "erbium(III) chloride hexahydrate",
+            "formula": "ErCl3·6H2O",
+            "role": "majority metal source",
+            "amount": "0.22 mmol"
+          },
+          {
+            "name": "ytterbium(III) nitrate hexahydrate",
+            "formula": "Yb(NO3)3·6H2O",
+            "role": "nitrate-bearing metal source",
+            "amount": "0.11 mmol"
+          }
+        ],
+        "solvents": [
+          "H2O",
+          "CH3CN"
+        ],
+        "temperature": "drying at 60 °C",
+        "time": "as for 1; dried overnight",
+        "ph": "≈10 (as for 1)",
+        "vessel_or_method": "one-pot aqueous precipitation",
+        "workup_and_crystallization": "filtration, washes, oven dry, CH3CN recrystallization",
+        "yield": ">95%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "3b displays ligand-centered absorption and dual NIR Yb/Er emission with efficient Yb-to-Er RET, as for other mixed heteroleptic members. ESI-MS supports a retained trinuclear [ErxYb3-xQ8]+ core in solution.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV–vis–NIR absorption (DMSO)",
+            "value": "378 nm (2.06 × 10^4); 522, 652, 977 nm",
+            "unit": null,
+            "conditions": "DMSO"
+          },
+          {
+            "property_type": "optical",
+            "name": "ESI-MS",
+            "value": "1660.1 ([Er2YbQ8]+)",
+            "unit": "m/z",
+            "conditions": "CH3CN/CH3OH 3/1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental data for 3b"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental CHN for 3b"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Synthesis of 2, 3, 2b, and 3b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Experimental spectroscopic data for 3b; NIR photophysics"
+        }
+      ]
+    }
+  ]
+}

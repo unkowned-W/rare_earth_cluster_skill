@@ -1,0 +1,164 @@
+{
+  "title": "Structure and magnetic properties of a 3d–4f CoIII2DyIII4 cluster",
+  "doi": "10.1016/j.poly.2013.04.050",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[CoIII2DyIII4(μ3-OH)2(salpa)4(NO3)4(OAc)4(H2O)2]",
+      "formula": "C48H62Co2Dy4N8O32",
+      "ccdc_numbers": [
+        "914968"
+      ],
+      "ccdc_refcodes": [
+        "DINKOC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "defect-dicubane Co2Dy4 hexanuclear cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under aerobic conditions, Co(OAc)2·4H2O (0.1248 g, 501 μmol) and Dy(NO3)3·6H2O (0.2283 g, 500 μmol) were dissolved in methanol (40.0 mL) and H2O (2.0 mL), followed by addition of 3-amino-1-propanol (0.0373 g, 497 μmol), salicylaldehyde (0.0609 g, 499 μmol) and Et3N (0.0506 g, 500 μmol). The orange solution was stirred for 1 h and filtered. Vapor diffusion of Et2O turned the filtrate yellow-green and afforded discrete green crystals after two days. Crystals were kept in contact with the mother liquor for X-ray crystallography. H2salpa (N-(2-hydroxybenzyl)-3-amino-1-propanol) is formed in situ from salicylaldehyde and 3-amino-1-propanol.",
+        "reagents": [
+          {
+            "name": "cobalt(II) acetate tetrahydrate",
+            "formula": "Co(OAc)2·4H2O",
+            "role": "Co source",
+            "amount": "0.1248 g, 501 μmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "Dy source",
+            "amount": "0.2283 g, 500 μmol"
+          },
+          {
+            "name": "3-amino-1-propanol",
+            "formula": "HO(CH2)3NH2",
+            "role": "ligand precursor",
+            "amount": "0.0373 g, 497 μmol"
+          },
+          {
+            "name": "salicylaldehyde",
+            "formula": "C7H6O2",
+            "role": "ligand precursor",
+            "amount": "0.0609 g, 499 μmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.0506 g, 500 μmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "water",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature (stirring); crystallization not otherwise specified",
+        "time": "stirred 1 h; crystals formed after two days",
+        "ph": null,
+        "vessel_or_method": "aerobic solution reaction followed by Et2O vapor diffusion",
+        "workup_and_crystallization": "filtered; vapor diffusion of Et2O into the filtrate yielded green crystals after two days; crystals maintained in mother liquor for crystallography",
+        "yield": "27.5%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Because CoIII is diamagnetic, the magnetism of 1 arises from four DyIII ions in a planar Dy4 defect-dicubane core. DC χMT decreases from 54.29 cm3 mol−1 K at 300 K to 40.04 cm3 mol−1 K at 1.8 K, attributed mainly to thermal depopulation of DyIII Stark sublevels (possible weak antiferromagnetic exchange). Magnetization reaches 19.45 μB at 2 K and 70 kOe, below full saturation. AC susceptibility in zero DC field shows out-of-phase χM″ below 10 K (slow relaxation/SMM-like behavior) without maxima above 1.8 K; an approximate barrier of ~2 K and τ0 ~10−6 s were obtained from ln(χM″/χM′) vs 1/T.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "54.29",
+            "unit": "cm3 mol−1 K",
+            "conditions": "300 K, H = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT expected for four uncoupled Dy3+",
+            "value": "56.68",
+            "unit": "cm3 mol−1 K",
+            "conditions": "300 K; S=5/2, L=5, J=15/2, 6H15/2, gJ=4/3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "40.04",
+            "unit": "cm3 mol−1 K",
+            "conditions": "1.8 K, H = 1000 Oe; T range 1.8–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": "19.45",
+            "unit": "μB",
+            "conditions": "2 K, 70 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (Ea)",
+            "value": "~2",
+            "unit": "K",
+            "conditions": "estimated from ln(χM″/χM′) vs 1/T; 100–1500 Hz; 3.5 G ac, zero dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "~1e-6",
+            "unit": "s",
+            "conditions": "same approximate fit as Ueff; no χM″ maxima above 1.8 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 2.1.1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1; elemental analysis in 2.1.1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Appendix A Supplementary data"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC metadata DINKOC / 914968"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "section 3.2 Description of structure; Fig. 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.1 / 2.1.1 Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3 Magnetic properties; Figs. 5–9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "title": "Three sandwich-type zinc(II)–lanthanide(III) clusters: structures, luminescence and magnetic properties",
+  "doi": "10.1039/c7ra01469d",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Zn2IIEu4III",
+      "compound_name": "[Zn2Eu4(HL)4(o-vanilline)2(OH)4(CH3OH)2]·2NO3·5CH3OH",
+      "formula": "C95H118Eu4N10O43Zn2",
+      "ccdc_numbers": [
+        "1482428"
+      ],
+      "ccdc_refcodes": [
+        "ADUJUH"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "sandwich-type Zn2Ln4 cluster with hydroxyl-bridged Ln4 core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "General procedure for the three hexanuclear Zn2Ln4 clusters: 27 mL (0.2 mmol) triethylamine was added to a 15 mL acetonitrile solution containing 0.1 mmol (0.028 g) H3L and 0.1 mmol (0.015 g) o-vanilline. Then 0.1 mmol (0.021 g) Zn(NO3)2·2H2O was added and the solution was stirred for 4 h to obtain a suspension. 0.1 mmol Ln(NO3)3·6H2O in 5 mL methanol was added; after another 4 h a clear solution was obtained. The mixture was stirred overnight and filtered into a sealed glass vial for crystallization at room temperature. After about three weeks pale yellow single crystals were collected by filtration, washed with cold methanol, and dried in air. For Zn2IIEu4III, Eu(NO3)3·6H2O was used.",
+        "reagents": [
+          {
+            "name": "H3L (1-(2-hydroxy-4-methoxy-benzamido)-2-(2-hydroxy-3-methoxy-benzylideneamino)ethane)",
+            "formula": "C18H20N2O5",
+            "role": "ligand",
+            "amount": "0.1 mmol (0.028 g)"
+          },
+          {
+            "name": "o-vanilline",
+            "formula": "C8H8O3",
+            "role": "auxiliary ligand",
+            "amount": "0.1 mmol (0.015 g)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "27 mL (0.2 mmol)"
+          },
+          {
+            "name": "zinc nitrate dihydrate",
+            "formula": "Zn(NO3)2·2H2O",
+            "role": "Zn source",
+            "amount": "0.1 mmol (0.021 g)"
+          },
+          {
+            "name": "europium(III) nitrate hexahydrate",
+            "formula": "Eu(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.1 mmol in 5 mL methanol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "methanol"
+        ],
+        "temperature": "room temperature crystallization",
+        "time": "stir 4 h after Zn addition; another 4 h after Ln addition; stirred overnight; crystallization about three weeks",
+        "ph": null,
+        "vessel_or_method": "stepwise solution assembly; crystallization in a sealed glass vial",
+        "workup_and_crystallization": "filtered into a sealed glass vial; pale yellow single crystals collected by filtration, washed with cold methanol, dried in air",
+        "yield": "36.7 mg, 52% based on Eu(NO3)3·6H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Solid-state photoluminescence: upon excitation at ca. 365 nm the cluster shows reddish mixed emission from ligand-centered fluorescence (λmax = 456 nm) and EuIII f–f lines (582, 599, 621 nm). The 5D0→7F2/5D0→7F1 intensity ratio is about 2.26, consistent with low-symmetry Eu sites. Luminescence decay is biexponential (τ1 = 0.245 ms, τ2 = 0.072 ms).",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "excitation_wavelength",
+            "value": "ca. 365",
+            "unit": "nm",
+            "conditions": "solid state"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-centered emission λmax",
+            "value": 456,
+            "unit": "nm",
+            "conditions": "solid state, excited at ca. 365 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "EuIII emission 5D0→7F0",
+            "value": 582,
+            "unit": "nm",
+            "conditions": "solid state"
+          },
+          {
+            "property_type": "optical",
+            "name": "EuIII emission 5D0→7F1",
+            "value": 599,
+            "unit": "nm",
+            "conditions": "solid state; magnetic-dipole transition"
+          },
+          {
+            "property_type": "optical",
+            "name": "EuIII emission 5D0→7F2",
+            "value": 621,
+            "unit": "nm",
+            "conditions": "solid state; electric-dipole transition"
+          },
+          {
+            "property_type": "optical",
+            "name": "I(5D0→7F2)/I(5D0→7F1)",
+            "value": 2.26,
+            "unit": null,
+            "conditions": "solid-state emission spectrum"
+          },
+          {
+            "property_type": "optical",
+            "name": "luminescence lifetime τ1",
+            "value": 0.245,
+            "unit": "ms",
+            "conditions": "double-exponential decay, solid state"
+          },
+          {
+            "property_type": "optical",
+            "name": "luminescence lifetime τ2",
+            "value": 0.072,
+            "unit": "ms",
+            "conditions": "double-exponential decay, solid state"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental section, Preparation of complexes"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental section, Zn2IIEu4III analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1482428 / ADUJUH"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, General procedure"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Luminescent properties; Fig. 2; Fig. S4–S5"
+        }
+      ]
+    },
+    {
+      "compound_label": "Zn2IITb4III",
+      "compound_name": "[Zn2Tb4(HL)4(o-vanilline)2(OH)4(CH3OH)2]·2NO3·5CH3OH",
+      "formula": "C95H118Tb4N10O43Zn2",
+      "ccdc_numbers": [
+        "1482431"
+      ],
+      "ccdc_refcodes": [
+        "ADUKAO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "sandwich-type Zn2Ln4 cluster with hydroxyl-bridged Ln4 core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same general stepwise procedure as the Eu analogue, using 0.1 mmol Tb(NO3)3·6H2O in 5 mL methanol in place of the Eu salt. Pale yellow crystals formed after about three weeks at room temperature, were filtered, washed with cold methanol, and dried in air.",
+        "reagents": [
+          {
+            "name": "H3L",
+            "formula": "C18H20N2O5",
+            "role": "ligand",
+            "amount": "0.1 mmol (0.028 g)"
+          },
+          {
+            "name": "o-vanilline",
+            "formula": "C8H8O3",
+            "role": "auxiliary ligand",
+            "amount": "0.1 mmol (0.015 g)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "27 mL (0.2 mmol)"
+          },
+          {
+            "name": "zinc nitrate dihydrate",
+            "formula": "Zn(NO3)2·2H2O",
+            "role": "Zn source",
+            "amount": "0.1 mmol (0.021 g)"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.1 mmol in 5 mL methanol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "methanol"
+        ],
+        "temperature": "room temperature crystallization",
+        "time": "stir 4 h after Zn addition; another 4 h after Ln addition; stirred overnight; crystallization about three weeks",
+        "ph": null,
+        "vessel_or_method": "stepwise solution assembly; crystallization in a sealed glass vial",
+        "workup_and_crystallization": "filtered into a sealed glass vial; pale yellow single crystals collected by filtration, washed with cold methanol, dried in air",
+        "yield": "34.2 mg, 48% based on Tb(NO3)3·6H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Solid-state emission is ligand-centered rather than TbIII-centered, indicating inefficient sensitization of TbIII. The luminescence lifetime is shorter than for the Eu analogue (τ = 0.097 ms).",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "luminescence lifetime",
+            "value": 0.097,
+            "unit": "ms",
+            "conditions": "solid state, ligand-centered emission (Fig. S6)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental section, Preparation of complexes"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental section, Zn2IITb4III analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1482431 / ADUKAO"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, General procedure"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Luminescent properties; Fig. 2; Fig. S6"
+        }
+      ]
+    },
+    {
+      "compound_label": "Zn2IIDy4III",
+      "compound_name": "[Zn2Dy4(HL)4(o-vanilline)2(OH)4(CH3OH)2]·2NO3·5CH3OH",
+      "formula": "C95H118Dy4N10O43Zn2",
+      "ccdc_numbers": [
+        "1482432"
+      ],
+      "ccdc_refcodes": [
+        "ADUKES"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "sandwich-type Zn2Ln4 cluster with hydroxyl-bridged Ln4 core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same general stepwise procedure as the Eu analogue, using 0.1 mmol Dy(NO3)3·6H2O in 5 mL methanol. Pale yellow crystals formed after about three weeks at room temperature, were filtered, washed with cold methanol, and dried in air.",
+        "reagents": [
+          {
+            "name": "H3L",
+            "formula": "C18H20N2O5",
+            "role": "ligand",
+            "amount": "0.1 mmol (0.028 g)"
+          },
+          {
+            "name": "o-vanilline",
+            "formula": "C8H8O3",
+            "role": "auxiliary ligand",
+            "amount": "0.1 mmol (0.015 g)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "27 mL (0.2 mmol)"
+          },
+          {
+            "name": "zinc nitrate dihydrate",
+            "formula": "Zn(NO3)2·2H2O",
+            "role": "Zn source",
+            "amount": "0.1 mmol (0.021 g)"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.1 mmol in 5 mL methanol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "methanol"
+        ],
+        "temperature": "room temperature crystallization",
+        "time": "stir 4 h after Zn addition; another 4 h after Ln addition; stirred overnight; crystallization about three weeks",
+        "ph": null,
+        "vessel_or_method": "stepwise solution assembly; crystallization in a sealed glass vial",
+        "workup_and_crystallization": "filtered into a sealed glass vial; pale yellow single crystals collected by filtration, washed with cold methanol, dried in air",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Solid-state optical emission is a strong blue ligand/Zn–ligand-centered band with a short lifetime of 9 ns and no characteristic DyIII emission. Magnetically, χMT at 1000 Oe is 57.44 cm3 K mol−1 at 300 K and rises to 83.11 cm3 K mol−1 at 2 K, indicating ferromagnetic Dy–Dy coupling. AC susceptibility (Hac = 3.0 Oe, 20–1600 Hz) shows slow magnetic relaxation at zero dc field (Arrhenius ΔE/kB = 56.7 K, τ0 = 4.8×10−7 s) with QTM below ~6 K. Under 2000 Oe, two processes appear (RLT: ΔE1/kB = 6.30 K, τ1 = 9.55×10−3 s; RHT: ΔE2/kB = 67.1 K, τ2 = 1.66×10−6 s). Cole–Cole α = 0.07–0.15; Mydosh parameter φ = 0.26.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "luminescence lifetime",
+            "value": 9,
+            "unit": "ns",
+            "conditions": "solid state, ligand/Zn–ligand blue emission (Fig. S7)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 57.44,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, Hdc = 1000 Oe, polycrystalline 30.09 mg"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 83.11,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, Hdc = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB",
+            "value": 56.7,
+            "unit": "K",
+            "conditions": "zero dc field Arrhenius fit of χM″ peaks"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "4.8e-7",
+            "unit": "s",
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "RLT energy barrier ΔE1/kB",
+            "value": 6.3,
+            "unit": "K",
+            "conditions": "Hdc = 2000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "RLT τ1",
+            "value": "9.55e-3",
+            "unit": "s",
+            "conditions": "Hdc = 2000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "RHT energy barrier ΔE2/kB",
+            "value": 67.1,
+            "unit": "K",
+            "conditions": "Hdc = 2000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "RHT τ2",
+            "value": "1.66e-6",
+            "unit": "s",
+            "conditions": "Hdc = 2000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.07–0.15",
+            "unit": null,
+            "conditions": "zero field, 8–14 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Mydosh parameter φ",
+            "value": 0.26,
+            "unit": null,
+            "conditions": "frequency shift of χM″ peak temperature"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental section, Preparation of complexes"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental section, Zn2IIDy4III analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1482432 / ADUKES"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, General procedure"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Luminescent properties; Magnetic properties; Figs. 2–7"
+        }
+      ]
+    }
+  ]
+}

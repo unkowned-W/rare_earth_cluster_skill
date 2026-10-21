@@ -1,0 +1,171 @@
+{
+  "title": "Linking high anisotropy Dy3 triangles to create a Dy6 single-molecule magnet",
+  "doi": "10.1039/b818295g",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[DyIII6(μ3-OH)4(ovn)4(avn)2(NO3)4(H2O)4](NO3)2·(H2O)·3(CH3)2CO",
+      "formula": "C63H86Dy6N6O50",
+      "ccdc_numbers": [
+        "705332"
+      ],
+      "ccdc_refcodes": [
+        "SOTJOB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "hexanuclear Dy6 core of two [Dy3(μ3-OH)2] triangles linked by aldol-vanillin alkoxides"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A solution of o-vanillin (ovnH) (0.25 mmol, 0.038 g) and KOH (0.50 mmol, 0.028 g) in acetone (20 ml) was heated (~50 °C) for 10 min while being stirred. To this slurry, solid Dy(NO3)3·5H2O (0.25 mmol, 0.087 g) was added and the resulting solution was stirred overnight at 25 °C and filtered. After 3 days, X-ray quality yellow rectangular crystals of 1 were formed (30% yield). The reaction involves in situ aldol condensation of o-vanillin with acetone in the presence of KOH to form the aldol-vanillin ligand that links two Dy3 triangles.",
+        "reagents": [
+          {
+            "name": "o-vanillin (ovnH)",
+            "formula": "C8H8O3",
+            "role": "ligand precursor",
+            "amount": "0.25 mmol, 0.038 g (1 equiv.)"
+          },
+          {
+            "name": "KOH",
+            "formula": "KOH",
+            "role": "base",
+            "amount": "0.50 mmol, 0.028 g (2 equiv.)"
+          },
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "0.25 mmol, 0.087 g (1 equiv.)"
+          }
+        ],
+        "solvents": [
+          "acetone"
+        ],
+        "temperature": "~50 °C for 10 min, then 25 °C overnight",
+        "time": "10 min heating then overnight stirring; crystals after 3 days (main-text narrative also states 7 days of crystallization)",
+        "ph": null,
+        "vessel_or_method": "stirred solution, filtration, crystallization",
+        "workup_and_crystallization": "filtered; X-ray quality yellow rectangular crystals formed after 3 days (pale yellow crystals also described after 7 days of crystallization)",
+        "yield": "30%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Ferromagnetically coupled Dy6 SMM: χT increases from 86.6 cm3 K mol−1 at 300 K to 105.8 cm3 K mol−1 at ~42 K then falls to 26.7 cm3 K mol−1 at 1.8 K. Frequency-dependent out-of-phase ac signals below ~18 K under zero dc field; two-step hysteresis opening below ~1 K, temperature-independent below ~0.2 K. Arrhenius barrier Ueff = 9.6 K, τ0 = 2 × 10−6 s.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 86.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT (expected for six non-interacting DyIII)",
+            "value": 85.02,
+            "unit": "cm3 K mol−1",
+            "conditions": "S = 5/2, L = 5, 6H15/2, g = 4/3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT maximum",
+            "value": 105.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "~42 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 26.7,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 35.6,
+            "unit": "μB",
+            "conditions": "1.8 K, 7 T; no saturation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "out-of-phase ac susceptibility onset",
+            "value": "~18",
+            "unit": "K",
+            "conditions": "zero dc field; frequency-dependent χ″ indicating slow relaxation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "hysteresis opening temperature",
+            "value": "~1",
+            "unit": "K",
+            "conditions": "single-crystal micro-SQUID, 1.1–0.04 K; two-step loops"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "temperature-independent hysteresis below",
+            "value": 0.2,
+            "unit": "K",
+            "conditions": "micro-SQUID; coercivity maximum around 0.2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff",
+            "value": 9.6,
+            "unit": "K",
+            "conditions": "Arrhenius fit to low-temperature dc relaxation (Fig. S6)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "2e-6",
+            "unit": "s",
+            "conditions": "Arrhenius fit to low-temperature dc data"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "synthesis paragraph and Notes z"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Notes y crystal data C63H86Dy6N6O50"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 705332 / SOTJOB"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Notes z Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism paragraphs; Figs. 2–4"
+        }
+      ]
+    }
+  ]
+}

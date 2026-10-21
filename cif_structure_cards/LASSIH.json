@@ -1,0 +1,186 @@
+{
+  "refcode": "LASSIH",
+  "ccdc_number": "1203765",
+  "dois": [
+    "10.1002/zaac.19936190824"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1203765.cif",
+  "formula_moiety": "C32 H48 Lu4 O32 2-,2(Cs1 1+)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "12.931(2)",
+    "b": "13.238(2)",
+    "c": "16.225(3)",
+    "alpha": "90",
+    "beta": "92.01(2)",
+    "gamma": "90",
+    "volume": "2775.7",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Lu1",
+      "element": "Lu",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O13",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Lu2",
+      "element": "Lu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O14",
+        "O15",
+        "O2",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Lu2B",
+      "element": "Lu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10B",
+        "O11B",
+        "O12B",
+        "O14B",
+        "O15B",
+        "O2B",
+        "O8B",
+        "O9B"
+      ]
+    },
+    {
+      "label": "Lu1B",
+      "element": "Lu",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O11B",
+        "O13B",
+        "O1B",
+        "O2B",
+        "O3B",
+        "O4B",
+        "O5B",
+        "O6B",
+        "O7B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Lu1",
+          "Lu2"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.933,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 108.94,
+            "metal_oxygen_distances_angstrom": [
+              2.561,
+              2.268
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 109.13,
+            "metal_oxygen_distances_angstrom": [
+              2.315,
+              2.511
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Lu1B",
+          "Lu2B"
+        ],
+        "shared_oxygen_labels": [
+          "O11B",
+          "O2B"
+        ],
+        "metal_metal_separation_angstrom": 3.933,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2B",
+            "angle_deg": 108.94,
+            "metal_oxygen_distances_angstrom": [
+              2.561,
+              2.268
+            ]
+          },
+          {
+            "oxygen": "O11B",
+            "angle_deg": 109.13,
+            "metal_oxygen_distances_angstrom": [
+              2.315,
+              2.511
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Lu1",
+        "Lu2"
+      ],
+      [
+        "Lu1B",
+        "Lu2B"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LASSIH crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C32 H48 Lu4 O32 2-,2(Cs1 1+). From the CIF bond table, Lu1 (Lu) has 9 O neighbors; Lu2 (Lu) has 8 O neighbors; Lu2B (Lu) has 8 O neighbors; Lu1B (Lu) has 9 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.933-3.933 Å (not direct metal-metal bonds). Computed M-O-M angles span 108.94-109.13°; individual values and O labels are in metal_framework.links. Article card reports molecular formula CsLu(CH3COO)4. Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/zaac.19936190824",
+    "formula": "CsLu(CH3COO)4",
+    "compound_name": "cesium lutetium(III) tetraacetate",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

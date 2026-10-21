@@ -1,0 +1,362 @@
+{
+  "refcode": "QUZBIZ",
+  "ccdc_number": "1862525",
+  "dois": [
+    "10.1002/slct.202001766"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1862525.cif",
+  "formula_moiety": "C102 H87 Dy5 N7 O26 P1,4(C1 H4 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "15.2830(5)",
+    "b": "16.4962(6)",
+    "c": "24.5790(9)",
+    "alpha": "99.933(2)",
+    "beta": "105.6110(10)",
+    "gamma": "106.2060(10)",
+    "volume": "5521.71",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O19",
+        "O3",
+        "O5",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O14",
+        "O15",
+        "O16"
+      ]
+    },
+    {
+      "label": "Dy4",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O13",
+        "O15",
+        "O16",
+        "O17",
+        "O22",
+        "O23",
+        "O8"
+      ]
+    },
+    {
+      "label": "Dy5",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O14",
+        "O16",
+        "O17",
+        "O18",
+        "O20",
+        "O21"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O3",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.559,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 99.68,
+            "metal_oxygen_distances_angstrom": [
+              2.351,
+              2.305
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 98.1,
+            "metal_oxygen_distances_angstrom": [
+              2.319,
+              2.393
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 96.08,
+            "metal_oxygen_distances_angstrom": [
+              2.437,
+              2.348
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O11"
+        ],
+        "metal_metal_separation_angstrom": 3.772,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 108.48,
+            "metal_oxygen_distances_angstrom": [
+              2.351,
+              2.296
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 107.22,
+            "metal_oxygen_distances_angstrom": [
+              2.308,
+              2.376
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O10"
+        ],
+        "metal_metal_separation_angstrom": 3.779,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 110.41,
+            "metal_oxygen_distances_angstrom": [
+              2.305,
+              2.296
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 106.87,
+            "metal_oxygen_distances_angstrom": [
+              2.37,
+              2.335
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy3",
+          "Dy4"
+        ],
+        "shared_oxygen_labels": [
+          "O15",
+          "O16"
+        ],
+        "metal_metal_separation_angstrom": 3.838,
+        "bridge_geometry": [
+          {
+            "oxygen": "O15",
+            "angle_deg": 106.18,
+            "metal_oxygen_distances_angstrom": [
+              2.356,
+              2.443
+            ]
+          },
+          {
+            "oxygen": "O16",
+            "angle_deg": 112.82,
+            "metal_oxygen_distances_angstrom": [
+              2.287,
+              2.32
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy3",
+          "Dy5"
+        ],
+        "shared_oxygen_labels": [
+          "O14",
+          "O16"
+        ],
+        "metal_metal_separation_angstrom": 3.794,
+        "bridge_geometry": [
+          {
+            "oxygen": "O14",
+            "angle_deg": 107.73,
+            "metal_oxygen_distances_angstrom": [
+              2.374,
+              2.324
+            ]
+          },
+          {
+            "oxygen": "O16",
+            "angle_deg": 108.56,
+            "metal_oxygen_distances_angstrom": [
+              2.287,
+              2.386
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy4",
+          "Dy5"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O16",
+          "O17"
+        ],
+        "metal_metal_separation_angstrom": 3.591,
+        "bridge_geometry": [
+          {
+            "oxygen": "O13",
+            "angle_deg": 97.7,
+            "metal_oxygen_distances_angstrom": [
+              2.45,
+              2.318
+            ]
+          },
+          {
+            "oxygen": "O16",
+            "angle_deg": 99.48,
+            "metal_oxygen_distances_angstrom": [
+              2.32,
+              2.386
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 99.73,
+            "metal_oxygen_distances_angstrom": [
+              2.387,
+              2.31
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3",
+        "Dy4",
+        "Dy5"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "three-dimensional metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "QUZBIZ crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C102 H87 Dy5 N7 O26 P1,4(C1 H4 O1). From the CIF bond table, Dy1 (Dy) has 7 O neighbors; Dy2 (Dy) has 7 O neighbors; Dy3 (Dy) has 6 O neighbors; Dy4 (Dy) has 8 O neighbors; Dy5 (Dy) has 7 O neighbors. Oxygen-bridged metal-site graph: 6 pairs, 1 components; largest component is a network with cycles with three-dimensional metal-site arrangement. Computed bridged metal-metal separations span 3.559-3.838 Å (not direct metal-metal bonds). Computed M-O-M angles span 96.08-112.82°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Dy5(L)6(Ph3PO)(NO3)(H2O)2(μ3-OH)2]. Explicit grouped units in the article formula/name: 1 NO3 (explicit grouped unit in article formula), 2 H2O (explicit grouped unit in article formula), 2 μ3-OH (explicit grouped unit in article formula), 1 NO3 (explicit grouped unit in article compound name (structural notation)), 2 H2O (explicit grouped unit in article compound name (structural notation)), 2 μ3-OH (explicit grouped unit in article compound name (structural notation)). Article name explicitly identifies Dy(III).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/slct.202001766",
+    "formula": "[Dy5(L)6(Ph3PO)(NO3)(H2O)2(μ3-OH)2]",
+    "compound_name": "[DyIII5(L)6(Ph3PO)(NO3)(H2O)2(μ3-OH)2]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "μ3-OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "μ3-OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "Dy",
+        "state": "III",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

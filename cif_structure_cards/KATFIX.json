@@ -1,0 +1,211 @@
+{
+  "refcode": "KATFIX",
+  "ccdc_number": "1507505",
+  "dois": [
+    "10.1021/acs.inorgchem.6b02398"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1507505.cif",
+  "formula_moiety": "C28 H54 Co2 Gd2 N4 O26 P2 2-,2(C6 H16 N1 1+)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "12.2514(5)",
+    "b": "11.1087(5)",
+    "c": "23.5042(10)",
+    "alpha": "90",
+    "beta": "102.143(2)",
+    "gamma": "90",
+    "volume": "3127.28",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Co1",
+      "element": "Co",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O15",
+        "O17",
+        "O5"
+      ]
+    },
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O12",
+        "O16",
+        "O2",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Co2",
+      "element": "Co",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O18",
+        "O2",
+        "O4"
+      ]
+    },
+    {
+      "label": "Gd2",
+      "element": "Gd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O19",
+        "O20",
+        "O21",
+        "O23",
+        "O24",
+        "O25",
+        "O3"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Co1",
+          "Gd1"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.719,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 110.19,
+            "metal_oxygen_distances_angstrom": [
+              2.014,
+              2.507
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Co1",
+          "Gd2"
+        ],
+        "shared_oxygen_labels": [
+          "O15"
+        ],
+        "metal_metal_separation_angstrom": 3.691,
+        "bridge_geometry": [
+          {
+            "oxygen": "O15",
+            "angle_deg": 108.06,
+            "metal_oxygen_distances_angstrom": [
+              2.011,
+              2.533
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Co2",
+          "Gd1"
+        ],
+        "shared_oxygen_labels": [
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.691,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 108.06,
+            "metal_oxygen_distances_angstrom": [
+              2.011,
+              2.533
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Co2",
+          "Gd2"
+        ],
+        "shared_oxygen_labels": [
+          "O14"
+        ],
+        "metal_metal_separation_angstrom": 3.719,
+        "bridge_geometry": [
+          {
+            "oxygen": "O14",
+            "angle_deg": 110.19,
+            "metal_oxygen_distances_angstrom": [
+              2.014,
+              2.507
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Co1",
+        "Co2",
+        "Gd1",
+        "Gd2"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "KATFIX crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C28 H54 Co2 Gd2 N4 O26 P2 2-,2(C6 H16 N1 1+). From the CIF bond table, Co1 (Co) has 4 O neighbors; Gd1 (Gd) has 9 O neighbors; Co2 (Co) has 4 O neighbors; Gd2 (Gd) has 9 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.691-3.719 Å (not direct metal-metal bonds). Computed M-O-M angles span 108.06-110.19°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C40H84Co2Gd2N6O26P2. Explicit grouped units in the article formula/name: 4 NO3 (explicit grouped unit in article compound name (structural notation)). Article name explicitly identifies Co(II), Gd(III).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.6b02398",
+    "formula": "C40H84Co2Gd2N6O26P2",
+    "compound_name": "[(CoII)2(GdIII)2(tBuPO3)2(O2CtBu)2(HO2CtBu)2(NO3)4]·NEt3",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 4,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "Co",
+        "state": "II",
+        "basis": "article compound name"
+      },
+      {
+        "element": "Gd",
+        "state": "III",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

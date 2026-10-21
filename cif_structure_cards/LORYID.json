@@ -1,0 +1,206 @@
+{
+  "refcode": "LORYID",
+  "ccdc_number": "1949170",
+  "dois": [
+    "10.1039/c9dt03478a"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1949170.cif",
+  "formula_moiety": "C56 H62 Lu4 N6 O20,2(C1 H2 Cl2)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "8.5600(4)",
+    "b": "14.0982(7)",
+    "c": "14.3191(6)",
+    "alpha": "96.775(2)",
+    "beta": "94.875(2)",
+    "gamma": "101.833(2)",
+    "volume": "1668.88",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Lu1",
+      "element": "Lu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3A",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O7A"
+      ]
+    },
+    {
+      "label": "Lu2",
+      "element": "Lu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O2",
+        "O3",
+        "O4A",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Lu1A",
+      "element": "Lu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O3",
+        "O4A",
+        "O5A",
+        "O6A",
+        "O7",
+        "O7A"
+      ]
+    },
+    {
+      "label": "Lu2A",
+      "element": "Lu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10A",
+        "O2A",
+        "O3A",
+        "O4",
+        "O8A",
+        "O9A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Lu1",
+          "Lu1A"
+        ],
+        "shared_oxygen_labels": [
+          "O7",
+          "O7A"
+        ],
+        "metal_metal_separation_angstrom": 3.697,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 106.64,
+            "metal_oxygen_distances_angstrom": [
+              2.326,
+              2.285
+            ]
+          },
+          {
+            "oxygen": "O7A",
+            "angle_deg": 106.64,
+            "metal_oxygen_distances_angstrom": [
+              2.285,
+              2.326
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Lu1",
+          "Lu2A"
+        ],
+        "shared_oxygen_labels": [
+          "O3A",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.688,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 106.86,
+            "metal_oxygen_distances_angstrom": [
+              2.333,
+              2.258
+            ]
+          },
+          {
+            "oxygen": "O3A",
+            "angle_deg": 107.64,
+            "metal_oxygen_distances_angstrom": [
+              2.271,
+              2.297
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Lu1A",
+          "Lu2"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O4A"
+        ],
+        "metal_metal_separation_angstrom": 3.688,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 107.64,
+            "metal_oxygen_distances_angstrom": [
+              2.271,
+              2.297
+            ]
+          },
+          {
+            "oxygen": "O4A",
+            "angle_deg": 106.86,
+            "metal_oxygen_distances_angstrom": [
+              2.333,
+              2.258
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Lu1",
+        "Lu1A",
+        "Lu2",
+        "Lu2A"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LORYID crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C56 H62 Lu4 N6 O20,2(C1 H2 Cl2). From the CIF bond table, Lu1 (Lu) has 7 O neighbors; Lu2 (Lu) has 6 O neighbors; Lu1A (Lu) has 7 O neighbors; Lu2A (Lu) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.688-3.697 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.64-107.64°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C58H66Cl4Lu4N6O20. Explicit grouped units in the article formula/name: 2 OH (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c9dt03478a",
+    "formula": "C58H66Cl4Lu4N6O20",
+    "compound_name": "[Lu4(acac)6L2(OH)2]·2CH2Cl2",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

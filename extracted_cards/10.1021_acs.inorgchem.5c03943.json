@@ -1,0 +1,406 @@
+{
+  "title": "Peroxide Ligands Support Tetranuclear Lanthanide Ensembles: Synthesis, Structure, Magnetism, and Theoretical Studies",
+  "doi": "10.1021/acs.inorgchem.5c03943",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4(LH2)2(η1-NO3)2(μ3-O2)2(DMF)4]·2NO3·2DMF",
+      "formula": "C56H86Dy4N18O32",
+      "ccdc_numbers": [
+        "2482131"
+      ],
+      "ccdc_refcodes": [
+        "ORABIW"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "peroxide-bridged tetranuclear {Dy4} cluster with μ3-η2:η2:η2 peroxide ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "LH4 (0.030 g, 0.077 mmol) and Dy(NO3)3·5H2O (0.0678 g, 0.154 mmol) were combined in 3 mL of acetonitrile, giving a yellow slurry that was stirred for 15 min at room temperature. Triethylamine (0.308 mmol) was added dropwise, then 1 mL DMF, producing a clear yellow solution that was stirred for 10 min. Hydrogen peroxide (34.5–36.5%, 0.077 mmol) was added and the mixture was stirred for 6 h, then concentrated to 1 mL. Crystals suitable for X-ray diffraction formed over 3 days by slow diffusion of diethyl ether.",
+        "reagents": [
+          {
+            "name": "LH4 ((E)-6-((bis(2-hydroxyethyl)amino)methyl)-N′-(2-hydroxy-3-methoxybenzylidene)picolinohydrazide)",
+            "formula": "LH4",
+            "role": "ligand",
+            "amount": "0.030 g, 0.077 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "metal salt",
+            "amount": "0.0678 g, 0.154 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.308 mmol"
+          },
+          {
+            "name": "hydrogen peroxide",
+            "formula": "H2O2",
+            "role": "peroxide source",
+            "amount": "0.077 mmol (34.5–36.5%)"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "DMF",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "15 min + 10 min + 6 h stirring; crystals grown over 3 days",
+        "ph": null,
+        "vessel_or_method": "solution stirring followed by slow diffusion of diethyl ether into a concentrated 1 mL reaction mixture",
+        "workup_and_crystallization": "solution concentrated to 1 mL; crystals grown by slow diffusion of diethyl ether over 3 days",
+        "yield": "0.0446 g, 53.15% (based on Dy(III) salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Room-temperature χMT = 55.52 cm3 K mol−1 (expected 56.68 for four isolated Dy(III)). χMT decreases on cooling then rises below 10 K, attributed to depopulation of mJ states and/or antiferromagnetic exchange plus ferromagnetic dipolar interactions. Zero-field out-of-phase ac susceptibility appears only at high frequency; field-induced SMM behavior with two relaxation channels under 2000 Oe. LF: minor Orbach (τ0 = 4.43(7)×10−16 s, Ueff = 160.9(84) K) plus dominant direct process; HF: Raman + direct. Demonstrated field-induced single-molecule magnet behavior.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 55.52,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, dc susceptibility 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff (LF Orbach)",
+            "value": "160.9(84)",
+            "unit": "K",
+            "conditions": "ac susceptibility under 2000 Oe; τ0 = 4.43(7)×10−16 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C (HF)",
+            "value": "3.21(7)×10−3",
+            "unit": "s−1 K−n",
+            "conditions": "HF contribution under 2000 Oe; n = 8.24(14)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "direct A (LF)",
+            "value": "2.49(5)×10−13",
+            "unit": "s−1 K−1 Oe−4",
+            "conditions": "LF contribution; m = 4 (fixed)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "direct A (HF)",
+            "value": "7.08(14)×10−11",
+            "unit": "s−1 K−1 Oe−4",
+            "conditions": "HF contribution; m = 4 (fixed)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "optimum dc field for ac relaxation",
+            "value": 2000,
+            "unit": "Oe",
+            "conditions": "field-dependent ac susceptibility at 2 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental synthesis of 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Accession Codes 2482131–2482133"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ORABIW / 2482131"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, General Synthetic Procedure and compound 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Studies; Figures 5–7"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Er4(LH2)2(η1-NO3)2(μ3-O2)2(DMF)4]·2NO3·2DMF",
+      "formula": "C56H86Er4N18O32",
+      "ccdc_numbers": [
+        "2482132"
+      ],
+      "ccdc_refcodes": [
+        "ORABOC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "peroxide-bridged tetranuclear {Er4} cluster with μ3-η2:η2:η2 peroxide ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general procedure as 1–3: LH4 (0.030 g, 0.077 mmol) and Er(NO3)3·5H2O (0.07 g, 0.154 mmol) in 3 mL acetonitrile, stirred 15 min; Et3N (0.308 mmol) then 1 mL DMF; after 10 min, H2O2 (0.077 mmol) added and stirred 6 h; concentrated to 1 mL; crystals by diethyl ether diffusion over 3 days.",
+        "reagents": [
+          {
+            "name": "LH4",
+            "formula": "LH4",
+            "role": "ligand",
+            "amount": "0.030 g, 0.077 mmol"
+          },
+          {
+            "name": "erbium(III) nitrate pentahydrate",
+            "formula": "Er(NO3)3·5H2O",
+            "role": "metal salt",
+            "amount": "0.07 g, 0.154 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.308 mmol"
+          },
+          {
+            "name": "hydrogen peroxide",
+            "formula": "H2O2",
+            "role": "peroxide source",
+            "amount": "0.077 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "DMF",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "15 min + 10 min + 6 h stirring; crystals grown over 3 days",
+        "ph": null,
+        "vessel_or_method": "solution stirring followed by slow diffusion of diethyl ether",
+        "workup_and_crystallization": "concentrated to 1 mL; crystals by slow diffusion of diethyl ether over 3 days",
+        "yield": "0.0425 g, 50.47% (based on Er(III) salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Room-temperature χMT = 43.37 cm3 K mol−1 (expected 45.92 for four isolated Er(III)). χMT decreases on cooling due to mJ depopulation and/or antiferromagnetic exchange. No zero-field out-of-phase signal; field-induced slow magnetic relaxation under 4000 Oe fitted by a direct process only (A = 4.23(14)×10−13 s−1 K−1 Oe−4, m = 4). Demonstrated field-induced SMM behavior, weaker than the Dy analogue.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 43.37,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, dc susceptibility 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "optimum dc field for ac relaxation",
+            "value": 4000,
+            "unit": "Oe",
+            "conditions": "field-dependent ac susceptibility at 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "direct A",
+            "value": "4.23(14)×10−13",
+            "unit": "s−1 K−1 Oe−4",
+            "conditions": "temperature dependence of τ under 4000 Oe; m = 4 (fixed); one Debye contribution"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental synthesis of 2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Accession Codes; Table 1 order 1–3"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ORABOC / 2482132"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, compound 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Studies; Figures 5–7"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Gd4(LH2)2(η1-NO3)2(μ3-O2)2(DMF)4]·2NO3·2DMF",
+      "formula": "C56H86Gd4N18O32",
+      "ccdc_numbers": [
+        "2482133"
+      ],
+      "ccdc_refcodes": [
+        "ORABUI"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "peroxide-bridged tetranuclear {Gd4} cluster with μ3-η2:η2:η2 peroxide ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general procedure as 1–3: LH4 (0.030 g, 0.077 mmol) and Gd(NO3)3·6H2O (0.069 g, 0.154 mmol) in 3 mL acetonitrile, stirred 15 min; Et3N (0.308 mmol) then 1 mL DMF; after 10 min, H2O2 (0.077 mmol) added and stirred 6 h; concentrated to 1 mL; crystals by diethyl ether diffusion over 3 days.",
+        "reagents": [
+          {
+            "name": "LH4",
+            "formula": "LH4",
+            "role": "ligand",
+            "amount": "0.030 g, 0.077 mmol"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.069 g, 0.154 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.308 mmol"
+          },
+          {
+            "name": "hydrogen peroxide",
+            "formula": "H2O2",
+            "role": "peroxide source",
+            "amount": "0.077 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "DMF",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "15 min + 10 min + 6 h stirring; crystals grown over 3 days",
+        "ph": null,
+        "vessel_or_method": "solution stirring followed by slow diffusion of diethyl ether",
+        "workup_and_crystallization": "concentrated to 1 mL; crystals by slow diffusion of diethyl ether over 3 days",
+        "yield": "0.0415 g, 51.2% (based on Gd(III) salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Room-temperature χMT = 31.43 cm3 K mol−1 (expected 31.48 for four isolated Gd(III)). χMT remains constant to ~20 K then decreases at low T due to weak intramolecular antiferromagnetic coupling. Magnetization reaches 25.01 Nβ at 13 T (2–15 K data). Magnetocaloric effect: −ΔSm max = 27.93 J K−1 kg−1 at 4 K and 13 T (theoretical maximum 33.24 J K−1 kg−1); 23.87 J K−1 kg−1 at 7 T. Demonstrated magnetic refrigeration (MCE).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 31.43,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, dc susceptibility 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 25.01,
+            "unit": "Nβ",
+            "conditions": "13 T; magnetization measured 2–15 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change −ΔSm",
+            "value": 27.93,
+            "unit": "J K−1 kg−1",
+            "conditions": "4 K, ΔH = 0–13 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change −ΔSm",
+            "value": 23.87,
+            "unit": "J K−1 kg−1",
+            "conditions": "7 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental synthesis of 3"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Accession Codes; Table 1 order 1–3"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ORABUI / 2482133"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, compound 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Studies; Figure 8"
+        }
+      ]
+    }
+  ]
+}

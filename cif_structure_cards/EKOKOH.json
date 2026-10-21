@@ -1,0 +1,163 @@
+{
+  "refcode": "EKOKOH",
+  "ccdc_number": "2031776",
+  "dois": [
+    "10.1021/acs.jpca.0c09758"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2031776.cif",
+  "formula_moiety": "C76 H58 N4 Nd1 O12 Zn2 1+,2(C1 H4 O1),H1 O1 1-,2(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C c",
+  "international_tables_number": "9",
+  "unit_cell": {
+    "a": "33.516(8)",
+    "b": "14.576(3)",
+    "c": "17.164(4)",
+    "alpha": "90.00",
+    "beta": "109.594(4)",
+    "gamma": "90.00",
+    "volume": "7899.56",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Nd1",
+      "element": "Nd",
+      "oxygen_coordination_number": 10,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Zn1",
+      "element": "Zn",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O3",
+        "O9"
+      ]
+    },
+    {
+      "label": "Zn2",
+      "element": "Zn",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O6",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Nd1",
+          "Zn1"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.541,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 100.72,
+            "metal_oxygen_distances_angstrom": [
+              2.548,
+              2.03
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 105.25,
+            "metal_oxygen_distances_angstrom": [
+              2.403,
+              2.044
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Nd1",
+          "Zn2"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.543,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 104.07,
+            "metal_oxygen_distances_angstrom": [
+              2.403,
+              2.083
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 104.41,
+            "metal_oxygen_distances_angstrom": [
+              2.473,
+              1.994
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Nd1",
+        "Zn1",
+        "Zn2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "EKOKOH crystallizes in the monoclinic crystal system with space group C c. Reported CIF formula moiety: C76 H58 N4 Nd1 O12 Zn2 1+,2(C1 H4 O1),H1 O1 1-,2(H2 O1). From the CIF bond table, Nd1 (Nd) has 10 O neighbors; Zn1 (Zn) has 3 O neighbors; Zn2 (Zn) has 3 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.541-3.543 Å (not direct metal-metal bonds). Computed M-O-M angles span 100.72-105.25°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Zn2NdL2(OAc)2]·OH (C78H66N4NdO17Zn2). Explicit grouped units in the article formula/name: 2 OAc (explicit grouped unit in article formula), 2 OAc (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.jpca.0c09758",
+    "formula": "[Zn2NdL2(OAc)2]·OH (C78H66N4NdO17Zn2)",
+    "compound_name": "[Zn2NdL2(OAc)2]·OH",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OAc",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "OAc",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

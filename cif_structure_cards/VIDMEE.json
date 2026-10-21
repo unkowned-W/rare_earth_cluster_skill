@@ -1,0 +1,258 @@
+{
+  "refcode": "VIDMEE",
+  "ccdc_number": "2205584",
+  "dois": [
+    "10.1021/acs.organomet.3c00009"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2205584.cif",
+  "formula_moiety": "C56 H58 Ge8 N8 O36 Y4 2-,2(C8 H20 N1 1+),4(C2 H3 N1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "13.2868(7)",
+    "b": "13.4730(7)",
+    "c": "16.1523(8)",
+    "alpha": "84.955(2)",
+    "beta": "68.209(2)",
+    "gamma": "79.679(2)",
+    "volume": "2640.69",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Y1",
+      "element": "Y",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O14",
+        "O16",
+        "O17",
+        "O25",
+        "O26",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Y2",
+      "element": "Y",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O24",
+        "O25",
+        "O5",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Y3",
+      "element": "Y",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O23",
+        "O24",
+        "O31",
+        "O32",
+        "O34",
+        "O35",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Y4",
+      "element": "Y",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O23",
+        "O26",
+        "O27",
+        "O28",
+        "O29",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Dy2?",
+      "element": "Dy",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Dy1?",
+      "element": "Dy",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Y1",
+          "Y2"
+        ],
+        "shared_oxygen_labels": [
+          "O25",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.652,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 106.24,
+            "metal_oxygen_distances_angstrom": [
+              2.283,
+              2.283
+            ]
+          },
+          {
+            "oxygen": "O25",
+            "angle_deg": 106.05,
+            "metal_oxygen_distances_angstrom": [
+              2.278,
+              2.294
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Y1",
+          "Y4"
+        ],
+        "shared_oxygen_labels": [
+          "O26",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.696,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 107.2,
+            "metal_oxygen_distances_angstrom": [
+              2.278,
+              2.315
+            ]
+          },
+          {
+            "oxygen": "O26",
+            "angle_deg": 107.84,
+            "metal_oxygen_distances_angstrom": [
+              2.286,
+              2.287
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Y2",
+          "Y3"
+        ],
+        "shared_oxygen_labels": [
+          "O24",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.696,
+        "bridge_geometry": [
+          {
+            "oxygen": "O8",
+            "angle_deg": 107.84,
+            "metal_oxygen_distances_angstrom": [
+              2.287,
+              2.286
+            ]
+          },
+          {
+            "oxygen": "O24",
+            "angle_deg": 107.2,
+            "metal_oxygen_distances_angstrom": [
+              2.315,
+              2.278
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Y3",
+          "Y4"
+        ],
+        "shared_oxygen_labels": [
+          "O23",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.652,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 106.05,
+            "metal_oxygen_distances_angstrom": [
+              2.278,
+              2.294
+            ]
+          },
+          {
+            "oxygen": "O23",
+            "angle_deg": 106.24,
+            "metal_oxygen_distances_angstrom": [
+              2.283,
+              2.283
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1?"
+      ],
+      [
+        "Dy2?"
+      ],
+      [
+        "Y1",
+        "Y2",
+        "Y3",
+        "Y4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "VIDMEE crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C56 H58 Ge8 N8 O36 Y4 2-,2(C8 H20 N1 1+),4(C2 H3 N1). From the CIF bond table, Y1 (Y) has 8 O neighbors; Y2 (Y) has 7 O neighbors; Y3 (Y) has 8 O neighbors; Y4 (Y) has 7 O neighbors; Dy2? (Dy) has 0 O neighbors; Dy1? (Dy) has 0 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 3 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.652-3.696 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.05-107.84°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [NEt4]2[(Ph4Ge4O8)2DyY3(NO3)6(EtOH)2(MeCN)2]·2(MeCN). Explicit grouped units in the article formula/name: 6 NO3 (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.organomet.3c00009",
+    "formula": "[NEt4]2[(Ph4Ge4O8)2DyY3(NO3)6(EtOH)2(MeCN)2]·2(MeCN)",
+    "compound_name": "tetraethylammonium bis[octaphenyl-octagermsesquioxane] dysprosium-triyttrium hexanitrate bis(ethanol) bis(acetonitrile) diacetonitrile solvate",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 6,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

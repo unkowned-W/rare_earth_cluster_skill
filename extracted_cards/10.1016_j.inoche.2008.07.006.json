@@ -1,0 +1,148 @@
+{
+  "title": "Crystal structure and photo- and electroluminescent properties of a “sandglass” terbium cluster",
+  "doi": "10.1016/j.inoche.2008.07.006",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "{Tb[Tb4(hpmba)8(μ3-OH)4(μ4-OH)]2OH}·14H2O (hpmba = 2-hydroxy-N-((pyridin-2-yl)methyl)benzamide)",
+      "formula": "{Tb[Tb4(hpmba)8(μ3-OH)4(μ4-OH)]2OH}·14H2O",
+      "ccdc_numbers": [
+        "697472"
+      ],
+      "ccdc_refcodes": [
+        "XOHLAI"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "sandglass-like nonanuclear Tb9 hydroxo cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "The complex was prepared by mixing hpmba (4.0 mmol) with the corresponding lanthanide perchlorate (2.25 mmol) in 10 mL of ethyl acetate, with the pH adjusted to ca. 7 using triethylamine. Triprism crystals formed after several days of standing at room temperature (yield 16%).",
+        "reagents": [
+          {
+            "name": "2-hydroxy-N-((pyridin-2-yl)methyl)benzamide (hpmba)",
+            "formula": "C13H12N2O2",
+            "role": "ligand",
+            "amount": "4.0 mmol"
+          },
+          {
+            "name": "lanthanide perchlorate (terbium perchlorate)",
+            "formula": "Tb(ClO4)3",
+            "role": "metal source",
+            "amount": "2.25 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base / pH adjuster",
+            "amount": "pH ca. 7"
+          }
+        ],
+        "solvents": [
+          "ethyl acetate (CH3COOC2H5)"
+        ],
+        "temperature": "room temperature",
+        "time": "several days",
+        "ph": "ca. 7",
+        "vessel_or_method": "mixing/solution deposition (not specified further)",
+        "workup_and_crystallization": "Triprism crystals appeared after several days depositing at room temperature.",
+        "yield": "16%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Compound 1 is strongly green-emissive from Tb(III). In acetonitrile at 298 K, excitation at ~300 nm gives 5D4→7FJ bands at ca. 487, 546, 583 and 622 nm with a 5D4 lifetime of 1.03 ms at 546 nm (abstract: ~1.02 ms); ligand emission at 441 nm is fully quenched. In mixed CH3CN solutions, adjusting pH to ca. 7 with triethylamine enhances Tb emission by ca. 17 times relative to ligand/Tb(ClO4)3 mixtures. An ITO/PVK/complex/Al OLED shows voltage-dependent electroluminescence matching the PL spectrum (max. 546 nm; weaker 487, 583, 622 nm), with maximum EL intensity at 11 V.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "photoluminescence lifetime (5D4, 546 nm)",
+            "value": 1.03,
+            "unit": "ms",
+            "conditions": "CH3CN, 298 K; λem = 546 nm; λex ≈ 300 nm (abstract reports ~1.02 ms)"
+          },
+          {
+            "property_type": "optical",
+            "name": "photoluminescence emission maxima (Tb 5D4→7F6,5,4,3)",
+            "value": "487, 546, 583, 622",
+            "unit": "nm",
+            "conditions": "CH3CN, 298 K; λex ≈ 300 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-based emission quenching",
+            "value": "441 nm emission of free ligand disappears in compound 1",
+            "unit": null,
+            "conditions": "CH3CN; compared with free hpmba (λex = 334 nm for free ligand)"
+          },
+          {
+            "property_type": "optical",
+            "name": "Tb emission intensity enhancement upon cluster formation",
+            "value": "ca. 17-fold",
+            "unit": null,
+            "conditions": "CH3CN; 4.00×10^-4 M hpmba + 2.25×10^-4 M Tb(ClO4)3, pH adjusted to ca. 7 with triethylamine"
+          },
+          {
+            "property_type": "optical",
+            "name": "electroluminescence emission maxima",
+            "value": "546 (max), 487, 583, 622",
+            "unit": "nm",
+            "conditions": "ITO/PVK/complex/Al device, continuous DC mode"
+          },
+          {
+            "property_type": "optical",
+            "name": "voltage of maximum electroluminescence intensity",
+            "value": 11,
+            "unit": "V",
+            "conditions": "ITO/PVK/complex/Al OLED; intensity increases with driving voltage then degrades at higher voltage"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "title"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; crystallographic discussion; conclusion; footnote [14]"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Appendix A; CCDC 697472"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row XOHLAI / 697472"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "abstract; structural discussion of sandglass Tb9 core"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "experimental paragraph after introduction"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "abstract; Fig. 3; photoluminescence paragraph; Fig. 4 EL discussion"
+        }
+      ]
+    }
+  ]
+}

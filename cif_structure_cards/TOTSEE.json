@@ -1,0 +1,170 @@
+{
+  "refcode": "TOTSEE",
+  "ccdc_number": "2270899",
+  "dois": [
+    "10.1002/cssc.202400286"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2270899.cif",
+  "formula_moiety": "C72 H40 Cl8 Dy3 N9 O11,C1 H2 Cl2,2(C6 H14)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.9620(3)",
+    "b": "18.4399(4)",
+    "c": "19.8229(5)",
+    "alpha": "90.9890(10)",
+    "beta": "100.665(2)",
+    "gamma": "99.970(2)",
+    "volume": "4579.92",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O13",
+        "O14",
+        "O16",
+        "O17",
+        "O18",
+        "O19",
+        "O29"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O15",
+        "O16",
+        "O17",
+        "O18"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O13",
+        "O14"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O12",
+          "O13",
+          "O14"
+        ],
+        "metal_metal_separation_angstrom": 3.486,
+        "bridge_geometry": [
+          {
+            "oxygen": "O14",
+            "angle_deg": 97.38,
+            "metal_oxygen_distances_angstrom": [
+              2.299,
+              2.341
+            ]
+          },
+          {
+            "oxygen": "O13",
+            "angle_deg": 95.49,
+            "metal_oxygen_distances_angstrom": [
+              2.363,
+              2.347
+            ]
+          },
+          {
+            "oxygen": "O12",
+            "angle_deg": 95.07,
+            "metal_oxygen_distances_angstrom": [
+              2.367,
+              2.358
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O16",
+          "O17",
+          "O18"
+        ],
+        "metal_metal_separation_angstrom": 3.49,
+        "bridge_geometry": [
+          {
+            "oxygen": "O16",
+            "angle_deg": 95.39,
+            "metal_oxygen_distances_angstrom": [
+              2.361,
+              2.358
+            ]
+          },
+          {
+            "oxygen": "O18",
+            "angle_deg": 97.05,
+            "metal_oxygen_distances_angstrom": [
+              2.31,
+              2.348
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 95.15,
+            "metal_oxygen_distances_angstrom": [
+              2.375,
+              2.353
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "TOTSEE crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C72 H40 Cl8 Dy3 N9 O11,C1 H2 Cl2,2(C6 H14). From the CIF bond table, Dy1 (Dy) has 8 O neighbors; Dy3 (Dy) has 4 O neighbors; Dy2 (Dy) has 4 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.486-3.490 Å (not direct metal-metal bonds). Computed M-O-M angles span 95.07-97.38°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C72H40Cl8Dy3N9O11·CH2Cl2·2(C6H14).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/cssc.202400286",
+    "formula": "C72H40Cl8Dy3N9O11·CH2Cl2·2(C6H14)",
+    "compound_name": "octakis(5-chloroquinolin-8-olato)nitratetridysprosium dichloromethane hexane solvate",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

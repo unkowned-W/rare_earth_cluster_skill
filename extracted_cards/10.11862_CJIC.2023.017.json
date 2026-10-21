@@ -1,0 +1,143 @@
+{
+  "title": "Synthesis, crystal structure, and conversion of CO2 of a Yb8 cluster",
+  "doi": "10.11862/cjic.2023.017",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Yb8(acac)4(HL)4(L)2(μ3-O)4(C2H5O)4]·2C2H5OH·2CH2Cl2",
+      "formula": "C112H122Cl4N12O42Yb8",
+      "ccdc_numbers": [
+        "2091284"
+      ],
+      "ccdc_refcodes": [
+        "JIMGEV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric octanuclear Yb8 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "H2L (0.04 mmol) and Yb(acac)3·2H2O (0.04 mmol) were mixed in ethanol (9.0 mL) and dichloromethane (4.0 mL). The mixture was sealed in a 20 mL glass vial and heated at 70 °C for 2 d. After slow cooling to room temperature, yellow block-shaped crystals of cluster 1 were obtained. Yield 37% based on Yb(acac)3·2H2O. H2L itself was prepared by refluxing 5-hydroxymethylfurfural (1.89 g, 15 mmol) and 2-salicylhydrazide (2.28 g, 15 mmol) in 50 mL absolute methanol at 80 °C for about 12 h (yield 2.83 g, 76%).",
+        "reagents": [
+          {
+            "name": "H2L (Schiff base ligand; 2-hydroxybenzoic acid (5-hydroxymethyl-furan-2-ylmethylene)hydrazide)",
+            "formula": "C12H12N2O4",
+            "role": "ligand",
+            "amount": "0.04 mmol"
+          },
+          {
+            "name": "ytterbium acetylacetonate dihydrate",
+            "formula": "Yb(acac)3·2H2O",
+            "role": "metal source",
+            "amount": "0.04 mmol"
+          }
+        ],
+        "solvents": [
+          "C2H5OH",
+          "CH2Cl2"
+        ],
+        "temperature": "70 °C",
+        "time": "2 d",
+        "ph": null,
+        "vessel_or_method": "solvothermal synthesis in a sealed 20 mL glass vial",
+        "workup_and_crystallization": "After the reaction temperature was slowly decreased to room temperature, yellow block-shaped crystals were obtained.",
+        "yield": "37% (based on Yb(acac)3·2H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Cluster 1 shows typical Yb(III) NIR luminescence in methanol at room temperature, assigned to 2F5/2 → 2F7/2, indicating ligand-to-Yb energy transfer. Reported lifetime 8.91 μs, emission quantum yield 0.21%, estimated intrinsic Yb quantum yield 0.45% and sensitization efficiency 46.7%. UV-Vis bands of 1 appear at 203, 256, 307 and 359 nm. Catalytic CO2/epoxide cycloaddition is reported but is outside magnetic/optical extraction.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "NIR emission maxima",
+            "value": "976, 1008, and 1038",
+            "unit": "nm",
+            "conditions": "cluster 1 in CH3OH, room temperature, λex = 359 nm (Fig. 5 caption also lists λex = 392 nm); 2F5/2 → 2F7/2"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR luminescence lifetime",
+            "value": 8.91,
+            "unit": "μs",
+            "conditions": "cluster 1 in CH3OH; Fig. 5b"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission quantum yield (φem)",
+            "value": 0.21,
+            "unit": "%",
+            "conditions": "cluster 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "intrinsic quantum yield of Yb (φLn = τ/τ0)",
+            "value": 0.45,
+            "unit": "%",
+            "conditions": "τ0(Yb) taken as 2000 μs"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-to-metal energy transfer efficiency (ηsens = φem/φLn)",
+            "value": 46.7,
+            "unit": "%",
+            "conditions": "cluster 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV-Vis absorption maxima",
+            "value": "203, 256, 307, and 359",
+            "unit": "nm",
+            "conditions": "cluster 1 at room temperature; compared with H2L (201, 226, 328 nm) and Yb(acac)3·2H2O (202, 291 nm)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "title/abstract and section 2.1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 1.2 elemental analysis and Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 1.4 CCDC: 2091284"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row JIMGEV"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "section 2.1 crystal structure"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 1.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "sections 2.3–2.4 and Fig. 5"
+        }
+      ]
+    }
+  ]
+}

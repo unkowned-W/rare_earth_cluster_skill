@@ -1,0 +1,400 @@
+{
+  "title": "Single-Molecule Magnetic Behavior in a Calix[8]arene-Capped Heterometallic {DyIII4CoII4} Square-Antiprismatic Cluster",
+  "doi": "10.1002/ejic.201700978",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "CIAC-230",
+      "compound_name": "[(Dy4Co4)(C8A)2(O)2(DEF)8(H2O)4]·0.5CH3OH",
+      "formula": "C216.5H306Co4Dy4N8O30.5",
+      "ccdc_numbers": [
+        "1548027"
+      ],
+      "ccdc_refcodes": [
+        "PIBXUW"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "calix[8]arene-capped {Ln4Co4} square-antiprismatic sandwich cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Red single crystals of CIAC-230 were obtained by solvothermal reaction of H8C8A (0.05 g, 0.04 mmol), Co(CH3COO)2·4H2O (0.04 g, 0.16 mmol), Dy(CH3COO)3·6H2O (0.05 g, 0.11 mmol), CH3OH/DEF (3 mL/3 mL), and triethylamine (0.1 mL) in a 20 mL Teflon-lined autoclave kept at 130 °C for 3 d, then slowly cooled to room temperature at about 4 °C h−1. Crystals were isolated by filtration, washed with methanol, and dried in air.",
+        "reagents": [
+          {
+            "name": "p-tert-butylcalix[8]arene (H8C8A)",
+            "formula": "H8C8A",
+            "role": "ligand",
+            "amount": "0.05 g, 0.04 mmol"
+          },
+          {
+            "name": "cobalt(II) acetate tetrahydrate",
+            "formula": "Co(CH3COO)2·4H2O",
+            "role": "Co source",
+            "amount": "0.04 g, 0.16 mmol"
+          },
+          {
+            "name": "dysprosium(III) acetate hexahydrate",
+            "formula": "Dy(CH3COO)3·6H2O",
+            "role": "Dy source",
+            "amount": "0.05 g, 0.11 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.1 mL"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "DEF"
+        ],
+        "temperature": "130 °C, then cooled at ca. 4 °C h−1 to room temperature",
+        "time": "3 d",
+        "ph": null,
+        "vessel_or_method": "20 mL Teflon-lined autoclave, solvothermal",
+        "workup_and_crystallization": "Crystals isolated by filtration, washed with methanol, and dried in air.",
+        "yield": "ca. 24% with respect to H8C8A"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT at 300 K is 62.60 cm3 K mol−1 (expected 67.48), falling to 29.10 cm3 K mol−1 at 2 K. Magnetization at 2 K reaches 20.8 μB at 5 T without saturation. Frequency-dependent out-of-phase ac maxima below 4.5 K under zero dc field indicate SMM behavior. Cole–Cole fits give 0.1 < α < 0.41 (1.9–3.7 K). Relaxation fitted with Raman + Orbach processes yields Ueff/kB = 10.38 K and τ0 = 9.8 × 10−6 s. Applied dc fields of 100–2000 Oe at 2.5 K change χ″ maxima only slightly.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 62.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1000 Oe, 2–300 K data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 29.1,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 20.8,
+            "unit": "μB",
+            "conditions": "2 K, 5 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.1–0.41",
+            "unit": null,
+            "conditions": "1.9–3.7 K, zero dc field, generalized Debye model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": 10.38,
+            "unit": "K",
+            "conditions": "zero dc field; Raman + Orbach fit of ln τ vs T−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "9.8e-6",
+            "unit": "s",
+            "conditions": "zero dc field; Raman + Orbach fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Introduction; Experimental Section"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, synthesis of CIAC-230"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section, CCDC statement"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row 1548028 PIBXUW"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and Discussion; Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Compounds"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 4–7"
+        }
+      ]
+    },
+    {
+      "compound_label": "CIAC-231",
+      "compound_name": "[(Er4Co4)(C8A)2(O)2(DEF)8(H2O)4]·0.5CH3OH",
+      "formula": "C216.5H306Co4Er4N8O30.5",
+      "ccdc_numbers": [
+        "1548028"
+      ],
+      "ccdc_refcodes": [
+        "PIBXOQ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "calix[8]arene-capped {Ln4Co4} square-antiprismatic sandwich cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to CIAC-230 by solvothermal reaction of H8C8A (0.05 g, 0.04 mmol), Co(CH3COO)2·4H2O (0.04 g, 0.16 mmol), Er(CH3COO)3·6H2O in place of Dy(CH3COO)3·6H2O, CH3OH/DEF (3 mL/3 mL), and triethylamine (0.1 mL) in a 20 mL Teflon-lined autoclave at 130 °C for 3 d, then cooled at about 4 °C h−1. Red crystals were isolated by filtration, washed with methanol, and dried in air.",
+        "reagents": [
+          {
+            "name": "p-tert-butylcalix[8]arene (H8C8A)",
+            "formula": "H8C8A",
+            "role": "ligand",
+            "amount": "0.05 g, 0.04 mmol (as for CIAC-230)"
+          },
+          {
+            "name": "cobalt(II) acetate tetrahydrate",
+            "formula": "Co(CH3COO)2·4H2O",
+            "role": "Co source",
+            "amount": "0.04 g, 0.16 mmol (as for CIAC-230)"
+          },
+          {
+            "name": "erbium(III) acetate hexahydrate",
+            "formula": "Er(CH3COO)3·6H2O",
+            "role": "Er source",
+            "amount": "substituted for Dy(CH3COO)3·6H2O; amount not separately stated"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.1 mL (as for CIAC-230)"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "DEF"
+        ],
+        "temperature": "130 °C, then cooled at ca. 4 °C h−1 to room temperature",
+        "time": "3 d",
+        "ph": null,
+        "vessel_or_method": "20 mL Teflon-lined autoclave, solvothermal",
+        "workup_and_crystallization": "Red crystals isolated by filtration, washed with methanol, and dried in air.",
+        "yield": "ca. 21% with respect to H8C8A"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT at 300 K is 51.10 cm3 K mol−1 (expected 56.70), falling to 34.70 cm3 K mol−1 at 2 K. Magnetization at 2 K reaches 18.6 μB at 5 T without saturation. Temperature- and frequency-dependent χ′ and χ″ under zero dc field indicate slow magnetization relaxation below ca. 6 K, but no χ″ maximum is observed down to 2 K, consistent with fast quantum tunneling. Variable-frequency ac data under 3000 Oe still lack full peaks to 1.9 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 51.1,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 34.7,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 18.6,
+            "unit": "μB",
+            "conditions": "2 K, 5 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Introduction; Experimental Section"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, synthesis of CIAC-231"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section, CCDC statement"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row 1548027 PIBXOQ"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Compounds"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 4, 5, 8"
+        }
+      ]
+    },
+    {
+      "compound_label": "CIAC-235",
+      "compound_name": "[(Y4Co4)(C8A)2(O)2(DEF)6(H2O)6]·2DEF",
+      "formula": "C216H308Co4Y4N8O32",
+      "ccdc_numbers": [
+        "1568708"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "calix[8]arene-capped {Ln4Co4} square-antiprismatic sandwich cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to CIAC-230 by solvothermal reaction of H8C8A (0.05 g, 0.04 mmol), Co(CH3COO)2·4H2O (0.04 g, 0.16 mmol), Y(CH3COO)3·6H2O in place of Dy(CH3COO)3·6H2O, CH3OH/DEF (3 mL/3 mL), and triethylamine (0.1 mL) in a 20 mL Teflon-lined autoclave at 130 °C for 3 d, then cooled at about 4 °C h−1. Red crystals were isolated by filtration, washed with methanol, and dried in air. Some coordinated DEF molecules are replaced by water relative to the Dy/Er analogues.",
+        "reagents": [
+          {
+            "name": "p-tert-butylcalix[8]arene (H8C8A)",
+            "formula": "H8C8A",
+            "role": "ligand",
+            "amount": "0.05 g, 0.04 mmol (as for CIAC-230)"
+          },
+          {
+            "name": "cobalt(II) acetate tetrahydrate",
+            "formula": "Co(CH3COO)2·4H2O",
+            "role": "Co source",
+            "amount": "0.04 g, 0.16 mmol (as for CIAC-230)"
+          },
+          {
+            "name": "yttrium(III) acetate hexahydrate",
+            "formula": "Y(CH3COO)3·6H2O",
+            "role": "Y source",
+            "amount": "substituted for Dy(CH3COO)3·6H2O; amount not separately stated"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.1 mL (as for CIAC-230)"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "DEF"
+        ],
+        "temperature": "130 °C, then cooled at ca. 4 °C h−1 to room temperature",
+        "time": "3 d",
+        "ph": null,
+        "vessel_or_method": "20 mL Teflon-lined autoclave, solvothermal",
+        "workup_and_crystallization": "Red crystals isolated by filtration, washed with methanol, and dried in air.",
+        "yield": "ca. 29% with respect to H8C8A"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Diamagnetic Y analogue used to isolate CoII magnetism. χMT at 300 K is 8.43 cm3 K mol−1 (expected ca. 10.8), falling to 0.41 cm3 K mol−1 at 2 K, attributed mainly to thermal depopulation of CoII 4T1g spin–orbit levels. Magnetization at 2 K reaches 0.59 μB at 5 T. No obvious out-of-phase ac susceptibility under zero dc field; no SMM behavior.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 8.43,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 0.41,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 0.59,
+            "unit": "μB",
+            "conditions": "2 K, 5 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Introduction; Experimental Section"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, synthesis of CIAC-235"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section, CCDC statement"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Compounds"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 4–5"
+        }
+      ]
+    }
+  ]
+}

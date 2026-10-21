@@ -1,0 +1,169 @@
+{
+  "title": "A Tetranuclear Dysprosium Schiff Base Complex Showing Slow Relaxation of Magnetization",
+  "doi": "10.3390/inorganics10050066",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "tetranuclear dysprosium Schiff base complex",
+      "formula": "[Dy4(L)4(μ2-OH)2Cl4]Cl2 (C56H54Cl6Dy4N8O10)",
+      "ccdc_numbers": [
+        "2161049"
+      ],
+      "ccdc_refcodes": [
+        "BEMHIO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "planar butterfly Dy4"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A methanol solution of DyCl3·6H2O (1.0 mmol, 0.376 g) in 15 mL was slowly added to a stirring methanol solution (50 mL) of o-vanillin (1 mmol, 0.152 g) and 2-(aminomethyl)pyridine (1 mmol, 0.108 mL) in the presence of triethylamine (1 mmol, 0.101 mL). The mixture was refluxed for 4 h in an oil bath. The yellow solution was cooled to room temperature and filtered. Vapor diffusion of diethyl ether into the filtrate yielded yellow block crystals, which were collected by filtration, washed with cold MeOH, and dried in air and vacuum.",
+        "reagents": [
+          {
+            "name": "dysprosium chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "1.0 mmol, 0.376 g"
+          },
+          {
+            "name": "o-vanillin",
+            "formula": "C8H8O3",
+            "role": "Schiff-base aldehyde precursor",
+            "amount": "1 mmol, 0.152 g"
+          },
+          {
+            "name": "2-(aminomethyl)pyridine",
+            "formula": "C6H8N2",
+            "role": "Schiff-base amine precursor",
+            "amount": "1 mmol, 0.108 mL"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1 mmol, 0.101 mL"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "diethyl ether"
+        ],
+        "temperature": "reflux, then cooled to room temperature",
+        "time": "4 h reflux",
+        "ph": null,
+        "vessel_or_method": "oil-bath reflux; diethyl ether vapor diffusion crystallization",
+        "workup_and_crystallization": "filtered; vapor diffusion of diethyl ether into the yellow filtrate gave X-ray quality yellow block crystals; collected by filtration, washed with cold MeOH, dried in air and vacuum",
+        "yield": "200 mg, 52.25%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "DC data show weak antiferromagnetic exchange among four Dy(III) centres. AC susceptibility is nonzero at zero DC field, establishing SMM behaviour with two (LF/HF) relaxation channels; HF relaxation below 8 K is nearly temperature-independent, consistent with QTM.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT (room temperature, reported χT/C0 = 118.5)",
+            "value": "χT/C0 = 118.5 (ideal uncoupled 4 Dy: χT = 52.1 cm3 K mol−1)",
+            "unit": null,
+            "conditions": "T = 300 K implied; B_DC = 0.1 T; T range 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT/C0 at 2 K",
+            "value": 51.9,
+            "unit": null,
+            "conditions": "T = 2.0 K, B_DC = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "isotropic exchange J_ex/hc (all J equal)",
+            "value": "-0.036(14)",
+            "unit": "cm−1",
+            "conditions": "fit of χT vs T; g = 1.19(1); χ_TIM = 4.9×10−6 m3 mol−1; R = 0.077"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "LF relaxation time τ_LF",
+            "value": 29,
+            "unit": "ms",
+            "conditions": "two-set Debye fit; T = 2.0 K, B_DC = 0 T (text also cites 1.5–744 Hz); x_LF = 0.24; B_AC = 0.3 mT"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "HF relaxation time τ_HF",
+            "value": 75,
+            "unit": "μs",
+            "conditions": "two-set Debye fit; T = 2.0 K, B_DC = 0 T; B_AC = 0.3 mT"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "LF relaxation time τ_LF",
+            "value": 9,
+            "unit": "ms",
+            "conditions": "T = 2.0 K, B_DC = 0.5 T; x_LF = 0.52"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "HF relaxation time τ_HF",
+            "value": 66,
+            "unit": "μs",
+            "conditions": "T = 2.0 K, B_DC = 0.5 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "out-of-phase AC susceptibility persistence",
+            "value": "χ″ survives until T > 10 K",
+            "unit": null,
+            "conditions": "B_DC = 0; variable frequency of oscillating field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Introduction; Section 2.1; Section 3.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Introduction; Section 3.2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Section 3.3 X-ray Crystallography"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row BEMHIO / 2161049"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Section 2.1 Structural Description"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 3.2 Synthesis of Tetranuclear Dysprosium Complex (1)"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Sections 2.2 DC Susceptibility and 2.3 AC Susceptibility; Figures 3–8"
+        }
+      ]
+    }
+  ]
+}

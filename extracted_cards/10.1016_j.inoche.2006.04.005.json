@@ -1,0 +1,135 @@
+{
+  "title": "Synthesis, molecular structure and magnetic behaviour of [Dy8(μ3,η2-OR)6(μ,η2-OR)4(η1-OR)8(μ,η1-OR)6] (R = C2H4OPri)",
+  "doi": "10.1016/j.inoche.2006.04.005",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "octanuclear dysprosium 2-isopropoxyethoxide cluster",
+      "formula": "[Dy(OC2H4OPri)3]8",
+      "ccdc_numbers": [
+        "262877"
+      ],
+      "ccdc_refcodes": [
+        "RENGAT"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear homoleptic Dy8 alkoxide (two tetranuclear units linked by μ,η1-alkoxides)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Compound 1 was obtained by two routes in toluene. Direct reaction of dysprosium chips with excess 2-isopropoxyethanol under reflux in the presence of Hg2+ catalyst, followed by work-up, afforded a crystalline material analysed as Dy(OC2H4OPri)3. Alcohol-exchange of Dy5O(OPri)13 with 15 equivalents of 2-isopropoxyethanol at room temperature gave the same octanuclear cluster in nearly quantitative yield. FT-IR showed no νOH bands, consistent with a non-solvated species.",
+        "reagents": [
+          {
+            "name": "dysprosium chips",
+            "formula": "Dy",
+            "role": "metal source (direct alcoholysis route)",
+            "amount": null
+          },
+          {
+            "name": "2-isopropoxyethanol",
+            "formula": "HOC2H4OPri",
+            "role": "ligand / alcoholysis reagent",
+            "amount": "excess (direct route); 15 equiv. (alcohol-exchange route)"
+          },
+          {
+            "name": "pentanuclear dysprosium oxoisopropoxide",
+            "formula": "Dy5O(OPri)13",
+            "role": "starting alkoxide for alcohol exchange",
+            "amount": null
+          },
+          {
+            "name": "mercury(II) catalyst",
+            "formula": "Hg2+",
+            "role": "catalyst for metal–alcohol reaction",
+            "amount": "catalytic (scheme: ε Hg2+)"
+          }
+        ],
+        "solvents": [
+          "toluene"
+        ],
+        "temperature": "reflux (direct Dy-chip route); room temperature (alcohol-exchange route)",
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "solution alcoholysis / alcohol exchange; crystallization after work-up",
+        "workup_and_crystallization": "After refluxing and work-up a crystalline material 1 was obtained; the alcohol-exchange route likewise afforded 1.",
+        "yield": "nearly quantitative (alcohol-exchange route)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Solid-state susceptibility of 1 (2–300 K, 1000 Oe; χMT reported per Dy) shows room-temperature χMT = 15.05 cm3 K mol−1, slightly above the free-ion value 14.17 cm3 K mol−1, indicating essentially non-interacting Dy(III) at 300 K. Magnetization is linear in field from 1000–21000 Oe at 300 K (no ferromagnetism). χMT decreases on cooling, more steeply below 10 K, consistent with overall antiferromagnetic coupling within the tetranuclear units and a quasi non-magnetic ground state. Curie–Weiss θ = −5.3(2) K confirms weak antiferromagnetic coupling.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (per Dy)",
+            "value": 15.05,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature; data collected 2–300 K in 1000 Oe; diamagnetic correction χD = 1358.9 × 10−6 cm3 K mol−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "theoretical χMT (Dy(III) free ion)",
+            "value": 14.17,
+            "unit": "cm3 K mol−1",
+            "conditions": "comparison value cited for isolated Dy(III)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie–Weiss θ",
+            "value": "-5.3(2)",
+            "unit": "K",
+            "conditions": "from 1/χM vs T over 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization field dependence",
+            "value": "linear; no ferromagnetism at 300 K",
+            "unit": null,
+            "conditions": "1000–21000 Oe at 300 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "introduction / results: compound 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "results: [Dy(OC2H4OPri)3]8; crystallographic formula [Dy4(μ3,η2-OR)3(μ,η2-OR)2(η1-OR)4(μ,η1-OR)5]2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Appendix A: CCDC 262877"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row RENGAT / 262877"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "results paragraph and reaction scheme (toluene; Hg2+/Δ vs rt alcohol exchange)"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic susceptibility discussion and Fig. 2"
+        }
+      ]
+    }
+  ]
+}

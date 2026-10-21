@@ -1,0 +1,278 @@
+{
+  "refcode": "TEZZAD",
+  "ccdc_number": "2209839",
+  "dois": [
+    "10.1021/acs.inorgchem.2c04301"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2209839.cif",
+  "formula_moiety": "C180 H196 N52 O40 S8 Yb8,4(H2 O1)",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "P 42/n",
+  "international_tables_number": "86",
+  "unit_cell": {
+    "a": "26.192(4)",
+    "b": "26.192(4)",
+    "c": "16.018(6)",
+    "alpha": "90.00",
+    "beta": "90.00",
+    "gamma": "90.00",
+    "volume": "10988.7",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O3",
+        "O5",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O17",
+        "O3",
+        "O4",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O15",
+        "O19"
+      ]
+    },
+    {
+      "label": "Yb4",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O14",
+        "O15",
+        "O16",
+        "O20",
+        "O37"
+      ]
+    },
+    {
+      "label": "Yb5",
+      "element": "Yb",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O23",
+        "O25",
+        "O29"
+      ]
+    },
+    {
+      "label": "Yb6",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O23",
+        "O24",
+        "O25",
+        "O26",
+        "O30",
+        "O7"
+      ]
+    },
+    {
+      "label": "Yb7",
+      "element": "Yb",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O33",
+        "O35",
+        "O39"
+      ]
+    },
+    {
+      "label": "Yb8",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O27",
+        "O33",
+        "O34",
+        "O35",
+        "O36",
+        "O40"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.689,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 105.27,
+            "metal_oxygen_distances_angstrom": [
+              2.289,
+              2.352
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 104.56,
+            "metal_oxygen_distances_angstrom": [
+              2.322,
+              2.342
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb3",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O15"
+        ],
+        "metal_metal_separation_angstrom": 3.689,
+        "bridge_geometry": [
+          {
+            "oxygen": "O13",
+            "angle_deg": 105.27,
+            "metal_oxygen_distances_angstrom": [
+              2.289,
+              2.352
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 104.56,
+            "metal_oxygen_distances_angstrom": [
+              2.322,
+              2.342
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb5",
+          "Yb6"
+        ],
+        "shared_oxygen_labels": [
+          "O23",
+          "O25"
+        ],
+        "metal_metal_separation_angstrom": 3.689,
+        "bridge_geometry": [
+          {
+            "oxygen": "O23",
+            "angle_deg": 105.27,
+            "metal_oxygen_distances_angstrom": [
+              2.289,
+              2.352
+            ]
+          },
+          {
+            "oxygen": "O25",
+            "angle_deg": 104.56,
+            "metal_oxygen_distances_angstrom": [
+              2.322,
+              2.342
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb7",
+          "Yb8"
+        ],
+        "shared_oxygen_labels": [
+          "O33",
+          "O35"
+        ],
+        "metal_metal_separation_angstrom": 3.689,
+        "bridge_geometry": [
+          {
+            "oxygen": "O33",
+            "angle_deg": 105.27,
+            "metal_oxygen_distances_angstrom": [
+              2.289,
+              2.352
+            ]
+          },
+          {
+            "oxygen": "O35",
+            "angle_deg": 104.56,
+            "metal_oxygen_distances_angstrom": [
+              2.322,
+              2.342
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2"
+      ],
+      [
+        "Yb3",
+        "Yb4"
+      ],
+      [
+        "Yb5",
+        "Yb6"
+      ],
+      [
+        "Yb7",
+        "Yb8"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "TEZZAD crystallizes in the tetragonal crystal system with space group P 42/n. Reported CIF formula moiety: C180 H196 N52 O40 S8 Yb8,4(H2 O1). From the CIF bond table, Yb1 (Yb) has 3 O neighbors; Yb2 (Yb) has 6 O neighbors; Yb3 (Yb) has 3 O neighbors; Yb4 (Yb) has 6 O neighbors; Yb5 (Yb) has 3 O neighbors; Yb6 (Yb) has 6 O neighbors; Yb7 (Yb) has 3 O neighbors; Yb8 (Yb) has 6 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 4 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.689-3.689 Å (not direct metal-metal bonds). Computed M-O-M angles span 104.56-105.27°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C180H192N52O44S8Yb8.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.2c04301",
+    "formula": "C180H192N52O44S8Yb8",
+    "compound_name": "[Yb8L4(DMF)4(EtOH)4]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

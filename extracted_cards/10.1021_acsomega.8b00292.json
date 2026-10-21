@@ -1,0 +1,807 @@
+{
+  "title": "Heterometallic Octanuclear Ni4IILn4III (Ln = Y, Gd, Tb, Dy, Ho, Er) Complexes Containing NiII2LnIII2O4 Distorted Cubane Motifs: Synthesis, Structure, and Magnetic Properties",
+  "doi": "10.1021/acsomega.8b00292",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Ni4Y4(μ2-OH)2(μ3-OH)4(μ-OOCCH3)8(LH2)4]·(OH)2·4H2O",
+      "formula": "[Ni4Y4(μ2-OH)2(μ3-OH)4(μ-OOCCH3)8(LH2)4]·(OH)2·4H2O",
+      "ccdc_numbers": [
+        "1586139"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear Ni4Ln4 cluster of two fused Ni2Ln2O4 cubane subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "General protocol for 1–6: a methanolic solution (5 mL) of Ln(NO3)3·xH2O (1 eq; x = 6 for 1 and 2, x = 5 for 3–6) was added dropwise to a 15 mL methanolic solution of LH3 (1 eq) and tetramethylammonium hydroxide (2 eq) with constant stirring. Solid Ni(CH3COO)2·4H2O (1 eq) was added and the deep orange solution was stirred for 12 h. The volume was reduced to about 10 mL by rotary evaporation, filtered, and left undisturbed; slow evaporation afforded green block crystals after 2 weeks. For 1: LH3 (0.050 g, 0.209 mmol), Y(NO3)3·6H2O (0.094 g, 0.209 mmol), Ni(CH3COO)2·4H2O (0.052 g, 0.209 mmol), and Me4NOH·5H2O (0.076 g, 0.419 mmol) were used.",
+        "reagents": [
+          {
+            "name": "2-methoxy-6-[{2-(2-hydroxyethylamino)ethylimino}methyl]phenol (LH3)",
+            "formula": "C12H18N2O3",
+            "role": "ligand",
+            "amount": "0.050 g, 0.209 mmol (1 eq)"
+          },
+          {
+            "name": "yttrium(III) nitrate hexahydrate",
+            "formula": "Y(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.094 g, 0.209 mmol (1 eq)"
+          },
+          {
+            "name": "nickel(II) acetate tetrahydrate",
+            "formula": "Ni(CH3COO)2·4H2O",
+            "role": "metal source",
+            "amount": "0.052 g, 0.209 mmol (1 eq)"
+          },
+          {
+            "name": "tetramethylammonium hydroxide pentahydrate",
+            "formula": "Me4NOH·5H2O",
+            "role": "base",
+            "amount": "0.076 g, 0.419 mmol (2 eq)"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "ambient crystallization",
+        "time": "12 h stirring; crystals after 2 weeks",
+        "ph": null,
+        "vessel_or_method": "solution synthesis in methanol; rotary evaporation to ~10 mL; slow evaporation",
+        "workup_and_crystallization": "filtered and kept undisturbed; slow evaporation gave green block-shaped crystals suitable for X-ray analysis after 2 weeks",
+        "yield": "0.051 g, 41.80% (based on Y)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT at 300 K is 4.7 cm3 K mol−1 (calc. 4.6 with g = 2.15) and falls to 4.19 cm3 K mol−1 at 2 K. χMT slowly increases on cooling to 5.03 cm3 K mol−1 at 50 K then more sharply to 5.88 cm3 K mol−1 at 10 K, then decreases below 10 K, consistent with ferromagnetic NiII–NiII coupling and NiII ZFS. Fit of susceptibility and magnetization (PHI): J = +5.2 cm−1, Ja = −0.09 cm−1, g = 2.15, D = 5.6 cm−1. Msat = 7.21 NμB at 2 K and 5 T. No χM″ maximum above 2 K under 0 or 1000 Oe.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 4.7,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe, polycrystalline"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 5.03,
+            "unit": "cm3 K mol-1",
+            "conditions": "50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 5.88,
+            "unit": "cm3 K mol-1",
+            "conditions": "10 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 4.19,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Msat",
+            "value": 7.21,
+            "unit": "NμB",
+            "conditions": "T = 2 K, H = 5 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J(Ni–Ni)",
+            "value": 5.2,
+            "unit": "cm-1",
+            "conditions": "PHI fit of χMT and magnetization; ferromagnetic"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ja(Ni–Y–Y–Ni pathway)",
+            "value": -0.09,
+            "unit": "cm-1",
+            "conditions": "PHI fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g",
+            "value": 2.15,
+            "unit": null,
+            "conditions": "PHI fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "D(Ni)",
+            "value": 5.6,
+            "unit": "cm-1",
+            "conditions": "axial ZFS from PHI fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, compound 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1; Associated Content CCDC list"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Complexes 1–6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Table 2; Figure 2"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Ni4Gd4(μ2-OH)2(μ3-OH)4(μ-OOCCH3)8(LH2)4]·(OH)2·H2O",
+      "formula": "[Ni4Gd4(μ2-OH)2(μ3-OH)4(μ-OOCCH3)8(LH2)4]·(OH)2·H2O",
+      "ccdc_numbers": [
+        "1581911"
+      ],
+      "ccdc_refcodes": [
+        "DIJFOU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear Ni4Ln4 cluster of two fused Ni2Ln2O4 cubane subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the general 1–6 methanol protocol. For 2: LH3 (0.050 g, 0.209 mmol), Gd(NO3)3·6H2O (0.094 g, 0.209 mmol), Ni(CH3COO)2·4H2O (0.052 g, 0.209 mmol), and Me4NOH·5H2O (0.076 g, 0.419 mmol) were used. After 12 h stirring, concentration to ~10 mL, filtration, and 2 weeks of slow evaporation gave green block crystals.",
+        "reagents": [
+          {
+            "name": "2-methoxy-6-[{2-(2-hydroxyethylamino)ethylimino}methyl]phenol (LH3)",
+            "formula": "C12H18N2O3",
+            "role": "ligand",
+            "amount": "0.050 g, 0.209 mmol"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.094 g, 0.209 mmol"
+          },
+          {
+            "name": "nickel(II) acetate tetrahydrate",
+            "formula": "Ni(CH3COO)2·4H2O",
+            "role": "metal source",
+            "amount": "0.052 g, 0.209 mmol"
+          },
+          {
+            "name": "tetramethylammonium hydroxide pentahydrate",
+            "formula": "Me4NOH·5H2O",
+            "role": "base",
+            "amount": "0.076 g, 0.419 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "ambient crystallization",
+        "time": "12 h stirring; crystals after 2 weeks",
+        "ph": null,
+        "vessel_or_method": "solution synthesis in methanol; rotary evaporation; slow evaporation",
+        "workup_and_crystallization": "filtered and kept undisturbed; slow evaporation afforded green block crystals after 2 weeks",
+        "yield": "0.035 g, 46.05% (based on Gd)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Ferromagnetic NiII–GdIII coupling. χMT = 40.3 cm3 K mol−1 at 300 K (calc. 39.1, g = 2.10), rising to 42.1 at 30 K and 65.7–67.5 cm3 K mol−1 at 2 K. Fit with J and D fixed from 1: J′(Ni–Gd) = +0.86 cm−1, J″(Gd–Gd intracubane) = −0.0034 cm−1, zJ′ = −0.0002 cm−1, g = 2.10. Msat = 37.5 NμB at 2 K, 5 T. Magnetocaloric effect: −ΔSm max = 22.58 J kg−1 K−1 at 3 K and 5 T (theoretical full entropy 36.8 J kg−1 K−1). No SMM χM″ maximum above 2 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 40.3,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 42.1,
+            "unit": "cm3 K mol-1",
+            "conditions": "30 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 67.5,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K (Table 2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Msat",
+            "value": 37.5,
+            "unit": "NμB",
+            "conditions": "T = 2 K, H = 5 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J'(Ni–Gd)",
+            "value": 0.86,
+            "unit": "cm-1",
+            "conditions": "PHI fit; ferromagnetic"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J''(Gd–Gd intracubane)",
+            "value": -0.0034,
+            "unit": "cm-1",
+            "conditions": "PHI fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "zJ'(intercubane Gd–Gd)",
+            "value": -0.0002,
+            "unit": "cm-1",
+            "conditions": "molecular-field term"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g",
+            "value": 2.1,
+            "unit": null,
+            "conditions": "PHI fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "-ΔSm",
+            "value": 22.58,
+            "unit": "J kg-1 K-1",
+            "conditions": "maximum at 3 K, applied field 5 T; from Maxwell relation on 2–6 K magnetization"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, compound 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1581911 / DIJFOU; Table 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Complexes 1–6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Table 2; Figures 3–5"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Ni4Tb4(μ2-OH)2(μ3-OH)4(μ-OOCCH3)8(LH2)4]·(OH)2·5H2O",
+      "formula": "[Ni4Tb4(μ2-OH)2(μ3-OH)4(μ-OOCCH3)8(LH2)4]·(OH)2·5H2O",
+      "ccdc_numbers": [
+        "1581909"
+      ],
+      "ccdc_refcodes": [
+        "DIJFUA"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear Ni4Ln4 cluster of two fused Ni2Ln2O4 cubane subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the general 1–6 methanol protocol. For 3: LH3 (0.050 g, 0.209 mmol), Tb(NO3)3·6H2O as written in the compound paragraph (0.091 g, 0.209 mmol), Ni(CH3COO)2·4H2O (0.052 g, 0.209 mmol), and Me4NOH·5H2O (0.076 g, 0.419 mmol) were used. Green block crystals formed after 2 weeks of slow evaporation.",
+        "reagents": [
+          {
+            "name": "2-methoxy-6-[{2-(2-hydroxyethylamino)ethylimino}methyl]phenol (LH3)",
+            "formula": "C12H18N2O3",
+            "role": "ligand",
+            "amount": "0.050 g, 0.209 mmol"
+          },
+          {
+            "name": "terbium(III) nitrate hydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.091 g, 0.209 mmol"
+          },
+          {
+            "name": "nickel(II) acetate tetrahydrate",
+            "formula": "Ni(CH3COO)2·4H2O",
+            "role": "metal source",
+            "amount": "0.052 g, 0.209 mmol"
+          },
+          {
+            "name": "tetramethylammonium hydroxide pentahydrate",
+            "formula": "Me4NOH·5H2O",
+            "role": "base",
+            "amount": "0.076 g, 0.419 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "ambient crystallization",
+        "time": "12 h stirring; crystals after 2 weeks",
+        "ph": null,
+        "vessel_or_method": "solution synthesis in methanol; rotary evaporation; slow evaporation",
+        "workup_and_crystallization": "filtered and kept undisturbed; slow evaporation afforded green block crystals after 2 weeks",
+        "yield": "0.042 g, 48.64% (based on Tb)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 52.5 cm3 K mol−1 at 300 K (calc. 51.3), decreases to 49.1 at 35 K, then rises sharply to 98.3 cm3 K mol−1 at 2 K, indicating NiII–TbIII ferromagnetic coupling that overcomes crystal-field depopulation. Msat = 25.9 NμB at 2 K, 5 T (calc. 44). Out-of-phase ac signals below 4 K under 0 and 1000 Oe, but no χM″ maximum above 2 K up to 1400 Hz.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 52.5,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 49.1,
+            "unit": "cm3 K mol-1",
+            "conditions": "35 K (minimum)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 98.3,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Msat",
+            "value": 25.9,
+            "unit": "NμB",
+            "conditions": "T = 2 K, H = 5 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac χM″",
+            "value": "signals below 4 K, no maximum above 2 K",
+            "unit": null,
+            "conditions": "0 and 1000 Oe dc; frequencies to 1400 Hz; ac field 3.5 Oe"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, compound 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1581909 / DIJFUA; Table 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Complexes 1–6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Table 2; Figure 6; Figure S15"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Ni4Dy4(μ2-OH)2(μ3-OH)4(μ-OOCCH3)8(LH2)4]·(OH)2·6H2O",
+      "formula": "[Ni4Dy4(μ2-OH)2(μ3-OH)4(μ-OOCCH3)8(LH2)4]·(OH)2·6H2O",
+      "ccdc_numbers": [
+        "1581902"
+      ],
+      "ccdc_refcodes": [
+        "DIJFIO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear Ni4Ln4 cluster of two fused Ni2Ln2O4 cubane subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the general 1–6 methanol protocol. For 4: LH3 (0.050 g, 0.209 mmol), Dy(NO3)3·5H2O (0.092 g, 0.209 mmol), Ni(CH3COO)2·4H2O (0.052 g, 0.209 mmol), and Me4NOH·5H2O (0.076 g, 0.419 mmol) were used. Green block crystals formed after 2 weeks of slow evaporation.",
+        "reagents": [
+          {
+            "name": "2-methoxy-6-[{2-(2-hydroxyethylamino)ethylimino}methyl]phenol (LH3)",
+            "formula": "C12H18N2O3",
+            "role": "ligand",
+            "amount": "0.050 g, 0.209 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "0.092 g, 0.209 mmol"
+          },
+          {
+            "name": "nickel(II) acetate tetrahydrate",
+            "formula": "Ni(CH3COO)2·4H2O",
+            "role": "metal source",
+            "amount": "0.052 g, 0.209 mmol"
+          },
+          {
+            "name": "tetramethylammonium hydroxide pentahydrate",
+            "formula": "Me4NOH·5H2O",
+            "role": "base",
+            "amount": "0.076 g, 0.419 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "ambient crystallization",
+        "time": "12 h stirring; crystals after 2 weeks",
+        "ph": null,
+        "vessel_or_method": "solution synthesis in methanol; rotary evaporation; slow evaporation",
+        "workup_and_crystallization": "filtered and kept undisturbed; slow evaporation afforded green block crystals after 2 weeks",
+        "yield": "0.041 g, 53.67% (based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 61.4 cm3 K mol−1 at 300 K (calc. 60.7), decreases to 54.74 at 12 K, then increases to 55.5 at 5 K before dropping to 55.1 cm3 K mol−1 at 2 K, consistent with NiII–DyIII ferromagnetism competing with crystal-field depopulation and NiII anisotropy. Msat = 30.7 NμB at 2 K, 5 T (calc. 48). Out-of-phase ac signals below 4 K but no χM″ maximum above 2 K (0 or 1000 Oe, up to 1400 Hz).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 61.4,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 54.74,
+            "unit": "cm3 K mol-1",
+            "conditions": "12 K (minimum)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 55.5,
+            "unit": "cm3 K mol-1",
+            "conditions": "5 K (maximum on low-T rise)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 55.1,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K (Table 2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Msat",
+            "value": 30.7,
+            "unit": "NμB",
+            "conditions": "T = 2 K, H = 5 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac χM″",
+            "value": "signals below 4 K, no maximum above 2 K",
+            "unit": null,
+            "conditions": "0 and 1000 Oe dc; frequencies to 1400 Hz"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, compound 4"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1581902 / DIJFIO; Table 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Complexes 1–6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Table 2; Figure 6; Figure S15"
+        }
+      ]
+    },
+    {
+      "compound_label": "5",
+      "compound_name": "[Ni4Ho4(μ2-OH)2(μ3-OH)4(μ-OOCCH3)8(LH2)4]·(OH)2·6H2O",
+      "formula": "[Ni4Ho4(μ2-OH)2(μ3-OH)4(μ-OOCCH3)8(LH2)4]·(OH)2·6H2O",
+      "ccdc_numbers": [
+        "1581920"
+      ],
+      "ccdc_refcodes": [
+        "DIJGEL"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear Ni4Ln4 cluster of two fused Ni2Ln2O4 cubane subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the general 1–6 methanol protocol. For 5: LH3 (0.050 g, 0.209 mmol), Ho(NO3)3·5H2O (0.092 g, 0.209 mmol), Ni(CH3COO)2·4H2O (0.052 g, 0.209 mmol), and Me4NOH·5H2O (0.076 g, 0.419 mmol) were used. Green block crystals formed after 2 weeks of slow evaporation.",
+        "reagents": [
+          {
+            "name": "2-methoxy-6-[{2-(2-hydroxyethylamino)ethylimino}methyl]phenol (LH3)",
+            "formula": "C12H18N2O3",
+            "role": "ligand",
+            "amount": "0.050 g, 0.209 mmol"
+          },
+          {
+            "name": "holmium(III) nitrate pentahydrate",
+            "formula": "Ho(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "0.092 g, 0.209 mmol"
+          },
+          {
+            "name": "nickel(II) acetate tetrahydrate",
+            "formula": "Ni(CH3COO)2·4H2O",
+            "role": "metal source",
+            "amount": "0.052 g, 0.209 mmol"
+          },
+          {
+            "name": "tetramethylammonium hydroxide pentahydrate",
+            "formula": "Me4NOH·5H2O",
+            "role": "base",
+            "amount": "0.076 g, 0.419 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "ambient crystallization",
+        "time": "12 h stirring; crystals after 2 weeks",
+        "ph": null,
+        "vessel_or_method": "solution synthesis in methanol; rotary evaporation; slow evaporation",
+        "workup_and_crystallization": "filtered and kept undisturbed; slow evaporation afforded green block crystals after 2 weeks",
+        "yield": "0.040 g, 52.60% (based on Ho)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 61.6 cm3 K mol−1 at 300 K (calc. 60.3) decreases steadily to ~20 K then more sharply to 36.2 cm3 K mol−1 at 2 K, attributed mainly to HoIII MJ depopulation and NiII anisotropy overcoming presumed Ni–Ho ferromagnetism. Msat = 31.0 NμB at 2 K, 5 T (calc. 48). No slow-relaxation χM″ maximum above 2 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 61.6,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 36.2,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Msat",
+            "value": 31.0,
+            "unit": "NμB",
+            "conditions": "T = 2 K, H = 5 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, compound 5"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1581920 / DIJGEL; Table 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Complexes 1–6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Table 2; Figure 6"
+        }
+      ]
+    },
+    {
+      "compound_label": "6",
+      "compound_name": "[Ni4Er4(μ2-OH)2(μ3-OH)4(μ-OOCCH3)8(LH2)4]·(OH)2·4H2O",
+      "formula": "[Ni4Er4(μ2-OH)2(μ3-OH)4(μ-OOCCH3)8(LH2)4]·(OH)2·4H2O",
+      "ccdc_numbers": [
+        "1581912"
+      ],
+      "ccdc_refcodes": [
+        "DIJGAH"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear Ni4Ln4 cluster of two fused Ni2Ln2O4 cubane subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the general 1–6 methanol protocol. For 6: LH3 (0.050 g, 0.209 mmol), Er(NO3)3·5H2O (0.093 g, 0.209 mmol), Ni(CH3COO)2·4H2O (0.052 g, 0.209 mmol), and Me4NOH·5H2O (0.076 g, 0.419 mmol) were used. Green block crystals formed after 2 weeks of slow evaporation.",
+        "reagents": [
+          {
+            "name": "2-methoxy-6-[{2-(2-hydroxyethylamino)ethylimino}methyl]phenol (LH3)",
+            "formula": "C12H18N2O3",
+            "role": "ligand",
+            "amount": "0.050 g, 0.209 mmol"
+          },
+          {
+            "name": "erbium(III) nitrate pentahydrate",
+            "formula": "Er(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "0.093 g, 0.209 mmol"
+          },
+          {
+            "name": "nickel(II) acetate tetrahydrate",
+            "formula": "Ni(CH3COO)2·4H2O",
+            "role": "metal source",
+            "amount": "0.052 g, 0.209 mmol"
+          },
+          {
+            "name": "tetramethylammonium hydroxide pentahydrate",
+            "formula": "Me4NOH·5H2O",
+            "role": "base",
+            "amount": "0.076 g, 0.419 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "ambient crystallization",
+        "time": "12 h stirring; crystals after 2 weeks",
+        "ph": null,
+        "vessel_or_method": "solution synthesis in methanol; rotary evaporation; slow evaporation",
+        "workup_and_crystallization": "filtered and kept undisturbed; slow evaporation afforded green block crystals after 2 weeks",
+        "yield": "0.044 g, 57.08% (based on Er)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 51.6 cm3 K mol−1 at 300 K (calc. 49.9) decreases steadily to ~20 K then more sharply to 37.3 cm3 K mol−1 at 2 K, attributed mainly to ErIII MJ depopulation and NiII anisotropy. Msat = 29.1 NμB at 2 K, 5 T (calc. 44). No slow-relaxation χM″ maximum above 2 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 51.6,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 37.3,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Msat",
+            "value": 29.1,
+            "unit": "NμB",
+            "conditions": "T = 2 K, H = 5 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, compound 6"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1581912 / DIJGAH; Table 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Complexes 1–6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Table 2; Figure 6"
+        }
+      ]
+    }
+  ]
+}

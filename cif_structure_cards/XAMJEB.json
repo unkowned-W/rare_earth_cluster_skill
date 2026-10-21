@@ -1,0 +1,96 @@
+{
+  "refcode": "XAMJEB",
+  "ccdc_number": "259739",
+  "dois": [
+    "10.1016/j.molstruc.2005.02.017"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\259739.cif",
+  "formula_moiety": "(C30 H22 La1 N5 O10)n",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "10.439(5)",
+    "b": "11.156(5)",
+    "c": "13.256(6)",
+    "alpha": "105.985(8)",
+    "beta": "95.414(9)",
+    "gamma": "107.311(9)",
+    "volume": "1390.46",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "La1",
+      "element": "La",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12",
+        "O13",
+        "O2",
+        "O3A",
+        "O4",
+        "O5A",
+        "O6A"
+      ]
+    },
+    {
+      "label": "La1A",
+      "element": "La",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O3"
+      ]
+    },
+    {
+      "label": "La1A_2",
+      "element": "La",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O5",
+        "O6"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "La1"
+      ],
+      [
+        "La1A"
+      ],
+      [
+        "La1A_2"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "XAMJEB crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: (C30 H22 La1 N5 O10)n. From the CIF bond table, La1 (La) has 8 O neighbors; La1A (La) has 1 O neighbors; La1A_2 (La) has 2 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C30H22N5O10La. Explicit grouped units in the article formula/name: 1 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.molstruc.2005.02.017",
+    "formula": "C30H22N5O10La",
+    "compound_name": "[La(HpicO)3(phen)(H2O)]n",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

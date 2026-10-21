@@ -1,0 +1,107 @@
+{
+  "refcode": "EJINER",
+  "ccdc_number": "734804",
+  "dois": [
+    "10.1039/c0ce00553c"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\734804.cif",
+  "formula_moiety": "C61 H46 N6 O7 Yb2,0.5(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "14.504(3)",
+    "b": "23.595(7)",
+    "c": "18.676(7)",
+    "alpha": "90",
+    "beta": "124.20(4)",
+    "gamma": "90",
+    "volume": "5286.15",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O3",
+        "O4",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.793,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 110.95,
+            "metal_oxygen_distances_angstrom": [
+              2.311,
+              2.292
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 112.06,
+            "metal_oxygen_distances_angstrom": [
+              2.285,
+              2.288
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "EJINER crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C61 H46 N6 O7 Yb2,0.5(H2 O1). From the CIF bond table, Yb1 (Yb) has 5 O neighbors; Yb2 (Yb) has 4 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 1 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.793-3.793 Å (not direct metal-metal bonds). Computed M-O-M angles span 110.95-112.06°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C61H47N6O7.5Yb2.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c0ce00553c",
+    "formula": "C61H47N6O7.5Yb2",
+    "compound_name": "[Yb2L3(CH3OH)]·0.5H2O",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

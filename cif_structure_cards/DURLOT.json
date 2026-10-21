@@ -1,0 +1,170 @@
+{
+  "refcode": "DURLOT",
+  "ccdc_number": "1054887",
+  "dois": [
+    "10.1021/acs.chemmater.5b01109"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1054887.cif",
+  "formula_moiety": "C72 H48 N9 O11 Yb3",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.7218(8)",
+    "b": "15.1809(10)",
+    "c": "18.0938(11)",
+    "alpha": "95.563(2)",
+    "beta": "103.475(2)",
+    "gamma": "111.631(2)",
+    "volume": "3093.63",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O13",
+        "O14",
+        "O15",
+        "O16",
+        "O18",
+        "O19",
+        "O29"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O15",
+        "O16",
+        "O17",
+        "O18"
+      ]
+    },
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O13",
+        "O14"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O12",
+          "O13",
+          "O14"
+        ],
+        "metal_metal_separation_angstrom": 3.414,
+        "bridge_geometry": [
+          {
+            "oxygen": "O13",
+            "angle_deg": 97.09,
+            "metal_oxygen_distances_angstrom": [
+              2.303,
+              2.252
+            ]
+          },
+          {
+            "oxygen": "O14",
+            "angle_deg": 94.63,
+            "metal_oxygen_distances_angstrom": [
+              2.339,
+              2.305
+            ]
+          },
+          {
+            "oxygen": "O12",
+            "angle_deg": 94.53,
+            "metal_oxygen_distances_angstrom": [
+              2.3,
+              2.348
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb2",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O15",
+          "O16",
+          "O18"
+        ],
+        "metal_metal_separation_angstrom": 3.407,
+        "bridge_geometry": [
+          {
+            "oxygen": "O18",
+            "angle_deg": 92.44,
+            "metal_oxygen_distances_angstrom": [
+              2.394,
+              2.325
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 97.39,
+            "metal_oxygen_distances_angstrom": [
+              2.24,
+              2.295
+            ]
+          },
+          {
+            "oxygen": "O16",
+            "angle_deg": 96.01,
+            "metal_oxygen_distances_angstrom": [
+              2.269,
+              2.315
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2",
+        "Yb3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "DURLOT crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C72 H48 N9 O11 Yb3. From the CIF bond table, Yb2 (Yb) has 8 O neighbors; Yb3 (Yb) has 4 O neighbors; Yb1 (Yb) has 4 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.407-3.414 Å (not direct metal-metal bonds). Computed M-O-M angles span 92.44-97.39°; individual values and O labels are in metal_framework.links. Article card reports molecular formula Yb3Q8NO3·3H2O (Q = 8-quinolinolato; C72H48Yb3N9O11·3H2O).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.chemmater.5b01109",
+    "formula": "Yb3Q8NO3·3H2O (Q = 8-quinolinolato; C72H48Yb3N9O11·3H2O)",
+    "compound_name": "heteroleptic ytterbium 8-quinolinolate nitrate trinuclear complex Yb3Q8NO3",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

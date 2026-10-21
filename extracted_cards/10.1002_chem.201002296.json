@@ -1,0 +1,715 @@
+{
+  "title": "Pure Trinuclear 4 f Single-Molecule Magnets: Synthesis, Structures, Magnetism and Ab Initio Investigation",
+  "doi": "10.1002/chem.201002296",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy3(MeOsalox)2(MeosaloxH)4(OH)(H2O)]·MeOH·7H2O",
+      "formula": "C49H67Dy3N6O28",
+      "ccdc_numbers": [
+        "751396"
+      ],
+      "ccdc_refcodes": [
+        "LEJFUD"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear trinuclear Ln3 oximate/phenolate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of o-vanillin (0.061 g, 0.4 mmol), hydroxylamine chloride (0.028 g, 0.4 mmol), and triethylamine (0.04 g, 0.8 mmol) in methanol (30 mL) was stirred for 1 h and DyCl3·6H2O (0.148 g, 0.4 mmol) was added. The solution turned light yellow, was stirred for 3 h, and filtered. Slow evaporation of the filtrate over one week gave light yellow block crystals (45% yield).",
+        "reagents": [
+          {
+            "name": "o-vanillin",
+            "formula": "C8H8O3",
+            "role": "ligand precursor",
+            "amount": "0.061 g, 0.4 mmol"
+          },
+          {
+            "name": "hydroxylamine chloride",
+            "formula": "NH2OH·HCl",
+            "role": "oxime-forming reagent",
+            "amount": "0.028 g, 0.4 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.04 g, 0.8 mmol"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.148 g, 0.4 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": null,
+        "time": "stirred 1 h before metal addition, then 3 h; crystallization over one week",
+        "ph": null,
+        "vessel_or_method": "solution reaction and slow evaporation",
+        "workup_and_crystallization": "filtered; slow evaporation of the methanol filtrate over one week afforded light yellow block crystals",
+        "yield": "45%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Linear Dy3 cluster with intramolecular ferromagnetic Dy···Dy coupling and SMM slow relaxation under zero dc field. χMT is nearly temperature-independent down to ~26 K then rises sharply at low T. Magnetization at 7 T does not saturate. Arrhenius analysis of ac data gives Ueff/kB = 37.83 K and τ0 = 5.04×10−7 s. Cole–Cole fits indicate multiple relaxation processes. Ab initio/POLY_ANISO simulation used J = 7.5 cm−1.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 41.56,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature; dc field 200 Oe (text also plots 400 Oe in Figure 3a); polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": 40.24,
+            "unit": "cm3 K mol−1",
+            "conditions": "26 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 56.72,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 17.32,
+            "unit": "μB",
+            "conditions": "2.0 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ/kB",
+            "value": 37.83,
+            "unit": "K",
+            "conditions": "ac susceptibility, zero dc field; Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "5.04e-7",
+            "unit": "s",
+            "conditions": "ac susceptibility, zero dc field; Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange parameter J",
+            "value": 7.5,
+            "unit": "cm−1",
+            "conditions": "Ising exchange fit of powder susceptibility (POLY_ANISO)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Introduction; Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 5; Experimental Section"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section, CCDC statement"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row LEJFUD / 751396"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties of 1–3; Figure 3; ab initio section"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy3(MeOsalox)2(MeosaloxH)4(NO3)(MeOH)]·MeOH·0.5H2O",
+      "formula": "C50H55Dy3N7O23.5",
+      "ccdc_numbers": [
+        "751397",
+        "751398"
+      ],
+      "ccdc_refcodes": [
+        "LEJGAK",
+        "LEJGEO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear trinuclear Ln3 oximate/phenolate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1, replacing DyCl3·6H2O with Dy(NO3)3·5H2O (0.173 g, 0.4 mmol). Light yellow crystals (30% yield) were obtained by slow evaporation of methanol over five days. (The experimental heading is for complex 2; the sentence that says “complex 3” is a mislabel of this nitrate procedure.)",
+        "reagents": [
+          {
+            "name": "o-vanillin",
+            "formula": "C8H8O3",
+            "role": "ligand precursor",
+            "amount": "0.061 g, 0.4 mmol (as for 1)"
+          },
+          {
+            "name": "hydroxylamine chloride",
+            "formula": "NH2OH·HCl",
+            "role": "oxime-forming reagent",
+            "amount": "0.028 g, 0.4 mmol (as for 1)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.04 g, 0.8 mmol (as for 1)"
+          },
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "0.173 g, 0.4 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": null,
+        "time": "same stirring protocol as 1; crystallization over five days",
+        "ph": null,
+        "vessel_or_method": "solution reaction and slow evaporation",
+        "workup_and_crystallization": "slow evaporation of methanol over five days gave light yellow crystals",
+        "yield": "30%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Isostructural linear Dy3 SMM with ferromagnetic coupling. χMT dips slightly then rises at low temperature. Frequency-dependent ac out-of-phase signals; Arrhenius parameters Ueff/kB = 39.35 K and τ0 = 1.55×10−6 s. Generalized Debye α always smaller than 0.28.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 41.06,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature; dc field 400 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": 38.55,
+            "unit": "cm3 K mol−1",
+            "conditions": "20 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 51.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 18.15,
+            "unit": "μB",
+            "conditions": "2 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ/kB",
+            "value": 39.35,
+            "unit": "K",
+            "conditions": "ac susceptibility, zero dc field; Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "1.55e-6",
+            "unit": "s",
+            "conditions": "ac susceptibility, zero dc field; Arrhenius fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Introduction; Experimental Section, Synthesis of 2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 5"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section lists CCDC-751397 for 2; formula of 751398/LEJGEO also matches the nitrate solvate"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "LEJGAK (751397), LEJGEO (751398)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties of 1–3; Figure 4"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Dy3(MeOsalox)2(MeOsaloxH)4(MeOH)(Cl3CCO2)]·MeOH",
+      "formula": "C52H54Cl3Dy3N6O22",
+      "ccdc_numbers": [
+        "784940"
+      ],
+      "ccdc_refcodes": [
+        "LEJGUE"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear trinuclear Ln3 oximate/phenolate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "o-Vanillin (0.061 g, 0.4 mmol), hydroxylamine chloride (0.028 g, 0.4 mmol), trichloroacetic acid (0.033 g, 0.2 mmol), and triethylamine (0.122 g, 1.2 mmol) were dissolved in methanol (30 mL) and stirred for 1 h. DyCl3·6H2O (0.148 g, 0.4 mmol) was added. After stirring for 3 h the solution was filtered and left undisturbed, giving light yellow crystals of 3 within two weeks (25% yield).",
+        "reagents": [
+          {
+            "name": "o-vanillin",
+            "formula": "C8H8O3",
+            "role": "ligand precursor",
+            "amount": "0.061 g, 0.4 mmol"
+          },
+          {
+            "name": "hydroxylamine chloride",
+            "formula": "NH2OH·HCl",
+            "role": "oxime-forming reagent",
+            "amount": "0.028 g, 0.4 mmol"
+          },
+          {
+            "name": "trichloroacetic acid",
+            "formula": "Cl3CCO2H",
+            "role": "auxiliary ligand source",
+            "amount": "0.033 g, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.122 g, 1.2 mmol"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.148 g, 0.4 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": null,
+        "time": "stirred 1 h then 3 h after metal addition; crystals within two weeks",
+        "ph": null,
+        "vessel_or_method": "solution reaction and undisturbed evaporation",
+        "workup_and_crystallization": "filtered; filtrate left undisturbed to give light yellow crystals within two weeks",
+        "yield": "25%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Linear Dy3 SMM analogous to 1 and 2, with ferromagnetic coupling and frequency-dependent ac relaxation. Arrhenius parameters Ueff/kB = 39.79 K and τ0 = 1.07×10−7 s; Cole–Cole α always smaller than 0.20.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 42.87,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature; dc field 400 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": 41.41,
+            "unit": "cm3 K mol−1",
+            "conditions": "23 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 57.36,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 16.03,
+            "unit": "μB",
+            "conditions": "2 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ/kB",
+            "value": 39.79,
+            "unit": "K",
+            "conditions": "ac susceptibility, zero dc field; Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "1.07e-7",
+            "unit": "s",
+            "conditions": "ac susceptibility, zero dc field; Arrhenius fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Introduction; Experimental Section, Synthesis of 3"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 5"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "784940 / LEJGUE formula C51H50Cl3Dy3N6O21·MeOH matches trichloroacetate complex 3 (paper CCDC list assigns 751398/784940 inconsistently)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "LEJGUE"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties of 1–3; Figure 5"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Tb3(MeOsalox)2(MeosaloxH)4(NO3)(MeOH)]·MeOH·1.5H2O",
+      "formula": "C50H57N7O24.5Tb3",
+      "ccdc_numbers": [
+        "751399"
+      ],
+      "ccdc_refcodes": [
+        "LEJGIS"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear trinuclear Ln3 oximate/phenolate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of o-vanillin (0.061 g, 0.4 mmol), hydroxylamine chloride (0.028 g, 0.4 mmol), and triethylamine (0.04 g, 0.8 mmol) in methanol (30 mL) was stirred for 1 h and Tb(NO3)3·5H2O (0.174 g, 0.4 mmol) was added. The light yellow solution was stirred for 3 h and filtered. Slow evaporation over one week gave light yellow block crystals (reported 45% and 54% yield in successive sentences).",
+        "reagents": [
+          {
+            "name": "o-vanillin",
+            "formula": "C8H8O3",
+            "role": "ligand precursor",
+            "amount": "0.061 g, 0.4 mmol"
+          },
+          {
+            "name": "hydroxylamine chloride",
+            "formula": "NH2OH·HCl",
+            "role": "oxime-forming reagent",
+            "amount": "0.028 g, 0.4 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.04 g, 0.8 mmol"
+          },
+          {
+            "name": "terbium(III) nitrate pentahydrate",
+            "formula": "Tb(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "0.174 g, 0.4 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": null,
+        "time": "stirred 1 h then 3 h; crystallization over one week",
+        "ph": null,
+        "vessel_or_method": "solution reaction and slow evaporation",
+        "workup_and_crystallization": "filtered; slow evaporation over one week yielded light yellow block crystals",
+        "yield": "45% (also stated 54%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Linear Tb3 cluster with intramolecular ferromagnetic Tb···Tb coupling. χMT decreases to a minimum near 20 K then rises at 2 K. Magnetization at 7 T does not saturate. Dynamic susceptibilities show no frequency-dependent out-of-phase signals, so 4 is not an SMM. Ab initio Ising exchange fit used J = 2.9 cm−1.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 34.69,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature; 200 Oe (Figure 6a)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": 31.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "20 K (reported jointly for 4/5 before listing 2 K maxima)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 40.49,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 16.03,
+            "unit": "μB",
+            "conditions": "2 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange parameter J",
+            "value": 2.9,
+            "unit": "cm−1",
+            "conditions": "Ising exchange fit of powder susceptibility for 4"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Introduction; Experimental Section, Synthesis of 4"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 5"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "751399 / LEJGIS matches Tb nitrate solvate; paper CCDC-784940 assignment for 4 conflicts with the Cl3Dy formula of 784940"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "LEJGIS"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties of 4 and 5; Figure 6; Figure 8"
+        }
+      ]
+    },
+    {
+      "compound_label": "5",
+      "compound_name": "[Tb3(MeOsalox)2(MeosaloxH)4Cl(MeOH)][Tb3(MeOsalox)2(MeosaloxH)4Cl(H2O)]·H2O",
+      "formula": "C97H100Cl2N12O39Tb6",
+      "ccdc_numbers": [
+        "751400"
+      ],
+      "ccdc_refcodes": [
+        "LEJGOY"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear trinuclear Ln3 oximate/phenolate cluster (two independent Tb3 molecules)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared similarly to 4 except using TbCl3·6H2O instead of Tb(NO3)3·5H2O. Light yellow needle crystals were obtained by slow evaporation of methanol over ten days (20% yield).",
+        "reagents": [
+          {
+            "name": "o-vanillin",
+            "formula": "C8H8O3",
+            "role": "ligand precursor",
+            "amount": "0.061 g, 0.4 mmol (as for 4)"
+          },
+          {
+            "name": "hydroxylamine chloride",
+            "formula": "NH2OH·HCl",
+            "role": "oxime-forming reagent",
+            "amount": "0.028 g, 0.4 mmol (as for 4)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.04 g, 0.8 mmol (as for 4)"
+          },
+          {
+            "name": "terbium(III) chloride hexahydrate",
+            "formula": "TbCl3·6H2O",
+            "role": "metal source",
+            "amount": "used in place of Tb(NO3)3·5H2O (0.4 mmol scale of 4)"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": null,
+        "time": "crystallization over ten days",
+        "ph": null,
+        "vessel_or_method": "solution reaction and slow evaporation",
+        "workup_and_crystallization": "slow evaporation of methanol over ten days gave light yellow needle crystals",
+        "yield": "20%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Contains two independent linear Tb3 clusters with ferromagnetic Tb···Tb coupling. χMT at 2 K is 40.23 cm3 K mol−1. Magnetization at 7 T is 15.89 μB without saturation. No frequency-dependent out-of-phase ac signals; not an SMM.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 34.31,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature; 400 Oe (Figure 6b)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": 31.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "20 K (reported jointly for 4/5)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 40.23,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 15.89,
+            "unit": "μB",
+            "conditions": "2 K, 7 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Introduction; Experimental Section, Synthesis of 5"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 5"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "751400 / LEJGOY two independent Cl-ligated Tb3 molecules"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "LEJGOY"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties of 4 and 5; Figure 6b"
+        }
+      ]
+    }
+  ]
+}

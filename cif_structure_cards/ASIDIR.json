@@ -1,0 +1,146 @@
+{
+  "refcode": "ASIDIR",
+  "ccdc_number": "1453007",
+  "dois": [
+    "10.1021/acs.inorgchem.6b00408"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1453007.cif",
+  "formula_moiety": "C114 H60 Cl24 N6 Nd4 O25",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.8146(10)",
+    "b": "16.1805(12)",
+    "c": "16.6822(13)",
+    "alpha": "75.230(11)",
+    "beta": "68.990(11)",
+    "gamma": "79.714(12)",
+    "volume": "3107.75",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Nd1",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O15",
+        "O17",
+        "O1W",
+        "O3",
+        "O4",
+        "O5",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Nd2",
+      "element": "Nd",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O6",
+        "O8"
+      ]
+    },
+    {
+      "label": "Nd3",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O16",
+        "O17",
+        "O18",
+        "O2",
+        "O20",
+        "O22",
+        "O26",
+        "O4"
+      ]
+    },
+    {
+      "label": "Nd4",
+      "element": "Nd",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O19",
+        "O21",
+        "O23",
+        "O24",
+        "O25"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Nd1",
+          "Nd3"
+        ],
+        "shared_oxygen_labels": [
+          "O17",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 4.058,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 102.44,
+            "metal_oxygen_distances_angstrom": [
+              2.761,
+              2.438
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 102.44,
+            "metal_oxygen_distances_angstrom": [
+              2.438,
+              2.761
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Nd1",
+        "Nd3"
+      ],
+      [
+        "Nd2"
+      ],
+      [
+        "Nd4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ASIDIR crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C114 H60 Cl24 N6 Nd4 O25. From the CIF bond table, Nd1 (Nd) has 9 O neighbors; Nd2 (Nd) has 5 O neighbors; Nd3 (Nd) has 9 O neighbors; Nd4 (Nd) has 5 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.058-4.058 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.44-102.44°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C114H59Cl24N6O24.5Nd4.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.6b00408",
+    "formula": "C114H59Cl24N6O24.5Nd4",
+    "compound_name": "[Nd2(C15H11N3)(C7H3Cl2O2)6]2",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "title": "Temperature sensing in Tb3+/Eu3+-based tetranuclear silsesquioxane cages with tunable emission",
+  "doi": "10.1039/d1ra06755a",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "tetraethylammonium bis(tetraphenylcyclotetrasiloxanolate) tetranuclear terbium(III)–europium(III) nitrate hydroxide ethanol aqua cage ethanol solvate",
+      "formula": "[NEt4][(Ph4Si4O8)2(Tb3Eu)(NO3)4(OH)(EtOH)3(H2O)]·4(EtOH)",
+      "ccdc_numbers": [
+        "2094637"
+      ],
+      "ccdc_refcodes": [
+        "CAQVUP"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb",
+          "Eu"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "cage-like metallasilsesquioxane (prism-like tetranuclear CLMS)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Compounds 1 and 2 were prepared similarly. PhSi(OMe)3 and NaOH were dissolved in 30 mL of ethanol and heated to reflux for 1.0 h. Then a mixture of Tb(NO3)3·6H2O and Eu(NO3)3·6H2O in a 3/1 ratio for 1 together with Et4NCl, dissolved in 30 mL of CH3CN, was added at once. The mixture was heated to reflux for 3 h, filtered from the insoluble part, and the colorless solution was slowly evaporated (ethanol/CH3CN) over 5–10 days to give crystalline material. Single crystals were collected for SCXRD; the product was dried in vacuum for elemental analysis and yield determination. Reactant loadings for 1: PhSi(OMe)3 (0.186 g, 0.8 mmol), NaOH (0.032 g, 0.8 mmol), Tb(NO3)3·6H2O (0.131 g, 0.3 mmol), Eu(NO3)3·6H2O (0.045 g, 0.1 mmol), Et4NCl (0.066 g, 0.4 mmol).",
+        "reagents": [
+          {
+            "name": "phenyltrimethoxysilane",
+            "formula": "PhSi(OMe)3",
+            "role": "silsesquioxane ligand precursor",
+            "amount": "0.186 g, 0.8 mmol"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "base for in situ phenylsiloxanolate formation",
+            "amount": "0.032 g, 0.8 mmol"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "Tb source (Tb/Eu = 3/1)",
+            "amount": "0.131 g, 0.3 mmol"
+          },
+          {
+            "name": "europium(III) nitrate hexahydrate",
+            "formula": "Eu(NO3)3·6H2O",
+            "role": "Eu source (Tb/Eu = 3/1)",
+            "amount": "0.045 g, 0.1 mmol"
+          },
+          {
+            "name": "tetraethylammonium chloride",
+            "formula": "Et4NCl",
+            "role": "counterion source",
+            "amount": "0.066 g, 0.4 mmol"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "acetonitrile"
+        ],
+        "temperature": "reflux (ethanol then mixed ethanol/acetonitrile)",
+        "time": "1.0 h reflux of silanolate mixture, then 3 h reflux after metal/Et4NCl addition; crystallization 5–10 days",
+        "ph": null,
+        "vessel_or_method": "two-step reflux self-assembly followed by slow evaporation crystallization",
+        "workup_and_crystallization": "filtration from insoluble residue; slow evaporation of ethanol/CH3CN gave crystals; vacuum drying for analysis/yield",
+        "yield": "38.24% (0.87 g)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Solid-state magnetic data are consistent with 75% Tb3+ occupation of the tetranuclear core (Eu3+ treated as diamagnetic). Photoluminescence shows characteristic Tb3+ (543 nm, 5D4→7F5) and Eu3+ (612 nm, 5D0→7F2) emissions with intramolecular Tb3+-to-Eu3+ energy transfer. Compound 1 functions as a ratiometric luminescent thermometer using the 543/612 nm LIR, with excellent linearity (R2 = 0.9990) and repeatability (>95%) over 41–100 °C and a maximum relative thermal sensitivity of 0.63 % °C−1 at 68 °C.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT (free-ion Tb3+ reference used for composition check)",
+            "value": 11.82,
+            "unit": "cm3 K mol-1",
+            "conditions": "Tb3+ 7F6, S=3, L=3, g=3/2; SQUID 1.8–350 K, H up to 7 T; data coherent with 75% Tb occupation in 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maxima (Tb3+ 5D4→7F5 and Eu3+ 5D0→7F2)",
+            "value": "543 and 612",
+            "unit": "nm",
+            "conditions": "solid state, room temperature; excitation 394 and 378 nm (also temperature-dependent spectra λex = 365 nm)"
+          },
+          {
+            "property_type": "optical",
+            "name": "maximum relative thermal sensitivity Sr",
+            "value": 0.63,
+            "unit": "% °C-1",
+            "conditions": "at 68 °C; LIR of integrated 530–565 nm (Tb) vs 603–637 nm (Eu); operating range 41–100 °C, R2 = 0.9990, repeatability >95%"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "title/abstract and Results (compound 1 formula)"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; Results and discussion opening paragraph"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2094637 / CAQVUP (Tb3Eu)"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and discussion; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental procedures, Synthesis of compound 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results (magnetic Fig. S8; photoluminescence Fig. 3–4); Characterizations"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "bis(tetraethylammonium) bis(tetraphenylcyclotetrasiloxanolate) tetranuclear terbium(III)–europium(III) nitrate ethanol acetonitrile cage acetonitrile solvate",
+      "formula": "[NEt4]2[(Ph4Si4O8)2(Tb2Eu2)(NO3)6(EtOH)2(MeCN)2]·4(MeCN)",
+      "ccdc_numbers": [
+        "2002352"
+      ],
+      "ccdc_refcodes": [
+        "CAQWAW"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb",
+          "Eu"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "cage-like metallasilsesquioxane (prism-like tetranuclear CLMS)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1. PhSi(OMe)3 and NaOH were dissolved in 30 mL of ethanol and heated to reflux for 1.0 h. Then Tb(NO3)3·6H2O and Eu(NO3)3·6H2O in a 2/2 (1:1) ratio together with Et4NCl, dissolved in 30 mL of CH3CN, were added at once. The mixture was heated to reflux for 3 h, filtered, and slow evaporation of ethanol/CH3CN over 5–10 days gave crystals, which were dried in vacuum. Reactant loadings for 2: PhSi(OMe)3 (0.186 g, 0.8 mmol), NaOH (0.032 g, 0.8 mmol), Tb(NO3)3·6H2O (0.091 g, 0.2 mmol), Eu(NO3)3·6H2O (0.089 g, 0.2 mmol), Et4NCl (0.066 g, 0.4 mmol).",
+        "reagents": [
+          {
+            "name": "phenyltrimethoxysilane",
+            "formula": "PhSi(OMe)3",
+            "role": "silsesquioxane ligand precursor",
+            "amount": "0.186 g, 0.8 mmol"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "base for in situ phenylsiloxanolate formation",
+            "amount": "0.032 g, 0.8 mmol"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "Tb source (Tb/Eu = 1/1)",
+            "amount": "0.091 g, 0.2 mmol"
+          },
+          {
+            "name": "europium(III) nitrate hexahydrate",
+            "formula": "Eu(NO3)3·6H2O",
+            "role": "Eu source (Tb/Eu = 1/1)",
+            "amount": "0.089 g, 0.2 mmol"
+          },
+          {
+            "name": "tetraethylammonium chloride",
+            "formula": "Et4NCl",
+            "role": "counterion source",
+            "amount": "0.066 g, 0.4 mmol"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "acetonitrile"
+        ],
+        "temperature": "reflux (ethanol then mixed ethanol/acetonitrile)",
+        "time": "1.0 h reflux of silanolate mixture, then 3 h reflux after metal/Et4NCl addition; crystallization 5–10 days",
+        "ph": null,
+        "vessel_or_method": "two-step reflux self-assembly followed by slow evaporation crystallization",
+        "workup_and_crystallization": "filtration from insoluble residue; slow evaporation of ethanol/CH3CN gave crystals; vacuum drying for analysis/yield",
+        "yield": "25.83% (0.34 g)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Magnetic data match 50% Tb3+ occupation of the tetranuclear core. Room-temperature excitation/emission of 2 differ from 1, with a lower green-to-red (543/612 nm) LIR under 378 nm excitation, consistent with more Eu3+ and intramolecular Tb3+-to-Eu3+ energy transfer. Compound 2 is also discussed as a self-referenced luminescent temperature sensor, but with lower thermal sensitivity than 1 because of stronger relative Eu3+ red emission.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT (free-ion Tb3+ reference used for composition check)",
+            "value": 11.82,
+            "unit": "cm3 K mol-1",
+            "conditions": "Tb3+ 7F6, S=3, L=3, g=3/2; SQUID 1.8–350 K, H up to 7 T; data coherent with 50% Tb occupation in 2"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maxima used for LIR (Tb3+ 5D4→7F5 / Eu3+ 5D0→7F2)",
+            "value": "543 and 612",
+            "unit": "nm",
+            "conditions": "solid state; excitation 378 nm (lower green-to-red LIR than 1); temperature-dependent sensing also reported (Fig. S12)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; Results and discussion opening paragraph"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2002352 / CAQWAW (Tb2Eu2)"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and discussion (structure of 2 similar to published Eu/Tb analogues)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental procedures, Synthesis of compound 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results (magnetic Fig. S8; optical Fig. S9/S12); Conclusions"
+        }
+      ]
+    }
+  ]
+}

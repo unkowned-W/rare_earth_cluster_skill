@@ -1,0 +1,135 @@
+{
+  "title": "An asymmetrically connected hexanuclear DyIII cluster exhibiting slow magnetic relaxation",
+  "doi": "10.1016/j.inoche.2013.06.027",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy6(L)7(HL)(MeOH)2(H2O)(OH)2(OAc)]",
+      "formula": "[Dy6(L)7(HL)(MeOH)2(H2O)(OH)2(OAc)]",
+      "ccdc_numbers": [
+        "926656"
+      ],
+      "ccdc_refcodes": [
+        "DIMSEZ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "asymmetric hexanuclear Dy6 core of two vertex-sharing and one edge-sharing Dy3 triangles"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(NO3)3·6H2O (0.1 mmol, 0.0456 g) was added to a 1:1 MeOH/EtOAc (5/5 mL) solution of o-phenolsalicylimine (PSI) ligand (0.15 mmol, 0.03195 g), stirred for a minute, then triethylamine (0.3 mmol, 0.042 mL) was added for deprotonation, and the solution was sonicated for ~5 min. After 4 days of slow evaporation, bright red block-shaped crystals of 1 were obtained.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol, 0.0456 g"
+          },
+          {
+            "name": "o-phenolsalicylimine (PSI, H2L)",
+            "formula": "H2L",
+            "role": "Schiff-base ligand",
+            "amount": "0.15 mmol, 0.03195 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base for deprotonation",
+            "amount": "0.3 mmol, 0.042 mL"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "EtOAc"
+        ],
+        "temperature": null,
+        "time": "stirred 1 min; sonicated ~5 min; slow evaporation 4 days",
+        "ph": null,
+        "vessel_or_method": "stirring then sonication; slow evaporation",
+        "workup_and_crystallization": "slow evaporation for 4 days gave bright red block-shaped crystals",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "DC susceptibility of polycrystalline 1 gives χMT = 82.39 cm3 K mol−1 at room temperature, close to six uncoupled DyIII ions, then decreases on cooling. Magnetization reaches 32.09 μB at 1.9 K and 7 T with non-superimposed M(H) isotherms, indicating anisotropy and/or low-lying excited states. Zero-dc-field AC data (3.0 Oe, 3–1200 Hz) show frequency-dependent χ″ without χ″ peaks, assigned to slow relaxation with fast QTM. Linear ln(χ″/χ′) vs 1/T fit gives Ueff ≈ 3.0 K and τ0 ≈ 8.3 × 10−6 s.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 82.39,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, polycrystalline sample, dc susceptibility"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 32.09,
+            "unit": "μB",
+            "conditions": "1.9 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 3.0,
+            "unit": "K",
+            "conditions": "zero dc field; 3.0 Oe ac field, 3–1200 Hz; ln(χ″/χ′) vs 1/T Debye fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "8.3e-6",
+            "unit": "s",
+            "conditions": "zero dc field; 3.0 Oe ac field, 3–1200 Hz; ln(χ″/χ′) vs 1/T Debye fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "abstract; experimental section"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; experimental section; elemental analysis C120H107Dy6N8O27"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Appendix A: CCDC-926656 (1)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row DIMSEZ / 926656"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion; Figs. 2–3"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section; Scheme 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion; Figs. 4–7"
+        }
+      ]
+    }
+  ]
+}

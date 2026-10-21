@@ -1,0 +1,156 @@
+{
+  "title": "Oxoclusters of the Lanthanides Begin to Resemble Solid-State Materials at Very Small Cluster Sizes: Structure and NIR Emission from Nd(III)",
+  "doi": "10.1021/ja069000a",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Nd12",
+      "compound_name": "[(py)18Nd12O6Se4(Se2)4(SePh)4(Se2Ph)2Hg2(SePh)4][Hg(SePh)3]2·2.8(py)",
+      "formula": "C200H184Hg4N20.8Nd12O6Se30",
+      "ccdc_numbers": [
+        "829348"
+      ],
+      "ccdc_refcodes": [
+        "AROVOT"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Nd"
+        ],
+        "other_metal_elements": [
+          "Hg"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Nd12O6 oxo cluster with chalcogen/Hg encapsulants"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under high-purity nitrogen using drybox/Schlenk techniques, Nd (2.0 mmol, 0.29 g), PhSeSePh (3.0 mmol, 0.94 g), and Hg (0.30 mmol, 0.06 g) were combined in pyridine (40 mL) and stirred until the metal dissolved (24 h) to give a dark forest-green solution of in situ Nd(SePh)3. Elemental Se (2.00 mmol, 0.158 g) and SeO2 (1.00 mmol, 0.111 g) were added; the mixture became greenish-black within 3 h and red-brown after stirring overnight. The solution was filtered, concentrated to ca. 25 mL, and layered with 10 mL of hexane to afford tiny yellow block crystals of Nd12 (0.44 g, 34%) that do not melt but turn dark red-orange at 236 °C.",
+        "reagents": [
+          {
+            "name": "neodymium metal",
+            "formula": "Nd",
+            "role": "metal source",
+            "amount": "2.0 mmol, 0.29 g"
+          },
+          {
+            "name": "diphenyl diselenide",
+            "formula": "PhSeSePh",
+            "role": "selenolate source",
+            "amount": "3.0 mmol, 0.94 g"
+          },
+          {
+            "name": "mercury",
+            "formula": "Hg",
+            "role": "heterometal reagent",
+            "amount": "0.30 mmol, 0.06 g"
+          },
+          {
+            "name": "elemental selenium",
+            "formula": "Se",
+            "role": "chalcogen source",
+            "amount": "2.00 mmol, 0.158 g"
+          },
+          {
+            "name": "selenium dioxide",
+            "formula": "SeO2",
+            "role": "oxo/chalcogen source",
+            "amount": "1.00 mmol, 0.111 g"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexane"
+        ],
+        "temperature": "ambient (stirring); crystals darken at 236 °C",
+        "time": "24 h metal dissolution, then 3 h color change and overnight stirring",
+        "ph": null,
+        "vessel_or_method": "Schlenk flask under nitrogen; drybox/Schlenk techniques",
+        "workup_and_crystallization": "filtered, reduced in volume to ca. 25 mL, layered with 10 mL hexane; yellow block crystals",
+        "yield": "0.44 g, 34% (also stated as 30–40% in the results text)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Nd12 shows NIR emission intermediate between highly emissive molecular Nd sources and nonemissive Nd2O3. Powder emission under 800 nm excitation gives bands at 926, 1082, and 1352 nm (4F3/2 → 4I9/2, 4I11/2, 4I13/2); the 1832 nm band seen for Nd8 is absent. Fluorescence decay of the 1082 nm emission is 141 μs versus a calculated radiative lifetime of 1160 μs, giving 12% quantum efficiency. Absorption in THF (0.05 mM) resembles typical Nd3+ solid-state spectra. Intensity is limited by multiphonon relaxation from the Nd–O core, C–H overtones, and Nd–Nd concentration quenching.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "NIR emission bands",
+            "value": "926, 1082, 1352",
+            "unit": "nm",
+            "conditions": "powdered sample; 800 nm Ti:sapphire excitation of 4F3/2"
+          },
+          {
+            "property_type": "optical",
+            "name": "fluorescence decay time (τ_fl)",
+            "value": 141,
+            "unit": "μs",
+            "conditions": "1082 nm 4F3/2 → 4I11/2 emission; Monte Carlo fit including cooperative Nd–Nd energy transfer"
+          },
+          {
+            "property_type": "optical",
+            "name": "calculated radiative decay time",
+            "value": 1160,
+            "unit": "μs",
+            "conditions": "Judd–Ofelt derived radiative lifetime used with experimental τ_fl"
+          },
+          {
+            "property_type": "optical",
+            "name": "quantum efficiency",
+            "value": 12,
+            "unit": "%",
+            "conditions": "4F3/2 → 4I11/2; QE = τ_fl / τ_rad"
+          },
+          {
+            "property_type": "optical",
+            "name": "absorption spectrum",
+            "value": "Nd3+-like transitions with comparable absorption coefficients to solid-state Nd materials",
+            "unit": null,
+            "conditions": "THF solution, 0.05 mM (0.05 mmol stated in figure caption)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "article title"
+        },
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; Experimental Section synthesis heading"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1 empirical formula"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC row for DOI 10.1021/ja069000a (AROVOT / 829348)"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "abstract and Results structural description of Nd12"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Nd12"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Optical Characterization; Results emission/absorption discussion; Figure 2–3"
+        }
+      ]
+    }
+  ]
+}

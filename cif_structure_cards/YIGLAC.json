@@ -1,0 +1,224 @@
+{
+  "refcode": "YIGLAC",
+  "ccdc_number": "637495",
+  "dois": [
+    "10.1021/ic070253u"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\637495.cif",
+  "formula_moiety": "C60 H132 Lu4 O12,C6 H14",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "P -4 21 c",
+  "international_tables_number": "114",
+  "unit_cell": {
+    "a": "20.304(3)",
+    "b": "20.304(3)",
+    "c": "11.772(2)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "4853.04",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Lu1",
+      "element": "Lu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1B",
+        "O2",
+        "O2C",
+        "O3"
+      ]
+    },
+    {
+      "label": "Lu1C",
+      "element": "Lu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1C",
+        "O2A",
+        "O2C",
+        "O3C"
+      ]
+    },
+    {
+      "label": "Lu1A",
+      "element": "Lu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O1C",
+        "O2A",
+        "O2B",
+        "O3A"
+      ]
+    },
+    {
+      "label": "Lu1B",
+      "element": "Lu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O1B",
+        "O2",
+        "O2B",
+        "O3B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Lu1",
+          "Lu1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1B",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.463,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 102.6,
+            "metal_oxygen_distances_angstrom": [
+              2.203,
+              2.234
+            ]
+          },
+          {
+            "oxygen": "O1B",
+            "angle_deg": 103.63,
+            "metal_oxygen_distances_angstrom": [
+              2.208,
+              2.198
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Lu1",
+          "Lu1C"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2C"
+        ],
+        "metal_metal_separation_angstrom": 3.463,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 103.63,
+            "metal_oxygen_distances_angstrom": [
+              2.198,
+              2.208
+            ]
+          },
+          {
+            "oxygen": "O2C",
+            "angle_deg": 102.6,
+            "metal_oxygen_distances_angstrom": [
+              2.234,
+              2.203
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Lu1A",
+          "Lu1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1A",
+          "O2B"
+        ],
+        "metal_metal_separation_angstrom": 3.463,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1A",
+            "angle_deg": 103.63,
+            "metal_oxygen_distances_angstrom": [
+              2.198,
+              2.208
+            ]
+          },
+          {
+            "oxygen": "O2B",
+            "angle_deg": 102.6,
+            "metal_oxygen_distances_angstrom": [
+              2.234,
+              2.203
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Lu1A",
+          "Lu1C"
+        ],
+        "shared_oxygen_labels": [
+          "O1C",
+          "O2A"
+        ],
+        "metal_metal_separation_angstrom": 3.463,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1C",
+            "angle_deg": 103.63,
+            "metal_oxygen_distances_angstrom": [
+              2.208,
+              2.198
+            ]
+          },
+          {
+            "oxygen": "O2A",
+            "angle_deg": 102.6,
+            "metal_oxygen_distances_angstrom": [
+              2.203,
+              2.234
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Lu1",
+        "Lu1A",
+        "Lu1B",
+        "Lu1C"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "YIGLAC crystallizes in the tetragonal crystal system with space group P -4 21 c. Reported CIF formula moiety: C60 H132 Lu4 O12,C6 H14. From the CIF bond table, Lu1 (Lu) has 5 O neighbors; Lu1C (Lu) has 5 O neighbors; Lu1A (Lu) has 5 O neighbors; Lu1B (Lu) has 5 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.463-3.463 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.60-103.63°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C60H132Lu4O12·C6H14.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic070253u",
+    "formula": "C60H132Lu4O12·C6H14",
+    "compound_name": "[Lu(μ-ONep)2(ONep)]4",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

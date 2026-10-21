@@ -1,0 +1,237 @@
+{
+  "refcode": "YAVZON",
+  "ccdc_number": "1520612",
+  "dois": [
+    "10.1021/acs.inorgchem.6b03014"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1520612.cif",
+  "formula_moiety": "C91 H152 O38 P7 Tm5,3(C1 H4 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "14.8572(16)",
+    "b": "34.890(4)",
+    "c": "24.726(3)",
+    "alpha": "90",
+    "beta": "90.716(2)",
+    "gamma": "90",
+    "volume": "12816.2",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Tm4",
+      "element": "Tm",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O20",
+        "O24",
+        "O27",
+        "O33",
+        "O34",
+        "O35"
+      ]
+    },
+    {
+      "label": "Tm1",
+      "element": "Tm",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O18",
+        "O2",
+        "O22",
+        "O25",
+        "O3",
+        "O30"
+      ]
+    },
+    {
+      "label": "Tm3",
+      "element": "Tm",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O15",
+        "O19",
+        "O25",
+        "O32",
+        "O6"
+      ]
+    },
+    {
+      "label": "Tm2",
+      "element": "Tm",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O23",
+        "O25",
+        "O3",
+        "O31",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Tm5",
+      "element": "Tm",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O36",
+        "O37",
+        "O38",
+        "O4",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tm1",
+          "Tm2"
+        ],
+        "shared_oxygen_labels": [
+          "O25",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.742,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 105.44,
+            "metal_oxygen_distances_angstrom": [
+              2.451,
+              2.249
+            ]
+          },
+          {
+            "oxygen": "O25",
+            "angle_deg": 107.39,
+            "metal_oxygen_distances_angstrom": [
+              2.312,
+              2.331
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tm1",
+          "Tm3"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O25"
+        ],
+        "metal_metal_separation_angstrom": 3.749,
+        "bridge_geometry": [
+          {
+            "oxygen": "O10",
+            "angle_deg": 103.58,
+            "metal_oxygen_distances_angstrom": [
+              2.256,
+              2.511
+            ]
+          },
+          {
+            "oxygen": "O25",
+            "angle_deg": 108.33,
+            "metal_oxygen_distances_angstrom": [
+              2.312,
+              2.312
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tm2",
+          "Tm3"
+        ],
+        "shared_oxygen_labels": [
+          "O25",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.756,
+        "bridge_geometry": [
+          {
+            "oxygen": "O25",
+            "angle_deg": 108.01,
+            "metal_oxygen_distances_angstrom": [
+              2.331,
+              2.312
+            ]
+          },
+          {
+            "oxygen": "O6",
+            "angle_deg": 104.91,
+            "metal_oxygen_distances_angstrom": [
+              2.475,
+              2.259
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tm1",
+        "Tm2",
+        "Tm3"
+      ],
+      [
+        "Tm4"
+      ],
+      [
+        "Tm5"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "YAVZON crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C91 H152 O38 P7 Tm5,3(C1 H4 O1). From the CIF bond table, Tm4 (Tm) has 7 O neighbors; Tm1 (Tm) has 7 O neighbors; Tm3 (Tm) has 7 O neighbors; Tm2 (Tm) has 7 O neighbors; Tm5 (Tm) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 3 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.742-3.756 Å (not direct metal-metal bonds). Computed M-O-M angles span 103.58-108.33°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Tm5(μ3-OH)(dipp)7(CH3OH)7(H2O)2]·5CH3OH·3H2O. Explicit grouped units in the article formula/name: 1 μ3-OH (explicit grouped unit in article formula), 2 H2O (explicit grouped unit in article formula). Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.6b03014",
+    "formula": "[Tm5(μ3-OH)(dipp)7(CH3OH)7(H2O)2]·5CH3OH·3H2O",
+    "compound_name": "pentanuclear thulium(III) 2,6-diisopropylphenylphosphate cluster",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-OH",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

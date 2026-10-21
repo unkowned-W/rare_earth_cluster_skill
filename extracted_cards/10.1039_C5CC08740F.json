@@ -1,0 +1,339 @@
+{
+  "title": "Cyclic single-molecule magnets: from the odd-numbered heptanuclear to a dimer of heptanuclear dysprosium clusters",
+  "doi": "10.1039/c5cc08740f",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "heptanuclear cyclic dysprosium cluster",
+      "formula": "[Dy7(EDDC)(opch)4(O3PC10H7)3(OAc)5(MeOH)2]·4MeOH",
+      "ccdc_numbers": [
+        "1424266"
+      ],
+      "ccdc_refcodes": [
+        "ZUYYUP"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "non-centred odd-membered cyclic Dy7 wheel"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "To a slurry of H2EDDC (59.6 mg, 0.20 mmol) and triethylamine (0.14 mL, 1.0 mmol) in methanol (20 mL) was added solid Dy(OAc)3·4H2O (164.8 mg, 0.40 mmol). After stirring for 24 h, H2opch (108.0 mg, 0.40 mmol) and 1-naphthylphosphonic acid C10H7PO3H2 (20.8 mg, 0.10 mmol) were added to the pale yellow solution. The mixture was stirred for another 24 h and filtered. The yellow filtrate was sealed in a 25 mL glass vessel and heated in a drying oven at 100 °C. Red single crystals formed after 48 h as a single-phase product. Elemental analysis matches C110H108Dy7N24O39P3; TGA shows loss of six methanol molecules (5.2% observed, 5.3% calculated) between 30 and 250 °C.",
+        "reagents": [
+          {
+            "name": "H2EDDC",
+            "formula": "C12H10N8O2",
+            "role": "ligand",
+            "amount": "59.6 mg, 0.20 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.14 mL, 1.0 mmol"
+          },
+          {
+            "name": "dysprosium(III) acetate tetrahydrate",
+            "formula": "Dy(OAc)3·4H2O",
+            "role": "metal source",
+            "amount": "164.8 mg, 0.40 mmol"
+          },
+          {
+            "name": "H2opch",
+            "formula": "C13H12N4O3",
+            "role": "ligand",
+            "amount": "108.0 mg, 0.40 mmol"
+          },
+          {
+            "name": "1-naphthylphosphonic acid",
+            "formula": "C10H7PO3H2",
+            "role": "ligand",
+            "amount": "20.8 mg, 0.10 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "ambient stirring, then 100 °C",
+        "time": "24 h, then 24 h stirring, then 48 h heating",
+        "ph": null,
+        "vessel_or_method": "25 mL sealed glassware in a drying oven (solvothermal)",
+        "workup_and_crystallization": "Filtered; red single crystals formed directly as a single-phase product.",
+        "yield": "67 mg (43%, based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Compound 1 is a zero-field SMM. χMT falls from 102.89 cm3 K mol−1 at 300 K to 86.46 cm3 K mol−1 at 1.8 K (1 kOe), consistent with crystal-field depopulation and possible intramolecular antiferromagnetic coupling. Magnetization reaches 40.61 μB at 1.8 K and 7 T, below the 70 μB saturation value, and M vs H/T curves do not superimpose. A one-step hysteresis loop has an effective coercive field of 0.15 kOe at 1.8 K. AC data under zero dc field show two well-separated relaxation processes (fast, FR; slow, SR) with Orbach barriers of 74 K (τ0 = 1.49×10−6 s) and 177 K (τ0 = 3.84×10−11 s); below 8 K the quantum regimes have characteristic times 0.00042 s (FR) and 0.22 s (SR). Applied dc fields do not suppress the dynamics above 2.0 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "102.89",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "86.46",
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "40.61",
+            "unit": "μB",
+            "conditions": "1.8 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "coercive field",
+            "value": "0.15",
+            "unit": "kOe",
+            "conditions": "1.8 K; sweep rate 600 Oe s−1 (Fig. S15)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier (fast relaxation)",
+            "value": "74",
+            "unit": "K",
+            "conditions": "zero dc field; Orbach fit of τ from 1.8–23 K; τ0 = 1.49×10−6 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier (slow relaxation)",
+            "value": "177",
+            "unit": "K",
+            "conditions": "zero dc field; Orbach fit; τ0 = 3.84×10−11 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "quantum relaxation time (fast)",
+            "value": "0.00042",
+            "unit": "s",
+            "conditions": "below 8.0 K, zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "quantum relaxation time (slow)",
+            "value": "0.22",
+            "unit": "s",
+            "conditions": "below 8.0 K, zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α (fast relaxation)",
+            "value": "0.01–0.32",
+            "unit": null,
+            "conditions": "4–15 K, zero dc field, two modified Debye functions"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α (slow relaxation)",
+            "value": "0.03–0.62",
+            "unit": null,
+            "conditions": "4–15 K, zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "SI Experimental Section, synthesis of 1; EA for C110H108Dy7N24O39P3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "SI Single-Crystal Structure Determination and Table S1"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "ZUYYUP / 1424266"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "discussion of Fig. 1 and cyclic Dy7 core"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI Synthetic procedures, compound 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism discussion and Fig. 3"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "dimer of heptanuclear dysprosium clusters",
+      "formula": "[Dy14(EDDC)4(opch)4(O3PC10H7)10(OAc)6(H2O)4]·xH2O",
+      "ccdc_numbers": [
+        "1424267"
+      ],
+      "ccdc_refcodes": [
+        "ZUYZAW"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 14,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "phosphonate-bridged dimer of cyclic Dy7 units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Prepared as for compound 1 except that the amount of 1-naphthylphosphonic acid was doubled. To a slurry of H2EDDC (59.6 mg, 0.20 mmol) and triethylamine (0.14 mL, 1.0 mmol) in methanol (20 mL) was added Dy(OAc)3·4H2O (164.8 mg, 0.40 mmol). After stirring for 24 h, H2opch (108.0 mg, 0.40 mmol) and C10H7PO3H2 (41.6 mg, 0.20 mmol) were added. The mixture was stirred for another 24 h, filtered, sealed in a 25 mL glass vessel and heated at 100 °C for 48 h, giving red single crystals. Elemental analysis is fitted to C212H168Dy14N48O66P10·9H2O; TGA (30–260 °C) shows a 3.3% loss corresponding to thirteen water molecules. The CCDC model contains four lattice water molecules.",
+        "reagents": [
+          {
+            "name": "H2EDDC",
+            "formula": "C12H10N8O2",
+            "role": "ligand",
+            "amount": "59.6 mg, 0.20 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.14 mL, 1.0 mmol"
+          },
+          {
+            "name": "dysprosium(III) acetate tetrahydrate",
+            "formula": "Dy(OAc)3·4H2O",
+            "role": "metal source",
+            "amount": "164.8 mg, 0.40 mmol"
+          },
+          {
+            "name": "H2opch",
+            "formula": "C13H12N4O3",
+            "role": "ligand",
+            "amount": "108.0 mg, 0.40 mmol"
+          },
+          {
+            "name": "1-naphthylphosphonic acid",
+            "formula": "C10H7PO3H2",
+            "role": "ligand",
+            "amount": "41.6 mg, 0.20 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "ambient stirring, then 100 °C",
+        "time": "24 h, then 24 h stirring, then 48 h heating",
+        "ph": null,
+        "vessel_or_method": "25 mL sealed glassware in a drying oven (solvothermal)",
+        "workup_and_crystallization": "Filtered; red single crystals formed directly as a single-phase product.",
+        "yield": "85 mg (54%, based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Compound 2 is also a zero-field SMM, but with much smaller barriers than 1. χMT rises from 204.29 cm3 K mol−1 at 300 K to a maximum of 226.14 cm3 K mol−1 at 90 K, indicating dominant intramolecular ferromagnetic coupling, then falls to 141.47 cm3 K mol−1 at 1.8 K (1 kOe). Magnetization reaches 89.12 μB at 1.8 K and 7 T, below 140 μB, and a spindle-shaped hysteresis loop at 1.8 K indicates fast zero-field relaxation. Two thermally activated regimes give barriers of 6.4 K (τ0 = 1.18×10−5 s, 1.8–3.0 K) and 20.7 K (τ0 = 9.09×10−6 s, 5.0–8.0 K). Cole–Cole plots (1.8–4.0 K) are asymmetric with α ≈ 0.18 and are not well described by a single generalized Debye model.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "204.29",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "226.14",
+            "unit": "cm3 K mol−1",
+            "conditions": "maximum at 90 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "141.47",
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "89.12",
+            "unit": "μB",
+            "conditions": "1.8 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier (low-temperature relaxation)",
+            "value": "6.4",
+            "unit": "K",
+            "conditions": "zero dc field; 1.8–3.0 K; τ0 = 1.18×10−5 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier (high-temperature relaxation)",
+            "value": "20.7",
+            "unit": "K",
+            "conditions": "zero dc field; 5.0–8.0 K; τ0 = 9.09×10−6 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.18",
+            "unit": null,
+            "conditions": "1.8–4.0 K, zero dc field; approximate wide distribution"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "SI synthesis of 2; EA C212H168Dy14N48O66P10·9H2O; CCDC model with 4 H2O"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "SI Single-Crystal Structure Determination and Table S1"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "ZUYZAW / 1424267"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "discussion of Fig. 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI Synthetic procedures, compound 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism discussion and Fig. 3"
+        }
+      ]
+    }
+  ]
+}

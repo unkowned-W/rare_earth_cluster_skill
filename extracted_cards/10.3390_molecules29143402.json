@@ -1,0 +1,323 @@
+{
+  "title": "Assembly of Homochiral Magneto-Optical Dy6 Triangular Clusters by Fixing Carbon Dioxide in the Air",
+  "doi": "10.3390/molecules29143402",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "L-1",
+      "compound_name": "Δ-[Dy6(CO3)(L-Pro)6(LSchiff)4(HLSchiff)2]·5DMA·2H2O",
+      "formula": "[Dy6(CO3)(L-Pro)6(L_Schiff)4(HL_Schiff)2]·5DMA·2H2O",
+      "ccdc_numbers": [
+        "2363753"
+      ],
+      "ccdc_refcodes": [
+        "BUGBEO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "carbonato-centered triangular Dy6 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of H2L_Schiff (0.25 mmol), L-proline (0.25 mmol), Dy(CF3SO3)3 (0.25 mmol), and LiOH·H2O (0.75 mmol) in 5 mL of DMA was stirred for 24 h to form a brownish-red solution, which was filtered and transferred to a beaker. Slow evaporation of the solvent afforded red single crystals of L-1 after a few weeks. Atmospheric CO2 was fixed as a central carbonato bridge during assembly. Yield about 20% based on Dy.",
+        "reagents": [
+          {
+            "name": "H2L_Schiff ((E)-N'-((1-hydroxynaphthalen-2-yl)methylene)pyrazine-2-carbohydrazide)",
+            "formula": "C16H12N4O2",
+            "role": "bridging ligand",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "L-proline",
+            "formula": "C5H9NO2",
+            "role": "chiral ligand (L-HPro)",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "dysprosium(III) trifluoromethanesulfonate",
+            "formula": "Dy(CF3SO3)3",
+            "role": "metal source",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "lithium hydroxide monohydrate",
+            "formula": "LiOH·H2O",
+            "role": "base",
+            "amount": "0.75 mmol"
+          }
+        ],
+        "solvents": [
+          "DMA"
+        ],
+        "temperature": null,
+        "time": "stirred 24 h; crystals after a few weeks",
+        "ph": null,
+        "vessel_or_method": "stirring in DMA followed by filtration into a beaker and slow solvent evaporation in air",
+        "workup_and_crystallization": "filtered brownish-red solution; slow evaporation yielded red single crystals",
+        "yield": "about 20% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "L-1 shows intramolecular ferromagnetic Dy···Dy coupling, magnetic anisotropy, and slow magnetic relaxation with a small effective barrier (Ueff/k ≈ 6.5–8.3 K). Frequency-dependent AC χ″ appears below ~5 K without peaks even under 2000 Oe DC. The enantiomer pair exhibits a magneto-optical Faraday effect (|g_max(MCD)| = 0.026 T−1 for L-1) and SHG intensity equal to KDP (1.0 × KDP) at room temperature; no THG was observed.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 85.1,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, Hdc = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 65.44,
+            "unit": "cm3 K mol−1",
+            "conditions": "10 K, Hdc = 1000 Oe (minimum)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 69.55,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, Hdc = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/k",
+            "value": "6.5–8.3",
+            "unit": "K",
+            "conditions": "Debye fit of ln(χ″/χ′) vs 1/T; AC 50–1399 Hz, Hdc = 0 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "2.0×10−7–6.5×10−7",
+            "unit": "s",
+            "conditions": "same Debye fit as Ueff/k"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "322 and 454",
+            "unit": "nm",
+            "conditions": "DMF, c = 0.2 g L−1, H = 0 T"
+          },
+          {
+            "property_type": "optical",
+            "name": "CD Cotton peaks",
+            "value": "298, 374 and 428",
+            "unit": "nm",
+            "conditions": "DMF, c = 0.2 g L−1, H = 0 T"
+          },
+          {
+            "property_type": "optical",
+            "name": "MCD troughs",
+            "value": "350 and 437",
+            "unit": "nm",
+            "conditions": "pure MCD from CD(NS)−CD(SN) at ±1.6 T; DMF, c = 0.2 g L−1, 5 mm path"
+          },
+          {
+            "property_type": "optical",
+            "name": "|g_max(MCD)|",
+            "value": 0.026,
+            "unit": "T−1",
+            "conditions": "room temperature Faraday-effect estimate"
+          },
+          {
+            "property_type": "optical",
+            "name": "SHG intensity vs KDP",
+            "value": "1.0 × KDP",
+            "unit": null,
+            "conditions": "crystalline sample, excitation λ = 1550 nm, Tint = 0.5 s, room temperature"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Section 2.1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Section 3.4 elemental analysis C147H153Dy6N35O34; Table 1 squeeze formula C127H104Dy6N30O27"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1; Supplementary Materials note"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row BUGBEO / 2363753"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Section 2.1 Crystal Structures; Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 3.4 Syntheses of L-1 and D-1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Sections 2.2–2.4; Figures 2–6; Figures S1–S6"
+        }
+      ]
+    },
+    {
+      "compound_label": "D-1",
+      "compound_name": "[Dy6(CO3)(D-Pro)6(LSchiff)4(HLSchiff)2]·5DMA·2H2O",
+      "formula": "[Dy6(CO3)(D-Pro)6(L_Schiff)4(HL_Schiff)2]·5DMA·2H2O",
+      "ccdc_numbers": [
+        "2363754"
+      ],
+      "ccdc_refcodes": [
+        "ZOYSUF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "carbonato-centered triangular Dy6 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to L-1: a mixture of H2L_Schiff (0.25 mmol), D-proline (0.25 mmol), Dy(CF3SO3)3 (0.25 mmol), and LiOH·H2O (0.75 mmol) in 5 mL of DMA was stirred for 24 h to form a brownish-red solution, which was filtered and transferred to a beaker. Slow evaporation afforded red single crystals of D-1 after a few weeks. Atmospheric CO2 was fixed as a central carbonato bridge. Yield about 20% based on Dy.",
+        "reagents": [
+          {
+            "name": "H2L_Schiff ((E)-N'-((1-hydroxynaphthalen-2-yl)methylene)pyrazine-2-carbohydrazide)",
+            "formula": "C16H12N4O2",
+            "role": "bridging ligand",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "D-proline",
+            "formula": "C5H9NO2",
+            "role": "chiral ligand (D-HPro)",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "dysprosium(III) trifluoromethanesulfonate",
+            "formula": "Dy(CF3SO3)3",
+            "role": "metal source",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "lithium hydroxide monohydrate",
+            "formula": "LiOH·H2O",
+            "role": "base",
+            "amount": "0.75 mmol"
+          }
+        ],
+        "solvents": [
+          "DMA"
+        ],
+        "temperature": null,
+        "time": "stirred 24 h; crystals after a few weeks",
+        "ph": null,
+        "vessel_or_method": "stirring in DMA followed by filtration into a beaker and slow solvent evaporation in air",
+        "workup_and_crystallization": "filtered brownish-red solution; slow evaporation yielded red single crystals",
+        "yield": "about 20% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "D-1 is the enantiomer of L-1 and is treated as magnetically equivalent; the pair shows intramolecular ferromagnetic coupling and magnetic relaxation. Optically, D-1 displays CD/MCD spectra that are mirror-symmetric to L-1, a Faraday effect with |g_max(MCD)| = 0.027 T−1 at room temperature, and an SHG response of 1.0 × KDP.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "322 and 454",
+            "unit": "nm",
+            "conditions": "DMF, c = 0.2 g L−1, H = 0 T; spectrum similar to L-1"
+          },
+          {
+            "property_type": "optical",
+            "name": "CD Cotton peaks",
+            "value": "298, 374 and 428",
+            "unit": "nm",
+            "conditions": "DMF, c = 0.2 g L−1, H = 0 T; mirror-symmetric to L-1"
+          },
+          {
+            "property_type": "optical",
+            "name": "MCD troughs",
+            "value": "350 and 437",
+            "unit": "nm",
+            "conditions": "pure MCD at ±1.6 T; DMF, c = 0.2 g L−1, 5 mm path"
+          },
+          {
+            "property_type": "optical",
+            "name": "|g_max(MCD)|",
+            "value": 0.027,
+            "unit": "T−1",
+            "conditions": "room temperature Faraday-effect estimate"
+          },
+          {
+            "property_type": "optical",
+            "name": "SHG intensity vs KDP",
+            "value": "1.0 × KDP",
+            "unit": null,
+            "conditions": "room temperature; reported for L-1/D-1 pair"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Section 2.1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Section 3.4; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1; Supplementary Materials note"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ZOYSUF / 2363754"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Section 2.1; Figure 1b"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 3.4 Syntheses of L-1 and D-1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Sections 2.2–2.4; Figures 4–6; Figures S5–S6"
+        }
+      ]
+    }
+  ]
+}

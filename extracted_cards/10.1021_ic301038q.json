@@ -1,0 +1,156 @@
+{
+  "title": "A Strongly Blue-Emitting Heptametallic [DyIII] Centered-Octahedral Single-Molecule Magnet",
+  "doi": "10.1021/ic301038q",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1·4MeOH",
+      "compound_name": "[DyIII7(OH)2(L')9(aib)]·4MeOH",
+      "formula": "[Dy7(OH)2(L')9(aib)]·4MeOH",
+      "ccdc_numbers": [
+        "897324"
+      ],
+      "ccdc_refcodes": [
+        "WEHFUM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centered octahedral Dy7 cage"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(NO3)3·6H2O (440 mg, 1 mmol), LH3 (259 mg, 1.0 mmol), aibH (103 mg, 1.0 mmol), and NEt3 (3.0 mmol) were added in MeOH (10 mL). The mixture was transferred to a Teflon-lined autoclave and kept at 120 °C for 14 h. After slow cooling to room temperature, yellow crystals of [DyIII7(OH)2(L')9(aib)]·4MeOH were obtained, collected by filtration, washed with Et2O, and dried in air. L' is the dianion of the Schiff base between naphthalene aldehyde and aibH.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "440 mg, 1 mmol"
+          },
+          {
+            "name": "2-(β-naphthalideneamino)-2-(hydroxymethyl)-1-propanol",
+            "formula": "LH3",
+            "role": "ligand",
+            "amount": "259 mg, 1.0 mmol"
+          },
+          {
+            "name": "2-aminoisobutyric acid",
+            "formula": "aibH",
+            "role": "ligand",
+            "amount": "103 mg, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "3.0 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "120 °C",
+        "time": "14 h",
+        "ph": null,
+        "vessel_or_method": "Teflon-lined autoclave (solvothermal)",
+        "workup_and_crystallization": "Slow cooling to room temperature gave yellow crystals, which were collected by filtration, washed with Et2O, and dried in air.",
+        "yield": "~35%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Heptanuclear Dy(III) cluster with weak antiferromagnetic interactions (θ = −10.3 K) and frequency-dependent out-of-phase ac signals below ~3 K without peaks, indicating possible SMM behavior. Solid-state blue emission at room temperature with Dy3+ 4F9/2 → 6HJ bands plus additional peaks; ligand absorbances are blue-shifted upon complexation.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 86.41,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature; dc field 0.1 T (1000 G); 5.0–300 K data set"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (calculated, seven noninteracting DyIII)",
+            "value": 99.2,
+            "unit": "cm3 K mol−1",
+            "conditions": "S = 5/2, L = 5, J = 15/2, gj = 4/3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 63.84,
+            "unit": "cm3 K mol−1",
+            "conditions": "5 K; dc field 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": -10.3,
+            "unit": "K",
+            "conditions": "Curie–Weiss fit of high-temperature susceptibility, 50–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "out-of-phase ac susceptibility χM″",
+            "value": "frequency-dependent signals below ~3 K; no peaks observed",
+            "unit": null,
+            "conditions": "polycrystalline sample; 2.0–10 K; zero dc field; 2.5 G ac field oscillating at 50–1500 Hz (plotted at 100–1500 Hz)"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV–vis absorbance maxima of complex 1",
+            "value": "382 and 400 nm (blue-shifted from free-ligand 404 and 428 nm)",
+            "unit": "nm",
+            "conditions": "solid-state UV–vis; compared with free LH3"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maxima",
+            "value": "467, 481, 492, 508, and 559",
+            "unit": "nm",
+            "conditions": "solid-state fluorescence at room temperature; excitation at 310 nm; 467 and 559 nm assigned to 4F9/2 → 6HJ (J = 15/2, 13/2) of Dy3+"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "synthesis paragraph; complex 1 discussion"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "synthesis of 1·4MeOH"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 897324 / WEHFUM"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure description; Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "experimental/synthesis paragraph after Scheme 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism Figures 2–3; UV–vis/emission Figures 4–6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "refcode": "HIBYAV",
+  "ccdc_number": "1824966",
+  "dois": [
+    "10.1039/c8qi00214b"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1824966.cif",
+  "formula_moiety": "C116 H180 Dy4 N8 O24,2(C1 H4 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.2174(4)",
+    "b": "15.9283(6)",
+    "c": "19.3779(7)",
+    "alpha": "77.6670(10)",
+    "beta": "77.7820(10)",
+    "gamma": "68.5510(10)",
+    "volume": "3391.65",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O3",
+        "O4",
+        "O6",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12",
+        "O2",
+        "O7",
+        "O8",
+        "O8A"
+      ]
+    },
+    {
+      "label": "Dy1A",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10A",
+        "O11A",
+        "O3A",
+        "O4A",
+        "O6A",
+        "O9A"
+      ]
+    },
+    {
+      "label": "Dy2A",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O12A",
+        "O1A",
+        "O2A",
+        "O7A",
+        "O8",
+        "O8A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy2",
+          "Dy2A"
+        ],
+        "shared_oxygen_labels": [
+          "O8",
+          "O8A"
+        ],
+        "metal_metal_separation_angstrom": 3.864,
+        "bridge_geometry": [
+          {
+            "oxygen": "O8",
+            "angle_deg": 108.96,
+            "metal_oxygen_distances_angstrom": [
+              2.361,
+              2.386
+            ]
+          },
+          {
+            "oxygen": "O8A",
+            "angle_deg": 108.96,
+            "metal_oxygen_distances_angstrom": [
+              2.386,
+              2.361
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1"
+      ],
+      [
+        "Dy1A"
+      ],
+      [
+        "Dy2",
+        "Dy2A"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "HIBYAV crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C116 H180 Dy4 N8 O24,2(C1 H4 O1). From the CIF bond table, Dy1 (Dy) has 6 O neighbors; Dy2 (Dy) has 6 O neighbors; Dy1A (Dy) has 6 O neighbors; Dy2A (Dy) has 6 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.864-3.864 Å (not direct metal-metal bonds). Computed M-O-M angles span 108.96-108.96°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Dy4(tmhd)8(L)2(CH3OH)2]·CH3OH.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c8qi00214b",
+    "formula": "[Dy4(tmhd)8(L)2(CH3OH)2]·CH3OH",
+    "compound_name": "[Dy4(tmhd)8(L)2(CH3OH)2]·CH3OH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

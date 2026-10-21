@@ -1,0 +1,73 @@
+{
+  "refcode": "PAJHOZ",
+  "ccdc_number": "825655",
+  "dois": [
+    "10.1016/j.jorganchem.2011.10.015"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\825655.cif",
+  "formula_moiety": "C80 H128 Eu1 I2 Li6 O14,0.5(C6 H14)",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "I 41",
+  "international_tables_number": "80",
+  "unit_cell": {
+    "a": "25.3572(6)",
+    "b": "25.3572(6)",
+    "c": "14.6810(4)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "9439.7",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1E",
+        "O2",
+        "O2E",
+        "O3",
+        "O3E",
+        "O4",
+        "O4E"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Eu1"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "PAJHOZ crystallizes in the tetragonal crystal system with space group I 41. Reported CIF formula moiety: C80 H128 Eu1 I2 Li6 O14,0.5(C6 H14). From the CIF bond table, Eu1 (Eu) has 8 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C83H135EuI2Li6O14. Article name explicitly identifies Li(I).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.jorganchem.2011.10.015",
+    "formula": "C83H135EuI2Li6O14",
+    "compound_name": "EuLi4(SQ)2(Cat)2(LiI)2(THF)6",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "Li",
+        "state": "I",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "refcode": "FEZFIC",
+  "ccdc_number": "1538933",
+  "dois": [
+    "10.1039/c8ra01485j"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1538933.cif",
+  "formula_moiety": "C74 H78 Ho4 N6 O26,2(C1 H4 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "13.4321(16)",
+    "b": "11.8480(14)",
+    "c": "24.450(3)",
+    "alpha": "90",
+    "beta": "96.123(4)",
+    "gamma": "90",
+    "volume": "3868.86",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Ho1",
+      "element": "Ho",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O12",
+        "O3",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Ho2",
+      "element": "Ho",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O5",
+        "O7",
+        "O7B",
+        "O8B",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ho1B",
+      "element": "Ho",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10B",
+        "O11B",
+        "O12B",
+        "O1B",
+        "O3B",
+        "O5B",
+        "O6B"
+      ]
+    },
+    {
+      "label": "Ho2B",
+      "element": "Ho",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1B",
+        "O2B",
+        "O5B",
+        "O7",
+        "O7B",
+        "O8",
+        "O9B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ho1",
+          "Ho2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.671,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 107.2,
+            "metal_oxygen_distances_angstrom": [
+              2.276,
+              2.285
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 101.14,
+            "metal_oxygen_distances_angstrom": [
+              2.393,
+              2.36
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho1B",
+          "Ho2B"
+        ],
+        "shared_oxygen_labels": [
+          "O1B",
+          "O5B"
+        ],
+        "metal_metal_separation_angstrom": 3.671,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1B",
+            "angle_deg": 107.2,
+            "metal_oxygen_distances_angstrom": [
+              2.276,
+              2.285
+            ]
+          },
+          {
+            "oxygen": "O5B",
+            "angle_deg": 101.14,
+            "metal_oxygen_distances_angstrom": [
+              2.393,
+              2.36
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho2",
+          "Ho2B"
+        ],
+        "shared_oxygen_labels": [
+          "O7",
+          "O7B"
+        ],
+        "metal_metal_separation_angstrom": 3.812,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 113.54,
+            "metal_oxygen_distances_angstrom": [
+              2.269,
+              2.289
+            ]
+          },
+          {
+            "oxygen": "O7B",
+            "angle_deg": 113.54,
+            "metal_oxygen_distances_angstrom": [
+              2.289,
+              2.269
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ho1",
+        "Ho1B",
+        "Ho2",
+        "Ho2B"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "FEZFIC crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C74 H78 Ho4 N6 O26,2(C1 H4 O1). From the CIF bond table, Ho1 (Ho) has 7 O neighbors; Ho2 (Ho) has 7 O neighbors; Ho1B (Ho) has 7 O neighbors; Ho2B (Ho) has 7 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.671-3.812 Å (not direct metal-metal bonds). Computed M-O-M angles span 101.14-113.54°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C76H86N6O28Ho4. Explicit grouped units in the article formula/name: 2 NO3 (explicit grouped unit in article compound name (structural notation)), 2 Piv (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c8ra01485j",
+    "formula": "C76H86N6O28Ho4",
+    "compound_name": "[Ho4L4(NO3)2(Piv)2]·2CH3OH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "Piv",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

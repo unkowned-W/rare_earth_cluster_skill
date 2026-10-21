@@ -1,0 +1,166 @@
+{
+  "title": "A 42-metal Yb(III) nanowheel with NIR luminescent response to anions",
+  "doi": "10.1039/c9nr09151c",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Yb42(L)14(OH)28(OAc)84] (L = deprotonated 2-hydroxy-3-methoxybenzaldehyde)",
+      "formula": "C280H378O238Yb42",
+      "ccdc_numbers": [
+        "1947262"
+      ],
+      "ccdc_refcodes": [
+        "NOSMIU01"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 42,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "molecular nanowheel"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Yb(OAc)3 and HL were dissolved in ethanol at room temperature. An ethanolic triethylamine solution was added, and the mixture was stirred under reflux for 30 minutes. After cooling and filtration, diethyl ether was slowly diffused into the filtrate at room temperature. Pale-yellow crystals formed after one week; they were filtered, washed with ethanol, and dried in air for one week. The SI general procedures state that reactions used dry, oxygen-free dinitrogen and standard Schlenk techniques.",
+        "reagents": [
+          {
+            "name": "ytterbium(III) acetate",
+            "formula": "Yb(OAc)3",
+            "role": "metal source",
+            "amount": "0.40 mmol; 0.1401 g"
+          },
+          {
+            "name": "2-hydroxy-3-methoxybenzaldehyde (HL)",
+            "formula": null,
+            "role": "ligand precursor",
+            "amount": "0.30 mmol; 0.0456 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": null,
+            "role": "base",
+            "amount": "1 mL of a 1.0 mol/L solution in ethanol"
+          },
+          {
+            "name": "ethanol",
+            "formula": "EtOH",
+            "role": "reaction solvent",
+            "amount": "30 mL, plus ethanol in the triethylamine solution"
+          },
+          {
+            "name": "diethyl ether",
+            "formula": null,
+            "role": "diffusion crystallization solvent",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature for dissolution, diffusion and crystallization; reflux during reaction",
+        "time": "30 minutes under reflux; one week for crystallization; one week drying",
+        "ph": null,
+        "vessel_or_method": "stirred reflux followed by diethyl-ether diffusion; SI general procedures specify standard Schlenk techniques",
+        "workup_and_crystallization": "Cool and filter; diffuse diethyl ether into the filtrate at room temperature; filter pale-yellow crystals, wash with ethanol (3 × 5 mL), and dry in air for one week.",
+        "yield": "0.0549 g (40%, based on Yb(OAc)3)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Compound 1 exhibits ligand-centered visible emission and Yb(III) near-infrared emission. Its NIR luminescence responds to added anions: fluoride produces the strongest reported enhancement, while chromate quenches the emission.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "Yb(III) NIR emission maximum",
+            "value": "982",
+            "unit": "nm",
+            "conditions": "CH3CN; excitation at 390 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-centered visible emission maximum",
+            "value": "495",
+            "unit": "nm",
+            "conditions": "compound 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "visible emission lifetime",
+            "value": "4.95",
+            "unit": "ns",
+            "conditions": "ligand-centered emission of compound 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR emission lifetime",
+            "value": "11.65",
+            "unit": "μs",
+            "conditions": "compound 1 before anion addition"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR emission lifetime after sulfate addition",
+            "value": "15.15",
+            "unit": "μs",
+            "conditions": "after addition of 120 μM SO4²⁻"
+          },
+          {
+            "property_type": "optical",
+            "name": "fluoride Stern–Volmer response coefficient",
+            "value": "-9970",
+            "unit": "M⁻¹",
+            "conditions": "NIR luminescence enhancement on fluoride addition"
+          },
+          {
+            "property_type": "optical",
+            "name": "fluoride limit of detection",
+            "value": "3.78",
+            "unit": "μM",
+            "conditions": "NIR luminescent response"
+          },
+          {
+            "property_type": "optical",
+            "name": "chromate Stern–Volmer response coefficient",
+            "value": "333",
+            "unit": "M⁻¹",
+            "conditions": "NIR luminescence quenching on CrO4²⁻ addition"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label, compound_name, material_class",
+          "source": "main_text",
+          "location": "Introduction; Results and discussion, Fig. 1"
+        },
+        {
+          "field": "formula, ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Synthesis of 1; X-Ray Crystallography, Table S1"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "supplied CCDC catalog row for CCDC 1947262"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "General Procedures; Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and discussion, Figs. 3–5; Conclusions"
+        }
+      ],
+      "structure_description": "A discrete 42-Yb(III) molecular wheel with an approximately 3.6 nm external diameter and 1.5 nm internal diameter."
+    }
+  ]
+}

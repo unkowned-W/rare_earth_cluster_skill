@@ -1,0 +1,445 @@
+{
+  "title": "Synthesis, Magnetism, and 57Fe Mössbauer Spectroscopic Study of a Family of [Ln3Fe7] Coordination Clusters (Ln = Gd, Tb, and Er)",
+  "doi": "10.1021/ic401011d",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Gd3Fe7(μ4-O)2(μ3-OH)2(N3)6(mdea)7(PhCO2)4]·4MeCN·H2O",
+      "formula": "[Gd3Fe7(μ4-O)2(μ3-OH)2(N3)6(mdea)7(PhCO2)4]·4MeCN·H2O",
+      "ccdc_numbers": [
+        "849601"
+      ],
+      "ccdc_refcodes": [
+        "RITFIL"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Fe"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln3Fe7 oxo/hydroxo N-methyldiethanolamine benzoate azide cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under aerobic conditions, a solution of N-methyldiethanolamine (mdeaH2; 0.148 g, 1.25 mmol) in MeCN (20 mL) was added dropwise over 20 min to a stirred solution of Gd(NO3)3·6H2O (0.113 g, 0.25 mmol), benzoic acid (0.030 g, 0.25 mmol), FeCl3 (0.040 g, 0.25 mmol), and NaN3 (0.051 g, 0.75 mmol) in MeCN (20 mL). The mixture was heated under reflux for 1 h, cooled to room temperature, and allowed to stand undisturbed in a sealed vial. Orange needles of 1 suitable for X-ray crystallography were obtained after 15 days, collected by filtration, washed with MeCN, and dried in air. Crystals for X-ray crystallography were maintained under mother liquor to avoid solvent loss.",
+        "reagents": [
+          {
+            "name": "N-methyldiethanolamine (mdeaH2)",
+            "formula": "C5H13NO2",
+            "role": "ligand",
+            "amount": "0.148 g, 1.25 mmol"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.113 g, 0.25 mmol"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "PhCO2H",
+            "role": "ligand",
+            "amount": "0.030 g, 0.25 mmol"
+          },
+          {
+            "name": "iron(III) chloride",
+            "formula": "FeCl3",
+            "role": "metal source",
+            "amount": "0.040 g, 0.25 mmol"
+          },
+          {
+            "name": "sodium azide",
+            "formula": "NaN3",
+            "role": "ligand",
+            "amount": "0.051 g, 0.75 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "reflux, then room temperature",
+        "time": "dropwise addition 20 min; reflux 1 h; crystallization 15 days",
+        "ph": null,
+        "vessel_or_method": "aerobic reflux then sealed vial standing",
+        "workup_and_crystallization": "cooled to RT, stood undisturbed in a sealed vial; orange needles after 15 days; filtered, washed with MeCN, dried in air",
+        "yield": "40%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility (1.8–300 K, 0.1 T) shows dominant intracluster antiferromagnetic interactions: χT = 45.8 cm3 K mol−1 at RT (expected 54.25) and 14.8 cm3 K mol−1 at 1.8 K; Curie–Weiss fit above 100 K gives C = 44.3 cm3 K mol−1 and θ = −20.5 K. Magnetization at 7 T and 1.8 K is 28.1 μB without saturation. No out-of-phase ac signal above 1.8 K. 57Fe Mössbauer spectra (3–295 K) show paramagnetic FeIII quadrupole doublets at high T and only slight broadening at 3 K, consistent with faster magnetic relaxation than in the Tb, Er, and Dy analogues.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 45.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, dc 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 14.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, dc 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 44.3,
+            "unit": "cm3 K mol−1",
+            "conditions": "fit above 100 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": -20.5,
+            "unit": "K",
+            "conditions": "fit above 100 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 28.1,
+            "unit": "μB",
+            "conditions": "7 T, 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac out-of-phase susceptibility χ″",
+            "value": "none observed above 1.8 K",
+            "unit": null,
+            "conditions": "zero dc field, ac 3 Oe, 1–1500 Hz"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 2.1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.1; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1; section 2.2"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row RITFIL / 849601"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3; Table 2; Figure 2"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Tb3Fe7(μ4-O)2(μ3-OH)2(N3)6(mdea)7(PhCO2)4]·4MeCN·H2O",
+      "formula": "[Tb3Fe7(μ4-O)2(μ3-OH)2(N3)6(mdea)7(PhCO2)4]·4MeCN·H2O",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Fe"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln3Fe7 oxo/hydroxo N-methyldiethanolamine benzoate azide cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 under aerobic conditions, replacing Gd(NO3)3·6H2O with Tb(NO3)3·6H2O (0.114 g, 0.25 mmol) in MeCN. The same ligand/metal/azide quantities and reflux/crystallization protocol as for 1 were used.",
+        "reagents": [
+          {
+            "name": "N-methyldiethanolamine (mdeaH2)",
+            "formula": "C5H13NO2",
+            "role": "ligand",
+            "amount": "0.148 g, 1.25 mmol (as for 1)"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.114 g, 0.25 mmol"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "PhCO2H",
+            "role": "ligand",
+            "amount": "0.030 g, 0.25 mmol (as for 1)"
+          },
+          {
+            "name": "iron(III) chloride",
+            "formula": "FeCl3",
+            "role": "metal source",
+            "amount": "0.040 g, 0.25 mmol (as for 1)"
+          },
+          {
+            "name": "sodium azide",
+            "formula": "NaN3",
+            "role": "ligand",
+            "amount": "0.051 g, 0.75 mmol (as for 1)"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "reflux, then room temperature",
+        "time": "as for 1: reflux 1 h; crystallization ~2 weeks",
+        "ph": null,
+        "vessel_or_method": "aerobic reflux then sealed vial standing (as for 1)",
+        "workup_and_crystallization": "as for 1; orange crystals from MeCN",
+        "yield": "45%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc χT is 55.4 cm3 K mol−1 at RT (expected 66.08) and 12.8 cm3 K mol−1 at 1.8 K; Curie–Weiss parameters above 100 K are C = 54.7 cm3 K mol−1 and θ = −19.4 K, indicating dominant antiferromagnetic coupling. Magnetization reaches 19.6 μB at 7 T and 1.8 K without saturation. Zero-field ac susceptibility shows a clear χ″ signal (~15% of χ′) below 3 K, indicating slow magnetization relaxation attributed to TbIII anisotropy; no full SMM barrier analysis is given. 57Fe Mössbauer spectra show onset of slow paramagnetic relaxation at and below ~40 K and well-developed sextets at 3 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 55.4,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, dc 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 12.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, dc 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 54.7,
+            "unit": "cm3 K mol−1",
+            "conditions": "fit above 100 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": -19.4,
+            "unit": "K",
+            "conditions": "fit above 100 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 19.6,
+            "unit": "μB",
+            "conditions": "7 T, 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac out-of-phase susceptibility χ″",
+            "value": "clear signal below 3 K (~15% of χ′)",
+            "unit": null,
+            "conditions": "zero dc field, ac 3 Oe, 1–1500 Hz"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 2.1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.1; Table 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3; Table 2; Figures 2–3"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Er3Fe7(μ4-O)2(μ3-OH)2(mdea)7(N3)5(MeOH)(PhCO2)4]Cl·7.5H2O·1.5MeOH",
+      "formula": "[Er3Fe7(μ4-O)2(μ3-OH)2(N3)5(MeOH)(mdea)7(PhCO2)4]Cl·7.5H2O·1.5MeOH",
+      "ccdc_numbers": [
+        "849602"
+      ],
+      "ccdc_refcodes": [
+        "RITFEH"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [
+          "Fe"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln3Fe7 oxo/hydroxo N-methyldiethanolamine benzoate azide/methanol cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 under aerobic conditions, replacing Gd(NO3)3·6H2O with ErCl3·xH2O (0.067 g) and using MeOH as solvent instead of MeCN. The same ligand/Fe/azide molar ratio as for 1 was used. The authors note that the Er analogue could not be isolated pure from MeCN.",
+        "reagents": [
+          {
+            "name": "N-methyldiethanolamine (mdeaH2)",
+            "formula": "C5H13NO2",
+            "role": "ligand",
+            "amount": "same molar ratio as 1 (1.25 mmol scale)"
+          },
+          {
+            "name": "erbium(III) chloride hydrate",
+            "formula": "ErCl3·xH2O",
+            "role": "metal source",
+            "amount": "0.067 g"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "PhCO2H",
+            "role": "ligand",
+            "amount": "same as 1 (0.25 mmol scale)"
+          },
+          {
+            "name": "iron(III) chloride",
+            "formula": "FeCl3",
+            "role": "metal source",
+            "amount": "same as 1 (0.25 mmol scale)"
+          },
+          {
+            "name": "sodium azide",
+            "formula": "NaN3",
+            "role": "ligand",
+            "amount": "same as 1 (0.75 mmol scale)"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "reflux, then room temperature (as for 1)",
+        "time": "as for 1: reflux 1 h then crystallization",
+        "ph": null,
+        "vessel_or_method": "aerobic reflux then standing crystallization in MeOH",
+        "workup_and_crystallization": "as for 1 but from methanol; orange crystals",
+        "yield": "44%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc χT is 53.3 cm3 K mol−1 at RT (expected 65.12) and 21.9 cm3 K mol−1 at 1.8 K; Curie–Weiss fit above 100 K gives C = 56.8 cm3 K mol−1 and θ = −25.1 K, indicating dominant antiferromagnetic interactions. Magnetization is 22.5 μB at 7 T and 1.8 K without saturation. No χ″ ac signal is observed above 1.8 K. 57Fe Mössbauer spectra show onset of slow relaxation below ~15 K and broad sextets at 3 K, indicating a relaxation time comparable to the 57Fe Larmor period.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 53.3,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, dc 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 21.9,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, dc 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 56.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "fit above 100 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": -25.1,
+            "unit": "K",
+            "conditions": "fit above 100 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 22.5,
+            "unit": "μB",
+            "conditions": "7 T, 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac out-of-phase susceptibility χ″",
+            "value": "none observed above 1.8 K",
+            "unit": null,
+            "conditions": "zero dc field, ac 3 Oe, 1–1500 Hz"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 2.1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; section 2.1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1; section 2.2"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row RITFEH / 849602"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.1; section 3.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3; Table 2; Figure 2"
+        }
+      ]
+    }
+  ]
+}

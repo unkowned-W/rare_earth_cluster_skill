@@ -1,0 +1,567 @@
+{
+  "title": "Chiral Zn3Ln3 Hexanuclear Clusters of an Achiral Flexible Ligand",
+  "doi": "10.1021/acs.inorgchem.3c01449",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1 (Λ-1/Δ-1)",
+      "compound_name": "(Et3NH)3{[ZnCl(L)DyCl(EtOH)(μ2-OH)]3(μ3-OH)}[ZnCl4]·3EtOH·0.5H2O",
+      "formula": "C102H191Cl10Dy3N9O16.5Zn4",
+      "ccdc_numbers": [
+        "2259373",
+        "2259374"
+      ],
+      "ccdc_refcodes": [
+        "HITKII",
+        "HITKOO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "chiral Zn3Ln3 hexanuclear cluster with a Ln3 triangle; hepta-coordinate D5h Ln ions; space group P63; spontaneously resolved Λ/Δ enantiomers"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "H2L (0.3 mmol, 115.4 mg) was suspended in EtOH (15 mL) and anhydrous ZnCl2 (0.3 mmol, 40.8 mg) was added. The mixture was ultrasonicated for 5 min until fully dissolved, then DyCl3·6H2O (0.15 mmol, 56.5 mg) was added. After addition of Et3N (0.6 mmol, 84 μL) the solution became colorless and transparent. After stirring for a few minutes the solution was filtered; the filtrate was placed at the bottom of a tube and layered with diethyl ether. Colorless multishaped crystals suitable for X-ray diffraction were collected after about 3 days. Λ and Δ enantiomers form by spontaneous resolution.",
+        "reagents": [
+          {
+            "name": "H2L (2,2'-[1,2-ethanediylbis[(ethylimino)methylene]]bis[3,5-dimethylphenol])",
+            "formula": "C22H32N2O2",
+            "role": "ligand",
+            "amount": "0.3 mmol, 115.4 mg"
+          },
+          {
+            "name": "anhydrous zinc chloride",
+            "formula": "ZnCl2",
+            "role": "metal source",
+            "amount": "0.3 mmol, 40.8 mg"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "lanthanide source",
+            "amount": "0.15 mmol, 56.5 mg"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.6 mmol, 84 μL"
+          }
+        ],
+        "solvents": [
+          "EtOH",
+          "diethyl ether"
+        ],
+        "temperature": null,
+        "time": "ultrasonication 5 min; crystals after about 3 days",
+        "ph": null,
+        "vessel_or_method": "ultrasonic dissolution, filtration, layered diffusion of diethyl ether onto the ethanol filtrate in a tube",
+        "workup_and_crystallization": "filtered; filtrate layered with diethyl ether; colorless crystals collected after ~3 days",
+        "yield": "45% based on DyCl3·6H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Field-induced SMM-like AC response under 1000 Oe but no χM'' peak down to 2 K and no SMT sigmoidal M(H) curve. Weak intramolecular ferromagnetic coupling inferred from a low-T χMT upturn. Solid-state CD of Λ-1 and Δ-1 is nearly mirror-symmetrical (Cotton effect ~320 nm).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 42.37,
+            "unit": "cm3 K mol-1",
+            "conditions": "280 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": 36.16,
+            "unit": "cm3 K mol-1",
+            "conditions": "4.8 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 37.84,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 16.34,
+            "unit": "Nβ",
+            "conditions": "2 K; below theoretical 30 Nβ for three Dy3+"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "AC χM''",
+            "value": "no signal under 0 Oe above 2 K; frequency-dependent signal under 1000 Oe without a peak to 2 K (strong QTM)",
+            "unit": null,
+            "conditions": "0 and 1000 Oe DC fields"
+          },
+          {
+            "property_type": "optical",
+            "name": "solid-state CD Cotton-effect peak",
+            "value": "~320",
+            "unit": "nm",
+            "conditions": "solid CD of Λ-1 and Δ-1; nearly mirror-symmetric"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Introduction; Experimental Section, Synthesis of complex 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, elemental analysis of 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "HITKII/HITKOO matched to Dy analogue; paper Accession Codes 2259373–2259380"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Crystal Structure"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of complex 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "CD/CPL section; Magnetic Properties; Figures 3–5"
+        }
+      ]
+    },
+    {
+      "compound_label": "2 (Λ-2/Δ-2)",
+      "compound_name": "(Et3NH)3{[ZnCl(L)TbCl(EtOH)(μ2-OH)]3(μ3-OH)}[ZnCl4]·3EtOH·0.5H2O",
+      "formula": "C102H191Cl10N9O16.5Tb3Zn4",
+      "ccdc_numbers": [
+        "2259375",
+        "2259376"
+      ],
+      "ccdc_refcodes": [
+        "HITKUU",
+        "HITLAB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "chiral Zn3Ln3 hexanuclear cluster with a Ln3 triangle; space group P63; Λ/Δ enantiomers"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to complex 1, replacing DyCl3·6H2O with TbCl3·6H2O. Colorless crystals were obtained by diethyl ether diffusion into the ethanol reaction filtrate.",
+        "reagents": [
+          {
+            "name": "H2L",
+            "formula": "C22H32N2O2",
+            "role": "ligand",
+            "amount": "same as complex 1 (0.3 mmol, 115.4 mg)"
+          },
+          {
+            "name": "anhydrous zinc chloride",
+            "formula": "ZnCl2",
+            "role": "metal source",
+            "amount": "same as complex 1 (0.3 mmol, 40.8 mg)"
+          },
+          {
+            "name": "terbium(III) chloride hexahydrate",
+            "formula": "TbCl3·6H2O",
+            "role": "lanthanide source",
+            "amount": "replaces DyCl3·6H2O in the procedure of 1"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "same as complex 1 (0.6 mmol, 84 μL)"
+          }
+        ],
+        "solvents": [
+          "EtOH",
+          "diethyl ether"
+        ],
+        "temperature": null,
+        "time": "crystals obtained analogously to 1 (~3 days)",
+        "ph": null,
+        "vessel_or_method": "same layered-diffusion method as complex 1",
+        "workup_and_crystallization": "colorless crystals from ether diffusion into ethanol filtrate",
+        "yield": "48% based on TbCl3·6H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Typical Tb(III) green photoluminescence (ligand-sensitized) and mirror-image CPL of Λ-2/Δ-2; triboluminescence of the solid. DC χMT decreases on cooling consistent with intramolecular antiferromagnetic interactions; AC susceptibility is very weak at 0 and 2000 Oe.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "photoluminescence emission maxima",
+            "value": "488, 545, 585, 621",
+            "unit": "nm",
+            "conditions": "ethanol solution, λex = 293 nm; 5D4 → 7Fn (n = 6,5,4,3)"
+          },
+          {
+            "property_type": "optical",
+            "name": "glum",
+            "value": "-5e-4 (Λ-2); +4e-4 (Δ-2)",
+            "unit": null,
+            "conditions": "strongest CPL signals 535–555 nm; room temperature; λex = 290 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "CPL spectral range",
+            "value": "450–650",
+            "unit": "nm",
+            "conditions": "solid/ground crystal CPL of Λ-2 and Δ-2"
+          },
+          {
+            "property_type": "optical",
+            "name": "CD peak",
+            "value": "~315",
+            "unit": "nm",
+            "conditions": "solid CD of enantiomers of 2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 35.54,
+            "unit": "cm3 K mol-1",
+            "conditions": "280 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 13.9,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "AC susceptibility",
+            "value": "very weak χM'' under 0 and 2000 Oe at 997 Hz",
+            "unit": null,
+            "conditions": "997 Hz"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of complex 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "HITKUU/HITLAB Tb analogue"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of complexes 1–4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Synthesis and General Characterization; Figure 1; CD/CPL; Magnetic Properties; Figure S28"
+        }
+      ]
+    },
+    {
+      "compound_label": "3 (Λ-3/Δ-3)",
+      "compound_name": "(Et3NH)3{[ZnCl(L)GdCl(EtOH)(μ2-OH)]3(μ3-OH)}[ZnCl4]·3EtOH·0.5H2O",
+      "formula": "C102H191Cl10Gd3N9O16.5Zn4",
+      "ccdc_numbers": [
+        "2259377",
+        "2259378"
+      ],
+      "ccdc_refcodes": [
+        "HITLEF",
+        "HITLIJ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "chiral Zn3Ln3 hexanuclear cluster with an equilateral Gd3 triangle; space group P63; Λ/Δ enantiomers"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to complex 1, replacing DyCl3·6H2O with GdCl3·6H2O. Colorless crystals were obtained.",
+        "reagents": [
+          {
+            "name": "H2L",
+            "formula": "C22H32N2O2",
+            "role": "ligand",
+            "amount": "same as complex 1 (0.3 mmol, 115.4 mg)"
+          },
+          {
+            "name": "anhydrous zinc chloride",
+            "formula": "ZnCl2",
+            "role": "metal source",
+            "amount": "same as complex 1 (0.3 mmol, 40.8 mg)"
+          },
+          {
+            "name": "gadolinium(III) chloride hexahydrate",
+            "formula": "GdCl3·6H2O",
+            "role": "lanthanide source",
+            "amount": "replaces DyCl3·6H2O in the procedure of 1"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "same as complex 1 (0.6 mmol, 84 μL)"
+          }
+        ],
+        "solvents": [
+          "EtOH",
+          "diethyl ether"
+        ],
+        "temperature": null,
+        "time": "analogous to complex 1",
+        "ph": null,
+        "vessel_or_method": "same layered-diffusion method as complex 1",
+        "workup_and_crystallization": "colorless crystals",
+        "yield": "47% based on GdCl3·6H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "DC susceptibility of the Gd3 triangle fitted to an isotropic equilateral-triangle Hamiltonian, giving weak antiferromagnetic Gd–Gd coupling via OH- bridges. Solid CD of the enantiomers is analogous to 1.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 23.71,
+            "unit": "cm3 K mol-1",
+            "conditions": "280 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 10.87,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J (Gd–Gd)",
+            "value": -0.07,
+            "unit": "cm-1",
+            "conditions": "isotropic H = -2J(S1S2+S2S3+S1S3); g = 2.03(1)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g",
+            "value": 2.03,
+            "unit": null,
+            "conditions": "fit of χMT vs T for complex 3"
+          },
+          {
+            "property_type": "optical",
+            "name": "CD peak",
+            "value": "~315",
+            "unit": "nm",
+            "conditions": "solid CD of enantiomers of 3"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of complex 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "HITLEF/HITLIJ Gd analogue"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; eq 1; Figure 4; Figures S20–S22"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "(Et3NH)3{[ZnCl(L)Dy0.07Y0.93Cl(EtOH)(μ2-OH)]3(μ3-OH)}[ZnCl4]·3EtOH·0.5H2O",
+      "formula": "C102H191Cl10Dy0.21N9O16.5Y2.79Zn4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy",
+          "Y"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "magnetically diluted Zn3Ln3 hexanuclear analogue of 1 (Dy:Y = 0.07:0.93 by ICP); structure confirmed by SCXRD"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to complex 1 using a Dy/Y mixed chloride feed instead of pure DyCl3·6H2O. The molar ratio of DyCl3·6H2O to YCl3·6H2O is 1:19. Colorless crystals were obtained.",
+        "reagents": [
+          {
+            "name": "H2L",
+            "formula": "C22H32N2O2",
+            "role": "ligand",
+            "amount": "same as complex 1 (0.3 mmol, 115.4 mg)"
+          },
+          {
+            "name": "anhydrous zinc chloride",
+            "formula": "ZnCl2",
+            "role": "metal source",
+            "amount": "same as complex 1 (0.3 mmol, 40.8 mg)"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "lanthanide source (dilute dopant)",
+            "amount": "Dy:Y feed molar ratio 1:19 versus YCl3·6H2O"
+          },
+          {
+            "name": "yttrium(III) chloride hexahydrate",
+            "formula": "YCl3·6H2O",
+            "role": "diamagnetic diluent",
+            "amount": "Dy:Y feed molar ratio 1:19"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "same as complex 1 (0.6 mmol, 84 μL)"
+          }
+        ],
+        "solvents": [
+          "EtOH",
+          "diethyl ether"
+        ],
+        "temperature": null,
+        "time": "analogous to complex 1",
+        "ph": null,
+        "vessel_or_method": "same layered-diffusion method as complex 1; co-crystallization dilution",
+        "workup_and_crystallization": "colorless crystals; Dy:Y = 0.07:0.93 by ICP",
+        "yield": "42% based on LnCl3·6H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Field-induced SMM after magnetic dilution: χM'' peaks under 2000 Oe, Orbach+Raman fit gives Ueff = 48.3(5) K and τ0 = 4.4×10-8 s. Cole–Cole α = 0.27–0.33. Solid CD analogous to 1–3.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 48.3,
+            "unit": "K",
+            "conditions": "2000 Oe DC field; τ-1 = CT^n + τ0-1 exp(-Ueff/kBT)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": 4.4e-08,
+            "unit": "s",
+            "conditions": "same fit as Ueff for complex 4"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.27–0.33",
+            "unit": null,
+            "conditions": "2–8 K, 2000 Oe; generalized Debye model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "AC χM''",
+            "value": "peak under 2000 Oe at 997 Hz; no obvious peak at 0 Oe",
+            "unit": null,
+            "conditions": "997 Hz survey then full AC under 2000 Oe"
+          },
+          {
+            "property_type": "optical",
+            "name": "CD peak",
+            "value": "~315",
+            "unit": "nm",
+            "conditions": "solid CD of enantiomers of 4"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of complex 4"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "elemental analysis of 4"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Accession Codes list 2259373–2259380 but supplied CCDC rows do not include a Dy/Y formula, so numbers/refcodes left unassigned"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figure 5b–d; Figure S27"
+        }
+      ]
+    }
+  ]
+}

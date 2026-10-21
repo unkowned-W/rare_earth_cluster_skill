@@ -1,0 +1,289 @@
+{
+  "title": "Rhombus-Shaped Tetranuclear [Ln4] Complexes [Ln = Dy(III) and Ho(III)]: Synthesis, Structure, and SMM Behavior",
+  "doi": "10.1021/ic302848k",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[{(LH)2Dy4}(μ2-O)4](H2O)8·2CH3OH·8H2O",
+      "formula": "C36H64Dy4N8O28",
+      "ccdc_numbers": [
+        "966542"
+      ],
+      "ccdc_refcodes": [
+        "LINLAX"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "planar rhombus-shaped Ln4 oxido cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "LH3 (0.05 g, 0.155 mmol) was dissolved in methanol (10 mL) and dichloromethane (15 mL) to give a colorless solution. Two equivalents of DyCl3·6H2O (0.117 g, 0.31 mmol) were added, immediately producing a deep-red solution. After stirring at room temperature for 10 min, three equivalents of triethylamine (0.047 g, 0.465 mmol) were added dropwise. The mixture was stirred at room temperature for 20 h, filtered, and left to crystallize. After about 15 days, slow evaporation of the methanol/dichloromethane mother liquor afforded block-shaped deep-red crystals of 1 suitable for X-ray crystallography.",
+        "reagents": [
+          {
+            "name": "(6-hydroxymethyl)-N′-((8-hydroxyquinolin-2-yl)methylene)picolinohydrazide (LH3)",
+            "formula": "C17H14N4O3",
+            "role": "ligand",
+            "amount": "0.050 g, 0.155 mmol"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.117 g, 0.31 mmol (2 equiv)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.047 g, 0.465 mmol (3 equiv)"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "dichloromethane"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 20 h; crystallized ~15 days",
+        "ph": null,
+        "vessel_or_method": "solution synthesis followed by slow evaporation of the mother liquor",
+        "workup_and_crystallization": "filtered after stirring; block-shaped deep-red crystals grown by slow evaporation of the MeOH/CH2Cl2 mother liquor over about 15 days",
+        "yield": "72 mg (55%, based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Static susceptibility of 1 shows χMT = 53.4 cm3 mol−1 K at 300 K, a plateau near 44.5 cm3 mol−1 K between 20 and 10 K, and 29.6 cm3 mol−1 K at 2 K. Magnetization at 2 K reaches 19.2 μB at 50 kOe without saturation. AC susceptibility below 20 K is frequency-dependent with two χM″ maxima (3.9 and 10.7 K at 1490 Hz), corresponding to two SMM relaxation processes attributed to the two distinct Dy(III) sites (Ueff/kB = 16.8 and 54.2 K).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 53.4,
+            "unit": "cm3 mol−1 K",
+            "conditions": "300 K, 1000 Oe dc field, crushed crystals mixed with grease"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT plateau",
+            "value": 44.5,
+            "unit": "cm3 mol−1 K",
+            "conditions": "ca. 20–10 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 29.6,
+            "unit": "cm3 mol−1 K",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 19.2,
+            "unit": "μB",
+            "conditions": "2 K, 50 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χM″ peak temperatures",
+            "value": "3.9 and 10.7",
+            "unit": "K",
+            "conditions": "1490 Hz, ac field 3 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier (LT relaxation)",
+            "value": 16.8,
+            "unit": "K",
+            "conditions": "Arrhenius fit of ln τ vs 1/TB for low-temperature process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0 (LT)",
+            "value": "1.4e-6",
+            "unit": "s",
+            "conditions": "Arrhenius fit, low-temperature relaxation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier (HT relaxation)",
+            "value": 54.2,
+            "unit": "K",
+            "conditions": "Arrhenius fit of ln τ vs 1/TB for high-temperature process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0 (HT)",
+            "value": "7.2e-7",
+            "unit": "s",
+            "conditions": "Arrhenius fit, high-temperature relaxation"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section; Table 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1; elemental analysis of 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 966542 / LINLAX"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Results and Discussion"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Preparation of the Tetranuclear Complexes"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 2 and 3"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[{(LH)2Ho4}(μ2-O)4](H2O)8·6CH3OH·4H2O",
+      "formula": "C40H72Ho4N8O28",
+      "ccdc_numbers": [
+        "966543"
+      ],
+      "ccdc_refcodes": [
+        "LINLEB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "planar rhombus-shaped Ln4 oxido cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1: LH3 (0.05 g, 0.155 mmol) was dissolved in methanol (10 mL) and dichloromethane (15 mL). Two equivalents of HoCl3·6H2O (0.118 g, 0.31 mmol) were added, giving a deep-red solution. After 10 min at room temperature, three equivalents of triethylamine (0.047 g, 0.465 mmol) were added dropwise. The mixture was stirred at room temperature for 20 h, filtered, and crystallized by slow evaporation of the mother liquor over about 15 days to give block-shaped deep-red crystals of 2.",
+        "reagents": [
+          {
+            "name": "(6-hydroxymethyl)-N′-((8-hydroxyquinolin-2-yl)methylene)picolinohydrazide (LH3)",
+            "formula": "C17H14N4O3",
+            "role": "ligand",
+            "amount": "0.050 g, 0.155 mmol"
+          },
+          {
+            "name": "holmium(III) chloride hexahydrate",
+            "formula": "HoCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.118 g, 0.31 mmol (2 equiv)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.047 g, 0.465 mmol (3 equiv)"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "dichloromethane"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 20 h; crystallized ~15 days",
+        "ph": null,
+        "vessel_or_method": "solution synthesis followed by slow evaporation of the mother liquor",
+        "workup_and_crystallization": "filtered after stirring; block-shaped deep-red crystals grown by slow evaporation of the MeOH/CH2Cl2 mother liquor over about 15 days",
+        "yield": "70 mg (51%, based on Ho)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT of 2 is 53.0 cm3 mol−1 K at 300 K, decreasing continuously and more rapidly below 30 K to 21.0 cm3 mol−1 K at 2 K. Magnetization at 2 K reaches 18.7 μB at 50 kOe without saturation. AC susceptibility shows no slow magnetization relaxation for 2, even under an applied dc field.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 53.0,
+            "unit": "cm3 mol−1 K",
+            "conditions": "300 K, 1000 Oe dc field, crushed crystals mixed with grease"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 21.0,
+            "unit": "cm3 mol−1 K",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 18.7,
+            "unit": "μB",
+            "conditions": "2 K, 50 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility / SMM behavior",
+            "value": "no slow relaxation observed",
+            "unit": null,
+            "conditions": "even with applied dc field (SI Figure S10)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section; Table 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1; elemental analysis of 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 966543 / LINLEB"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Results and Discussion"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Preparation of the Tetranuclear Complexes"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figure 2"
+        }
+      ]
+    }
+  ]
+}

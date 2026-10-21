@@ -1,0 +1,223 @@
+{
+  "refcode": "DAYVIM",
+  "ccdc_number": "2113865",
+  "dois": [
+    "10.1021/acs.inorgchem.1c03729"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2113865.cif",
+  "formula_moiety": "C88 H88 Cl2 Er4 N21 O31 Zn2 1+,4(C1 H4 O1),N1 O3 1-,H2 O1",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "P -4 n 2",
+  "international_tables_number": "118",
+  "unit_cell": {
+    "a": "18.29010(10)",
+    "b": "18.29010(10)",
+    "c": "17.3029(2)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "5788.3",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Er1",
+      "element": "Er",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O21",
+        "O22",
+        "O29",
+        "O3",
+        "O8"
+      ]
+    },
+    {
+      "label": "Zn1",
+      "element": "Zn",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O27",
+        "O4"
+      ]
+    },
+    {
+      "label": "Er2",
+      "element": "Er",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O17",
+        "O19",
+        "O36",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Zn2",
+      "element": "Zn",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O20",
+        "O34"
+      ]
+    },
+    {
+      "label": "Er3",
+      "element": "Er",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O24",
+        "O26",
+        "O35",
+        "O36",
+        "O6"
+      ]
+    },
+    {
+      "label": "Er4",
+      "element": "Er",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O22",
+        "O28",
+        "O29",
+        "O31",
+        "O33",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Er1",
+          "Er4"
+        ],
+        "shared_oxygen_labels": [
+          "O22",
+          "O29",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.538,
+        "bridge_geometry": [
+          {
+            "oxygen": "O8",
+            "angle_deg": 93.64,
+            "metal_oxygen_distances_angstrom": [
+              2.426,
+              2.426
+            ]
+          },
+          {
+            "oxygen": "O22",
+            "angle_deg": 98.76,
+            "metal_oxygen_distances_angstrom": [
+              2.316,
+              2.344
+            ]
+          },
+          {
+            "oxygen": "O29",
+            "angle_deg": 98.76,
+            "metal_oxygen_distances_angstrom": [
+              2.344,
+              2.316
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er2",
+          "Er3"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O36",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.538,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 98.76,
+            "metal_oxygen_distances_angstrom": [
+              2.316,
+              2.344
+            ]
+          },
+          {
+            "oxygen": "O13",
+            "angle_deg": 93.64,
+            "metal_oxygen_distances_angstrom": [
+              2.426,
+              2.426
+            ]
+          },
+          {
+            "oxygen": "O36",
+            "angle_deg": 98.76,
+            "metal_oxygen_distances_angstrom": [
+              2.344,
+              2.316
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Er1",
+        "Er4"
+      ],
+      [
+        "Er2",
+        "Er3"
+      ],
+      [
+        "Zn1"
+      ],
+      [
+        "Zn2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "DAYVIM crystallizes in the tetragonal crystal system with space group P -4 n 2. Reported CIF formula moiety: C88 H88 Cl2 Er4 N21 O31 Zn2 1+,4(C1 H4 O1),N1 O3 1-,H2 O1. From the CIF bond table, Er1 (Er) has 6 O neighbors; Zn1 (Zn) has 2 O neighbors; Er2 (Er) has 6 O neighbors; Zn2 (Zn) has 2 O neighbors; Er3 (Er) has 6 O neighbors; Er4 (Er) has 6 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 4 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.538-3.538 Å (not direct metal-metal bonds). Computed M-O-M angles span 93.64-98.76°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Zn2Er4(H2L)4(NO3)Cl2(H2O)]·NO3·xCH3OH·yH2O. Explicit grouped units in the article formula/name: 1 NO3 (explicit grouped unit in article formula), 1 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.1c03729",
+    "formula": "[Zn2Er4(H2L)4(NO3)Cl2(H2O)]·NO3·xCH3OH·yH2O",
+    "compound_name": "discrete 3d-4f Zn2Er4 metallacage",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

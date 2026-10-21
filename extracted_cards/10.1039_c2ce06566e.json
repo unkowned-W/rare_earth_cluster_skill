@@ -1,0 +1,534 @@
+{
+  "title": "Near-infrared (NIR) luminescent homoleptic lanthanide Salen complexes Ln4(Salen)4 (Ln = Nd, Yb or Er)",
+  "doi": "10.1039/c2ce06566e",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Nd4(L)2(HL)2(NO3)2(OH)2]·2(NO3) (crystal characterized as 1·3H2O)",
+      "formula": "[Nd4(L)2(HL)2(NO3)2(OH)2]·2(NO3)·3H2O",
+      "ccdc_numbers": [
+        "854306"
+      ],
+      "ccdc_refcodes": [
+        "ZAWFEK"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Nd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "homoleptic cyclic tetranuclear Salen cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "To a stirred solution of H2L (0.115 g, 0.3 mmol) in absolute MeCN (10 mL), Et3N (100 mL as reported in the Markdown conversion) and a solution of Nd(NO3)3·6H2O (0.3 mmol, 0.117 g) in absolute MeOH (10 mL) were added. The mixture was refluxed for 2 h, cooled to room temperature and filtered. Diethyl ether was allowed to diffuse slowly into the filtrate at room temperature, giving pale yellow microcrystals of 1 in a few weeks.",
+        "reagents": [
+          {
+            "name": "H2L (N,N'-bis(3-methoxy-salicylidene)cyclohexane-1,2-diamine)",
+            "formula": "C22H26N2O4",
+            "role": "ligand",
+            "amount": "0.115 g, 0.3 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "100 mL (as reported in Markdown)"
+          },
+          {
+            "name": "neodymium(III) nitrate hexahydrate",
+            "formula": "Nd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.117 g, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "reflux, then room temperature",
+        "time": "reflux 2 h; crystallization over a few weeks",
+        "ph": null,
+        "vessel_or_method": "solution reflux followed by diethyl ether vapor diffusion",
+        "workup_and_crystallization": "cooled, filtered; diethyl ether slow diffusion into the filtrate at room temperature gave pale yellow microcrystals; single crystals of 1·3H2O used for X-ray diffraction",
+        "yield": "0.118 g, 67%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Ligand-centered UV-vis absorption is red-shifted versus free H2L. Residual visible emission near 505 nm is almost undetectable (τ < 1 ns, Φem < 10^-5). Photoexcitation of the antenna (λex = 385/403 nm) gives characteristic Nd3+ NIR emissions at 909, 1085 and 1365 nm; the 1085 nm decay is monoexponential with τ = 1.41 μs and estimated intrinsic quantum yield ΦLn = 0.564%. NIR intensity increases in CD3CN and CD3OD versus MeCN.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "227 (log ε 0.74), 268 (0.31), 342 (0.11)",
+            "unit": "nm (log[ε/dm3 mol-1 cm-1])",
+            "conditions": "1×10^-5 M in MeCN, room temperature"
+          },
+          {
+            "property_type": "optical",
+            "name": "excitation wavelengths",
+            "value": "385, 403 (sh)",
+            "unit": "nm",
+            "conditions": "MeCN solution, monitoring NIR/visible emission"
+          },
+          {
+            "property_type": "optical",
+            "name": "Nd3+ NIR emission bands",
+            "value": "909, 1085, 1365",
+            "unit": "nm",
+            "conditions": "MeCN, λex = 402 nm (antenna range 230–500 nm)"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR lifetime at 909 nm",
+            "value": 1.39,
+            "unit": "μs",
+            "conditions": "MeCN, room temperature"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR lifetime at 1085 nm",
+            "value": 1.41,
+            "unit": "μs",
+            "conditions": "MeCN, room temperature, monoexponential"
+          },
+          {
+            "property_type": "optical",
+            "name": "intrinsic quantum yield ΦLn",
+            "value": 0.564,
+            "unit": "%",
+            "conditions": "estimated as τobs/τ0 with τ0(Nd) = 0.25 ms"
+          },
+          {
+            "property_type": "optical",
+            "name": "visible residual emission quantum yield",
+            "value": "<10^-5",
+            "unit": null,
+            "conditions": "dilute MeCN, room temperature, λem ≈ 505 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "energy transfer rate kET",
+            "value": ">5×10^8",
+            "unit": "s^-1",
+            "conditions": "estimated versus Gd analogue 4"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Syntheses"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental; X-ray crystallography"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray crystallography, CCDC 854306–854308"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ZAWFEK / 854306"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photophysical properties; Table 2; Fig. 4–5"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Yb4(L)2(HL)2(NO3)2(OH)2]·2(NO3) (crystal characterized as 2·3H2O)",
+      "formula": "[Yb4(L)2(HL)2(NO3)2(OH)2]·2(NO3)·3H2O",
+      "ccdc_numbers": [
+        "854307"
+      ],
+      "ccdc_refcodes": [
+        "ZAWFIO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "homoleptic cyclic tetranuclear Salen cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared as for 1 except that Yb(NO3)3·6H2O (0.3 mmol, 0.126 g) replaced Nd(NO3)3·6H2O. H2L (0.115 g, 0.3 mmol) in MeCN (10 mL) was treated with Et3N and the Yb salt in MeOH (10 mL), refluxed 2 h, filtered, and crystallized by diethyl ether diffusion.",
+        "reagents": [
+          {
+            "name": "H2L (N,N'-bis(3-methoxy-salicylidene)cyclohexane-1,2-diamine)",
+            "formula": "C22H26N2O4",
+            "role": "ligand",
+            "amount": "0.115 g, 0.3 mmol (same as 1)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "same as 1"
+          },
+          {
+            "name": "ytterbium(III) nitrate hexahydrate",
+            "formula": "Yb(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.126 g, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "reflux, then room temperature",
+        "time": "reflux 2 h; crystallization over a few weeks",
+        "ph": null,
+        "vessel_or_method": "same as 1: reflux then diethyl ether vapor diffusion",
+        "workup_and_crystallization": "as for 1; single crystals of 2·3H2O",
+        "yield": "0.109 g, 58%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Shows ligand-centered absorption similar to 1–4. Antenna excitation (λex ≈ 402 nm) gives a characteristic Yb3+ NIR emission at 1022 nm (2F5/2 → 2F7/2) with τ = 13.22 μs and ΦLn = 0.661%. Residual visible emission is almost undetectable. NIR intensity is higher in deuterated solvents than in MeCN.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "225 (log ε 0.76), 268 (0.33), 339 (0.11)",
+            "unit": "nm (log[ε/dm3 mol-1 cm-1])",
+            "conditions": "1×10^-5 M in MeCN, room temperature"
+          },
+          {
+            "property_type": "optical",
+            "name": "excitation wavelengths",
+            "value": "307 (sh), 357, 402 (sh)",
+            "unit": "nm",
+            "conditions": "MeCN solution"
+          },
+          {
+            "property_type": "optical",
+            "name": "Yb3+ NIR emission",
+            "value": 1022,
+            "unit": "nm",
+            "conditions": "MeCN, λex = 385 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR lifetime at 1022 nm",
+            "value": 13.22,
+            "unit": "μs",
+            "conditions": "MeCN, room temperature, monoexponential"
+          },
+          {
+            "property_type": "optical",
+            "name": "intrinsic quantum yield ΦLn",
+            "value": 0.661,
+            "unit": "%",
+            "conditions": "estimated as τobs/τ0 with τ0(Yb) = 2.0 ms"
+          },
+          {
+            "property_type": "optical",
+            "name": "energy transfer rate kET",
+            "value": ">5×10^8",
+            "unit": "s^-1",
+            "conditions": "estimated versus Gd analogue 4"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Syntheses"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental; X-ray crystallography"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 854307 for 2·3H2O"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ZAWFIO / 854307"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photophysical properties; Table 2; Fig. 5"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Er4(L)2(HL)2(NO3)2(OH)2]·2(NO3) (crystal characterized as 3·3H2O)",
+      "formula": "[Er4(L)2(HL)2(NO3)2(OH)2]·2(NO3)·3H2O",
+      "ccdc_numbers": [
+        "854308"
+      ],
+      "ccdc_refcodes": [
+        "ZAWFOU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "homoleptic cyclic tetranuclear Salen cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared as for 1 except that Er(NO3)3·6H2O (0.3 mmol, 0.124 g) replaced Nd(NO3)3·6H2O. Same ligand/base/solvent/reflux/ether-diffusion protocol.",
+        "reagents": [
+          {
+            "name": "H2L (N,N'-bis(3-methoxy-salicylidene)cyclohexane-1,2-diamine)",
+            "formula": "C22H26N2O4",
+            "role": "ligand",
+            "amount": "0.115 g, 0.3 mmol (same as 1)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "same as 1"
+          },
+          {
+            "name": "erbium(III) nitrate hexahydrate",
+            "formula": "Er(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.124 g, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "reflux, then room temperature",
+        "time": "reflux 2 h; crystallization over a few weeks",
+        "ph": null,
+        "vessel_or_method": "same as 1",
+        "workup_and_crystallization": "as for 1; single crystals of 3·3H2O",
+        "yield": "0.113 g, 61%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Ligand-centered UV-vis absorption is observed. Residual visible emission is almost undetectable. Characteristic Er3+ NIR emission is too weak to detect (800–1800 nm), attributed to a large energy gap between the ligand 3LC level (18416 cm^-1) and the Er 4I13/2 emitting level.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "226 (log ε 0.82), 267 (0.35), 339 (0.12)",
+            "unit": "nm (log[ε/dm3 mol-1 cm-1])",
+            "conditions": "1×10^-5 M in MeCN, room temperature"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR emission",
+            "value": "too weak to be detected",
+            "unit": null,
+            "conditions": "MeCN, room temperature; Table 2 footnote b"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Syntheses"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental; X-ray crystallography"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 854308 for 3·3H2O"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ZAWFOU / 854308"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photophysical properties; Table 2"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Gd4(L)2(HL)2(NO3)2(OH)2]·2(NO3)",
+      "formula": "C88H100N12O30Gd4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "homoleptic cyclic tetranuclear Salen cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared as for 1 except that Gd(NO3)3·6H2O (0.3 mmol, 0.121 g) replaced Nd(NO3)3·6H2O. Same ligand/base/solvent/reflux/ether-diffusion protocol. No CCDC deposition is reported for 4.",
+        "reagents": [
+          {
+            "name": "H2L (N,N'-bis(3-methoxy-salicylidene)cyclohexane-1,2-diamine)",
+            "formula": "C22H26N2O4",
+            "role": "ligand",
+            "amount": "0.115 g, 0.3 mmol (same as 1)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "same as 1"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.121 g, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "reflux, then room temperature",
+        "time": "reflux 2 h; crystallization over a few weeks",
+        "ph": null,
+        "vessel_or_method": "same as 1",
+        "workup_and_crystallization": "as for 1; no single-crystal CCDC number reported",
+        "yield": "0.117 g, 64%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Used as an optical reference because Gd3+ cannot accept antenna energy. Shows typical ligand-centered visible luminescence at 505 nm (τ = 0.74 ns, Φ = 0.64×10^-3) at room temperature; at 77 K emission at 487 nm (2.4 ns) and 543 nm (6.2 ms) is assigned to 1LC and 3LC states (20534 and 18416 cm^-1). No NIR luminescence.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "226 (log ε 0.83), 267 (0.35), 339 (0.12)",
+            "unit": "nm (log[ε/dm3 mol-1 cm-1])",
+            "conditions": "1×10^-5 M in MeCN, room temperature"
+          },
+          {
+            "property_type": "optical",
+            "name": "visible emission",
+            "value": 505,
+            "unit": "nm",
+            "conditions": "MeCN, room temperature"
+          },
+          {
+            "property_type": "optical",
+            "name": "visible lifetime",
+            "value": 0.74,
+            "unit": "ns",
+            "conditions": "MeCN, room temperature"
+          },
+          {
+            "property_type": "optical",
+            "name": "visible quantum yield Φ",
+            "value": "0.64×10^-3",
+            "unit": null,
+            "conditions": "MeCN, room temperature, relative to quinine sulfate"
+          },
+          {
+            "property_type": "optical",
+            "name": "77 K emission/lifetime (1LC)",
+            "value": "487 nm, 2.4 ns",
+            "unit": null,
+            "conditions": "MeCN, 77 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "77 K emission/lifetime (3LC)",
+            "value": "543 nm, 6.2 ms",
+            "unit": null,
+            "conditions": "MeCN, 77 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Syntheses"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental, elemental analysis for C88H100N12O30Gd4"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photophysical properties; Table 2; Fig. 6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "title": "A Calix[4]arene 3d/4f Magnetic Cooler",
+  "doi": "10.1002/anie.200905012",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "6",
+      "compound_name": "[MnIII4GdIII4(OH)4(5)4(NO3)2(dmf)6(H2O)6](OH)2",
+      "formula": "[MnIII4GdIII4(OH)4(5)4(NO3)2(dmf)6(H2O)6](OH)2",
+      "ccdc_numbers": [
+        "746739"
+      ],
+      "ccdc_refcodes": [
+        "SUKXOM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "calix[4]arene-supported Mn4Gd4 square-in-square cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Mn(NO3)2·4H2O (0.1 g, 0.39 mmol), Gd(NO3)3·6H2O (0.1 g, 0.22 mmol), and tetrahydrocalix[4]arene 5 (0.1 g, 0.23 mmol) were dissolved in DMF (10 cm3) and MeOH (10 cm3). The mixture was stirred for 5 min, then NEt3 (0.2 g, 1.97 mmol) was added dropwise. The resulting purple solution was stirred for an additional hour. X-ray quality purple/black crystals of 6 were obtained after slow evaporation of the mother liquor.",
+        "reagents": [
+          {
+            "name": "manganese(II) nitrate tetrahydrate",
+            "formula": "Mn(NO3)2·4H2O",
+            "role": "metal source",
+            "amount": "0.1 g, 0.39 mmol"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 g, 0.22 mmol"
+          },
+          {
+            "name": "tetrahydrocalix[4]arene",
+            "formula": "5",
+            "role": "ligand",
+            "amount": "0.1 g, 0.23 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.2 g, 1.97 mmol"
+          }
+        ],
+        "solvents": [
+          "DMF",
+          "MeOH"
+        ],
+        "temperature": null,
+        "time": "stirred 5 min, then 1 h after NEt3 addition; crystals by slow evaporation",
+        "ph": null,
+        "vessel_or_method": "solution synthesis followed by slow evaporation",
+        "workup_and_crystallization": "X-ray quality crystals obtained after slow evaporation of the mother liquor",
+        "yield": "40%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility of the isotropic Mn4Gd4 cluster 6 shows a room-temperature χMT close to the uncoupled spin-only value; magnetization does not saturate even at 70 kG and reduced-magnetization isofield lines are nearly superimposable. A large magnetocaloric effect is observed, with −ΔSm = 19.0 J kg−1 K−1 at 4 K for ΔH = 70 kG, exceeding the entropy of an isolated S = 22 ground state because of populated low-lying excited spin states, making 6 a candidate molecular refrigerant.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 42.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature; dc, 1000 G, 5–300 K range"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "spin-only χMT (uncoupled, g = 2.0)",
+            "value": 43.5,
+            "unit": "cm3 K mol−1",
+            "conditions": "expected for uncoupled MnIII4GdIII4"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm (magnetocaloric effect)",
+            "value": 19.0,
+            "unit": "J kg−1 K−1",
+            "conditions": "T = 4 K; ΔH = 70 kG"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "maximum entropy for isolated S = 22",
+            "value": 9.0,
+            "unit": "J kg−1 K−1",
+            "conditions": "R ln(2S+1) = 3.8 R"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "main text, compound 6"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "main text, formation paragraph and Experimental Section"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section, CCDC 746739 (6)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row SUKXOM"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Figure 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc susceptibility, Figures 3–4, MCE discussion"
+        }
+      ]
+    }
+  ]
+}

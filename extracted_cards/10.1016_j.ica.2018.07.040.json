@@ -1,0 +1,263 @@
+{
+  "title": "Tetrametallic Ln(III) (Ln = Gd, Dy) phosphonate clusters: Spin cooler and single-molecule magnet",
+  "doi": "10.1016/j.ica.2018.07.040",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Gd4",
+      "compound_name": "[Gd4(RPO3)2(RPO3H)(tBuCO2)7(tBuCO2H)3(H2O)3]·3CH3CN·0.5H2O",
+      "formula": "[Gd4(RPO3)2(RPO3H)(tBuCO2)7(tBuCO2H)3(H2O)3]·3CH3CN·0.5H2O (R = 9-methyl-9H-fluoren-9-yl; crystallographic C196H286Gd8N6O65P6)",
+      "ccdc_numbers": [
+        "1573527"
+      ],
+      "ccdc_refcodes": [
+        "XIGTAL"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetranuclear lanthanide phosphonate cluster with Ln ions at vertices of an irregular quadrilateral"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "RPO3H2 (26.0 mg, 0.1 mmol) and Gd2 precursor [Gd2(O2CtBu)6(HO2CtBu)6] (114.9 mg, 0.075 mmol) were dissolved in CH2Cl2/CH3CN (16 mL, v/v = 1:1) and stirred at room temperature for 24 h. The resulting solid was filtered off and the filtrate was kept in a vial for ca. two weeks to obtain colorless crystals, which were collected by filtration.",
+        "reagents": [
+          {
+            "name": "(9-methyl-9H-fluoren-9-yl)phosphonic acid (RPO3H2)",
+            "formula": "RPO3H2",
+            "role": "phosphonate ligand",
+            "amount": "26.0 mg, 0.1 mmol"
+          },
+          {
+            "name": "[Gd2(O2CtBu)6(HO2CtBu)6] (Gd2)",
+            "formula": "[Gd2(O2CtBu)6(HO2CtBu)6]",
+            "role": "lanthanide precursor",
+            "amount": "114.9 mg, 0.075 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "CH3CN"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 24 h; crystallization ca. two weeks",
+        "ph": null,
+        "vessel_or_method": "stirred solution then filtrate crystallization in a vial",
+        "workup_and_crystallization": "solid filtered off; filtrate kept in a vial for ca. two weeks; colorless crystals collected by filtration",
+        "yield": "40.0 mg, 41% (based on Gd2)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Gd4 shows weak antiferromagnetic Gd···Gd coupling and a magnetocaloric effect, with maximum magnetic entropy change −ΔSm = 23.10 J kg−1 K−1 at 2.5 K for ΔH = 7 T, slightly below the calculated maximum 25.62 J kg−1 K−1; discussed as a potential molecular spin cooler.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (room temperature)",
+            "value": 32.2,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc field 0.1 T; 2–300 K data; compared with 31.5 cm3 K mol−1 for four non-interacting Gd(III) (g = 2.0, S = 7/2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 25.78,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc field 0.1 T; χMT nearly constant to 40 K then decreases"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J1",
+            "value": -0.02,
+            "unit": "cm−1",
+            "conditions": "MAGPACK fit of χMT; g = 2.0; Hamiltonian H = −2J1(S1S2 + S2S3) − 2J2(S1S4 + S2S4 + S3S4 + S1S3); J1 for μ-O-bridged Gd–Gd vectors; R = 6 × 10−5"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J2",
+            "value": -0.01,
+            "unit": "cm−1",
+            "conditions": "MAGPACK fit; J2 for O–P–O-bridged Gd–Gd vectors"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 28,
+            "unit": "μB",
+            "conditions": "1.8 K, saturates at 7 T (Fig. S1)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change −ΔSm (max)",
+            "value": 23.1,
+            "unit": "J kg−1 K−1",
+            "conditions": "from magnetization via Maxwell relation; 2.5 K, ΔH = 7 T (Fig. 3); calculated max 25.62 J kg−1 K−1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental section 2.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1 and Experimental 2.2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1573527 / XIGTAL"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section 2.2"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract and crystal-structure discussion / Fig. 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties of Gd4; Figs. 2–3"
+        }
+      ]
+    },
+    {
+      "compound_label": "Dy4",
+      "compound_name": "[Dy4(RPO3)2(RPO3H)(tBuCO2)7(tBuCO2H)3(H2O)3]·3CH3CN",
+      "formula": "[Dy4(RPO3)2(RPO3H)(tBuCO2)7(tBuCO2H)3(H2O)3]·3CH3CN (R = 9-methyl-9H-fluoren-9-yl; C98H142Dy4N3O32P3)",
+      "ccdc_numbers": [
+        "1573529"
+      ],
+      "ccdc_refcodes": [
+        "XIGTEP"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "isostructural tetranuclear lanthanide phosphonate cluster with Ln ions at vertices of an irregular quadrilateral"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by similar reactions of RPO3H2 with Dy2 precursor [Dy2(O2CtBu)6(HO2CtBu)6] under the conditions given for Gd4: ligand and dinuclear pivalate precursor dissolved in CH2Cl2/CH3CN (16 mL, v/v = 1:1), stirred at room temperature for 24 h, solid filtered off, and filtrate crystallized in a vial for ca. two weeks.",
+        "reagents": [
+          {
+            "name": "(9-methyl-9H-fluoren-9-yl)phosphonic acid (RPO3H2)",
+            "formula": "RPO3H2",
+            "role": "phosphonate ligand",
+            "amount": "26.0 mg, 0.1 mmol (same procedure as Gd4)"
+          },
+          {
+            "name": "[Dy2(O2CtBu)6(HO2CtBu)6] (Dy2)",
+            "formula": "[Dy2(O2CtBu)6(HO2CtBu)6]",
+            "role": "lanthanide precursor",
+            "amount": "analogous to Gd2 (114.9 mg, 0.075 mmol) in the shared procedure"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "CH3CN"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 24 h; crystallization ca. two weeks (as for Gd4)",
+        "ph": null,
+        "vessel_or_method": "stirred solution then filtrate crystallization in a vial (same as Gd4)",
+        "workup_and_crystallization": "same as Gd4: filtration of solid, crystallization from filtrate",
+        "yield": "46% (based on Dy2)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dy4 shows χMT consistent with four Dy(III) ions and possible intramolecular antiferromagnetic coupling; ac susceptibility reveals two-step slow magnetic relaxation characteristic of an SMM (fast-relaxation barrier 12 K, slow-relaxation barrier 21 K).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (room temperature)",
+            "value": 54.5,
+            "unit": "cm3 K mol−1",
+            "conditions": "compared with 56.6 cm3 K mol−1 for four non-interacting Dy(III) (6H15/2, gJ = 4/3, J = 15/2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 29.0,
+            "unit": "cm3 K mol−1",
+            "conditions": "decreases slowly to ~50 K then more rapidly to 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 21.6,
+            "unit": "μB",
+            "conditions": "5 T; effective gz = 10.8 from powder saturation model with S = 1/2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE(1)/kB (fast relaxation)",
+            "value": 12,
+            "unit": "K",
+            "conditions": "Arrhenius fit of ac data; τ0 = 3.26 × 10−6 s; two processes at 3.5–6 K, 1–1000 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE(2)/kB (slow relaxation)",
+            "value": 21,
+            "unit": "K",
+            "conditions": "Arrhenius fit; τ0 ≈ 1.04 × 10−4 s; Cole–Cole α = 0.01–0.08 and αSR = 0.29–0.50"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental section after 2.2 (Dy4 synthesis)"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1 and elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1573529 / XIGTEP"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental 2.2 and analogous Dy4 paragraph"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract, conclusion, and crystallography"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 3.4; Figs. 4–5"
+        }
+      ]
+    }
+  ]
+}

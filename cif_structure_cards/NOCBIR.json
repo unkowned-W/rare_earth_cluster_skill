@@ -1,0 +1,297 @@
+{
+  "refcode": "NOCBIR",
+  "ccdc_number": "670094",
+  "dois": [
+    "10.1039/b801513a"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\670094.cif",
+  "formula_moiety": "C88 H70 Br8 Eu5 N12 O32 1+,N1 O3 1-,3(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "17.300(3)",
+    "b": "18.267(4)",
+    "c": "20.124(4)",
+    "alpha": "75.52(3)",
+    "beta": "87.75(4)",
+    "gamma": "74.48(3)",
+    "volume": "5930.43",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O13",
+        "O14",
+        "O15",
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O18",
+        "O19"
+      ]
+    },
+    {
+      "label": "Eu4",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O18",
+        "O19",
+        "O22",
+        "O23",
+        "O30",
+        "O31"
+      ]
+    },
+    {
+      "label": "Eu5",
+      "element": "Eu",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O21",
+        "O22",
+        "O23",
+        "O24",
+        "O25",
+        "O26",
+        "O27",
+        "O28",
+        "O30"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.704,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 103.02,
+            "metal_oxygen_distances_angstrom": [
+              2.374,
+              2.359
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 100.66,
+            "metal_oxygen_distances_angstrom": [
+              2.426,
+              2.386
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 99.61,
+            "metal_oxygen_distances_angstrom": [
+              2.436,
+              2.414
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O14",
+          "O15"
+        ],
+        "metal_metal_separation_angstrom": 3.926,
+        "bridge_geometry": [
+          {
+            "oxygen": "O14",
+            "angle_deg": 113.07,
+            "metal_oxygen_distances_angstrom": [
+              2.367,
+              2.339
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 110.6,
+            "metal_oxygen_distances_angstrom": [
+              2.418,
+              2.357
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu3",
+          "Eu4"
+        ],
+        "shared_oxygen_labels": [
+          "O18",
+          "O19"
+        ],
+        "metal_metal_separation_angstrom": 3.912,
+        "bridge_geometry": [
+          {
+            "oxygen": "O18",
+            "angle_deg": 113.02,
+            "metal_oxygen_distances_angstrom": [
+              2.337,
+              2.353
+            ]
+          },
+          {
+            "oxygen": "O19",
+            "angle_deg": 110.37,
+            "metal_oxygen_distances_angstrom": [
+              2.331,
+              2.433
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu4",
+          "Eu5"
+        ],
+        "shared_oxygen_labels": [
+          "O22",
+          "O23",
+          "O30"
+        ],
+        "metal_metal_separation_angstrom": 3.7,
+        "bridge_geometry": [
+          {
+            "oxygen": "O22",
+            "angle_deg": 101.52,
+            "metal_oxygen_distances_angstrom": [
+              2.375,
+              2.402
+            ]
+          },
+          {
+            "oxygen": "O23",
+            "angle_deg": 101.72,
+            "metal_oxygen_distances_angstrom": [
+              2.362,
+              2.408
+            ]
+          },
+          {
+            "oxygen": "O30",
+            "angle_deg": 99.57,
+            "metal_oxygen_distances_angstrom": [
+              2.466,
+              2.378
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2",
+        "Eu3",
+        "Eu4",
+        "Eu5"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "NOCBIR crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C88 H70 Br8 Eu5 N12 O32 1+,N1 O3 1-,3(H2 O1). From the CIF bond table, Eu1 (Eu) has 9 O neighbors; Eu2 (Eu) has 7 O neighbors; Eu3 (Eu) has 4 O neighbors; Eu4 (Eu) has 7 O neighbors; Eu5 (Eu) has 9 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.700-3.926 Å (not direct metal-metal bonds). Computed M-O-M angles span 99.57-113.07°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Eu5L4(OH)2(NO3)4(H2O)2]·NO3·3H2O. Explicit grouped units in the article formula/name: 2 OH (explicit grouped unit in article formula), 4 NO3 (explicit grouped unit in article formula), 2 H2O (explicit grouped unit in article formula), 2 OH (explicit grouped unit in article compound name (structural notation)), 4 NO3 (explicit grouped unit in article compound name (structural notation)), 2 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/b801513a",
+    "formula": "[Eu5L4(OH)2(NO3)4(H2O)2]·NO3·3H2O",
+    "compound_name": "[Eu5L4(OH)2(NO3)4(H2O)2]·NO3·3H2O (H2L = N,N′-bis(5-bromo-3-methoxysalicylidene)phenylene-1,2-diamine)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 4,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "NO3",
+        "count": 4,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

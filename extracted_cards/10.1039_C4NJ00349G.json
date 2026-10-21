@@ -1,0 +1,420 @@
+{
+  "title": "Magnetic refrigeration and slow magnetic relaxation in tetranuclear lanthanide cages (Ln = Gd, Dy) with in situ ligand transformation",
+  "doi": "10.1039/c4nj00349g",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Gd4(μ3-OH)2(L)2(L1)(L2)(HOCH3)2]·11H2O",
+      "formula": "C86H90Gd4N20O31",
+      "ccdc_numbers": [
+        "964479"
+      ],
+      "ccdc_refcodes": [
+        "COHCUZ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetranuclear hemicubane-like Ln4 core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "O-vanillin (61 mg, 0.4 mmol) and DAMN (22 mg, 0.2 mmol) were refluxed in MeOH (15 mL) for 2 h, then cooled to room temperature. GdCl3·6H2O (150 mg, 0.4 mmol) was added and stirred briefly, followed by triethylamine (20 mg, 0.2 mmol). The solution was refluxed for an additional 30 min, cooled, and filtered. The filtrate was left for slow evaporation; brown single crystals suitable for X-ray diffraction formed within 4 days, were collected by filtration, washed with cold methanol, and dried in air.",
+        "reagents": [
+          {
+            "name": "O-vanillin",
+            "formula": "C8H8O3",
+            "role": "ligand precursor",
+            "amount": "61 mg, 0.4 mmol"
+          },
+          {
+            "name": "diaminomaleonitrile (DAMN)",
+            "formula": "C4H4N4",
+            "role": "ligand precursor",
+            "amount": "22 mg, 0.2 mmol"
+          },
+          {
+            "name": "gadolinium(III) chloride hexahydrate",
+            "formula": "GdCl3·6H2O",
+            "role": "metal source",
+            "amount": "150 mg, 0.4 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "20 mg, 0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "reflux then room temperature",
+        "time": "reflux 2 h (ligand formation) + 30 min after metal/base addition; crystals in 4 days",
+        "ph": null,
+        "vessel_or_method": "one-pot reflux in methanol; slow evaporation of filtrate",
+        "workup_and_crystallization": "cooled, filtered; filtrate left unperturbed for slow evaporation; crystals washed with cold methanol and dried in air",
+        "yield": "76 mg (32%, based on Gd)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Discrete Gd4 hemicubane cluster showing weak intramolecular antiferromagnetic coupling and a significant magnetocaloric effect; χMT is nearly constant down to ~54 K then falls, and −ΔSm reaches 27.2 J kg−1 K−1 at 3 K and 7 T.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 31.1,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 30.3,
+            "unit": "cm3 K mol−1",
+            "conditions": "~54 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 17.93,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J",
+            "value": -0.1,
+            "unit": "cm−1",
+            "conditions": "fit of χMT vs T with g = 2.0, Hamiltonian (1)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 27.8,
+            "unit": "N μB",
+            "conditions": "7 T, low temperature (2–10 K isotherms)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change ΔSm",
+            "value": -27.2,
+            "unit": "J kg−1 K−1",
+            "conditions": "3 K, 7 T (from magnetization via Maxwell equation)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "volumetric entropy change",
+            "value": 41.5,
+            "unit": "mJ cm−3 K−1",
+            "conditions": "corresponding to the 3 K, 7 T ΔSm maximum"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract / synthesis heading for 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "crystallographic data note, CCDC 964479–964481"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "COHCUZ / 964479"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Structural description; Fig. 4–5"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 8–10"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy4(μ3-OH)2(L)2(L1)(L2)(H2O)2]·11H2O",
+      "formula": "C84H86Dy4N20O31",
+      "ccdc_numbers": [
+        "964480"
+      ],
+      "ccdc_refcodes": [
+        "COHDAG"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetranuclear hemicubane-like Ln4 core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1, replacing GdCl3·6H2O with DyCl3·6H2O (152 mg, 0.4 mmol). O-vanillin and DAMN were refluxed in MeOH, the Dy salt and triethylamine were added, and the mixture was refluxed briefly then filtered. Brown crystals suitable for X-ray diffraction were collected after 4 days.",
+        "reagents": [
+          {
+            "name": "O-vanillin",
+            "formula": "C8H8O3",
+            "role": "ligand precursor",
+            "amount": "61 mg, 0.4 mmol (as for 1)"
+          },
+          {
+            "name": "diaminomaleonitrile (DAMN)",
+            "formula": "C4H4N4",
+            "role": "ligand precursor",
+            "amount": "22 mg, 0.2 mmol (as for 1)"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "152 mg, 0.4 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "20 mg, 0.2 mmol (as for 1)"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "reflux then room temperature",
+        "time": "same as 1; crystals after 4 days",
+        "ph": null,
+        "vessel_or_method": "one-pot reflux in methanol; slow evaporation",
+        "workup_and_crystallization": "filtration; brown crystals collected after 4 days",
+        "yield": "69 mg (30.4%, based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Quasi-isostructural Dy4 hemicubane analogue of 1. χMT decreases from 54.1 cm3 mol−1 K at room temperature to 38.3 cm3 mol−1 K at 1.8 K. Magnetization does not saturate at 7 T. No out-of-phase ac signal is observed, so slow magnetic relaxation is absent, attributed to Dy–O–Dy angles and non-parallel anisotropy axes.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 54.1,
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 38.3,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1.8 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility χ″",
+            "value": "no out-of-phase signal",
+            "unit": null,
+            "conditions": "1.8–10 K, 1–800 Hz, 3.5 G ac field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract / synthesis heading for 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 964479–964481"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "COHDAG / 964480"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Structural description"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 11–12"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Dy4(μ4-O)(OMe)(HOMe)2(CH3COO)3(L3)2]·2H2O",
+      "formula": "C51H51Dy4N10O20",
+      "ccdc_numbers": [
+        "964481"
+      ],
+      "ccdc_refcodes": [
+        "COHDEK"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetranuclear tetrahedral Dy4(μ4-O) core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 2, with potassium acetate (40 mg, 0.4 mmol) added after DyCl3·6H2O. Red single crystals suitable for X-ray diffraction were collected by filtration after 4 days.",
+        "reagents": [
+          {
+            "name": "O-vanillin",
+            "formula": "C8H8O3",
+            "role": "ligand precursor",
+            "amount": "61 mg, 0.4 mmol (as for 1/2)"
+          },
+          {
+            "name": "diaminomaleonitrile (DAMN)",
+            "formula": "C4H4N4",
+            "role": "ligand precursor",
+            "amount": "22 mg, 0.2 mmol (as for 1/2)"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "as for 2 (152 mg, 0.4 mmol)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "as for 1"
+          },
+          {
+            "name": "potassium acetate",
+            "formula": "CH3COOK",
+            "role": "acetate source / ligand-transformation control",
+            "amount": "40 mg, 0.4 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "reflux then room temperature",
+        "time": "same as 2; crystals after 4 days",
+        "ph": null,
+        "vessel_or_method": "one-pot reflux in methanol with added acetate; crystallization from filtrate",
+        "workup_and_crystallization": "red crystals collected by filtration after 4 days",
+        "yield": "57 mg (34.8%, based on the ligand)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dy4 cluster with a tetrahedral μ4-oxo core showing frequency-dependent out-of-phase ac susceptibility below 5 K, indicating SMM-like slow relaxation. No full χ″ maxima under zero or 1800 Oe dc field (QTM). Approximate Debye analysis gives Ueff ≈ 3.8 K and τ0 ≈ 6.4 × 10−6 s.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 55.6,
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 28.2,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1.8 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility χ″",
+            "value": "frequency-dependent signal below 5 K; no full peaks",
+            "unit": null,
+            "conditions": "1.8–10 K, 1–800 Hz; zero dc field and 1800 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff",
+            "value": 3.8,
+            "unit": "K",
+            "conditions": "Debye-model estimate from ln(χ″/χ′) vs 1/T, eqn (2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "relaxation time τ0",
+            "value": 6.4e-06,
+            "unit": "s",
+            "conditions": "same Debye-model fit as Ueff"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract / synthesis heading for 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 964479–964481"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "COHDEK / 964481"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Structural description; Fig. 7"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 11–13"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,782 @@
+{
+  "title": "Yb-to-Eu Cooperative Sensitization Upconversion in a Multifunctional Molecular Nonanuclear Lanthanide Cluster in Solution",
+  "doi": "10.1021/jacs.3c14527",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Eu8Yb",
+      "compound_name": "[Eu8Yb(BA)16(OH)10]Cl",
+      "formula": "[Eu8Yb(BA)16(OH)10]Cl (BA = benzoylacetonate); crystal solvate also given as [Eu8Yb(BA)16(OH)10]Cl·3(C2H5OH)·4(H2O)",
+      "ccdc_numbers": [
+        "2288023"
+      ],
+      "ccdc_refcodes": [
+        "VOJQIY"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Eu",
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "nonanuclear Ln9 cluster of two square pyramids sharing the apical Ln (central square antiprism)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "General preparation of [LnnLn′9−n(BA)16(OH)10]Cl: benzoylacetone (BA) (649 mg, 4 mmol, 4 equiv) and piperidine (396 mL as printed, 4 mmol, 4 equiv) were dissolved in CH3OH (60 mL) and heated with stirring at 75 °C for 1 h. LnCl3·6H2O (x mmol, n/9 equiv) and Ln′Cl3·6H2O (1−x mmol, (9−n)/9 equiv) were dissolved in 20 mL H2O, added dropwise to the alcoholic solution, and stirred at 75 °C for 3 h until a transparent solution formed. Heating was then stopped; the solution was cooled to room temperature, filtered, and left undisturbed. Cubic crystals suitable for X-ray analysis were harvested after 1 week. For Eu8Yb this corresponds to EuCl3·6H2O (8/9 equiv) and YbCl3·6H2O (1/9 equiv).",
+        "reagents": [
+          {
+            "name": "benzoylacetone (BA)",
+            "formula": "C10H10O2",
+            "role": "ligand",
+            "amount": "649 mg, 4 mmol, 4 equiv"
+          },
+          {
+            "name": "piperidine",
+            "formula": "C5H11N",
+            "role": "base",
+            "amount": "396 mL as printed, 4 mmol, 4 equiv"
+          },
+          {
+            "name": "europium(III) chloride hexahydrate",
+            "formula": "EuCl3·6H2O",
+            "role": "metal source",
+            "amount": "n/9 equiv in general procedure (Eu8Yb: 8/9 equiv)"
+          },
+          {
+            "name": "ytterbium(III) chloride hexahydrate",
+            "formula": "YbCl3·6H2O",
+            "role": "metal source",
+            "amount": "(9−n)/9 equiv in general procedure (Eu8Yb: 1/9 equiv)"
+          }
+        ],
+        "solvents": [
+          "CH3OH (60 mL)",
+          "H2O (20 mL)"
+        ],
+        "temperature": "75 °C (ligand heating 1 h; after metal addition 3 h), then room temperature crystallization",
+        "time": "1 h then 3 h reaction; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution synthesis with heating/stirring, filtration, and undisturbed crystallization",
+        "workup_and_crystallization": "cooled to room temperature, filtered, left undisturbed; cubic crystals after 1 week",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Field-induced Yb-based SMM under 1750 Oe with Raman-dominated relaxation and a modest Orbach barrier; also shows Eu→Yb NIR downshifting, Yb-to-Eu cooperative-sensitization upconversion (visible Eu emission at 612 nm upon 980 nm excitation, detectable to 100 nM), weak Yb cooperative luminescence near 505 nm, and ΦUC ≈ 4.84×10−8.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 17.47,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K; calculated 16.14 cm3 K mol−1 for eight Eu3+ (1.7) plus one Yb3+ (2.57)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "very low; attributed solely to Yb3+",
+            "unit": null,
+            "conditions": "2 K (Eu3+ contributes negligibly)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac out-of-phase signal / SMM",
+            "value": "out-of-phase signal up to 5.6 K under 1750 Oe; none at zero dc field (QTM)",
+            "unit": null,
+            "conditions": "dc field 1750 Oe; frequency 1–1500 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": 8.48,
+            "unit": "K",
+            "conditions": "Raman plus Orbach fit; τ0 = 4.4×10−6 s; C = 718.46 s−1 K−2.27; m = 2.27"
+          },
+          {
+            "property_type": "optical",
+            "name": "ΦEu (downshifted Eu emission quantum yield)",
+            "value": 0.13,
+            "unit": "%",
+            "conditions": "CD3OD; λexc = 326 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Eu radiative lifetime (Werts formalism)",
+            "value": 1.32,
+            "unit": "ms",
+            "conditions": "Eu8Yb cluster"
+          },
+          {
+            "property_type": "optical",
+            "name": "Yb NIR downshifted emission",
+            "value": "2F5/2 → 2F7/2 Yb emission after Eu excitation",
+            "unit": null,
+            "conditions": "CD3OD; λexc = 578 nm (Eu 5D0 ← 7F0); [c] = 0.5 mM (Figure 6a)"
+          },
+          {
+            "property_type": "optical",
+            "name": "Eu–Yb energy-transfer efficiency",
+            "value": 18,
+            "unit": "%",
+            "conditions": "from shortening of Eu lifetimes vs Eu9"
+          },
+          {
+            "property_type": "optical",
+            "name": "upconversion Eu emission maxima",
+            "value": 612,
+            "unit": "nm",
+            "conditions": "CD3OD; λexc = 980 nm; [c] = 45 μM; p = 2.86 W cm−2; also 5D0 → 7FJ (J = 0–4)"
+          },
+          {
+            "property_type": "optical",
+            "name": "Yb cooperative luminescence",
+            "value": 505,
+            "unit": "nm",
+            "conditions": "980 nm excitation; weak CL vs Yb9 after concentration normalization"
+          },
+          {
+            "property_type": "optical",
+            "name": "UC intensity vs pump-power slope",
+            "value": "1.7 (CS, 612 nm); 1.6 (CL, 505 nm)",
+            "unit": null,
+            "conditions": "log–log; two-photon dependence"
+          },
+          {
+            "property_type": "optical",
+            "name": "ΦUC",
+            "value": 4.84e-08,
+            "unit": null,
+            "conditions": "CD3OD, room temperature; λexc = 980 nm, 1.13 W cm−2 (abstract also 4.88×10−8)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "article title"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Results (Synthesis and Crystal Structure); Experimental Section"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2288023 / VOJQIY"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, general Preparation of [LnnLn′9−n(BA)16(OH)10]Cl"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Measurements; photoluminescence/UC discussion and Figure 6"
+        }
+      ]
+    },
+    {
+      "compound_label": "Yb9",
+      "compound_name": "[Yb9(BA)16(OH)10]Cl",
+      "formula": "C160H154ClO42Yb9",
+      "ccdc_numbers": [
+        "2016566"
+      ],
+      "ccdc_refcodes": [
+        "VOJNAN"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "nonanuclear Ln9 cluster of two square pyramids sharing the apical Ln"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "690 mg (70%) of [Yb9(BA)16(OH)10]Cl was obtained by the general BA/piperidine methanol protocol used for [Eu8Yb(BA)16(OH)10]Cl, substituting YbCl3·6H2O (1 mmol, 1 eq.) for EuCl3·6H2O.",
+        "reagents": [
+          {
+            "name": "benzoylacetone (BA)",
+            "formula": "C10H10O2",
+            "role": "ligand",
+            "amount": "649 mg, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "piperidine",
+            "formula": "C5H11N",
+            "role": "base",
+            "amount": "396 mL as printed, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "ytterbium(III) chloride hexahydrate",
+            "formula": "YbCl3·6H2O",
+            "role": "metal source",
+            "amount": "1 mmol, 1 eq."
+          }
+        ],
+        "solvents": [
+          "CH3OH (60 mL)",
+          "H2O (20 mL)"
+        ],
+        "temperature": "75 °C then room-temperature crystallization",
+        "time": "1 h + 3 h; crystals after 1 week (general procedure)",
+        "ph": null,
+        "vessel_or_method": "same solution protocol as Eu8Yb",
+        "workup_and_crystallization": "cool, filter, undisturbed crystallization (general procedure)",
+        "yield": "690 mg (70%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Homonuclear Yb9 shows cooperative luminescence near 505 nm upon 980 nm excitation; used as a CL reference versus Eu8Yb.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "cooperative luminescence emission",
+            "value": 505,
+            "unit": "nm",
+            "conditions": "CD3OD; [c] = 2.04 mM; λexc = 980 nm; p = 10.8 W cm−2 (Figure 6c)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Preparation of [Yb9(BA)16(OH)10]Cl"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2016566 / VOJNAN"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section / SI synthesis excerpt in MD"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Figure 6c and UC discussion"
+        }
+      ]
+    },
+    {
+      "compound_label": "Eu9",
+      "compound_name": "[Eu9(BA)16(OH)10]Cl",
+      "formula": "C160H154ClO42Eu9",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "nonanuclear Ln9 cluster of two square pyramids sharing the apical Ln"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "650 mg (66%) of [Eu9(BA)16(OH)10]Cl was obtained by the general protocol for [Eu8Yb(BA)16(OH)10]Cl using EuCl3·6H2O (1 mmol, 1 eq.).",
+        "reagents": [
+          {
+            "name": "benzoylacetone (BA)",
+            "formula": "C10H10O2",
+            "role": "ligand",
+            "amount": "649 mg, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "piperidine",
+            "formula": "C5H11N",
+            "role": "base",
+            "amount": "396 mL as printed, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "europium(III) chloride hexahydrate",
+            "formula": "EuCl3·6H2O",
+            "role": "metal source",
+            "amount": "1 mmol, 1 eq."
+          }
+        ],
+        "solvents": [
+          "CH3OH (60 mL)",
+          "H2O (20 mL)"
+        ],
+        "temperature": "75 °C then room-temperature crystallization",
+        "time": "1 h + 3 h; crystals after 1 week (general procedure)",
+        "ph": null,
+        "vessel_or_method": "same solution protocol as Eu8Yb",
+        "workup_and_crystallization": "cool, filter, undisturbed crystallization",
+        "yield": "650 mg (66%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Used as a Yb-free control: no visible upconversion under 980 nm excitation; Eu lifetimes used to quantify Eu→Yb energy transfer in Eu8Yb.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "Eu luminescence lifetime τ1/τ2 at 578 nm",
+            "value": "0.253 ± 0.001 ms (B1 = 81.40%); 1.484 ± 0.002 ms (B2 = 18.6%)",
+            "unit": "ms",
+            "conditions": "Eu9 cluster; λexc ≈ 326 nm context of Eu emission decays"
+          },
+          {
+            "property_type": "optical",
+            "name": "Eu luminescence lifetime τ1/τ2 at 612 nm",
+            "value": "0.256 ± 0.001 ms (B1 = 79.5%); 1.586 ± 0.002 ms (B2 = 20.5%)",
+            "unit": "ms",
+            "conditions": "Eu9 cluster"
+          },
+          {
+            "property_type": "optical",
+            "name": "Eu radiative lifetime",
+            "value": 1.65,
+            "unit": "ms",
+            "conditions": "Eu9 cluster"
+          },
+          {
+            "property_type": "optical",
+            "name": "upconversion luminescence",
+            "value": "none observed",
+            "unit": null,
+            "conditions": "980 nm irradiation (SI Figure 32 referenced in main text)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Preparation of [Eu9(BA)16OH10]Cl; Results list of homonuclear clusters"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "photoluminescence lifetime comparison; UC control sentence"
+        }
+      ]
+    },
+    {
+      "compound_label": "Gd9",
+      "compound_name": "[Gd9(BA)16(OH)10]Cl",
+      "formula": "C160H154ClO42Gd9",
+      "ccdc_numbers": [
+        "2016567"
+      ],
+      "ccdc_refcodes": [
+        "VOJNER"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "nonanuclear Ln9 cluster of two square pyramids sharing the apical Ln"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "640 mg (66%) of [Gd9(BA)16(OH)10]Cl was obtained by the general protocol for [Eu8Yb(BA)16(OH)10]Cl using GdCl3·6H2O (1 mmol, 1 eq.).",
+        "reagents": [
+          {
+            "name": "benzoylacetone (BA)",
+            "formula": "C10H10O2",
+            "role": "ligand",
+            "amount": "649 mg, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "piperidine",
+            "formula": "C5H11N",
+            "role": "base",
+            "amount": "396 mL as printed, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "gadolinium(III) chloride hexahydrate",
+            "formula": "GdCl3·6H2O",
+            "role": "metal source",
+            "amount": "1 mmol, 1 eq."
+          }
+        ],
+        "solvents": [
+          "CH3OH (60 mL)",
+          "H2O (20 mL)"
+        ],
+        "temperature": "75 °C then room-temperature crystallization",
+        "time": "1 h + 3 h; crystals after 1 week (general procedure)",
+        "ph": null,
+        "vessel_or_method": "same solution protocol as Eu8Yb",
+        "workup_and_crystallization": "cool, filter, undisturbed crystallization",
+        "yield": "640 mg (66%)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Preparation of [Gd9(BA)16OH10]Cl"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2016567 / VOJNER"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        }
+      ]
+    },
+    {
+      "compound_label": "Tb9",
+      "compound_name": "[Tb9(BA)16(OH)10]Cl",
+      "formula": "C160H154ClO42Tb9",
+      "ccdc_numbers": [
+        "2017536"
+      ],
+      "ccdc_refcodes": [
+        "VOJNIV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "nonanuclear Ln9 cluster of two square pyramids sharing the apical Ln"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "650 mg (66%) of [Tb9(BA)16(OH)10]Cl was obtained by the general protocol for [Eu8Yb(BA)16(OH)10]Cl using TbCl3·6H2O (1 mmol, 1 eq.).",
+        "reagents": [
+          {
+            "name": "benzoylacetone (BA)",
+            "formula": "C10H10O2",
+            "role": "ligand",
+            "amount": "649 mg, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "piperidine",
+            "formula": "C5H11N",
+            "role": "base",
+            "amount": "396 mL as printed, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "terbium(III) chloride hexahydrate",
+            "formula": "TbCl3·6H2O",
+            "role": "metal source",
+            "amount": "1 mmol, 1 eq."
+          }
+        ],
+        "solvents": [
+          "CH3OH (60 mL)",
+          "H2O (20 mL)"
+        ],
+        "temperature": "75 °C then room-temperature crystallization",
+        "time": "1 h + 3 h; crystals after 1 week (general procedure)",
+        "ph": null,
+        "vessel_or_method": "same solution protocol as Eu8Yb",
+        "workup_and_crystallization": "cool, filter, undisturbed crystallization",
+        "yield": "650 mg (66%)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Preparation of [Tb9(BA)16OH10]Cl"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2017536 / VOJNIV"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        }
+      ]
+    },
+    {
+      "compound_label": "Ho9",
+      "compound_name": "[Ho9(BA)16(OH)10]Cl",
+      "formula": "C160H154ClO42Ho9",
+      "ccdc_numbers": [
+        "2331085"
+      ],
+      "ccdc_refcodes": [
+        "VOJNOB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "nonanuclear Ln9 cluster of two square pyramids sharing the apical Ln"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "670 mg (66%) of [Ho9(BA)16(OH)10]Cl was obtained by the general protocol for [Eu8Yb(BA)16(OH)10]Cl. The printed reagent line names TbCl3·6H2O (1 mmol, 1 eq.), which is inconsistent with the Ho9 product and is treated as an OCR/copy error for HoCl3·6H2O.",
+        "reagents": [
+          {
+            "name": "benzoylacetone (BA)",
+            "formula": "C10H10O2",
+            "role": "ligand",
+            "amount": "649 mg, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "piperidine",
+            "formula": "C5H11N",
+            "role": "base",
+            "amount": "396 mL as printed, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "holmium(III) chloride hexahydrate",
+            "formula": "HoCl3·6H2O",
+            "role": "metal source",
+            "amount": "1 mmol, 1 eq. (printed as TbCl3·6H2O)"
+          }
+        ],
+        "solvents": [
+          "CH3OH (60 mL)",
+          "H2O (20 mL)"
+        ],
+        "temperature": "75 °C then room-temperature crystallization",
+        "time": "1 h + 3 h; crystals after 1 week (general procedure)",
+        "ph": null,
+        "vessel_or_method": "same solution protocol as Eu8Yb",
+        "workup_and_crystallization": "cool, filter, undisturbed crystallization",
+        "yield": "670 mg (66%)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Preparation of [Ho9(BA)16OH10]Cl"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2331085 / VOJNOB"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        }
+      ]
+    },
+    {
+      "compound_label": "Dy8Yb",
+      "compound_name": "[Dy8Yb(BA)16(OH)10]Cl",
+      "formula": "C160H154ClO42Dy8Yb",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy",
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "nonanuclear Ln9 cluster of two square pyramids sharing the apical Ln"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "590 mg (60%) of [Dy8Yb(BA)16(OH)10]Cl was obtained by the general protocol for [Eu8Yb(BA)16(OH)10]Cl using DyCl3·6H2O (0.89 mmol, 8/9 eq.) and YbCl3·6H2O (0.11 mmol; printed second equivalent 8/9 eq. is inconsistent with 0.11 mmol ≈ 1/9 eq.).",
+        "reagents": [
+          {
+            "name": "benzoylacetone (BA)",
+            "formula": "C10H10O2",
+            "role": "ligand",
+            "amount": "649 mg, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "piperidine",
+            "formula": "C5H11N",
+            "role": "base",
+            "amount": "396 mL as printed, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.89 mmol, 8/9 eq."
+          },
+          {
+            "name": "ytterbium(III) chloride hexahydrate",
+            "formula": "YbCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.11 mmol (printed 8/9 eq.)"
+          }
+        ],
+        "solvents": [
+          "CH3OH (60 mL)",
+          "H2O (20 mL)"
+        ],
+        "temperature": "75 °C then room-temperature crystallization",
+        "time": "1 h + 3 h; crystals after 1 week (general procedure)",
+        "ph": null,
+        "vessel_or_method": "same solution protocol as Eu8Yb",
+        "workup_and_crystallization": "cool, filter, undisturbed crystallization",
+        "yield": "590 mg (60%)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Results (heteronuclear cluster list); Preparation of [Dy8Yb(BA)16OH10]Cl"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        }
+      ]
+    },
+    {
+      "compound_label": "DyY8",
+      "compound_name": "[DyY8(BA)16(OH)10]Cl",
+      "formula": "C160H154ClO42DyY8",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy",
+          "Y"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "nonanuclear Ln9 cluster of two square pyramids sharing the apical Ln"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "570 mg (59%) of [DyY8(BA)16(OH)10]Cl was obtained by the general protocol for [Eu8Yb(BA)16(OH)10]Cl using YCl3·6H2O (0.89 mmol, 8/9 eq.) and DyCl3·6H2O (0.11 mmol, 8/9 eq. as printed; 0.11 mmol corresponds to 1/9 eq.). Also written as [Y8Dy(BA)16(OH)10]Cl in the results list.",
+        "reagents": [
+          {
+            "name": "benzoylacetone (BA)",
+            "formula": "C10H10O2",
+            "role": "ligand",
+            "amount": "649 mg, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "piperidine",
+            "formula": "C5H11N",
+            "role": "base",
+            "amount": "396 mL as printed, 4 mmol, 4 equiv (general procedure)"
+          },
+          {
+            "name": "yttrium(III) chloride hexahydrate",
+            "formula": "YCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.89 mmol, 8/9 eq."
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.11 mmol (printed 8/9 eq.)"
+          }
+        ],
+        "solvents": [
+          "CH3OH (60 mL)",
+          "H2O (20 mL)"
+        ],
+        "temperature": "75 °C then room-temperature crystallization",
+        "time": "1 h + 3 h; crystals after 1 week (general procedure)",
+        "ph": null,
+        "vessel_or_method": "same solution protocol as Eu8Yb",
+        "workup_and_crystallization": "cool, filter, undisturbed crystallization",
+        "yield": "570 mg (59%)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Results ([Y8Dy(BA)16(OH)10]Cl); Preparation of [DyY8(BA)16OH10]Cl"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        }
+      ]
+    }
+  ]
+}

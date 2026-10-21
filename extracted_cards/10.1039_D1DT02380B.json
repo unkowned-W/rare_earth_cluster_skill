@@ -1,0 +1,327 @@
+{
+  "title": "Modulating the relaxation dynamics via structural transition from a dinuclear dysprosium cluster to a nonanuclear cluster",
+  "doi": "10.1039/d1dt02380b",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy2(NO3)4(H2O)2(L)2]·2CH3CN (HL = 2,6-dimethoxyphenol)",
+      "formula": "[Dy2(NO3)4(H2O)2(L)2]·2CH3CN",
+      "ccdc_numbers": [
+        "1577365"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "dinuclear Dy2 phenoxo-bridged cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(NO3)3·6H2O (0.091 g, 0.2 mmol) was reacted with 2,6-dimethoxyphenol (0.015 g, 0.1 mmol) in the presence of triethylamine (0.014 mL, 0.1 mmol) in MeOH/MeCN (5 mL/5 mL). The mixture was stirred at room temperature for 4 h, filtered and left undisturbed. After 5 days, light pink block-shaped crystals of 1 suitable for single-crystal X-ray diffraction were obtained (yield 25% based on Dy).",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.091 g, 0.2 mmol"
+          },
+          {
+            "name": "2,6-dimethoxyphenol",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.015 g, 0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.014 mL, 0.1 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 4 h; crystals after 5 days",
+        "ph": null,
+        "vessel_or_method": "solution reaction, filtration, slow evaporation",
+        "workup_and_crystallization": "filtered and left undisturbed; light pink block crystals after 5 days",
+        "yield": "25% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Typical SMM behaviour at zero dc field. χMT = 28.42 cm3 K mol−1 at room temperature (expected 28.34 for two isolated DyIII), falling then rising to 28.82 cm3 K mol−1 at 2 K, consistent with crystal-field depopulation and ferromagnetic Dy–Dy coupling. Magnetization 12.28 Nβ at 2 K and 7 T. Frequency-dependent ac susceptibility (2.5 Oe ac, 0 dc) shows slow relaxation and QTM below 4 K. Arrhenius Ueff/kB = 217.87 K, τ0 = 3.04 × 10−10 s; combined Orbach/Raman/QTM fit gives Ueff/kB = 220.1 K, τ0 = 2.86 × 10−10 s, C = 0.0024 s−1 K−n, n = 4.46. Cole–Cole α = 0.03–0.10 (5–10 K). Ab initio: ferromagnetic Dy–Dy coupling, ground-exchange gz = 38.120.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 28.42,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1 kOe, 2–300 K dc data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 28.82,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 12.28,
+            "unit": "Nβ",
+            "conditions": "2 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB (Arrhenius)",
+            "value": 217.87,
+            "unit": "K",
+            "conditions": "zero dc field; high-T Arrhenius fit of ac τ"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (Arrhenius)",
+            "value": "3.04e-10",
+            "unit": "s",
+            "conditions": "zero dc field; high-T Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB (Orbach+Raman+QTM)",
+            "value": 220.1,
+            "unit": "K",
+            "conditions": "eqn (1) fit; R2 = 0.9975"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (Orbach+Raman+QTM)",
+            "value": "2.86e-10",
+            "unit": "s",
+            "conditions": "eqn (1) fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C",
+            "value": 0.0024,
+            "unit": "s−1 K−n",
+            "conditions": "eqn (1); n = 4.46"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.03–0.10",
+            "unit": null,
+            "conditions": "generalized Debye, 5–10 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Experimental section; Synthesis of 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract and Experimental synthesis of 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Single-crystal X-ray crystallography (CCDC 1577365)"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Synthesis and structural descriptions of complexes 1–2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 2–4; Conclusions"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy9(μ4-OH)2(μ3-OH)8(μ2-OCH3)4(NO3)8(H2O)8(L)4](OH)·2H2O (HL = 2,6-dimethoxyphenol)",
+      "formula": "[Dy9(μ4-OH)2(μ3-OH)8(μ2-OCH3)4(NO3)8(H2O)8(L)4](OH)·2H2O",
+      "ccdc_numbers": [
+        "2085775"
+      ],
+      "ccdc_refcodes": [
+        "HAJGUY"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "diabolo Dy9 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Compound 1 (0.025 g, 0.025 mmol) from the previous reaction was added to 2,6-dimethoxyphenol (0.015 g, 0.1 mmol) with triethylamine (0.014 mL, 0.1 mmol) in MeOH/MeCN (5 mL/5 mL). The mixture was stirred at room temperature for 5 h, filtered and left undisturbed. After 7 days, light pink block-shaped crystals of 2 suitable for single-crystal X-ray diffraction were obtained (yield 36% based on Dy).",
+        "reagents": [
+          {
+            "name": "compound 1",
+            "formula": "[Dy2(NO3)4(H2O)2(L)2]·2CH3CN",
+            "role": "starting cluster",
+            "amount": "0.025 g, 0.025 mmol"
+          },
+          {
+            "name": "2,6-dimethoxyphenol",
+            "formula": "HL",
+            "role": "additional ligand",
+            "amount": "0.015 g, 0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.014 mL, 0.1 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 5 h; crystals after 7 days",
+        "ph": null,
+        "vessel_or_method": "conversion of 1 by additional deprotonated ligand; filtration and slow evaporation",
+        "workup_and_crystallization": "filtered and left undisturbed; light pink block crystals after 7 days",
+        "yield": "36% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Weaker but still typical SMM behaviour at zero dc field after conversion from Dy2 to Dy9 diabolo topology. χMT = 125.91 cm3 K mol−1 at room temperature (expected 127.53 for nine isolated DyIII), rising to 152.72 cm3 K mol−1 at 2 K. Magnetization 35.12 Nβ at 2 K and 7 T. Zero-field ac (2.5 Oe) shows frequency-dependent χ″. Arrhenius Ueff/kB = 9.24 K, τ0 = 4.04 × 10−5 s; combined fit Ueff/kB = 4.40 K, τ0 = 1.5 × 10−4 s, C = 0.23 s−1 K−n, n = 3.83. Cole–Cole α = 0.32–0.39 (1.8–3.0 K), indicating a broader distribution of relaxation times. Most Dy–Dy interactions ferromagnetic; ground-exchange gz = 159.721.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 125.91,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1 kOe, 2–300 K dc data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 152.72,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 35.12,
+            "unit": "Nβ",
+            "conditions": "2 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB (Arrhenius)",
+            "value": 9.24,
+            "unit": "K",
+            "conditions": "zero dc field; high-T Arrhenius fit of ac τ"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (Arrhenius)",
+            "value": "4.04e-5",
+            "unit": "s",
+            "conditions": "zero dc field; high-T Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB (Orbach+Raman+QTM)",
+            "value": 4.4,
+            "unit": "K",
+            "conditions": "eqn (1) fit; R2 = 0.9995"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (Orbach+Raman+QTM)",
+            "value": "1.5e-4",
+            "unit": "s",
+            "conditions": "eqn (1) fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C",
+            "value": 0.23,
+            "unit": "s−1 K−n",
+            "conditions": "eqn (1); n = 3.83"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.32–0.39",
+            "unit": null,
+            "conditions": "generalized Debye, 1.8–3.0 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Experimental section; Synthesis of 2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract and Experimental synthesis of 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Single-crystal X-ray crystallography (CCDC 2085775)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row HAJGUY / 2085775"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; structural description of diabolo Dy9"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 2–4; Conclusions"
+        }
+      ]
+    }
+  ]
+}

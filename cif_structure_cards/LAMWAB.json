@@ -1,0 +1,263 @@
+{
+  "refcode": "LAMWAB",
+  "ccdc_number": "2111075",
+  "dois": [
+    "10.1039/d1cc05444a"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2111075.cif",
+  "formula_moiety": "C90 H198 O33 U3 Yb6",
+  "crystal_system": "cubic",
+  "space_group_hm": "P a -3",
+  "international_tables_number": "205",
+  "unit_cell": {
+    "a": "29.6894(10)",
+    "b": "29.6894(10)",
+    "c": "29.6894(10)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "26170",
+    "Z": "8"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O2",
+        "O4",
+        "O5",
+        "O6",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O2",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O13",
+        "O17",
+        "O18",
+        "O21",
+        "O25"
+      ]
+    },
+    {
+      "label": "Yb4",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O13",
+        "O15",
+        "O16",
+        "O18",
+        "O19"
+      ]
+    },
+    {
+      "label": "Yb5",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O23",
+        "O24",
+        "O28",
+        "O29",
+        "O32"
+      ]
+    },
+    {
+      "label": "Yb6",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O23",
+        "O24",
+        "O26",
+        "O27",
+        "O29",
+        "O30"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O6",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.455,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 102.44,
+            "metal_oxygen_distances_angstrom": [
+              2.209,
+              2.223
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 89.82,
+            "metal_oxygen_distances_angstrom": [
+              2.462,
+              2.432
+            ]
+          },
+          {
+            "oxygen": "O9",
+            "angle_deg": 92.83,
+            "metal_oxygen_distances_angstrom": [
+              2.387,
+              2.383
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb3",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O12",
+          "O13",
+          "O18"
+        ],
+        "metal_metal_separation_angstrom": 3.455,
+        "bridge_geometry": [
+          {
+            "oxygen": "O12",
+            "angle_deg": 102.44,
+            "metal_oxygen_distances_angstrom": [
+              2.209,
+              2.223
+            ]
+          },
+          {
+            "oxygen": "O13",
+            "angle_deg": 89.82,
+            "metal_oxygen_distances_angstrom": [
+              2.462,
+              2.432
+            ]
+          },
+          {
+            "oxygen": "O18",
+            "angle_deg": 92.83,
+            "metal_oxygen_distances_angstrom": [
+              2.387,
+              2.383
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb5",
+          "Yb6"
+        ],
+        "shared_oxygen_labels": [
+          "O23",
+          "O24",
+          "O29"
+        ],
+        "metal_metal_separation_angstrom": 3.455,
+        "bridge_geometry": [
+          {
+            "oxygen": "O23",
+            "angle_deg": 102.44,
+            "metal_oxygen_distances_angstrom": [
+              2.209,
+              2.223
+            ]
+          },
+          {
+            "oxygen": "O24",
+            "angle_deg": 89.82,
+            "metal_oxygen_distances_angstrom": [
+              2.462,
+              2.432
+            ]
+          },
+          {
+            "oxygen": "O29",
+            "angle_deg": 92.83,
+            "metal_oxygen_distances_angstrom": [
+              2.387,
+              2.383
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2"
+      ],
+      [
+        "Yb3",
+        "Yb4"
+      ],
+      [
+        "Yb5",
+        "Yb6"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LAMWAB crystallizes in the cubic crystal system with space group P a -3. Reported CIF formula moiety: C90 H198 O33 U3 Yb6. From the CIF bond table, Yb1 (Yb) has 6 O neighbors; Yb2 (Yb) has 6 O neighbors; Yb3 (Yb) has 6 O neighbors; Yb4 (Yb) has 6 O neighbors; Yb5 (Yb) has 6 O neighbors; Yb6 (Yb) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.455-3.455 Å (not direct metal-metal bonds). Computed M-O-M angles span 89.82-102.44°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C90H198Yb6O33U3. Explicit grouped units in the article formula/name: 1 OAc (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d1cc05444a",
+    "formula": "C90H198Yb6O33U3",
+    "compound_name": "[Yb2UO2(OtBu)7(OAc)]3",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OAc",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

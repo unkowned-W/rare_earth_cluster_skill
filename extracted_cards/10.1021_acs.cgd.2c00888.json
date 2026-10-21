@@ -1,0 +1,340 @@
+{
+  "title": "Exploiting Strong {CrIII–DyIII} Ferromagnetic Exchange Coupling to Quench Quantum Tunneling of Magnetization in a Novel {CrIII2DyIII3} Single-Molecule Magnet",
+  "doi": "10.1021/acs.cgd.2c00888",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[CrIII2DyIII3(Benz)7(OH)6(iPrO)(NO3)(H2O)3]",
+      "formula": "C52H54Cr2Dy3NO27",
+      "ccdc_numbers": [
+        "2191707"
+      ],
+      "ccdc_refcodes": [
+        "SETVUM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "trigonal-bipyramidal {Cr2Ln3} cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Cr(NO3)3·9H2O (1 mmol, 0.400 g) and Ln(NO3)3·5H2O (Ln = Dy for 1; 0.5 mmol, 0.22 g) were dissolved in 20 mL of acetonitrile, followed by addition of benzoic acid (1 mmol, 0.122 g) and triethylamine (4 mmol, 0.55 mL). The solution was stirred for 4 h at ambient temperature. The solvent was removed to form a gel, which was redissolved in 20 mL of iPrOH. Purple single crystals suitable for X-ray analysis formed after a week of evaporation (approx. 45% crystalline yield).",
+        "reagents": [
+          {
+            "name": "chromium(III) nitrate nonahydrate",
+            "formula": "Cr(NO3)3·9H2O",
+            "role": "Cr source",
+            "amount": "1 mmol, 0.400 g"
+          },
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "Ln source",
+            "amount": "0.5 mmol, 0.22 g"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "C6H5CO2H",
+            "role": "ligand precursor (benzoate)",
+            "amount": "1 mmol, 0.122 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "4 mmol, 0.55 mL"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "isopropanol"
+        ],
+        "temperature": "ambient temperature (stirring); crystallization by evaporation",
+        "time": "stirred 4 h; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution synthesis with solvent removal to a gel, then recrystallization from iPrOH by evaporation",
+        "workup_and_crystallization": "solvent removed to a gel; gel redissolved in 20 mL iPrOH; purple crystals after one week of evaporation",
+        "yield": "approximately 45% (crystalline product)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Pentanuclear {Cr2Dy3} SMM. Room-temperature χMT = 45.67 cm3 K mol−1 (calc. 46.26). χMT remains nearly constant to 100.2 K, falls to 20.6 cm3 K mol−1 at 40.5 K, then rises to 101.5 cm3 K mol−1 at 1.8 K, indicating ferromagnetic Cr–Dy coupling. Magnetization at 2–10 K reaches 16.28 μB (2 T) and 18.9 μB (7 T). Zero-field ac susceptibility (1–900 Hz, 2–2.8 K) shows frequency-dependent χ′/χ″ peaks. Arrhenius fit (Orbach + Raman) gives Ueff = 30.9 K (21.4 cm−1), τ0 = 4.09×10−10 s, n = 6.3, C = 19.85 s−1 K−6.3. Computed exchanges: JDy–Dy = +0.012 cm−1, JCr–Dy = +1.20 cm−1, JCr–Cr = −0.95 cm−1.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 45.67,
+            "unit": "cm3 K mol−1",
+            "conditions": "polycrystalline, 1.8–300 K dc susceptibility"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (40.5 K)",
+            "value": 20.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc susceptibility, cooling from 100.2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (1.8 K)",
+            "value": 101.5,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc susceptibility maximum at 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 16.28,
+            "unit": "μB",
+            "conditions": "up to 2 T; isotherms at 2, 3, 5, 10 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 18.9,
+            "unit": "μB",
+            "conditions": "7 T; isotherms at 2, 3, 5, 10 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 30.9,
+            "unit": "K",
+            "conditions": "zero dc field ac; Orbach+Raman Arrhenius fit; also 21.4 cm−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "4.09e-10",
+            "unit": "s",
+            "conditions": "zero-field ac; Orbach+Raman fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C",
+            "value": 19.85,
+            "unit": "s−1 K−6.3",
+            "conditions": "n = 6.3; Cole–Cole/Arrhenius analysis 2–2.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J_Dy-Dy",
+            "value": 0.012,
+            "unit": "cm−1",
+            "conditions": "DFT/ab initio Lines-model exchange for 1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J_Cr-Dy",
+            "value": 1.2,
+            "unit": "cm−1",
+            "conditions": "DFT/ab initio Lines-model exchange for 1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J_Cr-Cr",
+            "value": -0.95,
+            "unit": "cm−1",
+            "conditions": "DFT/ab initio Lines-model exchange for 1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section; Structural Descriptions"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Experimental elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Associated Content / CCDC 2191707 and 2217366"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row SETVUM / 2191707"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Characterization; Figures 3–4"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[CrIII2GdIII3(Benz)7(OH)6(iPrO)(NO3)(H2O)3]",
+      "formula": "C52H54Cr2Gd3NO27",
+      "ccdc_numbers": [
+        "2217366"
+      ],
+      "ccdc_refcodes": [
+        "SETTAQ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "trigonal-bipyramidal {Cr2Ln3} cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general procedure as 1: Cr(NO3)3·9H2O (1 mmol, 0.400 g) and Ln(NO3)3·5H2O (Ln = Gd for 2; 0.5 mmol, 0.22 g) in 20 mL acetonitrile with benzoic acid (1 mmol, 0.122 g) and triethylamine (4 mmol, 0.55 mL), stirred 4 h at ambient temperature. Solvent removed to a gel, redissolved in 20 mL iPrOH; purple crystals after a week of evaporation (approx. 45% crystalline yield).",
+        "reagents": [
+          {
+            "name": "chromium(III) nitrate nonahydrate",
+            "formula": "Cr(NO3)3·9H2O",
+            "role": "Cr source",
+            "amount": "1 mmol, 0.400 g"
+          },
+          {
+            "name": "gadolinium(III) nitrate pentahydrate",
+            "formula": "Gd(NO3)3·5H2O",
+            "role": "Ln source",
+            "amount": "0.5 mmol, 0.22 g"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "C6H5CO2H",
+            "role": "ligand precursor (benzoate)",
+            "amount": "1 mmol, 0.122 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "4 mmol, 0.55 mL"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "isopropanol"
+        ],
+        "temperature": "ambient temperature (stirring); crystallization by evaporation",
+        "time": "stirred 4 h; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution synthesis with solvent removal to a gel, then recrystallization from iPrOH by evaporation",
+        "workup_and_crystallization": "solvent removed to a gel; gel redissolved in 20 mL iPrOH; purple crystals after one week of evaporation",
+        "yield": "approximately 45% (crystalline product)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Isostructural {Cr2Gd3} analogue used to quantify isotropic exchanges. Room-temperature χMT = 27.11 cm3 K mol−1 (calc. 27.38). χMT nearly constant to 102.0 K, then rises to 59.3 cm3 K mol−1 at 4.4 K. Magnetization reaches 27.27 μB (2 T) and 28.02 μB (7 T); saturation ~27 μB at 2 K supports S = 27/2 from dominant ferromagnetic coupling. PHI fit: JGd–Gd = +0.008 cm−1, JCr–Gd = +0.27 cm−1, JCr–Cr = −0.007 cm−1. DFT: J1 = +0.015, J2 = +1.38, J3 = −0.558 cm−1. No ac SMM parameters reported for 2.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 27.11,
+            "unit": "cm3 K mol−1",
+            "conditions": "polycrystalline, 1.8–300 K dc susceptibility"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (4.4 K)",
+            "value": 59.3,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc susceptibility maximum at 4.4 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 27.27,
+            "unit": "μB",
+            "conditions": "up to 2 T; isotherms at 2, 3, 5, 10 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 28.02,
+            "unit": "μB",
+            "conditions": "7 T; isotherms at 2, 3, 5, 10 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J_Gd-Gd",
+            "value": 0.008,
+            "unit": "cm−1",
+            "conditions": "PHI fit of χMT for 2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J_Cr-Gd",
+            "value": 0.27,
+            "unit": "cm−1",
+            "conditions": "PHI fit of χMT for 2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J_Cr-Cr",
+            "value": -0.007,
+            "unit": "cm−1",
+            "conditions": "PHI fit of χMT for 2"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section; Structural Descriptions"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Experimental elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Associated Content / CCDC 2191707 and 2217366"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row SETTAQ / 2217366"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Characterization; Figure 3; Estimation of Exchange Coupling"
+        }
+      ]
+    }
+  ]
+}

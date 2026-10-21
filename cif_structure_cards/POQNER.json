@@ -1,0 +1,193 @@
+{
+  "refcode": "POQNER",
+  "ccdc_number": "1915658",
+  "dois": [
+    "10.1039/c9dt02419k"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1915658.cif",
+  "formula_moiety": "C45 H70 N9 O16 Tb3 2+,4(H2 O1),2(Cl1 1-),C2 H3 N1",
+  "crystal_system": "trigonal",
+  "space_group_hm": "P -3",
+  "international_tables_number": "147",
+  "unit_cell": {
+    "a": "17.5762(6)",
+    "b": "17.5762(6)",
+    "c": "13.1892(7)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "120",
+    "volume": "3528.57",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O14",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O12",
+        "O13",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O16",
+        "O17",
+        "O18",
+        "O6",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.781,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 112.21,
+            "metal_oxygen_distances_angstrom": [
+              2.309,
+              2.246
+            ]
+          },
+          {
+            "oxygen": "O6",
+            "angle_deg": 104.42,
+            "metal_oxygen_distances_angstrom": [
+              2.393,
+              2.393
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O14",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.781,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 104.42,
+            "metal_oxygen_distances_angstrom": [
+              2.393,
+              2.393
+            ]
+          },
+          {
+            "oxygen": "O14",
+            "angle_deg": 112.21,
+            "metal_oxygen_distances_angstrom": [
+              2.246,
+              2.309
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.781,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 104.42,
+            "metal_oxygen_distances_angstrom": [
+              2.393,
+              2.393
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 112.21,
+            "metal_oxygen_distances_angstrom": [
+              2.309,
+              2.246
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "POQNER crystallizes in the trigonal crystal system with space group P -3. Reported CIF formula moiety: C45 H70 N9 O16 Tb3 2+,4(H2 O1),2(Cl1 1-),C2 H3 N1. From the CIF bond table, Tb1 (Tb) has 7 O neighbors; Tb2 (Tb) has 7 O neighbors; Tb3 (Tb) has 7 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.781-3.781 Å (not direct metal-metal bonds). Computed M-O-M angles span 104.42-112.21°; individual values and O labels are in metal_framework.links. Article card reports molecular formula Tb3C47H81O20N10Cl2. Explicit grouped units in the article formula/name: 1 OH (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c9dt02419k",
+    "formula": "Tb3C47H81O20N10Cl2",
+    "compound_name": "[Tb3(OH)(teaH2)3(paa)3]Cl2·MeCN·4H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

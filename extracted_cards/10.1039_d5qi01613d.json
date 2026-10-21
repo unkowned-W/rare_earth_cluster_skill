@@ -1,0 +1,383 @@
+{
+  "title": "Photo-mediated performance change of a 1,8-dihydroxyanthraquinone-based Dy6 single molecule magnet",
+  "doi": "10.1039/d5qi01613d",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy6O2(L1)6(OCH3)2(CH3OH)2(DMSO)4]·DMSO·CH3OH",
+      "formula": "[Dy6O2(L1)6(OCH3)2(CH3OH)2(DMSO)4]·DMSO·CH3OH (C99H84Dy6O36S5; L1 = 1,8-dihydroxyanthraquinone dianion)",
+      "ccdc_numbers": [
+        "2264703"
+      ],
+      "ccdc_refcodes": [
+        "EKITIF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "bicapped tetrahedral / face-fused tris-tetrahedral Dy6"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A methanol solution (7.5 mL) of Dy(OAc)3·5H2O (0.05 mmol, 0.0167 g) was mixed with a DMSO solution (2.5 mL) of 1,8-dihydroxyanthraquinone (H2L1, 0.05 mmol, 0.0121 g) in an 18 cm Pyrex tube sealed at one end, and trimethylamine (35 μL) was added. The tube was sealed under vacuum, heated in an oven at 90 °C for three days, and slowly cooled to ambient temperature to give golden yellow crystals.",
+        "reagents": [
+          {
+            "name": "Dy(OAc)3·5H2O",
+            "formula": "Dy(OAc)3·5H2O",
+            "role": "metal source",
+            "amount": "0.05 mmol, 0.0167 g"
+          },
+          {
+            "name": "1,8-dihydroxyanthraquinone",
+            "formula": "H2L1",
+            "role": "ligand",
+            "amount": "0.05 mmol, 0.0121 g"
+          },
+          {
+            "name": "trimethylamine",
+            "formula": null,
+            "role": "base",
+            "amount": "35 μL"
+          },
+          {
+            "name": "methanol",
+            "formula": "CH3OH",
+            "role": "solvent",
+            "amount": "7.5 mL"
+          },
+          {
+            "name": "dimethyl sulfoxide",
+            "formula": "DMSO",
+            "role": "solvent",
+            "amount": "2.5 mL"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "dimethyl sulfoxide"
+        ],
+        "temperature": "90 °C, then slow cooling to ambient temperature",
+        "time": "3 days",
+        "ph": null,
+        "vessel_or_method": "18 cm Pyrex tube sealed under vacuum and heated in an oven (solvothermal)",
+        "workup_and_crystallization": "Slow cooling to ambient temperature afforded golden yellow crystals.",
+        "yield": "31% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Discrete Dy6 cluster is a zero-field SMM. Solid-state emission is at 688 nm upon 630 nm excitation. Light irradiation (630 nm, 1 h for in situ magnetism) shortens the relaxation time and lowers Ueff/kB from 95(6) K to 83(3) K, attributed to partial substitution of terminal MeOH by DMSO. No hysteresis loop was observed.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "emission wavelength",
+            "value": "688",
+            "unit": "nm",
+            "conditions": "solid state, excitation at 630 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "excitation maximum",
+            "value": "630",
+            "unit": "nm",
+            "conditions": "solid state, emission monitored at 688 nm"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "79.06",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe, without light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "78.17",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe, after 630 nm irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "32.42",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe, without light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "20.19",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe, after light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": "95(6)",
+            "unit": "K",
+            "conditions": "zero dc field, Orbach fit of ln(τ) vs 1/T without light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "8(3)×10−7",
+            "unit": "s",
+            "conditions": "zero dc field, without light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τQTM−1",
+            "value": "8(1)",
+            "unit": "s−1",
+            "conditions": "zero dc field, without light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C",
+            "value": "0.8(2)",
+            "unit": "s−1 K−n",
+            "conditions": "zero dc field, n = 2.6(1), without light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "relaxation time τ",
+            "value": "2.22×10−4 to 9.72×10−2",
+            "unit": "s",
+            "conditions": "zero dc field, Debye fit, without light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.24–0.31",
+            "unit": null,
+            "conditions": "zero dc field, without light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ'' peak frequency",
+            "value": "1.87",
+            "unit": "Hz",
+            "conditions": "1.8 K, zero dc field, without light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": "83(3)",
+            "unit": "K",
+            "conditions": "zero dc field, after light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "1.4(3)×10−6",
+            "unit": "s",
+            "conditions": "zero dc field, after light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τQTM−1",
+            "value": "77.3(9)",
+            "unit": "s−1",
+            "conditions": "zero dc field, after light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C",
+            "value": "1.0(1)",
+            "unit": "s−1 K−n",
+            "conditions": "zero dc field, n = 2.85(5), after light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "relaxation time τ",
+            "value": "1.75×10−4 to 1.22×10−2",
+            "unit": "s",
+            "conditions": "zero dc field, Debye fit, after light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.20–0.31",
+            "unit": null,
+            "conditions": "zero dc field, after light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ'' peak frequency",
+            "value": "12.33",
+            "unit": "Hz",
+            "conditions": "1.8 K, zero dc field, after light irradiation"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Data availability, CCDC 2264703 (1)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC refcode EKITIF, CCDC 2264703"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal structure of 1; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Synthesis and characterization (Fig. S3); Photomagnetic investigations (Figs. 2–5)"
+        }
+      ]
+    },
+    {
+      "compound_label": "1a",
+      "compound_name": "[Dy6O2(L1)6(OCH3)2(CH3OH)1.34(DMSO)4.66]·0.34DMSO·1.66CH3OH",
+      "formula": "[Dy6O2(L1)6(OCH3)2(CH3OH)1.34(DMSO)4.66]·0.34DMSO·1.66CH3OH",
+      "ccdc_numbers": [
+        "2476917"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "bicapped tetrahedral Dy6 after partial terminal MeOH/DMSO substitution"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": false,
+        "procedure": "Single crystals of 1 sealed in a capillary with a tiny amount of mother reaction solution or polybutene oil were irradiated for 30 min with a CEL-PF300-T8 xenon lamp (300 W). The structure of the resulting crystals is 1a, in which terminal CH3OH is partly replaced by lattice DMSO. No stoichiometric amounts are given for this transformation.",
+        "reagents": [
+          {
+            "name": "complex 1",
+            "formula": "[Dy6O2(L1)6(OCH3)2(CH3OH)2(DMSO)4]·DMSO·CH3OH",
+            "role": "precursor crystals",
+            "amount": null
+          },
+          {
+            "name": "mother reaction solution or polybutene oil",
+            "formula": null,
+            "role": "medium in capillary",
+            "amount": "tiny amount"
+          }
+        ],
+        "solvents": [],
+        "temperature": "not specified (lamp irradiation)",
+        "time": "30 min",
+        "ph": null,
+        "vessel_or_method": "capillary tube; CEL-PF300-T8 xenon lamp, 300 W",
+        "workup_and_crystallization": "Irradiated single crystals of 1 were used directly for the structure of 1a.",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "The authors assign the light-tuned zero-field SMM response of irradiated 1 to this partially substituted structure. After irradiation, χmT is 78.17 cm3 K mol−1 at 300 K and 20.19 cm3 K mol−1 at 2 K, and Ueff/kB falls to 83(3) K with faster relaxation (τ 1.75×10−4 to 1.22×10−2 s). No separate luminescence data are reported for 1a.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "78.17",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe, crystalline 1 after 630 nm irradiation (response attributed to the 1a-type substitution)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "20.19",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe, after light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": "83(3)",
+            "unit": "K",
+            "conditions": "zero dc field, after light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "1.4(3)×10−6",
+            "unit": "s",
+            "conditions": "zero dc field, after light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τQTM−1",
+            "value": "77.3(9)",
+            "unit": "s−1",
+            "conditions": "zero dc field, after light irradiation; n = 2.85(5), C = 1.0(1) s−1 K−n"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "relaxation time τ",
+            "value": "1.75×10−4 to 1.22×10−2",
+            "unit": "s",
+            "conditions": "zero dc field, Debye fit, after light irradiation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ'' peak frequency",
+            "value": "12.33",
+            "unit": "Hz",
+            "conditions": "1.8 K, zero dc field, after light irradiation"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Crystal structure of 1 and its variation after light irradiation"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Data availability, CCDC 2476917 (1a)"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal structure section; Fig. 1d and Figs. S8–S9"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "X-ray data collection; structural variation paragraph"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photomagnetic investigations (irradiated sample of 1)"
+        }
+      ]
+    }
+  ]
+}

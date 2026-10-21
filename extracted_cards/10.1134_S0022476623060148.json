@@ -1,0 +1,131 @@
+{
+  "title": "Synthesis, Structure, and Properties of a New Tetranuclear Terbium Hydroxotrifluoroacetate",
+  "doi": "10.1134/s0022476623060148",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Tb4",
+      "compound_name": "tetranuclear terbium hydroxotrifluoroacetate",
+      "formula": "[Tb4(OH)4(tfa)3(deta)4(detadcH)2](tfa)4(detaH)(H2O)",
+      "ccdc_numbers": [
+        "2254018"
+      ],
+      "ccdc_refcodes": [
+        "WINXUQ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "cubane {Tb4(μ3-OH)4} hydroxotrifluoroacetate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Tb(tfa)3(H2O)3 powder (1.45 g, 2.57 mmol) was dissolved with stirring in acetonitrile (20 mL) and heated to 80 °C. While stirring for 5 min, diethylenetriamine (deta, 560 μL, 5.18 mmol) was added dropwise. The solution was left in an open beaker in air for slow cooling and crystallization. After five days, a polycrystalline precipitate covered with a viscous gel-like fluid formed. The mother liquor was decanted, the precipitate was washed twice with acetonitrile and diethyl ether and kept in a closed vial for three months.",
+        "reagents": [
+          {
+            "name": "terbium trifluoroacetate trihydrate",
+            "formula": "Tb(tfa)3(H2O)3",
+            "role": "metal precursor",
+            "amount": "1.45 g, 2.57 mmol"
+          },
+          {
+            "name": "diethylenetriamine",
+            "formula": "deta",
+            "role": "ligand / base for self-controlled hydrolysis",
+            "amount": "560 μL, 5.18 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "diethyl ether"
+        ],
+        "temperature": "80 °C dissolution, then slow cooling in air",
+        "time": "5 min addition; 5 days crystallization; 3 months storage in a closed vial",
+        "ph": null,
+        "vessel_or_method": "open beaker in air; self-controlled hydrolysis / crystallization",
+        "workup_and_crystallization": "Mother liquor decanted; precipitate washed twice with acetonitrile and diethyl ether; kept in a closed vial for three months. Polycrystalline product.",
+        "yield": "≈80%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Polycrystalline Tb4 shows metal-centered Tb3+ photoluminescence. Excitation includes a broad ligand-related band (maximum 370 nm) and Tb3+ f–f lines (maxima 489, 377, 368, 351, 341, 326, 318 nm). Under 365 nm excitation, 5D4→7FJ emission appears at 680, 668, 649, 622, 585, 545, and 490 nm, plus a broad ligand emission near 450 nm. 405 nm excitation gives weak Tb3+ emission (antenna effect); 489 nm direct excitation gives only Tb3+ 5D4→7FJ (J = 0–5) bands.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "photoluminescence excitation maxima",
+            "value": "370 (broad); 489, 377, 368, 351, 341, 326, 318",
+            "unit": "nm",
+            "conditions": "polycrystalline powder; Shimadzu RF-1501; xenon lamp 150 W"
+          },
+          {
+            "property_type": "optical",
+            "name": "Tb3+ emission maxima (5D4→7FJ, J=0–6)",
+            "value": "680, 668, 649, 622, 585, 545, 490",
+            "unit": "nm",
+            "conditions": "polycrystalline powder; λex = 365 nm (LED)"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-centered emission maximum",
+            "value": "450",
+            "unit": "nm",
+            "conditions": "polycrystalline powder; λex = 365 nm; assigned to detadcH/tfa ligands"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission under 405 nm excitation",
+            "value": "weak 5D4→7F5 Tb3+ band on a broad ligand emission background",
+            "unit": null,
+            "conditions": "polycrystalline powder; diode laser λex = 405 nm; weak antenna effect"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission under 489 nm excitation",
+            "value": "only 5D4→7FJ (J=0–5) Tb3+ bands",
+            "unit": null,
+            "conditions": "polycrystalline powder; diode laser λex = 489 nm (7F6→5D4)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental (synthesis heading); Conclusions"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Experimental synthesis heading; elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2254018 / WINXUQ"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Results and discussion (cubane core {Tb4(μ-OH)4})"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of Tb4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and discussion; Fig. 5 photoluminescence spectra"
+        }
+      ]
+    }
+  ]
+}

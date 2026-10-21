@@ -1,0 +1,177 @@
+{
+  "refcode": "FEBCOI",
+  "ccdc_number": "2100104",
+  "dois": [
+    "10.1021/acs.inorgchem.2c00479"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2100104.cif",
+  "formula_moiety": "C192 H160 Eu4 K6 O24 Si16",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "14.4254(9)",
+    "b": "17.5278(11)",
+    "c": "24.3986(10)",
+    "alpha": "103.802(4)",
+    "beta": "92.259(4)",
+    "gamma": "105.958(5)",
+    "volume": "5723.54",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3",
+        "O4",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O12",
+        "O6",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O15",
+        "O16",
+        "O18",
+        "O19"
+      ]
+    },
+    {
+      "label": "Eu4",
+      "element": "Eu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O18",
+        "O19",
+        "O21",
+        "O22",
+        "O24"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.935,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 102.14,
+            "metal_oxygen_distances_angstrom": [
+              2.524,
+              2.534
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 103.37,
+            "metal_oxygen_distances_angstrom": [
+              2.476,
+              2.539
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu3",
+          "Eu4"
+        ],
+        "shared_oxygen_labels": [
+          "O18",
+          "O19"
+        ],
+        "metal_metal_separation_angstrom": 3.935,
+        "bridge_geometry": [
+          {
+            "oxygen": "O18",
+            "angle_deg": 102.14,
+            "metal_oxygen_distances_angstrom": [
+              2.524,
+              2.534
+            ]
+          },
+          {
+            "oxygen": "O19",
+            "angle_deg": 103.37,
+            "metal_oxygen_distances_angstrom": [
+              2.476,
+              2.539
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2"
+      ],
+      [
+        "Eu3",
+        "Eu4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "FEBCOI crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C192 H160 Eu4 K6 O24 Si16. From the CIF bond table, Eu1 (Eu) has 5 O neighbors; Eu2 (Eu) has 5 O neighbors; Eu3 (Eu) has 5 O neighbors; Eu4 (Eu) has 5 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.935-3.935 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.14-103.37°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [K3Eu2{(Ph2SiO)2O}4]. Article name explicitly identifies I(I), I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.2c00479",
+    "formula": "[K3Eu2{(Ph2SiO)2O}4]",
+    "compound_name": "tetrakis(tetraphenyldisiloxanediolato)tripotassium-dieuropium(II/III)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "I",
+        "basis": "article compound name"
+      },
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

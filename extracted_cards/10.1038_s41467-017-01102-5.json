@@ -1,0 +1,158 @@
+{
+  "title": "Ferrotoroidic ground state in a heterometallic {CrIIIDyIII6} complex displaying slow magnetic relaxation",
+  "doi": "10.1038/s41467-017-01102-5",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[CrIIIDyIII6(OH)8(ortho-tol)12(MeOH)5(NO3)]·3MeOH",
+      "formula": "[CrDy6(OH)8(ortho-tol)12(MeOH)5(NO3)]·3MeOH",
+      "ccdc_numbers": [
+        "1435033"
+      ],
+      "ccdc_refcodes": [
+        "JEKTOL"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "heptanuclear {CrDy6} double triangle (two vertex-sharing trigonal pyramids/tetrahedra)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Aerobic synthesis: Cr(NO3)3·9H2O (0.4 g, 1 mmol) and Dy(NO3)3·6H2O (0.22 g, 0.5 mmol) were dissolved in MeCN (20 ml), then ortho-toluic acid (0.14 g, 1.0 mmol) and triethylamine (0.55 ml, 4.0 mmol) were added, giving a pale purple solution. After stirring 4 h, the solvent was removed to a purple oil, which was redissolved in MeOH/iPrOH (1:1) and allowed to evaporate slowly. Pale purple crystals of 1 formed within 10–15 days (ca. 25% crystalline yield).",
+        "reagents": [
+          {
+            "name": "chromium(III) nitrate nonahydrate",
+            "formula": "Cr(NO3)3·9H2O",
+            "role": "Cr source",
+            "amount": "0.4 g, 1 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "Dy source",
+            "amount": "0.22 g, 0.5 mmol"
+          },
+          {
+            "name": "ortho-toluic acid",
+            "formula": "C8H8O2",
+            "role": "bridging/chelating carboxylate ligand",
+            "amount": "0.14 g, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.55 ml, 4.0 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH",
+          "iPrOH"
+        ],
+        "temperature": "ambient temperature",
+        "time": "stirred 4 h; crystals in 10–15 days",
+        "ph": null,
+        "vessel_or_method": "aerobic solution reaction followed by slow evaporation",
+        "workup_and_crystallization": "solvent removed to a purple oil; redissolved in MeOH/iPrOH (1:1); slow evaporation gave pale purple crystals",
+        "yield": "approximately 25% (crystalline product)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Heptanuclear {CrIIIDyIII6} cluster with a ferrotoroidic ground state from intramolecular dipolar coupling of two con-rotating {Dy3} triangles. Room-temperature χMT = 87.16 cm3 K mol−1; χMT falls to 14.37 cm3 K mol−1 at 1.8 K (H = 1 T), consistent with Dy Stark depopulation and antiferromagnetic exchange. Low-T M(H) is S-shaped at 2–3 K. AC susceptibility shows a nonzero χ″ down to 1.8 K without maxima (0 and 2000 Oe dc). Micro-SQUID single-crystal hysteresis below 0.8 K (Hc ≈ 0.6 T at 0.03 K, 0.28 T s−1 along a Dy–Dy vector; step at Hs ≈ 0.7 T) indicates SMM-like slow zero-field relaxation enhanced by ferrotoroidic coupling.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 87.16,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature; H = 1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 14.37,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8–2 K; H = 1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "coercive field Hc",
+            "value": 0.6,
+            "unit": "T",
+            "conditions": "single crystal; T = 0.03 K; sweep rate 0.28 T s−1; field along Dy–Dy bond vector"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization step field Hs",
+            "value": 0.7,
+            "unit": "T",
+            "conditions": "single-crystal μ-SQUID; hysteresis below 0.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "coercive field Hc",
+            "value": 0.5,
+            "unit": "T",
+            "conditions": "T = 0.03 K; sweep rate 0.28 T s−1; field perpendicular to Dy–Dy bond vector"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac out-of-phase susceptibility χ″",
+            "value": "nonzero, no maxima down to 1.8 K",
+            "unit": null,
+            "conditions": "3.5 Oe ac; Hdc = 0 and 2000 Oe; 0.1–1500 Hz"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Introduction formula of 1; Methods synthesis heading"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Introduction; Methods microanalysis CrDy6C104H124NO43"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Data availability, CCDC 1435033"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row JEKTOL / 1435033"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results structure of heptanuclear 1; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Methods, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results magnetic data; Figs. 2–3; Methods magnetic measurements"
+        }
+      ]
+    }
+  ]
+}

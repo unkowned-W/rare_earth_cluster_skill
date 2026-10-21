@@ -1,0 +1,409 @@
+{
+  "title": "Exploring the structural variations and magnetic properties of three hexanuclear dysprosium(III) complexes exhibiting single-molecule magnetism behavior",
+  "doi": "10.1016/j.poly.2024.117189",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1·2MeCN",
+      "compound_name": "[Dy6(hmc)3(μ-acac)2(acac)3(μ3-OH)4(H2O)2]·2MeCN",
+      "formula": "C76H88Dy6N12O31·2(C2H3N)",
+      "ccdc_numbers": [
+        "2350085"
+      ],
+      "ccdc_refcodes": [
+        "QOTSAX"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "chair-like Dy6 assembled from Dy3 triangles"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(acac)3·6H2O (0.50 mmol, 0.23 g) was dissolved in MeCN/MeOH (10/5 mL). A solution of H3hmc (0.25 mmol, 0.089 g) and pyridine (0.25 mmol, 20.0 μL) in MeCN (15 mL) was added, and the mixture was stirred for 5 min until a yellow solution formed. After 4–5 days, pale yellow crystals of complex 1 suitable for X-ray diffraction were obtained. Section 2.1 additionally notes that adding 1 mL of diethyl ether followed by slow evaporation for two weeks also afforded light yellow crystals, and that MeOH is required for Dy(acac)3·6H2O solubility.",
+        "reagents": [
+          {
+            "name": "Dy(acac)3·6H2O",
+            "formula": "Dy(acac)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.50 mmol, 0.23 g"
+          },
+          {
+            "name": "1,5-bis(2-hydroxy-3-methoxybenzylidene)carbonhydrazide (H3hmc)",
+            "formula": "H3hmc",
+            "role": "ligand",
+            "amount": "0.25 mmol, 0.089 g"
+          },
+          {
+            "name": "pyridine",
+            "formula": "C5H5N",
+            "role": "base",
+            "amount": "0.25 mmol, 20.0 μL"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": null,
+        "time": "stirred 5 min; crystals after 4–5 days (section 2.1 also reports two weeks after adding diethyl ether)",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by crystallization/slow evaporation",
+        "workup_and_crystallization": "Pale yellow crystals formed from the yellow solution; diethyl ether (1 mL) and slow evaporation are mentioned in section 2.1.",
+        "yield": "3%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility at 1000 Oe shows χMT = 82.06 cm3 K mol−1 at 300 K, falling to 67.85 cm3 K mol−1 at 2.0 K, consistent with DyIII anisotropy and weak antiferromagnetic interactions. Magnetization at 2 K/7 T reaches 26.47 μB without overlay of M vs H T−1 isotherms. Ac susceptibility (3.50 Oe, up to 10 kHz) under zero dc field shows only frequency-dependent tails of χ″ peaks between 1.8 and 15 K, so no quantified energy barrier; no slow relaxation of magnetization was concluded for complex 1. Magellan modelling shows the six Dy anisotropic axes pointing in different directions.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 82.06,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 67.85,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 26.47,
+            "unit": "μB",
+            "conditions": "2 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility",
+            "value": "frequency-dependent χ″ tails only; no full maxima",
+            "unit": null,
+            "conditions": "ac field 3.50 Oe, 1.8–15 K, zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 4.1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 4.1; Appendix A"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row QOTSAX"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "sections 2.1 and 4.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 2.3; Figs. 5 and 8; conclusion"
+        }
+      ]
+    },
+    {
+      "compound_label": "2·8MeOH",
+      "compound_name": "[Dy6K2(hmc)3(μ-CO3)(μ3-CO3)4(H2O)2]·8MeOH",
+      "formula": "C58H48Dy6K2N12O36·8(CH4O)",
+      "ccdc_numbers": [
+        "2350086"
+      ],
+      "ccdc_refcodes": [
+        "QOTSEB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "K"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "trigonal-prism Dy6 from two coupled Dy3 triangles with K+ and carbonate bridges"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(acac)3·6H2O (0.50 mmol, 0.23 g) was dissolved in DMF/MeOH (5/10 mL). A solution of H3hmc (0.25 mmol, 0.089 g) and KOH (0.50 mmol, 14 mg) in MeOH (15 mL) was added, and the mixture was stirred for 5 min until a yellow solution formed. After 2 months, pale yellow prolate crystals of complex 2 suitable for X-ray diffraction were obtained. KOH is required for atmospheric CO2 capture to form bridging CO32−.",
+        "reagents": [
+          {
+            "name": "Dy(acac)3·6H2O",
+            "formula": "Dy(acac)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.50 mmol, 0.23 g"
+          },
+          {
+            "name": "H3hmc",
+            "formula": "H3hmc",
+            "role": "ligand",
+            "amount": "0.25 mmol, 0.089 g"
+          },
+          {
+            "name": "KOH",
+            "formula": "KOH",
+            "role": "base / K source; CO2 capture",
+            "amount": "0.50 mmol, 14 mg"
+          }
+        ],
+        "solvents": [
+          "DMF",
+          "MeOH"
+        ],
+        "temperature": null,
+        "time": "stirred 5 min; crystals after 2 months",
+        "ph": null,
+        "vessel_or_method": "solution reaction with atmospheric CO2 capture",
+        "workup_and_crystallization": "Pale yellow prolate crystals formed from the yellow solution after 2 months.",
+        "yield": "8%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 75.36 cm3 K mol−1 at room temperature and 60.02 cm3 K mol−1 at 2.0 K (1000 Oe). Magnetization 23.88 μB at 2 K/7 T. Frequency-dependent ac χ″ indicates SMM behavior at zero field and under 600 Oe. Arrhenius fits give Ueff = 29.3 K (τ0 = 1.01×10−6 s) at 0 Oe and Ueff = 32 K (τ0 = 6.02×10−7 s) at 600 Oe; Raman-inclusive refits were also reported. Cole–Cole α parameters 0.44 (1.8 K)–0.445 (15 K) indicate a broad distribution of relaxation times. Anisotropy axes of the Dy ions form an equilateral-triangle arrangement.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 75.36,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 60.02,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 23.88,
+            "unit": "μB",
+            "conditions": "2 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 29.3,
+            "unit": "K",
+            "conditions": "zero dc field; τ0 = 1.01×10−6 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 32,
+            "unit": "K",
+            "conditions": "600 Oe dc; τ0 = 6.02×10−7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.44–0.445",
+            "unit": null,
+            "conditions": "1.8–15 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 4.2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 4.2; Appendix A"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row QOTSEB"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "sections 2.1 and 4.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 2.3; Figs. 5–8; conclusion"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Dy6(hmc)3(μ-OAc)6(μ3-OH)3(H2O)3]",
+      "formula": "C63H72Dy6N12O33",
+      "ccdc_numbers": [
+        "2350087"
+      ],
+      "ccdc_refcodes": [
+        "QOTSIF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "Sierpinski-triangle Dy6 from two coupled Dy3 triangles"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(OAc)3·4H2O (0.50 mmol, 0.205 g) was dissolved in H2O/MeOH (5/10 mL). A solution of H3hmc (0.25 mmol, 0.089 g) and NEt3 (1.00 mmol, 139.0 μL) in MeOH (15 mL) was added, and the mixture was stirred for 5 min until a yellow solution formed. After 14 days, light yellow crystals formed by vapor diffusion of diethyl ether, were collected by filtration, and washed with ether. Water was used to dissolve impurities and avoid co-precipitates.",
+        "reagents": [
+          {
+            "name": "Dy(OAc)3·4H2O",
+            "formula": "Dy(OAc)3·4H2O",
+            "role": "metal salt",
+            "amount": "0.50 mmol, 0.205 g"
+          },
+          {
+            "name": "H3hmc",
+            "formula": "H3hmc",
+            "role": "ligand",
+            "amount": "0.25 mmol, 0.089 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1.00 mmol, 139.0 μL"
+          }
+        ],
+        "solvents": [
+          "H2O",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": null,
+        "time": "stirred 5 min; crystals after 14 days",
+        "ph": null,
+        "vessel_or_method": "solution reaction; vapor diffusion of diethyl ether",
+        "workup_and_crystallization": "Light yellow crystals from diethyl ether vapor diffusion were collected by filtration and washed with ether.",
+        "yield": "33%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 81.04 cm3 K mol−1 at room temperature, decreasing to 70.03 cm3 K mol−1 at 14 K then slightly increasing to 70.55 cm3 K mol−1 at 5 K (weak ferromagnetic contribution) and 68.93 cm3 K mol−1 at 2.0 K. Magnetization 24.52 μB at 2 K/7 T. SMM behavior at 0 and 600 Oe: Ueff = 30.9 K (τ0 = 3.57×10−7 s) and 39.2 K (τ0 = 1.37×10−7 s). Cole–Cole α = 0.304 (2 K)–0.151 (7 K). Dy anisotropy axes arranged similarly to an equilateral triangle.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 81.04,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 70.03,
+            "unit": "cm3 K mol−1",
+            "conditions": "14 K, cooling, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 70.55,
+            "unit": "cm3 K mol−1",
+            "conditions": "5 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 68.93,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 24.52,
+            "unit": "μB",
+            "conditions": "2 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 30.9,
+            "unit": "K",
+            "conditions": "zero dc field; τ0 = 3.57×10−7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 39.2,
+            "unit": "K",
+            "conditions": "600 Oe dc; τ0 = 1.37×10−7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.304–0.151",
+            "unit": null,
+            "conditions": "2–7 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 4.3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 4.3; Appendix A"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row QOTSIF"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "sections 2.1 and 4.3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 2.3; Figs. 5–8; conclusion"
+        }
+      ]
+    }
+  ]
+}

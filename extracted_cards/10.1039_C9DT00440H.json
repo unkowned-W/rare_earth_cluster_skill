@@ -1,0 +1,164 @@
+{
+  "title": "A decanuclear [DyIIIZnII] cluster: a {ZnII} rectangle surrounding an octahedral {Dy6III} single molecule magnet",
+  "doi": "10.1039/c9dt00440h",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1·4MeOH",
+      "compound_name": "[Dy6Zn4O2(L)2(HL)2(OAc)8(CH3O)4(H2O)2]·4MeOH",
+      "formula": "[Dy6Zn4O2(L)2(HL)2(OAc)8(CH3O)4(H2O)2]·4MeOH",
+      "ccdc_numbers": [
+        "1892887"
+      ],
+      "ccdc_refcodes": [
+        "WIYGAP"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "{Zn4} rectangle surrounding an octahedral {Dy6} core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Zn(OAc)2·2H2O (1 mmol, 0.220 g), Dy(NO3)3·5H2O (1 mmol, 0.440 g) and H3L (1 mmol, 0.297 g) were added in MeOH (15 ml) in the presence of NEt3 (1 mmol, 0.140 ml). The mixture was transferred to a Teflon-lined autoclave (23 ml) and kept at 95 °C for 12 h under solvothermal conditions (aerobic). After slow cooling to room temperature at 20 °C h−1, pale yellow crystals of 1·4MeOH were obtained, collected by filtration, washed with Et2O and dried in air.",
+        "reagents": [
+          {
+            "name": "zinc acetate dihydrate",
+            "formula": "Zn(OAc)2·2H2O",
+            "role": "Zn source",
+            "amount": "1 mmol, 0.220 g"
+          },
+          {
+            "name": "dysprosium nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "Dy source",
+            "amount": "1 mmol, 0.440 g"
+          },
+          {
+            "name": "2-(β-naphthalideneamino)-2-hydroxymethyl-1-propanol",
+            "formula": "H3L",
+            "role": "Schiff-base ligand",
+            "amount": "1 mmol, 0.297 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1 mmol, 0.140 ml"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "Et2O"
+        ],
+        "temperature": "95 °C, then cooled at 20 °C h−1 to room temperature",
+        "time": "12 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal; Teflon-lined autoclave (23 ml), aerobic",
+        "workup_and_crystallization": "slow cooling yielded pale yellow crystals; filtered, washed with Et2O, dried in air",
+        "yield": "~35%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Decanuclear Dy6Zn4 cluster is an SMM under zero dc field. χMT is slightly below the six-DyIII free-ion value at 300 K and decreases on cooling, consistent with weak antiferromagnetic coupling (θ = −2.9 K) and/or Stark depopulation. Magnetization at 5 T is well below the hexanuclear Dy theoretical limit. Fully formed in-phase and out-of-phase AC signals (ca. 3–15 K) give Ueff = 43 K and τ0 = 1 × 10−5 s, with a secondary lower-temperature relaxation pathway.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 81.2,
+            "unit": "cm3 mol−1 K",
+            "conditions": "300 K, 0.1 T dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 41.05,
+            "unit": "cm3 mol−1 K",
+            "conditions": "2 K, 0.1 T dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie–Weiss θ",
+            "value": -2.9,
+            "unit": "K",
+            "conditions": "dc susceptibility, 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 29.2,
+            "unit": "NμB",
+            "conditions": "5 T, 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 28.5,
+            "unit": "NμB",
+            "conditions": "5 T, 5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 43,
+            "unit": "K",
+            "conditions": "zero dc field; AC 3.5 Oe, 17–1488 Hz; Arrhenius fit of effective time constants"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "1e-5",
+            "unit": "s",
+            "conditions": "zero dc field Arrhenius fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "main communication, formula of 1·4MeOH"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "main communication and crystal-data footnote"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "crystal-data footnote CCDC 1892887"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row WIYGAP"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "title, structure discussion, Fig. 1–2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "main communication reaction paragraph and appended Synthesis section"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism paragraphs, Fig. 3–4, abstract"
+        }
+      ]
+    }
+  ]
+}

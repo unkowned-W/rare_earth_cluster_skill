@@ -1,0 +1,192 @@
+{
+  "refcode": "NICXUU",
+  "ccdc_number": "870608",
+  "dois": [
+    "10.1039/c3dt00056g"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\870608.cif",
+  "formula_moiety": "C96 H84 Ho4 N12 O12",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "13.4575(4)",
+    "b": "13.9789(4)",
+    "c": "15.7353(5)",
+    "alpha": "68.9730(10)",
+    "beta": "78.8160(10)",
+    "gamma": "63.3230(10)",
+    "volume": "2466.99",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Ho1",
+      "element": "Ho",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "label": "Ho2",
+      "element": "Ho",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O4",
+        "O5",
+        "O6",
+        "O6A"
+      ]
+    },
+    {
+      "label": "Ho1A",
+      "element": "Ho",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O2A",
+        "O3A",
+        "O4A"
+      ]
+    },
+    {
+      "label": "Ho2A",
+      "element": "Ho",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O4A",
+        "O5A",
+        "O6",
+        "O6A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ho1",
+          "Ho2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.814,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 109.25,
+            "metal_oxygen_distances_angstrom": [
+              2.372,
+              2.306
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 109.48,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.308
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho1A",
+          "Ho2A"
+        ],
+        "shared_oxygen_labels": [
+          "O1A",
+          "O4A"
+        ],
+        "metal_metal_separation_angstrom": 3.814,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1A",
+            "angle_deg": 109.25,
+            "metal_oxygen_distances_angstrom": [
+              2.372,
+              2.306
+            ]
+          },
+          {
+            "oxygen": "O4A",
+            "angle_deg": 109.48,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.308
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho2",
+          "Ho2A"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O6A"
+        ],
+        "metal_metal_separation_angstrom": 3.828,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 110.33,
+            "metal_oxygen_distances_angstrom": [
+              2.318,
+              2.345
+            ]
+          },
+          {
+            "oxygen": "O6A",
+            "angle_deg": 110.33,
+            "metal_oxygen_distances_angstrom": [
+              2.345,
+              2.318
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ho1",
+        "Ho1A",
+        "Ho2",
+        "Ho2A"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "NICXUU crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C96 H84 Ho4 N12 O12. From the CIF bond table, Ho1 (Ho) has 4 O neighbors; Ho2 (Ho) has 5 O neighbors; Ho1A (Ho) has 4 O neighbors; Ho2A (Ho) has 5 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.814-3.828 Å (not direct metal-metal bonds). Computed M-O-M angles span 109.25-110.33°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C96H93.2Ho4N12O16.6.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c3dt00056g",
+    "formula": "C96H93.2Ho4N12O16.6",
+    "compound_name": "[Ho4(salen)6]·4.6H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

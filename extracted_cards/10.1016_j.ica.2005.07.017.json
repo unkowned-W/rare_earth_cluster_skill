@@ -1,0 +1,794 @@
+{
+  "title": "Eficient synthetic route to anhydrous mononuclear tris(8-quinolinolato)lanthanoid complexes for organic light-emitting devices",
+  "doi": "10.1016/j.ica.2005.07.017",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[La3(qMe)9(H)(NO3)] (methanol solvate)",
+      "formula": "La3(qMe)9(H)(NO3)·4MeOH",
+      "ccdc_numbers": [
+        "261243"
+      ],
+      "ccdc_refcodes": [
+        "YATVEV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "La"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "trinuclear 8-quinolinolate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A methanol solution of La(NO3)3·6H2O (0.866 g, 2 mmol) and 2-methyl-8-quinolinol (1.9 g, 12 mmol) in 100 ml methanol was heated to 60 °C. Aqueous ammonia (4 ml of 1 M) was added dropwise with stirring until the mixture was slightly alkaline (pH ~8). After 30 min stirring, yellow crystals were filtered, washed with methanol and ether, dried under vacuum, and recrystallized from methanol.",
+        "reagents": [
+          {
+            "name": "lanthanum nitrate hexahydrate",
+            "formula": "La(NO3)3·6H2O",
+            "role": "metal precursor",
+            "amount": "0.866 g, 2 mmol"
+          },
+          {
+            "name": "2-methyl-8-quinolinol",
+            "formula": "HqMe",
+            "role": "ligand",
+            "amount": "1.9 g, 12 mmol"
+          },
+          {
+            "name": "aqueous ammonia",
+            "formula": "NH3(aq)",
+            "role": "base",
+            "amount": "4 ml of 1 M"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "ether (wash)"
+        ],
+        "temperature": "60 °C",
+        "time": "30 min",
+        "ph": "~8",
+        "vessel_or_method": "solution synthesis with dropwise ammonia addition",
+        "workup_and_crystallization": "filtration, wash with methanol and ether, vacuum drying, recrystallization from methanol",
+        "yield": "0.99 g (78%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Photoluminescence of 1 in pyridine is ca. 3×10^3 times weaker than mononuclear La(qMe)3(py)2 (2) under identical settings, attributed to the more complicated structure and emission-quenching nitrate.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "relative photoluminescence intensity vs 2",
+            "value": "ca. 3e-3 times that of 2",
+            "unit": null,
+            "conditions": "pyridine solution; excitation ~400 nm; identical slit, integration time, concentration"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Abstract; Section 2.2; Table 1; Section 5 CCDC 261243"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Fig. 1; Results and discussion"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and discussion; Fig. 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "YATVEV / 261243"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[La(qMe)3(py)2]",
+      "formula": "La(qMe)3(py)2",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 1,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "La"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "mononuclear tris(2-methyl-8-quinolinolate) pyridine adduct"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under vacuum/Schlenk conditions, La[N(SiMe3)2]3 (473 mg, 0.76 mmol) in pyridine (10 ml) was treated with 2-methyl-8-quinolinol (363 mg, 2.28 mmol) in pyridine (10 ml). The mixture was stirred 15 min at room temperature, solvent evaporated under vacuum, and the yellow residue reprecipitated from pyridine by hexane.",
+        "reagents": [
+          {
+            "name": "lanthanum tris(hexamethyldisilazide)",
+            "formula": "La[N(SiMe3)2]3",
+            "role": "metal precursor",
+            "amount": "473 mg, 0.76 mmol"
+          },
+          {
+            "name": "2-methyl-8-quinolinol",
+            "formula": "HqMe",
+            "role": "ligand",
+            "amount": "363 mg, 2.28 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexane"
+        ],
+        "temperature": "room temperature",
+        "time": "15 min",
+        "ph": null,
+        "vessel_or_method": "Schlenk/vacuum",
+        "workup_and_crystallization": "solvent evaporated under vacuum; reprecipitation from pyridine with hexane",
+        "yield": "487 mg (83%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Ligand-centered emission at 550 nm; relative intensity 0.32 versus Alq3 = 1.00; ca. 3×10^3 times stronger than cluster 1.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "emission wavelength",
+            "value": 550,
+            "unit": "nm",
+            "conditions": "pyridine solution; excitation ~400 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "relative photoluminescence intensity vs Alq3",
+            "value": 0.32,
+            "unit": null,
+            "conditions": "Table 3; identical experimental settings"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Abstract; Section 2.3"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 3; Results and discussion"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Yq3(py)2]",
+      "formula": "Yq3(py)2",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 1,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "mononuclear tris(8-quinolinolate) pyridine adduct"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared similarly to 2 from Y[N(SiMe3)2]3 (433 mg, 0.76 mmol) and 8-hydroxyquinoline (331 mg, 2.28 mmol) in pyridine; stirred at room temperature, evaporated, and reprecipitated from pyridine with hexane.",
+        "reagents": [
+          {
+            "name": "yttrium tris(hexamethyldisilazide)",
+            "formula": "Y[N(SiMe3)2]3",
+            "role": "metal precursor",
+            "amount": "433 mg, 0.76 mmol"
+          },
+          {
+            "name": "8-hydroxyquinoline",
+            "formula": "Hq",
+            "role": "ligand",
+            "amount": "331 mg, 2.28 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexane"
+        ],
+        "temperature": "room temperature",
+        "time": "15 min (as for 2)",
+        "ph": null,
+        "vessel_or_method": "Schlenk/vacuum, analogous to 2",
+        "workup_and_crystallization": "as for 2: vacuum evaporation and reprecipitation from pyridine/hexane",
+        "yield": "440 mg (85%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Highest luminescence among the studied complexes, including Alq3; ligand-centered emission at 550 nm with relative intensity 1.40 vs Alq3.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "emission wavelength",
+            "value": 550,
+            "unit": "nm",
+            "conditions": "pyridine solution; excitation ~400 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "relative photoluminescence intensity vs Alq3",
+            "value": 1.4,
+            "unit": null,
+            "conditions": "Table 3"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Abstract; Section 2.4"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 3; Results and discussion"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Laq3(py)2]",
+      "formula": "Laq3(py)2",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 1,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "La"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "mononuclear tris(8-quinolinolate) pyridine adduct"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared similarly to 2 from La[N(SiMe3)2]3 (525 mg, 0.85 mmol) and 8-hydroxyquinoline (369 mg, 2.54 mmol) in pyridine.",
+        "reagents": [
+          {
+            "name": "lanthanum tris(hexamethyldisilazide)",
+            "formula": "La[N(SiMe3)2]3",
+            "role": "metal precursor",
+            "amount": "525 mg, 0.85 mmol"
+          },
+          {
+            "name": "8-hydroxyquinoline",
+            "formula": "Hq",
+            "role": "ligand",
+            "amount": "369 mg, 2.54 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexane"
+        ],
+        "temperature": "room temperature",
+        "time": "15 min (as for 2)",
+        "ph": null,
+        "vessel_or_method": "Schlenk/vacuum, analogous to 2",
+        "workup_and_crystallization": "as for 2",
+        "yield": "515 mg (83%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Ligand-centered emission at 550 nm; slightly stronger than methyl-substituted analogue 2 (relative intensity 0.42 vs Alq3).",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "emission wavelength",
+            "value": 550,
+            "unit": "nm",
+            "conditions": "pyridine solution; excitation ~400 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "relative photoluminescence intensity vs Alq3",
+            "value": 0.42,
+            "unit": null,
+            "conditions": "Table 3"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Abstract; Section 2.5"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 3"
+        }
+      ]
+    },
+    {
+      "compound_label": "5",
+      "compound_name": "[Smq3(py)2]",
+      "formula": "Smq3(py)2",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 1,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Sm"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "mononuclear tris(8-quinolinolate) pyridine adduct"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared similarly to 2 from Sm[N(SiMe3)2]3 (480 mg, 0.76 mmol) and 8-hydroxyquinoline (331 mg, 2.28 mmol) in pyridine.",
+        "reagents": [
+          {
+            "name": "samarium tris(hexamethyldisilazide)",
+            "formula": "Sm[N(SiMe3)2]3",
+            "role": "metal precursor",
+            "amount": "480 mg, 0.76 mmol"
+          },
+          {
+            "name": "8-hydroxyquinoline",
+            "formula": "Hq",
+            "role": "ligand",
+            "amount": "331 mg, 2.28 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexane"
+        ],
+        "temperature": "room temperature",
+        "time": "15 min (as for 2)",
+        "ph": null,
+        "vessel_or_method": "Schlenk/vacuum, analogous to 2",
+        "workup_and_crystallization": "as for 2",
+        "yield": "473 mg (84%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Ligand-localized fluorescence is not observed for 5–9, indicating efficient energy transfer from quinolinolate ligands to the lanthanoid ion.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Abstract; Section 2.6"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and discussion"
+        }
+      ]
+    },
+    {
+      "compound_label": "6",
+      "compound_name": "[Euq3(py)2]",
+      "formula": "Euq3(py)2",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 1,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "mononuclear tris(8-quinolinolate) pyridine adduct"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared similarly to 2 from Eu[N(SiMe3)2]3 (360 mg, 0.57 mmol) and 8-hydroxyquinoline (248 mg, 1.71 mmol) in pyridine.",
+        "reagents": [
+          {
+            "name": "europium tris(hexamethyldisilazide)",
+            "formula": "Eu[N(SiMe3)2]3",
+            "role": "metal precursor",
+            "amount": "360 mg, 0.57 mmol"
+          },
+          {
+            "name": "8-hydroxyquinoline",
+            "formula": "Hq",
+            "role": "ligand",
+            "amount": "248 mg, 1.71 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexane"
+        ],
+        "temperature": "room temperature",
+        "time": "15 min (as for 2)",
+        "ph": null,
+        "vessel_or_method": "Schlenk/vacuum, analogous to 2",
+        "workup_and_crystallization": "as for 2",
+        "yield": "347 mg (82%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Ligand-localized fluorescence not observed, consistent with energy transfer to Eu(III).",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Abstract; Section 2.7"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.7"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and discussion"
+        }
+      ]
+    },
+    {
+      "compound_label": "7",
+      "compound_name": "[Tbq3(py)2]",
+      "formula": "Tbq3(py)2",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 1,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "mononuclear tris(8-quinolinolate) pyridine adduct"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared similarly to 2 from Tb[N(SiMe3)2]3 (628 mg, 0.98 mmol) and 8-hydroxyquinoline (427 mg, 2.94 mmol) in pyridine.",
+        "reagents": [
+          {
+            "name": "terbium tris(hexamethyldisilazide)",
+            "formula": "Tb[N(SiMe3)2]3",
+            "role": "metal precursor",
+            "amount": "628 mg, 0.98 mmol"
+          },
+          {
+            "name": "8-hydroxyquinoline",
+            "formula": "Hq",
+            "role": "ligand",
+            "amount": "427 mg, 2.94 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexane"
+        ],
+        "temperature": "room temperature",
+        "time": "15 min (as for 2)",
+        "ph": null,
+        "vessel_or_method": "Schlenk/vacuum, analogous to 2",
+        "workup_and_crystallization": "as for 2",
+        "yield": "617 mg (84%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Ligand-localized fluorescence not observed, consistent with energy transfer to Tb(III).",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Abstract; Section 2.8"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.8"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and discussion"
+        }
+      ]
+    },
+    {
+      "compound_label": "8",
+      "compound_name": "[Erq3(py)2]",
+      "formula": "Erq3(py)2",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 1,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "mononuclear tris(8-quinolinolate) pyridine adduct"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared similarly to 2 from Er[N(SiMe3)2]3 (386 mg, 0.59 mmol) and 8-hydroxyquinoline (260 mg, 1.79 mmol) in pyridine.",
+        "reagents": [
+          {
+            "name": "erbium tris(hexamethyldisilazide)",
+            "formula": "Er[N(SiMe3)2]3",
+            "role": "metal precursor",
+            "amount": "386 mg, 0.59 mmol"
+          },
+          {
+            "name": "8-hydroxyquinoline",
+            "formula": "Hq",
+            "role": "ligand",
+            "amount": "260 mg, 1.79 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexane"
+        ],
+        "temperature": "room temperature",
+        "time": "15 min (as for 2)",
+        "ph": null,
+        "vessel_or_method": "Schlenk/vacuum, analogous to 2",
+        "workup_and_crystallization": "as for 2",
+        "yield": "371 mg (83%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Ligand-localized fluorescence not observed, consistent with energy transfer to Er(III).",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Abstract; Section 2.9"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.9"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and discussion"
+        }
+      ]
+    },
+    {
+      "compound_label": "9",
+      "compound_name": "[Tmq3(py)2]",
+      "formula": "Tmq3(py)2",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 1,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tm"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "mononuclear tris(8-quinolinolate) pyridine adduct"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared similarly to 2 from Tm[N(SiMe3)2]3 (455 mg, 0.70 mmol) and 8-hydroxyquinoline (305 mg, 2.10 mmol) in pyridine.",
+        "reagents": [
+          {
+            "name": "thulium tris(hexamethyldisilazide)",
+            "formula": "Tm[N(SiMe3)2]3",
+            "role": "metal precursor",
+            "amount": "455 mg, 0.70 mmol"
+          },
+          {
+            "name": "8-hydroxyquinoline",
+            "formula": "Hq",
+            "role": "ligand",
+            "amount": "305 mg, 2.10 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexane"
+        ],
+        "temperature": "room temperature",
+        "time": "15 min (as for 2)",
+        "ph": null,
+        "vessel_or_method": "Schlenk/vacuum, analogous to 2",
+        "workup_and_crystallization": "as for 2",
+        "yield": "431 mg (81%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Ligand-localized fluorescence not observed, consistent with energy transfer to Tm(III).",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Abstract; Section 2.10"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.10"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and discussion"
+        }
+      ]
+    },
+    {
+      "compound_label": "10",
+      "compound_name": "[Laq3(Ph3PO)2]",
+      "formula": "Laq3(Ph3PO)2",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 1,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "La"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "mononuclear tris(8-quinolinolate) triphenylphosphine oxide adduct"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Ph3PO (500 mg, 0.90 mmol) in pyridine (10 ml) was treated with 4 (290 mg, 0.40 mmol) in pyridine (10 ml). The mixture was stirred 2 h at 70 °C. Solvent was removed under vacuum; the yellow residue was washed with hot toluene and dried under vacuum.",
+        "reagents": [
+          {
+            "name": "triphenylphosphine oxide",
+            "formula": "Ph3PO",
+            "role": "ancillary ligand",
+            "amount": "500 mg, 0.90 mmol"
+          },
+          {
+            "name": "[Laq3(py)2] (4)",
+            "formula": "Laq3(py)2",
+            "role": "starting complex",
+            "amount": "290 mg, 0.40 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "toluene (wash)"
+        ],
+        "temperature": "70 °C",
+        "time": "2 h",
+        "ph": null,
+        "vessel_or_method": "solution reaction under vacuum/Schlenk conditions",
+        "workup_and_crystallization": "vacuum removal of solvent; wash with hot toluene; vacuum drying",
+        "yield": "410 mg (91%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Ligand-centered emission at 550 nm; replacing pyridine in 4 by Ph3PO halves the intensity (relative intensity 0.21 vs Alq3).",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "emission wavelength",
+            "value": 550,
+            "unit": "nm",
+            "conditions": "pyridine solution; excitation ~400 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "relative photoluminescence intensity vs Alq3",
+            "value": 0.21,
+            "unit": null,
+            "conditions": "Table 3"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Abstract; Section 2.11"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.11"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 3"
+        }
+      ]
+    }
+  ]
+}

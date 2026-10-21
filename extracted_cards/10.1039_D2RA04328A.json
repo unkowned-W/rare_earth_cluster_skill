@@ -1,0 +1,185 @@
+{
+  "title": "Triangulo-{ErIII3} complex showing field supported slow magnetic relaxation",
+  "doi": "10.1039/d2ra04328a",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Er3Cl(o-van)3(OH)2(H2O)5]Cl3·nH2O (n ≈ 9.4; H(o-van) = o-vanillin)",
+      "formula": "[Er3Cl(o-van)3(OH)2(H2O)5]Cl3·9.4H2O",
+      "ccdc_numbers": [
+        "2122186"
+      ],
+      "ccdc_refcodes": [
+        "PEHVAD"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "triangulo-{Er3} o-vanillin cluster with two μ3-OH caps"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A methanolic solution of ErCl3·6H2O (1.0 mmol, 0.381 g in 15 mL) was added dropwise to a stirring methanol solution (50 mL) of o-vanillin (1 mmol, 0.152 g) and 2-aminomethylpyridine (1 mmol, 0.108 mL) in the presence of triethylamine (1 mmol, 0.101 mL). The mixture was refluxed for 4 h in an oil bath. The yellow solution was cooled to room temperature and filtered. Vapor diffusion of diethyl ether into the filtrate yielded X-ray-quality yellow block crystals, which were collected by filtration, washed with cold MeOH, and dried in air and vacuum.",
+        "reagents": [
+          {
+            "name": "erbium chloride hexahydrate",
+            "formula": "ErCl3·6H2O",
+            "role": "metal source",
+            "amount": "1.0 mmol, 0.381 g"
+          },
+          {
+            "name": "o-vanillin",
+            "formula": "C8H8O3",
+            "role": "ligand precursor",
+            "amount": "1 mmol, 0.152 g"
+          },
+          {
+            "name": "2-aminomethylpyridine",
+            "formula": "C6H8N2",
+            "role": "amine (in situ reaction)",
+            "amount": "1 mmol, 0.108 mL"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1 mmol, 0.101 mL"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "diethyl ether"
+        ],
+        "temperature": "reflux (oil bath), then room temperature",
+        "time": "4 hours reflux",
+        "ph": null,
+        "vessel_or_method": "reflux in oil bath; diethyl ether vapor diffusion crystallization",
+        "workup_and_crystallization": "cooled, filtered; vapor diffusion of diethyl ether into the yellow filtrate gave yellow block crystals; washed with cold MeOH; dried in air and vacuum",
+        "yield": "160 mg, 35%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Field-supported SMM with two-mode slow magnetic relaxation (LF below ~1 Hz and HF above ~100 Hz). DC χT/C0 falls from 84.4 at room temperature to 51.4 at 2.0 K, consistent with antiferromagnetic exchange on an isosceles Er3 triangle. Magnetization at 2.0 K and 7.0 T does not saturate. Fitted isotropic exchange: J/hc = 0.48 cm−1, J′/hc = −1.00 cm−1, geff = 1.15. Out-of-phase AC susceptibility is silent at BDC = 0 and appears under applied DC field, peaking near 0.3 T.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT/C0",
+            "value": 84.4,
+            "unit": "dimensionless",
+            "conditions": "room temperature; C0 = 4.714×10−6 m3 mol−1 (SI)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT/C0",
+            "value": 51.4,
+            "unit": "dimensionless",
+            "conditions": "T = 2.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "isotropic exchange J/hc",
+            "value": "0.48",
+            "unit": "cm−1",
+            "conditions": "fit of DC susceptibility; isosceles triangle model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "isotropic exchange J′/hc",
+            "value": "-1.00",
+            "unit": "cm−1",
+            "conditions": "fit of DC susceptibility; unique Er2–Er3 edge"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "geff",
+            "value": 1.15,
+            "unit": null,
+            "conditions": "isotropic exchange Hamiltonian fit; R = 0.054"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ_LF",
+            "value": "1.2(1)",
+            "unit": "s",
+            "conditions": "two-set Debye fit; BDC = 0.3 T, T = 2.0 K; x_LF = 0.73"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ_HF",
+            "value": "0.61(4)",
+            "unit": "ms",
+            "conditions": "two-set Debye fit; BDC = 0.3 T, T = 2.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "adiabatic susceptibility χS",
+            "value": "53×10−6",
+            "unit": "m3 mol−1",
+            "conditions": "SI units; BDC = 0.3 T, T = 2.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ_LF",
+            "value": "0.30(1)",
+            "unit": "s",
+            "conditions": "BDC = 0.3 T, T = 4.0 K; x_LF = 0.54"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ_HF",
+            "value": "4.5(16)",
+            "unit": "ms",
+            "conditions": "BDC = 0.3 T, T = 4.0 K; reciprocating thermal behaviour of HF mode"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "AC field amplitude BAC",
+            "value": 0.35,
+            "unit": "mT",
+            "conditions": "AC susceptibility scans; f = 0.1–1500 Hz; T = 2.0–4.5 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "abstract; Experimental, Synthesis of erbium complex (1)"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; Introduction"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2122186 / PEHVAD"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and discussion, crystal structure"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of erbium complex (1)"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "DC magnetic data for 1; AC magnetic data for 1; Conclusions"
+        }
+      ]
+    }
+  ]
+}

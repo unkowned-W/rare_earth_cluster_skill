@@ -1,0 +1,152 @@
+{
+  "refcode": "BABPUT",
+  "ccdc_number": "2019141",
+  "dois": [
+    "10.1039/d0dt02698k"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2019141.cif",
+  "formula_moiety": "C113 H85 Dy3 N8 O14 2+,2(C1 H4 O1),2(Cl1 O4 1-),C1 H2 Cl2",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "17.0092(6)",
+    "b": "28.1560(10)",
+    "c": "25.5123(9)",
+    "alpha": "90",
+    "beta": "107.1480(10)",
+    "gamma": "90",
+    "volume": "11675",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O13",
+        "O14"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O4",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O11"
+        ],
+        "metal_metal_separation_angstrom": 3.868,
+        "bridge_geometry": [
+          {
+            "oxygen": "O10",
+            "angle_deg": 114.1,
+            "metal_oxygen_distances_angstrom": [
+              2.299,
+              2.31
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 108.12,
+            "metal_oxygen_distances_angstrom": [
+              2.342,
+              2.436
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.865,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 106.9,
+            "metal_oxygen_distances_angstrom": [
+              2.476,
+              2.334
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 113.95,
+            "metal_oxygen_distances_angstrom": [
+              2.314,
+              2.295
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "BABPUT crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C113 H85 Dy3 N8 O14 2+,2(C1 H4 O1),2(Cl1 O4 1-),C1 H2 Cl2. From the CIF bond table, Dy1 (Dy) has 4 O neighbors; Dy2 (Dy) has 8 O neighbors; Dy3 (Dy) has 4 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.865-3.868 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.90-114.10°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C116H95Cl4Dy3N8O24.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d0dt02698k",
+    "formula": "C116H95Cl4Dy3N8O24",
+    "compound_name": "[Dy3(dbm)3(L)4](ClO4)2·CH2Cl2·2MeOH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "refcode": "BOGWOL",
+  "ccdc_number": "1002844",
+  "dois": [
+    "10.1021/om5000198"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1002844.cif",
+  "formula_moiety": "C96 H112 N8 O4 Yb3,6(C7 H8)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "27.873(2)",
+    "b": "14.3664(10)",
+    "c": "31.753(3)",
+    "alpha": "90.00",
+    "beta": "105.884(2)",
+    "gamma": "90.00",
+    "volume": "12229.5",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O4"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.626,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 106.11,
+            "metal_oxygen_distances_angstrom": [
+              2.218,
+              2.318
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 106.11,
+            "metal_oxygen_distances_angstrom": [
+              2.218,
+              2.318
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb2",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.622,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 105.99,
+            "metal_oxygen_distances_angstrom": [
+              2.326,
+              2.209
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 105.99,
+            "metal_oxygen_distances_angstrom": [
+              2.326,
+              2.209
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2",
+        "Yb3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "BOGWOL crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C96 H112 N8 O4 Yb3,6(C7 H8). From the CIF bond table, Yb1 (Yb) has 2 O neighbors; Yb2 (Yb) has 4 O neighbors; Yb3 (Yb) has 2 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.622-3.626 Å (not direct metal-metal bonds). Computed M-O-M angles span 105.99-106.11°; individual values and O labels are in metal_framework.links. Article card reports molecular formula L4YbIII2YbII·6C7H8 (L = 3,5-tBu2-2-OC6H2CH2N-8-C9H6N; crystal/anal. C138H160N8O4Yb3). Article name explicitly identifies Yb(III), Yb(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/om5000198",
+    "formula": "L4YbIII2YbII·6C7H8 (L = 3,5-tBu2-2-OC6H2CH2N-8-C9H6N; crystal/anal. C138H160N8O4Yb3)",
+    "compound_name": "mixed-valent ytterbium complex L4YbIII2YbII·6C7H8",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "Yb",
+        "state": "III",
+        "basis": "article compound name"
+      },
+      {
+        "element": "Yb",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "title": "A linear tetranuclear dysprosium(III) compound showing single-molecule magnet behaviour",
+  "doi": "10.1039/c0cc01067g",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4(L)4(HL)2(C7H6NO2)2(CH3OH)4]·5CH3OH (H2L = N-(2-carboxyphenyl)salicylidenimine)",
+      "formula": "C107H104Dy4N8O31",
+      "ccdc_numbers": [
+        "773110"
+      ],
+      "ccdc_refcodes": [
+        "SUXLED"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear tetranuclear Dy4 Schiff-base cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "To a solution of the Schiff-base ligand H2L (0.20 mmol, 0.0492 g) and triethylamine (0.45 mL, 0.2 mmol) in 15 mL of methanol was added solid dysprosium acetate monohydrate (0.2 mmol, 0.072 g). The mixture was stirred for one hour, and the yellow solution was left unperturbed for slow evaporation of the solvent. Yellow single crystals formed after one week, were collected by filtration, washed with cold methanol, and dried in air. The main text only states that Dy(OAc)3·H2O reacts with H2L in methanol in the presence of triethylamine to give yellow crystals of 1, without numerical amounts.",
+        "reagents": [
+          {
+            "name": "N-(2-carboxyphenyl)salicylidenimine",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.20 mmol, 0.0492 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.45 mL, 0.2 mmol"
+          },
+          {
+            "name": "methanol",
+            "formula": "CH3OH",
+            "role": "solvent",
+            "amount": "15 mL"
+          },
+          {
+            "name": "dysprosium acetate monohydrate",
+            "formula": "Dy(OAc)3·H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol, 0.072 g"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": null,
+        "time": "stirred for 1 h; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "slow solvent evaporation",
+        "workup_and_crystallization": "Yellow crystals formed by slow evaporation over one week, collected by filtration, washed with cold methanol, and dried in air.",
+        "yield": "35 mg (39.6%, based on the ligand)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Compound 1 is a single-molecule magnet. χMT falls from near the four-uncoupled-Dy(III) value at 300 K to 31.7 cm3 K mol−1 at 2 K through depopulation of Stark sublevels. Magnetization does not saturate and M vs H/T curves do not superimpose, indicating anisotropy and/or low-lying excited states. AC data under zero dc field show slow relaxation; Cole–Cole α is near zero from 5.5–9 K (essentially one process) and increases below 5.5 K, with asymmetric low-temperature plots attributed to slightly distinct anisotropic centres. Below 3 K relaxation is temperature-independent (quantum tunneling); an Arrhenius fit above 5.5 K gives a barrier of about 20 K. No hysteresis is observed at 1.9 K at the magnetometer sweep rate.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "56.3",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "31.7",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, minimum, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "27.0",
+            "unit": "μB",
+            "conditions": "1.9 K, 70 kOe; no clear saturation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "relaxation time",
+            "value": "0.00068",
+            "unit": "s",
+            "conditions": "temperature-independent quantum regime below 3 K, zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier",
+            "value": "20",
+            "unit": "K",
+            "conditions": "Arrhenius fit of τ above 5.5 K, zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Notes and references, crystal data for 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 773110, refcode SUXLED"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "discussion of Fig. 1 and Scheme 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetic discussion, Figs. 3–6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+{
+  "title": "Observation of Slow Relaxation and Single-Molecule Toroidal Behavior in a Family of Butterfly-Shaped Ln4 Complexes",
+  "doi": "10.1002/chem.201603640",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4(LH)2(μ2-η1η1-Piv)2(η2-Piv)2(μ3-OH)2]·2H2O·2MeOH",
+      "formula": "C58H80Dy4N8O20·2(CH4O)·2(H2O)",
+      "ccdc_numbers": [
+        "1490848"
+      ],
+      "ccdc_refcodes": [
+        "UZUXEU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "butterfly-shaped Ln4"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "All complexes 1–5 were prepared analogously. To a stirred solution of LH4 (0.046 g, 0.12 mmol) in methanol (20 mL) was added Ln(NO3)3·5H2O (0.24 mmol), giving a yellow solution that was stirred for 10 min. Triethylamine (0.09 mL, 0.6 mmol) was added dropwise at room temperature and stirring continued for 15 min. Pivalic acid (0.025 g, 0.24 mmol) was then added and stirring continued for 12 h, yielding a yellow precipitate. The solid was filtered, washed with diethyl ether (2 × 20 mL), dried, redissolved in 1:1 methanol/chloroform, and crystallized by slow evaporation; yellow block crystals formed within a week. For 1: LH4 (0.046 g, 0.12 mmol), Dy(NO3)3·5H2O (0.107 g, 0.24 mmol), Et3N (0.09 mL, 0.6 mmol), PivH (0.025 g, 0.24 mmol).",
+        "reagents": [
+          {
+            "name": "LH4 (6-{[bis(2-hydroxyethyl)amino]methyl}-N′-(2-hydroxy-3-methoxybenzylidene)picolinohydrazide)",
+            "formula": "C19H24N4O5",
+            "role": "ligand",
+            "amount": "0.046 g, 0.12 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "metal salt",
+            "amount": "0.107 g, 0.24 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.09 mL, 0.6 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "PivH",
+            "role": "coligand",
+            "amount": "0.025 g, 0.24 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "chloroform",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 12 h after PivH addition; crystals within a week",
+        "ph": null,
+        "vessel_or_method": "solution synthesis followed by slow evaporation crystallization",
+        "workup_and_crystallization": "yellow precipitate filtered, washed with diethyl ether (2 × 20 mL), dried, redissolved in 1:1 v/v MeOH/CHCl3; yellow block crystals by slow evaporation",
+        "yield": "0.069 g, 59.48% (based on ligand)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dy4 butterfly cluster is an SMM with frequency-dependent ac susceptibility and one relaxation process. Room-temperature χMT is 56.51 cm3 K mol−1; χMT rises to 60.04 cm3 K mol−1 at 40 K then falls to 21.31 cm3 K mol−1 at 2 K (1 T), indicating weak ferromagnetic interactions. Orbach+QTM fit gives Ueff = 49.03 K (34.08 cm−1). Ab initio analysis also indicates a mixed toroidal moment (SMT).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 56.51,
+            "unit": "cm3 K mol-1",
+            "conditions": "dc susceptibility, 2–300 K, 0.1 or 1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (40 K)",
+            "value": 60.04,
+            "unit": "cm3 K mol-1",
+            "conditions": "upon cooling"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 21.31,
+            "unit": "cm3 K mol-1",
+            "conditions": "1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (Orbach + QTM)",
+            "value": 49.03,
+            "unit": "K",
+            "conditions": "ac relaxation of 1; also reported as 34.08 cm-1; τ0 = 5.78e-8 s; τQTM = 4.13e-4 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (Orbach + QTM)",
+            "value": 5.78e-08,
+            "unit": "s",
+            "conditions": "fit of χ″ vs frequency, 0 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (high-T Arrhenius/Orbach)",
+            "value": 40.92,
+            "unit": "K",
+            "conditions": "linear high-temperature fit; also 28.44 cm-1; τ0 = 1.5e-7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J1, J2, J3",
+            "value": "+2.35, -0.58, -0.29",
+            "unit": "cm-1",
+            "conditions": "POLY_ANISO/ab initio fitted exchange"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Experimental Synthesis of 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray crystallography: CCDC 1490848 (1)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row UZUXEU / 1490848"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, General synthetic procedure and compound 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic measurements; dc/ac discussion; Figure 7; Abstract"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Tb4(LH)2(μ2-η1η1-Piv)2(η2-Piv)2(μ3-OH)2]·6CHCl3",
+      "formula": "C58H80N8O20Tb4·6(CHCl3)",
+      "ccdc_numbers": [
+        "1490849"
+      ],
+      "ccdc_refcodes": [
+        "YACYAF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "butterfly-shaped Ln4"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the general procedure for 1–5 using LH4 (0.046 g, 0.12 mmol), Tb(NO3)3·5H2O (0.104 g, 0.24 mmol), Et3N (0.09 mL, 0.6 mmol) and PivH (0.025 g, 0.24 mmol) in methanol, followed by isolation of the yellow precipitate and crystallization from 1:1 methanol/chloroform.",
+        "reagents": [
+          {
+            "name": "LH4",
+            "formula": "C19H24N4O5",
+            "role": "ligand",
+            "amount": "0.046 g, 0.12 mmol"
+          },
+          {
+            "name": "terbium(III) nitrate pentahydrate",
+            "formula": "Tb(NO3)3·5H2O",
+            "role": "metal salt",
+            "amount": "0.104 g, 0.24 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.09 mL, 0.6 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "PivH",
+            "role": "coligand",
+            "amount": "0.025 g, 0.24 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "chloroform",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h stirring; crystals within a week",
+        "ph": null,
+        "vessel_or_method": "solution synthesis; slow evaporation",
+        "workup_and_crystallization": "yellow precipitate filtered, washed with diethyl ether, crystallized from 1:1 MeOH/CHCl3",
+        "yield": "0.068 g, 45.03% (based on ligand)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "No SMM behavior: ac data show no frequency-dependent χ′/χ″ SMM signature at 0 or 0.15 T. χMT at 300 K is 46.44 cm3 K mol−1 and falls to 18.31 cm3 K mol−1 at 2 K (0.1 T). Calculations suggest single-molecule toroidal character.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 46.44,
+            "unit": "cm3 K mol-1",
+            "conditions": "dc susceptibility, 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 18.31,
+            "unit": "cm3 K mol-1",
+            "conditions": "0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J1, J2, J3",
+            "value": "+0.45, -0.68, -0.29",
+            "unit": "cm-1",
+            "conditions": "ab initio fitted exchange"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Experimental compound 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 1490849 (2)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "YACYAF / 1490849"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, compound 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetic discussion; Figure 5"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Er4(LH)2(μ2-η1η1-Piv)2(η2-Piv)2(μ3-OH)2]·2H2O·2MeOH",
+      "formula": "C58H80Er4N8O20·2(CH4O)·2(H2O)",
+      "ccdc_numbers": [
+        "1490850"
+      ],
+      "ccdc_refcodes": [
+        "YACLUM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "butterfly-shaped Ln4"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the general procedure for 1–5 using LH4 (0.046 g, 0.12 mmol), Er(NO3)3·5H2O (0.106 g, 0.24 mmol), Et3N (0.09 mL, 0.6 mmol) and PivH (0.025 g, 0.24 mmol).",
+        "reagents": [
+          {
+            "name": "LH4",
+            "formula": "C19H24N4O5",
+            "role": "ligand",
+            "amount": "0.046 g, 0.12 mmol"
+          },
+          {
+            "name": "erbium(III) nitrate pentahydrate",
+            "formula": "Er(NO3)3·5H2O",
+            "role": "metal salt",
+            "amount": "0.106 g, 0.24 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.09 mL, 0.6 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "PivH",
+            "role": "coligand",
+            "amount": "0.025 g, 0.24 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "chloroform",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h stirring; crystals within a week",
+        "ph": null,
+        "vessel_or_method": "solution synthesis; slow evaporation",
+        "workup_and_crystallization": "yellow precipitate filtered, washed with diethyl ether, crystallized from 1:1 MeOH/CHCl3",
+        "yield": "0.065 g, 54.16% (based on ligand)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "No SMM behavior. χMT = 44.45 cm3 K mol−1 at 300 K, decreasing to 16.94 cm3 K mol−1 at 2 K (1 T). Large computed transverse anisotropy accounts for the absence of slow relaxation.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 44.45,
+            "unit": "cm3 K mol-1",
+            "conditions": "dc susceptibility"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 16.94,
+            "unit": "cm3 K mol-1",
+            "conditions": "1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J1, J2, J3",
+            "value": "+0.03, -0.98, -0.19",
+            "unit": "cm-1",
+            "conditions": "ab initio fitted exchange"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Experimental compound 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 1490850 (3)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "YACLUM / 1490850"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, compound 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc magnetic discussion; Abstract"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Ho4(LH)2(μ2-η1η1-Piv)2(η2-Piv)2(μ3-OH)2]·2H2O·2MeOH",
+      "formula": "C58H80Ho4N8O20·2(CH4O)·2(H2O)",
+      "ccdc_numbers": [
+        "1490851"
+      ],
+      "ccdc_refcodes": [
+        "EBUZEJ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "butterfly-shaped Ln4"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the general procedure for 1–5 using LH4 (0.046 g, 0.12 mmol), Ho(NO3)3·5H2O (0.105 g, 0.24 mmol), Et3N (0.09 mL, 0.6 mmol) and PivH (0.025 g, 0.24 mmol).",
+        "reagents": [
+          {
+            "name": "LH4",
+            "formula": "C19H24N4O5",
+            "role": "ligand",
+            "amount": "0.046 g, 0.12 mmol"
+          },
+          {
+            "name": "holmium(III) nitrate pentahydrate",
+            "formula": "Ho(NO3)3·5H2O",
+            "role": "metal salt",
+            "amount": "0.105 g, 0.24 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.09 mL, 0.6 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "PivH",
+            "role": "coligand",
+            "amount": "0.025 g, 0.24 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "chloroform",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h stirring; crystals within a week",
+        "ph": null,
+        "vessel_or_method": "solution synthesis; slow evaporation",
+        "workup_and_crystallization": "yellow precipitate filtered, washed with diethyl ether, crystallized from 1:1 MeOH/CHCl3",
+        "yield": "0.071 g (based on ligand; percentage incompletely parsed in Markdown)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "No SMM behavior. χMT = 55.52 cm3 K mol−1 at 300 K, nearly constant to 20 K, then drops to 20.03 cm3 K mol−1 at 2 K (1 T). Large computed transverse anisotropy.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 55.52,
+            "unit": "cm3 K mol-1",
+            "conditions": "dc susceptibility"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 20.03,
+            "unit": "cm3 K mol-1",
+            "conditions": "1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J1, J2, J3",
+            "value": "+4.15, -0.23, -0.54",
+            "unit": "cm-1",
+            "conditions": "ab initio fitted exchange"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Experimental compound 4"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 1490851 (4)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "EBUZEJ / 1490851"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, compound 4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc magnetic discussion; Figure 6"
+        }
+      ]
+    },
+    {
+      "compound_label": "5",
+      "compound_name": "[Yb4(LH)2(μ2-η1η1-Piv)2(η2-Piv)2(μ3-OH)2]·2H2O·2MeOH",
+      "formula": "C58H78N8O20Yb4·2(CH4O)·2(H2O)",
+      "ccdc_numbers": [
+        "1490852"
+      ],
+      "ccdc_refcodes": [
+        "EBUZIN"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "butterfly-shaped Ln4"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the general procedure for 1–5 using LH4 (0.046 g, 0.12 mmol), Yb(NO3)3·5H2O (0.105 g, 0.24 mmol), Et3N (0.09 mL, 0.6 mmol) and PivH (0.025 g, 0.24 mmol).",
+        "reagents": [
+          {
+            "name": "LH4",
+            "formula": "C19H24N4O5",
+            "role": "ligand",
+            "amount": "0.046 g, 0.12 mmol"
+          },
+          {
+            "name": "ytterbium(III) nitrate pentahydrate",
+            "formula": "Yb(NO3)3·5H2O",
+            "role": "metal salt",
+            "amount": "0.105 g, 0.24 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.09 mL, 0.6 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "PivH",
+            "role": "coligand",
+            "amount": "0.025 g, 0.24 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "chloroform",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h stirring; crystals within a week",
+        "ph": null,
+        "vessel_or_method": "solution synthesis; slow evaporation",
+        "workup_and_crystallization": "yellow precipitate filtered, washed with diethyl ether, crystallized from 1:1 MeOH/CHCl3",
+        "yield": "0.063 g, 53.38% (based on ligand)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "No SMM behavior. χMT = 9.52 cm3 K mol−1 at 300 K, decreasing rapidly to 5.12 cm3 K mol−1 at 2 K (1 T), attributed to large 2F7/2 splitting and depopulation of excited Stark levels plus antiferromagnetic interactions.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 9.52,
+            "unit": "cm3 K mol-1",
+            "conditions": "dc susceptibility"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 5.12,
+            "unit": "cm3 K mol-1",
+            "conditions": "1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J1, J2, J3",
+            "value": "+0.15, -0.28, -1.18",
+            "unit": "cm-1",
+            "conditions": "ab initio fitted exchange"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Experimental compound 5"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 1490852 (5)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "EBUZIN / 1490852"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, compound 5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc magnetic discussion; Figure 6"
+        }
+      ]
+    }
+  ]
+}

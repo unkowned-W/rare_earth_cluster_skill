@@ -1,0 +1,184 @@
+{
+  "title": "Molecular analogue of the perovskite repeating unit and evidence for direct MnIII–CeIV–MnIII exchange coupling pathway",
+  "doi": "10.1038/s41467-017-00642-0",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Ce3Mn8",
+      "compound_name": "[Ce3Mn8O8(O2CPh)18(HO2CPh)2]",
+      "formula": "[Ce3Mn8O8(O2CPh)18(HO2CPh)2]·x(solvent)",
+      "ccdc_numbers": [
+        "1533475"
+      ],
+      "ccdc_refcodes": [
+        "VEGYEO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 11,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ce"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "perovskite-like {CeIVMnIII8O8} cube with two external CeIII ions"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Comproportionation of Mn(O2CPh)2·2H2O, Ce(NO3)3·6H2O, n-Bu4NMnO4, and PhCO2H in a 4:4:1:16 molar ratio in MeNO2 at ~80 °C gave a dark brown solution from which [Ce3Mn8O8(O2CPh)18(HO2CPh)2] was isolated as black crystals (~55% yield based on Mn). Single-crystal X-ray diffraction at 100 K confirmed the structure; metal oxidation states and oxygen protonation levels were assigned from charge balance and bond-valence sums.",
+        "reagents": [
+          {
+            "name": "manganese(II) benzoate dihydrate",
+            "formula": "Mn(O2CPh)2·2H2O",
+            "role": "Mn(II) starting material",
+            "amount": "4 molar equivalents"
+          },
+          {
+            "name": "cerium(III) nitrate hexahydrate",
+            "formula": "Ce(NO3)3·6H2O",
+            "role": "Ce source",
+            "amount": "4 molar equivalents"
+          },
+          {
+            "name": "tetra-n-butylammonium permanganate",
+            "formula": "n-Bu4NMnO4",
+            "role": "Mn(VII) oxidant in comproportionation",
+            "amount": "1 molar equivalent"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "PhCO2H",
+            "role": "carboxylate ligand",
+            "amount": "16 molar equivalents"
+          }
+        ],
+        "solvents": [
+          "MeNO2"
+        ],
+        "temperature": "~80 °C (reaction); 100 K (SCXRD)",
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "solution comproportionation; crystallization from the reaction mixture",
+        "workup_and_crystallization": "dark brown solution yielded black crystals of Ce3Mn8",
+        "yield": "~55% based on Mn"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Solid-state dc susceptibility of Ce3Mn8 (eicosane-restrained microcrystals, 1 kG, 5–300 K) shows χMT rising from 26.80 cm3 K mol−1 at 300 K to 32.68 cm3 K mol−1 at 30 K then falling to 12.41 cm3 K mol−1 at 5 K, consistent with dominant ferromagnetic MnIII–MnIII pairwise couplings and a C-type antiferromagnetic S = 0 Mn8 cube plus two essentially non-interacting CeIII ions. Ac χM′T down to 1.8 K extrapolates toward ~1.62 cm3 K mol−1 expected for two independent CeIII ions. Fit of χMT to a multi-spin Heisenberg model gave J1 = +1.26 meV (+10.2 cm−1), J2 = +0.69 meV (+5.6 cm−1), J3 = −0.74 meV (−6.0 cm−1), and D = −0.05 meV (−0.40 cm−1), reproducing the C-AF-I ground state; DFT indicated an additional direct MnIII–CeIV–MnIII exchange channel via unoccupied Ce 4f orbitals.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 26.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 1 kG (0.1 T), 300 K; microcrystalline sample in eicosane; CeIII contributions later discussed separately"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT maximum",
+            "value": 32.68,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 1 kG, 30 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 12.41,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 1 kG, 5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "spin-only χMT (calculated, non-interacting 8 MnIII + 2 CeIII)",
+            "value": 25.62,
+            "unit": "cm3 K mol−1",
+            "conditions": "MnIII S = 2, g = 2; CeIII 2F5/2, χMT = 0.81 cm3 K mol−1 each"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac χM′T low-T intercept (expected for two independent CeIII)",
+            "value": 1.62,
+            "unit": "cm3 K mol−1",
+            "conditions": "in-phase ac susceptibility vs T down to 1.8 K (Supplementary Fig. 1)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1 (fit to experimental χMT)",
+            "value": "+1.26 meV (+10.2 cm−1)",
+            "unit": null,
+            "conditions": "multi-spin Heisenberg model; positive = FM"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J2 (fit to experimental χMT)",
+            "value": "+0.69 meV (+5.6 cm−1)",
+            "unit": null,
+            "conditions": "multi-spin Heisenberg model; positive = FM"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J3 (fit to experimental χMT)",
+            "value": "−0.74 meV (−6.0 cm−1)",
+            "unit": null,
+            "conditions": "multi-spin Heisenberg model; negative = AF"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "axial anisotropy D (fit)",
+            "value": "−0.05 meV (−0.40 cm−1)",
+            "unit": null,
+            "conditions": "easy axis along global z, perpendicular to Mn1–Mn4–Mn2–Mn6 and Mn3–Mn5–Mn7–Mn8 planes"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "DFT exchange parameters",
+            "value": "J1 = +1.61 meV (+13 cm−1); J2 = +0.72 meV (+5.8 cm−1); J3 = −1.10 meV (−8.87 cm−1); D = −0.07 meV (−0.56 cm−1)",
+            "unit": null,
+            "conditions": "broken-symmetry DFT / multi-spin model prior to experimental refinement"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "title/abstract; Methods, Data availability"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Methods, Data availability (CCDC 1533475)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Methods, Data availability"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row VEGYEO / 1533475"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Synthesis and structure characteristics; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Methods, Experiments"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic structure analysis; Fig. 2; theoretical analysis of magnetic properties"
+        }
+      ]
+    }
+  ]
+}

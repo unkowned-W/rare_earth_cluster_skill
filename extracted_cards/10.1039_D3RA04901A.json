@@ -1,0 +1,470 @@
+{
+  "title": "Tetranuclear lanthanide-based silsesquioxanes: towards a combination of a slow relaxation of the magnetization and a luminescent thermometry",
+  "doi": "10.1039/d3ra04901a",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "tetraethylammonium tetranuclear Dy/Eu silsesquioxane nitrate ethanol acetonitrile solvate",
+      "formula": "[NEt4]2[(Ph4Si4O8)2Dy0.87Eu3.12(NO3)6(EtOH)(MeCN)2]·4MeCN",
+      "ccdc_numbers": [
+        "2240602"
+      ],
+      "ccdc_refcodes": [
+        "JISXUI"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy",
+          "Eu"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "cage-like tetranuclear lanthanide silsesquioxane (paper-lantern prism)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Compounds 1–3 were prepared analogously. PhSi(OMe)3 (0.94 mmol) and NaOH (0.94 mmol) were dissolved in 30 mL ethanol and heated to reflux for 1.0 h. A mixture of lanthanide salts (0.47 mmol total) and Et4NCl (0.47 mmol) in 30 mL MeCN was then added at once. The mixture was refluxed for 3 h, filtered from insoluble residue, and crystalline material was obtained by slow solvent evaporation over a few days. Single crystals were collected; products were dried in vacuum for elemental analysis and yield. For 1, loadings were PhSi(OMe)3 (0.186 g, 0.94 mmol), NaOH (0.038 g, 0.94 mmol), Eu(NO3)3·6H2O (0.16 g, 0.35 mmol), Dy(NO3)3·6H2O (0.05 g, 0.12 mmol), Et4NCl (0.08 g, 0.47 mmol).",
+        "reagents": [
+          {
+            "name": "phenyltrimethoxysilane",
+            "formula": "PhSi(OMe)3",
+            "role": "silsesquioxane precursor",
+            "amount": "0.186 g, 0.94 mmol"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "base",
+            "amount": "0.038 g, 0.94 mmol"
+          },
+          {
+            "name": "europium(III) nitrate hexahydrate",
+            "formula": "Eu(NO3)3·6H2O",
+            "role": "lanthanide source",
+            "amount": "0.16 g, 0.35 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "lanthanide source",
+            "amount": "0.05 g, 0.12 mmol"
+          },
+          {
+            "name": "tetraethylammonium chloride",
+            "formula": "Et4NCl",
+            "role": "counterion source",
+            "amount": "0.08 g, 0.47 mmol"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "acetonitrile"
+        ],
+        "temperature": "reflux (ethanol then mixed solvent)",
+        "time": "1.0 h reflux of silanolate, then 3 h reflux after salt addition; crystallization over a few days",
+        "ph": null,
+        "vessel_or_method": "reflux in ethanol/acetonitrile; filtration; slow evaporation crystallization",
+        "workup_and_crystallization": "filtered from insoluble residue to a colourless solution; crystals grown by slow evaporation; dried in vacuum",
+        "yield": "33% (0.09 g)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Field-induced SMM: slow magnetization relaxation under 1000 Oe (QTM suppressed); Δ = 11.3 ± 0.6 cm−1, τ0 = (2.5 ± 0.8)×10−6 s. Room-temperature Eu3+ photoluminescence (main 5D0→7F2 at 612 nm) used for self-referenced LIR thermometry of 5D0→7F4 under 590 and 612 nm excitation (293–373 K); maximum Sr = 1.15% K−1 at 293 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "dc χT",
+            "value": "measured 1.8–310 K; room-temperature χT agrees with Table S3",
+            "unit": null,
+            "conditions": "SQUID MPMS3, 1000 Oe, 1.8–310 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization vs field",
+            "value": "no saturation at 7 T",
+            "unit": null,
+            "conditions": "1.8 K, up to 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ",
+            "value": "11.3 ± 0.6",
+            "unit": "cm−1",
+            "conditions": "ac susceptibility, Hdc = 1000 Oe; Orbach + CH fit (eqn 3)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "(2.5 ± 0.8)×10−6",
+            "unit": "s",
+            "conditions": "Hdc = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "CH (QTM term)",
+            "value": "901 ± 22",
+            "unit": "s−1",
+            "conditions": "Hdc = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "field-dependence fit parameters",
+            "value": "CT = 672 ± 12 s−1; A = (6.71 ± 0.85)×10^4 s−1 T−4 K−1; B1 = (3.05 ± 0.41)×10^3 s−1; B2 = (1.37 ± 0.32)×10^4 T−2",
+            "unit": null,
+            "conditions": "eqn (2); optimum field 1000 Oe"
+          },
+          {
+            "property_type": "optical",
+            "name": "Eu3+ emission maximum (5D0→7F2)",
+            "value": 612,
+            "unit": "nm",
+            "conditions": "solid state, 298 K, λex = 395 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "weak 5D0→7F0 emission",
+            "value": 580,
+            "unit": "nm",
+            "conditions": "solid state, 298 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "LIR thermometry ΔE",
+            "value": "686 ± 24",
+            "unit": "cm−1",
+            "conditions": "I(5D0→7F4 at 703 nm) under λex 590 vs 612 nm; 293–353/373 K; C = 14.5 ± 1.5"
+          },
+          {
+            "property_type": "optical",
+            "name": "maximum relative thermal sensitivity Sr",
+            "value": 1.15,
+            "unit": "% K−1",
+            "conditions": "293 K; LIR thermometer"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental, compound 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray crystallography, CCDC 2240602"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "JISXUI / 2240602"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental synthesis of 1–3"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Synthesis and crystal structures; Fig. 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Photoluminescence of compound 1; Fig. 2–5"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "tetraethylammonium tetranuclear Dy/Tb silsesquioxane nitrate ethanol acetonitrile solvate",
+      "formula": "[NEt4]2[(Ph4Si4O8)2Dy3.12Tb0.88(NO3)6(EtOH)2(MeCN)2]·4MeCN",
+      "ccdc_numbers": [
+        "2240603"
+      ],
+      "ccdc_refcodes": [
+        "JISYAP"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy",
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "cage-like tetranuclear lanthanide silsesquioxane"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared as for 1–3. PhSi(OMe)3 and NaOH in 30 mL ethanol were refluxed 1.0 h; Dy(NO3)3·6H2O, Tb(NO3)3·6H2O and Et4NCl in 30 mL MeCN were added, refluxed 3 h, filtered, and crystallized by slow evaporation. Loadings: PhSi(OMe)3 (0.186 g, 0.94 mmol), NaOH (0.038 g, 0.94 mmol), Dy(NO3)3·6H2O (0.16 g, 0.35 mmol), Tb(NO3)3·6H2O (0.05 g, 0.12 mmol), Et4NCl (0.08 g, 0.47 mmol).",
+        "reagents": [
+          {
+            "name": "phenyltrimethoxysilane",
+            "formula": "PhSi(OMe)3",
+            "role": "silsesquioxane precursor",
+            "amount": "0.186 g, 0.94 mmol"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "base",
+            "amount": "0.038 g, 0.94 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "lanthanide source",
+            "amount": "0.16 g, 0.35 mmol"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "lanthanide source",
+            "amount": "0.05 g, 0.12 mmol"
+          },
+          {
+            "name": "tetraethylammonium chloride",
+            "formula": "Et4NCl",
+            "role": "counterion source",
+            "amount": "0.08 g, 0.47 mmol"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "acetonitrile"
+        ],
+        "temperature": "reflux",
+        "time": "1.0 h then 3 h reflux; crystallization over a few days",
+        "ph": null,
+        "vessel_or_method": "reflux; filtration; slow evaporation",
+        "workup_and_crystallization": "filtered colourless solution; crystals by slow evaporation; dried in vacuum",
+        "yield": "40% (0.11 g)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Paramagnetic (no SMM/slow relaxation in ac mode, attributed to Dy–Dy interactions). Solid-state photoluminescence at 298 K shows Dy3+ sensitization of Tb3+ (Dy→Tb energy transfer): excitation at 350 nm gives mixed Tb3+/Dy3+ emission; excitation at 452 nm probes Dy3+.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "dc χT",
+            "value": "paramagnetic; χT decreases on cooling",
+            "unit": null,
+            "conditions": "1000 Oe, 1.8–310 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility",
+            "value": "no slow relaxation of magnetization",
+            "unit": null,
+            "conditions": "ac mode; compared with compound 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "Tb3+-monitored excitation",
+            "value": 543,
+            "unit": "nm",
+            "conditions": "solid state, RT; λem = 543 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission under Tb3+ excitation",
+            "value": "six emission bands including Tb3+ and Dy3+",
+            "unit": null,
+            "conditions": "solid state, RT, λex = 350 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Dy3+-monitored excitation/emission",
+            "value": "λem = 572 nm; λex = 452 nm",
+            "unit": null,
+            "conditions": "solid state, room temperature"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental, compound 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray crystallography, CCDC 2240603"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "JISYAP / 2240603"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental synthesis of 1–3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Luminescence of compound 2; Fig. 6–7"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "tetraethylammonium tetranuclear Eu/Tb/Y silsesquioxane nitrate ethanol acetonitrile solvate",
+      "formula": "[NEt4]2[(Ph4Si4O8)2Eu0.87Tb1.01Y2.11(NO3)6(EtOH)2(MeCN)2]·2EtOH",
+      "ccdc_numbers": [
+        "2240604"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Eu",
+          "Tb",
+          "Y"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "cage-like tetranuclear lanthanide silsesquioxane"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared as for 1–3. After forming the silanolate in ethanol (reflux 1.0 h), Y(NO3)3·6H2O, Eu(NO3)3·6H2O, Tb(NO3)3·6H2O and Et4NCl in MeCN were added, refluxed 3 h, filtered, and crystallized by slow evaporation. Loadings: PhSi(OMe)3 (0.186 g, 0.94 mmol), NaOH (0.038 g, 0.94 mmol), Y(NO3)3·6H2O (0.09 g, 0.23 mmol), Eu(NO3)3·6H2O (0.05 g, 0.12 mmol), Tb(NO3)3·6H2O (0.05 g, 0.12 mmol), Et4NCl (0.08 g, 0.47 mmol).",
+        "reagents": [
+          {
+            "name": "phenyltrimethoxysilane",
+            "formula": "PhSi(OMe)3",
+            "role": "silsesquioxane precursor",
+            "amount": "0.186 g, 0.94 mmol"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "base",
+            "amount": "0.038 g, 0.94 mmol"
+          },
+          {
+            "name": "yttrium(III) nitrate hexahydrate",
+            "formula": "Y(NO3)3·6H2O",
+            "role": "rare-earth source",
+            "amount": "0.09 g, 0.23 mmol"
+          },
+          {
+            "name": "europium(III) nitrate hexahydrate",
+            "formula": "Eu(NO3)3·6H2O",
+            "role": "lanthanide source",
+            "amount": "0.05 g, 0.12 mmol"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "lanthanide source",
+            "amount": "0.05 g, 0.12 mmol"
+          },
+          {
+            "name": "tetraethylammonium chloride",
+            "formula": "Et4NCl",
+            "role": "counterion source",
+            "amount": "0.08 g, 0.47 mmol"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "acetonitrile"
+        ],
+        "temperature": "reflux",
+        "time": "1.0 h then 3 h reflux; crystallization over a few days",
+        "ph": null,
+        "vessel_or_method": "reflux; filtration; slow evaporation",
+        "workup_and_crystallization": "filtered colourless solution; crystals by slow evaporation; dried in vacuum",
+        "yield": "42% (0.11 g)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Paramagnetic without reported slow relaxation. Solid-state Eu3+/Tb3+ photoluminescence with intramolecular Tb3+→Eu3+ energy transfer (shortest Ln···Ln 3.497 Å). No useful temperature dependence for thermometry.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "dc χT",
+            "value": "paramagnetic; χT decreases on cooling",
+            "unit": null,
+            "conditions": "1000 Oe, 1.8–310 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility",
+            "value": "no slow relaxation of magnetization",
+            "unit": null,
+            "conditions": "ac mode"
+          },
+          {
+            "property_type": "optical",
+            "name": "Eu3+ excitation maximum",
+            "value": 394,
+            "unit": "nm",
+            "conditions": "solid state, RT; λem = 612 nm (7F0→5L6)"
+          },
+          {
+            "property_type": "optical",
+            "name": "Tb3+ excitation maximum",
+            "value": 378,
+            "unit": "nm",
+            "conditions": "solid state, RT; λem = 543 nm (7F6→5G6,5D3)"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission under 394 nm",
+            "value": "Eu3+ 5D0→7F0–4",
+            "unit": null,
+            "conditions": "solid state, RT; selective Eu3+ excitation"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission under 350 nm",
+            "value": "dominant Eu3+ plus Tb3+ 5D4→7F2–6",
+            "unit": null,
+            "conditions": "solid state, RT; Tb3+ band excitation"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental, compound 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray crystallography, CCDC 2240604"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental synthesis of 1–3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Luminescence of compound 3; Fig. 8–9"
+        }
+      ]
+    }
+  ]
+}

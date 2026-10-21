@@ -1,0 +1,224 @@
+{
+  "refcode": "MIRTAM",
+  "ccdc_number": "2263520",
+  "dois": [
+    "10.1039/d3dt01542d"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2263520.cif",
+  "formula_moiety": "H3 O1 1+,C130 H114 N6 O34 P9 Yb6 1-,2(C3 H7 N1 O1),H2 O1",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "15.0654(13)",
+    "b": "15.4217(11)",
+    "c": "29.528(2)",
+    "alpha": "87.256(2)",
+    "beta": "76.447(3)",
+    "gamma": "89.445(3)",
+    "volume": "6661.67",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O19",
+        "O22",
+        "O25",
+        "O28",
+        "O29",
+        "O4"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O2",
+        "O25",
+        "O30",
+        "O5",
+        "O7"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O13",
+        "O16",
+        "O26",
+        "O27",
+        "O31",
+        "O8"
+      ]
+    },
+    {
+      "label": "Yb4",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O17",
+        "O20",
+        "O23",
+        "O28",
+        "O32"
+      ]
+    },
+    {
+      "label": "Yb5",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O15",
+        "O21",
+        "O26",
+        "O3",
+        "O33",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb6",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O18",
+        "O24",
+        "O27",
+        "O34",
+        "O6"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O25"
+        ],
+        "metal_metal_separation_angstrom": 4.552,
+        "bridge_geometry": [
+          {
+            "oxygen": "O25",
+            "angle_deg": 136.31,
+            "metal_oxygen_distances_angstrom": [
+              2.53,
+              2.373
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb1",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O28"
+        ],
+        "metal_metal_separation_angstrom": 4.465,
+        "bridge_geometry": [
+          {
+            "oxygen": "O28",
+            "angle_deg": 135.45,
+            "metal_oxygen_distances_angstrom": [
+              2.457,
+              2.369
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb3",
+          "Yb5"
+        ],
+        "shared_oxygen_labels": [
+          "O26"
+        ],
+        "metal_metal_separation_angstrom": 4.414,
+        "bridge_geometry": [
+          {
+            "oxygen": "O26",
+            "angle_deg": 137.1,
+            "metal_oxygen_distances_angstrom": [
+              2.445,
+              2.298
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb3",
+          "Yb6"
+        ],
+        "shared_oxygen_labels": [
+          "O27"
+        ],
+        "metal_metal_separation_angstrom": 4.414,
+        "bridge_geometry": [
+          {
+            "oxygen": "O27",
+            "angle_deg": 135.98,
+            "metal_oxygen_distances_angstrom": [
+              2.478,
+              2.282
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2",
+        "Yb4"
+      ],
+      [
+        "Yb3",
+        "Yb5",
+        "Yb6"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "MIRTAM crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: H3 O1 1+,C130 H114 N6 O34 P9 Yb6 1-,2(C3 H7 N1 O1),H2 O1. From the CIF bond table, Yb1 (Yb) has 7 O neighbors; Yb2 (Yb) has 6 O neighbors; Yb3 (Yb) has 7 O neighbors; Yb4 (Yb) has 6 O neighbors; Yb5 (Yb) has 6 O neighbors; Yb6 (Yb) has 6 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 2 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 4.414-4.552 Å (not direct metal-metal bonds). Computed M-O-M angles span 135.45-137.10°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [H3O][Yb6(PO4)(AnPO3)8(DMF)6]·2DMF·H2O.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d3dt01542d",
+    "formula": "[H3O][Yb6(PO4)(AnPO3)8(DMF)6]·2DMF·H2O",
+    "compound_name": "[H3O][Yb6(PO4)(AnPO3)8(DMF)6]·2DMF·H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

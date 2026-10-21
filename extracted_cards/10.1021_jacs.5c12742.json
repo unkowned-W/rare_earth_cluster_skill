@@ -1,0 +1,192 @@
+{
+  "title": "Ultraslow Relaxation of Toroidal State in Ferrotoroidal Dysprosium Complex",
+  "doi": "10.1021/jacs.5c12742",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Ga7Dy6(N-mdea)6(ClCH2COO)6(NO3)6(OH)12(H2O)6]·3Cl",
+      "formula": "C42H102Cl9Dy6Ga7N12O60",
+      "ccdc_numbers": [
+        "2475930"
+      ],
+      "ccdc_refcodes": [
+        "IPOREO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 13,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Ga"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "tridecanuclear hourglass {GaDy} core between two {Ga3} triangles; two {Dy3} triangles with a ferrotoroidal ground state"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Under aerobic conditions, Ga(NO3)3·xH2O (0.255 g, 1 mmol) and Dy(NO3)3·6H2O (0.212 g, 0.5 mmol) in acetonitrile (20 mL) were treated with N-methyldiethanolamine (0.120 mL, 1 mmol), chloroacetic acid (0.250 g, 0.5 mmol), and triethylamine (0.6 mL, 5 mmol). The mixture was stirred at room temperature for 24 h to a white solution, the solvent was removed under reduced pressure to a colorless gel, and the gel was redissolved in 1:1 MeOH/iPrOH and evaporated slowly at ambient temperature. Colorless crystals formed after 15–20 days (main text: 3–4 weeks). The crystals are air-stable; a slight excess of chloroacetic acid gives a different complex.",
+        "reagents": [
+          {
+            "name": "gallium nitrate hydrate",
+            "formula": "Ga(NO3)3·xH2O",
+            "role": "metal source",
+            "amount": "0.255 g, 1 mmol"
+          },
+          {
+            "name": "dysprosium nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.212 g, 0.5 mmol"
+          },
+          {
+            "name": "N-methyldiethanolamine",
+            "formula": "N-mdea",
+            "role": "ligand",
+            "amount": "0.120 mL, 1 mmol"
+          },
+          {
+            "name": "chloroacetic acid",
+            "formula": "ClCH2COOH",
+            "role": "ligand",
+            "amount": "0.250 g, 0.5 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.6 mL, 5 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "methanol",
+          "isopropanol"
+        ],
+        "temperature": "room temperature stirring; ambient-temperature evaporation",
+        "time": "24 h stirring; crystals after 15–20 days (main text 3–4 weeks)",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring, solvent removal under reduced pressure, then slow evaporation",
+        "workup_and_crystallization": "colorless gel redissolved in 1:1 MeOH/iPrOH and slowly evaporated to colorless single crystals",
+        "yield": "crystalline yield ~5%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Discrete heterometallic ferrotoroidal single-molecule toroic. DC data show antiferromagnetic/anisotropic behavior and an S-shaped low-field magnetization curve. AC susceptibility shows no zero-field out-of-phase signal but field-induced two-step Orbach relaxation under 2400 Oe. μSQUID hysteresis and angle-dependent maps confirm a nonmagnetic FT ground state; a slow component has a QTM time of about 3.5×10^8 s (~11 years), among the longest reported for a molecular magnet.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "84.48",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 0.1 T; expected for six Dy(III)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "20.5",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "1.8 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "32.08",
+            "unit": "NμB",
+            "conditions": "1.8 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "8.29 ± 0.27",
+            "unit": "K",
+            "conditions": "AC, optimum DC field 2400 Oe; τ0 = 5.2×10^-8 s; Orbach process 1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "1.17 ± 0.03",
+            "unit": "K",
+            "conditions": "AC, 2400 Oe; τ0 = 11.2×10^-8 s; Orbach process 2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "zero-field QTM relaxation time (slow component)",
+            "value": "3.5e8",
+            "unit": "s",
+            "conditions": "μSQUID M(t) after sweep to zero field, crystal #2, in-plane and out-of-plane; ~11 years; fast component τ01 ≈ 41 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective barrier of slow and fast μSQUID components",
+            "value": "~14 and ~3.5",
+            "unit": "K",
+            "conditions": "Arrhenius-like estimate for T > 300 mK; slow and fast components, respectively"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "AFT to spin-flip switching field",
+            "value": "0.34",
+            "unit": "T",
+            "conditions": "μSQUID, 30 mK; implies J ≈ −0.014 cm^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "FT–AFT gap",
+            "value": "0.39",
+            "unit": "cm^-1",
+            "conditions": "POLY_ANISO; ground state is nonmagnetic FT; toroidal moment per {Dy3} 67.94 μB Å"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "single-ion ground KD g-tensor",
+            "value": "gx ≈ 0.105, gy ≈ 0.236, gz ≈ 19.616",
+            "unit": null,
+            "conditions": "CASSCF/RASSI-SO/SINGLE_ANISO; easy axes canted ~9° from each Dy3 plane"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Abstract; Synthesis, Structural Description"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Supporting Information note, deposition 2475930"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC refcode IPOREO"
+        },
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Table S1 empirical formula C42H102Cl9Dy6Ga7N12O60"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "EXPERIMENTAL SECTION, Synthesis of complex 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Synthesis paragraph (reagents and 3–4 week crystallization, no amounts)"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "DC/AC section; Figures 1, 4–6; μSQUID relaxation discussion"
+        }
+      ]
+    }
+  ]
+}

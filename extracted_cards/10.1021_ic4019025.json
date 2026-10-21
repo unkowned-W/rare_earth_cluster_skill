@@ -1,0 +1,473 @@
+{
+  "title": "Pentanuclear Heterometallic {Ni2Ln3} (Ln = Gd, Dy, Tb, Ho) Assemblies. Single-Molecule Magnet Behavior and Multistep Relaxation in the Dysprosium Derivative",
+  "doi": "10.1021/ic4019025",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Ni2Dy3(LH)4]Cl·3CH3OH",
+      "formula": "[Ni2Dy3(LH)4]Cl·3CH3OH",
+      "ccdc_numbers": [
+        "944957"
+      ],
+      "ccdc_refcodes": [
+        "PITTET"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "pentanuclear {Ni2Ln3} heterometallic cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "General protocol for 1–4: LH4 (0.052 g, 0.15 mmol) was dissolved in methanol (20 mL). LnCl3·6H2O (0.037 g, 0.10 mmol) and triethylamine (0.06 mL, 0.45 mmol) were added and the mixture was stirred for 1 h. NiCl2·4H2O (0.023 g, 0.10 mmol) was then added and stirring continued for a further 3 h at room temperature to afford a clear red solution. The solution was evaporated in vacuo (bath temperature not exceeding 40 °C) to a powder that was washed with diethyl ether. X-ray quality crystals of 1–4 were grown by vapor diffusion of diethyl ether into a methanol/chloroform (1:1 v/v) solution of the corresponding complex.",
+        "reagents": [
+          {
+            "name": "LH4 ((E)-2,2′-(2-hydroxy-3-((2-hydroxyphenylimino)methyl)-5-methylbenzylazanediyl)diethanol)",
+            "formula": "C19H24N2O4",
+            "role": "ligand",
+            "amount": "0.052 g, 0.15 mmol"
+          },
+          {
+            "name": "LnCl3·6H2O (DyCl3·6H2O for 1)",
+            "formula": "LnCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.037 g, 0.10 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.06 mL, 0.45 mmol"
+          },
+          {
+            "name": "NiCl2·4H2O",
+            "formula": "NiCl2·4H2O",
+            "role": "metal salt",
+            "amount": "0.023 g, 0.10 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "diethyl ether",
+          "chloroform"
+        ],
+        "temperature": "room temperature; evaporation bath ≤40 °C",
+        "time": "1 h then further 3 h",
+        "ph": null,
+        "vessel_or_method": "stirred solution; vacuum evaporation; vapor diffusion crystallization",
+        "workup_and_crystallization": "evaporated in vacuo to a powder, washed with diethyl ether; crystals grown by vapor diffusion of diethyl ether into methanol/chloroform (1:1 v/v)",
+        "yield": "0.029 g, 41.92% (based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Compound 1 has a high/ferromagnetic effective ground state (Seff,T = 15/2) and SMM behavior with two thermally activated relaxation regimes plus low-T quantum tunneling. Open hysteresis is observed up to TB ≈ 3 K for sweep rates faster than 50 mT/s. Square-planar Ni(II) is treated as diamagnetic.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT (room-temperature value)",
+            "value": "41",
+            "unit": "cm3 K mol-1",
+            "conditions": "dc susceptibility; compared with expected 40.5 cm3 K mol-1 for 3 Dy(III)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Heisenberg–Dirac–van Vleck fit parameters",
+            "value": "g = 1.3; J12,23 = 5 mK; D1 = -21 K; D2 = -6 K",
+            "unit": null,
+            "conditions": "effective-spin model; Seff,T = 15/2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (high-T Arrhenius)",
+            "value": 85,
+            "unit": "K",
+            "conditions": "ac susceptibility; thermally activated regime ~10–17 K; τ0 = 5.9e-7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (high-T)",
+            "value": "5.9e-7",
+            "unit": "s",
+            "conditions": "Arrhenius fit of ac data, high-T process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (low-T Arrhenius)",
+            "value": 53.5,
+            "unit": "K",
+            "conditions": "ac susceptibility; second thermally activated process below 7 K; τ0 = 2.3e-8 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (low-T)",
+            "value": "2.3e-8",
+            "unit": "s",
+            "conditions": "Arrhenius fit of ac data, low-T thermally activated process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.6 (low T); 0.2 (high T)",
+            "unit": null,
+            "conditions": "generalized Debye analysis of frequency-dependent ac data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "tunnel rate",
+            "value": "<100",
+            "unit": "s-1",
+            "conditions": "estimated from nearly T-independent low-T ac relaxation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "blocking temperature TB",
+            "value": 3,
+            "unit": "K",
+            "conditions": "Hall-probe magnetization of a single crystal"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "hysteresis opening sweep-rate threshold",
+            "value": 50,
+            "unit": "mT s-1",
+            "conditions": "open hysteresis for faster sweeps; loops closed around zero field at slow rates; 300 mK sweep-rate series"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Scheme 1; Experimental"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental characterization of 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 944957 / PITTET"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of the Pentanuclear Complexes 1–4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 7–9; Conclusion"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Ni2Gd3(LH)4]Cl·3CH3OH·H2O",
+      "formula": "[Ni2Gd3(LH)4]Cl·3CH3OH·H2O",
+      "ccdc_numbers": [
+        "976727"
+      ],
+      "ccdc_refcodes": [
+        "PITTIX"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "pentanuclear {Ni2Ln3} heterometallic cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same general protocol as 1–4: LH4 (0.052 g, 0.15 mmol) in methanol (20 mL) treated with LnCl3·6H2O (0.037 g, 0.10 mmol) and triethylamine (0.06 mL, 0.45 mmol) for 1 h, then NiCl2·4H2O (0.023 g, 0.10 mmol) for 3 h at room temperature. Red solution evaporated in vacuo (≤40 °C), powder washed with diethyl ether; crystals by vapor diffusion of diethyl ether into methanol/chloroform (1:1 v/v).",
+        "reagents": [
+          {
+            "name": "LH4",
+            "formula": "C19H24N2O4",
+            "role": "ligand",
+            "amount": "0.052 g, 0.15 mmol"
+          },
+          {
+            "name": "LnCl3·6H2O (GdCl3·6H2O for 2)",
+            "formula": "LnCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.037 g, 0.10 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.06 mL, 0.45 mmol"
+          },
+          {
+            "name": "NiCl2·4H2O",
+            "formula": "NiCl2·4H2O",
+            "role": "metal salt",
+            "amount": "0.023 g, 0.10 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "diethyl ether",
+          "chloroform"
+        ],
+        "temperature": "room temperature; evaporation bath ≤40 °C",
+        "time": "1 h then further 3 h",
+        "ph": null,
+        "vessel_or_method": "stirred solution; vacuum evaporation; vapor diffusion crystallization",
+        "workup_and_crystallization": "evaporated in vacuo, washed with diethyl ether; vapor diffusion of diethyl ether into methanol/chloroform (1:1 v/v)",
+        "yield": "0.026 g, 36.61% (based on Gd)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Main-text analysis assigns an antiferromagnetic ground state to 2. Detailed magnetic plots are referred to Supporting Information Figures S11–S13; SMM behavior is discussed only for 1.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Scheme 1; Experimental"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental characterization of 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 976727 / PITTIX"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of the Pentanuclear Complexes 1–4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Conclusion"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Ni2Tb3(LH)3(LH2)]Cl2·CHCl3·CH3OH·H2O",
+      "formula": "[Ni2Tb3(LH)3(LH2)]Cl2·CHCl3·CH3OH·H2O",
+      "ccdc_numbers": [
+        "976728"
+      ],
+      "ccdc_refcodes": [
+        "PITTOD"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "pentanuclear {Ni2Ln3} heterometallic cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same general protocol as 1–4: LH4 (0.052 g, 0.15 mmol) in methanol (20 mL) treated with LnCl3·6H2O (0.037 g, 0.10 mmol) and triethylamine (0.06 mL, 0.45 mmol) for 1 h, then NiCl2·4H2O (0.023 g, 0.10 mmol) for 3 h at room temperature. Red solution evaporated in vacuo (≤40 °C), powder washed with diethyl ether; crystals by vapor diffusion of diethyl ether into methanol/chloroform (1:1 v/v).",
+        "reagents": [
+          {
+            "name": "LH4",
+            "formula": "C19H24N2O4",
+            "role": "ligand",
+            "amount": "0.052 g, 0.15 mmol"
+          },
+          {
+            "name": "LnCl3·6H2O (TbCl3·6H2O for 3)",
+            "formula": "LnCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.037 g, 0.10 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.06 mL, 0.45 mmol"
+          },
+          {
+            "name": "NiCl2·4H2O",
+            "formula": "NiCl2·4H2O",
+            "role": "metal salt",
+            "amount": "0.023 g, 0.10 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "diethyl ether",
+          "chloroform"
+        ],
+        "temperature": "room temperature; evaporation bath ≤40 °C",
+        "time": "1 h then further 3 h",
+        "ph": null,
+        "vessel_or_method": "stirred solution; vacuum evaporation; vapor diffusion crystallization",
+        "workup_and_crystallization": "evaporated in vacuo, washed with diethyl ether; vapor diffusion of diethyl ether into methanol/chloroform (1:1 v/v)",
+        "yield": "0.030 g, 40.17% (based on Tb)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Main-text analysis assigns an antiferromagnetic ground state to 3. Detailed magnetic data are referred to Supporting Information Figures S11–S13; SMM behavior is discussed only for 1.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Scheme 1; Experimental"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental characterization of 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 976728 / PITTOD"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of the Pentanuclear Complexes 1–4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Conclusion"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Ni2Ho3(LH)3(LH2)]Cl2·5CH3OH",
+      "formula": "[Ni2Ho3(LH)3(LH2)]Cl2·5CH3OH",
+      "ccdc_numbers": [
+        "976729"
+      ],
+      "ccdc_refcodes": [
+        "PITTUJ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "pentanuclear {Ni2Ln3} heterometallic cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same general protocol as 1–4: LH4 (0.052 g, 0.15 mmol) in methanol (20 mL) treated with LnCl3·6H2O (0.037 g, 0.10 mmol) and triethylamine (0.06 mL, 0.45 mmol) for 1 h, then NiCl2·4H2O (0.023 g, 0.10 mmol) for 3 h at room temperature. Red solution evaporated in vacuo (≤40 °C), powder washed with diethyl ether; crystals by vapor diffusion of diethyl ether into methanol/chloroform (1:1 v/v).",
+        "reagents": [
+          {
+            "name": "LH4",
+            "formula": "C19H24N2O4",
+            "role": "ligand",
+            "amount": "0.052 g, 0.15 mmol"
+          },
+          {
+            "name": "LnCl3·6H2O (HoCl3·6H2O for 4)",
+            "formula": "LnCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.037 g, 0.10 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.06 mL, 0.45 mmol"
+          },
+          {
+            "name": "NiCl2·4H2O",
+            "formula": "NiCl2·4H2O",
+            "role": "metal salt",
+            "amount": "0.023 g, 0.10 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "diethyl ether",
+          "chloroform"
+        ],
+        "temperature": "room temperature; evaporation bath ≤40 °C",
+        "time": "1 h then further 3 h",
+        "ph": null,
+        "vessel_or_method": "stirred solution; vacuum evaporation; vapor diffusion crystallization",
+        "workup_and_crystallization": "evaporated in vacuo, washed with diethyl ether; vapor diffusion of diethyl ether into methanol/chloroform (1:1 v/v)",
+        "yield": "0.026 g, 34.67% (based on Ho)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Main-text analysis assigns an antiferromagnetic ground state to 4. Detailed magnetic data are referred to Supporting Information Figures S11–S13; SMM behavior is discussed only for 1.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Scheme 1; Experimental"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental characterization of 4"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 976729 / PITTUJ"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of the Pentanuclear Complexes 1–4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Conclusion"
+        }
+      ]
+    }
+  ]
+}

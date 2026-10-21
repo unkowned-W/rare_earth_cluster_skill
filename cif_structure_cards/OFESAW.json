@@ -1,0 +1,190 @@
+{
+  "refcode": "OFESAW",
+  "ccdc_number": "993135",
+  "dois": [
+    "10.12677/ssc.2014.21001"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\993135.cif",
+  "formula_moiety": "C64 H84 N40 O34 Sm4 4+,3(Cl1 1-),10(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "14.195(3)",
+    "b": "23.260(5)",
+    "c": "17.034(3)",
+    "alpha": "90.00",
+    "beta": "106.38(3)",
+    "gamma": "90.00",
+    "volume": "5395.94",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm1",
+      "element": "Sm",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O13",
+        "O15",
+        "O17",
+        "O24",
+        "O3",
+        "O4",
+        "O6",
+        "O9"
+      ]
+    },
+    {
+      "label": "Sm2",
+      "element": "Sm",
+      "oxygen_coordination_number": 10,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O14",
+        "O16",
+        "O20",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Sm3",
+      "element": "Sm",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O23",
+        "O25",
+        "O26",
+        "O28",
+        "O31",
+        "O34",
+        "O36",
+        "O38"
+      ]
+    },
+    {
+      "label": "Sm4",
+      "element": "Sm",
+      "oxygen_coordination_number": 10,
+      "oxygen_neighbor_labels": [
+        "O26",
+        "O27",
+        "O28",
+        "O29",
+        "O30",
+        "O32",
+        "O33",
+        "O35",
+        "O37",
+        "O39"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Sm1",
+          "Sm2"
+        ],
+        "shared_oxygen_labels": [
+          "O4",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 4.566,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 119.76,
+            "metal_oxygen_distances_angstrom": [
+              2.875,
+              2.396
+            ]
+          },
+          {
+            "oxygen": "O6",
+            "angle_deg": 114.22,
+            "metal_oxygen_distances_angstrom": [
+              2.449,
+              2.977
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm3",
+          "Sm4"
+        ],
+        "shared_oxygen_labels": [
+          "O26",
+          "O28"
+        ],
+        "metal_metal_separation_angstrom": 4.566,
+        "bridge_geometry": [
+          {
+            "oxygen": "O26",
+            "angle_deg": 119.76,
+            "metal_oxygen_distances_angstrom": [
+              2.875,
+              2.396
+            ]
+          },
+          {
+            "oxygen": "O28",
+            "angle_deg": 114.22,
+            "metal_oxygen_distances_angstrom": [
+              2.449,
+              2.977
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Sm1",
+        "Sm2"
+      ],
+      [
+        "Sm3",
+        "Sm4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "OFESAW crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C64 H84 N40 O34 Sm4 4+,3(Cl1 1-),10(H2 O1). From the CIF bond table, Sm1 (Sm) has 9 O neighbors; Sm2 (Sm) has 10 O neighbors; Sm3 (Sm) has 9 O neighbors; Sm4 (Sm) has 10 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.566-4.566 Å (not direct metal-metal bonds). Computed M-O-M angles span 114.22-119.76°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Sm4(a4-pytz)8(H2O)18]Cl3·10H2O. Explicit grouped units in the article formula/name: 18 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.12677/ssc.2014.21001",
+    "formula": "[Sm4(a4-pytz)8(H2O)18]Cl3·10H2O",
+    "compound_name": "[Sm4(a4-pytz)8(H2O)18]Cl3·10H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 18,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

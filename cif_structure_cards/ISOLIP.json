@@ -1,0 +1,284 @@
+{
+  "refcode": "ISOLIP",
+  "ccdc_number": "2337625",
+  "dois": [
+    "10.1016/j.ica.2025.122563"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2337625.cif",
+  "formula_moiety": "C152 H118 N12 O16 Yb4",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "17.8608(3)",
+    "b": "21.5664(4)",
+    "c": "18.3409(3)",
+    "alpha": "90",
+    "beta": "110.6430(10)",
+    "gamma": "90",
+    "volume": "6611.2",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb01",
+      "element": "Yb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O003",
+        "O005",
+        "O006",
+        "O007",
+        "O008",
+        "O10",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb02",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O003",
+        "O004",
+        "O006",
+        "O009",
+        "O00A",
+        "O11"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O003",
+        "O004",
+        "O11",
+        "O12",
+        "O13",
+        "O14",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb4",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O005",
+        "O10",
+        "O12",
+        "O15",
+        "O16",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb01",
+          "Yb02"
+        ],
+        "shared_oxygen_labels": [
+          "O003",
+          "O006"
+        ],
+        "metal_metal_separation_angstrom": 3.774,
+        "bridge_geometry": [
+          {
+            "oxygen": "O003",
+            "angle_deg": 111.51,
+            "metal_oxygen_distances_angstrom": [
+              2.302,
+              2.263
+            ]
+          },
+          {
+            "oxygen": "O006",
+            "angle_deg": 107.46,
+            "metal_oxygen_distances_angstrom": [
+              2.32,
+              2.361
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb01",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O003",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.75,
+        "bridge_geometry": [
+          {
+            "oxygen": "O003",
+            "angle_deg": 108.73,
+            "metal_oxygen_distances_angstrom": [
+              2.302,
+              2.312
+            ]
+          },
+          {
+            "oxygen": "O9",
+            "angle_deg": 108.73,
+            "metal_oxygen_distances_angstrom": [
+              2.312,
+              2.302
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb01",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O005",
+          "O10",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.479,
+        "bridge_geometry": [
+          {
+            "oxygen": "O005",
+            "angle_deg": 97.04,
+            "metal_oxygen_distances_angstrom": [
+              2.334,
+              2.309
+            ]
+          },
+          {
+            "oxygen": "O9",
+            "angle_deg": 98.98,
+            "metal_oxygen_distances_angstrom": [
+              2.312,
+              2.263
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 94.86,
+            "metal_oxygen_distances_angstrom": [
+              2.399,
+              2.324
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb02",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O003",
+          "O004",
+          "O11"
+        ],
+        "metal_metal_separation_angstrom": 3.479,
+        "bridge_geometry": [
+          {
+            "oxygen": "O003",
+            "angle_deg": 98.98,
+            "metal_oxygen_distances_angstrom": [
+              2.263,
+              2.312
+            ]
+          },
+          {
+            "oxygen": "O004",
+            "angle_deg": 94.86,
+            "metal_oxygen_distances_angstrom": [
+              2.324,
+              2.399
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 97.04,
+            "metal_oxygen_distances_angstrom": [
+              2.309,
+              2.334
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb3",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O12",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.774,
+        "bridge_geometry": [
+          {
+            "oxygen": "O9",
+            "angle_deg": 111.51,
+            "metal_oxygen_distances_angstrom": [
+              2.302,
+              2.263
+            ]
+          },
+          {
+            "oxygen": "O12",
+            "angle_deg": 107.46,
+            "metal_oxygen_distances_angstrom": [
+              2.32,
+              2.361
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb01",
+        "Yb02",
+        "Yb3",
+        "Yb4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ISOLIP crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C152 H118 N12 O16 Yb4. From the CIF bond table, Yb01 (Yb) has 7 O neighbors; Yb02 (Yb) has 6 O neighbors; Yb3 (Yb) has 7 O neighbors; Yb4 (Yb) has 6 O neighbors. Oxygen-bridged metal-site graph: 5 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.479-3.774 Å (not direct metal-metal bonds). Computed M-O-M angles span 94.86-111.51°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C152H118N12O16Yb4. Explicit grouped units in the article formula/name: 2 μ3-O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.ica.2025.122563",
+    "formula": "C152H118N12O16Yb4",
+    "compound_name": "[Yb4(μ3-O)2(acac)4L6]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-O",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

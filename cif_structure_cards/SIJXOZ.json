@@ -1,0 +1,198 @@
+{
+  "refcode": "SIJXOZ",
+  "ccdc_number": "637659",
+  "dois": [
+    "10.1002/chem.200700324"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\637659.cif",
+  "formula_moiety": "C108 H109 Eu3 N12 O16 2+,C1 F3 O3 S1 1-,Cl1 1-,8.25(C2 H3 N1),3(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "16.6740(10)",
+    "b": "22.3910(10)",
+    "c": "22.524(2)",
+    "alpha": "62.148(6)",
+    "beta": "72.637(6)",
+    "gamma": "80.615(5)",
+    "volume": "7093.55",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O12",
+        "O17",
+        "O19",
+        "O3",
+        "O6"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O15",
+        "O16",
+        "O2",
+        "O5",
+        "O6",
+        "O8"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O14",
+        "O18",
+        "O2",
+        "O4",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.951,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 107.17,
+            "metal_oxygen_distances_angstrom": [
+              2.459,
+              2.451
+            ]
+          },
+          {
+            "oxygen": "O6",
+            "angle_deg": 110.99,
+            "metal_oxygen_distances_angstrom": [
+              2.313,
+              2.481
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O10"
+        ],
+        "metal_metal_separation_angstrom": 3.943,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 106.51,
+            "metal_oxygen_distances_angstrom": [
+              2.459,
+              2.461
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 111.22,
+            "metal_oxygen_distances_angstrom": [
+              2.476,
+              2.3
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.948,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 107.01,
+            "metal_oxygen_distances_angstrom": [
+              2.451,
+              2.461
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 112.56,
+            "metal_oxygen_distances_angstrom": [
+              2.3,
+              2.447
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2",
+        "Eu3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "SIJXOZ crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C108 H109 Eu3 N12 O16 2+,C1 F3 O3 S1 1-,Cl1 1-,8.25(C2 H3 N1),3(H2 O1). From the CIF bond table, Eu1 (Eu) has 7 O neighbors; Eu2 (Eu) has 7 O neighbors; Eu3 (Eu) has 7 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.943-3.951 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.51-112.56°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C125.5H139.75ClEu3F3N20.25O22S. Explicit grouped units in the article formula/name: 1 μ3-OH (explicit grouped unit in article compound name (structural notation)), 3 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/chem.200700324",
+    "formula": "C125.5H139.75ClEu3F3N20.25O22S",
+    "compound_name": "[Eu3{(±)-L}6(μ3-OH)(H2O)3](CF3SO3)(Cl)·3H2O·8.25CH3CN",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-OH",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "H2O",
+        "count": 3,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

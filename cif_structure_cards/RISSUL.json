@@ -1,0 +1,220 @@
+{
+  "refcode": "RISSUL",
+  "ccdc_number": "2267814",
+  "dois": [
+    "10.1039/d3dt01948a"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2267814.cif",
+  "formula_moiety": "C92 H136 N14 O22 Sm4 2+,5.4(C1 H4 O1),2(N1 O3 1-),6(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2",
+  "international_tables_number": "5",
+  "unit_cell": {
+    "a": "19.801(4)",
+    "b": "16.681(3)",
+    "c": "19.381(4)",
+    "alpha": "90",
+    "beta": "104.09(2)",
+    "gamma": "90",
+    "volume": "6208.96",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm1",
+      "element": "Sm",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1W",
+        "O2B",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "label": "Sm2",
+      "element": "Sm",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O19",
+        "O20",
+        "O2B",
+        "O2W",
+        "O3",
+        "O3W",
+        "O5"
+      ]
+    },
+    {
+      "label": "Sm3",
+      "element": "Sm",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O16",
+        "O17",
+        "O18",
+        "O21"
+      ]
+    },
+    {
+      "label": "Sm4",
+      "element": "Sm",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O17",
+        "O19",
+        "O22",
+        "O23",
+        "O5",
+        "O6"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Sm1",
+          "Sm2"
+        ],
+        "shared_oxygen_labels": [
+          "O2B",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.878,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 109.19,
+            "metal_oxygen_distances_angstrom": [
+              2.39,
+              2.367
+            ]
+          },
+          {
+            "oxygen": "O2B",
+            "angle_deg": 108.95,
+            "metal_oxygen_distances_angstrom": [
+              2.318,
+              2.446
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm2",
+          "Sm4"
+        ],
+        "shared_oxygen_labels": [
+          "O19",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 4.147,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 116.24,
+            "metal_oxygen_distances_angstrom": [
+              2.402,
+              2.481
+            ]
+          },
+          {
+            "oxygen": "O19",
+            "angle_deg": 116.24,
+            "metal_oxygen_distances_angstrom": [
+              2.481,
+              2.402
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm3",
+          "Sm4"
+        ],
+        "shared_oxygen_labels": [
+          "O16",
+          "O17"
+        ],
+        "metal_metal_separation_angstrom": 3.878,
+        "bridge_geometry": [
+          {
+            "oxygen": "O16",
+            "angle_deg": 109.19,
+            "metal_oxygen_distances_angstrom": [
+              2.39,
+              2.367
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 108.95,
+            "metal_oxygen_distances_angstrom": [
+              2.318,
+              2.446
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Sm1",
+        "Sm2",
+        "Sm3",
+        "Sm4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "RISSUL crystallizes in the monoclinic crystal system with space group C 2. Reported CIF formula moiety: C92 H136 N14 O22 Sm4 2+,5.4(C1 H4 O1),2(N1 O3 1-),6(H2 O1). From the CIF bond table, Sm1 (Sm) has 5 O neighbors; Sm2 (Sm) has 7 O neighbors; Sm3 (Sm) has 5 O neighbors; Sm4 (Sm) has 7 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.878-4.147 Å (not direct metal-metal bonds). Computed M-O-M angles span 108.95-116.24°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Sm4(CO3)2(HL^R)2(NO3)2(H2O)4](NO3)2·2H2O. Explicit grouped units in the article formula/name: 2 NO3 (explicit grouped unit in article formula), 4 H2O (explicit grouped unit in article formula), 2 NO3 (explicit grouped unit in article formula). Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d3dt01948a",
+    "formula": "[Sm4(CO3)2(HL^R)2(NO3)2(H2O)4](NO3)2·2H2O",
+    "compound_name": "tetranuclear carbonate-bridged samarium(III) complex of the bis-deprotonated chiral 3+3 triphenolic hexaaza macrocycle",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 4,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "refcode": "IQOFID",
+  "ccdc_number": "167446",
+  "dois": [
+    "10.1021/ic700787d"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\167446.cif",
+  "formula_moiety": "C100 H132 Cl2 O10 Sm2,4(C4 H8 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "34.762(7)",
+    "b": "16.753(3)",
+    "c": "20.555(4)",
+    "alpha": "90",
+    "beta": "108.92(3)",
+    "gamma": "90",
+    "volume": "11323.8",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm1",
+      "element": "Sm",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Sm1F",
+      "element": "Sm",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1F",
+        "O2F",
+        "O3F",
+        "O4F",
+        "O5F"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Sm1"
+      ],
+      [
+        "Sm1F"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "IQOFID crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C100 H132 Cl2 O10 Sm2,4(C4 H8 O1). From the CIF bond table, Sm1 (Sm) has 5 O neighbors; Sm1F (Sm) has 5 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C100H132Cl2O10Sm2·4C4H8O.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic700787d",
+    "formula": "C100H132Cl2O10Sm2·4C4H8O",
+    "compound_name": "[p-tBu-calix[4]-(OMe)2(O)2Sm(THF)]2(μ-Cl)2",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

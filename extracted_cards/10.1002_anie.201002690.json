@@ -1,0 +1,184 @@
+{
+  "title": "An Octanuclear [CrIII4DyIII4] 3d–4f Single-Molecule Magnet",
+  "doi": "10.1002/anie.201002690",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Cr4Dy4(μ3-OH)4(μ-N3)4(mdea)4(piv)4]·3CH2Cl2",
+      "formula": "[Cr4Dy4(μ3-OH)4(μ-N3)4(mdea)4(piv)4]·3CH2Cl2",
+      "ccdc_numbers": [
+        "749296"
+      ],
+      "ccdc_refcodes": [
+        "GUZJIV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Cr4Dy4 square-in-butterfly {Cr4Dy4(μ3-OH)4} cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Due to the air-sensitivity of CrCl2, all procedures up to the final crystallisation were carried out under argon or nitrogen using a Braun glovebox or standard Schlenk technique, with dried solvents. A mixture of CrCl2 (0.124 g, 1.00 mmol), NaN3 (0.110 g, 1.69 mmol) and N-methyldiethanolamine (373 μL, 3.55 mmol) in acetonitrile (15 mL) was stirred at room temperature for 50 min. After addition of Dy(NO3)3·6H2O (200 mg, 0.44 mmol) and pivalic acid (400 mg, 3.91 mmol) the mixture was stirred for another 10 min before addition of dichloromethane (10 mL). The mixture was stirred at room temperature overnight (13 h). The solution was filtered and exposed to air; slow evaporation of the solvent gave pink crystals of 1.",
+        "reagents": [
+          {
+            "name": "chromium(II) chloride",
+            "formula": "CrCl2",
+            "role": "metal source",
+            "amount": "0.124 g, 1.00 mmol"
+          },
+          {
+            "name": "sodium azide",
+            "formula": "NaN3",
+            "role": "bridging ligand source",
+            "amount": "0.110 g, 1.69 mmol"
+          },
+          {
+            "name": "N-methyldiethanolamine",
+            "formula": "Hmdea",
+            "role": "ligand",
+            "amount": "373 μL, 3.55 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "200 mg, 0.44 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "HPiv",
+            "role": "bridging ligand",
+            "amount": "400 mg, 3.91 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "dichloromethane"
+        ],
+        "temperature": "room temperature",
+        "time": "50 min, then 10 min, then overnight (13 h)",
+        "ph": null,
+        "vessel_or_method": "Braun glovebox or Schlenk technique under argon or nitrogen until crystallization; then exposure to air",
+        "workup_and_crystallization": "filtered and exposed to air; slow evaporation of solvent gave pink crystals",
+        "yield": "0.137 g (20.87% calc. for Cr)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Octanuclear Cr4Dy4 cluster is an SMM: χT decreases from 64.23 cm3 K mol−1 at room temperature to 35.9 cm3 K mol−1 at 1.8 K, indicating intramolecular antiferromagnetic interactions and/or Dy Stark-level depopulation. Slow magnetization relaxation occurs below 5 K; Arrhenius analysis gives an energy barrier of 15 K with τ0 = 1.9(1)×10−7 s. Single-crystal micro-SQUID measurements show hysteresis (0.2 T at 0.04 K) with magnetization steps and sweep-rate-dependent loops.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 64.23,
+            "unit": "cm3 K mol-1",
+            "conditions": "room temperature, 0.1 T applied field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 35.9,
+            "unit": "cm3 K mol-1",
+            "conditions": "1.8 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 16.4,
+            "unit": "μB",
+            "conditions": "2 K, 2 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 28.9,
+            "unit": "μB",
+            "conditions": "2 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ'' maximum temperature",
+            "value": 2.2,
+            "unit": "K",
+            "conditions": "zero dc field, 1500 Hz, 3 Oe ac field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ",
+            "value": 15,
+            "unit": "K",
+            "conditions": "Arrhenius fit of relaxation times from ac frequency sweeps and dc decay"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "1.9(1)×10^-7",
+            "unit": "s",
+            "conditions": "Arrhenius law"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.42–0.5",
+            "unit": null,
+            "conditions": "1.9–2.2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "hysteresis coercive field",
+            "value": 0.2,
+            "unit": "T",
+            "conditions": "single crystal, micro-SQUID, 0.04 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "introduction/synthesis paragraph; Experimental Section crystal data for 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "synthesis paragraph and Experimental Section crystal data"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section CCDC-749296"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row GUZJIV"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI Experimental Section: Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion, Figures 2–4, Experimental magnetic measurements"
+        }
+      ]
+    }
+  ]
+}

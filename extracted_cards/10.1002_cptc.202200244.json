@@ -1,0 +1,701 @@
+{
+  "title": "Air-Stable Solid-State Photoluminescence Standards for Quantitative Measurements Based on 4′-Phenyl-2,2′:6′,2′′-Terpyridine Complexes with Trivalent Lanthanides",
+  "doi": "10.1002/cptc.202200244",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1-Eu",
+      "compound_name": "γ-[Eu4(OAc)12(ptpy)2]",
+      "formula": "C66H66Eu4N6O24",
+      "ccdc_numbers": [
+        "2163397",
+        "2163398"
+      ],
+      "ccdc_refcodes": [
+        "PEYGOT",
+        "PEYGOT01"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear tetrameric acetate–ptpy cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Variant A (preferred small-scale bulk): Eu(OAc)3·xH2O (65.8 mg, 0.2 mmol, calculated as monohydrate) and ptpy (46.4 mg, 0.15 mmol) were placed in a Duran culture tube with 4 mL MeCN and stirred at 100 °C for 16 h. The tube was centrifuged (4000 rpm, 12 min), solvent removed with a syringe, and the white, intensely red-luminescent powder isolated (yield 90.1 mg, 93%). Variant B (upscaled, SI): analogous 1 mmol-scale culture-tube reaction gave 429 mg (89%). Variant C: Eu(OAc)3·xH2O (329 mg, 1 mmol) and ptpy (232 mg, 0.75 mmol) in 50 mL MeCN under reflux for 3 days; filtered, washed with MeCN (50 mL) and CHCl3 (2×30 mL), dried in air (319 mg, 66%). Single crystals: ~2 mg of an impure 2-Eu reaction mixture sealed with MeCN (0.2 mL) in an ampoule and heated at 140 °C for 16 h.",
+        "reagents": [
+          {
+            "name": "europium(III) acetate hydrate",
+            "formula": "Eu(OAc)3·xH2O",
+            "role": "metal source",
+            "amount": "65.8 mg, 0.2 mmol (variant A; calculated as monohydrate); 329 mg, 1 mmol (variants B/C)"
+          },
+          {
+            "name": "4′-phenyl-2,2′:6′,2′′-terpyridine",
+            "formula": "ptpy",
+            "role": "ligand",
+            "amount": "46.4 mg, 0.15 mmol (variant A); 232 mg, 0.75 mmol (variants B/C)"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "CHCl3 (wash)"
+        ],
+        "temperature": "100 °C (variant A); reflux (variant C); 140 °C (single crystals)",
+        "time": "16 h (variant A); 3 days (variant C); 16 h (single crystals)",
+        "ph": null,
+        "vessel_or_method": "Duran culture tube with stirring/centrifugation; 100 mL flask under reflux (variant C); sealed ampoule (single crystals)",
+        "workup_and_crystallization": "Centrifugation, syringe removal of solvent, washing (CHCl3/MeCN), vacuum or air drying; ampoule crystallization from MeCN.",
+        "yield": "90.1 mg (93%, variant A); 429 mg (89%, variant B); 319 mg (66%, variant C)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Solid-state Eu3+ 4f–4f photoluminescence after ligand-centred UV excitation; proposed air-stable PLQY standard (humidity-stable to 75% RH). Absolute solid-state PLQY 58(4)% (headline), with independent setups giving 57.9(3.9)% (setup I) and 61.8(1)% (setup II). Monoexponential lifetime 1.71(5) ms independent of λex/λem despite two crystallographic Eu sites. Individual 4f–4f PLQY contributions reported in Table 1.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield (solid state, overall)",
+            "value": "58(4)",
+            "unit": "%",
+            "conditions": "solid state, room temperature; headline value from two independent setups"
+          },
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield (setup I)",
+            "value": "57.9(3.9)",
+            "unit": "%",
+            "conditions": "solid powder, Fluorolog 3 + Quanta-Phi integrating sphere; average of multiple λex conditions"
+          },
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield (setup II)",
+            "value": "61.8(1)",
+            "unit": "%",
+            "conditions": "Hamamatsu C11347 Quantaurus-QY; powder, five repeats with sample rotation"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime τ",
+            "value": "1.71(5)",
+            "unit": "ms",
+            "conditions": "solid state, room temperature; monoexponential; summary of multiple λex/λem"
+          },
+          {
+            "property_type": "optical",
+            "name": "PLQY 5D0→7F1",
+            "value": "8.5(7) (setup I); 9.1(1) (setup II)",
+            "unit": "%",
+            "conditions": "583–605 nm integration"
+          },
+          {
+            "property_type": "optical",
+            "name": "PLQY 5D0→7F2",
+            "value": "32.8(2.2) (setup I); 33.4(1) (setup II)",
+            "unit": "%",
+            "conditions": "605–635 nm integration"
+          },
+          {
+            "property_type": "optical",
+            "name": "PLQY 5D0→7F4",
+            "value": "14.8(1.1) (setup I); 17.1(1) (setup II)",
+            "unit": "%",
+            "conditions": "670–715 nm integration"
+          },
+          {
+            "property_type": "optical",
+            "name": "excitation/emission maxima (solid state)",
+            "value": "ligand-centred excitation to ~370 nm; λem 616 nm (excitation spectrum); λex 350 nm (emission spectrum)",
+            "unit": null,
+            "conditions": "room temperature, solid state (Figure 1)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "title/abstract; deposition numbers; Scheme 1"
+        },
+        {
+          "field": "ccdc",
+          "source": "external_metadata",
+          "location": "PEYGOT/2163397 (300 K); PEYGOT01/2163398 (100 K)"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI Bulk material syntheses, variants A–C; SI single-crystal syntheses"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 1; Figure 1; Results and Discussion"
+        }
+      ]
+    },
+    {
+      "compound_label": "1-Tb",
+      "compound_name": "γ-[Tb4(OAc)12(ptpy)2]",
+      "formula": "C66H66N6O24Tb4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear tetrameric acetate–ptpy cluster (isostructural with 1-Eu)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Variant A: Tb(OAc)3·xH2O (67.2 mg, 0.2 mmol, calculated as monohydrate) and ptpy (32.5 mg, 0.105 mmol) in a Duran culture tube with 4 mL MeCN, stirred at 50 °C for 16 h; centrifuged (4000 rpm, 12 min), solvent removed, washed with CHCl3 (2×3 mL), dried under vacuum at 50 °C for 20 min, stored in a glovebox. White powder with intense green luminescence, yield 83.0 mg (85%). Variant B: 336 mg Tb(OAc)3·xH2O (1 mmol) and 232 mg ptpy (0.75 mmol) with 4 mL MeCN in a culture tube (upscaled analog of variant A); yield 405 mg (83%). Variant C: Tb(OAc)3·xH2O (336 mg, 1 mmol) and ptpy (232 mg, 0.75 mmol) in 50 mL MeCN, reflux 3 days; filtered, washed with MeCN and CHCl3, air-dried (351 mg, 71%).",
+        "reagents": [
+          {
+            "name": "terbium(III) acetate hydrate",
+            "formula": "Tb(OAc)3·xH2O",
+            "role": "metal source",
+            "amount": "67.2 mg, 0.2 mmol (variant A; calculated as monohydrate); 336 mg, 1 mmol (variants B/C)"
+          },
+          {
+            "name": "4′-phenyl-2,2′:6′,2′′-terpyridine",
+            "formula": "ptpy",
+            "role": "ligand",
+            "amount": "32.5 mg, 0.105 mmol (variant A); 232 mg, 0.75 mmol (variants B/C)"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "CHCl3 (wash)"
+        ],
+        "temperature": "50 °C (variant A); reflux (variant C)",
+        "time": "16 h (variant A); 3 days (variant C)",
+        "ph": null,
+        "vessel_or_method": "Duran culture tube; 100 mL flask under reflux (variant C)",
+        "workup_and_crystallization": "Centrifugation, washing with CHCl3, vacuum drying at 50 °C (A) or filtration/washes/air drying (C).",
+        "yield": "83.0 mg (85%, variant A); 405 mg (83%, variant B); 351 mg (71%, variant C)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Solid-state Tb3+ 4f–4f photoluminescence after ligand-centred UV excitation; proposed air-stable PLQY standard (humidity-stable to 53% RH). Absolute solid-state PLQY 46(3)% (headline), 45.8(2.3)% (setup I) and 45.5(7)% (setup II). Lifetime 1.05(2) ms. Powder milled before setup II QY.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield (solid state, overall)",
+            "value": "46(3)",
+            "unit": "%",
+            "conditions": "solid state, room temperature; headline value"
+          },
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield (setup I)",
+            "value": "45.8(2.3)",
+            "unit": "%",
+            "conditions": "Fluorolog 3 + integrating sphere; multiple λex"
+          },
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield (setup II)",
+            "value": "45.5(7)",
+            "unit": "%",
+            "conditions": "Hamamatsu Quantaurus-QY; milled powder"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime τ",
+            "value": "1.05(2)",
+            "unit": "ms",
+            "conditions": "solid state, room temperature; summary of multiple λex/λem"
+          },
+          {
+            "property_type": "optical",
+            "name": "PLQY 5D4→7F6",
+            "value": "8.3(4) (setup I); 8.2(2) (setup II)",
+            "unit": "%",
+            "conditions": "475–515 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "PLQY 5D4→7F5",
+            "value": "25.5(1.3) (setup I); 25.3(4) (setup II)",
+            "unit": "%",
+            "conditions": "530–565 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "PLQY 5D4→7F4",
+            "value": "6.4(4) (setup I); 6.3(1) (setup II)",
+            "unit": "%",
+            "conditions": "570–605 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "PLQY 5D4→7F3",
+            "value": "3.9(3) (setup I); 3.8(1) (setup II)",
+            "unit": "%",
+            "conditions": "610–635 nm"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Results; Table 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI Bulk material syntheses, 1-Tb variants A–C"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 1; Figure 1"
+        }
+      ]
+    },
+    {
+      "compound_label": "2-Eu",
+      "compound_name": "[Eu4(OAc)12(ptpy)2]·2H2O",
+      "formula": "C66H70Eu4N6O26",
+      "ccdc_numbers": [
+        "2163399"
+      ],
+      "ccdc_refcodes": [
+        "PEYHAG"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "hydrated linear tetrameric acetate–ptpy cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Ln(OAc)3·xH2O (Eu: 65.8 mg, 0.2 mmol as monohydrate) and ptpy (32.5 mg, 0.105 mmol) in a Duran culture tube with MeCN (2 mL) and H2O (20 µL), stirred at 70 °C for 16 h. Centrifuged (4000 rpm, 12 min), solvent removed, washed with MeCN (2 mL) and CHCl3 (2×3 mL), dried under vacuum at room temperature for 20 min. White powder with intense red luminescence, yield 88.5 mg (90%). Single crystals: ~2 mg impure 2-Eu mixture sealed with MeCN (0.2 mL), heated at 80 °C for 382 h (Büchi B-585).",
+        "reagents": [
+          {
+            "name": "europium(III) acetate hydrate",
+            "formula": "Eu(OAc)3·xH2O",
+            "role": "metal source",
+            "amount": "65.8 mg, 0.2 mmol (calculated as monohydrate)"
+          },
+          {
+            "name": "4′-phenyl-2,2′:6′,2′′-terpyridine",
+            "formula": "ptpy",
+            "role": "ligand",
+            "amount": "32.5 mg, 0.105 mmol"
+          },
+          {
+            "name": "water",
+            "formula": "H2O",
+            "role": "hydration/solvent additive",
+            "amount": "20 µL"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "H2O",
+          "CHCl3 (wash)"
+        ],
+        "temperature": "70 °C (bulk); 80 °C (single crystals)",
+        "time": "16 h (bulk); 382 h (single crystals)",
+        "ph": null,
+        "vessel_or_method": "Duran culture tube; sealed ampoule in Büchi B-585 oven (crystals)",
+        "workup_and_crystallization": "Centrifugation, MeCN/CHCl3 washes, vacuum drying; ampoule crystallization from MeCN.",
+        "yield": "88.5 mg (90%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Typical Eu3+ solid-state photoluminescence; PLQY 58.6(7)% and lifetime 1.720(2) ms (λex 350 nm). Releases lattice water above ~100 °C to give 3-Eu.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield",
+            "value": "58.6(7)",
+            "unit": "%",
+            "conditions": "solid state, room temperature, λex 350 nm, emission 575–720 nm (SI Table)"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime τ",
+            "value": "1.720(2)",
+            "unit": "ms",
+            "conditions": "solid state, RT, λex/λem 350/620 nm, monoexponential"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Scheme 1; deposition 2163399"
+        },
+        {
+          "field": "ccdc",
+          "source": "external_metadata",
+          "location": "PEYHAG/2163399"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI Bulk material syntheses of 2-Eu/2-Tb; SI single-crystal syntheses"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results (2-Ln/3-Ln photophysics); SI Table of 2-Eu data"
+        }
+      ]
+    },
+    {
+      "compound_label": "2-Tb",
+      "compound_name": "[Tb4(OAc)12(ptpy)2]·2H2O",
+      "formula": "C66H70N6O26Tb4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "hydrated linear tetrameric acetate–ptpy cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Same procedure as 2-Eu using Tb(OAc)3·xH2O (67.2 mg, 0.2 mmol as monohydrate) and ptpy (32.5 mg, 0.105 mmol) in MeCN (2 mL) + H2O (20 µL) at 70 °C for 16 h, followed by centrifugation, MeCN/CHCl3 washes and vacuum drying. White powder with intense green luminescence, yield 78.6 mg (79%).",
+        "reagents": [
+          {
+            "name": "terbium(III) acetate hydrate",
+            "formula": "Tb(OAc)3·xH2O",
+            "role": "metal source",
+            "amount": "67.2 mg, 0.2 mmol (calculated as monohydrate)"
+          },
+          {
+            "name": "4′-phenyl-2,2′:6′,2′′-terpyridine",
+            "formula": "ptpy",
+            "role": "ligand",
+            "amount": "32.5 mg, 0.105 mmol"
+          },
+          {
+            "name": "water",
+            "formula": "H2O",
+            "role": "hydration/solvent additive",
+            "amount": "20 µL"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "H2O",
+          "CHCl3 (wash)"
+        ],
+        "temperature": "70 °C",
+        "time": "16 h",
+        "ph": null,
+        "vessel_or_method": "Duran culture tube",
+        "workup_and_crystallization": "Centrifugation, MeCN/CHCl3 washes, vacuum drying at room temperature.",
+        "yield": "78.6 mg (79%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Typical Tb3+ solid-state photoluminescence; PLQY 28.9(5)% and lifetime 0.7077(6) ms, lower than 1-Tb. Releases water above ~100 °C to give 3-Tb.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield",
+            "value": "28.9(5)",
+            "unit": "%",
+            "conditions": "solid state, RT, λex 350 nm, emission 475–690 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime τ",
+            "value": "0.7077(6)",
+            "unit": "ms",
+            "conditions": "solid state, RT, λex/λem 350/545 nm"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Results (1-Tb, 2-Tb, 3-Tb phase-pure)"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI Bulk material syntheses of 2-Eu/2-Tb"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results (2-Ln photophysics); SI Table"
+        }
+      ]
+    },
+    {
+      "compound_label": "3-Eu",
+      "compound_name": "α-[Eu4(OAc)12(ptpy)2]",
+      "formula": "C66H66Eu4N6O24",
+      "ccdc_numbers": [
+        "2164887"
+      ],
+      "ccdc_refcodes": [
+        "PEYGOT03"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "α polymorph of linear tetrameric acetate–ptpy cluster (from dehydration of 2-Eu)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "2-Eu (64.0 mg, 0.032 mmol) was placed in a glass tube on a vacuum-line quick-fit and heated in vacuo (1×10−3 mbar) at 60 °C for 16 h. Product stored in a glovebox. White powder with intense red luminescence, yield 57.7 mg (92%). Reversible rehydration to 2-Eu is noted in the main text. Structure from Rietveld refinement of powder data (CCDC 2164887).",
+        "reagents": [
+          {
+            "name": "[Eu4(OAc)12(ptpy)2]·2H2O (2-Eu)",
+            "formula": "C66H70Eu4N6O26",
+            "role": "starting solvate",
+            "amount": "64.0 mg, 0.032 mmol"
+          }
+        ],
+        "solvents": [],
+        "temperature": "60 °C",
+        "time": "16 h",
+        "ph": null,
+        "vessel_or_method": "glass tube on vacuum line (1×10−3 mbar)",
+        "workup_and_crystallization": "Solid-state dehydration; glovebox storage. No recrystallization.",
+        "yield": "57.7 mg (92%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Typical Eu3+ photoluminescence; PLQY 61.9(1.2)% and lifetime 1.804(2) ms. Incongruent melting at 215 °C, ~70 °C lower than 1-Eu.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield",
+            "value": "61.9(1.2)",
+            "unit": "%",
+            "conditions": "solid state, RT, λex 350 nm, emission 575–720 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime τ",
+            "value": "1.804(2)",
+            "unit": "ms",
+            "conditions": "solid state, RT, λex/λem 350/620 nm"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Scheme 1; deposition 2164887"
+        },
+        {
+          "field": "ccdc",
+          "source": "external_metadata",
+          "location": "PEYGOT03/2164887"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI synthesis of 3-Eu/3-Tb"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results (2-Ln/3-Ln)"
+        }
+      ]
+    },
+    {
+      "compound_label": "3-Tb",
+      "compound_name": "α-[Tb4(OAc)12(ptpy)2]",
+      "formula": "C66H66N6O24Tb4",
+      "ccdc_numbers": [
+        "2164888"
+      ],
+      "ccdc_refcodes": [
+        "PEYHOU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "α polymorph of linear tetrameric acetate–ptpy cluster (from dehydration of 2-Tb)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "2-Tb (55.0 mg, 0.028 mmol) heated in vacuo (1×10−3 mbar) at 60 °C for 16 h in a glass tube on a vacuum line; stored in a glovebox. White powder with intense green luminescence, yield 48.3 mg (89%).",
+        "reagents": [
+          {
+            "name": "[Tb4(OAc)12(ptpy)2]·2H2O (2-Tb)",
+            "formula": "C66H70N6O26Tb4",
+            "role": "starting solvate",
+            "amount": "55.0 mg, 0.028 mmol"
+          }
+        ],
+        "solvents": [],
+        "temperature": "60 °C",
+        "time": "16 h",
+        "ph": null,
+        "vessel_or_method": "glass tube on vacuum line (1×10−3 mbar)",
+        "workup_and_crystallization": "Solid-state dehydration; glovebox storage.",
+        "yield": "48.3 mg (89%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Typical Tb3+ photoluminescence; PLQY 23.0(4)% and lifetime 0.4122(5) ms, lower than 1-Tb. Incongruent melting at 200 °C.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield",
+            "value": "23.0(4)",
+            "unit": "%",
+            "conditions": "solid state, RT, λex 350 nm, emission 475–690 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime τ",
+            "value": "0.4122(5)",
+            "unit": "ms",
+            "conditions": "solid state, RT, λex/λem 350/543 nm"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "deposition 2164888 for 3-Tb"
+        },
+        {
+          "field": "ccdc",
+          "source": "external_metadata",
+          "location": "PEYHOU/2164888"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI synthesis of 3-Eu/3-Tb"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results (2-Ln/3-Ln)"
+        }
+      ]
+    },
+    {
+      "compound_label": "4-Eu",
+      "compound_name": "β-[Eu4(OAc)12(ptpy)2]",
+      "formula": "C66H66Eu4N6O24",
+      "ccdc_numbers": [
+        "2163400"
+      ],
+      "ccdc_refcodes": [
+        "PEYGOT02"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "β polymorph of linear tetrameric acetate–ptpy cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "No phase-pure bulk conditions were found (Scheme 1). Single crystals: γ-[Eu4(OAc)12(ptpy)2] (1-Eu, ~1 mg, 0.005 mmol) sealed with MeCN (0.1 mL) in an ampoule and heated in a Büchi B-585 oven at 80 °C for 70 h; solvent removed and red-luminescent crystals analysed.",
+        "reagents": [
+          {
+            "name": "γ-[Eu4(OAc)12(ptpy)2] (1-Eu)",
+            "formula": "C66H66Eu4N6O24",
+            "role": "starting cluster",
+            "amount": "~1 mg, 0.005 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "80 °C",
+        "time": "70 h",
+        "ph": null,
+        "vessel_or_method": "sealed glass ampoule, Büchi B-585 resistance oven",
+        "workup_and_crystallization": "Ampoule crystallization from MeCN; crystals isolated after unsealing and solvent removal.",
+        "yield": null
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Scheme 1; Figure 5 overlay; deposition 2163400"
+        },
+        {
+          "field": "ccdc",
+          "source": "external_metadata",
+          "location": "PEYGOT02/2163400"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI single-crystal synthesis of 4-Eu"
+        }
+      ]
+    }
+  ]
+}

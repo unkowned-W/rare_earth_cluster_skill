@@ -1,0 +1,573 @@
+{
+  "title": "Design and synthesis of a new family of the decanuclear Mn−Ln clusters: A novel approach to nonlinear optical molecular functional materials",
+  "doi": "10.1016/j.jssc.2024.124656",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "{Mn5Sm5}",
+      "formula": "[Mn5III Sm5III (μ4-O)4 (μ2-OH)2 (OAc)8 (OCH3)2 (ampdH)4 (NO3)4 (H2O)4](NO3)2·12H2O·2MeOH",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Sm"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "decanuclear Mn5Ln5 oxo cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of Mn(OAc)2·4H2O (1.0 mmol), Sm(NO3)3·6H2O (1.0 mmol) and 2-amino-2-methyl-1,3-propanediol (ampdH2, 1.0 mmol) was dissolved in 15 mL methanol, giving a light yellow solution. After addition of Et3N (50 μL), the solution was stirred for 5 h at room temperature and turned reddish brown. The resulting solution was filtered and evaporated in air for about one week to obtain reddish brown crystals. Yield 27% based on manganese.",
+        "reagents": [
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "Mn source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "samarium(III) nitrate hexahydrate",
+            "formula": "Sm(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "2-amino-2-methyl-1,3-propanediol",
+            "formula": "ampdH2",
+            "role": "ligand",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "50 μL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 5 h; evaporated in air about one week",
+        "ph": null,
+        "vessel_or_method": "one-pot solution synthesis; filtration and air evaporation",
+        "workup_and_crystallization": "filtered and evaporated in air for about one week to obtain reddish brown crystals",
+        "yield": "27% (based on manganese)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "{Mn5Sm5}/PVA film shows the strongest third-order NLO reverse-saturable absorption and optical-limiting response among the measured analogues.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "nonlinear absorption coefficient β",
+            "value": "1.28e-7",
+            "unit": "m W^-1",
+            "conditions": "OA Z-scan; {Mn5Sm5}/PVA film; 1550 nm, 1 kHz, 35 fs; incident intensity 9.09 GW cm^-2"
+          },
+          {
+            "property_type": "optical",
+            "name": "minimum normalized transmittance Tmin",
+            "value": "~0.18",
+            "unit": null,
+            "conditions": "OA Z-scan at 1550 nm, 9.09 GW cm^-2"
+          },
+          {
+            "property_type": "optical",
+            "name": "optical limiting threshold FOL",
+            "value": 7.56,
+            "unit": "J cm^-2",
+            "conditions": "derived from Z-scan fluence data of {Mn5Sm5}/PVA film"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Section 2.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Introduction; Section 2.2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 3.3; Table 3; Fig. 4"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "{Mn5Eu5}",
+      "formula": "[Mn5III Eu5III (μ4-O)4 (μ2-OH)2 (OAc)8 (OCH3)2 (ampdH)4 (NO3)4 (H2O)4](NO3)2·12H2O·2MeOH",
+      "ccdc_numbers": [
+        "2302600"
+      ],
+      "ccdc_refcodes": [
+        "GUPNIS"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "decanuclear Mn5Ln5 oxo cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same one-pot procedure as compounds 1–5: Mn(OAc)2·4H2O (1.0 mmol), Eu(NO3)3·6H2O (1.0 mmol) and ampdH2 (1.0 mmol) in 15 mL methanol, then Et3N (50 μL), stirred 5 h at room temperature, filtered and evaporated in air about one week. Yield 25% based on manganese. Single-crystal structure of 2 was determined at 150 K (trigonal R-3c).",
+        "reagents": [
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "Mn source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "europium(III) nitrate hexahydrate",
+            "formula": "Eu(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "2-amino-2-methyl-1,3-propanediol",
+            "formula": "ampdH2",
+            "role": "ligand",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "50 μL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature (synthesis); 150 K (SCXRD)",
+        "time": "stirred 5 h; evaporated in air about one week",
+        "ph": null,
+        "vessel_or_method": "one-pot solution synthesis; Bruker D8 Quest SCXRD for 2",
+        "workup_and_crystallization": "filtered and evaporated in air for about one week to obtain reddish brown crystals",
+        "yield": "25% (based on manganese)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "{Mn5Eu5}/PVA film exhibits reverse-saturable absorption at 1550 nm with β = 8.68×10^-8 m W^-1.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "nonlinear absorption coefficient β",
+            "value": "8.68e-8",
+            "unit": "m W^-1",
+            "conditions": "OA Z-scan; {Mn5Eu5}/PVA film; 1550 nm, 1 kHz, 35 fs; 9.09 GW cm^-2"
+          },
+          {
+            "property_type": "optical",
+            "name": "minimum normalized transmittance Tmin",
+            "value": "~0.41",
+            "unit": null,
+            "conditions": "OA Z-scan at 1550 nm, 9.09 GW cm^-2"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Section 2.2; Table 1; Fig. 2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2302600 / GUPNIS"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 3.3; Table 3"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "{Mn5Gd5}",
+      "formula": "[Mn5III Gd5III (μ4-O)4 (μ2-OH)2 (OAc)8 (OCH3)2 (ampdH)4 (NO3)4 (H2O)4](NO3)2·12H2O·2MeOH",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "decanuclear Mn5Ln5 oxo cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same one-pot procedure as 1–5 using Gd(NO3)3·6H2O (1.0 mmol) with Mn(OAc)2·4H2O (1.0 mmol), ampdH2 (1.0 mmol) and Et3N (50 μL) in 15 mL methanol; stirred 5 h at room temperature, filtered and evaporated in air about one week. Yield 20% based on manganese.",
+        "reagents": [
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "Mn source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "2-amino-2-methyl-1,3-propanediol",
+            "formula": "ampdH2",
+            "role": "ligand",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "50 μL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 5 h; evaporated in air about one week",
+        "ph": null,
+        "vessel_or_method": "one-pot solution synthesis; filtration and air evaporation",
+        "workup_and_crystallization": "filtered and evaporated in air for about one week to obtain reddish brown crystals",
+        "yield": "20% (based on manganese)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Compound 3 shows weak ferromagnetic interactions and a magnetocaloric effect with −ΔSm = 23 J K^-1 kg^-1 at 2 K and 8 T; the PVA film also shows reverse-saturable NLO absorption.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 48.5,
+            "unit": "cm3 mol^-1 K",
+            "conditions": "300 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 53.05,
+            "unit": "cm3 mol^-1 K",
+            "conditions": "maximum at 20 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 15.39,
+            "unit": "cm3 mol^-1 K",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change −ΔSm",
+            "value": 23,
+            "unit": "J K^-1 kg^-1",
+            "conditions": "2 K, 8 T; from magnetization 2–10 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "nonlinear absorption coefficient β",
+            "value": "8.79e-8",
+            "unit": "m W^-1",
+            "conditions": "OA Z-scan; {Mn5Gd5}/PVA film; 1550 nm, 9.09 GW cm^-2"
+          },
+          {
+            "property_type": "optical",
+            "name": "minimum normalized transmittance Tmin",
+            "value": "~0.42",
+            "unit": null,
+            "conditions": "OA Z-scan at 1550 nm, 9.09 GW cm^-2"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 3.3 Table 3; Section 3.4; Fig. 5"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "{Mn5Dy5}",
+      "formula": "[Mn5III Dy5III (μ4-O)4 (μ2-OH)2 (OAc)8 (OCH3)2 (ampdH)4 (NO3)4 (H2O)4](NO3)2·12H2O·2MeOH",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "decanuclear Mn5Ln5 oxo cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same one-pot procedure as 1–5 using Dy(NO3)3·6H2O (1.0 mmol) with Mn(OAc)2·4H2O (1.0 mmol), ampdH2 (1.0 mmol) and Et3N (50 μL) in 15 mL methanol; stirred 5 h at room temperature, filtered and evaporated in air about one week. Yield 13% based on manganese.",
+        "reagents": [
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "Mn source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "2-amino-2-methyl-1,3-propanediol",
+            "formula": "ampdH2",
+            "role": "ligand",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "50 μL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 5 h; evaporated in air about one week",
+        "ph": null,
+        "vessel_or_method": "one-pot solution synthesis; filtration and air evaporation",
+        "workup_and_crystallization": "filtered and evaporated in air for about one week to obtain reddish brown crystals",
+        "yield": "13% (based on manganese)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Compound 4 shows weak ferromagnetic interactions and slow magnetic relaxation (χ″ below 5 K under zero dc field); the PVA film shows reverse-saturable NLO absorption.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 79.01,
+            "unit": "cm3 mol^-1 K",
+            "conditions": "300 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 95.37,
+            "unit": "cm3 mol^-1 K",
+            "conditions": "maximum at about 10 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 78.04,
+            "unit": "cm3 mol^-1 K",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "out-of-phase ac susceptibility χ″",
+            "value": "observed below 5 K",
+            "unit": null,
+            "conditions": "zero dc field, 5 Oe ac field; frequency-dependent (Fig. 5d)"
+          },
+          {
+            "property_type": "optical",
+            "name": "nonlinear absorption coefficient β",
+            "value": "9.67e-8",
+            "unit": "m W^-1",
+            "conditions": "OA Z-scan; {Mn5Dy5}/PVA film; 1550 nm, 9.09 GW cm^-2"
+          },
+          {
+            "property_type": "optical",
+            "name": "minimum normalized transmittance Tmin",
+            "value": "~0.39",
+            "unit": null,
+            "conditions": "OA Z-scan at 1550 nm, 9.09 GW cm^-2"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 3.3 Table 3; Section 3.4; Fig. 5"
+        }
+      ]
+    },
+    {
+      "compound_label": "5",
+      "compound_name": "{Mn5Tb5}",
+      "formula": "[Mn5III Tb5III (μ4-O)4 (μ2-OH)2 (OAc)8 (OCH3)2 (ampdH)4 (NO3)4 (H2O)4](NO3)2·12H2O·2MeOH",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "decanuclear Mn5Ln5 oxo cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same one-pot procedure as 1–5 using Tb(NO3)3·6H2O (1.0 mmol) with Mn(OAc)2·4H2O (1.0 mmol), ampdH2 (1.0 mmol) and Et3N (50 μL) in 15 mL methanol; stirred 5 h at room temperature, filtered and evaporated in air about one week. Yield 14% based on manganese.",
+        "reagents": [
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "Mn source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "2-amino-2-methyl-1,3-propanediol",
+            "formula": "ampdH2",
+            "role": "ligand",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "50 μL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 5 h; evaporated in air about one week",
+        "ph": null,
+        "vessel_or_method": "one-pot solution synthesis; filtration and air evaporation",
+        "workup_and_crystallization": "filtered and evaporated in air for about one week to obtain reddish brown crystals",
+        "yield": "14% (based on manganese)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.2"
+        }
+      ]
+    }
+  ]
+}

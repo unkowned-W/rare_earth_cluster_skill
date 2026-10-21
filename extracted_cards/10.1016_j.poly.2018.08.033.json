@@ -1,0 +1,273 @@
+{
+  "title": "Two LnIII4 (Ln = DyIII and GdIII) clusters showing single molecule magnet behavior and magnetic refrigeration",
+  "doi": "10.1016/j.poly.2018.08.033",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4(μ3-OH)2L6(beac)4]",
+      "formula": "C136H104Dy4N12O22",
+      "ccdc_numbers": [
+        "1845003"
+      ],
+      "ccdc_refcodes": [
+        "ZIDTEO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "rhombus-shaped Ln4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A CH2Cl2 solution (5 mL) containing Dy(beac)3·2H2O (0.04 mmol) was added to 30 mL acetonitrile containing HL (0.04 mmol). The yellow mixture was stirred at 70 °C for 4 h, filtered, and left unperturbed to evaporate slowly at 4 °C. Yellow block crystals suitable for single-crystal X-ray diffraction formed after about 5 days.",
+        "reagents": [
+          {
+            "name": "Dy(beac)3·2H2O",
+            "formula": "Dy(beac)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.04 mmol"
+          },
+          {
+            "name": "HL (5-(4-o-hydroxybenzylidene)-8-hydroxylquinoline)",
+            "formula": "C16H12N2O2",
+            "role": "Schiff-base ligand",
+            "amount": "0.04 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "acetonitrile"
+        ],
+        "temperature": "stirred at 70 °C; crystallization at 4 °C",
+        "time": "stirred 4 h; crystals after about 5 days",
+        "ph": null,
+        "vessel_or_method": "solution mixing, filtration, and slow solvent evaporation",
+        "workup_and_crystallization": "filtration followed by unperturbed slow evaporation at 4 °C yielding yellow block crystals",
+        "yield": "37% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Rhombus-shaped Dy4 cluster 1 shows slow magnetic relaxation/SMM behavior under zero dc field. Room-temperature χMT is close to four free DyIII ions and decreases on cooling, consistent with Stark depopulation and possible antiferromagnetic Dy···Dy interactions. Arrhenius analysis of ac peaks gives ΔE/kB = 83.38 K and τ0 = 1.51×10−7 s; Cole–Cole α = 0.26–0.59 indicates a relatively wide distribution of relaxation times.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 56.86,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1.0 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 31.59,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1.0 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB",
+            "value": 83.38,
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit of ac peak temperatures"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "1.51e-7",
+            "unit": "s",
+            "conditions": "zero dc field; Arrhenius law"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α parameter range",
+            "value": "0.26–0.59",
+            "unit": null,
+            "conditions": "frequency-dependent ac susceptibility, 5.0–16.0 K, zero dc field, generalized Debye model"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 1; section 2.3"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.3; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 2.4"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ZIDTEO / 1845003"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "section 3.1; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3; Figs. 3–7"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Gd4(μ3-OH)2L6(acac)4]·4CH3CN",
+      "formula": "C124H108Gd4N16O22",
+      "ccdc_numbers": [
+        "1845004"
+      ],
+      "ccdc_refcodes": [
+        "ZIDTIS"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "rhombus-shaped Ln4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to cluster 1, replacing Dy(beac)3·2H2O (0.04 mmol) with Gd(acac)3·2H2O (0.04 mmol) under the same CH2Cl2/acetonitrile mixing, 70 °C stirring for 4 h, filtration, and slow evaporation. Block-shaped yellow crystals were obtained after about 7 days.",
+        "reagents": [
+          {
+            "name": "Gd(acac)3·2H2O",
+            "formula": "Gd(acac)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.04 mmol"
+          },
+          {
+            "name": "HL (5-(4-o-hydroxybenzylidene)-8-hydroxylquinoline)",
+            "formula": "C16H12N2O2",
+            "role": "Schiff-base ligand",
+            "amount": "0.04 mmol (same as cluster 1)"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "acetonitrile"
+        ],
+        "temperature": "stirred at 70 °C (same as 1); crystallization by slow evaporation",
+        "time": "stirred 4 h (same as 1); crystals after about 7 days",
+        "ph": null,
+        "vessel_or_method": "solution mixing, filtration, and slow solvent evaporation (procedure analogous to 1)",
+        "workup_and_crystallization": "filtration and slow evaporation yielding block-shaped yellow crystals after about 7 days",
+        "yield": "35% based on Gd"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Rhombus-shaped Gd4 cluster 2 shows weak antiferromagnetic Gd···Gd exchange (fitted g = 2.03, J = −0.14 cm−1) and a magnetocaloric effect. Magnetization at 2–10 K saturates near 28.07 Nβ, close to four isotropic GdIII ions. The maximum −ΔSm is 19.65 J kg−1 K−1 for ΔH = 7.0 T at 2.0 K, below the 24.67 J kg−1 K−1 spin-only estimate, consistent with antiferromagnetic coupling.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 31.81,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1.0 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 14.73,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1.0 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g",
+            "value": 2.03,
+            "unit": null,
+            "conditions": "fit of χMT vs T using Hamiltonian (1); R = 0.99725"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J",
+            "value": -0.14,
+            "unit": "cm−1",
+            "conditions": "fit of χMT vs T using Hamiltonian (1)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "saturation magnetization Msat",
+            "value": 28.07,
+            "unit": "Nβ",
+            "conditions": "2.0–10.0 K, 0–80 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm (maximum)",
+            "value": 19.65,
+            "unit": "J kg−1 K−1",
+            "conditions": "ΔH = 7.0 T, 2.0 K; from M vs H via Maxwell relation"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 1; section 2.3"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.3; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 2.4"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ZIDTIS / 1845004"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "section 3.1; Fig. 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3; Figs. 3 and 8"
+        }
+      ]
+    }
+  ]
+}

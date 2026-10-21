@@ -1,0 +1,116 @@
+{
+  "refcode": "ZUYMOY",
+  "ccdc_number": "1447081",
+  "dois": [
+    "10.1016/j.poly.2020.114811"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1447081.cif",
+  "formula_moiety": "C28 H27 Er1 N2 O10 Zn1",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "10.5335(18)",
+    "b": "11.199(2)",
+    "c": "14.091(3)",
+    "alpha": "94.570(3)",
+    "beta": "94.702(3)",
+    "gamma": "111.619(3)",
+    "volume": "1529.24",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Er1",
+      "element": "Er",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O2",
+        "O3",
+        "O5",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Zn1",
+      "element": "Zn",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O4",
+        "O6",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Er1",
+          "Zn1"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.351,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 100.68,
+            "metal_oxygen_distances_angstrom": [
+              2.336,
+              2.008
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 101.47,
+            "metal_oxygen_distances_angstrom": [
+              2.312,
+              2.008
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Er1",
+        "Zn1"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ZUYMOY crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C28 H27 Er1 N2 O10 Zn1. From the CIF bond table, Er1 (Er) has 9 O neighbors; Zn1 (Zn) has 3 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 1 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.351-3.351 Å (not direct metal-metal bonds). Computed M-O-M angles span 100.68-101.47°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C28H27ErN2O10Zn. Explicit grouped units in the article formula/name: 3 OAc (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.poly.2020.114811",
+    "formula": "C28H27ErN2O10Zn",
+    "compound_name": "[ErZnL(OAc)3]",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OAc",
+        "count": 3,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

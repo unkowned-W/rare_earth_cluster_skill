@@ -1,0 +1,184 @@
+{
+  "refcode": "GETREE",
+  "ccdc_number": "883915",
+  "dois": [
+    "10.1016/j.poly.2012.09.007"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\883915.cif",
+  "formula_moiety": "(C23 H44 Ce1 Fe1 N4 Na1 O10)n,n(C2 H3 N1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "11.4091(3)",
+    "b": "13.1080(3)",
+    "c": "13.3104(3)",
+    "alpha": "107.403(2)",
+    "beta": "106.234(2)",
+    "gamma": "102.539(2)",
+    "volume": "1722.68",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O14",
+        "O2",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Fe1",
+      "element": "Fe",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O13",
+        "O2"
+      ]
+    },
+    {
+      "label": "Fe2",
+      "element": "Fe",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ce1",
+          "Ce2"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.636,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 109.48,
+            "metal_oxygen_distances_angstrom": [
+              2.278,
+              2.174
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 109.48,
+            "metal_oxygen_distances_angstrom": [
+              2.174,
+              2.278
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce1",
+          "Fe1"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.343,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 101.75,
+            "metal_oxygen_distances_angstrom": [
+              2.337,
+              1.962
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 104.83,
+            "metal_oxygen_distances_angstrom": [
+              2.278,
+              1.932
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2",
+          "Fe1"
+        ],
+        "shared_oxygen_labels": [
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.8,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 135.36,
+            "metal_oxygen_distances_angstrom": [
+              2.174,
+              1.932
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1",
+        "Ce2",
+        "Fe1"
+      ],
+      [
+        "Fe2"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "GETREE crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: (C23 H44 Ce1 Fe1 N4 Na1 O10)n,n(C2 H3 N1). From the CIF bond table, Ce1 (Ce) has 9 O neighbors; Fe1 (Fe) has 4 O neighbors; Ce2 (Ce) has 5 O neighbors; Fe2 (Fe) has 0 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 2 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.343-3.800 Å (not direct metal-metal bonds). Computed M-O-M angles span 101.75-135.36°; individual values and O labels are in metal_framework.links. Article card reports molecular formula ([Fe2Ce2Na2O2((CH3)3CCO2)8(N3)2(ap)2]·2CH3CN)∞ (vacuum-dried material analyzed as (6·2H2O)∞).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.poly.2012.09.007",
+    "formula": "([Fe2Ce2Na2O2((CH3)3CCO2)8(N3)2(ap)2]·2CH3CN)∞ (vacuum-dried material analyzed as (6·2H2O)∞)",
+    "compound_name": "([Fe2Ce2Na2O2((CH3)3CCO2)8(N3)2(ap)2]·2CH3CN)∞",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

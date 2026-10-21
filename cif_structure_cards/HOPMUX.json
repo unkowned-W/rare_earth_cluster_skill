@@ -1,0 +1,378 @@
+{
+  "refcode": "HOPMUX",
+  "ccdc_number": "1912011",
+  "dois": [
+    "10.1021/acs.inorgchem.9b01223"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1912011.cif",
+  "formula_moiety": "C139 H173 Eu3 O34 Ti3,C1 H4 O1",
+  "crystal_system": "orthorhombic",
+  "space_group_hm": "P n n 2",
+  "international_tables_number": "34",
+  "unit_cell": {
+    "a": "20.4984(3)",
+    "b": "32.4950(4)",
+    "c": "24.4837(4)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "16308.5",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O14",
+        "O16",
+        "O17",
+        "O19",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O14",
+        "O18",
+        "O2",
+        "O26",
+        "O27",
+        "O29",
+        "O6"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O17",
+        "O20",
+        "O23",
+        "O27",
+        "O3",
+        "O30",
+        "O32"
+      ]
+    },
+    {
+      "label": "Ti1",
+      "element": "Ti",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O15",
+        "O21",
+        "O25",
+        "O27",
+        "O28",
+        "O4"
+      ]
+    },
+    {
+      "label": "Ti2",
+      "element": "Ti",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O19",
+        "O22",
+        "O24",
+        "O5",
+        "O8"
+      ]
+    },
+    {
+      "label": "Ti3",
+      "element": "Ti",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O13",
+        "O17",
+        "O31",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O14"
+        ],
+        "metal_metal_separation_angstrom": 3.846,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 113.46,
+            "metal_oxygen_distances_angstrom": [
+              2.285,
+              2.315
+            ]
+          },
+          {
+            "oxygen": "O14",
+            "angle_deg": 100.9,
+            "metal_oxygen_distances_angstrom": [
+              2.451,
+              2.536
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O16",
+          "O17"
+        ],
+        "metal_metal_separation_angstrom": 3.87,
+        "bridge_geometry": [
+          {
+            "oxygen": "O16",
+            "angle_deg": 103.97,
+            "metal_oxygen_distances_angstrom": [
+              2.478,
+              2.434
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 108.43,
+            "metal_oxygen_distances_angstrom": [
+              2.409,
+              2.362
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Ti2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O19"
+        ],
+        "metal_metal_separation_angstrom": 3.242,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 105.66,
+            "metal_oxygen_distances_angstrom": [
+              2.285,
+              1.765
+            ]
+          },
+          {
+            "oxygen": "O19",
+            "angle_deg": 98.21,
+            "metal_oxygen_distances_angstrom": [
+              2.326,
+              1.951
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Ti3"
+        ],
+        "shared_oxygen_labels": [
+          "O17",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.303,
+        "bridge_geometry": [
+          {
+            "oxygen": "O9",
+            "angle_deg": 99.14,
+            "metal_oxygen_distances_angstrom": [
+              2.412,
+              1.906
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 105.82,
+            "metal_oxygen_distances_angstrom": [
+              2.409,
+              1.696
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O27"
+        ],
+        "metal_metal_separation_angstrom": 4.268,
+        "bridge_geometry": [
+          {
+            "oxygen": "O27",
+            "angle_deg": 110.94,
+            "metal_oxygen_distances_angstrom": [
+              2.63,
+              2.55
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Ti1"
+        ],
+        "shared_oxygen_labels": [
+          "O27"
+        ],
+        "metal_metal_separation_angstrom": 3.793,
+        "bridge_geometry": [
+          {
+            "oxygen": "O27",
+            "angle_deg": 121.45,
+            "metal_oxygen_distances_angstrom": [
+              2.63,
+              1.686
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Ti2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.728,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 131.6,
+            "metal_oxygen_distances_angstrom": [
+              2.315,
+              1.765
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu3",
+          "Ti1"
+        ],
+        "shared_oxygen_labels": [
+          "O27"
+        ],
+        "metal_metal_separation_angstrom": 3.819,
+        "bridge_geometry": [
+          {
+            "oxygen": "O27",
+            "angle_deg": 127.61,
+            "metal_oxygen_distances_angstrom": [
+              2.55,
+              1.686
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu3",
+          "Ti3"
+        ],
+        "shared_oxygen_labels": [
+          "O17"
+        ],
+        "metal_metal_separation_angstrom": 3.772,
+        "bridge_geometry": [
+          {
+            "oxygen": "O17",
+            "angle_deg": 136.12,
+            "metal_oxygen_distances_angstrom": [
+              2.362,
+              1.696
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2",
+        "Eu3",
+        "Ti1",
+        "Ti2",
+        "Ti3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "HOPMUX crystallizes in the orthorhombic crystal system with space group P n n 2. Reported CIF formula moiety: C139 H173 Eu3 O34 Ti3,C1 H4 O1. From the CIF bond table, Eu1 (Eu) has 8 O neighbors; Eu2 (Eu) has 8 O neighbors; Eu3 (Eu) has 8 O neighbors; Ti1 (Ti) has 6 O neighbors; Ti2 (Ti) has 6 O neighbors; Ti3 (Ti) has 6 O neighbors. Oxygen-bridged metal-site graph: 9 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.242-4.268 Å (not direct metal-metal bonds). Computed M-O-M angles span 98.21-136.12°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Eu3Ti3(μ3-O)2(μ3-OH)(CH3O)2(Ac)2(CH3OH)(tbba)12]·CH3OH. Explicit grouped units in the article formula/name: 2 μ3-O (explicit grouped unit in article formula), 1 μ3-OH (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.9b01223",
+    "formula": "[Eu3Ti3(μ3-O)2(μ3-OH)(CH3O)2(Ac)2(CH3OH)(tbba)12]·CH3OH",
+    "compound_name": "[Eu3Ti3(μ3-O)2(μ3-OH)(CH3O)2(Ac)2(CH3OH)(tbba)12]·CH3OH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-O",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "μ3-OH",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

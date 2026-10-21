@@ -1,0 +1,167 @@
+{
+  "title": "Construction of a 12-metal Zn(II)-Nd(III) nanocluster for ratiometric fluorescence detection of inflammatory marker neopterin",
+  "doi": "10.1016/j.jre.2024.08.003",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "12-metal Zn(II)-Nd(III) nanocluster",
+      "formula": "[Zn8Nd4L8(OAc)8][Nd2(OAc)3(NO3)4(OH)(H2O)]2 (L = 8,8'-((1E,1'E)-(((octane-1,8-diylbis(oxy))bis(2,1-phenylene))bis(azaneylylidene))bis(methaneylylidene))bis(2-ethoxyphenolate); solvated diethyl ether/ethanol/water)",
+      "ccdc_numbers": [
+        "2330205"
+      ],
+      "ccdc_refcodes": [
+        "QUMKES"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Nd"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "cube-like Zn8Nd4 Schiff-base nanocluster with [Nd2(OAc)3(NO3)4(OH)(H2O)]2- counterions"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Nd(OAc)3·6H2O (0.0665 g, 0.20 mmol), Zn(NO3)2·6H2O (0.0595 g, 0.20 mmol) and H2L (0.1249 g, 0.20 mmol) were dissolved in 5 mL ethanol and 5 mL methanol, then 1.0 mL of 1.0 mol/L triethylamine in ethanol was added. The mixture was heated and stirred under reflux for 1 h and filtered. Yellow crystals of 1 formed after slow diffusion of diethyl ether into the filtrate for three weeks.",
+        "reagents": [
+          {
+            "name": "neodymium(III) acetate hexahydrate",
+            "formula": "Nd(OAc)3·6H2O",
+            "role": "Nd source",
+            "amount": "0.0665 g, 0.20 mmol"
+          },
+          {
+            "name": "zinc(II) nitrate hexahydrate",
+            "formula": "Zn(NO3)2·6H2O",
+            "role": "Zn source",
+            "amount": "0.0595 g, 0.20 mmol"
+          },
+          {
+            "name": "H2L Schiff base ligand",
+            "formula": "H2L (C38H44N2O6)",
+            "role": "bridging ligand",
+            "amount": "0.1249 g, 0.20 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1.0 mL of 1.0 mol/L ethanol solution"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "methanol",
+          "diethyl ether"
+        ],
+        "temperature": "reflux",
+        "time": "1 h reflux; 3 weeks crystallization",
+        "ph": null,
+        "vessel_or_method": "reflux stirring followed by filtration and diethyl-ether vapor diffusion",
+        "workup_and_crystallization": "filtered; crystalline product formed by slow diffusion of diethyl ether into the filtrate for three weeks",
+        "yield": "0.0632 g (40% based on Nd(OAc)3·6H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Cluster 1 shows ligand-centered visible emission at 545 nm and NIR Nd(III) emission at 890, 1060 and 1335 nm (λex = 395 nm). It gives a ratiometric fluorescence response to neopterin (visible enhancement and NIR quenching) enabling quantitative detection in CH3CN, fetal calf serum and urine.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "290, 332, 395",
+            "unit": "nm",
+            "conditions": "CH3CN"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-centered emission maximum",
+            "value": 545,
+            "unit": "nm",
+            "conditions": "CH3CN, λex = 395 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Nd(III) NIR emission maxima",
+            "value": "890, 1060, 1335",
+            "unit": "nm",
+            "conditions": "CH3CN, λex = 395 nm; 4F3/2 → 4Ij/2 (j = 9, 11, 13)"
+          },
+          {
+            "property_type": "optical",
+            "name": "Nd(III) luminescence lifetime",
+            "value": 8.34,
+            "unit": "ms",
+            "conditions": "as reported (Fig. S9)"
+          },
+          {
+            "property_type": "optical",
+            "name": "intrinsic Nd quantum yield φLn = τ/τ0",
+            "value": 3.34,
+            "unit": "%",
+            "conditions": "τ0(Nd3+) taken as 250 ms"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD for neopterin",
+            "value": 0.033,
+            "unit": "μmol/L",
+            "conditions": "CH3CN, fluorescence, range 0–30 μmol/L"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD for neopterin",
+            "value": 0.034,
+            "unit": "μmol/L",
+            "conditions": "fetal calf serum, based on lanthanide luminescence"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD for neopterin",
+            "value": 0.021,
+            "unit": "μmol/L",
+            "conditions": "urine, based on lanthanide luminescence"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "title"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Introduction; Section 3.1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2330205 / QUMKES"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Section 3.1; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 3.2; Figs. 3–8; Tables 1–2"
+        }
+      ]
+    }
+  ]
+}

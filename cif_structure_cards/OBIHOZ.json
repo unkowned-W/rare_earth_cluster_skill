@@ -1,0 +1,142 @@
+{
+  "refcode": "OBIHOZ",
+  "ccdc_number": "1486220",
+  "dois": [
+    "10.1039/c6dt03500k"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1486220.cif",
+  "formula_moiety": "C152 H122 N10 O24 Tb4,2(C2 H3 N1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "14.342(2)",
+    "b": "27.548(4)",
+    "c": "19.000(3)",
+    "alpha": "90",
+    "beta": "99.887(3)",
+    "gamma": "90",
+    "volume": "7395.29",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12",
+        "O1B",
+        "O2",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tb1B",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12B",
+        "O1B",
+        "O2B",
+        "O4B",
+        "O5B"
+      ]
+    },
+    {
+      "label": "Tb2B",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10B",
+        "O11B",
+        "O6B",
+        "O7B",
+        "O8B",
+        "O9B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O1B"
+        ],
+        "metal_metal_separation_angstrom": 3.86,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 109.53,
+            "metal_oxygen_distances_angstrom": [
+              2.36,
+              2.366
+            ]
+          },
+          {
+            "oxygen": "O1B",
+            "angle_deg": 109.53,
+            "metal_oxygen_distances_angstrom": [
+              2.366,
+              2.36
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb1B"
+      ],
+      [
+        "Tb2"
+      ],
+      [
+        "Tb2B"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "OBIHOZ crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C152 H122 N10 O24 Tb4,2(C2 H3 N1). From the CIF bond table, Tb1 (Tb) has 6 O neighbors; Tb2 (Tb) has 6 O neighbors; Tb1B (Tb) has 6 O neighbors; Tb2B (Tb) has 6 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.860-3.860 Å (not direct metal-metal bonds). Computed M-O-M angles span 109.53-109.53°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C156H128N12O24Tb4.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c6dt03500k",
+    "formula": "C156H128N12O24Tb4",
+    "compound_name": "[Tb4(dbm)8L2(DMF)2]·2C2H3N",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

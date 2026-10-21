@@ -1,0 +1,145 @@
+{
+  "refcode": "RETBAT",
+  "ccdc_number": "103511",
+  "dois": [
+    "10.1002/zaac.19976230803"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\103511.cif",
+  "formula_moiety": "C30 H78 Br4 N3 O4 Si6 Yb3",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "10.854(1)",
+    "b": "14.102(1)",
+    "c": "19.120(1)",
+    "alpha": "78.62(1)",
+    "beta": "80.61(1)",
+    "gamma": "73.45(1)",
+    "volume": "2732.3",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O4"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.521,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 111.1,
+            "metal_oxygen_distances_angstrom": [
+              2.133,
+              2.136
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb1",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.516,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 110.63,
+            "metal_oxygen_distances_angstrom": [
+              2.133,
+              2.143
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb2",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.522,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 110.76,
+            "metal_oxygen_distances_angstrom": [
+              2.136,
+              2.143
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2",
+        "Yb3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "RETBAT crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C30 H78 Br4 N3 O4 Si6 Yb3. From the CIF bond table, Yb1 (Yb) has 2 O neighbors; Yb2 (Yb) has 2 O neighbors; Yb3 (Yb) has 2 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.516-3.522 Å (not direct metal-metal bonds). Computed M-O-M angles span 110.63-111.10°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C30H78Br4N3O4Si6Yb3.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/zaac.19976230803",
+    "formula": "C30H78Br4N3O4Si6Yb3",
+    "compound_name": "[Yb3OBr4{N(SiMe3)2}3(THF)3]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

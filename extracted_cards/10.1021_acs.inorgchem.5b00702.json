@@ -1,0 +1,580 @@
+{
+  "title": "Anions Influence the Relaxation Dynamics of Mono-μ3-OH-Capped Triangular Dysprosium Aggregates",
+  "doi": "10.1021/acs.inorgchem.5b00702",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy3(HL)3(μ3-OH)(CH3OH)2(H2O)4]Cl1.5(OH)0.5·0.5H2O",
+      "formula": "[Dy3(HL)3(μ3-OH)(CH3OH)2(H2O)4]Cl1.5(OH)0.5·0.5H2O",
+      "ccdc_numbers": [
+        "1056402"
+      ],
+      "ccdc_refcodes": [
+        "QUJKAJ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "μ3-OH-capped triangular Dy3 circular helicate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "DyCl3·6H2O (0.1 mmol, 0.038 g) was added to a suspension of HL (0.1 mmol, 0.031 g) in CH3OH/CH3CN (10 mL/5 mL), then Et3N (0.2 mmol, 0.028 mL) was added. The red solution was stirred for 4 h, filtered, and the filtrate was left in air for slow solvent evaporation. Dark red needles of 1 suitable for X-ray diffraction were collected after 2 weeks.",
+        "reagents": [
+          {
+            "name": "DyCl3·6H2O",
+            "formula": "DyCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol, 0.038 g"
+          },
+          {
+            "name": "HL ((3-hydroxy)-N′-((8-hydroxyquinolin-2-yl)methylene)picolinohydrazide)",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.1 mmol, 0.031 g"
+          },
+          {
+            "name": "Et3N",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol, 0.028 mL"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "CH3CN"
+        ],
+        "temperature": null,
+        "time": "stirred 4 h; crystals after 2 weeks",
+        "ph": null,
+        "vessel_or_method": "solution stirring, filtration, slow evaporation in air",
+        "workup_and_crystallization": "filtrate exposed to air for slow evaporation; dark red needles collected after 2 weeks",
+        "yield": "20 mg (37%, based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Room-temperature χMT = 41.0 cm3 K mol−1 (vs 42.5 expected for three uncoupled DyIII). χMT falls to 32.5 cm3 K mol−1 at 1.9 K. Magnetization below 5 K is unsaturated and H/T non-superimposable, indicating anisotropy. Under zero dc field, 1 is an SMM with two relaxation processes; Arrhenius barriers are 45.9 K (SR, τ0 = 3.15×10−7 s) and 7.6 K (FR, τ0 = 2.27×10−5 s) at high T, and 3.2 K / 1.6 K at low T. A 300 Oe dc field suppresses the high-frequency process (Ueff = 41.2 K, τ0 = 6.61×10−7 s).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 41.0,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, polycrystalline"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 32.5,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.9 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (SR, HT, 0 Oe)",
+            "value": 45.9,
+            "unit": "K",
+            "conditions": "zero dc field; ac 3 Oe; Arrhenius high-T slow relaxation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (SR, HT, 0 Oe)",
+            "value": "3.15e-7",
+            "unit": "s",
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (FR, HT, 0 Oe)",
+            "value": 7.6,
+            "unit": "K",
+            "conditions": "zero dc field; high-T fast relaxation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (FR, HT, 0 Oe)",
+            "value": "2.27e-5",
+            "unit": "s",
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (SR, LT, 0 Oe)",
+            "value": 3.2,
+            "unit": "K",
+            "conditions": "zero dc field; low-T SR"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (SR, LT, 0 Oe)",
+            "value": "1.88e-3",
+            "unit": "s",
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (FR, LT, 0 Oe)",
+            "value": 1.6,
+            "unit": "K",
+            "conditions": "zero dc field; low-T FR"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (FR, LT, 0 Oe)",
+            "value": "6.97e-5",
+            "unit": "s",
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (300 Oe)",
+            "value": 41.2,
+            "unit": "K",
+            "conditions": "300 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (300 Oe)",
+            "value": "6.61e-7",
+            "unit": "s",
+            "conditions": "300 Oe dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; introduction; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Associated Content (CCDC-1056402)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "QUJKAJ / 1056402"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 3–5; Table 3"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy3(HL)3(μ3-OH)(CH3OH)3(H2O)2Cl]Cl·CH3OH",
+      "formula": "[Dy3(HL)3(μ3-OH)(CH3OH)3(H2O)2Cl]Cl·CH3OH",
+      "ccdc_numbers": [
+        "1056403"
+      ],
+      "ccdc_refcodes": [
+        "QUJHUA"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "μ3-OH-capped triangular Dy3 circular helicate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared from the same reaction mixture as 1 (DyCl3·6H2O 0.1 mmol, 0.038 g; HL 0.1 mmol, 0.031 g; Et3N 0.2 mmol, 0.028 mL in CH3OH/CH3CN 10 mL/5 mL, stirred 4 h and filtered). Diethyl ether was allowed to diffuse slowly into the filtrate from 1 at room temperature, giving red plates of 2 in 1 week.",
+        "reagents": [
+          {
+            "name": "DyCl3·6H2O",
+            "formula": "DyCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol, 0.038 g (same filtrate as 1)"
+          },
+          {
+            "name": "HL",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.1 mmol, 0.031 g"
+          },
+          {
+            "name": "Et3N",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol, 0.028 mL"
+          },
+          {
+            "name": "diethyl ether",
+            "formula": "Et2O",
+            "role": "diffusion solvent",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "CH3CN",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "crystals in 1 week",
+        "ph": null,
+        "vessel_or_method": "slow ether diffusion into filtrate from 1",
+        "workup_and_crystallization": "Et2O vapor diffusion into filtrate; red plates after 1 week",
+        "yield": "16 mg (29%, based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 41.0 cm3 K mol−1 at room temperature, falling to 28.9 cm3 K mol−1 at 1.9 K. Zero-field ac data show broad frequency-dependent peaks (multiple relaxation) but τ could not be extracted from two Debye processes. Under 1000 Oe, thermally activated relaxation above 5 K gives Ueff = 34.3 K (τ0 = 3.23×10−6 s); including QTM yields Ueff = 50.2 K, τ0 = 5.58×10−7 s, τQT = 0.00144 s.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 41.0,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 28.9,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.9 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 34.3,
+            "unit": "K",
+            "conditions": "1000 Oe dc; Arrhenius, T > 5.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "3.23e-6",
+            "unit": "s",
+            "conditions": "1000 Oe; Arrhenius"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (Orbach+QTM)",
+            "value": 50.2,
+            "unit": "K",
+            "conditions": "1000 Oe; eq 2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (Orbach+QTM)",
+            "value": "5.58e-7",
+            "unit": "s",
+            "conditions": "1000 Oe; eq 2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τQT",
+            "value": 0.00144,
+            "unit": "s",
+            "conditions": "1000 Oe dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "introduction; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Associated Content (CCDC-1056403)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "QUJHUA / 1056403"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 6–7; Table 3"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Dy3(HL)3(μ3-OH)(CH3OH)3(H2O)2(NO3)](NO3)",
+      "formula": "[Dy3(HL)3(μ3-OH)(CH3OH)3(H2O)2(NO3)](NO3)",
+      "ccdc_numbers": [
+        "1056404"
+      ],
+      "ccdc_refcodes": [
+        "QUJJAI"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "μ3-OH-capped triangular Dy3 circular helicate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(NO3)3·6H2O (0.1 mmol, 0.046 g) was added to a suspension of HL (0.1 mmol, 0.031 g) in CH3OH/CH2Cl2 (10 mL/10 mL), then Et3N (0.3 mmol, 0.042 mL) was added. The red solution was stirred for 4 h, filtered, and the filtrate left in air for slow evaporation. Red needles of 3 were collected after 1 week.",
+        "reagents": [
+          {
+            "name": "Dy(NO3)3·6H2O",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol, 0.046 g"
+          },
+          {
+            "name": "HL",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.1 mmol, 0.031 g"
+          },
+          {
+            "name": "Et3N",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.3 mmol, 0.042 mL"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "CH2Cl2"
+        ],
+        "temperature": null,
+        "time": "stirred 4 h; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution stirring, filtration, slow evaporation in air",
+        "workup_and_crystallization": "slow evaporation; red needles after 1 week",
+        "yield": "28 mg (50%, based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 39.7 cm3 K mol−1 at room temperature and 27.7 cm3 K mol−1 at 1.9 K. Zero-field ac χ″ is strongly frequency-dependent below 10 K without maxima (onset of slow relaxation/QTM). Estimated Ea = 2.1 K (τ0 = 1.3×10−4 s) from ln(χ″/χ′) vs 1/T. A 500 Oe dc field produced negligible change in temperature-dependent ac signals.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 39.7,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 27.7,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.9 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ea (estimated)",
+            "value": 2.1,
+            "unit": "K",
+            "conditions": "zero dc field; ln(χ″/χ′) vs 1/T, 30–1000 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (estimated)",
+            "value": "1.3e-4",
+            "unit": "s",
+            "conditions": "zero dc field; eq 3"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "introduction; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Associated Content (CCDC-1056404)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "QUJJAI / 1056404"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figure 8; Figure S12"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Dy3(HL)3(μ3-OH)(CH3OH)4(ClO4)](ClO4)",
+      "formula": "[Dy3(HL)3(μ3-OH)(CH3OH)4(ClO4)](ClO4)",
+      "ccdc_numbers": [
+        "1056405"
+      ],
+      "ccdc_refcodes": [
+        "QUJJEM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "μ3-OH-capped triangular Dy3 circular helicate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 3 using Dy(ClO4)3·6H2O (0.1 mmol, 0.057 g) and Et3N (0.2 mmol, 0.028 mL) with HL (0.1 mmol, 0.031 g) in CH3OH/CH2Cl2 as for 3. Dark red blocks of 4 suitable for X-ray diffraction were collected after 10 days.",
+        "reagents": [
+          {
+            "name": "Dy(ClO4)3·6H2O",
+            "formula": "Dy(ClO4)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol, 0.057 g"
+          },
+          {
+            "name": "HL",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.1 mmol, 0.031 g (as for 3)"
+          },
+          {
+            "name": "Et3N",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol, 0.028 mL"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "CH2Cl2"
+        ],
+        "temperature": null,
+        "time": "crystals after 10 days",
+        "ph": null,
+        "vessel_or_method": "procedure similar to 3; slow evaporation",
+        "workup_and_crystallization": "dark red blocks collected after 10 days",
+        "yield": "22 mg (38%, based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 40.9 cm3 K mol−1 at room temperature and 29.9 cm3 K mol−1 at 1.9 K. Zero-field ac χ″ is frequency-dependent without peaks (estimated Ea = 1.2 K, τ0 = 6.7×10−5 s). Under 900 Oe, strong frequency-dependent χ″ peaks appear at 1.9–10 K; above 6.0 K a single Orbach process gives Ueff = 34.5 K (τ0 = 4.66×10−6 s).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 40.9,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 29.9,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.9 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ea (estimated, 0 Oe)",
+            "value": 1.2,
+            "unit": "K",
+            "conditions": "zero dc field; ln(χ″/χ′) vs 1/T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (estimated, 0 Oe)",
+            "value": "6.7e-5",
+            "unit": "s",
+            "conditions": "zero dc field; eq 3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 34.5,
+            "unit": "K",
+            "conditions": "900 Oe dc; Arrhenius, T > 6.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "4.66e-6",
+            "unit": "s",
+            "conditions": "900 Oe dc; T > 6.0 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "introduction; Table 1; Experimental Section"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Associated Content (CCDC-1056405)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "QUJJEM / 1056405"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 9–10; Figure S15"
+        }
+      ]
+    }
+  ]
+}

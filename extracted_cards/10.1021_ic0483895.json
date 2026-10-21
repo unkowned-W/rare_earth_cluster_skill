@@ -1,0 +1,162 @@
+{
+  "title": "Structure and Emission Properties of Er3Q9 (Q = 8-Quinolinolate)",
+  "doi": "10.1021/ic0483895",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Er3Q9·CH3CN",
+      "compound_name": "trinuclear erbium(III) 8-quinolinolate acetonitrile solvate",
+      "formula": "Er3Q9·CH3CN (Q = 8-quinolinolate; C81H54Er3N9O9·C2H3N)",
+      "ccdc_numbers": [
+        "246193"
+      ],
+      "ccdc_refcodes": [
+        "FIVHIC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "trinuclear 8-quinolinolate cluster with distorted square-antiprismatic ErN/O8 coordination"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A few drops of 28% aqueous NH3 were added to a mixture of 8-hydroxyquinoline (HQ; 0.157 g, 1.08 mmol) in H2O (100 mL) under mixing. After 30 min, an aqueous solution of Er(NO3)3·5H2O (0.160 g, 0.361 mmol) was added and the mixture was allowed to react for 2 days. A yellow precipitate formed, was collected by filtration, washed with water, 0.1 M NaOH, and water, and dried in an oven. Analytical results agreed with the ErQ3·H2O formulation. This solid was dissolved in hot CH3CN, the solvent was rotary evaporated to incipient precipitation, and yellow crystals of Er3Q9·CH3CN were obtained (yield 46%). IR spectra of the products before and after crystallization were superimposable except for water peaks.",
+        "reagents": [
+          {
+            "name": "8-hydroxyquinoline (HQ)",
+            "formula": "C9H7NO",
+            "role": "ligand precursor",
+            "amount": "0.157 g, 1.08 mmol"
+          },
+          {
+            "name": "aqueous ammonia",
+            "formula": "NH3",
+            "role": "base for deprotonation",
+            "amount": "few drops of 28% NH3"
+          },
+          {
+            "name": "erbium(III) nitrate pentahydrate",
+            "formula": "Er(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "0.160 g, 0.361 mmol"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "wash solution",
+            "amount": "0.1 M"
+          }
+        ],
+        "solvents": [
+          "H2O",
+          "CH3CN"
+        ],
+        "temperature": "hot CH3CN used for recrystallization; reaction temperature not specified",
+        "time": "30 min after NH3 addition, then 2 days after adding the Er salt",
+        "ph": null,
+        "vessel_or_method": "aqueous precipitation followed by recrystallization from hot acetonitrile with rotary evaporation",
+        "workup_and_crystallization": "Yellow precipitate collected by filtration, washed with water, 0.1 M NaOH, and water, and oven-dried; dissolved in hot CH3CN and concentrated to incipient precipitation to give yellow crystals of Er3Q9·CH3CN.",
+        "yield": "46%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Water-free trinuclear Er3Q9 shows Er(III) 4I15/2–4I13/2 absorption/emission near 1.52 μm (stronger PL band at 1530 nm) with Stark splitting. Intrinsic Er PL decay is 2.2 μs (build-up in a few ns; nearly single-exponential), attributed solely to resonant energy transfer to ligand aromatic C–H vibrations (DR overtone near 1680 nm; ν = 3047 cm−1); no O–H absorbance is detected. Similar PL lifetime is observed in 1.0×10−3 M nondeuterated DMSO. Förster modeling gives ~2 μs Er-to-C–H transfer and ~10 ns Er–Er migration.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "Er(III) 4I15/2–4I13/2 photoluminescence peak",
+            "value": 1530,
+            "unit": "nm",
+            "conditions": "CW PL of crystalline powder; UV Ar-ion excitation near 350 nm, 1 W/cm2, room temperature, He atmosphere"
+          },
+          {
+            "property_type": "optical",
+            "name": "Er(III) NIR absorption/emission region",
+            "value": "near 1.52",
+            "unit": "μm",
+            "conditions": "CW PL and diffuse reflectance of Er3Q9 crystals/powder"
+          },
+          {
+            "property_type": "optical",
+            "name": "Er(III) photoluminescence lifetime",
+            "value": 2.2,
+            "unit": "μs",
+            "conditions": "transient PL of crystals; 150 fs, 380 nm, 10 mJ/cm2, 1 kHz, room temperature"
+          },
+          {
+            "property_type": "optical",
+            "name": "calculated Er to aromatic C–H Förster transfer time",
+            "value": 2,
+            "unit": "μs",
+            "conditions": "Förster theory applied to the trinuclear crystal structure"
+          },
+          {
+            "property_type": "optical",
+            "name": "Er–Er energy-migration time (Förster)",
+            "value": 10,
+            "unit": "ns",
+            "conditions": "Förster estimate within one Er3Q9 molecule"
+          },
+          {
+            "property_type": "optical",
+            "name": "aromatic C–H stretching frequency (first-overtone related)",
+            "value": 3047,
+            "unit": "cm−1",
+            "conditions": "DR peak near 1680 nm assigned to first overtone of quinolinolate aromatic C–H stretch"
+          },
+          {
+            "property_type": "optical",
+            "name": "PL lifetime in DMSO solution",
+            "value": "nearly the same as the 2.2 μs crystal lifetime",
+            "unit": null,
+            "conditions": "1.0×10−3 M Er3Q9 in nondeuterated degassed DMSO"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "article title"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract, Figure 1, footnote 8, Supporting Information statement"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Supporting Information Available (CCDC-246193)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row FIVHIC / 246193"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "abstract and structural discussion of Figure 1; footnote 8"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "footnote 6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Figure 4 and accompanying optical discussion; footnotes 12 and 14"
+        }
+      ]
+    }
+  ]
+}

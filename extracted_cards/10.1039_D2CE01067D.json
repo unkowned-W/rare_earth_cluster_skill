@@ -1,0 +1,283 @@
+{
+  "title": "Bis-pyrazolone-based dysprosium(III) complexes: zero-field single-molecule magnet behavior in the [2 × 2] grid Dy4 cluster",
+  "doi": "10.1039/d2ce01067d",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4(L1)4(OH)4]·2CH3OH",
+      "formula": "[Dy4(L1)4(OH)4]·2CH3OH",
+      "ccdc_numbers": [
+        "2181104"
+      ],
+      "ccdc_refcodes": [
+        "GETSAD"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "[2 × 2] square grid"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under ambient conditions, H2L1 (0.1 mmol) in 10 mL methanol was treated with Dy(III)X3·nH2O (X = NO3 or Cl−, 0.1 mmol) and triethylamine in a 1 : 1 : 2 ligand : metal : base molar ratio. After 10 min stirring, the mixture was filtered and set for slow evaporation for a week to afford diamond-shaped light yellow block crystals of 1. Crystals were washed with a small volume of methanol before characterization.",
+        "reagents": [
+          {
+            "name": "H2L1 (methyl-substituted bis-pyrazolone carbohydrazide hydrazone)",
+            "formula": "H2L1",
+            "role": "ligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate or chloride hydrate",
+            "formula": "DyX3·nH2O (X = NO3 or Cl)",
+            "role": "metal salt",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "N(C2H5)3",
+            "role": "base",
+            "amount": "1 : 1 : 2 ligand : metal : base molar ratio"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "ambient",
+        "time": "10 min stirring, then slow evaporation for 1 week",
+        "ph": null,
+        "vessel_or_method": "ambient stirring followed by filtration and slow evaporation",
+        "workup_and_crystallization": "filtered and set for slow evaporation; diamond-shaped light yellow block crystals washed with methanol",
+        "yield": "45% based on Dy(III)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field SMM with temperature-dependent multi-step (two-step in the 12–21 K regime) magnetization relaxation arising from two crystallographically independent Dy(III) centres. χMT at 300 K is 54.20 cm3 K mol−1; magnetization saturates near 20.09–20.30 μB. Effective barriers are Ueff = 58.25 K (slow relaxation, 1.9–11 K Raman/Orbach fit) and about 64 K for FR/SR processes at 12–21 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "54.20",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, dc field 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization saturation",
+            "value": "20.09–20.30",
+            "unit": "μB",
+            "conditions": "1.9, 3.0 and 5.0 K; 0–7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (slow relaxation)",
+            "value": "58.25",
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius/Raman–Orbach fit of ln τ vs T−1, 1.9–11 K; τ0 = 7.98×10−6 s, C = 9.08 s−1 K−1.63, n = 1.63"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (slow relaxation, LT)",
+            "value": "7.98e-6",
+            "unit": "s",
+            "conditions": "zero dc field, 1.9–11 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (fast relaxation, IT)",
+            "value": "64.46",
+            "unit": "K",
+            "conditions": "zero dc field; linear Arrhenius fit 12–21 K; τ0 = 4.95×10−5 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (fast relaxation, IT)",
+            "value": "4.95e-5",
+            "unit": "s",
+            "conditions": "zero dc field, 12–21 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (slow relaxation, IT)",
+            "value": "64.08",
+            "unit": "K",
+            "conditions": "zero dc field; linear Arrhenius fit 12–21 K; τ0 = 1.93×10−6 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (slow relaxation, IT)",
+            "value": "1.93e-6",
+            "unit": "s",
+            "conditions": "zero dc field, 12–21 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility χ″ maxima",
+            "value": null,
+            "unit": null,
+            "conditions": "zero dc field, 3 Oe oscillating field; frequency- and temperature-dependent out-of-phase maxima confirming SMM behaviour"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; Experimental, General synthesis of complexes"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental, General synthesis of complexes; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental, CCDC 2181104"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "GETSAD / 2181104"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "abstract; crystal-structure discussion; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, General synthesis of complexes"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetism; Fig. 2–4; Table 1"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy2(L2)2(HL2)2(CH3CN)2]·N(C2H5)3",
+      "formula": "[Dy2(L2)2(HL2)2(CH3CN)2]·N(C2H5)3",
+      "ccdc_numbers": [
+        "2181105"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "defected helicate-like dinuclear complex"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under ambient conditions, H2L2 (0.1 mmol) in 10 mL acetonitrile was treated with Dy(III)X3·nH2O (X = NO3 or Cl−, 0.1 mmol) and triethylamine in a 1 : 1 : 2 ligand : metal : base molar ratio. After 10 min stirring, the mixture was filtered and set for slow evaporation for a week to afford diamond-shaped light yellow block crystals of 2. Crystals were washed with a small volume of acetonitrile before characterization.",
+        "reagents": [
+          {
+            "name": "H2L2 (p-tolyl-substituted bis-pyrazolone carbohydrazide hydrazone)",
+            "formula": "H2L2",
+            "role": "ligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate or chloride hydrate",
+            "formula": "DyX3·nH2O (X = NO3 or Cl)",
+            "role": "metal salt",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "N(C2H5)3",
+            "role": "base",
+            "amount": "1 : 1 : 2 ligand : metal : base molar ratio"
+          }
+        ],
+        "solvents": [
+          "acetonitrile"
+        ],
+        "temperature": "ambient",
+        "time": "10 min stirring, then slow evaporation for 1 week",
+        "ph": null,
+        "vessel_or_method": "ambient stirring followed by filtration and slow evaporation",
+        "workup_and_crystallization": "filtered and set for slow evaporation; diamond-shaped light yellow block crystals washed with acetonitrile",
+        "yield": "51% based on Dy(III)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dinuclear centrosymmetric complex showing slow magnetic relaxation under zero applied field but without χ″ peak maxima (not a well-defined zero-field SMM). χMT at 300 K is 28.32 cm3 K mol−1; magnetization saturates near 11.93–12.07 μB.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "28.32",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, dc field 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization saturation",
+            "value": "11.93–12.07",
+            "unit": "μB",
+            "conditions": "1.9, 3.0 and 5.0 K; 0–7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility χ″",
+            "value": null,
+            "unit": null,
+            "conditions": "zero dc field, 3 Oe oscillating field; non-superimposed χ″ signals without peak maxima, indicating slow relaxation"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; Experimental, General synthesis of complexes"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental, General synthesis of complexes"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental, CCDC 2181105"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "abstract; crystal-structure discussion; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, General synthesis of complexes"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetism; Fig. 2; Fig. S11"
+        }
+      ]
+    }
+  ]
+}

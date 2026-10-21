@@ -1,0 +1,165 @@
+{
+  "refcode": "DELDUV",
+  "ccdc_number": "844790",
+  "dois": [
+    "10.1007/s10904-012-9714-8"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\844790.cif",
+  "formula_moiety": "C62 H50 Er3 N9 O17,C1 H2 Cl2,C1 H4 O1,2(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "13.779(3)",
+    "b": "15.118(3)",
+    "c": "19.220(4)",
+    "alpha": "85.94(3)",
+    "beta": "71.70(3)",
+    "gamma": "73.42(3)",
+    "volume": "3642.42",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Er1",
+      "element": "Er",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O3",
+        "O4",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Er2",
+      "element": "Er",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "label": "Er3",
+      "element": "Er",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O12",
+        "O13",
+        "O15",
+        "O16",
+        "O2",
+        "O7",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Er1",
+          "Er2"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.793,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 110.04,
+            "metal_oxygen_distances_angstrom": [
+              2.326,
+              2.302
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 109.87,
+            "metal_oxygen_distances_angstrom": [
+              2.336,
+              2.298
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er2",
+          "Er3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.709,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 108.28,
+            "metal_oxygen_distances_angstrom": [
+              2.291,
+              2.285
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 108.4,
+            "metal_oxygen_distances_angstrom": [
+              2.301,
+              2.271
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Er1",
+        "Er2",
+        "Er3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "DELDUV crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C62 H50 Er3 N9 O17,C1 H2 Cl2,C1 H4 O1,2(H2 O1). From the CIF bond table, Er1 (Er) has 5 O neighbors; Er2 (Er) has 4 O neighbors; Er3 (Er) has 9 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.709-3.793 Å (not direct metal-metal bonds). Computed M-O-M angles span 108.28-110.04°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C64H60Cl2Er3N9O20. Explicit grouped units in the article formula/name: 3 NO3 (explicit grouped unit in article compound name (structural notation)), 2 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1007/s10904-012-9714-8",
+    "formula": "C64H60Cl2Er3N9O20",
+    "compound_name": "[Er3L3(CH3OH)2(NO3)3]·(CH2Cl2)·(CH3OH)·(H2O)2",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 3,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

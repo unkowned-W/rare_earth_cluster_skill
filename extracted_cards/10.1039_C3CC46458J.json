@@ -1,0 +1,322 @@
+{
+  "title": "An octanuclear {CuII4DyIII4} coordination cluster showing single molecule magnet behaviour from field accessible states",
+  "doi": "10.1039/c3cc46458j",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Cu4Dy4(vanox)6(Hvanox)2(NO3)4(μ-HOMe)2]·6MeOH",
+      "formula": "[Cu4Dy4(vanox)6(Hvanox)2(NO3)4(μ-HOMe)2]·6MeOH",
+      "ccdc_numbers": [
+        "953835"
+      ],
+      "ccdc_refcodes": [
+        "ZIRJIV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear {Cu4Dy4} coordination cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": false,
+        "procedure": "Complex 1 was isolated from the reaction of CuBr2, Dy(NO3)3·6H2O, H2vanox (3-methoxy-2-hydroxybenzaldoxime) and triethylamine in methanol, giving dark green crystals. The main text and ESI name the reagents and solvent but do not report reagent amounts, temperature, or time.",
+        "reagents": [
+          {
+            "name": "copper(II) bromide",
+            "formula": "CuBr2",
+            "role": "metal source",
+            "amount": null
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "rare-earth source",
+            "amount": null
+          },
+          {
+            "name": "3-methoxy-2-hydroxybenzaldoxime",
+            "formula": "H2vanox",
+            "role": "ligand",
+            "amount": null
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": null
+          },
+          {
+            "name": "methanol",
+            "formula": "MeOH",
+            "role": "solvent",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": null,
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "reaction in methanol",
+        "workup_and_crystallization": "Isolated as dark green crystals.",
+        "yield": "13.3%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Octanuclear Cu4Dy4 cluster is an SMM whose slow relaxation and partially open hysteresis arise from field-accessible excited states rather than the low-field nonmagnetic ground state. Dc data show a drop in χT below about 20 K and a field-induced magnetic transition; ac data give an Arrhenius barrier, and microSQUID loops show two level crossings. A competing-exchange model gives ferromagnetic Cu–Dy coupling and antiferromagnetic Dy–Dy and Cu–Cu couplings.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "expected χT",
+            "value": "58.1",
+            "unit": "cm3 K mol-1",
+            "conditions": "high temperature; value expected for four uncoupled Cu(II) and four uncoupled Dy(III) ions; measured χT is nearly constant and in line with this value"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT downturn temperature",
+            "value": "20",
+            "unit": "K",
+            "conditions": "dc susceptibility; sharp decrease in χT below approximately 20 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": null,
+            "unit": null,
+            "conditions": "dc magnetization, 2, 3 and 5 K, 0–7 T; derivative of M vs H indicates a transition near 0.5 T at 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "41.6",
+            "unit": "K",
+            "conditions": "Arrhenius fit of the high-temperature part of the relaxation time extracted from frequency-dependent out-of-phase ac susceptibility"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "tau0",
+            "value": "2.1e-5",
+            "unit": "s",
+            "conditions": "same Arrhenius fit as Ueff; ac driving field 3 Oe, frequencies 1–1500 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic hysteresis level crossings",
+            "value": "0.3 and 0.7",
+            "unit": "T",
+            "conditions": "microSQUID, 30 mK, variable field-sweep rates; lower crossing near 0.3 T and higher crossing near 0.7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1",
+            "value": "6.6",
+            "unit": "K",
+            "conditions": "Ising exchange model of the low-energy spectrum; ferromagnetic Cu–Dy coupling"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J2",
+            "value": "-3.0",
+            "unit": "K",
+            "conditions": "same exchange model; antiferromagnetic Dy–Dy coupling"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J3",
+            "value": "-1.3",
+            "unit": "K",
+            "conditions": "fixed from the dc susceptibility fit of the Y analogue 2; Cu–Cu coupling"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g_Cu",
+            "value": "2.08",
+            "unit": null,
+            "conditions": "fixed from the dc susceptibility fit of 2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g_z(Dy)",
+            "value": "20",
+            "unit": null,
+            "conditions": "assumed pure Ising Dy(III) ground doublet, Jz = ±15/2; gx = gy = 0"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Figure S1 caption and synthetic details"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Notes and references, crystal data"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ZIRJIV / 953835 matched to the Dy formula"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "paragraph beginning Complex 1 was isolated"
+        },
+        {
+          "field": "synthesis.yield",
+          "source": "supporting_information",
+          "location": "Synthetic details"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion, Figures 2–5, and experimental magnetic note"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Cu4Y4(vanox)6(Hvanox)2(NO3)4(μ-OH2)1.6(μ-HOMe)0.4]·6MeOH",
+      "formula": "[Cu4Y4(vanox)6(Hvanox)2(NO3)4(μ-OH2)1.6(μ-HOMe)0.4]·6MeOH",
+      "ccdc_numbers": [
+        "953836"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear {Cu4Y4} analogue of the {Cu4Dy4} cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": false,
+        "procedure": "A reaction analogous to that used for 1, replacing Dy(NO3)3·6H2O with Y(NO3)3·6H2O and using CuBr2, H2vanox and triethylamine in methanol, gave the isostructural Y analogue. The axial bridge between Cu(1) and Cu(2) is a disordered mixture of water (80%) and methanol (20%). Reagent amounts, temperature, and time are not reported.",
+        "reagents": [
+          {
+            "name": "copper(II) bromide",
+            "formula": "CuBr2",
+            "role": "metal source",
+            "amount": null
+          },
+          {
+            "name": "yttrium(III) nitrate hexahydrate",
+            "formula": "Y(NO3)3·6H2O",
+            "role": "rare-earth source",
+            "amount": null
+          },
+          {
+            "name": "3-methoxy-2-hydroxybenzaldoxime",
+            "formula": "H2vanox",
+            "role": "ligand",
+            "amount": null
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": null
+          },
+          {
+            "name": "methanol",
+            "formula": "MeOH",
+            "role": "solvent",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": null,
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "reaction in methanol analogous to complex 1",
+        "workup_and_crystallization": "Isolated as the crystalline Y analogue; crystal structure at 150(2) K.",
+        "yield": "24.8%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "The diamagnetic Y(III) analogue was used as a magnetic control. Its χT is nearly constant at high temperature and falls below about 10 K. The dc susceptibility is fitted as two isolated Cu dimers.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "expected χT",
+            "value": "1.6",
+            "unit": "cm3 K mol-1",
+            "conditions": "high temperature; value expected for four uncoupled Cu(II) ions with diamagnetic Y(III); measured χT is nearly constant and in line with this value"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT downturn temperature",
+            "value": "10",
+            "unit": "K",
+            "conditions": "dc susceptibility; sharp decrease in χT below approximately 10 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g_Cu",
+            "value": "2.08",
+            "unit": null,
+            "conditions": "best fit of dc susceptibility to two isolated Cu dimers, Figure S2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J3",
+            "value": "-1.32",
+            "unit": "K",
+            "conditions": "same Cu-dimer fit; main text rounds this coupling to -1.3 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "paragraph comparing complexes 1 and 2; crystal data formula C70.4H88.8Cu4N12O46Y4"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Notes and references, CCDC 953835 and 953836 after crystal data for 1 then 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "sentence beginning A similar reaction with Y(NO3)3·6H2O"
+        },
+        {
+          "field": "synthesis.yield",
+          "source": "supporting_information",
+          "location": "Synthetic details"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc susceptibility discussion and Figure S2 caption"
+        }
+      ]
+    }
+  ]
+}

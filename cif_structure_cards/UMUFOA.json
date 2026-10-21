@@ -1,0 +1,192 @@
+{
+  "refcode": "UMUFOA",
+  "ccdc_number": "1470818",
+  "dois": [
+    "10.1021/acs.inorgchem.0c03617"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1470818.cif",
+  "formula_moiety": "C89 H96 N16 Nd4 O27 2+,2(C3 H7 N1 O1),2(Cl1 1-)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "16.181(9)",
+    "b": "20.107(12)",
+    "c": "21.793(12)",
+    "alpha": "115.633(6)",
+    "beta": "93.383(7)",
+    "gamma": "106.000(7)",
+    "volume": "6013.55",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Nd1",
+      "element": "Nd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O20",
+        "O21",
+        "O25",
+        "O26",
+        "O3",
+        "O8"
+      ]
+    },
+    {
+      "label": "Nd2",
+      "element": "Nd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O19",
+        "O20",
+        "O25",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Nd3",
+      "element": "Nd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O18",
+        "O22",
+        "O23",
+        "O27",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Nd4",
+      "element": "Nd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O16",
+        "O17",
+        "O27",
+        "O5",
+        "O6"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Nd1",
+          "Nd2"
+        ],
+        "shared_oxygen_labels": [
+          "O20",
+          "O25",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.888,
+        "bridge_geometry": [
+          {
+            "oxygen": "O8",
+            "angle_deg": 105.57,
+            "metal_oxygen_distances_angstrom": [
+              2.498,
+              2.383
+            ]
+          },
+          {
+            "oxygen": "O20",
+            "angle_deg": 107.46,
+            "metal_oxygen_distances_angstrom": [
+              2.356,
+              2.465
+            ]
+          },
+          {
+            "oxygen": "O25",
+            "angle_deg": 92.11,
+            "metal_oxygen_distances_angstrom": [
+              2.88,
+              2.507
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Nd3",
+          "Nd4"
+        ],
+        "shared_oxygen_labels": [
+          "O17",
+          "O27",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.834,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 104.31,
+            "metal_oxygen_distances_angstrom": [
+              2.373,
+              2.481
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 104.12,
+            "metal_oxygen_distances_angstrom": [
+              2.492,
+              2.369
+            ]
+          },
+          {
+            "oxygen": "O27",
+            "angle_deg": 96.19,
+            "metal_oxygen_distances_angstrom": [
+              2.584,
+              2.567
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Nd1",
+        "Nd2"
+      ],
+      [
+        "Nd3",
+        "Nd4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "UMUFOA crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C89 H96 N16 Nd4 O27 2+,2(C3 H7 N1 O1),2(Cl1 1-). From the CIF bond table, Nd1 (Nd) has 7 O neighbors; Nd2 (Nd) has 7 O neighbors; Nd3 (Nd) has 7 O neighbors; Nd4 (Nd) has 7 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.834-3.888 Å (not direct metal-metal bonds). Computed M-O-M angles span 92.11-107.46°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Nd4L4(CO3)]Cl2·2DMF (C89H96N16Nd4O27 2+, 2 C3H7NO, 2 Cl−).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.0c03617",
+    "formula": "[Nd4L4(CO3)]Cl2·2DMF (C89H96N16Nd4O27 2+, 2 C3H7NO, 2 Cl−)",
+    "compound_name": "tetranuclear quadruple-stranded neodymium helicate [Nd4L4(CO3)]Cl2",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

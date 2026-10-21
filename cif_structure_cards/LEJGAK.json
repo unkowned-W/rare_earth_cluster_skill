@@ -1,0 +1,262 @@
+{
+  "refcode": "LEJGAK",
+  "ccdc_number": "751397",
+  "dois": [
+    "10.1002/chem.201002296"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\751397.cif",
+  "formula_moiety": "C51 H50 Dy3 N9 O19,H2 O1,C50 H48 Dy3 N9 O19",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "17.3287(7)",
+    "b": "19.5383(6)",
+    "c": "36.2872(12)",
+    "alpha": "90",
+    "beta": "92.4080(10)",
+    "gamma": "90",
+    "volume": "12275",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O12",
+        "O4",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O19",
+        "O2",
+        "O4",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O16",
+        "O3",
+        "O5"
+      ]
+    },
+    {
+      "label": "Dy4",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O24",
+        "O25",
+        "O27",
+        "O30",
+        "O31",
+        "O33"
+      ]
+    },
+    {
+      "label": "Dy5",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O21",
+        "O24",
+        "O27",
+        "O28",
+        "O32",
+        "O38"
+      ]
+    },
+    {
+      "label": "Dy6",
+      "element": "Dy",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O26",
+        "O30",
+        "O33",
+        "O34",
+        "O36"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O4",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.71,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 104.58,
+            "metal_oxygen_distances_angstrom": [
+              2.296,
+              2.392
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 102.91,
+            "metal_oxygen_distances_angstrom": [
+              2.382,
+              2.361
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O10"
+        ],
+        "metal_metal_separation_angstrom": 3.718,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 105.05,
+            "metal_oxygen_distances_angstrom": [
+              2.296,
+              2.388
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 103.69,
+            "metal_oxygen_distances_angstrom": [
+              2.386,
+              2.341
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy4",
+          "Dy5"
+        ],
+        "shared_oxygen_labels": [
+          "O24",
+          "O27"
+        ],
+        "metal_metal_separation_angstrom": 3.727,
+        "bridge_geometry": [
+          {
+            "oxygen": "O24",
+            "angle_deg": 102.75,
+            "metal_oxygen_distances_angstrom": [
+              2.417,
+              2.353
+            ]
+          },
+          {
+            "oxygen": "O27",
+            "angle_deg": 105.74,
+            "metal_oxygen_distances_angstrom": [
+              2.299,
+              2.375
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy4",
+          "Dy6"
+        ],
+        "shared_oxygen_labels": [
+          "O30",
+          "O33"
+        ],
+        "metal_metal_separation_angstrom": 3.738,
+        "bridge_geometry": [
+          {
+            "oxygen": "O30",
+            "angle_deg": 103.99,
+            "metal_oxygen_distances_angstrom": [
+              2.398,
+              2.346
+            ]
+          },
+          {
+            "oxygen": "O33",
+            "angle_deg": 106.53,
+            "metal_oxygen_distances_angstrom": [
+              2.269,
+              2.395
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3"
+      ],
+      [
+        "Dy4",
+        "Dy5",
+        "Dy6"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LEJGAK crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C51 H50 Dy3 N9 O19,H2 O1,C50 H48 Dy3 N9 O19. From the CIF bond table, Dy1 (Dy) has 6 O neighbors; Dy2 (Dy) has 6 O neighbors; Dy3 (Dy) has 5 O neighbors; Dy4 (Dy) has 6 O neighbors; Dy5 (Dy) has 6 O neighbors; Dy6 (Dy) has 5 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 2 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.710-3.738 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.75-106.53°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C50H55Dy3N7O23.5. Explicit grouped units in the article formula/name: 1 NO3 (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/chem.201002296",
+    "formula": "C50H55Dy3N7O23.5",
+    "compound_name": "[Dy3(MeOsalox)2(MeosaloxH)4(NO3)(MeOH)]·MeOH·0.5H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

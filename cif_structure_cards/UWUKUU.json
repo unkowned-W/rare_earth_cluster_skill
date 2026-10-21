@@ -1,0 +1,180 @@
+{
+  "refcode": "UWUKUU",
+  "ccdc_number": "1483884",
+  "dois": [
+    "10.1039/c6sc03184f"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1483884.cif",
+  "formula_moiety": "C84 H168 Dy4 N12 O24,3(C7 H8)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "28.1117(11)",
+    "b": "20.1279(6)",
+    "c": "22.8674(10)",
+    "alpha": "90",
+    "beta": "105.985(3)",
+    "gamma": "90",
+    "volume": "12438.7",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O19",
+        "O2",
+        "O3",
+        "O5",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O17",
+        "O24",
+        "O5",
+        "O7"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O15",
+        "O18",
+        "O20",
+        "O21",
+        "O22",
+        "O6"
+      ]
+    },
+    {
+      "label": "Dy4",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O14",
+        "O15",
+        "O16",
+        "O23",
+        "O4",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O5",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.838,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 106.9,
+            "metal_oxygen_distances_angstrom": [
+              2.404,
+              2.374
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 108.3,
+            "metal_oxygen_distances_angstrom": [
+              2.376,
+              2.359
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy3",
+          "Dy4"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O15"
+        ],
+        "metal_metal_separation_angstrom": 3.838,
+        "bridge_geometry": [
+          {
+            "oxygen": "O13",
+            "angle_deg": 106.9,
+            "metal_oxygen_distances_angstrom": [
+              2.374,
+              2.404
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 108.3,
+            "metal_oxygen_distances_angstrom": [
+              2.359,
+              2.376
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2"
+      ],
+      [
+        "Dy3",
+        "Dy4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "UWUKUU crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C84 H168 Dy4 N12 O24,3(C7 H8). From the CIF bond table, Dy2 (Dy) has 7 O neighbors; Dy1 (Dy) has 7 O neighbors; Dy3 (Dy) has 7 O neighbors; Dy4 (Dy) has 7 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.838-3.838 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.90-108.30°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Dy4(O2CN^iPr2)12]·2C7H8. Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c6sc03184f",
+    "formula": "[Dy4(O2CN^iPr2)12]·2C7H8",
+    "compound_name": "tetrakis(dysprosium(III)) dodeca(diisopropylcarbamate) toluene solvate",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

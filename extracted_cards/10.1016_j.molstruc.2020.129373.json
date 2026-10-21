@@ -1,0 +1,137 @@
+{
+  "title": "Crystal structure and single-molecule magnet behavior of a novel tetranuclear Dy(III)-based cluster",
+  "doi": "10.1016/j.molstruc.2020.129373",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4(HL)4(CH3O)4]·4CH3OH",
+      "formula": "[Dy4(HL)4(CH3O)4]·4CH3OH (C76H72Dy4N12O20)",
+      "ccdc_numbers": [
+        "2006797"
+      ],
+      "ccdc_refcodes": [
+        "JAFCEC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetrahedral Dy4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(acac)3·2H2O (0.03 mmol, 0.0149 g), H3L (0.03 mmol, 0.0092 g), CH3OH (8.0 mL), CH3CN (4.0 mL) and CH2Cl2 (2.0 mL) were enclosed in a glass vial (v = 20 mL) and heated to 70 °C for about 48 h. The mixture was then cooled to room temperature at about 5 °C/h, giving yellow block crystals of cluster 1.",
+        "reagents": [
+          {
+            "name": "Dy(acac)3·2H2O",
+            "formula": "Dy(acac)3·2H2O",
+            "role": "metal source",
+            "amount": "0.03 mmol, 0.0149 g"
+          },
+          {
+            "name": "H3L (polydentate Schiff-base ligand)",
+            "formula": "H3L",
+            "role": "ligand",
+            "amount": "0.03 mmol, 0.0092 g"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "CH3CN",
+          "CH2Cl2"
+        ],
+        "temperature": "70 °C, then cooled to room temperature at about 5 °C/h",
+        "time": "about 48 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal synthesis in a 20 mL glass vial",
+        "workup_and_crystallization": "slow cooling yielded yellow block crystals",
+        "yield": "41% based on Dy(acac)3·2H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Cluster 1 is a tetrahedral Dy4 SMM. χMT at 300 K is 56.83 cm3 K mol−1 (expected 56.68 for four DyIII), falling to 28.51 cm3 K mol−1 at 2.0 K, consistent with Stark depopulation and/or antiferromagnetic Dy···Dy interactions. Zero-dc-field ac data show frequency-dependent χ′/χ″ peaks and QTM (upward tails at 2 K). Arrhenius fitting of lnτ vs T−1 under zero dc field gives Ueff/kB = 54.6 K and τ0 = 6.43 × 10−7 s. Cole–Cole plots fit a generalized Debye model with α = 0.17–0.51.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 56.83,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc field, polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 28.51,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": 54.6,
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit of lnτ vs T−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "6.43e-7",
+            "unit": "s",
+            "conditions": "zero dc field; Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "α (Debye distribution)",
+            "value": "0.17–0.51",
+            "unit": null,
+            "conditions": "Cole–Cole plots, zero dc field, generalized Debye model"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Section 2.1; Table 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Section 2.1 elemental analysis; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row JAFCEC / 2006797"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Section 3.1; Conclusion"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.1; Scheme 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 3.2; Figs. 4–7"
+        }
+      ]
+    }
+  ]
+}

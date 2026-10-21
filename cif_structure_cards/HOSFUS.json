@@ -1,0 +1,174 @@
+{
+  "refcode": "HOSFUS",
+  "ccdc_number": "788646",
+  "dois": [
+    "10.1002/zaac.201400376"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\788646.cif",
+  "formula_moiety": "C6 Ce2 O22 8-,4(H18 Co1 N6 3+),2(C1 O3 2-),12(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "10.668(2)",
+    "b": "12.249(2)",
+    "c": "12.313(2)",
+    "alpha": "105.933(14)",
+    "beta": "106.163(15)",
+    "gamma": "99.848(15)",
+    "volume": "1431.67",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 10,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O2",
+        "O30",
+        "O31",
+        "O4",
+        "O5",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "oxygen_coordination_number": 10,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O21",
+        "O22",
+        "O24",
+        "O25",
+        "O27",
+        "O28",
+        "O30",
+        "O31"
+      ]
+    },
+    {
+      "label": "Co1",
+      "element": "Co",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Co2",
+      "element": "Co",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Co3",
+      "element": "Co",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ce1",
+          "Ce2"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O11",
+          "O30",
+          "O31"
+        ],
+        "metal_metal_separation_angstrom": 3.677,
+        "bridge_geometry": [
+          {
+            "oxygen": "O10",
+            "angle_deg": 103.85,
+            "metal_oxygen_distances_angstrom": [
+              2.426,
+              2.243
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 99.37,
+            "metal_oxygen_distances_angstrom": [
+              2.401,
+              2.422
+            ]
+          },
+          {
+            "oxygen": "O30",
+            "angle_deg": 103.85,
+            "metal_oxygen_distances_angstrom": [
+              2.243,
+              2.426
+            ]
+          },
+          {
+            "oxygen": "O31",
+            "angle_deg": 99.37,
+            "metal_oxygen_distances_angstrom": [
+              2.422,
+              2.401
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1",
+        "Ce2"
+      ],
+      [
+        "Co1"
+      ],
+      [
+        "Co2"
+      ],
+      [
+        "Co3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "HOSFUS crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C6 Ce2 O22 8-,4(H18 Co1 N6 3+),2(C1 O3 2-),12(H2 O1). From the CIF bond table, Ce1 (Ce) has 10 O neighbors; Ce2 (Ce) has 10 O neighbors; Co1 (Co) has 0 O neighbors; Co2 (Co) has 0 O neighbors; Co3 (Co) has 0 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 4 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.677-3.677 Å (not direct metal-metal bonds). Computed M-O-M angles span 99.37-103.85°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Co(NH3)6]4[Ce(O2)(CO3)3]2(CO3)2·12H2O. Article name explicitly identifies I(II), I(V).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/zaac.201400376",
+    "formula": "[Co(NH3)6]4[Ce(O2)(CO3)3]2(CO3)2·12H2O",
+    "compound_name": "hexaamminecobalt(III) peroxidocarbonatocerate(IV) carbonate hydrate",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      },
+      {
+        "element": "I",
+        "state": "V",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

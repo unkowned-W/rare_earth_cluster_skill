@@ -1,0 +1,262 @@
+{
+  "title": "The first exploration of coordination chemistry using a methyl substituted o-vanillin based ligand: an example starting with Dy4/Zn2Dy2 systems displaying slow relaxation of magnetization",
+  "doi": "10.1039/d1nj05717k",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4(μ3-OH)2(L)4(HL)2]·3H2O",
+      "formula": "C90H88Dy4N6O23",
+      "ccdc_numbers": [
+        "2123706"
+      ],
+      "ccdc_refcodes": [
+        "CAYTUV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "butterfly / defective dicubane Dy4"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under aerobic conditions, Dy(NO3)3·5H2O (110 mg, 0.25 mmol) was reacted with H2L (128 mg, 0.5 mmol) in the presence of Et3N (1.0 mmol, 100 mg) in 30 mL of methanol under reflux for about 1 h. After cooling, the mixture was filtered and the clear dark yellow filtrate was kept at ambient temperature for slow evaporation. Block-shaped orange crystals suitable for X-ray diffraction formed within a week, were filtered off, washed with methanol/ether and air dried. Yield: 0.437 g, 64%.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "110 mg, 0.25 mmol"
+          },
+          {
+            "name": "(E)-2-[(2-hydroxyphenyl)iminomethyl]-6-methoxy-4-methylphenol",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "128 mg, 0.5 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "100 mg, 1.0 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "reflux",
+        "time": "about 1 h (reflux); crystals within a week",
+        "ph": null,
+        "vessel_or_method": "reflux in methanol under aerobic conditions, then slow evaporation",
+        "workup_and_crystallization": "filtered after cooling; filtrate evaporated at ambient temperature; crystals washed with methanol/ether and air dried",
+        "yield": "0.437 g, 64%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Butterfly Dy4 cluster showing slow magnetic relaxation at zero dc field (SMM-like) with no χ″ maxima down to 2 K up to 1400 Hz; χT decreases then rises slightly below 6 K, consistent with weak ferromagnetic Dy···Dy interaction; no hysteresis at 2 K. Approximate Ueff ≈ 3.5 K and τ0 ≈ 1×10−5 s from a Kramers–Kronig Arrhenius fit.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "54",
+            "unit": "emu K mol−1",
+            "conditions": "300 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "44",
+            "unit": "emu K mol−1",
+            "conditions": "6 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "47",
+            "unit": "emu K mol−1",
+            "conditions": "2 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": "21",
+            "unit": "μB f.u.−1",
+            "conditions": "2 K, 50 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "3.5",
+            "unit": "K",
+            "conditions": "zero dc field; modified Arrhenius/Kramers–Kronig fit of ln(χ″/χ′) vs 1/T, 100–1400 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "1e-5",
+            "unit": "s",
+            "conditions": "zero dc field; same Arrhenius estimate as Ueff"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental synthesis of 1; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2123706 / CAYTUV"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 1"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal structure description of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 3–4, 6"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Zn2Dy2(μ-CH3COO)2(L)4(H2O)2]·7H2O",
+      "formula": "C64H76Dy2N4O25Zn2",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "butterfly / defective dicubane Zn2Dy2"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A methanolic solution of triethylamine (100 mg, 1.00 mmol) was added to H2L (129 mg, 0.50 mmol) dissolved in 20 mL of methanol under continuous stirring. Dy(NO3)3·5H2O (110 mg, 0.25 mmol) and Zn(CH3COO)2·2H2O (55 mg, 0.25 mmol) were added with stirring, and the dark yellow solution was heated to reflux for ca. 1 h. After cooling, the mixture was filtered and the filtrate left undisturbed for crystallization. After several days, block-shaped yellow crystals suitable for X-ray diffraction were obtained, filtered, washed with methanol and air dried. Yield not reported.",
+        "reagents": [
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "100 mg, 1.00 mmol"
+          },
+          {
+            "name": "(E)-2-[(2-hydroxyphenyl)iminomethyl]-6-methoxy-4-methylphenol",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "129 mg, 0.50 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "110 mg, 0.25 mmol"
+          },
+          {
+            "name": "zinc(II) acetate dihydrate",
+            "formula": "Zn(CH3COO)2·2H2O",
+            "role": "metal source",
+            "amount": "55 mg, 0.25 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "reflux",
+        "time": "ca. 1 h (reflux); crystals after several days",
+        "ph": null,
+        "vessel_or_method": "stirring then reflux in methanol under aerobic conditions, then undisturbed crystallization",
+        "workup_and_crystallization": "filtered after cooling; filtrate left undisturbed; crystals washed with methanol and air dried",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Butterfly Zn2Dy2 cluster with field-supported slow magnetic relaxation; zero-field χ″ is very weak, while in-phase and out-of-phase ac signals improve under 1000 Oe. χT is nearly constant to 150 K then falls to 18 emu K mol−1; no hysteresis at 2 K. Approximate Ueff ≈ 3.1 K and τ0 ≈ 9×10−6 s from a Kramers–Kronig Arrhenius fit (1000 Oe).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "25",
+            "unit": "emu K mol−1",
+            "conditions": "300 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "18",
+            "unit": "emu K mol−1",
+            "conditions": "low-T minimum, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": "10",
+            "unit": "μB f.u.−1",
+            "conditions": "2 K, 50 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "3.1",
+            "unit": "K",
+            "conditions": "1000 Oe dc; modified Arrhenius/Kramers–Kronig fit of ln(χ″/χ′) vs 1/T, 100–1400 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "9e-6",
+            "unit": "s",
+            "conditions": "1000 Oe dc; same Arrhenius estimate as Ueff"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental synthesis of 2; elemental analysis; Table 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 2"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal structure description of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 3, 5–6"
+        }
+      ]
+    }
+  ]
+}

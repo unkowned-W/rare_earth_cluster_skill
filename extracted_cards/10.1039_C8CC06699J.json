@@ -1,0 +1,528 @@
+{
+  "title": "Consecutive one-/two-step relaxation transformations of single-molecule magnets via coupling dinuclear dysprosium compounds with chloride bridges",
+  "doi": "10.1039/c8cc06699j",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy(opch)Cl(MeOH)]2",
+      "formula": "C28H28Cl2Dy2N8O8",
+      "ccdc_numbers": [
+        "1862369"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric phenoxo-bridged dinuclear Dy(III) complex with terminal chloride and methanol"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": true,
+        "procedure": "Main text: solvothermal reaction of H2opch with DyCl3·4H2O (1:1 molar ratio) in methanol at 60 °C in the presence of triethylamine (5 equivalents) gave red crystals of 1 in 46% yield after one week. SI experimental procedure: DyCl3·6H2O (75.4 mg, 0.20 mmol) and H2opch (54.0 mg, 0.20 mmol) in 20 mL methanol were stirred with triethylamine (0.07 mL, 0.50 mmol) for 24 h, sealed in a 25 mL glass vessel, and heated at 60 °C under autogenous pressure. Red single crystals formed after one week. Yield 50 mg (46% based on Dy).",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "75.4 mg, 0.20 mmol"
+          },
+          {
+            "name": "(E)-N'-(2-hydroxy-3-methoxybenzylidene)pyrazine-2-carbohydrazide",
+            "formula": "H2opch",
+            "role": "ligand",
+            "amount": "54.0 mg, 0.20 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.07 mL, 0.50 mmol"
+          },
+          {
+            "name": "methanol",
+            "formula": "CH3OH",
+            "role": "solvent",
+            "amount": "20 mL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "60 °C",
+        "time": "stirred 24 h, then heated for one week",
+        "ph": null,
+        "vessel_or_method": "sealed 25 mL glass vessel, solvothermal/autogenous pressure",
+        "workup_and_crystallization": "red single crystals formed directly as a single-phase product after one week",
+        "yield": "50 mg (46% based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dinuclear Dy2 SMM with one-step zero-field slow relaxation. χMT indicates intramolecular ferromagnetic coupling after thermal depopulation; magnetization is unsaturated. Butterfly-shaped hysteresis is observed from 1.9 to 8.0 K. A 1:9 Dy/Y dilution raises the barrier and slows relaxation.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "26.1",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": "24.2",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "ca. 25 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT maximum",
+            "value": "30.9",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "1.9 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "11.7",
+            "unit": "μB",
+            "conditions": "1.9 K, 70 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff",
+            "value": "77",
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit above 6.0 K; also given as 54 cm^-1; τ0 = 5.42×10^-7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Debye α",
+            "value": "<0.20",
+            "unit": null,
+            "conditions": "1.9–21.0 K, generalized Debye fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic hysteresis",
+            "value": "butterfly-shaped loop",
+            "unit": null,
+            "conditions": "1.9–8.0 K, SQUID-VSM, average sweep rate 20 mT s^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff of Dy0.1Y0.9 dilution",
+            "value": "112",
+            "unit": "K",
+            "conditions": "Dy:Y = 1:9; also 78 cm^-1; τ0 = 3.63×10^-11 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "fitted Jdip",
+            "value": "4.69",
+            "unit": "cm^-1",
+            "conditions": "Lines-model dipole–dipole coupling J1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "fitted Jexch",
+            "value": "-2.50",
+            "unit": "cm^-1",
+            "conditions": "exchange coupling J1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "total J",
+            "value": "2.19",
+            "unit": "cm^-1",
+            "conditions": "J1 = Jdip + Jexch"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Experimental section and Table S1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Table S1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Results discussion, solvothermal preparation of 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental section, synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism discussion and Fig. 2"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy2(opch)2(μ-Cl)Cl(MeOH)2]2",
+      "formula": "C56H56Cl4Dy4N16O16",
+      "ccdc_numbers": [
+        "1862368"
+      ],
+      "ccdc_refcodes": [
+        "TIJJEE"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "double chloride-bridged dimer of dinuclear Dy2 units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Main text only states that 2 was obtained by a process similar to 1 with added competitor H2spch and heating at 80 °C. SI: DyCl3·6H2O (132.0 mg, 0.35 mmol) and H2opch (54.0 mg, 0.20 mmol) in 20 mL methanol were stirred with triethylamine (0.028 mL, 0.2 mmol). After 24 h, H2spch (48.4 mg, 0.20 mmol) was added and stirring continued for another 48 h. The solution was sealed in a 25 mL glass vessel and heated at 80 °C under autogenous pressure. Deep-brown single crystals formed after 5 days. Yield 43 mg (31% based on Dy).",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "132.0 mg, 0.35 mmol"
+          },
+          {
+            "name": "(E)-N'-(2-hydroxy-3-methoxybenzylidene)pyrazine-2-carbohydrazide",
+            "formula": "H2opch",
+            "role": "ligand",
+            "amount": "54.0 mg, 0.20 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.028 mL, 0.2 mmol"
+          },
+          {
+            "name": "(E)-N'-(2-hydroxybenzylidene)pyrazine-2-carbohydrazide",
+            "formula": "H2spch",
+            "role": "competitor ligand",
+            "amount": "48.4 mg, 0.20 mmol"
+          },
+          {
+            "name": "methanol",
+            "formula": "CH3OH",
+            "role": "solvent",
+            "amount": "20 mL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "80 °C",
+        "time": "24 h, then 48 h after adding H2spch, then 5 days at 80 °C",
+        "ph": null,
+        "vessel_or_method": "sealed 25 mL glass vessel, solvothermal/autogenous pressure",
+        "workup_and_crystallization": "deep-brown single crystals formed after 5 days as a single-phase product",
+        "yield": "43 mg (31% based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Tetranuclear chloride-bridged dimer shows two-step zero-field SMM relaxation (fast and slow processes), intramolecular ferromagnetic coupling in χMT, and a coercive field of about 0.1 T at 1.9 K. Dilution suppresses the fast process above 10 K while the slow process remains largely unchanged. Ab initio analysis assigns an antiferromagnetic interdimer dipole–dipole interaction across the double chloride bridges.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "55.0",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": "55.9",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "ca. 25 K, 1 kOe; punctuation in the source is ambiguous"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT maximum",
+            "value": "69.9",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "1.9 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "22.3",
+            "unit": "μB",
+            "conditions": "1.9 K, 70 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff fast relaxation",
+            "value": "43",
+            "unit": "K",
+            "conditions": "zero dc field; also 30 cm^-1; τ0 = 1.38×10^-6 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff slow relaxation",
+            "value": "89",
+            "unit": "K",
+            "conditions": "zero dc field; also 62 cm^-1; τ0 = 2.12×10^-10 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "α fast relaxation",
+            "value": "0.40-0.77",
+            "unit": null,
+            "conditions": "1.9–6.0 K, two modified Debye models"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "α slow relaxation",
+            "value": "0.44-0.77",
+            "unit": null,
+            "conditions": "1.9–6.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "coercive field",
+            "value": "0.1",
+            "unit": "T",
+            "conditions": "1.9 K, below 1.5 T; Fig. S10b"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff fast relaxation, Dy0.1Y0.9",
+            "value": "16",
+            "unit": "K",
+            "conditions": "Dy:Y = 1:9; also 11 cm^-1; τ0 = 3.74×10^-6 s; signal disappears above 10 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff slow relaxation, Dy0.1Y0.9",
+            "value": "103",
+            "unit": "K",
+            "conditions": "Dy:Y = 1:9; also 72 cm^-1; τ0 = 1.18×10^-9 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1 total",
+            "value": "4.36",
+            "unit": "cm^-1",
+            "conditions": "Jdip = 4.86 cm^-1, Jexch = -0.50 cm^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J2 total",
+            "value": "0.92",
+            "unit": "cm^-1",
+            "conditions": "Jdip = -1.33 cm^-1 (antiferromagnetic Dy1–Dy1a), Jexch = 2.25 cm^-1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "external_metadata",
+          "location": "CCDC formula for TIJJEE/1862368"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Table S1"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "supplied CCDC row TIJJEE"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental section, synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism discussion, Fig. 2 and Table 1"
+        }
+      ]
+    },
+    {
+      "compound_label": "1a",
+      "compound_name": "[Dy(opch)Cl(MeOH)]2",
+      "formula": "C28H28Cl2Dy2N8O8",
+      "ccdc_numbers": [
+        "1862367"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "dinuclear Dy2 phase containing two crystallographically unique molecules; intermediate between 1 and 2"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Main text describes cleavage of the double chloride bridges of 2 by a self-destructive reaction at 100 °C but gives no reagent amounts. SI: prepared as red single crystals by the same method as 2, except the sealed reaction mixture was heated at 100 °C under autogenous pressure. Yield 33 mg (24% based on Dy).",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "132.0 mg, 0.35 mmol (as for 2)"
+          },
+          {
+            "name": "(E)-N'-(2-hydroxy-3-methoxybenzylidene)pyrazine-2-carbohydrazide",
+            "formula": "H2opch",
+            "role": "ligand",
+            "amount": "54.0 mg, 0.20 mmol (as for 2)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.028 mL, 0.2 mmol (as for 2)"
+          },
+          {
+            "name": "(E)-N'-(2-hydroxybenzylidene)pyrazine-2-carbohydrazide",
+            "formula": "H2spch",
+            "role": "competitor ligand",
+            "amount": "48.4 mg, 0.20 mmol (as for 2)"
+          },
+          {
+            "name": "methanol",
+            "formula": "CH3OH",
+            "role": "solvent",
+            "amount": "20 mL (as for 2)"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "100 °C",
+        "time": "same stirring sequence as 2; heating temperature changed to 100 °C",
+        "ph": null,
+        "vessel_or_method": "sealed glass vessel, solvothermal/autogenous pressure",
+        "workup_and_crystallization": "red single crystals isolated directly",
+        "yield": "33 mg (24% based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "One-step zero-field SMM relaxation resembling compound 1 rather than the two-step process of 2. χMT shows ferromagnetic coupling, and a butterfly-like magnetic memory effect is observed. Dy/Y dilution increases the barrier to 96 K. Two independent molecules, 1a-I and 1a-II, have ferromagnetic calculated couplings.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "28.8",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": "27.4",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "ca. 25 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT maximum",
+            "value": "41.0",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "1.9 K, 1 kOe; source labels this maximum as 2a"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "12.8",
+            "unit": "μB",
+            "conditions": "1.9 K, 70 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff",
+            "value": "65",
+            "unit": "K",
+            "conditions": "zero dc field; also 45 cm^-1; τ0 = 8.91×10^-7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Debye α",
+            "value": "<0.24",
+            "unit": null,
+            "conditions": "generalized Debye fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff of Dy0.1Y0.9 dilution",
+            "value": "96",
+            "unit": "K",
+            "conditions": "Dy:Y = 1:9; also 67 cm^-1; τ0 = 1.61×10^-10 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1 total, 1a-I",
+            "value": "8.15",
+            "unit": "cm^-1",
+            "conditions": "Jdip = 5.15 cm^-1, Jexch = 3.00 cm^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1 total, 1a-II",
+            "value": "8.69",
+            "unit": "cm^-1",
+            "conditions": "Jdip = 5.19 cm^-1, Jexch = 3.50 cm^-1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Table S1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Table S1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental section, synthesis of 1a"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism discussion, Fig. 2 and Table 1"
+        }
+      ]
+    }
+  ]
+}

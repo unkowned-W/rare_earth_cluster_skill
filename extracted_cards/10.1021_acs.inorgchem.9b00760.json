@@ -1,0 +1,182 @@
+{
+  "title": "Tracking the Stepwise Formation of the Dysprosium Cluster (Dy10) with Multiple Relaxation Behavior",
+  "doi": "10.1021/acs.inorgchem.9b00760",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Dy10",
+      "compound_name": "[Dy10(L1)6(μ5-NO3)2(OAc)10(HOAc)2]·8H2O (H3L1 = (E)-3-((3-ethoxy-2-hydroxybenzylidene)amino)propane-1,2-diol)",
+      "formula": "C96H138Dy10N8O62",
+      "ccdc_numbers": [
+        "1893664"
+      ],
+      "ccdc_refcodes": [
+        "TOJXIC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "decanuclear Dy10 nanocluster of two triangular Dy3 units linked by four Dy3+ ions through μ5-NO3- bridges"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "0.25 mmol Dy(NO3)3·6H2O, 0.25 mmol Dy(OAc)3·6H2O, 0.5 mmol 3-ethoxy-2-hydroxybenzaldehyde (L2), 0.5 mmol 3-amino-1,2-propanediol (L3), and 0.4 mmol triethylamine were dissolved in 30 mL MeOH/CH3CN (1:1 v/v) and stirred at room temperature for 2 h. The mixture was transferred to a Pyrex tube, heated at 80 °C for 2 days, then cooled to room temperature to give yellow massive crystals. Ligand L1 forms in situ from L2 and L3.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "dysprosium(III) acetate hexahydrate",
+            "formula": "Dy(OAc)3·6H2O",
+            "role": "metal source",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "3-ethoxy-2-hydroxybenzaldehyde",
+            "formula": "L2",
+            "role": "ligand precursor",
+            "amount": "0.5 mmol"
+          },
+          {
+            "name": "3-amino-1,2-propanediol",
+            "formula": "L3",
+            "role": "ligand precursor",
+            "amount": "0.5 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.4 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "CH3CN"
+        ],
+        "temperature": "room temperature (stirring), then 80 °C (solvothermal)",
+        "time": "2 h stirring, then 2 days heating",
+        "ph": null,
+        "vessel_or_method": "solvothermal reaction in a Pyrex tube",
+        "workup_and_crystallization": "after heating, the tube was removed from the oven to room temperature; yellow massive crystals formed directly",
+        "yield": "19% based on Dy(NO3)3·6H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dy10 is a homometallic Dy-exclusive cluster showing SMM-like multiple magnetic relaxation. DC susceptibility indicates weakly antiferromagnetic coupling and large magnetic anisotropy. AC data under 0 Oe DC field show two independent relaxation processes.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 139.95,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe DC field, polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 104.5,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, after decrease from 50 to 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant",
+            "value": 141.84,
+            "unit": "cm3 K mol-1",
+            "conditions": "Curie–Weiss fit of χ data above 100 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 38.77,
+            "unit": "Nβ",
+            "conditions": "high field; M vs H at 2–5 K, linear increase above 2 T; expected 100 Nβ at 5 T for 10 Dy(III)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff1",
+            "value": 14.1,
+            "unit": "K",
+            "conditions": "Arrhenius fit of relaxation time; 0 Oe DC field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ1",
+            "value": "2.6e-6",
+            "unit": "s",
+            "conditions": "0 Oe DC field, Arrhenius fit of slower process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff2",
+            "value": 0.8,
+            "unit": "K",
+            "conditions": "Arrhenius fit of second relaxation process; 0 Oe DC field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ2",
+            "value": "9.3e-7",
+            "unit": "s",
+            "conditions": "0 Oe DC field, Arrhenius fit of faster process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.20-0.63",
+            "unit": null,
+            "conditions": "Debye model fits of Cole–Cole plots; 0 Oe DC field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "abstract; Experimental Section, Synthesis of Dy10"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; elemental analysis in Synthesis of Dy10"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section, Materials and Methods; associated content CCDC 1893664"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC metadata row TOJXIC"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and Discussion, Crystal Structure; Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Dy10"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and Discussion, Magnetic Properties; Figures 4 and S8–S10"
+        }
+      ]
+    }
+  ]
+}

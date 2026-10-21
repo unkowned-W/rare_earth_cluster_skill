@@ -1,0 +1,296 @@
+{
+  "title": "Release of Toxic Gd3+ Ions to Tumour Cells by Vitamin B12 Bioconjugates",
+  "doi": "10.1002/chem.200802680",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "Gd–DTPA–CNCbl",
+      "formula": "C77H105CoN17O23PGd",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 2,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "vitamin B12–DTPA ester conjugate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "DTPA–CNCbl was first prepared by stirring CNCbl (300 mg, 0.22 mmol) and DTPA dianhydride (300 mg, 0.84 mmol) in anhydrous DMSO (40 mL) and anhydrous pyridine (5 mL) for 24 h at 45 °C, followed by aqueous work-up, phenol extraction, Dowex 1×2-400 chromatography (water then 1.0 M NaCl), desalting, and lyophilisation (185 mg, 49%). Complex 1 was then prepared in situ by treating aqueous solutions of DTPA–CNCbl with GdCl3 (0.9 equiv) in water at the desired pH and concentration. Solutions were used immediately or stored frozen to avoid ester hydrolysis.",
+        "reagents": [
+          {
+            "name": "cyanocobalamin (CNCbl, vitamin B12)",
+            "formula": null,
+            "role": "starting material for DTPA–CNCbl ligand",
+            "amount": "300 mg, 0.22 mmol"
+          },
+          {
+            "name": "DTPA dianhydride",
+            "formula": null,
+            "role": "acylating/chelating ligand precursor",
+            "amount": "300 mg, 0.84 mmol"
+          },
+          {
+            "name": "gadolinium chloride",
+            "formula": "GdCl3",
+            "role": "Gd source",
+            "amount": "0.9 equiv"
+          }
+        ],
+        "solvents": [
+          "DMSO",
+          "pyridine",
+          "water"
+        ],
+        "temperature": "ligand esterification 45 °C; complexation at ambient aqueous conditions (not further specified)",
+        "time": "24 h for DTPA–CNCbl esterification; complex 1 prepared immediately prior to use",
+        "ph": "desired pH (not numerically specified for in situ complexation)",
+        "vessel_or_method": "in situ aqueous complexation after chromatographic isolation of DTPA–CNCbl",
+        "workup_and_crystallization": "DTPA–CNCbl isolated by filtration, phenol extraction, Dowex chromatography, desalting, and lyophilisation; 1 not isolated as a solid (used as aqueous solutions)",
+        "yield": "DTPA–CNCbl 185 mg (49%); yield of 1 not reported"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "1 is a paramagnetic Gd–DTPA–cobalamin conjugate whose ester hydrolysis was followed by water-proton relaxivity. At 20 MHz and 298 K the millimolar relaxivity is 5.7 mM−1 s−1; in PBS (pH 7.2) r1p falls to 4.7 mM−1 s−1 after 5 h (first-order hydrolysis rate constant (4.7±3)×10−3 min−1), consistent with release of Gd–DTPA.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "longitudinal relaxivity r1p",
+            "value": "5.7",
+            "unit": "mM−1 s−1",
+            "conditions": "20 MHz, 298 K, aqueous complex 1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "longitudinal relaxivity r1p after hydrolysis",
+            "value": "4.7",
+            "unit": "mM−1 s−1",
+            "conditions": "PBS, pH 7.2, after 5 h; 20 MHz, 298 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ester hydrolysis rate constant",
+            "value": "(4.7±3)×10−3",
+            "unit": "min−1",
+            "conditions": "first-order fit of r1p time course in PBS, pH 7.2, 298 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section (Gd–DTPA–CNCbl)"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, HRMS of 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, DTPA–CNCbl and Gd–DTPA–CNCbl"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and Discussion, Hydrolysis of 1 and 2; Figure 3"
+        }
+      ]
+    },
+    {
+      "compound_label": "dimeric form of 1",
+      "compound_name": "dimeric Gd–DTPA–CNCbl with bridging Gd3+",
+      "formula": "C154H227Co2Gd3N34O51P2·3Na·4Cl·63H2O",
+      "ccdc_numbers": [
+        "697308"
+      ],
+      "ccdc_refcodes": [
+        "NUKRAN"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "phosphate-bridged dimeric vitamin B12–Gd–DTPA conjugate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "The dimeric form was obtained by recrystallising 1 with excess GdCl3 (Gd3+:1 = 1.3:1) by hanging-drop vapour diffusion at 293 K. Complex 1 (100 mM, 1 µL) was mixed with reservoir solution (40% v/v PEG 400 and 3.4 M LiCl, 1 µL). Small biconvex-lens crystals formed within hours and some grew over about a week to ~0.25 × 0.1 × 0.05 mm. X-ray data were collected at 100 K.",
+        "reagents": [
+          {
+            "name": "Gd–DTPA–CNCbl (1)",
+            "formula": "C77H105CoN17O23PGd",
+            "role": "bioconjugate precursor",
+            "amount": "100 mM, 1 µL drop"
+          },
+          {
+            "name": "gadolinium chloride",
+            "formula": "GdCl3",
+            "role": "excess Gd source to occupy bridging site",
+            "amount": "1.3:1 excess relative to 1"
+          },
+          {
+            "name": "lithium chloride",
+            "formula": "LiCl",
+            "role": "crystallisation salt in reservoir",
+            "amount": "3.4 M in reservoir"
+          }
+        ],
+        "solvents": [
+          "water",
+          "PEG 400"
+        ],
+        "temperature": "crystallisation 293 K; diffraction 100 K",
+        "time": "crystals in a few hours; growth up to about one week",
+        "ph": null,
+        "vessel_or_method": "hanging-drop vapour diffusion",
+        "workup_and_crystallization": "1:1 mix of 100 mM 1 with 40% v/v PEG 400 + 3.4 M LiCl reservoir; orthorhombic C2221 crystals of the dimer",
+        "yield": null
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": "Magnetic/optical data in the paper refer to solution complexes 1 and 2, not to the crystalline dimer.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and Discussion, crystal structure of dimeric 1; Figure 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section, CCDC-697308"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row NUKRAN / 697308"
+        },
+        {
+          "field": "formula",
+          "source": "external_metadata",
+          "location": "CCDC formula for NUKRAN"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, X-ray crystallography"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "Gd–TTHA–CNCbl",
+      "formula": "C81H111CoN18O25PGd",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 2,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "vitamin B12–TTHA ester conjugate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "TTHA–CNCbl was synthesised analogously to DTPA–CNCbl from CNCbl and TTHA dianhydride (yield 120 mg, 30%). Complex 2 was then prepared in situ by the same procedure as 1, treating aqueous TTHA–CNCbl with GdCl3 (0.9 equiv) in water.",
+        "reagents": [
+          {
+            "name": "cyanocobalamin (CNCbl)",
+            "formula": null,
+            "role": "starting material for TTHA–CNCbl ligand",
+            "amount": "same method as DTPA–CNCbl (CNCbl 300 mg, 0.22 mmol in that procedure)"
+          },
+          {
+            "name": "TTHA dianhydride",
+            "formula": null,
+            "role": "acylating/chelating ligand precursor",
+            "amount": "not separately quantified; same method as DTPA dianhydride (4 equiv in general discussion)"
+          },
+          {
+            "name": "gadolinium chloride",
+            "formula": "GdCl3",
+            "role": "Gd source",
+            "amount": "0.9 equiv (same as 1)"
+          }
+        ],
+        "solvents": [
+          "DMSO",
+          "pyridine",
+          "water"
+        ],
+        "temperature": "ligand esterification as for DTPA–CNCbl (45 °C); complexation aqueous, not further specified",
+        "time": "same as DTPA–CNCbl procedure (24 h esterification); 2 prepared immediately prior to use",
+        "ph": "desired pH (not numerically specified)",
+        "vessel_or_method": "in situ aqueous complexation",
+        "workup_and_crystallization": "TTHA–CNCbl isolated analogously to DTPA–CNCbl (lyophilised solid); 2 used as aqueous solutions",
+        "yield": "TTHA–CNCbl 120 mg (30%); yield of 2 not reported"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "2 is the more coordinatively saturated TTHA analogue. At 20 MHz and 298 K its millimolar relaxivity is 3.1 mM−1 s−1, close to Gd–TTHA (2.5 mM−1 s−1), and hydrolysis of the ester is much slower than for 1.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "longitudinal relaxivity r1p",
+            "value": "3.1",
+            "unit": "mM−1 s−1",
+            "conditions": "20 MHz, 298 K, aqueous complex 2"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section (Gd–TTHA–CNCbl)"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, HRMS of 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, TTHA–CNCbl and Gd–TTHA–CNCbl"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and Discussion, Hydrolysis of 1 and 2; Figure 3"
+        }
+      ]
+    }
+  ]
+}

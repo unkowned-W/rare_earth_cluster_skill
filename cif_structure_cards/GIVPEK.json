@@ -1,0 +1,120 @@
+{
+  "refcode": "GIVPEK",
+  "ccdc_number": "2223473",
+  "dois": [
+    "10.1021/jacs.3c08375"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2223473.cif",
+  "formula_moiety": "C48 H50 Lu2 N8 O14 S4",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "12.4839(3)",
+    "b": "12.3672(3)",
+    "c": "17.8234(5)",
+    "alpha": "90",
+    "beta": "103.349(3)",
+    "gamma": "90",
+    "volume": "2677.42",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Lu1",
+      "element": "Lu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O2",
+        "O3",
+        "O4",
+        "O6",
+        "O7",
+        "ONT7"
+      ]
+    },
+    {
+      "label": "Lu2",
+      "element": "Lu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O12",
+        "O13",
+        "O15",
+        "O16",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Lu1",
+          "Lu2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O10"
+        ],
+        "metal_metal_separation_angstrom": 3.723,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 110.08,
+            "metal_oxygen_distances_angstrom": [
+              2.308,
+              2.234
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 110.08,
+            "metal_oxygen_distances_angstrom": [
+              2.234,
+              2.308
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Lu1",
+        "Lu2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "GIVPEK crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C48 H50 Lu2 N8 O14 S4. From the CIF bond table, Lu1 (Lu) has 8 O neighbors; Lu2 (Lu) has 8 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 1 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.723-3.723 Å (not direct metal-metal bonds). Computed M-O-M angles span 110.08-110.08°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C48H50Lu2N8O14S4. Explicit grouped units in the article formula/name: 1 NO3 (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/jacs.3c08375",
+    "formula": "C48H50Lu2N8O14S4",
+    "compound_name": "[ExPh-Lu(DMSO)2(NO3)]2",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

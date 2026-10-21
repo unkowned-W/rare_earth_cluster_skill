@@ -1,0 +1,709 @@
+{
+  "title": "Structure and Magnetic Properties of a Series of Heptanuclear Ln3Mn4 Molecular Clusters Constructed with Phenyl-salicylaldoxime: Observation of a Significant Magnetocaloric Effect in Gd3Mn4",
+  "doi": "10.1021/acs.cgd.5c00199",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1Gd",
+      "compound_name": "heptanuclear Gd3Mn4 phenyl-salicylaldoxime cluster",
+      "formula": "C58H69Gd3Mn4N3O28·3(CH3OH)",
+      "ccdc_numbers": [
+        "2399175"
+      ],
+      "ccdc_refcodes": [
+        "WUSZUJ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "isostructural C3-symmetric Janus Ln3Mn4 oxime cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Shared one-pot procedure for the isostructural series: equimolar PhSaoH2 (phenyl-salicylaldoxime), Ln(OAc)3·6H2O (Ln = Gd for 1Gd), and Mn(OAc)2·4H2O were dissolved in 20 mL of methanol, two equivalents of NEt3 were added, and the mixture was stirred for 7 h. The solution was filtered and the filtrate was left at room temperature for slow evaporation. Black block-shaped crystals formed after 3 days. The reported composition is Ln3Mn4(O)3(L)3(OAc)6(MeO)4(MeOH)3·MeOH (L = phenyl-salicylaldoxime); the CCDC formula corresponds to C58H69Gd3Mn4N3O28·3(CH3OH).",
+        "reagents": [
+          {
+            "name": "phenyl-salicylaldoxime",
+            "formula": "PhSaoH2",
+            "role": "ligand",
+            "amount": "equimolar with the metal acetates"
+          },
+          {
+            "name": "gadolinium(III) acetate hexahydrate",
+            "formula": "Gd(OAc)3·6H2O",
+            "role": "rare-earth source",
+            "amount": "equimolar with PhSaoH2 and Mn(OAc)2·4H2O"
+          },
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "manganese source",
+            "amount": "equimolar with PhSaoH2 and Ln(OAc)3·6H2O"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "two equivalents"
+          },
+          {
+            "name": "methanol",
+            "formula": "MeOH",
+            "role": "solvent",
+            "amount": "20 mL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature for slow evaporation; stirring temperature not stated",
+        "time": "stirred 7 h; crystals after 3 days",
+        "ph": null,
+        "vessel_or_method": "one-pot solution synthesis, filtration, and slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate left for slow evaporation to give black block crystals",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Static SQUID magnetism shows dominant ferromagnetic interactions: χmT rises on cooling from 300 K. At 2 K and 50 kOe the magnetization is 33.04 Nβ, near the 36.0 Nβ expectation for parallel alignment of three Gd(III), three high-spin Mn(III), and one high-spin Mn(IV). A significant magnetocaloric effect is reported, with maximum −ΔSm = 20.99 J kg−1 K−1 at 50 kOe and 6.0 K (41.55% of the calculated 50.51 J kg−1 K−1 / 103.51 J mol−1 K−1 limit), supporting magnetic-refrigeration interest. Ln–Ln exchange after subtracting the Mn4 contribution is described as weak; numerical J values for 1Gd are only in Table S2.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "36.12",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature; 1000 Oe; 2–300 K SQUID data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected χmT for uncoupled ions",
+            "value": "36.39",
+            "unit": "cm3 mol−1 K",
+            "conditions": "g = 2.0 for three Gd(III), three high-spin Mn(III), and one high-spin Mn(IV)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "33.04",
+            "unit": "Nβ",
+            "conditions": "2 K, 50 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected saturation magnetization",
+            "value": "36.0",
+            "unit": "Nβ",
+            "conditions": "ferromagnetic alignment of all metal ions"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm",
+            "value": "20.99",
+            "unit": "J kg−1 K−1",
+            "conditions": "50 kOe, 6.0 K; Maxwell relation from magnetization data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "theoretical maximum −ΔSm",
+            "value": "103.51",
+            "unit": "J mol−1 K−1",
+            "conditions": "sum of R ln(2S+1) for Gd(III), Mn(III), and Mn(IV); equivalent to 50.51 J kg−1 K−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "fraction of theoretical −ΔSm",
+            "value": "41.55",
+            "unit": "%",
+            "conditions": "observed 20.99 J kg−1 K−1 versus 50.51 J kg−1 K−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Gd mass fraction",
+            "value": "23.08",
+            "unit": "%",
+            "conditions": "in 1Gd"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Results and Discussion, crystallographic formula"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2399175, refcode WUSZUJ"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Results and Discussion, Scheme 2 procedure paragraph"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 2–4; abstract"
+        }
+      ]
+    },
+    {
+      "compound_label": "2Dy",
+      "compound_name": "heptanuclear Dy3Mn4 phenyl-salicylaldoxime cluster",
+      "formula": "C58H69Dy3Mn4N3O28·3(CH3OH)",
+      "ccdc_numbers": [
+        "2399176"
+      ],
+      "ccdc_refcodes": [
+        "WUTBAS"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "isostructural C3-symmetric Janus Ln3Mn4 oxime cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same shared procedure as 1Gd using Dy(OAc)3·6H2O: equimolar PhSaoH2, Ln(OAc)3·6H2O, and Mn(OAc)2·4H2O in 20 mL methanol, two equivalents of NEt3, stirred 7 h, filtered, and left at room temperature for slow evaporation. Black block crystals formed after 3 days.",
+        "reagents": [
+          {
+            "name": "phenyl-salicylaldoxime",
+            "formula": "PhSaoH2",
+            "role": "ligand",
+            "amount": "equimolar with the metal acetates"
+          },
+          {
+            "name": "dysprosium(III) acetate hexahydrate",
+            "formula": "Dy(OAc)3·6H2O",
+            "role": "rare-earth source",
+            "amount": "equimolar with PhSaoH2 and Mn(OAc)2·4H2O"
+          },
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "manganese source",
+            "amount": "equimolar with PhSaoH2 and Ln(OAc)3·6H2O"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "two equivalents"
+          },
+          {
+            "name": "methanol",
+            "formula": "MeOH",
+            "role": "solvent",
+            "amount": "20 mL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature for slow evaporation; stirring temperature not stated",
+        "time": "stirred 7 h; crystals after 3 days",
+        "ph": null,
+        "vessel_or_method": "one-pot solution synthesis, filtration, and slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate left for slow evaporation to give black block crystals",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χmT is nearly constant above about 40 K and rises sharply near 19 K down to 2 K. Magnetization at 2 K and 50 kOe is 28.36 Nβ versus 30.0 Nβ expected for ferromagnetic alignment of all ions. AC susceptibility was measured from 20 to 2 K to probe SMM behavior, but the main text gives no numerical relaxation parameters (Figures S15–S16). MCE data are deferred to Table S10.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "49.59",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature; 1000 Oe; 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected χmT for uncoupled ions",
+            "value": "55.26",
+            "unit": "cm3 mol−1 K",
+            "conditions": "g = 2.0 for three Dy(III), three high-spin Mn(III), and one high-spin Mn(IV)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "28.36",
+            "unit": "Nβ",
+            "conditions": "2 K, 50 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected saturation magnetization",
+            "value": "30.0",
+            "unit": "Nβ",
+            "conditions": "ferromagnetic alignment of all metal ions"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility",
+            "value": null,
+            "unit": null,
+            "conditions": "temperature dependence between 20 and 2 K; Figures S15 and S16; no numerical result in the main text"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Results and Discussion, general formula"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2399176, refcode WUTBAS"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Results and Discussion, Scheme 2 procedure paragraph"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 2 and 3"
+        }
+      ]
+    },
+    {
+      "compound_label": "3Tb",
+      "compound_name": "heptanuclear Tb3Mn4 phenyl-salicylaldoxime cluster",
+      "formula": "C58H69Tb3Mn4N3O28·3(CH3OH)",
+      "ccdc_numbers": [
+        "2399178"
+      ],
+      "ccdc_refcodes": [
+        "WUTBIA"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "isostructural C3-symmetric Janus Ln3Mn4 oxime cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same shared procedure as 1Gd using Tb(OAc)3·6H2O: equimolar PhSaoH2, Ln(OAc)3·6H2O, and Mn(OAc)2·4H2O in 20 mL methanol, two equivalents of NEt3, stirred 7 h, filtered, and left at room temperature for slow evaporation. Black block crystals formed after 3 days.",
+        "reagents": [
+          {
+            "name": "phenyl-salicylaldoxime",
+            "formula": "PhSaoH2",
+            "role": "ligand",
+            "amount": "equimolar with the metal acetates"
+          },
+          {
+            "name": "terbium(III) acetate hexahydrate",
+            "formula": "Tb(OAc)3·6H2O",
+            "role": "rare-earth source",
+            "amount": "equimolar with PhSaoH2 and Mn(OAc)2·4H2O"
+          },
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "manganese source",
+            "amount": "equimolar with PhSaoH2 and Ln(OAc)3·6H2O"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "two equivalents"
+          },
+          {
+            "name": "methanol",
+            "formula": "MeOH",
+            "role": "solvent",
+            "amount": "20 mL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature for slow evaporation; stirring temperature not stated",
+        "time": "stirred 7 h; crystals after 3 days",
+        "ph": null,
+        "vessel_or_method": "one-pot solution synthesis, filtration, and slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate left for slow evaporation to give black block crystals",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χmT is nearly constant above about 40 K and increases sharply around 20 K down to 2 K. Magnetization at 2 K and 50 kOe is 28.21 Nβ, close to 28.5 Nβ expected for ferromagnetic alignment. AC susceptibility was recorded from 20 to 2 K to examine SMM behavior, without numerical parameters in the main text (Figures S15–S16). MCE results are only referenced to Table S10.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "49.33",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature; 1000 Oe; 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected χmT for uncoupled ions",
+            "value": "48.21",
+            "unit": "cm3 mol−1 K",
+            "conditions": "g = 2.0 for three Tb(III), three high-spin Mn(III), and one high-spin Mn(IV)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "28.21",
+            "unit": "Nβ",
+            "conditions": "2 K, 50 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected saturation magnetization",
+            "value": "28.5",
+            "unit": "Nβ",
+            "conditions": "ferromagnetic alignment of all metal ions"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility",
+            "value": null,
+            "unit": null,
+            "conditions": "temperature dependence between 20 and 2 K; Figures S15 and S16; no numerical result in the main text"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Results and Discussion, general formula"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2399178, refcode WUTBIA"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Results and Discussion, Scheme 2 procedure paragraph"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 2 and 3"
+        }
+      ]
+    },
+    {
+      "compound_label": "4Er",
+      "compound_name": "heptanuclear Er3Mn4 phenyl-salicylaldoxime cluster",
+      "formula": "C58H69Er3Mn4N3O28·3(CH3OH)",
+      "ccdc_numbers": [
+        "2399177"
+      ],
+      "ccdc_refcodes": [
+        "WUTBEW"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "isostructural C3-symmetric Janus Ln3Mn4 oxime cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same shared procedure as 1Gd using Er(OAc)3·6H2O: equimolar PhSaoH2, Ln(OAc)3·6H2O, and Mn(OAc)2·4H2O in 20 mL methanol, two equivalents of NEt3, stirred 7 h, filtered, and left at room temperature for slow evaporation. Black block crystals formed after 3 days.",
+        "reagents": [
+          {
+            "name": "phenyl-salicylaldoxime",
+            "formula": "PhSaoH2",
+            "role": "ligand",
+            "amount": "equimolar with the metal acetates"
+          },
+          {
+            "name": "erbium(III) acetate hexahydrate",
+            "formula": "Er(OAc)3·6H2O",
+            "role": "rare-earth source",
+            "amount": "equimolar with PhSaoH2 and Mn(OAc)2·4H2O"
+          },
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "manganese source",
+            "amount": "equimolar with PhSaoH2 and Ln(OAc)3·6H2O"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "two equivalents"
+          },
+          {
+            "name": "methanol",
+            "formula": "MeOH",
+            "role": "solvent",
+            "amount": "20 mL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature for slow evaporation; stirring temperature not stated",
+        "time": "stirred 7 h; crystals after 3 days",
+        "ph": null,
+        "vessel_or_method": "one-pot solution synthesis, filtration, and slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate left for slow evaporation to give black block crystals",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χmT decreases below about 50 K to a minimum near 25 K, attributed to Stark-level depopulation dominating weaker coupling, then rises sharply around 18 K. Magnetization at 2 K and 50 kOe is 27.60 Nβ versus 28.5 Nβ expected for ferromagnetic alignment. MCE results are only in Table S10.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "43.54",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature; 1000 Oe; 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected χmT for uncoupled ions",
+            "value": "47.19",
+            "unit": "cm3 mol−1 K",
+            "conditions": "g = 2.0 for three Er(III), three high-spin Mn(III), and one high-spin Mn(IV)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT minimum temperature",
+            "value": "25",
+            "unit": "K",
+            "conditions": "approximate minimum after the decrease below 50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "27.60",
+            "unit": "Nβ",
+            "conditions": "2 K, 50 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected saturation magnetization",
+            "value": "28.5",
+            "unit": "Nβ",
+            "conditions": "ferromagnetic alignment of all metal ions"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Results and Discussion, general formula"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2399177, refcode WUTBEW"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Results and Discussion, Scheme 2 procedure paragraph"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 2 and 3"
+        }
+      ]
+    },
+    {
+      "compound_label": "5Y",
+      "compound_name": "heptanuclear Y3Mn4 phenyl-salicylaldoxime cluster",
+      "formula": "C58H69Y3Mn4N3O28·3(CH3OH)",
+      "ccdc_numbers": [
+        "2399179"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "isostructural C3-symmetric Janus Ln3Mn4 oxime cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same shared procedure as 1Gd using Y(OAc)3·6H2O: equimolar PhSaoH2, Ln(OAc)3·6H2O, and Mn(OAc)2·4H2O in 20 mL methanol, two equivalents of NEt3, stirred 7 h, filtered, and left at room temperature for slow evaporation. Black block crystals formed after 3 days. CCDC 2399179 is assigned as the remaining deposition in the stated range 2399175–2399179 after the four supplied Ln analogues.",
+        "reagents": [
+          {
+            "name": "phenyl-salicylaldoxime",
+            "formula": "PhSaoH2",
+            "role": "ligand",
+            "amount": "equimolar with the metal acetates"
+          },
+          {
+            "name": "yttrium(III) acetate hexahydrate",
+            "formula": "Y(OAc)3·6H2O",
+            "role": "rare-earth source",
+            "amount": "equimolar with PhSaoH2 and Mn(OAc)2·4H2O"
+          },
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "manganese source",
+            "amount": "equimolar with PhSaoH2 and Ln(OAc)3·6H2O"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "two equivalents"
+          },
+          {
+            "name": "methanol",
+            "formula": "MeOH",
+            "role": "solvent",
+            "amount": "20 mL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature for slow evaporation; stirring temperature not stated",
+        "time": "stirred 7 h; crystals after 3 days",
+        "ph": null,
+        "vessel_or_method": "one-pot solution synthesis, filtration, and slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate left for slow evaporation to give black block crystals",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Diamagnetic Y(III) isolates the Mn(IV)Mn(III)3 unit. χmT decreases slowly on cooling, consistent with net antiferromagnetic Mn–Mn coupling and a negative Weiss constant (value not given). PHI fit of eq 1 gives J1 = −0.482 cm−1 (Mn1–Mn1), J2 = 0.230 cm−1 (Mn1–Mn2), and zJ = −0.008 cm−1. Magnetization at 2 K reaches 12.36 Nβ at 50 kOe and tends to saturate above 10 kOe, below the 15 Nβ fully ferromagnetic expectation.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "12.44",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature; 1000 Oe; 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected χmT for uncoupled ions",
+            "value": "12.75",
+            "unit": "cm3 mol−1 K",
+            "conditions": "g = 2.0 for three high-spin Mn(III) and one high-spin Mn(IV); Y(III) diamagnetic"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1",
+            "value": "-0.482",
+            "unit": "cm−1",
+            "conditions": "PHI fit of Mn4 using Hamiltonian eq 1; J1 between Mn1 centers"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J2",
+            "value": "0.230",
+            "unit": "cm−1",
+            "conditions": "PHI fit; J2 between Mn1 and Mn2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "zJ",
+            "value": "-0.008",
+            "unit": "cm−1",
+            "conditions": "PHI fit, eq 1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "12.36",
+            "unit": "Nβ",
+            "conditions": "2 K, 50 kOe; saturation trend above 10 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected magnetization for complete ferromagnetic Mn4",
+            "value": "15",
+            "unit": "Nβ",
+            "conditions": "three Mn(III) and one Mn(IV)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Results and Discussion, general formula"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Accession Codes, deposition numbers 2399175–2399179; 2399179 not in the supplied metadata rows"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Results and Discussion, Scheme 2 procedure paragraph"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figure 2 inset and eq 1; Figure 3"
+        }
+      ]
+    }
+  ]
+}

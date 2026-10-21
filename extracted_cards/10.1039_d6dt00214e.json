@@ -1,0 +1,408 @@
+{
+  "title": "Fixing CO2 from the air to assemble Dy8 zero-field single-molecule magnets and Gd8 magnetocaloric molecular materials",
+  "doi": "10.1039/d6dt00214e",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy8(Lschiff)8(CO3)4(H2O)8]·4DMA·4H2O",
+      "formula": "C124H148Dy8N44O52",
+      "ccdc_numbers": [
+        "2521957"
+      ],
+      "ccdc_refcodes": [
+        "AZUWEB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tubular Dy8 cluster with [Dy8(CO3)4]16+ core assembled by atmospheric CO2 fixation"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "0.25 mmol H2Lschiff, 0.25 mmol Dy(CF3SO3)3, 0.125 mmol (R)-1,1′-bi(2-naphthol), and 0.75 mmol LiOH·H2O were added to 5 mL DMA and stirred for 24 h. After adding 20 mL MeOH and 20 mL CH2Cl2, the brown solution was transferred to a 50 mL beaker; slow solvent evaporation for 1.5 months gave reddish-brown single crystals of 1. LiOH is required for capture/fixation of atmospheric CO2 as carbonate.",
+        "reagents": [
+          {
+            "name": "H2Lschiff (hydrazone Schiff base from o-vanillin and 3-aminopyrazine-2-carbohydrazide)",
+            "formula": "H2Lschiff",
+            "role": "ligand",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "dysprosium(III) trifluoromethanesulfonate",
+            "formula": "Dy(CF3SO3)3",
+            "role": "metal source",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "(R)-1,1′-bi(2-naphthol)",
+            "formula": "C20H14O2",
+            "role": "crystallization/inducing additive (not incorporated)",
+            "amount": "0.125 mmol"
+          },
+          {
+            "name": "lithium hydroxide monohydrate",
+            "formula": "LiOH·H2O",
+            "role": "base; enables atmospheric CO2 fixation",
+            "amount": "0.75 mmol"
+          }
+        ],
+        "solvents": [
+          "DMA (5 mL)",
+          "MeOH (20 mL)",
+          "CH2Cl2 (20 mL)"
+        ],
+        "temperature": "room temperature (stirring); crystallization by slow evaporation",
+        "time": "stirred 24 h; crystallized over one and a half months",
+        "ph": null,
+        "vessel_or_method": "50 mL beaker; slow solvent evaporation",
+        "workup_and_crystallization": "after stirring, MeOH and CH2Cl2 added; brown solution evaporated slowly to give reddish-brown single crystals",
+        "yield": "about 50% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field Dy8 SMM with intramolecular ferromagnetic Dy···Dy coupling. Room-temperature χMT = 113.12 cm3 K mol−1 (1000 Oe). χMT minimum 105.21 cm3 K mol−1 at 32 K then maximum 120.47 cm3 K mol−1 at 3 K. Zero-field Orbach barrier Ueff/k = 74.3 K (τ0 = 7.2×10−6 s; τQTM = 0.0744 s). Under 1500 Oe, Ueff/k = 81.0 K (τ0 = 4.6×10−6 s). Hysteresis loop not open at 2.0 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (room temperature)",
+            "value": 113.12,
+            "unit": "cm3 K mol−1",
+            "conditions": "Hdc = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (minimum)",
+            "value": 105.21,
+            "unit": "cm3 K mol−1",
+            "conditions": "32 K, Hdc = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (maximum)",
+            "value": 120.47,
+            "unit": "cm3 K mol−1",
+            "conditions": "3 K, Hdc = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/k",
+            "value": 74.3,
+            "unit": "K",
+            "conditions": "Hdc = 0 Oe; fit τ−1 = τQTM−1 + CT^n + τ0−1 exp(−Ueff/kT); n = 2.36; τ0 = 7.2×10−6 s; τQTM = 0.0744 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/k",
+            "value": 81.0,
+            "unit": "K",
+            "conditions": "Hdc = 1500 Oe; Raman+Orbach fit; n = 2.96; C = 0.09997 s−1 K−2.96; τ0 = 4.6×10−6 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.181–0.251",
+            "unit": null,
+            "conditions": "2–14 K, Hdc = 0 Oe, generalized Debye model"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Synthesis of 1; elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Data availability; CCDC 2521957–2521959 (1–3)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "AZUWEB / 2521957"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties of 1–3; Figs. 4, 6, 7"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy2(Lschiff)2(DMA)3(H2O)3](CF3SO3)2·3DMA·H2O",
+      "formula": "C52H84Dy2F6N16O22S2",
+      "ccdc_numbers": [
+        "2521958"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "cationic dinuclear Dy2 complex (no CO2 fixation)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "0.25 mmol H2Lschiff, 0.25 mmol Dy(CF3SO3)3, 0.125 mmol (R)-1,1′-bi(2-naphthol), and 0.75 mmol Et3N were added to 5 mL DMA and stirred for 24 h. The brown solution was transferred to a 50 mL beaker; slow evaporation for more than one month gave brown single crystals of 2. Using Et3N instead of LiOH does not capture atmospheric CO2.",
+        "reagents": [
+          {
+            "name": "H2Lschiff",
+            "formula": "H2Lschiff",
+            "role": "ligand",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "dysprosium(III) trifluoromethanesulfonate",
+            "formula": "Dy(CF3SO3)3",
+            "role": "metal source",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "(R)-1,1′-bi(2-naphthol)",
+            "formula": "C20H14O2",
+            "role": "additive (not incorporated; may induce chiral space group)",
+            "amount": "0.125 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.75 mmol"
+          }
+        ],
+        "solvents": [
+          "DMA (5 mL)"
+        ],
+        "temperature": "room temperature (stirring); crystallization by slow evaporation",
+        "time": "stirred 24 h; crystallized over more than one month",
+        "ph": null,
+        "vessel_or_method": "50 mL beaker; slow solvent evaporation",
+        "workup_and_crystallization": "brown solution evaporated slowly to brown single crystals",
+        "yield": "about 80% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Cationic zero-field Dy2 SMM with intramolecular ferromagnetic coupling and weak QTM. Room-temperature χMT = 28.33 cm3 K mol−1. χMT minimum 27.48 cm3 K mol−1 at 48 K then maximum 39.49 cm3 K mol−1 at 2 K. Zero-field Ueff/k = 242.9 K (τ0 = 1.7×10−9 s). Under 1500 Oe, Ueff/k = 248.4 K (τ0 = 1.2×10−9 s). χ″ peaks up to 18 K at 1399 Hz. Hysteresis not open at 2.0 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (room temperature)",
+            "value": 28.33,
+            "unit": "cm3 K mol−1",
+            "conditions": "Hdc = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (minimum)",
+            "value": 27.48,
+            "unit": "cm3 K mol−1",
+            "conditions": "48 K, Hdc = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (maximum)",
+            "value": 39.49,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, Hdc = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/k",
+            "value": 242.9,
+            "unit": "K",
+            "conditions": "Hdc = 0 Oe; QTM+Raman+Orbach; τQTM = 0.00008 s; n = 5.18; C = 0.00014 s−1 K−5.18; τ0 = 1.7×10−9 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/k",
+            "value": 248.4,
+            "unit": "K",
+            "conditions": "Hdc = 1500 Oe; Raman+Orbach; n = 4.92; C = 0.00027 s−1 K−4.92; τ0 = 1.2×10−9 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.065–0.149",
+            "unit": null,
+            "conditions": "6–18 K, Hdc = 0 Oe"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Synthesis of 2; elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 2521957–2521959 (1–3); 2521958 for 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties of 1–3; Fig. 8"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Gd8(Lschiff)8(CO3)4(H2O)8]·4DMA·4H2O",
+      "formula": "C124H148Gd8N44O52",
+      "ccdc_numbers": [
+        "2521959"
+      ],
+      "ccdc_refcodes": [
+        "AZUWOL"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tubular Gd8 analogue of 1 with [Gd8(CO3)4] core from atmospheric CO2 fixation"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same method as 1 using Gd(CF3SO3)3: 0.25 mmol H2Lschiff, 0.25 mmol Gd(CF3SO3)3, 0.125 mmol (R)-1,1′-bi(2-naphthol), and 0.75 mmol LiOH·H2O in 5 mL DMA, stirred 24 h; transferred to a 50 mL beaker; slow evaporation for more than two months gave reddish-brown single crystals of 3.",
+        "reagents": [
+          {
+            "name": "H2Lschiff",
+            "formula": "H2Lschiff",
+            "role": "ligand",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "gadolinium(III) trifluoromethanesulfonate",
+            "formula": "Gd(CF3SO3)3",
+            "role": "metal source",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "(R)-1,1′-bi(2-naphthol)",
+            "formula": "C20H14O2",
+            "role": "crystallization/inducing additive (not incorporated)",
+            "amount": "0.125 mmol"
+          },
+          {
+            "name": "lithium hydroxide monohydrate",
+            "formula": "LiOH·H2O",
+            "role": "base; enables atmospheric CO2 fixation",
+            "amount": "0.75 mmol"
+          }
+        ],
+        "solvents": [
+          "DMA (5 mL)"
+        ],
+        "temperature": "room temperature (stirring); crystallization by slow evaporation",
+        "time": "stirred 24 h; crystallized over more than two months",
+        "ph": null,
+        "vessel_or_method": "50 mL beaker; slow solvent evaporation",
+        "workup_and_crystallization": "brown solution evaporated slowly to reddish-brown single crystals",
+        "yield": "about 40% based on Gd"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Gd8 magnetocaloric cluster. Room-temperature χMT = 63.03 cm3 K mol−1; χMT = 59.47 cm3 K mol−1 at 2 K. Curie–Weiss C = 63.41 cm3 K mol−1, θ = −0.0213 K (very weak antiferromagnetic interaction). Maximum −ΔSm = 26.28 J kg−1 K−1 at 2 K and ΔH = 5 T (theoretical limit 31.83 J kg−1 K−1).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (room temperature)",
+            "value": 63.03,
+            "unit": "cm3 K mol−1",
+            "conditions": "Hdc = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 59.47,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, Hdc = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 63.41,
+            "unit": "cm3 K mol−1",
+            "conditions": "Curie–Weiss fit of 1/χM vs T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss temperature θ",
+            "value": -0.0213,
+            "unit": "K",
+            "conditions": "Curie–Weiss fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm (maximum)",
+            "value": 26.28,
+            "unit": "J kg−1 K−1",
+            "conditions": "2 K, ΔH = 5 T; Maxwell relation from M–H at 2–10 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Synthesis of 3; elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 2521959 for 3"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "AZUWOL / 2521959"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties of 1–3; Fig. 5"
+        }
+      ]
+    }
+  ]
+}

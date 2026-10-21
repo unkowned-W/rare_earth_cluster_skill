@@ -1,0 +1,313 @@
+{
+  "title": "Dy4 and Dy5 complexes based on tautomeric hydrazone Schiff-base ligand regulated by temperature showing single-molecule magnet behaviour",
+  "doi": "10.1016/j.molstruc.2024.138393",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Dy4",
+      "compound_name": "[Dy4(H2L)6]·4H2O",
+      "formula": "C126H98Dy4N30O28",
+      "ccdc_numbers": [
+        "2305538"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetranuclear Dy4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "DyCl3·6H2O (0.1 mmol, 37.6 mg) and H4L (0.1 mmol, 40.3 mg) were added to a mixture of 10 mL MeOH and 5 mL MeCN under stirring in an ice bath. When the mixture was clear, Et3N (0.2 mmol, 28 μL) was added under stirring. The mixture was stirred for 1 h, filtered and slowly volatilized at temperature below 293 K. Pale-yellow block crystals suitable for X-ray diffraction were obtained after 3 days.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol, 37.6 mg"
+          },
+          {
+            "name": "(N′,N′′′E,N′,N′′′E)-N′,N′′′-(pyridine-2,6-diylbis(methanylylidene))bis(2-hydroxybenzohydrazide)",
+            "formula": "H4L",
+            "role": "ligand",
+            "amount": "0.1 mmol, 40.3 mg"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol, 28 μL"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN"
+        ],
+        "temperature": "ice bath during mixing; crystallization below 293 K",
+        "time": "stirred 1 h; crystals after 3 days",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by slow evaporation",
+        "workup_and_crystallization": "filtered and slowly volatilized below 293 K; pale-yellow block crystals",
+        "yield": "59% (based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Field-induced SMM. χMT at 300 K is 56.42 cm3 K mol−1 (theory 56.68), decreasing to 50.34 cm3 K mol−1 at 2 K under 1 kOe, consistent with crystal-field depopulation and possible antiferromagnetic Dy–Dy interactions. Magnetization at 2.0 K and 70 kOe reaches 20.37 Nβ, below saturation, indicating anisotropy. No out-of-phase ac signal under zero dc field (QTM); optimal dc field 1 kOe. Cole–Cole α = 0.0750–0.4827. Orbach+Raman fit: Ueff = 42.9 K, τ0 = 7.81×10−7 s, n = 3.2, C = 0.9 s−1 K−n.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "56.42",
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "56.20",
+            "unit": "cm3 K mol−1",
+            "conditions": "110 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "50.34",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": "20.37",
+            "unit": "Nβ",
+            "conditions": "2.0 K, 70 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "42.9",
+            "unit": "K",
+            "conditions": "ac susceptibility, 1 kOe dc field; Orbach+Raman fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "7.81e-7",
+            "unit": "s",
+            "conditions": "1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman n",
+            "value": "3.2",
+            "unit": null,
+            "conditions": "Arrhenius/Raman fit, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C",
+            "value": "0.9",
+            "unit": "s−1 K−n",
+            "conditions": "Arrhenius/Raman fit, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole α",
+            "value": "0.0750–0.4827",
+            "unit": null,
+            "conditions": "generalized Debye model"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "section 2.2; abstract"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.2"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "section 3.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3; Figs. 4–6"
+        }
+      ]
+    },
+    {
+      "compound_label": "Dy5",
+      "compound_name": "[Dy5(H2L)(HL)2(L)(μ3-OH)2Cl(H2O)(MeCN)2]·4MeOH·7H2O",
+      "formula": "C92H94ClDy5N22O30",
+      "ccdc_numbers": [
+        "2305537"
+      ],
+      "ccdc_refcodes": [
+        "POQZOO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "pentanuclear Dy5 cluster (two triangles sharing Dy)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to Dy4 from DyCl3·6H2O (0.1 mmol, 37.6 mg), H4L (0.1 mmol, 40.3 mg) and Et3N (0.2 mmol, 28 μL) in 10 mL MeOH and 5 mL MeCN, but with reaction and evaporation temperature over 308 K. Pale-yellow crystals; yield 56% based on Dy.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol, 37.6 mg"
+          },
+          {
+            "name": "(N′,N′′′E,N′,N′′′E)-N′,N′′′-(pyridine-2,6-diylbis(methanylylidene))bis(2-hydroxybenzohydrazide)",
+            "formula": "H4L",
+            "role": "ligand",
+            "amount": "0.1 mmol, 40.3 mg"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol, 28 μL"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN"
+        ],
+        "temperature": "reaction and evaporation over 308 K",
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by slow evaporation",
+        "workup_and_crystallization": "same workup as Dy4 at higher temperature; pale-yellow crystals",
+        "yield": "56% (based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field SMM. χMT at 300 K is 69.87 cm3 K mol−1 (theory 70.85), falls to 41.81 cm3 K mol−1 at 25 K then rises to 56.89 cm3 K mol−1 at 2 K, indicating intramolecular ferromagnetic Dy–Dy coupling. Magnetization at 1.8 K and 70 kOe is 32.16 Nβ, below saturation. Clear χ″ peak under zero dc field; QTM inefficient and ac peaks vanish at 1.5–2 kOe. Cole–Cole α = 0.1753–0.2106. Orbach-only fit: Ueff = 4.18 K, τ0 = 4.3×10−5 s.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "69.87",
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "41.81",
+            "unit": "cm3 K mol−1",
+            "conditions": "25 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "56.89",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": "32.16",
+            "unit": "Nβ",
+            "conditions": "1.8 K, 70 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "4.18",
+            "unit": "K",
+            "conditions": "ac susceptibility, 0 Oe dc field; Orbach fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "4.3e-5",
+            "unit": "s",
+            "conditions": "0 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole α",
+            "value": "0.1753–0.2106",
+            "unit": null,
+            "conditions": "generalized Debye model"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "section 2.3; abstract"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row POQZOO / 2305537"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "sections 2.2–2.3"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "section 3.2; Fig. 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3; Figs. 4–6"
+        }
+      ]
+    }
+  ]
+}

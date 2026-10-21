@@ -1,0 +1,156 @@
+{
+  "refcode": "MAVTAH",
+  "ccdc_number": "1441017",
+  "dois": [
+    "10.1039/c7dt00635g"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1441017.cif",
+  "formula_moiety": "C65 H87 Ce3 N18 O6,1.5(C4 H8 O1)",
+  "crystal_system": "orthorhombic",
+  "space_group_hm": "P 21 21 21",
+  "international_tables_number": "19",
+  "unit_cell": {
+    "a": "16.2907(16)",
+    "b": "20.1796(19)",
+    "c": "23.505(2)",
+    "alpha": "90.00",
+    "beta": "90.00",
+    "gamma": "90.00",
+    "volume": "7727.03",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "label": "Ce3",
+      "element": "Ce",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ce1",
+          "Ce2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.996,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 109.47,
+            "metal_oxygen_distances_angstrom": [
+              2.474,
+              2.42
+            ]
+          },
+          {
+            "oxygen": "O1",
+            "angle_deg": 110.97,
+            "metal_oxygen_distances_angstrom": [
+              2.45,
+              2.4
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2",
+          "Ce3"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O4",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.953,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 108.55,
+            "metal_oxygen_distances_angstrom": [
+              2.433,
+              2.437
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 109.35,
+            "metal_oxygen_distances_angstrom": [
+              2.402,
+              2.443
+            ]
+          },
+          {
+            "oxygen": "O6",
+            "angle_deg": 86.73,
+            "metal_oxygen_distances_angstrom": [
+              2.895,
+              2.863
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1",
+        "Ce2",
+        "Ce3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "MAVTAH crystallizes in the orthorhombic crystal system with space group P 21 21 21. Reported CIF formula moiety: C65 H87 Ce3 N18 O6,1.5(C4 H8 O1). From the CIF bond table, Ce2 (Ce) has 5 O neighbors; Ce3 (Ce) has 3 O neighbors; Ce1 (Ce) has 3 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.953-3.996 Å (not direct metal-metal bonds). Computed M-O-M angles span 86.73-110.97°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C65H87Ce3N18O6,1.5(C4H8O).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c7dt00635g",
+    "formula": "C65H87Ce3N18O6,1.5(C4H8O)",
+    "compound_name": "[Ce3(Me2pz)5(pchd)2(thf)2]·1.5THF",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

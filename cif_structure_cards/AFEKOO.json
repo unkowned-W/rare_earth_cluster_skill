@@ -1,0 +1,223 @@
+{
+  "refcode": "AFEKOO",
+  "ccdc_number": "1569330",
+  "dois": [
+    "10.1134/s1070328418060052"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1569330.cif",
+  "formula_moiety": "C27 H39 Cl7 O4 Tb4,0.5(C4 H8 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "11.1328(14)",
+    "b": "12.004(2)",
+    "c": "18.627(2)",
+    "alpha": "87.225(3)",
+    "beta": "76.498(2)",
+    "gamma": "62.752(2)",
+    "volume": "2146.96",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O4"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O4"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O4"
+      ]
+    },
+    {
+      "label": "Tb4",
+      "element": "Tb",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.66,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 102.77,
+            "metal_oxygen_distances_angstrom": [
+              2.331,
+              2.353
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.653,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 102.8,
+            "metal_oxygen_distances_angstrom": [
+              2.331,
+              2.343
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb4"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.82,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 115.6,
+            "metal_oxygen_distances_angstrom": [
+              2.331,
+              2.182
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.662,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 102.47,
+            "metal_oxygen_distances_angstrom": [
+              2.353,
+              2.343
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb4"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.831,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 115.24,
+            "metal_oxygen_distances_angstrom": [
+              2.353,
+              2.182
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb3",
+          "Tb4"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.839,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 116.03,
+            "metal_oxygen_distances_angstrom": [
+              2.343,
+              2.182
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3",
+        "Tb4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "three-dimensional metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "AFEKOO crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C27 H39 Cl7 O4 Tb4,0.5(C4 H8 O1). From the CIF bond table, Tb1 (Tb) has 1 O neighbors; Tb2 (Tb) has 1 O neighbors; Tb3 (Tb) has 1 O neighbors; Tb4 (Tb) has 4 O neighbors. Oxygen-bridged metal-site graph: 6 pairs, 1 components; largest component is a network with cycles with three-dimensional metal-site arrangement. Computed bridged metal-metal separations span 3.653-3.839 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.47-116.03°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C27H39Cl7O4Tb4·0.5(C4H8O). Explicit grouped units in the article formula/name: 1 μ4-O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1134/s1070328418060052",
+    "formula": "C27H39Cl7O4Tb4·0.5(C4H8O)",
+    "compound_name": "[{Tb(η5-C5H5)}3{Tb(THF)3}(μ3-Cl)(μ2-Cl)6(μ4-O)]·0.5THF",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ4-O",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

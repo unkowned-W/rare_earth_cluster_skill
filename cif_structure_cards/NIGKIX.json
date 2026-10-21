@@ -1,0 +1,140 @@
+{
+  "refcode": "NIGKIX",
+  "ccdc_number": "177410",
+  "dois": [
+    "10.1021/ic010591+"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\177410.cif",
+  "formula_moiety": "C84 H72 La4 N16 O30,20(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "14.4473(16)",
+    "b": "15.020(3)",
+    "c": "23.954(2)",
+    "alpha": "90",
+    "beta": "101.010(9)",
+    "gamma": "90",
+    "volume": "5102.31",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "La1",
+      "element": "La",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O5",
+        "O6",
+        "O8",
+        "O8B"
+      ]
+    },
+    {
+      "label": "La2",
+      "element": "La",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O12",
+        "O14",
+        "O3",
+        "O4",
+        "O7"
+      ]
+    },
+    {
+      "label": "La1B",
+      "element": "La",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1B",
+        "O5B",
+        "O6B",
+        "O8",
+        "O8B"
+      ]
+    },
+    {
+      "label": "La2B",
+      "element": "La",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10B",
+        "O12B",
+        "O14B",
+        "O3B",
+        "O4B",
+        "O7B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "La1",
+          "La1B"
+        ],
+        "shared_oxygen_labels": [
+          "O8",
+          "O8B"
+        ],
+        "metal_metal_separation_angstrom": 4.277,
+        "bridge_geometry": [
+          {
+            "oxygen": "O8",
+            "angle_deg": 114.31,
+            "metal_oxygen_distances_angstrom": [
+              2.552,
+              2.539
+            ]
+          },
+          {
+            "oxygen": "O8B",
+            "angle_deg": 114.31,
+            "metal_oxygen_distances_angstrom": [
+              2.539,
+              2.552
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "La1",
+        "La1B"
+      ],
+      [
+        "La2"
+      ],
+      [
+        "La2B"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "NIGKIX crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C84 H72 La4 N16 O30,20(H2 O1). From the CIF bond table, La1 (La) has 5 O neighbors; La2 (La) has 6 O neighbors; La1B (La) has 5 O neighbors; La2B (La) has 6 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.277-4.277 Å (not direct metal-metal bonds). Computed M-O-M angles span 114.31-114.31°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C84H72La4N16O30·20H2O.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic010591+",
+    "formula": "C84H72La4N16O30·20H2O",
+    "compound_name": "{[La(tpaa)(H2O)][La(tpaa)(H2O)2]}2·20H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

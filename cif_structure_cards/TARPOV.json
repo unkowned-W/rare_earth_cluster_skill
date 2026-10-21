@@ -1,0 +1,157 @@
+{
+  "refcode": "TARPOV",
+  "ccdc_number": "2065312",
+  "dois": [
+    "10.1246/bcsj.20210155"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2065312.cif",
+  "formula_moiety": "C44 H43 Dy3 N6 O20,C2 H3 N1,2.5(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "11.2941(5)",
+    "b": "15.9904(4)",
+    "c": "18.1737(5)",
+    "alpha": "68.312(2)",
+    "beta": "73.119(3)",
+    "gamma": "72.078(3)",
+    "volume": "2843.27",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O12",
+        "O19",
+        "O2",
+        "O5",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O14",
+        "O18",
+        "O3",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12",
+        "O15",
+        "O16",
+        "O17",
+        "O4",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 4.053,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 109.86,
+            "metal_oxygen_distances_angstrom": [
+              2.588,
+              2.361
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 115.57,
+            "metal_oxygen_distances_angstrom": [
+              2.437,
+              2.353
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O12",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 4.046,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 116.24,
+            "metal_oxygen_distances_angstrom": [
+              2.416,
+              2.348
+            ]
+          },
+          {
+            "oxygen": "O12",
+            "angle_deg": 111.59,
+            "metal_oxygen_distances_angstrom": [
+              2.528,
+              2.363
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "TARPOV crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C44 H43 Dy3 N6 O20,C2 H3 N1,2.5(H2 O1). From the CIF bond table, Dy1 (Dy) has 7 O neighbors; Dy2 (Dy) has 7 O neighbors; Dy3 (Dy) has 7 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 4.046-4.053 Å (not direct metal-metal bonds). Computed M-O-M angles span 109.86-116.24°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C46H51Dy3N7O23.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1246/bcsj.20210155",
+    "formula": "C46H51Dy3N7O23",
+    "compound_name": "trinuclear dysprosium cluster [Dy3(H2L)(OAc)7]·solvate",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

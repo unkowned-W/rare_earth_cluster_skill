@@ -1,0 +1,86 @@
+{
+  "refcode": "KILJEW",
+  "ccdc_number": "950240",
+  "dois": [
+    "10.1039/c3cc45651j"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\950240.cif",
+  "formula_moiety": "C66 H68 N9 O13 Yb2 1+,N1 O3 1-",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "22.211(4)",
+    "b": "10.184(2)",
+    "c": "29.121(6)",
+    "alpha": "90.00",
+    "beta": "98.33(3)",
+    "gamma": "90.00",
+    "volume": "6517.58",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O12",
+        "O2",
+        "O3",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O4",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Yb1"
+      ],
+      [
+        "Yb2"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "KILJEW crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C66 H68 N9 O13 Yb2 1+,N1 O3 1-. From the CIF bond table, Yb1 (Yb) has 6 O neighbors; Yb2 (Yb) has 5 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C66H68N10O16Yb2. Explicit grouped units in the article formula/name: 1 NO3 (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c3cc45651j",
+    "formula": "C66H68N10O16Yb2",
+    "compound_name": "[Yb2L2(H2L)2(NO3)(MeOH)2]·NO3",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

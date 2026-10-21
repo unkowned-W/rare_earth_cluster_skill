@@ -1,0 +1,155 @@
+{
+  "title": "A stable nonanuclear Tb(III) cluster for selective sensing of picric acid",
+  "doi": "10.1016/j.ica.2017.04.010",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "ammonium [octa-μ2-acetylacetonato-octa-μ3-hydroxido-di-μ4-oxido-octa(terminal-acetylacetonato)nonaterbate(III)] dihydrate",
+      "formula": "NH4[Tb9(μ4-O)2(μ3-OH)8(μ2-acac)8(t-acac)8]·2H2O",
+      "ccdc_numbers": [
+        "1478784"
+      ],
+      "ccdc_refcodes": [
+        "LAXQIN"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "hourglass nonanuclear [Tb9(μ3-OH)8(μ4-O)2] core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Acetylacetone (1.0 mmol, 0.100 g) was added to a methanol solution (10 mL) of TbCl3·6H2O (0.5 mmol, 0.186 g) and stirred for 10 min. Triethylamine (2 mmol, 0.202 g) was added dropwise and the mixture was stirred at room temperature for 48 h, then filtered on Celite. The filtrate was evaporated under vacuum. The white solid (67.6% yield; 2.22 g, 0.67 mmol) was recrystallized from methanol, and colourless crystals suitable for X-ray analysis were obtained at room temperature by slow evaporation.",
+        "reagents": [
+          {
+            "name": "acetylacetone",
+            "formula": "C5H8O2",
+            "role": "ligand",
+            "amount": "1.0 mmol, 0.100 g"
+          },
+          {
+            "name": "terbium(III) chloride hexahydrate",
+            "formula": "TbCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.5 mmol, 0.186 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "2 mmol, 0.202 g"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "10 min then 48 h stirring; crystallization by slow evaporation",
+        "ph": null,
+        "vessel_or_method": "solution stirring; Celite filtration; vacuum evaporation; recrystallization from methanol",
+        "workup_and_crystallization": "filtered on Celite; filtrate evaporated under vacuum; white solid recrystallized from methanol; colourless crystals by slow evaporation at room temperature",
+        "yield": "67.6% (2.22 g, 0.67 mmol)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Complex 1 is highly luminescent, showing green Tb(III) emission under UV excitation in methanol and in the solid state. It selectively senses picric acid among nitroaromatics by fluorescence quenching, including in saturated PA vapour, and can be reused over several cycles.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "excitation wavelength",
+            "value": 302,
+            "unit": "nm",
+            "conditions": "methanol solution of 1 at room temperature"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maxima (5D4→7F6,5,4,3)",
+            "value": "490, 546, 587, 619",
+            "unit": "nm",
+            "conditions": "MeOH; most intense 546 nm (5D4→7F5) responsible for green luminescence"
+          },
+          {
+            "property_type": "optical",
+            "name": "photoluminescence quantum yield",
+            "value": 0.29,
+            "unit": null,
+            "conditions": "relative to sodium salicylate (φ=0.55) in water; 1 measured in methanol"
+          },
+          {
+            "property_type": "optical",
+            "name": "fluorescence quenching efficiency toward picric acid",
+            "value": 94.7,
+            "unit": "%",
+            "conditions": "1×10−5 M 1 in MeOH titrated with 1×10−3 M PA; ~200 μL PA; 546 nm band"
+          },
+          {
+            "property_type": "optical",
+            "name": "quenching constant (k) toward PA",
+            "value": "1.34×10^5",
+            "unit": "M−1",
+            "conditions": "nonlinear Stern–Volmer/exponential fit of F0/F vs [PA] in MeOH"
+          },
+          {
+            "property_type": "optical",
+            "name": "detection limit for picric acid",
+            "value": "~5.5×10−6",
+            "unit": "M",
+            "conditions": "3σ/m method; MeOH"
+          },
+          {
+            "property_type": "optical",
+            "name": "thin-film quenching efficiency toward saturated PA vapour",
+            "value": "~81",
+            "unit": "%",
+            "conditions": "thin film of 1 on quartz; 420 s exposure"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 3.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; Table 1 empirical formula C80H124NO48Tb9; elemental analysis C80H128NO48Tb9"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1 CCDC 1478784"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row LAXQIN"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "section 3.2 crystal structure"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.2 Synthesis of complex 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3 luminescence/sensing; Fig. 3"
+        }
+      ]
+    }
+  ]
+}

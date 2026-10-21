@@ -1,0 +1,276 @@
+{
+  "refcode": "VIDLUT",
+  "ccdc_number": "2205582",
+  "dois": [
+    "10.1021/acs.organomet.3c00009"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2205582.cif",
+  "formula_moiety": "C56 H58 Eu4 Ge8 N8 O36 2-,2(C8 H20 N1 1+),2.5(C2 H3 N1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "26.378(3)",
+    "b": "13.6360(13)",
+    "c": "29.971(3)",
+    "alpha": "90",
+    "beta": "93.809(3)",
+    "gamma": "90",
+    "volume": "10756.5",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O2",
+        "O26",
+        "O27",
+        "O29",
+        "O30",
+        "O35"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O23",
+        "O24",
+        "O3",
+        "O33",
+        "O4"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O18",
+        "O20",
+        "O21",
+        "O3",
+        "O4",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Eu4",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O16",
+        "O32",
+        "O33A",
+        "O35",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Tb1?",
+      "element": "Tb",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Tb2?",
+      "element": "Tb",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Tb3?",
+      "element": "Tb",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Tb4?",
+      "element": "Tb",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.736,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 107.51,
+            "metal_oxygen_distances_angstrom": [
+              2.327,
+              2.306
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 106.81,
+            "metal_oxygen_distances_angstrom": [
+              2.308,
+              2.346
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Eu4"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O35"
+        ],
+        "metal_metal_separation_angstrom": 3.723,
+        "bridge_geometry": [
+          {
+            "oxygen": "O35",
+            "angle_deg": 106.58,
+            "metal_oxygen_distances_angstrom": [
+              2.349,
+              2.294
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 106.68,
+            "metal_oxygen_distances_angstrom": [
+              2.309,
+              2.332
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.71,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 107.1,
+            "metal_oxygen_distances_angstrom": [
+              2.311,
+              2.302
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 106.27,
+            "metal_oxygen_distances_angstrom": [
+              2.318,
+              2.32
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu3",
+          "Eu4"
+        ],
+        "shared_oxygen_labels": [
+          "O5",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.755,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 107.19,
+            "metal_oxygen_distances_angstrom": [
+              2.324,
+              2.341
+            ]
+          },
+          {
+            "oxygen": "O6",
+            "angle_deg": 106.72,
+            "metal_oxygen_distances_angstrom": [
+              2.346,
+              2.334
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2",
+        "Eu3",
+        "Eu4"
+      ],
+      [
+        "Tb1?"
+      ],
+      [
+        "Tb2?"
+      ],
+      [
+        "Tb3?"
+      ],
+      [
+        "Tb4?"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "VIDLUT crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C56 H58 Eu4 Ge8 N8 O36 2-,2(C8 H20 N1 1+),2.5(C2 H3 N1). From the CIF bond table, Eu1 (Eu) has 8 O neighbors; Eu2 (Eu) has 7 O neighbors; Eu3 (Eu) has 8 O neighbors; Eu4 (Eu) has 7 O neighbors; Tb1? (Tb) has 0 O neighbors; Tb2? (Tb) has 0 O neighbors; Tb3? (Tb) has 0 O neighbors; Tb4? (Tb) has 0 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 5 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.710-3.755 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.27-107.51°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [NEt4]2[(Ph4Ge4O8)2Tb2Eu2(NO3)6(EtOH)2(MeCN)2]·2.5(MeCN). Explicit grouped units in the article formula/name: 6 NO3 (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.organomet.3c00009",
+    "formula": "[NEt4]2[(Ph4Ge4O8)2Tb2Eu2(NO3)6(EtOH)2(MeCN)2]·2.5(MeCN)",
+    "compound_name": "tetraethylammonium bis[octaphenyl-octagermsesquioxane] dit terbium-dieuropium hexanitrate bis(ethanol) bis(acetonitrile) 2.5-acetonitrile solvate",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 6,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

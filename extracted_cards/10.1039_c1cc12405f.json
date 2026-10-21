@@ -1,0 +1,172 @@
+{
+  "title": "A dodecanuclear heterometallic dysprosium–cobalt wheel exhibiting single-molecule magnet behaviour",
+  "doi": "10.1039/c1cc12405f",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "dodecanuclear Dy10Co2 wheel [Dy10Co2(L)4(OAc)16(SCN)2(CH3CN)2(H2O)4(OH)2(μ3-OH)4]·2Co(SCN)4H2O·2CH3CN·2H2O",
+      "formula": "[Dy10Co2(L)4(OAc)16(SCN)2(CH3CN)2(H2O)4(OH)2(μ3-OH)4]·2Co(SCN)4H2O·2CH3CN·2H2O",
+      "ccdc_numbers": [
+        "822266"
+      ],
+      "ccdc_refcodes": [
+        "IVEWEM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "dodecanuclear 3d–4f wheel (Dy10Co2)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Reaction of H2L (1,2-bis(2-hydroxy-3-methoxybenzylidene)hydrazine), triethylamine, Dy(SCN)3·6H2O and Co(OAc)2·4H2O in a 1:1:1:1 molar ratio in acetonitrile produces compound 1 as single crystals.",
+        "reagents": [
+          {
+            "name": "1,2-bis(2-hydroxy-3-methoxybenzylidene)hydrazine (H2L / HL)",
+            "formula": "C16H16N2O4",
+            "role": "Schiff-base ligand",
+            "amount": "1 molar equivalent"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1 molar equivalent"
+          },
+          {
+            "name": "dysprosium(III) thiocyanate hexahydrate",
+            "formula": "Dy(SCN)3·6H2O",
+            "role": "Dy source",
+            "amount": "1 molar equivalent"
+          },
+          {
+            "name": "cobalt(II) acetate tetrahydrate",
+            "formula": "Co(OAc)2·4H2O",
+            "role": "Co source",
+            "amount": "1 molar equivalent"
+          }
+        ],
+        "solvents": [
+          "acetonitrile"
+        ],
+        "temperature": null,
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "solution reaction in acetonitrile (further experimental details indicated as ESI)",
+        "workup_and_crystallization": "single crystals of 1 obtained from the acetonitrile reaction mixture",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility and magnetization, plus zero-field ac susceptibility, show SMM behaviour for the Dy10Co2 wheel, with dual Arrhenius relaxation pathways and no evidence of quantum relaxation above 1.9 K under applied dc fields.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 150.84,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 124.26,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 64.3,
+            "unit": "μB",
+            "conditions": "1.9 K, 7 T; no saturation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.18–0.2",
+            "unit": null,
+            "conditions": "5–7 K, zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "relaxation time τ0^(1)",
+            "value": "1.13e-4",
+            "unit": "s",
+            "conditions": "Arrhenius fit of ac data, 1.9–12 K, zero dc field (lower-T pathway)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ^(1)/kB",
+            "value": 4.3,
+            "unit": "K",
+            "conditions": "Arrhenius fit, zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "relaxation time τ0^(2)",
+            "value": "3.14e-6",
+            "unit": "s",
+            "conditions": "Arrhenius fit of ac data, 1.9–12 K, zero dc field (higher-T pathway)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ^(2)/kB",
+            "value": 25,
+            "unit": "K",
+            "conditions": "Arrhenius fit, zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Arrhenius crossover",
+            "value": 0.18,
+            "unit": "K−1",
+            "conditions": "T−1 ≈ 0.18 K−1 in τ vs 1/T plot"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "title and introductory formula of compound 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "paragraph introducing compound 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 822266 / IVEWEM"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Fig. 1–2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "paragraph after Scheme 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism; Fig. 3–5"
+        }
+      ]
+    }
+  ]
+}

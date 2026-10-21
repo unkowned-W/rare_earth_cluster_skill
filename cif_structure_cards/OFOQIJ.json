@@ -1,0 +1,198 @@
+{
+  "refcode": "OFOQIJ",
+  "ccdc_number": "188427",
+  "dois": [
+    "10.1016/s0925-8388(01)01122-7"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\188427.cif",
+  "formula_moiety": "C120 H136 Eu4 O18,2(C4 H8 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.218(3)",
+    "b": "14.820(2)",
+    "c": "18.790(3)",
+    "alpha": "108.350(10)",
+    "beta": "94.040(10)",
+    "gamma": "108.760(10)",
+    "volume": "3001.43",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O4",
+        "O4A",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Eu2A",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O2A",
+        "O4",
+        "O4A",
+        "O8A",
+        "O9A"
+      ]
+    },
+    {
+      "label": "Eu1A",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O2A",
+        "O3A",
+        "O5A",
+        "O6A",
+        "O7A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.977,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 106.89,
+            "metal_oxygen_distances_angstrom": [
+              2.486,
+              2.465
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 108.04,
+            "metal_oxygen_distances_angstrom": [
+              2.417,
+              2.497
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1A",
+          "Eu2A"
+        ],
+        "shared_oxygen_labels": [
+          "O1A",
+          "O2A"
+        ],
+        "metal_metal_separation_angstrom": 3.977,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1A",
+            "angle_deg": 106.89,
+            "metal_oxygen_distances_angstrom": [
+              2.486,
+              2.465
+            ]
+          },
+          {
+            "oxygen": "O2A",
+            "angle_deg": 108.04,
+            "metal_oxygen_distances_angstrom": [
+              2.417,
+              2.497
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu2A"
+        ],
+        "shared_oxygen_labels": [
+          "O4",
+          "O4A"
+        ],
+        "metal_metal_separation_angstrom": 4.0,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 107.15,
+            "metal_oxygen_distances_angstrom": [
+              2.466,
+              2.506
+            ]
+          },
+          {
+            "oxygen": "O4A",
+            "angle_deg": 107.15,
+            "metal_oxygen_distances_angstrom": [
+              2.506,
+              2.466
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu1A",
+        "Eu2",
+        "Eu2A"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "OFOQIJ crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C120 H136 Eu4 O18,2(C4 H8 O1). From the CIF bond table, Eu1 (Eu) has 6 O neighbors; Eu2 (Eu) has 6 O neighbors; Eu2A (Eu) has 6 O neighbors; Eu1A (Eu) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.977-4.000 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.89-108.04°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C120H136Eu4O18·2(C4H8O).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/s0925-8388(01)01122-7",
+    "formula": "C120H136Eu4O18·2(C4H8O)",
+    "compound_name": "[Eu4(μ-OC10H7)6(OC10H7)2(THF)10]·2THF",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

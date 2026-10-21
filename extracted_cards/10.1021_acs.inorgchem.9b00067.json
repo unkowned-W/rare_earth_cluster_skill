@@ -1,0 +1,734 @@
+{
+  "title": "Influence of Magnetic Interactions and Single-Ion Anisotropy on Magnetic Relaxation within a Family of Tetranuclear Dysprosium Complexes",
+  "doi": "10.1021/acs.inorgchem.9b00067",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1a",
+      "compound_name": "[Dy4(L)2(CH3OH)3(NO3)3]·3NO3·2H2O",
+      "formula": "[Dy4(L)2(CH3OH)3(NO3)3]·3NO3·2H2O",
+      "ccdc_numbers": [
+        "1854363"
+      ],
+      "ccdc_refcodes": [
+        "RIYVUT"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "Schiff-base Dy4 parallelogram from two unclosed Dy3 subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Dy(NO3)3·6H2O (0.20 mmol) was reacted with Schiff-base ligand H3L (0.10 mmol) in 15 mL methanol in the presence of NaHCO3 (0.30 mmol). The mixture was sealed in a reactor, heated to 80 °C for 1 h, and cooled slowly to room temperature to give yellow single crystals.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.20 mmol"
+          },
+          {
+            "name": "2,4,6-tris(2-hydroxy-3-methoxybenzylidene)hydrazono-1,3,5-triazine",
+            "formula": "H3L",
+            "role": "ligand",
+            "amount": "0.10 mmol"
+          },
+          {
+            "name": "sodium bicarbonate",
+            "formula": "NaHCO3",
+            "role": "base",
+            "amount": "0.30 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "80 °C, then slow cooling to room temperature",
+        "time": "1 h at 80 °C",
+        "ph": null,
+        "vessel_or_method": "sealed reactor",
+        "workup_and_crystallization": "Slow cooling to room temperature afforded yellow single crystals suitable for X-ray diffraction.",
+        "yield": "~92%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field SMM. χMT decreases to a minimum near 18 K then rises at 2 K, indicating dominant intramolecular ferromagnetic coupling. Single relaxation with a high-temperature Orbach barrier and a very small low-temperature barrier assigned to QTM; no clear hysteresis at 1.9 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "56.82",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": "51.08",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "ca. 18 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "58.05",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "2.0 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "181",
+            "unit": "K",
+            "conditions": "zero dc field, high-temperature Arrhenius fit; τ0 = 1.52×10^-7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "2.1",
+            "unit": "K",
+            "conditions": "zero dc field, low-temperature Arrhenius fit; τ0 = 2.23×10^-3 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole α",
+            "value": "0.07-0.34",
+            "unit": null,
+            "conditions": "zero dc field, generalized Debye fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Table S1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, Synthesis of 1a"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Direct Current (dc) Magnetism; Alternating Current (ac) Magnetism"
+        }
+      ]
+    },
+    {
+      "compound_label": "1b",
+      "compound_name": "[Dy4(L)2(CH3OH)2(SCN)4(OCH3)2]·2CH3OH·2H2O",
+      "formula": "[Dy4(L)2(CH3OH)2(SCN)4(OCH3)2]·2CH3OH·2H2O",
+      "ccdc_numbers": [
+        "1854364"
+      ],
+      "ccdc_refcodes": [
+        "RIYTOL"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric Schiff-base Dy4 parallelogram"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "A procedure similar to that used for 1a, but with Dy(SCN)3·6H2O (0.2 mmol), H3L (0.10 mmol), and NaOH (0.3 mmol), afforded complex 1b.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) thiocyanate hexahydrate",
+            "formula": "Dy(SCN)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "2,4,6-tris(2-hydroxy-3-methoxybenzylidene)hydrazono-1,3,5-triazine",
+            "formula": "H3L",
+            "role": "ligand",
+            "amount": "0.10 mmol"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "base",
+            "amount": "0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "80 °C then slow cooling, as for 1a",
+        "time": "1 h at 80 °C, as for 1a",
+        "ph": null,
+        "vessel_or_method": "sealed reactor, as for 1a",
+        "workup_and_crystallization": "Isolated by the same crystallization protocol as 1a.",
+        "yield": "~62%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Best zero-field SMM of the series, attributed mainly to strong ferromagnetic Dy···Dy coupling. Single relaxation process; high-temperature barrier 172 K and a small low-temperature barrier. No obvious hysteresis at 1.9 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "55.56",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "62.34",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "2.0 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "172",
+            "unit": "K",
+            "conditions": "zero dc field, high-temperature Arrhenius fit; τ0 = 1.70×10^-7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "2.0",
+            "unit": "K",
+            "conditions": "zero dc field, low-temperature Arrhenius fit; τ0 = 1.15×10^-3 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole α",
+            "value": "0.04-0.11",
+            "unit": null,
+            "conditions": "zero dc field, generalized Debye fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Experimental Section and Table S1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Table S1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, Synthesis of 1b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc and ac Magnetism; Conclusion"
+        }
+      ]
+    },
+    {
+      "compound_label": "2a",
+      "compound_name": "{[Dy4(L)2(CH3OH)(SCN)6(CH3CN)]·3CH3OH·4CH3CN}2",
+      "formula": "{[Dy4(L)2(CH3OH)(SCN)6(CH3CN)]·3CH3OH·4CH3CN}2",
+      "ccdc_numbers": [
+        "1854365"
+      ],
+      "ccdc_refcodes": [
+        "RIYVED"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "Schiff-base Dy4 parallelogram; crystal contains two formula units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Prepared by a procedure similar to that for 1b, replacing NaOH (0.3 mmol) with Et3N (0.2 mmol) and using methanol/acetonitrile (5 mL/10 mL) as the solvent.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) thiocyanate hexahydrate",
+            "formula": "Dy(SCN)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "2,4,6-tris(2-hydroxy-3-methoxybenzylidene)hydrazono-1,3,5-triazine",
+            "formula": "H3L",
+            "role": "ligand",
+            "amount": "0.10 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "acetonitrile"
+        ],
+        "temperature": "80 °C then slow cooling, as for 1a/1b",
+        "time": "1 h at 80 °C, as for 1a",
+        "ph": null,
+        "vessel_or_method": "sealed reactor, as for 1a",
+        "workup_and_crystallization": "Crystallized from methanol/acetonitrile by the same protocol as 1b.",
+        "yield": "~65%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field SMM with two-step (slow and fast) relaxation. Ferromagnetic interactions dominate at low temperature. High-T Orbach barrier about 154 K; full multi-process fit gives 169 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "56.35",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": "49.20",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "ca. 18 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "62.66",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "2.0 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "154",
+            "unit": "K",
+            "conditions": "zero dc field, high-T Arrhenius; 107 cm^-1, τ0 = 1.25×10^-6 s, slow process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "169",
+            "unit": "K",
+            "conditions": "zero dc field, full fit of eq 2 (direct+Raman+Orbach); 118 cm^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (fast process)",
+            "value": "13",
+            "unit": "cm^-1",
+            "conditions": "zero dc field, Table S4; τ0 = 3.28×10^-5 s"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Experimental Section and Table S1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Table S1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, Synthesis of 2a"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "ac Magnetism; Supporting Information Table S4"
+        }
+      ]
+    },
+    {
+      "compound_label": "2b",
+      "compound_name": "[Dy4(L)2(CH3OH)2(SCN)6]·6CH3OH·2H2O",
+      "formula": "[Dy4(L)2(CH3OH)2(SCN)6]·6CH3OH·2H2O",
+      "ccdc_numbers": [
+        "1854366"
+      ],
+      "ccdc_refcodes": [
+        "RIYVAZ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "Schiff-base Dy4 parallelogram"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "The preparation follows the same procedure as for 1b, except that the final filtrate was left unperturbed in a calorstat at 5 °C.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) thiocyanate hexahydrate",
+            "formula": "Dy(SCN)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "2,4,6-tris(2-hydroxy-3-methoxybenzylidene)hydrazono-1,3,5-triazine",
+            "formula": "H3L",
+            "role": "ligand",
+            "amount": "0.10 mmol"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "base",
+            "amount": "0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "reaction as for 1b; crystallization at 5 °C",
+        "time": "1 h heating as for 1a; crystallization time not stated",
+        "ph": null,
+        "vessel_or_method": "sealed reactor then calorstat",
+        "workup_and_crystallization": "Final filtrate left unperturbed at 5 °C.",
+        "yield": "~75%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field SMM that switches from the single relaxation of 1b to a two-step process when the Dy1/Dy2 terminals change from methoxide to thiocyanate. Low-T ferromagnetic upturn of χMT.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "55.89",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "68.26",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "2.0 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "107",
+            "unit": "K",
+            "conditions": "zero dc field, high-T Arrhenius; 75 cm^-1, τ0 = 2.57×10^-6 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "137",
+            "unit": "K",
+            "conditions": "zero dc field, full fit of eq 2; 96 cm^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (fast process)",
+            "value": "57",
+            "unit": "cm^-1",
+            "conditions": "zero dc field, Table S4; τ0 = 4.02×10^-9 s"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Experimental Section and Table S1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Table S1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, Synthesis of 2b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Abstract; dc and ac Magnetism"
+        }
+      ]
+    },
+    {
+      "compound_label": "3a",
+      "compound_name": "[Dy4(L)2(CH3OH)2(SCN)4(OCH3)2]·5CH3OH·2H2O",
+      "formula": "[Dy4(L)2(CH3OH)2(SCN)4(OCH3)2]·5CH3OH·2H2O",
+      "ccdc_numbers": [
+        "1854367"
+      ],
+      "ccdc_refcodes": [
+        "RIYTUR"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "Schiff-base Dy4 parallelogram"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "A procedure similar to that used for 1b, but with NaOH (0.3 mmol) replaced by Et3N (0.3 mmol).",
+        "reagents": [
+          {
+            "name": "dysprosium(III) thiocyanate hexahydrate",
+            "formula": "Dy(SCN)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "2,4,6-tris(2-hydroxy-3-methoxybenzylidene)hydrazono-1,3,5-triazine",
+            "formula": "H3L",
+            "role": "ligand",
+            "amount": "0.10 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "80 °C then slow cooling, as for 1a/1b",
+        "time": "1 h at 80 °C, as for 1a",
+        "ph": null,
+        "vessel_or_method": "sealed reactor, as for 1a",
+        "workup_and_crystallization": "Crystallized by the same protocol as 1b.",
+        "yield": "~82%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field SMM with multiple relaxation and a higher barrier than 3b, ascribed to different single-ion anisotropy rather than a large change in coupling. Ferromagnetic low-temperature χMT upturn.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "58.24",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT minimum",
+            "value": "52.33",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "ca. 18 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "61.76",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "2.0 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "97",
+            "unit": "K",
+            "conditions": "zero dc field, high-T Arrhenius; 68 cm^-1, τ0 = 2.35×10^-6 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "120",
+            "unit": "K",
+            "conditions": "zero dc field, full fit of eq 2; 78 cm^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (fast process)",
+            "value": "15",
+            "unit": "cm^-1",
+            "conditions": "zero dc field, Table S4; τ0 = 5.56×10^-6 s"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Experimental Section and Table S1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Table S1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, Synthesis of 3a"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc and ac Magnetism; Conclusion"
+        }
+      ]
+    },
+    {
+      "compound_label": "3b",
+      "compound_name": "[Dy4(L)2(CH3OH)(SCN)5(H2O)2]·SCN·4CH3OH·2H2O",
+      "formula": "[Dy4(L)2(CH3OH)(SCN)5(H2O)2]·SCN·4CH3OH·2H2O",
+      "ccdc_numbers": [
+        "1854368"
+      ],
+      "ccdc_refcodes": [
+        "RIYWAA"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "Schiff-base Dy4 parallelogram"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "A procedure similar to that used for 1b, but with NaOH (0.3 mmol) replaced by KOH (0.3 mmol).",
+        "reagents": [
+          {
+            "name": "dysprosium(III) thiocyanate hexahydrate",
+            "formula": "Dy(SCN)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "2,4,6-tris(2-hydroxy-3-methoxybenzylidene)hydrazono-1,3,5-triazine",
+            "formula": "H3L",
+            "role": "ligand",
+            "amount": "0.10 mmol"
+          },
+          {
+            "name": "potassium hydroxide",
+            "formula": "KOH",
+            "role": "base",
+            "amount": "0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "80 °C then slow cooling, as for 1a/1b",
+        "time": "1 h at 80 °C, as for 1a",
+        "ph": null,
+        "vessel_or_method": "sealed reactor, as for 1a",
+        "workup_and_crystallization": "Crystallized by the same protocol as 1b.",
+        "yield": "~82%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Only slow magnetic relaxation under zero dc field, without resolved out-of-phase maxima down to 1.9 K because of pronounced QTM. A rough barrier was estimated from ln(χ''/χ') versus 1/T. Inferior to 3a because of single-ion effects.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "54.53",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "54.92",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "2.0 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "~1.3",
+            "unit": "K",
+            "conditions": "zero dc field, ln(χ''/χ') vs 1/T; τ0 = 1.40×10^-4 s"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Experimental Section and Table S1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Table S1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, Synthesis of 3b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc Magnetism; ac Magnetism for 3b"
+        }
+      ]
+    }
+  ]
+}

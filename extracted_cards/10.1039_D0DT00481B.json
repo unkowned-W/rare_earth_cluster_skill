@@ -1,0 +1,322 @@
+{
+  "title": "Slow magnetic dynamics in centrosymmetric didysprosium and equilateral triangular tridysprosium molecules",
+  "doi": "10.1039/d0dt00481b",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "centrosymmetric didysprosium complex [Dy2(L)2(9-AC)4(MeOH)2]·2CH2Cl2·2H2O",
+      "formula": "[Dy2(L)2(9-AC)4(MeOH)2]·2CH2Cl2·2H2O",
+      "ccdc_numbers": [
+        "1978650"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric dinuclear Dy2 complex with syn–anti 9-AC bridges"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(OTf)3 (0.05 mmol, 30.5 mg), HL (0.05 mmol, 22.5 mg) and anthracene-9-carboxylic acid (0.1 mmol, 22.2 mg) were dissolved in 20 mL of MeOH/CH2Cl2 (v:v = 1:1). Et3N (0.15 mmol, 15 mg) was added. After stirring for 5 min, the mixture was filtered to give a clear yellow solution. Yellow block crystals (25 mg, 43% based on Dy) were obtained after slow evaporation in air.",
+        "reagents": [
+          {
+            "name": "dysprosium triflate",
+            "formula": "Dy(OTf)3",
+            "role": "metal source",
+            "amount": "0.05 mmol, 30.5 mg"
+          },
+          {
+            "name": "4-(anthracen-9-yl)-2-((quinolin-8-ylimino)methyl)phenol",
+            "formula": "HL",
+            "role": "Schiff-base ligand",
+            "amount": "0.05 mmol, 22.5 mg"
+          },
+          {
+            "name": "anthracene-9-carboxylic acid",
+            "formula": "9-AC-H",
+            "role": "auxiliary carboxylate ligand",
+            "amount": "0.1 mmol, 22.2 mg"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.15 mmol, 15 mg"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "CH2Cl2"
+        ],
+        "temperature": null,
+        "time": "stirred 5 min, then slow evaporation",
+        "ph": null,
+        "vessel_or_method": "solution evaporation in air; filtration then crystallization",
+        "workup_and_crystallization": "filtered to a clear yellow solution; yellow block crystals obtained by slow evaporation",
+        "yield": "25 mg, 43% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dinuclear Dy2 SMM showing slow magnetic relaxation under zero dc field, dominated by Raman relaxation because of non-negligible transverse anisotropy; QTM is suppressed under 600 Oe. Weak antiferromagnetic Dy–Dy coupling (J = −0.024(2) cm−1).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": 27.99,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1000 Oe, 300 K (room temperature); two isolated Dy(III) expected 28.34 cm3 mol−1 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": 24.67,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1000 Oe, 16 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": 17.92,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1000 Oe, 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J",
+            "value": "-0.024(2)",
+            "unit": "cm−1",
+            "conditions": "PHI/Lines-model fit to chiMT"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C (zero field)",
+            "value": "0.14(3)",
+            "unit": "s−1 K−4.62",
+            "conditions": "ac, 0 Oe; tau−1 = C T^n + tauQTM−1; n = 4.62(13)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "tau_QTM",
+            "value": "112.3(9)",
+            "unit": "ms",
+            "conditions": "zero dc field ac data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C (600 Oe)",
+            "value": "0.028(3)",
+            "unit": "s−1 K−5.3",
+            "conditions": "ac under 600 Oe; tau−1 = C T^n; n = 5.3(5)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole alpha",
+            "value": "0.11–0.25 (0 Oe); 0.10–0.27 (600 Oe)",
+            "unit": null,
+            "conditions": "generalized Debye fits to frequency-dependent ac data"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract/title compounds; Experimental synthesis of 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental section, CCDC 1978650 (1)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 1"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Structural analysis, complex 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 4–5"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "equilateral triangular tridysprosium complex [Dy3(OH)(OMe)(L)3(dbm)3](OH)·3CH2Cl2·7H2O",
+      "formula": "[Dy3(OH)(OMe)(L)3(dbm)3](OH)·3CH2Cl2·7H2O",
+      "ccdc_numbers": [
+        "1978651"
+      ],
+      "ccdc_refcodes": [
+        "TUGCAC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "equilateral triangular Dy3 cluster with μ3-OH/OMe bridges"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(NO3)3·6H2O (0.05 mmol, 22.8 mg), HL (0.05 mmol, 22.5 mg) and dibenzoylmethane (0.05 mmol, 12.2 mg) were dissolved in 20 mL of MeOH/CH2Cl2 (v:v = 1:1). Et3N (0.3 mmol, 30 mg) was added and the solution color changed immediately from orange to light yellow. Yellow block crystals (22 mg, 46% based on Dy) were obtained after slow evaporation in air.",
+        "reagents": [
+          {
+            "name": "dysprosium nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.05 mmol, 22.8 mg"
+          },
+          {
+            "name": "4-(anthracen-9-yl)-2-((quinolin-8-ylimino)methyl)phenol",
+            "formula": "HL",
+            "role": "Schiff-base ligand",
+            "amount": "0.05 mmol, 22.5 mg"
+          },
+          {
+            "name": "dibenzoylmethane",
+            "formula": "Hdbm",
+            "role": "auxiliary ligand",
+            "amount": "0.05 mmol, 12.2 mg"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.3 mmol, 30 mg"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "CH2Cl2"
+        ],
+        "temperature": null,
+        "time": "slow evaporation after immediate color change on base addition",
+        "ph": null,
+        "vessel_or_method": "solution evaporation in air",
+        "workup_and_crystallization": "yellow block crystals obtained after slow evaporation",
+        "yield": "22 mg, 46% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Field-induced Dy3 SMM: weak χ″ under zero field; under 2300 Oe, Orbach/Raman fit gives Ueff = 56(3) cm−1. High-T relaxation assigned to a thermally activated single-ion pathway; low-T to Raman. Weak ferromagnetic coupling J = 0.0055(8) cm−1; no SMM-like blocking under zero field due to ground-state mixing.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": 43.42,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1000 Oe, 300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": 38.31,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1000 Oe, 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J",
+            "value": "0.0055(8)",
+            "unit": "cm−1",
+            "conditions": "PHI/Lines-model fit to chiMT"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff1",
+            "value": "56(3)",
+            "unit": "cm−1",
+            "conditions": "ac under 2300 Oe; tau−1 = tau01−1 exp(−Ueff1/kBT) + C T^n; 2.5–12 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "tau01",
+            "value": "2(1)×10−9",
+            "unit": "s",
+            "conditions": "same Orbach+Raman fit under 2300 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C",
+            "value": "23(1)",
+            "unit": "s−1 K−2.61",
+            "conditions": "n = 2.61(3); 2300 Oe ac data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff1 (two-Orbach fit)",
+            "value": "36(2)",
+            "unit": "cm−1",
+            "conditions": "alternative two Orbach-like processes; tau01 = 1.1(4)×10−7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff2 (two-Orbach fit)",
+            "value": "5.8(2)",
+            "unit": "cm−1",
+            "conditions": "low-T domain; tau02 = 1.44(10)×10−4 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "optimal dc field for longest tau",
+            "value": 2300,
+            "unit": "Oe",
+            "conditions": "field-dependent ac at 3 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; Experimental synthesis of 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental section, CCDC 1978651 (2)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "TUGCAC / 1978651"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 2"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Structural analysis, complex 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 4 and 6"
+        }
+      ]
+    }
+  ]
+}

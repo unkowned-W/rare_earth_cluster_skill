@@ -1,0 +1,340 @@
+{
+  "title": "Photochromic Polynuclear Dysprosium Single-Molecule Magnets With Anthracene-9-Carboxylate",
+  "doi": "10.1002/aoc.70499",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Et3NH][Dy4(ana)9(OH)4(CH3CN)2(H2O)]·3.5CH3CN·CH3OH",
+      "formula": "[Et3NH][Dy4(ana)9(OH)4(CH3CN)2(H2O)]·3.5CH3CN·CH3OH (Hana = anthracene-9-carboxylic acid); EA C153H123.5Dy4N6.5O24",
+      "ccdc_numbers": [
+        "2481090"
+      ],
+      "ccdc_refcodes": [
+        "ETOCAV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetrahedral [Dy4(OH)4]12+ cubane-like tetranuclear cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of Dy(NO3)3·6H2O (0.2 mmol) and Hana (0.077 mmol) was dissolved in MeOH/MeCN (4 mL, V/V = 1) and stirred at room temperature for 30 min. After adding several drops of Et3N, the solution was sealed in a pressure-resistant glass vial and kept at 70 °C for 72 h. Upon cooling to room temperature at 10 °C/min, yellow plate-like crystals were obtained.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "anthracene-9-carboxylic acid (Hana)",
+            "formula": "Hana",
+            "role": "ligand",
+            "amount": "0.077 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "several drops"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "CH3CN"
+        ],
+        "temperature": "stirred at room temperature; solvothermal 70 °C",
+        "time": "30 min stirring then 72 h at 70 °C",
+        "ph": null,
+        "vessel_or_method": "sealed pressure-resistant glass vial (solvothermal)",
+        "workup_and_crystallization": "cooled to room temperature at 10 °C/min; yellow plate-like crystals",
+        "yield": "54% (based on Dy salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Tetranuclear Dy cluster is a field-dependent SMM: χMT = 57.03 cm3 K mol−1 at 300 K and 31.93 cm3 K mol−1 at 2.0 K; Mmax = 19.04 Nβ at 7 T and 1.8 K. Zero-field ac χ″ is frequency-dependent without peaks; under 3.0 kOe a dual-relaxation process appears (SR Ueff = 2.2 K, τ0 = 8.4×10−6 s). Photochromism: pale yellow to orange; new UV–vis band ~487 nm saturating after 50 min Xe irradiation; PL at 445 nm (λex 360 nm) is fully quenched, attributed to photogenerated radicals rather than [4+4] cycloaddition.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 57.03,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 31.93,
+            "unit": "cm3 K mol-1",
+            "conditions": "2.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 19.04,
+            "unit": "Nβ",
+            "conditions": "7 T, 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (slow relaxation)",
+            "value": 2.2,
+            "unit": "K",
+            "conditions": "3.0 kOe dc field; estimated from ln(χ″/χ′) vs T−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (slow relaxation)",
+            "value": "8.4e-6",
+            "unit": "s",
+            "conditions": "3.0 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole α (SR/FR)",
+            "value": "SR 0.11–0.25; FR 0.42–0.54",
+            "unit": null,
+            "conditions": "3.0 kOe; two-Debye fit (Table S6)"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV-vis new absorption",
+            "value": 487,
+            "unit": "nm",
+            "conditions": "solid-state; Xe-lamp irradiation; saturates after 50 min"
+          },
+          {
+            "property_type": "optical",
+            "name": "photoluminescence emission",
+            "value": 445,
+            "unit": "nm",
+            "conditions": "λex = 360 nm; quenched upon prolonged irradiation"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Section 2.2 synthesis heading"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Section 2.2 and elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Section 2.4 X-ray crystallography"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ETOCAV/2481090"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Section 3.1 Crystal Structure; Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Sections 3.3–3.4; Figures 3, 4, 6"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Et3NH]2[Dy6(Tox)4(ana)12(OH)2(CH3OH)2]·4CH3OH·3CH3CN",
+      "formula": "[Et3NH]2[Dy6(Tox)4(ana)12(OH)2(CH3OH)2]·4CH3OH·3CH3CN (Tox− = N-TEMPO oxamate; Hana = anthracene-9-carboxylic acid); EA C238H220Dy6N10O44",
+      "ccdc_numbers": [
+        "2481091"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "double-layered cage-like [Dy6(Tox)4(OH)2]12+ hexanuclear cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of Dy(NO3)3·6H2O (0.1 mmol), ToxNa (0.1 mmol), and Hana (0.2 mmol) was dissolved in MeOH/MeCN (6 mL, V/V = 2/4) and stirred at room temperature for 1 h. After adding several drops of Et3N, the solution was sealed in a pressure-resistant glass vial and maintained at 70 °C for 12 h. Upon cooling to room temperature at 10 °C/min, yellow striped crystals were obtained.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "sodium N-TEMPO oxamate (ToxNa)",
+            "formula": "C11H18N2NaO4",
+            "role": "bridging ligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "anthracene-9-carboxylic acid (Hana)",
+            "formula": "Hana",
+            "role": "ligand",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "several drops"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "CH3CN"
+        ],
+        "temperature": "stirred at room temperature; solvothermal 70 °C",
+        "time": "1 h stirring then 12 h at 70 °C",
+        "ph": null,
+        "vessel_or_method": "sealed pressure-resistant glass vial (solvothermal)",
+        "workup_and_crystallization": "cooled to room temperature at 10 °C/min; yellow striped crystals",
+        "yield": "42% (based on Dy salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Hexanuclear Dy cluster is a zero-field SMM with a single relaxation process that becomes dual under 1.5 kOe. χMT = 84.63 cm3 K mol−1 at 300 K and 58.98 cm3 K mol−1 at 2.0 K; Mmax = 29.03 Nβ at 7 T and 1.8 K. Zero-field fit: Ueff = 77.1 K, τ0 = 4.3×10−6 s, C = 9.1 K−n s−1, n = 2, τQTM = 0.009 s. Under 1.5 kOe, SR: Ueff = 27.7 K, τ0 = 4.7×10−4 s. Photochromism similar to 1 but less sensitive (color change, UV–vis, PL quenching).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 84.63,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 58.98,
+            "unit": "cm3 K mol-1",
+            "conditions": "2.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 29.03,
+            "unit": "Nβ",
+            "conditions": "7 T, 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 77.1,
+            "unit": "K",
+            "conditions": "zero dc field; Orbach+Raman+QTM (Eq. 2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "4.3e-6",
+            "unit": "s",
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τQTM",
+            "value": 0.009,
+            "unit": "s",
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C",
+            "value": 9.1,
+            "unit": "K-n s-1",
+            "conditions": "zero field; n = 2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (SR)",
+            "value": 27.7,
+            "unit": "K",
+            "conditions": "1.5 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (SR)",
+            "value": "4.7e-4",
+            "unit": "s",
+            "conditions": "1.5 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Direct A",
+            "value": 8.5,
+            "unit": "K-1 s-1",
+            "conditions": "1.5 kOe; Raman n = 9, C = 245.3 K-n s-1"
+          },
+          {
+            "property_type": "optical",
+            "name": "photochromism",
+            "value": "similar color/UV-vis/PL response to 1 but less sensitive",
+            "unit": null,
+            "conditions": "Xe-lamp irradiation of crystal and powder samples (Figure 6d–f)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Section 2.3 synthesis heading"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Section 2.3 and elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Section 2.4; CCDC 2481091"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Section 3.1; Figure 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Sections 3.3–3.4; Figures 3, 5, 6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "refcode": "FIVHOJ",
+  "ccdc_number": "930170",
+  "dois": [
+    "10.1002/zaac.201300263"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\930170.cif",
+  "formula_moiety": "C24 H30 Cl10 N8 O4 Pr4 S8,C24 H24 Cl6 N8 Pr2 S8,10(C3 H3 N1 S1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "15.762(2)",
+    "b": "21.116(3)",
+    "c": "22.764(3)",
+    "alpha": "108.142(3)",
+    "beta": "90.360(3)",
+    "gamma": "111.488(3)",
+    "volume": "6637.14",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Pr1",
+      "element": "Pr",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Pr2",
+      "element": "Pr",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Pr3",
+      "element": "Pr",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O3"
+      ]
+    },
+    {
+      "label": "Pr4",
+      "element": "Pr",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "label": "Pr5",
+      "element": "Pr",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O4"
+      ]
+    },
+    {
+      "label": "Pr6",
+      "element": "Pr",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O3",
+        "O4"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Pr3",
+          "Pr4"
+        ],
+        "shared_oxygen_labels": [
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 4.123,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 114.29,
+            "metal_oxygen_distances_angstrom": [
+              2.481,
+              2.427
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Pr3",
+          "Pr6"
+        ],
+        "shared_oxygen_labels": [
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 4.085,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 111.27,
+            "metal_oxygen_distances_angstrom": [
+              2.481,
+              2.468
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Pr4",
+          "Pr5"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 4.094,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 111.54,
+            "metal_oxygen_distances_angstrom": [
+              2.458,
+              2.494
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Pr4",
+          "Pr6"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.761,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 100.43,
+            "metal_oxygen_distances_angstrom": [
+              2.427,
+              2.468
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 100.57,
+            "metal_oxygen_distances_angstrom": [
+              2.458,
+              2.431
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Pr5",
+          "Pr6"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 4.134,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 114.12,
+            "metal_oxygen_distances_angstrom": [
+              2.494,
+              2.431
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Pr1"
+      ],
+      [
+        "Pr2"
+      ],
+      [
+        "Pr3",
+        "Pr4",
+        "Pr5",
+        "Pr6"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "FIVHOJ crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C24 H30 Cl10 N8 O4 Pr4 S8,C24 H24 Cl6 N8 Pr2 S8,10(C3 H3 N1 S1). From the CIF bond table, Pr1 (Pr) has 0 O neighbors; Pr2 (Pr) has 0 O neighbors; Pr3 (Pr) has 1 O neighbors; Pr4 (Pr) has 3 O neighbors; Pr5 (Pr) has 1 O neighbors; Pr6 (Pr) has 3 O neighbors. Oxygen-bridged metal-site graph: 5 pairs, 3 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.761-4.134 Å (not direct metal-metal bonds). Computed M-O-M angles span 100.43-114.29°; individual values and O labels are in metal_framework.links.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review."
+}

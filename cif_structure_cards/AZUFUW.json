@@ -1,0 +1,214 @@
+{
+  "refcode": "AZUFUW",
+  "ccdc_number": "233529",
+  "dois": [
+    "10.1039/b405981f"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\233529.cif",
+  "formula_moiety": "C27 H32 Br3 Cl3 O14 Tb3 1+,Cl1 1-,3(C1 H4 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "11.367(2)",
+    "b": "19.612(4)",
+    "c": "20.427(4)",
+    "alpha": "90",
+    "beta": "102.61(3)",
+    "gamma": "90",
+    "volume": "4443.94",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O2",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O13",
+        "O14",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O2",
+        "O3",
+        "O4",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O11",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.485,
+        "bridge_geometry": [
+          {
+            "oxygen": "O8",
+            "angle_deg": 98.77,
+            "metal_oxygen_distances_angstrom": [
+              2.287,
+              2.304
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 96.47,
+            "metal_oxygen_distances_angstrom": [
+              2.36,
+              2.313
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 95.89,
+            "metal_oxygen_distances_angstrom": [
+              2.362,
+              2.332
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O11",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.527,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 98.95,
+            "metal_oxygen_distances_angstrom": [
+              2.338,
+              2.303
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 97.57,
+            "metal_oxygen_distances_angstrom": [
+              2.36,
+              2.329
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 96.86,
+            "metal_oxygen_distances_angstrom": [
+              2.362,
+              2.352
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O11",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.492,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 98.3,
+            "metal_oxygen_distances_angstrom": [
+              2.295,
+              2.322
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 97.56,
+            "metal_oxygen_distances_angstrom": [
+              2.313,
+              2.329
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 96.41,
+            "metal_oxygen_distances_angstrom": [
+              2.332,
+              2.352
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "AZUFUW crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C27 H32 Br3 Cl3 O14 Tb3 1+,Cl1 1-,3(C1 H4 O1). From the CIF bond table, Tb1 (Tb) has 6 O neighbors; Tb2 (Tb) has 8 O neighbors; Tb3 (Tb) has 7 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.485-3.527 Å (not direct metal-metal bonds). Computed M-O-M angles span 95.89-98.95°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Tb3L3(μ-OH)2Cl3(MeOH)3]Cl·3MeOH.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/b405981f",
+    "formula": "[Tb3L3(μ-OH)2Cl3(MeOH)3]Cl·3MeOH",
+    "compound_name": "[Tb3L3(μ-OH)2Cl3(MeOH)3]Cl·3MeOH (L = deprotonated 5-bromo-3-methoxysalicylaldehyde)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

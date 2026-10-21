@@ -1,0 +1,231 @@
+{
+  "refcode": "PAMJIY",
+  "ccdc_number": "827133",
+  "dois": [
+    "10.1021/cg200985m"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\827133.cif",
+  "formula_moiety": "C24 H70 Br10 Ce4 O12,2(C3 H8 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "10.9064(7)",
+    "b": "11.6119(8)",
+    "c": "14.1510(10)",
+    "alpha": "108.1770(10)",
+    "beta": "111.4730(10)",
+    "gamma": "95.7490(10)",
+    "volume": "1537.25",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O6A"
+      ]
+    },
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O6A"
+      ]
+    },
+    {
+      "label": "Ce1A",
+      "element": "Ce",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O2A",
+        "O6"
+      ]
+    },
+    {
+      "label": "Ce2A",
+      "element": "Ce",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O3A",
+        "O4A",
+        "O5A",
+        "O6",
+        "O6A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ce1",
+          "Ce2"
+        ],
+        "shared_oxygen_labels": [
+          "O6A"
+        ],
+        "metal_metal_separation_angstrom": 4.166,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6A",
+            "angle_deg": 112.38,
+            "metal_oxygen_distances_angstrom": [
+              2.532,
+              2.481
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce1",
+          "Ce2A"
+        ],
+        "shared_oxygen_labels": [
+          "O6A"
+        ],
+        "metal_metal_separation_angstrom": 4.287,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6A",
+            "angle_deg": 118.85,
+            "metal_oxygen_distances_angstrom": [
+              2.532,
+              2.447
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce1A",
+          "Ce2"
+        ],
+        "shared_oxygen_labels": [
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 4.287,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 118.85,
+            "metal_oxygen_distances_angstrom": [
+              2.532,
+              2.447
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce1A",
+          "Ce2A"
+        ],
+        "shared_oxygen_labels": [
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 4.166,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 112.38,
+            "metal_oxygen_distances_angstrom": [
+              2.532,
+              2.481
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2",
+          "Ce2A"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O6A"
+        ],
+        "metal_metal_separation_angstrom": 3.957,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 106.8,
+            "metal_oxygen_distances_angstrom": [
+              2.447,
+              2.481
+            ]
+          },
+          {
+            "oxygen": "O6A",
+            "angle_deg": 106.8,
+            "metal_oxygen_distances_angstrom": [
+              2.481,
+              2.447
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1",
+        "Ce1A",
+        "Ce2",
+        "Ce2A"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "PAMJIY crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C24 H70 Br10 Ce4 O12,2(C3 H8 O1). From the CIF bond table, Ce1 (Ce) has 3 O neighbors; Ce2 (Ce) has 5 O neighbors; Ce1A (Ce) has 3 O neighbors; Ce2A (Ce) has 5 O neighbors. Oxygen-bridged metal-site graph: 5 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.957-4.287 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.80-118.85°; individual values and O labels are in metal_framework.links. Article card reports molecular formula Ce4Br10((CH3)2CHOH)10(H2O)2(OH)2 · 2((CH3)2CHOH). Explicit grouped units in the article formula/name: 2 H2O (explicit grouped unit in article formula), 2 OH (explicit grouped unit in article formula). Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/cg200985m",
+    "formula": "Ce4Br10((CH3)2CHOH)10(H2O)2(OH)2 · 2((CH3)2CHOH)",
+    "compound_name": "decakis(isopropanol)diaqua-dihydroxido-decabromotetracerium(III) bis(isopropanol) solvate",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

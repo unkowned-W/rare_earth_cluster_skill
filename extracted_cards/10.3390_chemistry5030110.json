@@ -1,0 +1,147 @@
+{
+  "title": "Structural and Magnetic Analysis of a Family of Structurally Related Iron(III)-Oxo Clusters of Metal Nuclearity Fe8, Fe12Ca4, and Fe12La4",
+  "doi": "10.3390/chemistry5030110",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "3",
+      "compound_name": "[Fe12La4O10(OH)4(tbb)24]",
+      "formula": "[Fe12La4O10(OH)4(tbb)24]",
+      "ccdc_numbers": [
+        "2276660"
+      ],
+      "ccdc_refcodes": [
+        "RIZBIP"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 16,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "La"
+        ],
+        "other_metal_elements": [
+          "Fe"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Fe12La4 iron(III)-oxo cluster with two stacked Fe4 butterfly units, end Fe2 pairs, and side La3+ ions"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Method A (aerobic): to a stirred colourless solution of tbbH (0.71 g, 4.0 mmol) in PhCN (10 mL) in a microwave reaction vial was added NEt3 (0.56 mL, 4.0 mmol), followed by Fe(NO3)3·9H2O (0.40 g, 1.0 mmol) and La(NO3)3·6H2O (0.43 g, 1.0 mmol), giving a brown solution. After stirring 5 min at room temperature, the sealed vial was heated at 140 °C in a microwave reactor for 1 h. After cooling, the near-black solution was mixed with CH2Cl2 (5 mL), filtered, layered with MeCN, and left undisturbed for 3 days to give orange-red crystals of 3·5PhCN. Yield ~15% based on Fe. Method B: the same microwave procedure in MeCN (15 mL) instead of PhCN; a yellow-orange precipitate was collected, washed with MeCN, dissolved in CH2Cl2 (10 mL), and layered with an equal volume of EtOH. After two days, orange-red crystals of 3 were obtained (IR match to Method A). Yield ~45% based on Fe.",
+        "reagents": [
+          {
+            "name": "4-tert-butylbenzoic acid (tbbH)",
+            "formula": "tbbH",
+            "role": "ligand",
+            "amount": "0.71 g, 4.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.56 mL, 4.0 mmol"
+          },
+          {
+            "name": "iron(III) nitrate nonahydrate",
+            "formula": "Fe(NO3)3·9H2O",
+            "role": "metal source",
+            "amount": "0.40 g, 1.0 mmol"
+          },
+          {
+            "name": "lanthanum(III) nitrate hexahydrate",
+            "formula": "La(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.43 g, 1.0 mmol"
+          }
+        ],
+        "solvents": [
+          "PhCN",
+          "CH2Cl2",
+          "MeCN",
+          "EtOH"
+        ],
+        "temperature": "microwave heating at 140 °C (after 5 min stirring at room temperature); crystallization at ambient temperature",
+        "time": "1 h microwave heating; 3 days crystallization (Method A); 2 days crystallization (Method B)",
+        "ph": null,
+        "vessel_or_method": "microwave reaction vial, sealed; Method A in PhCN, Method B in MeCN",
+        "workup_and_crystallization": "Method A: cool, mix with CH2Cl2 (5 mL), filter, layer with MeCN, crystallize 3 days as 3·5PhCN, wash with Me2CO, dry under vacuum. Method B: collect yellow-orange precipitate, wash with MeCN, dissolve in CH2Cl2 (10 mL), layer with equal volume of EtOH, crystallize 2 days, wash with Me2CO, dry under vacuum.",
+        "yield": "~15% based on Fe (Method A); ~45% based on Fe (Method B)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Vacuum-dried 3·4H2O shows strong antiferromagnetic coupling in the central Fe8 subunit (local S = 0) with ferromagnetic coupling in each end Fe2 pair (local S = 5). χMT rises well above the two-independent-S = 5 spin-only value at low T, attributed to intermolecular ferromagnetic interactions via near-perpendicular 4-tBu-benzoate contacts. AC in-phase data confirm the high low-T χMT is not a dc-field artifact.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 20.11,
+            "unit": "cm3 K mol-1",
+            "conditions": "dc, 0.1 T (1.0 kG), 300 K, vacuum-dried 3·4H2O restrained in eicosane"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 18.71,
+            "unit": "cm3 K mol-1",
+            "conditions": "dc, 0.1 T, 150 K (minimum)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 39.01,
+            "unit": "cm3 K mol-1",
+            "conditions": "dc, 0.1 T, 8.0 K (maximum)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 38.59,
+            "unit": "cm3 K mol-1",
+            "conditions": "dc, 0.1 T, 5.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ'MT",
+            "value": "~40.5",
+            "unit": "cm3 K mol-1",
+            "conditions": "ac in-phase plateau at 6–10 K; 3.5 G ac field, 1000 Hz, no applied dc field, 1.8–15.0 K range"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Section 2.1.3"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Section 2.1.3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2276660 / RIZBIP"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; crystal structure of 3"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.1.3 Methods A and B"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Sections 3.3.1–3.3.2; Figures 5–6"
+        }
+      ]
+    }
+  ]
+}

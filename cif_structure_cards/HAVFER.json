@@ -1,0 +1,213 @@
+{
+  "refcode": "HAVFER",
+  "ccdc_number": "838755",
+  "dois": [
+    "10.1021/ic2018314"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\838755.cif",
+  "formula_moiety": "(C12 H20 Gd2 O13)n",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C c",
+  "international_tables_number": "9",
+  "unit_cell": {
+    "a": "16.1147(12)",
+    "b": "16.7364(9)",
+    "c": "8.4586(5)",
+    "alpha": "90",
+    "beta": "116.194(2)",
+    "gamma": "90",
+    "volume": "2047.02",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O13C",
+        "O2",
+        "O3",
+        "O4",
+        "O6",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Gd2",
+      "element": "Gd",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O11C",
+        "O12",
+        "O13",
+        "O2",
+        "O4",
+        "O5",
+        "O7",
+        "O8C"
+      ]
+    },
+    {
+      "label": "Gd1C",
+      "element": "Gd",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O8C"
+      ]
+    },
+    {
+      "label": "Gd2C",
+      "element": "Gd",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O13C",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Gd1",
+          "Gd2"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 4.027,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 112.37,
+            "metal_oxygen_distances_angstrom": [
+              2.51,
+              2.336
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 106.51,
+            "metal_oxygen_distances_angstrom": [
+              2.423,
+              2.601
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1",
+          "Gd2C"
+        ],
+        "shared_oxygen_labels": [
+          "O13C",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 4.034,
+        "bridge_geometry": [
+          {
+            "oxygen": "O8",
+            "angle_deg": 108.43,
+            "metal_oxygen_distances_angstrom": [
+              2.585,
+              2.386
+            ]
+          },
+          {
+            "oxygen": "O13C",
+            "angle_deg": 109.75,
+            "metal_oxygen_distances_angstrom": [
+              2.424,
+              2.508
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1C",
+          "Gd2"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O8C"
+        ],
+        "metal_metal_separation_angstrom": 4.034,
+        "bridge_geometry": [
+          {
+            "oxygen": "O13",
+            "angle_deg": 109.75,
+            "metal_oxygen_distances_angstrom": [
+              2.424,
+              2.508
+            ]
+          },
+          {
+            "oxygen": "O8C",
+            "angle_deg": 108.43,
+            "metal_oxygen_distances_angstrom": [
+              2.585,
+              2.386
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Gd1",
+        "Gd1C",
+        "Gd2",
+        "Gd2C"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "HAVFER crystallizes in the monoclinic crystal system with space group C c. Reported CIF formula moiety: (C12 H20 Gd2 O13)n. From the CIF bond table, Gd1 (Gd) has 9 O neighbors; Gd2 (Gd) has 8 O neighbors; Gd1C (Gd) has 2 O neighbors; Gd2C (Gd) has 3 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 4.027-4.034 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.51-112.37°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Gd(OAc)3(H2O)0.5]n. Explicit grouped units in the article formula/name: 3 OAc (explicit grouped unit in article formula), 0 H2O (explicit grouped unit in article formula). Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic2018314",
+    "formula": "[Gd(OAc)3(H2O)0.5]n",
+    "compound_name": "catena-poly[[hemiaquagadolinium(III)]-tri-μ-acetato]",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OAc",
+        "count": 3,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 0,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "title": "Hysteresis enhancement on a hybrid Dy(III) single molecule magnet/iron oxide nanoparticle system",
+  "doi": "10.1039/c8qi01346b",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Dy12",
+      "compound_name": "(Pr2NH2)5[Dy12(OH)16(SALO)4(SALOH)8(NO3)8(H2O)0.5]NO3 · 8(MeCN) · 3.25(H2O) · (C5H14NO)NO3",
+      "formula": "(Pr2NH2)5[Dy12(OH)16(SALO)4(SALOH)8(NO3)8(H2O)0.5]NO3·8(MeCN)·3.25(H2O)·(C5H14NO)NO3",
+      "ccdc_numbers": [
+        "1879195"
+      ],
+      "ccdc_refcodes": [
+        "NISXEV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "Dy12 hydroxide/salicylate cluster with cubane-like Dy–O–Dy fragments"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(NO3)3·xH2O (0.42 mmol, 0.147 g) and 3,5-di-tert-butylsalicylic acid (0.105 g, 0.42 mmol) were dissolved in 5 mL of MeCN. 1-Dimethylamino-2-propanol (51 μL, 0.42 mmol) and dipropylamine (58 μL, 0.42 mmol) were added, giving a colourless solution. The mixture was treated in a CEM Discover microwave reactor at 140 °C with 250 W for 5 min. The beige pale solution was cooled to room temperature. Crystals were obtained by slow evaporation after 9 days.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hydrate",
+            "formula": "Dy(NO3)3·xH2O",
+            "role": "metal source",
+            "amount": "0.42 mmol, 0.147 g"
+          },
+          {
+            "name": "3,5-di-tert-butylsalicylic acid",
+            "formula": "C15H22O3",
+            "role": "ligand (SALOH/SALO precursor)",
+            "amount": "0.105 g, 0.42 mmol"
+          },
+          {
+            "name": "1-dimethylamino-2-propanol",
+            "formula": "C5H13NO",
+            "role": "base/ligand",
+            "amount": "51 μL, 0.42 mmol"
+          },
+          {
+            "name": "dipropylamine",
+            "formula": "Pr2NH",
+            "role": "base/countercation source",
+            "amount": "58 μL, 0.42 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "140 °C (microwave); crystallization at room temperature",
+        "time": "5 min microwave; crystals after 9 days",
+        "ph": null,
+        "vessel_or_method": "CEM Discover microwave reactor, 250 W",
+        "workup_and_crystallization": "Cooled to room temperature; crystals by slow evaporation after 9 days.",
+        "yield": "0.023 g (10%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dy12 is an SMM with weak exchange and magnetic anisotropy. χT at 300 K matches 12 uncoupled Dy(III) ions, then decreases on cooling. Magnetization at 2 K does not saturate at 5 T. Only the tail of an out-of-phase AC peak is seen; Debye/Arrhenius analysis gives a small Ueff. No hysteresis down to 2 K; a narrow scan-rate-dependent hysteresis opens below 1 K (micro-SQUID).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "169",
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K; DC fields 198 and 3000 Oe, 2.0–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT expected for 12 uncoupled Dy(III)",
+            "value": "170",
+            "unit": "cm3 K mol-1",
+            "conditions": "S = 5/2, 6H15/2, g = 4/3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "99",
+            "unit": "cm3 K mol-1",
+            "conditions": "low T after sharp decrease below 50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": "65",
+            "unit": "μB",
+            "conditions": "2 K, maximum at 5 T; expected saturation 120 μB for 12 free Dy ions"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "5.75",
+            "unit": "K",
+            "conditions": "AC susceptibility, Debye fit 1.8–3.2 K then Arrhenius"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "1.827e-7",
+            "unit": "s-1 (as reported)",
+            "conditions": "Arrhenius from AC relaxation times; α = 0.46–0.51"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization hysteresis",
+            "value": "narrow loop opening below 1 K; none down to 2 K on standard magnetometer",
+            "unit": null,
+            "conditions": "micro-SQUID; scan-rate and temperature dependent"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Experimental; abstract"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental heading for Dy12"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Characterization techniques (CCDC 1879195)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row NISXEV"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Dy12 preparation"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties of Dy12; Fig. 2–3"
+        }
+      ]
+    },
+    {
+      "compound_label": "NP-Dy12",
+      "compound_name": "hybrid oleic-acid-coated iron oxide nanoparticles decorated with Dy12 SMMs",
+      "formula": "NP-Dy12",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "unknown",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Fe"
+        ],
+        "dimensionality": "unknown",
+        "structural_family": "SMM-decorated superparamagnetic iron oxide nanoparticles (oleate spacer)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Parent iron oxide NPs were made from iron oleate (2.78 g, 3 mmol), oleic acid (0.96 mL, 3 mmol) and eicosane (10 mL) in a three-neck flask, heated to 60 °C to melt the solvent, then to 366 °C at 3.3 °C min-1 under stirring, refluxed 10 min, and cooled to 50 °C. NPs were precipitated with acetone/hexane (40 mL/10 mL), centrifuged, and washed three times with acetone/hexane (4:1), giving 10.4 and 13.3 nm NPs. Hybrid NP-Dy12: 20 mg of precipitated NPs were shaken with 2 mg of Dy12 in chloroform for 72 h, then magnetically separated and washed to remove unattached SMMs.",
+        "reagents": [
+          {
+            "name": "iron oleate",
+            "formula": null,
+            "role": "NP precursor",
+            "amount": "2.78 g, 3 mmol"
+          },
+          {
+            "name": "oleic acid",
+            "formula": "C18H34O2",
+            "role": "surfactant",
+            "amount": "0.96 mL, 3 mmol"
+          },
+          {
+            "name": "eicosane",
+            "formula": "C20H42",
+            "role": "solvent/medium",
+            "amount": "10 mL"
+          },
+          {
+            "name": "Dy12 SMM",
+            "formula": "Dy12",
+            "role": "surface functionalization",
+            "amount": "2 mg with 20 mg NPs"
+          },
+          {
+            "name": "precipitated iron oxide NPs",
+            "formula": "Fe oxide NP",
+            "role": "substrate",
+            "amount": "20 mg"
+          }
+        ],
+        "solvents": [
+          "eicosane",
+          "acetone",
+          "hexane",
+          "chloroform"
+        ],
+        "temperature": "NP synthesis: 60 °C then 366 °C (reflux 10 min), cool to 50 °C; hybridization at unspecified ambient shaking",
+        "time": "NP reflux 10 min; hybridization 72 h",
+        "ph": null,
+        "vessel_or_method": "three-neck round-bottom flask (NP synthesis); shaking then magnetic separation (hybrid)",
+        "workup_and_crystallization": "NP precipitation with acetone/hexane, centrifugation, three washes. Hybrid NPs magnetically separated and washed several times.",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Decorating oleic-acid-coated Fe-oxide NPs with Dy12 enhances magnetization hysteresis versus the isolated NP or Dy12 components without changing NP morphology. Enhancement scales with NP surface/volume ratio (stronger for smaller NPs). Dy XMCD shows no remanence, so Dy does not directly add remanence; synergy with the anisotropic Dy12 layer slows NP relaxation. Weak exchange bias is observed.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "Ms",
+            "value": "55.48",
+            "unit": "emu g-1",
+            "conditions": "NP-Dy12 from 10.4 nm NP; 2 K, 5 T (per gram including oleic acid and Dy12)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Hc",
+            "value": "487",
+            "unit": "Oe",
+            "conditions": "NP-Dy12 (10.4 nm), 2 K; ~10× parent NP coercivity"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Hc ratio vs parent NP",
+            "value": "5.4 times larger",
+            "unit": null,
+            "conditions": "NP-Dy12 from ~13.1 nm NP at 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Hc",
+            "value": "100",
+            "unit": "Oe",
+            "conditions": "NP-Dy12 (10.4 nm), hysteresis retained up to 30 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Hc",
+            "value": "700",
+            "unit": "Oe",
+            "conditions": "NP-Dy12 (13.4 nm) at 100 K; no hysteresis at 200 K above NP blocking temperature"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Mrem/Msat",
+            "value": "0.24",
+            "unit": null,
+            "conditions": "hybrid NP-Dy12, 10.4 nm NP; parent NP 0.20"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange bias field HE",
+            "value": "-8",
+            "unit": "Oe",
+            "conditions": "ZFC hysteresis, NP-Dy12 10.4 nm, 2 K; HE field-cool dependent"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Experimental, Preparation of hybrid NP-Dy system; abstract"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Iron oxide nanoparticles and hybrid NP-Dy"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results on hybrid magnetism; Fig. 6–7"
+        }
+      ]
+    }
+  ]
+}

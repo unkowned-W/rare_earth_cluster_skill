@@ -1,0 +1,142 @@
+{
+  "refcode": "OBIJER",
+  "ccdc_number": "1486223",
+  "dois": [
+    "10.1039/c6dt03500k"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1486223.cif",
+  "formula_moiety": "C152 H122 Er4 N10 O24",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "13.5727(3)",
+    "b": "18.6832(3)",
+    "c": "27.3285(6)",
+    "alpha": "90",
+    "beta": "102.620(2)",
+    "gamma": "90",
+    "volume": "6762.58",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Er1",
+      "element": "Er",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12",
+        "O1B",
+        "O2",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Er2",
+      "element": "Er",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Er1B",
+      "element": "Er",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12B",
+        "O1B",
+        "O2B",
+        "O4B",
+        "O5B"
+      ]
+    },
+    {
+      "label": "Er2B",
+      "element": "Er",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10B",
+        "O11B",
+        "O6B",
+        "O7B",
+        "O8B",
+        "O9B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Er1",
+          "Er1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O1B"
+        ],
+        "metal_metal_separation_angstrom": 3.817,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 107.79,
+            "metal_oxygen_distances_angstrom": [
+              2.367,
+              2.357
+            ]
+          },
+          {
+            "oxygen": "O1B",
+            "angle_deg": 107.79,
+            "metal_oxygen_distances_angstrom": [
+              2.357,
+              2.367
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Er1",
+        "Er1B"
+      ],
+      [
+        "Er2"
+      ],
+      [
+        "Er2B"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "OBIJER crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C152 H122 Er4 N10 O24. From the CIF bond table, Er1 (Er) has 6 O neighbors; Er2 (Er) has 6 O neighbors; Er1B (Er) has 6 O neighbors; Er2B (Er) has 6 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.817-3.817 Å (not direct metal-metal bonds). Computed M-O-M angles span 107.79-107.79°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C152H122Er4N10O24.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c6dt03500k",
+    "formula": "C152H122Er4N10O24",
+    "compound_name": "[Er4(dbm)8L2(DMF)2]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

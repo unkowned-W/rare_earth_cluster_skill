@@ -1,0 +1,236 @@
+{
+  "refcode": "QIQTAO",
+  "ccdc_number": "1841341",
+  "dois": [
+    "10.1039/c8gc02645a"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1841341.cif",
+  "formula_moiety": "C102 H108 N18 Nd4 O42 Zn3,6(C2 H3 N1)",
+  "crystal_system": "rhombohedral",
+  "space_group_hm": "R -3 c",
+  "international_tables_number": "167",
+  "unit_cell": {
+    "a": "17.8928(5)",
+    "b": "17.8928(5)",
+    "c": "69.099(2)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "120",
+    "volume": "19158.4",
+    "Z": "6"
+  },
+  "metal_sites": [
+    {
+      "label": "Zn1",
+      "element": "Zn",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O24",
+        "O7"
+      ]
+    },
+    {
+      "label": "Nd1",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O13",
+        "O15",
+        "O18",
+        "O2",
+        "O20",
+        "O4",
+        "O8"
+      ]
+    },
+    {
+      "label": "Nd2",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O16",
+        "O21",
+        "O4",
+        "O5",
+        "O6",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Zn2",
+      "element": "Zn",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O38"
+      ]
+    },
+    {
+      "label": "Zn3",
+      "element": "Zn",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O31"
+      ]
+    },
+    {
+      "label": "Nd3",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O22",
+        "O25",
+        "O27",
+        "O29",
+        "O32",
+        "O34",
+        "O36",
+        "O39",
+        "O41"
+      ]
+    },
+    {
+      "label": "Nd4",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O22",
+        "O23",
+        "O28",
+        "O29",
+        "O30",
+        "O35",
+        "O36",
+        "O37",
+        "O42"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Nd1",
+          "Nd2"
+        ],
+        "shared_oxygen_labels": [
+          "O15",
+          "O4",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.642,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 98.01,
+            "metal_oxygen_distances_angstrom": [
+              2.365,
+              2.459
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 98.04,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.458
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 98.07,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.458
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Nd3",
+          "Nd4"
+        ],
+        "shared_oxygen_labels": [
+          "O22",
+          "O29",
+          "O36"
+        ],
+        "metal_metal_separation_angstrom": 3.642,
+        "bridge_geometry": [
+          {
+            "oxygen": "O22",
+            "angle_deg": 98.01,
+            "metal_oxygen_distances_angstrom": [
+              2.365,
+              2.459
+            ]
+          },
+          {
+            "oxygen": "O29",
+            "angle_deg": 98.04,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.458
+            ]
+          },
+          {
+            "oxygen": "O36",
+            "angle_deg": 98.07,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.458
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Nd1",
+        "Nd2"
+      ],
+      [
+        "Nd3",
+        "Nd4"
+      ],
+      [
+        "Zn1"
+      ],
+      [
+        "Zn2"
+      ],
+      [
+        "Zn3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "QIQTAO crystallizes in the rhombohedral crystal system with space group R -3 c. Reported CIF formula moiety: C102 H108 N18 Nd4 O42 Zn3,6(C2 H3 N1). From the CIF bond table, Zn1 (Zn) has 2 O neighbors; Nd1 (Nd) has 9 O neighbors; Nd2 (Nd) has 9 O neighbors; Zn2 (Zn) has 2 O neighbors; Zn3 (Zn) has 2 O neighbors; Nd3 (Nd) has 9 O neighbors; Nd4 (Nd) has 9 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 5 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.642-3.642 Å (not direct metal-metal bonds). Computed M-O-M angles span 98.01-98.07°; individual values and O labels are in metal_framework.links. Article card reports molecular formula Zn3Nd4C114H126N24O42.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c8gc02645a",
+    "formula": "Zn3Nd4C114H126N24O42",
+    "compound_name": "amide-functionalized 3d–4f helicate cage Nd4Zn3L6",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

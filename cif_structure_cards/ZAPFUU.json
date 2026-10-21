@@ -1,0 +1,81 @@
+{
+  "refcode": "ZAPFUU",
+  "ccdc_number": "1502585",
+  "dois": [
+    "10.1002/chem.201604203"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1502585.cif",
+  "formula_moiety": "C74 H72 I2 O6 Sm2,2(C4 H8 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "13.279(3)",
+    "b": "21.998(4)",
+    "c": "13.552(3)",
+    "alpha": "90",
+    "beta": "116.57(3)",
+    "gamma": "90",
+    "volume": "3540.61",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm1",
+      "element": "Sm",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "label": "Sm2",
+      "element": "Sm",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O4",
+        "O5",
+        "O6"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Sm1"
+      ],
+      [
+        "Sm2"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ZAPFUU crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C74 H72 I2 O6 Sm2,2(C4 H8 O1). From the CIF bond table, Sm1 (Sm) has 3 O neighbors; Sm2 (Sm) has 3 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C82H88I2O8Sm2. Article name explicitly identifies Sm(I).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/chem.201604203",
+    "formula": "C82H88I2O8Sm2",
+    "compound_name": "[{SmI({C5Ph4}-O)(thf)2}2]",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "Sm",
+        "state": "I",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

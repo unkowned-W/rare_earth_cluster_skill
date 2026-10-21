@@ -1,0 +1,184 @@
+{
+  "title": "Molecular coolers: The case for [CuII5GdIII4]",
+  "doi": "10.1039/c1sc00038a",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1·2MeOH·2Et2O",
+      "compound_name": "[CuII5GdIII4O2(OMe)4(teaH)4(O2CC(CH3)3)2(NO3)4]·2MeOH·2Et2O",
+      "formula": "[CuII5GdIII4O2(OMe)4(teaH)4(O2CC(CH3)3)2(NO3)4]·2MeOH·2Et2O",
+      "ccdc_numbers": [
+        "809026"
+      ],
+      "ccdc_refcodes": [
+        "ARICAG"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "enneanuclear Cu5Gd4 cluster of vertex- and face-sharing {GdCu3} tetrahedra (Cu5 bow-tie plus Gd4 rectangle)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Cu(NO3)2·3H2O (0.2 g, 1 mmol) was dissolved in 20 ml of MeOH, followed by addition of triethanolamine (0.13 ml, 1 mmol), pivalic acid (0.05 g, 0.5 mmol) and triethylamine (0.5 ml, 3.5 mmol) to give a green/blue solution. Gd(NO3)3·6H2O (0.45 g, 1 mmol) was then added to give a deep blue solution. The mixture was stirred for 4 h, allowed to stand, and layered with diethyl ether. After 3–4 days, blue crystals of 1 had formed.",
+        "reagents": [
+          {
+            "name": "copper(II) nitrate trihydrate",
+            "formula": "Cu(NO3)2·3H2O",
+            "role": "Cu source",
+            "amount": "0.2 g, 1 mmol"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Gd source",
+            "amount": "0.45 g, 1 mmol"
+          },
+          {
+            "name": "triethanolamine",
+            "formula": "teaH3",
+            "role": "ligand",
+            "amount": "0.13 ml, 1 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "HO2CC(CH3)3",
+            "role": "carboxylate ligand",
+            "amount": "0.05 g, 0.5 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.5 ml, 3.5 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": null,
+        "time": "stirred 4 h; crystals after 3–4 days",
+        "ph": null,
+        "vessel_or_method": "solution reaction in methanol followed by diethyl ether layering",
+        "workup_and_crystallization": "After stirring, the solution was allowed to stand and layered with diethyl ether; blue crystals formed after 3–4 days.",
+        "yield": "102 mg, 39.2%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "DC susceptibility of the isotropic Cu5Gd4 cluster shows dominant ferromagnetic pathways, a low-T net spin approaching S = 31/2, and many low-lying spin states. Combined magnetisation and heat-capacity data give a record molecular magnetocaloric effect, with −ΔSm reaching 31 J kg−1 K−1 at 3 K for ΔB0 = 9 T and large ΔTad (cooling rates >1 K T−1 at 9 T and >2 K T−1 at 1 T), making 1 an efficient refrigerant in the liquid-helium range.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (room temperature)",
+            "value": 33.0,
+            "unit": "cm3 K mol−1",
+            "conditions": "B0 = 0.01 T; 2–300 K DC susceptibility; nearly constant down to ~30 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 48.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "B0 = 0.01 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "uncoupled χMT expected for CuII5GdIII4 (g = 2.00)",
+            "value": 33.33,
+            "unit": "cm3 K mol−1",
+            "conditions": "high-temperature comparison"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetisation saturation",
+            "value": 31.3,
+            "unit": "NμB",
+            "conditions": "T = 2 K; consistent with net spin S = 31/2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Debye temperature ΘD (lattice heat capacity)",
+            "value": 23,
+            "unit": "K",
+            "conditions": "low-T Debye fit to lattice contribution of C"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "zero-field entropy plateau",
+            "value": "~9 R",
+            "unit": null,
+            "conditions": "2 < T < 8 K; expected 4 ln(8) + ln(4) = 9.7 for decoupled 4 GdIII + S[Cu] = 3/2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm",
+            "value": 31,
+            "unit": "J kg−1 K−1",
+            "conditions": "T = 3 K, ΔB0 = 9 T; from heat capacity (agrees with Maxwell analysis of isothermal magnetisation)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "cooling rate (ΔTad / ΔB0)",
+            "value": ">1",
+            "unit": "K T−1",
+            "conditions": "ΔB0 = 9 T; from heat-capacity entropy"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "cooling rate (ΔTad / ΔB0)",
+            "value": ">2",
+            "unit": "K T−1",
+            "conditions": "ΔB0 = 1 T; from heat-capacity entropy"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract and Results and discussion"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; Notes and references experimental note"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Notes and references (CCDC 809026)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC metadata ARICAG"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and discussion; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Notes and references experimental procedure for 1·2MeOH·2Et2O"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and discussion; Figs. 2–4"
+        }
+      ]
+    }
+  ]
+}

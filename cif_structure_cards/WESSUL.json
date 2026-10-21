@@ -1,0 +1,236 @@
+{
+  "refcode": "WESSUL",
+  "ccdc_number": "1578154",
+  "dois": [
+    "10.1039/c7qi00658f"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1578154.cif",
+  "formula_moiety": "C57 H70 N12 O23 Tb4,C1 H4 O1,3(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "16.219(2)",
+    "b": "22.058(3)",
+    "c": "21.639(3)",
+    "alpha": "90",
+    "beta": "102.577(3)",
+    "gamma": "90",
+    "volume": "7555.78",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O17",
+        "O2",
+        "O20",
+        "O22",
+        "O5"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O14",
+        "O18",
+        "O2",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O18",
+        "O21",
+        "O23",
+        "O4",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Tb4",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O15",
+        "O16",
+        "O17",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.921,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 111.53,
+            "metal_oxygen_distances_angstrom": [
+              2.349,
+              2.393
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 111.07,
+            "metal_oxygen_distances_angstrom": [
+              2.374,
+              2.382
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb4"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O17"
+        ],
+        "metal_metal_separation_angstrom": 3.883,
+        "bridge_geometry": [
+          {
+            "oxygen": "O10",
+            "angle_deg": 110.57,
+            "metal_oxygen_distances_angstrom": [
+              2.385,
+              2.339
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 107.02,
+            "metal_oxygen_distances_angstrom": [
+              2.496,
+              2.332
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O18",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.905,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 110.2,
+            "metal_oxygen_distances_angstrom": [
+              2.329,
+              2.432
+            ]
+          },
+          {
+            "oxygen": "O18",
+            "angle_deg": 109.05,
+            "metal_oxygen_distances_angstrom": [
+              2.334,
+              2.461
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb3",
+          "Tb4"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.938,
+        "bridge_geometry": [
+          {
+            "oxygen": "O8",
+            "angle_deg": 111.88,
+            "metal_oxygen_distances_angstrom": [
+              2.372,
+              2.381
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 111.32,
+            "metal_oxygen_distances_angstrom": [
+              2.394,
+              2.375
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3",
+        "Tb4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "WESSUL crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C57 H70 N12 O23 Tb4,C1 H4 O1,3(H2 O1). From the CIF bond table, Tb1 (Tb) has 7 O neighbors; Tb2 (Tb) has 6 O neighbors; Tb3 (Tb) has 7 O neighbors; Tb4 (Tb) has 6 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.883-3.938 Å (not direct metal-metal bonds). Computed M-O-M angles span 107.02-111.88°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Tb4L4(CO3)(acac)2(H2O)2(CH3OH)2]·3H2O·CH3OH. Explicit grouped units in the article formula/name: 2 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c7qi00658f",
+    "formula": "[Tb4L4(CO3)(acac)2(H2O)2(CH3OH)2]·3H2O·CH3OH",
+    "compound_name": "[Tb4L4(CO3)(acac)2(H2O)2(CH3OH)2]·3H2O·CH3OH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

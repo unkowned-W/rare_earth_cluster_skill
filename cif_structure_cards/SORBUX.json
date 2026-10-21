@@ -1,0 +1,194 @@
+{
+  "refcode": "SORBUX",
+  "ccdc_number": "682466",
+  "dois": [
+    "10.1016/j.inoche.2008.11.002"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\682466.cif",
+  "formula_moiety": "C45 H46 N9 O20 S4 Tb3,C3 H7 N1 O1",
+  "crystal_system": "orthorhombic",
+  "space_group_hm": "P n m a",
+  "international_tables_number": "62",
+  "unit_cell": {
+    "a": "24.3662(15)",
+    "b": "18.5309(11)",
+    "c": "15.4503(9)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "6976.24",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O13",
+        "O13F",
+        "O1F",
+        "O3",
+        "O3F",
+        "O6"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O12",
+        "O2",
+        "O5",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tb2F",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12F",
+        "O1F",
+        "O2F",
+        "O5F",
+        "O8F",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O11"
+        ],
+        "metal_metal_separation_angstrom": 4.054,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 105.95,
+            "metal_oxygen_distances_angstrom": [
+              2.517,
+              2.561
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 114.32,
+            "metal_oxygen_distances_angstrom": [
+              2.4,
+              2.425
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb2F"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O1F"
+        ],
+        "metal_metal_separation_angstrom": 4.054,
+        "bridge_geometry": [
+          {
+            "oxygen": "O11",
+            "angle_deg": 114.32,
+            "metal_oxygen_distances_angstrom": [
+              2.4,
+              2.425
+            ]
+          },
+          {
+            "oxygen": "O1F",
+            "angle_deg": 105.95,
+            "metal_oxygen_distances_angstrom": [
+              2.517,
+              2.561
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb2F"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 4.075,
+        "bridge_geometry": [
+          {
+            "oxygen": "O9",
+            "angle_deg": 106.82,
+            "metal_oxygen_distances_angstrom": [
+              2.538,
+              2.538
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 114.29,
+            "metal_oxygen_distances_angstrom": [
+              2.425,
+              2.425
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb2F"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "SORBUX crystallizes in the orthorhombic crystal system with space group P n m a. Reported CIF formula moiety: C45 H46 N9 O20 S4 Tb3,C3 H7 N1 O1. From the CIF bond table, Tb1 (Tb) has 8 O neighbors; Tb2 (Tb) has 7 O neighbors; Tb2F (Tb) has 7 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 4.054-4.075 Å (not direct metal-metal bonds). Computed M-O-M angles span 105.95-114.32°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C48H55Tb3N10O22S4. Explicit grouped units in the article formula/name: 1 μ3-OH (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.inoche.2008.11.002",
+    "formula": "C48H55Tb3N10O22S4",
+    "compound_name": "[Tb3(phen)3(μ3-OH)(μ-SO4)4(DMF)3]·DMF·H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-OH",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

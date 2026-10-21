@@ -1,0 +1,349 @@
+{
+  "title": "A heterometallic [LnLn′Ln] lanthanide complex as a qubit with embedded quantum error correction",
+  "doi": "10.1039/d0sc03107k",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[ErCeEr]",
+      "formula": "[CeEr2(LA)2(LB)2(py)(H2O)2](NO3)",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ce",
+          "Er"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear trinuclear [LnLn'Ln] bis-β-diketonate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": false,
+        "procedure": "The main text states that [CeEr2(LA)2(LB)2(py)(H2O)2](NO3) (1) is formed by site-selective assembly of Ce(III) at the central site and Er(III) at the terminal sites of the LA2−/LB2− scaffold (H2LA and H2LB are bis-β-diketonate ligands). No numerical reagent amounts for 1 are given. The SI states that ligand H2LB and complex 1 were prepared as previously reported, without reproducing the procedure.",
+        "reagents": [],
+        "solvents": [],
+        "temperature": null,
+        "time": null,
+        "ph": null,
+        "vessel_or_method": null,
+        "workup_and_crystallization": null,
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Magnetization, specific heat and CW/pulsed EPR show three weakly coupled effective S = 1/2 qubits. Er–Ce and Er–Er interactions are accounted for by point-dipole couplings; an extra isotropic Er–Ce exchange is bounded by about 0.1 cm−1. Pulsed EPR on a frozen solution gives a phase-memory time of about 0.5 μs, nearly field-independent, and a longest T1 of about 4.3 μs.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "g_Ce",
+            "value": "1.85 (isotropic)",
+            "unit": null,
+            "conditions": "transferred from isostructural complex 2; alternative axial g = (1.7, 1.7, 2.2) improves magnetization/EPR only slightly and was not used in the QEC simulations"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g_Er",
+            "value": "(1, 5, 11.5)",
+            "unit": null,
+            "conditions": "transferred from isostructural complex 3; the two Er sites are related by a rotation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J12 and J23 principal components",
+            "value": "(0.01, 0.07, −0.29)",
+            "unit": "cm−1",
+            "conditions": "point-dipole Er–Ce couplings calculated from the g tensors; reproduce heat capacity, magnetization and EPR of 1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J13 principal components",
+            "value": "(0.00, 0.02, −0.22)",
+            "unit": "cm−1",
+            "conditions": "point-dipole Er–Er coupling"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "upper bound on isotropic Er–Ce exchange",
+            "value": "~0.1",
+            "unit": "cm−1",
+            "conditions": "modulus; from low-field specific heat and EPR (ESI Figs. S10 and S11)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "T2",
+            "value": "0.5",
+            "unit": "μs",
+            "conditions": "slower component of a double-exponential Hahn-echo decay; pulsed EPR, frozen 1:1 MeOH/EtOH solution, T = 6 K; nearly independent of field. Main-text OCR of 0.5 ms is inconsistent with the SI"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "T1",
+            "value": "4.3(2)",
+            "unit": "μs",
+            "conditions": "longest component of a biexponential inversion recovery; T = 6 K, 740 mT, τ = 220 ns; shorter component T1 = 0.44(3) μs"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.1 and Fig. 1(b)"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "section 2.1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI section 1, statement that 1 was prepared as previously reported"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "sections 2.3 and Fig. 3; T2 clarified in SI section 4.5"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[LuCeLu]",
+      "formula": "[CeLu2(LA)2(LB)2(py)(H2O)2](NO3)·11py",
+      "ccdc_numbers": [
+        "1998121"
+      ],
+      "ccdc_refcodes": [
+        "DUXBEG"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ce",
+          "Lu"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear trinuclear [LnLn'Ln] bis-β-diketonate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "A colorless pyridine solution of Ce(NO3)3·6H2O (6.9 mg, 0.016 mmol), Lu(NO3)3·6H2O (15.0 mg, 0.032 mmol) and CuCl2·2H2O (2.7 mg, 0.016 mmol) in pyridine (10 mL) was treated dropwise under stirring with a light-brown pyridine solution (10 mL) of H2LA (10.2 mg, 0.032 mmol) and H2LB (14.8 mg, 0.032 mmol). The green solution was stirred at room temperature for 1 h and layered with hexane. After one week green crystals of [Cu(py)4(NO3)2] formed with an orange oil; after one month the oil gave a few large orange crystals of 2, which were filtered and separated manually. Typical yields were around 15%. Elemental analysis calcd (found) for 2·8H2O: C 52.09 (51.92), H 3.04 (2.94), N 3.50 (3.34). The main text only says that 2 crystallizes from stoichiometric Ln(NO3)3, H2LA and H2LB, without numerical amounts.",
+        "reagents": [
+          {
+            "name": "cerium(III) nitrate hexahydrate",
+            "formula": "Ce(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "6.9 mg, 0.016 mmol"
+          },
+          {
+            "name": "lutetium(III) nitrate hexahydrate",
+            "formula": "Lu(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "15.0 mg, 0.032 mmol"
+          },
+          {
+            "name": "copper(II) chloride dihydrate",
+            "formula": "CuCl2·2H2O",
+            "role": "additive (forms a separate Cu(II) pyridine nitrate phase)",
+            "amount": "2.7 mg, 0.016 mmol"
+          },
+          {
+            "name": "H2LA",
+            "formula": null,
+            "role": "bis-β-diketonate ligand",
+            "amount": "10.2 mg, 0.032 mmol"
+          },
+          {
+            "name": "H2LB",
+            "formula": null,
+            "role": "bis-β-diketonate ligand",
+            "amount": "14.8 mg, 0.032 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexane"
+        ],
+        "temperature": "room temperature",
+        "time": "1 h stirring; crystals after about one month",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by hexane layering",
+        "workup_and_crystallization": "Layered with hexane. Green [Cu(py)4(NO3)2] and an orange oil formed after one week; after one month the oil gave large orange crystals of 2, filtered and separated manually.",
+        "yield": "around 15%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Magnetization, specific heat and X-band CW-EPR of powder 2 isolate the central Ce(III) qubit. Data are reproduced with isotropic g_Ce = 1.85; a weakly axial alternative g = (1.7, 1.7, 2.2) slightly improves the high-field low-temperature magnetization and EPR.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "g_Ce",
+            "value": "1.85",
+            "unit": null,
+            "conditions": "isotropic effective S = 1/2; best simple fit to magnetization, specific heat and CW-EPR of powder 2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g_Ce axial alternative",
+            "value": "(1.7, 1.7, 2.2)",
+            "unit": null,
+            "conditions": "optional axial model; ESI Fig. S8; minor improvement only"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "CW-EPR",
+            "value": null,
+            "unit": null,
+            "conditions": "T = 4.5 K, powder; simulations include nearest-neighbour intermolecular dipolar interactions"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "SI sections 1.1 and 3; Table S1 formula C160H124CeLu2N17O21"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1998121, refcode DUXBEG"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI section 1.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 2.3 and Fig. 2(a–c)"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[ErLaEr]",
+      "formula": "[LaEr2(LA)2(LB)2(py)(H2O)2](NO3)·11py",
+      "ccdc_numbers": [
+        "1998122"
+      ],
+      "ccdc_refcodes": [
+        "DUXBIK"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er",
+          "La"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear trinuclear [LnLn'Ln] bis-β-diketonate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Compound 3 was obtained as yellow crystals by the same procedure as 2, replacing Ce(NO3)3·6H2O and Lu(NO3)3·6H2O with La(NO3)3·6H2O (6.9 mg, 0.016 mmol) and Er(NO3)3·5H2O (13.4 mg, 0.032 mmol). The SI implies the same CuCl2·2H2O, H2LA, H2LB, pyridine and hexane-layering conditions used for 2. Typical yields were around 15%. MS: m/z = 2047.2 for [LaEr2(LA)2(LB)2]+. Elemental analysis calcd (found) for 3·1.5py·7H2O: C 54.03 (53.79), H 3.61 (3.32), N 3.81 (4.16). The main text gives no numerical amounts.",
+        "reagents": [
+          {
+            "name": "lanthanum(III) nitrate hexahydrate",
+            "formula": "La(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "6.9 mg, 0.016 mmol"
+          },
+          {
+            "name": "erbium(III) nitrate pentahydrate",
+            "formula": "Er(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "13.4 mg, 0.032 mmol"
+          },
+          {
+            "name": "copper(II) chloride dihydrate",
+            "formula": "CuCl2·2H2O",
+            "role": "additive (same procedure as 2)",
+            "amount": "2.7 mg, 0.016 mmol"
+          },
+          {
+            "name": "H2LA",
+            "formula": null,
+            "role": "bis-β-diketonate ligand",
+            "amount": "10.2 mg, 0.032 mmol"
+          },
+          {
+            "name": "H2LB",
+            "formula": null,
+            "role": "bis-β-diketonate ligand",
+            "amount": "14.8 mg, 0.032 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexane"
+        ],
+        "temperature": "room temperature",
+        "time": "1 h stirring, then slow crystallization as for 2",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by hexane layering",
+        "workup_and_crystallization": "Same work-up as 2; isolated as yellow crystals.",
+        "yield": "around 15%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Magnetization, specific heat and CW-EPR of powder 3 characterize the two terminal Er(III) qubits in the absence of Ce. The data are fitted with g_Er = (1, 5, 11.5). A zero-field Schottky anomaly indicates a sizeable Er–Er dipolar interaction.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "g_Er",
+            "value": "(1, 5, 11.5)",
+            "unit": null,
+            "conditions": "effective S = 1/2; fit to magnetization, specific heat and CW-EPR of powder 3 at multiple temperatures/fields; EPR at T = 4.5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Er–Er dipolar interaction",
+            "value": null,
+            "unit": null,
+            "conditions": "zero-field specific-heat Schottky peak; point-dipole interaction fixed by g_Er and the Er···Er separation"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "SI sections 1.2 and 3; Table S1 formula C160H124Er2LaN17O21"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1998122, refcode DUXBIK"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI section 1.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 2.3 and Fig. 2(d–f)"
+        }
+      ]
+    }
+  ]
+}

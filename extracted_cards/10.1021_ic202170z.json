@@ -1,0 +1,270 @@
+{
+  "title": "Molecular Assembly and Magnetic Dynamics of Two Novel Dy6 and Dy8 Aggregates",
+  "doi": "10.1021/ic202170z",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy6(ovph)4(Hpvph)2Cl4(H2O)2(CO3)2]·CH3OH·H2O·CH3CN",
+      "formula": "C89H81Cl4Dy6N19O28",
+      "ccdc_numbers": [
+        "842391"
+      ],
+      "ccdc_refcodes": [
+        "BAVVOL"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "triangular-prism Dy6 with three Dy2 petals linked by two carbonato ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A suspension of DyCl3·6H2O (0.2 mmol, 75.4 mg) and H2ovph (54.2 mg, 0.2 mmol) in MeOH/CH3CN (5 mL/10 mL) was treated with Et3N (1.0 mmol, 0.14 mL). CO2 was then bubbled into the reaction mixture for 30 s; the suspension gradually became a clear solution, which was stirred for 6 h and left undisturbed for slow solvent evaporation. Yellow block-shaped single crystals of 2 suitable for X-ray diffraction formed after 1 week.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.2 mmol, 75.4 mg"
+          },
+          {
+            "name": "o-vanillin picolinoylhydrazone",
+            "formula": "H2ovph",
+            "role": "ligand",
+            "amount": "54.2 mg, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "1.0 mmol, 0.14 mL"
+          },
+          {
+            "name": "carbon dioxide",
+            "formula": "CO2",
+            "role": "carbonato source",
+            "amount": "bubbled 30 s"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "CH3CN"
+        ],
+        "temperature": null,
+        "time": "stirred 6 h; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "solution reaction with CO2 bubbling, then slow evaporation",
+        "workup_and_crystallization": "left undisturbed for slow evaporation; yellow block crystals of 2 after 1 week",
+        "yield": "23 mg (23.1% based on the metal salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dy6 SMM: dc χMT at 300 K is 82.1 cm3 K mol−1 (expected 85.02 for six uncoupled DyIII); χMT shows a small maximum (75.3 cm3 K mol−1 at 6 K) attributed to intramolecular ferromagnetic interaction, then a rapid low-T drop. Magnetization does not saturate at high field (>60 kOe, 1.9 K). Zero-field ac data show frequency-dependent χ″ (maximum at 15 K for 1000 Hz). Arrhenius fit of τ at 11–20 K gives Ueff = 76 K and τ0 = 1.2×10−6 s; below ~10 K quantum tunneling dominates and τ reaches 0.2 s near 1.9 K. Cole–Cole plots are symmetrical with α from 0.1 (16 K) to 0.23 (1.9 K), consistent with a single relaxation process.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 82.1,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 75.3,
+            "unit": "cm3 K mol-1",
+            "conditions": "6 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 76,
+            "unit": "K",
+            "conditions": "zero dc field, Arrhenius fit 11–20 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "1.2e-6",
+            "unit": "s",
+            "conditions": "zero dc field, Arrhenius fit 11–20 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ",
+            "value": 0.2,
+            "unit": "s",
+            "conditions": "approaching 1.9 K, zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ″ peak temperature",
+            "value": 15,
+            "unit": "K",
+            "conditions": "1000 Hz, zero static field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.1 to 0.23",
+            "unit": null,
+            "conditions": "16 K to 1.9 K, zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental synthesis of 2; Table 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 842391 / BAVVOL"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties of 2; Figures 5–8"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Dy8(ovph)8(CO3)4(H2O)8]·12CH3CN·6H2O",
+      "formula": "C140H152Dy8N36O50",
+      "ccdc_numbers": [
+        "842392"
+      ],
+      "ccdc_refcodes": [
+        "BAVVUR"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear Dy8 tub conformation with Dy(ovph) fragments on a carbonato core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 2 but using Na2CO3·10H2O instead of CO2. A suspension of DyCl3·6H2O (0.2 mmol, 75.4 mg) and H2ovph (54.2 mg, 0.2 mmol) in MeOH/CH3CN (5 mL/10 mL) was treated with Et3N (1.0 mmol, 0.14 mL). Na2CO3·10H2O (85.8 mg, 0.3 mmol) was added, the mixture was stirred for 6 h and filtered, and the yellow filtrate was left undisturbed for slow evaporation. Red block-shaped single crystals of 3 suitable for X-ray diffraction formed after 1 month.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal salt",
+            "amount": "0.2 mmol, 75.4 mg"
+          },
+          {
+            "name": "o-vanillin picolinoylhydrazone",
+            "formula": "H2ovph",
+            "role": "ligand",
+            "amount": "54.2 mg, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "1.0 mmol, 0.14 mL"
+          },
+          {
+            "name": "sodium carbonate decahydrate",
+            "formula": "Na2CO3·10H2O",
+            "role": "carbonato source",
+            "amount": "85.8 mg, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "CH3CN"
+        ],
+        "temperature": null,
+        "time": "stirred 6 h; crystals after 1 month",
+        "ph": null,
+        "vessel_or_method": "solution reaction, filtration, slow evaporation",
+        "workup_and_crystallization": "filtered; yellow filtrate left for slow evaporation; red block crystals of 3 after 1 month",
+        "yield": "58 mg (52% based on the metal salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Possible Dy8 SMM with a small relaxation barrier. dc χMT at room temperature is 107.4 cm3 K mol−1 (expected 113.4 for eight uncoupled DyIII), remaining roughly constant to 100 K then falling to 82.6 cm3 K mol−1 at 2 K. Reduced magnetization M vs H/T curves (1.9–4 K, 10–70 kOe) do not superimpose, indicating anisotropy. Zero-field ac χ″ is frequency-dependent below 15 K down to 1.9 K without peaks (χ″/χ′ ≈ 1:4 at 1.9 K, 1500 Hz). Applied dc fields of 50–200 Oe have little effect on the ac profile, suggesting zero-field tunneling is not efficient above 1.9 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 107.4,
+            "unit": "cm3 K mol-1",
+            "conditions": "room temperature, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 82.6,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ″/χ′ intensity ratio",
+            "value": "about 1:4",
+            "unit": null,
+            "conditions": "1.9 K, 1500 Hz, zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental synthesis of 3; Table 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 842392 / BAVVUR"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties of 3; Figures 9–11"
+        }
+      ]
+    }
+  ]
+}

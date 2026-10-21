@@ -1,0 +1,228 @@
+{
+  "refcode": "VURMED",
+  "ccdc_number": "1978764",
+  "dois": [
+    "10.1016/j.jre.2020.08.015"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1978764.cif",
+  "formula_moiety": "C64 H64 Gd4 N12 O20,4(C1 H4 O1)",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "P -4 21 c",
+  "international_tables_number": "114",
+  "unit_cell": {
+    "a": "20.2863(6)",
+    "b": "20.2863(6)",
+    "c": "8.8114(3)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "3626.19",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1B",
+        "O2",
+        "O4",
+        "O4C",
+        "O5C"
+      ]
+    },
+    {
+      "label": "Gd1B",
+      "element": "Gd",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O1B",
+        "O2B",
+        "O4",
+        "O4B",
+        "O5"
+      ]
+    },
+    {
+      "label": "Gd1C",
+      "element": "Gd",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1C",
+        "O2C",
+        "O4A",
+        "O4C",
+        "O5A"
+      ]
+    },
+    {
+      "label": "Gd1A",
+      "element": "Gd",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O1C",
+        "O2A",
+        "O4A",
+        "O4B",
+        "O5B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Gd1",
+          "Gd1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1B",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.849,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 109.15,
+            "metal_oxygen_distances_angstrom": [
+              2.362,
+              2.362
+            ]
+          },
+          {
+            "oxygen": "O1B",
+            "angle_deg": 113.33,
+            "metal_oxygen_distances_angstrom": [
+              2.295,
+              2.313
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1",
+          "Gd1C"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O4C"
+        ],
+        "metal_metal_separation_angstrom": 3.849,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 113.33,
+            "metal_oxygen_distances_angstrom": [
+              2.313,
+              2.295
+            ]
+          },
+          {
+            "oxygen": "O4C",
+            "angle_deg": 109.15,
+            "metal_oxygen_distances_angstrom": [
+              2.362,
+              2.362
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1A",
+          "Gd1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1A",
+          "O4B"
+        ],
+        "metal_metal_separation_angstrom": 3.849,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4B",
+            "angle_deg": 109.15,
+            "metal_oxygen_distances_angstrom": [
+              2.362,
+              2.362
+            ]
+          },
+          {
+            "oxygen": "O1A",
+            "angle_deg": 113.33,
+            "metal_oxygen_distances_angstrom": [
+              2.313,
+              2.295
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1A",
+          "Gd1C"
+        ],
+        "shared_oxygen_labels": [
+          "O1C",
+          "O4A"
+        ],
+        "metal_metal_separation_angstrom": 3.849,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1C",
+            "angle_deg": 113.33,
+            "metal_oxygen_distances_angstrom": [
+              2.295,
+              2.313
+            ]
+          },
+          {
+            "oxygen": "O4A",
+            "angle_deg": 109.15,
+            "metal_oxygen_distances_angstrom": [
+              2.362,
+              2.362
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Gd1",
+        "Gd1A",
+        "Gd1B",
+        "Gd1C"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "VURMED crystallizes in the tetragonal crystal system with space group P -4 21 c. Reported CIF formula moiety: C64 H64 Gd4 N12 O20,4(C1 H4 O1). From the CIF bond table, Gd1 (Gd) has 6 O neighbors; Gd1B (Gd) has 6 O neighbors; Gd1C (Gd) has 6 O neighbors; Gd1A (Gd) has 6 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.849-3.849 Å (not direct metal-metal bonds). Computed M-O-M angles span 109.15-113.33°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Gd4(L)4(μ2-CH3O)4]·CH3OH (C65H68Gd4N12O21; H2L = N′-(2-hydroxy-3-methoxybenzylidene)-6-(hydroxymethyl)picolinohydrazide).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.jre.2020.08.015",
+    "formula": "[Gd4(L)4(μ2-CH3O)4]·CH3OH (C65H68Gd4N12O21; H2L = N′-(2-hydroxy-3-methoxybenzylidene)-6-(hydroxymethyl)picolinohydrazide)",
+    "compound_name": "[Gd4(L)4(μ2-CH3O)4]·CH3OH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

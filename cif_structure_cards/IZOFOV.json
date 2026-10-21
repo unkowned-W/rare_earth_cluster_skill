@@ -1,0 +1,110 @@
+{
+  "refcode": "IZOFOV",
+  "ccdc_number": "1021520",
+  "dois": [
+    "10.1039/d1dt01525g"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1021520.cif",
+  "formula_moiety": "C50 H40 Dy2 N6 O12,3(C1 H4 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "10.6137(10)",
+    "b": "10.8593(10)",
+    "c": "11.3970(11)",
+    "alpha": "78.970(2)",
+    "beta": "81.792(2)",
+    "gamma": "87.250(2)",
+    "volume": "1275.83",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O4",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O12",
+        "O13",
+        "O7",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.801,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 107.78,
+            "metal_oxygen_distances_angstrom": [
+              2.365,
+              2.34
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 107.78,
+            "metal_oxygen_distances_angstrom": [
+              2.34,
+              2.365
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "IZOFOV crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C50 H40 Dy2 N6 O12,3(C1 H4 O1). From the CIF bond table, Dy1 (Dy) has 6 O neighbors; Dy2 (Dy) has 6 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 1 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.801-3.801 Å (not direct metal-metal bonds). Computed M-O-M angles span 107.78-107.78°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C53H52Dy2N6O15.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d1dt01525g",
+    "formula": "C53H52Dy2N6O15",
+    "compound_name": "[Dy2(HL)2(C6H5COO)2(CH3OH)2]·3CH3OH",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

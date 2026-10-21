@@ -1,0 +1,249 @@
+{
+  "refcode": "GOMHAT",
+  "ccdc_number": "1013263",
+  "dois": [
+    "10.1021/ic4028833"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1013263.cif",
+  "formula_moiety": "C77 H88 Mn2 N9 O20 Tb3 2+,3(C1 H4 O1),Cl1 O4 1-,N1 O3 1-,H2 O1",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "14.6942(17)",
+    "b": "37.104(4)",
+    "c": "16.773(2)",
+    "alpha": "90.00",
+    "beta": "90.235(3)",
+    "gamma": "90.00",
+    "volume": "9144.79",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O5",
+        "O6",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O13",
+        "O18",
+        "O6",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O14",
+        "O15",
+        "O17",
+        "O18",
+        "O19"
+      ]
+    },
+    {
+      "label": "Mn1",
+      "element": "Mn",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O2",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Mn2",
+      "element": "Mn",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O16",
+        "O17",
+        "O20"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Mn1",
+          "Tb1"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.407,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 101.72,
+            "metal_oxygen_distances_angstrom": [
+              1.913,
+              2.457
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 106.76,
+            "metal_oxygen_distances_angstrom": [
+              1.871,
+              2.358
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Mn2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O14",
+          "O17"
+        ],
+        "metal_metal_separation_angstrom": 3.386,
+        "bridge_geometry": [
+          {
+            "oxygen": "O14",
+            "angle_deg": 104.82,
+            "metal_oxygen_distances_angstrom": [
+              1.872,
+              2.383
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 100.74,
+            "metal_oxygen_distances_angstrom": [
+              1.905,
+              2.467
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.833,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 113.84,
+            "metal_oxygen_distances_angstrom": [
+              2.263,
+              2.312
+            ]
+          },
+          {
+            "oxygen": "O9",
+            "angle_deg": 107.95,
+            "metal_oxygen_distances_angstrom": [
+              2.32,
+              2.419
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O18"
+        ],
+        "metal_metal_separation_angstrom": 3.839,
+        "bridge_geometry": [
+          {
+            "oxygen": "O13",
+            "angle_deg": 108.72,
+            "metal_oxygen_distances_angstrom": [
+              2.426,
+              2.297
+            ]
+          },
+          {
+            "oxygen": "O18",
+            "angle_deg": 113.63,
+            "metal_oxygen_distances_angstrom": [
+              2.332,
+              2.255
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Mn1",
+        "Mn2",
+        "Tb1",
+        "Tb2",
+        "Tb3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "three-dimensional metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "GOMHAT crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C77 H88 Mn2 N9 O20 Tb3 2+,3(C1 H4 O1),Cl1 O4 1-,N1 O3 1-,H2 O1. From the CIF bond table, Tb1 (Tb) has 6 O neighbors; Tb2 (Tb) has 6 O neighbors; Tb3 (Tb) has 6 O neighbors; Mn1 (Mn) has 4 O neighbors; Mn2 (Mn) has 4 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a chain with three-dimensional metal-site arrangement. Computed bridged metal-metal separations span 3.386-3.839 Å (not direct metal-metal bonds). Computed M-O-M angles span 100.74-113.84°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [MnIII2Tb3(LH)4(NO3)(HOCH3)]ClO4·NO3·3CH3OH·H2O. Explicit grouped units in the article formula/name: 1 NO3 (explicit grouped unit in article formula), 1 NO3 (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic4028833",
+    "formula": "[MnIII2Tb3(LH)4(NO3)(HOCH3)]ClO4·NO3·3CH3OH·H2O",
+    "compound_name": "[Mn2Tb3(LH)4(NO3)(HOCH3)]ClO4·NO3·3CH3OH·H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

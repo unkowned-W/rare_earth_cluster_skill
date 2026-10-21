@@ -1,0 +1,414 @@
+{
+  "refcode": "ADUKES",
+  "ccdc_number": "1482432",
+  "dois": [
+    "10.1039/c7ra01469d"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1482432.cif",
+  "formula_moiety": "C90 H98 Dy4 N8 O32 Zn2 2+,4(C1 H4 O1),2(N1 O3 1-)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "16.513(3)",
+    "b": "17.241(3)",
+    "c": "23.807(8)",
+    "alpha": "90",
+    "beta": "120.28(2)",
+    "gamma": "90",
+    "volume": "5853.17",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O11B",
+        "O12B",
+        "O13B",
+        "O15B",
+        "O16",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O12",
+        "O14",
+        "O15",
+        "O2",
+        "O4",
+        "O7"
+      ]
+    },
+    {
+      "label": "Zn1",
+      "element": "Zn",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O15",
+        "O4",
+        "O9B"
+      ]
+    },
+    {
+      "label": "Dy1B",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O11B",
+        "O12",
+        "O13",
+        "O15",
+        "O16B",
+        "O7B",
+        "O8B"
+      ]
+    },
+    {
+      "label": "Dy2B",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O11B",
+        "O12B",
+        "O14B",
+        "O15B",
+        "O1B",
+        "O2B",
+        "O4B",
+        "O7B"
+      ]
+    },
+    {
+      "label": "Zn1B",
+      "element": "Zn",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O15B",
+        "O4B",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy1B"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O11B"
+        ],
+        "metal_metal_separation_angstrom": 3.766,
+        "bridge_geometry": [
+          {
+            "oxygen": "O11",
+            "angle_deg": 108.03,
+            "metal_oxygen_distances_angstrom": [
+              2.3,
+              2.353
+            ]
+          },
+          {
+            "oxygen": "O11B",
+            "angle_deg": 108.03,
+            "metal_oxygen_distances_angstrom": [
+              2.353,
+              2.3
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.889,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 108.07,
+            "metal_oxygen_distances_angstrom": [
+              2.344,
+              2.46
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 113.67,
+            "metal_oxygen_distances_angstrom": [
+              2.3,
+              2.345
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy2B"
+        ],
+        "shared_oxygen_labels": [
+          "O11B",
+          "O12B",
+          "O15B"
+        ],
+        "metal_metal_separation_angstrom": 3.567,
+        "bridge_geometry": [
+          {
+            "oxygen": "O11B",
+            "angle_deg": 98.76,
+            "metal_oxygen_distances_angstrom": [
+              2.353,
+              2.345
+            ]
+          },
+          {
+            "oxygen": "O12B",
+            "angle_deg": 95.81,
+            "metal_oxygen_distances_angstrom": [
+              2.422,
+              2.385
+            ]
+          },
+          {
+            "oxygen": "O15B",
+            "angle_deg": 96.51,
+            "metal_oxygen_distances_angstrom": [
+              2.322,
+              2.457
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Zn1B"
+        ],
+        "shared_oxygen_labels": [
+          "O15B"
+        ],
+        "metal_metal_separation_angstrom": 3.772,
+        "bridge_geometry": [
+          {
+            "oxygen": "O15B",
+            "angle_deg": 121.21,
+            "metal_oxygen_distances_angstrom": [
+              2.322,
+              2.004
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1B",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O12",
+          "O15"
+        ],
+        "metal_metal_separation_angstrom": 3.567,
+        "bridge_geometry": [
+          {
+            "oxygen": "O11",
+            "angle_deg": 98.76,
+            "metal_oxygen_distances_angstrom": [
+              2.353,
+              2.345
+            ]
+          },
+          {
+            "oxygen": "O12",
+            "angle_deg": 95.81,
+            "metal_oxygen_distances_angstrom": [
+              2.422,
+              2.385
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 96.51,
+            "metal_oxygen_distances_angstrom": [
+              2.322,
+              2.457
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1B",
+          "Dy2B"
+        ],
+        "shared_oxygen_labels": [
+          "O11B",
+          "O7B"
+        ],
+        "metal_metal_separation_angstrom": 3.889,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7B",
+            "angle_deg": 108.07,
+            "metal_oxygen_distances_angstrom": [
+              2.344,
+              2.46
+            ]
+          },
+          {
+            "oxygen": "O11B",
+            "angle_deg": 113.67,
+            "metal_oxygen_distances_angstrom": [
+              2.3,
+              2.345
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1B",
+          "Zn1"
+        ],
+        "shared_oxygen_labels": [
+          "O15"
+        ],
+        "metal_metal_separation_angstrom": 3.772,
+        "bridge_geometry": [
+          {
+            "oxygen": "O15",
+            "angle_deg": 121.21,
+            "metal_oxygen_distances_angstrom": [
+              2.322,
+              2.004
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Zn1"
+        ],
+        "shared_oxygen_labels": [
+          "O15",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.609,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 107.89,
+            "metal_oxygen_distances_angstrom": [
+              2.359,
+              2.101
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 107.54,
+            "metal_oxygen_distances_angstrom": [
+              2.457,
+              2.004
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2B",
+          "Zn1B"
+        ],
+        "shared_oxygen_labels": [
+          "O15B",
+          "O4B"
+        ],
+        "metal_metal_separation_angstrom": 3.609,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4B",
+            "angle_deg": 107.89,
+            "metal_oxygen_distances_angstrom": [
+              2.359,
+              2.101
+            ]
+          },
+          {
+            "oxygen": "O15B",
+            "angle_deg": 107.54,
+            "metal_oxygen_distances_angstrom": [
+              2.457,
+              2.004
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy1B",
+        "Dy2",
+        "Dy2B",
+        "Zn1",
+        "Zn1B"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ADUKES crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C90 H98 Dy4 N8 O32 Zn2 2+,4(C1 H4 O1),2(N1 O3 1-). From the CIF bond table, Dy1 (Dy) has 8 O neighbors; Dy2 (Dy) has 8 O neighbors; Zn1 (Zn) has 3 O neighbors; Dy1B (Dy) has 8 O neighbors; Dy2B (Dy) has 8 O neighbors; Zn1B (Zn) has 3 O neighbors. Oxygen-bridged metal-site graph: 9 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.567-3.889 Å (not direct metal-metal bonds). Computed M-O-M angles span 95.81-121.21°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C95H118Dy4N10O43Zn2. Explicit grouped units in the article formula/name: 4 OH (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c7ra01469d",
+    "formula": "C95H118Dy4N10O43Zn2",
+    "compound_name": "[Zn2Dy4(HL)4(o-vanilline)2(OH)4(CH3OH)2]·2NO3·5CH3OH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 4,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

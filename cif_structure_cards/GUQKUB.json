@@ -1,0 +1,80 @@
+{
+  "refcode": "GUQKUB",
+  "ccdc_number": "1939528",
+  "dois": [
+    "10.1016/j.matt.2020.06.020"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1939528.cif",
+  "formula_moiety": "C320 H788 La76 N84 Ni88 O614 64+,158(H2 O1),64(N1 O3 1-)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "27.2114(4)",
+    "b": "34.5452(5)",
+    "c": "37.6960(6)",
+    "alpha": "112.595(2)",
+    "beta": "104.0250(10)",
+    "gamma": "98.3780(10)",
+    "volume": "30591.1",
+    "Z": "1"
+  },
+  "metal_sites": [],
+  "atom_sites_available": false,
+  "bond_table_available": false,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "undetermined (missing bonds, symmetry links, or consistent periodic-image geometry)",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "GUQKUB crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C320 H788 La76 N84 Ni88 O614 64+,158(H2 O1),64(N1 O3 1-). Metal?O coordination is not determined because atom sites or bond data are absent. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula [La76Ni88(IDA)80(OH)176(NO3)6(H2O)114]·(NO3)62·(H2O)150. Explicit grouped units in the article formula/name: 176 OH (explicit grouped unit in article formula), 6 NO3 (explicit grouped unit in article formula), 114 H2O (explicit grouped unit in article formula), 62 NO3 (explicit grouped unit in article formula), 150 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.matt.2020.06.020",
+    "formula": "[La76Ni88(IDA)80(OH)176(NO3)6(H2O)114]·(NO3)62·(H2O)150",
+    "compound_name": "Lanthanum–nickel iminodiacetate hydroxide cluster La76Ni88",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "insufficient_graph",
+    "nuclearity": 164,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count",
+    "reason": "missing links or omitted symmetry bonds"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 176,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 6,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 114,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 62,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 150,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

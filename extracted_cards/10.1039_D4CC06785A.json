@@ -1,0 +1,178 @@
+{
+  "title": "Coupling Dy3 toroics in macrocycles",
+  "doi": "10.1039/d4cc06785a",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy6(μ3-OH)4(μ2-OH)2(L)Br2(H2O)10]Br6·2CH3CH2OH·2CH3CN·2H2O",
+      "formula": "[Dy6(μ3-OH)4(μ2-OH)2(L)Br2(H2O)10]Br6·2CH3CH2OH·2CH3CN·2H2O",
+      "ccdc_numbers": [
+        "2411796"
+      ],
+      "ccdc_refcodes": [
+        "YUWQUG"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "macrocycle-encapsulated edge-to-edge coupled Dy3 triangles"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "One-pot synthesis in which the macrocyclic ligand L forms in situ by [2+2] condensation. 4,6-Dihydrazinopyrimidine (0.1 mmol) was dissolved in ethanol/acetonitrile (5 mL/10 mL). DyBr3·6H2O (0.2 mmol) and 3,3'-(propane-1,3-diylbis(oxy))bis(2-hydroxybenzaldehyde) (0.1 mmol) were added sequentially and the mixture was stirred for 10 min. Triethylamine (0.15 mmol) was then added and stirring continued for 6 h. The mixture was filtered and the yellow filtrate was left undisturbed for slow evaporation for one week, giving yellow crystals of 1. The main text only names the same reagents and slow evaporation, without quantities.",
+        "reagents": [
+          {
+            "name": "4,6-dihydrazinopyrimidine",
+            "formula": null,
+            "role": "macrocycle precursor",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "3,3'-(propane-1,3-diylbis(oxy))bis(2-hydroxybenzaldehyde)",
+            "formula": null,
+            "role": "macrocycle precursor",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "dysprosium(III) bromide hexahydrate",
+            "formula": "DyBr3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.15 mmol"
+          },
+          {
+            "name": "ethanol",
+            "formula": "C2H5OH",
+            "role": "solvent",
+            "amount": "5 mL"
+          },
+          {
+            "name": "acetonitrile",
+            "formula": "CH3CN",
+            "role": "solvent",
+            "amount": "10 mL"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "acetonitrile"
+        ],
+        "temperature": null,
+        "time": "10 min, then 6 h stirring, then one week slow evaporation",
+        "ph": null,
+        "vessel_or_method": "one-pot solution reaction followed by filtration and slow evaporation",
+        "workup_and_crystallization": "Filtered to a yellow clear filtrate and left undisturbed for slow evaporation for one week to give yellow crystals.",
+        "yield": "21.1 mg (21.5% based on the metal salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Complex 1 is an SMM with two closely spaced relaxation processes and a diamagnetic ground state assigned to toroidal arrangement of Dy(III) moments (SMT). χMT falls from 83.36 cm3 K mol−1 at room temperature to 16.36 cm3 K mol−1 at 2 K, consistent with antiferromagnetic interactions. Magnetization at 1.9 K shows an inflection near 10 kOe and does not saturate (34.90 μB at 70 kOe). Arrhenius barriers are 18.04 K (fast) and 15.51 K (slow). Ab initio results indicate nearly axial ground Kramers doublets, in-plane circular anisotropy, antiferromagnetic exchange within each Dy3 triangle and ferromagnetic coupling between the triangles; the exchange-doublet span (10.4 cm−1) is close to the experimental barrier.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "83.36",
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1 kOe dc field, polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "16.36",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected χMT for six uncoupled Dy(III)",
+            "value": "85.02",
+            "unit": "cm3 K mol−1",
+            "conditions": "6H15/2, S = 5/2, L = 5, g = 4/3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "34.90",
+            "unit": "μB",
+            "conditions": "70 kOe, 1.9 K; 0–70 kOe also measured at 3.0 and 5.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (fast relaxation)",
+            "value": "18.04",
+            "unit": "K",
+            "conditions": "zero dc field, 3.0 Oe ac field; two modified Debye fits; τ0 = 3.34×10−5 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (slow relaxation)",
+            "value": "15.51",
+            "unit": "K",
+            "conditions": "zero dc field, 3.0 Oe ac field; τ0 = 8.91×10−4 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "calculated local energy barriers",
+            "value": "0.0, 63.5, 165.5",
+            "unit": "cm−1",
+            "conditions": "CASSCF/SINGLE_ANISO basis set 2 for Dy1, Dy2 and Dy3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ground exchange-state gz",
+            "value": "29.233",
+            "unit": null,
+            "conditions": "POLY_ANISO lowest exchange doublet of 1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange-doublet energy span",
+            "value": "10.4",
+            "unit": "cm−1",
+            "conditions": "gap between ground and highest exchange doublets"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "paragraph introducing complex 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC row YUWQUG / 2411796"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "ESI Experimental section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetic discussion, Figs. 2–4"
+        }
+      ]
+    }
+  ]
+}

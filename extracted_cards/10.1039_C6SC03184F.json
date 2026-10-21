@@ -1,0 +1,273 @@
+{
+  "title": "Exchange-bias quantum tunnelling in a CO2-based Dy4 single-molecule magnet",
+  "doi": "10.1039/c6sc03184f",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "tetrakis(dysprosium(III)) dodeca(diisopropylcarbamate) toluene solvate",
+      "formula": "[Dy4(O2CN^iPr2)12]·2C7H8",
+      "ccdc_numbers": [
+        "1483884"
+      ],
+      "ccdc_refcodes": [
+        "UWUKUU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "homoleptic tetranuclear carbamate cage"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": true,
+        "procedure": "Under argon using standard Schlenk technique, anhydrous DyCl3 (6 mmol) in a 100 mL Schlenk tube was heated at 120 °C under vacuum (about 10^-3 mbar) for 1.5 h, cooled to room temperature, and treated with 50 mL dry toluene and 5 mL freshly distilled diisopropylamine. After stirring for 1.5 h, dried CO2 was bubbled through the mixture for about 20 min and the tube was sealed under 1 atm CO2. Stirring was continued for 4 days. The cloudy mixture was filtered and the clear filtrate was kept at 5 °C, giving colourless block crystals after 1 day. The main text describes the same reaction as anhydrous dysprosium chloride with a six-fold excess of diisopropylamine and CO2 in dry toluene.",
+        "reagents": [
+          {
+            "name": "anhydrous dysprosium(III) chloride",
+            "formula": "DyCl3",
+            "role": "metal source",
+            "amount": "6 mmol"
+          },
+          {
+            "name": "diisopropylamine",
+            "formula": "NH^iPr2",
+            "role": "amine for carbamate formation",
+            "amount": "5 mL (main text: six-fold excess)"
+          },
+          {
+            "name": "carbon dioxide",
+            "formula": "CO2",
+            "role": "carbamate carbon source",
+            "amount": "bubbled about 20 min, then sealed under 1 atm"
+          },
+          {
+            "name": "toluene",
+            "formula": "C7H8",
+            "role": "solvent",
+            "amount": "50 mL"
+          }
+        ],
+        "solvents": [
+          "toluene"
+        ],
+        "temperature": "120 °C drying, then room temperature; crystallization at 5 °C",
+        "time": "1.5 h vacuum drying; 1.5 h after amine addition; about 20 min CO2 bubbling; 4 days stirring; crystals after 1 day at 5 °C",
+        "ph": null,
+        "vessel_or_method": "100 mL Schlenk tube under argon; CO2 atmosphere after sealing",
+        "workup_and_crystallization": "Filtration of the cloudy mixture; clear filtrate stored at 5 °C to give colourless block-shaped crystals.",
+        "yield": "70%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Compound 1 is a Dy4 single-molecule magnet. DC susceptibility shows depopulation of crystal-field levels and antiferromagnetic interactions. AC data give slow relaxation at zero field and a modestly higher barrier under 1.5 kOe. Micro-SQUID loops open below 2 K and show exchange-biased quantum tunnelling arising from coexisting antiferromagnetic (short Dy···Dy) and ferromagnetic (longer Dy···Dy) pathways.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "chi_M T",
+            "value": "56.3",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "room temperature, DC field 1 kOe; expected 56.7 cm^3 K mol^-1 for four non-interacting Dy(III)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "chi_M T",
+            "value": "24.3",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "low temperature after a sharp drop below about 30 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "U_eff",
+            "value": "25.7(1)",
+            "unit": "K",
+            "conditions": "zero DC field; Arrhenius fit of AC data, 7.5–10 K; tau_0 = 6.7(1)×10^-6 s; alpha 0.07–0.45; AC oscillating field 3.5 Oe; chi'' maximum about 3.8 K at 1.5 kHz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "U_eff",
+            "value": "31.1(1)",
+            "unit": "K",
+            "conditions": "optimal DC field 1.5 kOe; fit above 7.5 K; tau_0 = 2.55(1)×10^-6 s; 0.008 < alpha < 0.015; chi'' maximum about 6 K at 1.5 kHz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "U_eff'",
+            "value": "7.0",
+            "unit": "K",
+            "conditions": "micro-SQUID relaxation; linear fit 0.45–1.5 K; quantum regime below 0.2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1",
+            "value": "-0.022",
+            "unit": "K",
+            "conditions": "antiferromagnetic exchange projected onto m_J = 15/2 along the short Dy···Dy edges; rescaled S_eff = 1/2 value J1 = -4.95 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J2",
+            "value": "0.030",
+            "unit": "K",
+            "conditions": "ferromagnetic exchange projected onto m_J = 15/2 along the longer Dy···Dy contacts; rescaled S_eff = 1/2 value J2x = +6.75 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "hysteresis opening temperature",
+            "value": "below 2",
+            "unit": "K",
+            "conditions": "oriented single crystal, micro-SQUID, 0.03–2 K; coercivity increases with sweep rate and on cooling"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Synthesis and structure"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC UWUKUU / 1483884"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Synthesis and structure; Fig. 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Section A, Synthesis of 1 and 2"
+        },
+        {
+          "field": "synthesis.yield",
+          "source": "main_text",
+          "location": "Synthesis and structure"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetism DC and AC measurements; micro-SQUID discussion; Figs. 3 and 4"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "tetrakis(gadolinium(III)) dodeca(diisopropylcarbamate)",
+      "formula": "[Gd4(O2CN^iPr2)12]",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "isotropic Gd4 analogue of the homoleptic tetranuclear carbamate cage"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Prepared by the same Schlenk procedure as compound 1, using anhydrous GdCl3 instead of DyCl3. Anhydrous LnCl3 (6 mmol) was heated at 120 °C under vacuum (about 10^-3 mbar) for 1.5 h, cooled, and combined with 50 mL dry toluene and 5 mL diisopropylamine. After 1.5 h, dried CO2 was bubbled for about 20 min, the tube was sealed under 1 atm CO2, and the slurry was stirred for 4 days, filtered, and crystallized at 5 °C.",
+        "reagents": [
+          {
+            "name": "anhydrous gadolinium(III) chloride",
+            "formula": "GdCl3",
+            "role": "metal source",
+            "amount": "6 mmol"
+          },
+          {
+            "name": "diisopropylamine",
+            "formula": "NH^iPr2",
+            "role": "amine for carbamate formation",
+            "amount": "5 mL"
+          },
+          {
+            "name": "carbon dioxide",
+            "formula": "CO2",
+            "role": "carbamate carbon source",
+            "amount": "bubbled about 20 min, then sealed under 1 atm"
+          },
+          {
+            "name": "toluene",
+            "formula": "C7H8",
+            "role": "solvent",
+            "amount": "50 mL"
+          }
+        ],
+        "solvents": [
+          "toluene"
+        ],
+        "temperature": "120 °C drying, then room temperature; crystallization at 5 °C",
+        "time": "1.5 h vacuum drying; 1.5 h after amine addition; about 20 min CO2 bubbling; 4 days stirring; crystals after 1 day at 5 °C",
+        "ph": null,
+        "vessel_or_method": "100 mL Schlenk tube under argon; CO2 atmosphere after sealing",
+        "workup_and_crystallization": "Filtration; filtrate kept at 5 °C.",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "The Gd4 analogue was used as the isotropic model of the Dy4 cage. Simultaneous fitting of chi_M T and magnetization supports two exchange pathways, one antiferromagnetic and one ferromagnetic, consistent with the two crystallographically distinct metal–metal contacts.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "J1",
+            "value": "-0.058(1)",
+            "unit": "K",
+            "conditions": "SI Fig. S7; two-J fit of chi_M T and M(H) using two Gd···Gd pathways"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J2",
+            "value": "0.012(1)",
+            "unit": "K",
+            "conditions": "SI Fig. S7; two-J fit of chi_M T and M(H)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J",
+            "value": "-0.029(1)",
+            "unit": "K",
+            "conditions": "SI Fig. S7; single-exchange fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g",
+            "value": "2.00",
+            "unit": null,
+            "conditions": "Brillouin reference for four Gd(III) ions in Fig. S7"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Magnetic analysis paragraph introducing compound 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Section A, Synthesis of 1 and 2"
+        },
+        {
+          "field": "properties",
+          "source": "supporting_information",
+          "location": "Figure S7 caption"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "refcode": "YIGKOP",
+  "ccdc_number": "637493",
+  "dois": [
+    "10.1021/ic070253u"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\637493.cif",
+  "formula_moiety": "C60 H132 O12 Tm4",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "P -4 21 c",
+  "international_tables_number": "114",
+  "unit_cell": {
+    "a": "20.2106(17)",
+    "b": "20.2106(17)",
+    "c": "12.045(2)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "4920",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Tm1",
+      "element": "Tm",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1C",
+        "O2",
+        "O2B",
+        "O3"
+      ]
+    },
+    {
+      "label": "Tm1B",
+      "element": "Tm",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1B",
+        "O2A",
+        "O2B",
+        "O3B"
+      ]
+    },
+    {
+      "label": "Tm1A",
+      "element": "Tm",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O1B",
+        "O2A",
+        "O2C",
+        "O3A"
+      ]
+    },
+    {
+      "label": "Tm1C",
+      "element": "Tm",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O1C",
+        "O2",
+        "O2C",
+        "O3C"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tm1",
+          "Tm1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2B"
+        ],
+        "metal_metal_separation_angstrom": 3.514,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 105.12,
+            "metal_oxygen_distances_angstrom": [
+              2.209,
+              2.217
+            ]
+          },
+          {
+            "oxygen": "O2B",
+            "angle_deg": 102.74,
+            "metal_oxygen_distances_angstrom": [
+              2.226,
+              2.272
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tm1",
+          "Tm1C"
+        ],
+        "shared_oxygen_labels": [
+          "O1C",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.514,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 102.74,
+            "metal_oxygen_distances_angstrom": [
+              2.272,
+              2.226
+            ]
+          },
+          {
+            "oxygen": "O1C",
+            "angle_deg": 105.12,
+            "metal_oxygen_distances_angstrom": [
+              2.217,
+              2.209
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tm1A",
+          "Tm1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1B",
+          "O2A"
+        ],
+        "metal_metal_separation_angstrom": 3.514,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1B",
+            "angle_deg": 105.12,
+            "metal_oxygen_distances_angstrom": [
+              2.217,
+              2.209
+            ]
+          },
+          {
+            "oxygen": "O2A",
+            "angle_deg": 102.74,
+            "metal_oxygen_distances_angstrom": [
+              2.272,
+              2.226
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tm1A",
+          "Tm1C"
+        ],
+        "shared_oxygen_labels": [
+          "O1A",
+          "O2C"
+        ],
+        "metal_metal_separation_angstrom": 3.514,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1A",
+            "angle_deg": 105.12,
+            "metal_oxygen_distances_angstrom": [
+              2.209,
+              2.217
+            ]
+          },
+          {
+            "oxygen": "O2C",
+            "angle_deg": 102.74,
+            "metal_oxygen_distances_angstrom": [
+              2.226,
+              2.272
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tm1",
+        "Tm1A",
+        "Tm1B",
+        "Tm1C"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "YIGKOP crystallizes in the tetragonal crystal system with space group P -4 21 c. Reported CIF formula moiety: C60 H132 O12 Tm4. From the CIF bond table, Tm1 (Tm) has 5 O neighbors; Tm1B (Tm) has 5 O neighbors; Tm1A (Tm) has 5 O neighbors; Tm1C (Tm) has 5 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.514-3.514 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.74-105.12°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C60H132O12Tm4.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic070253u",
+    "formula": "C60H132O12Tm4",
+    "compound_name": "[Tm(μ-ONep)2(ONep)]4",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

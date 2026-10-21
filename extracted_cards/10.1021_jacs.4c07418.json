@@ -1,0 +1,778 @@
+{
+  "title": "Distortion Engineering: A Strategy to Modulate Molecular Upconversion with Molecular Cluster-Aggregates",
+  "doi": "10.1021/jacs.4c07418",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "{Gd8Er2Yb10} MCA",
+      "formula": "[Gd8Er2Yb10(chp)30(CO3)12(NO3)6(H2O)6]·H2O",
+      "ccdc_numbers": [
+        "2357809"
+      ],
+      "ccdc_refcodes": [
+        "CUCMAS"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd",
+          "Er",
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "{Ln20} molecular cluster-aggregate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Following a modified Zheng procedure, Gd(NO3)3·6H2O (180.5 mg), Er(NO3)3·6H2O (44.3 mg), Yb(NO3)3·6H2O (224.5 mg), and 6-chloro-2-pyridinol (134 mg, 1.00 mmol) were added to 20 mL of MeOH/MeCN (1:1), then triethylamine (0.139 mL, 1.00 mmol) was added. After 12 h the solution was filtered and left undisturbed in an open vial for solvent evaporation at room temperature. Colorless block-like single crystals formed in 5–10 days.",
+        "reagents": [
+          {
+            "name": "gadolinium nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "180.5 mg"
+          },
+          {
+            "name": "erbium nitrate hexahydrate",
+            "formula": "Er(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "44.3 mg"
+          },
+          {
+            "name": "ytterbium nitrate hexahydrate",
+            "formula": "Yb(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "224.5 mg"
+          },
+          {
+            "name": "6-chloro-2-pyridinol",
+            "formula": "C5H4ClNO",
+            "role": "ligand",
+            "amount": "134 mg, 1.00 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.139 mL, 1.00 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH/MeCN (1:1)"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h stirring, then 5–10 days crystallization",
+        "ph": null,
+        "vessel_or_method": "open vial, solvent evaporation",
+        "workup_and_crystallization": "solution filtered after 12 h and left undisturbed for evaporation; colorless block-like single crystals",
+        "yield": "41–58% (range for the MCA series)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Yb/Er molecular upconverter in deuterated methanol; two-photon UC with green (~550 nm, 4S3/2→4I15/2) and red (~667 nm, 4F9/2→4I15/2) bands. UCQY 7.2×10−6 %. Average lifetimes 146 μs (green) and 236 μs (red). First TCL luminescent thermometer based on molecular upconverters; SR max 1.64% K−1 at 268 K.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "upconversion quantum yield",
+            "value": "7.2e-6",
+            "unit": "%",
+            "conditions": "solution; 980 nm excitation; {Gd20} used as blank"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime",
+            "value": 146,
+            "unit": "μs",
+            "conditions": "4S3/2→4I15/2, 550 nm band"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime",
+            "value": 236,
+            "unit": "μs",
+            "conditions": "4F9/2→4I15/2, 667 nm band"
+          },
+          {
+            "property_type": "optical",
+            "name": "relative thermal sensitivity SR",
+            "value": 1.64,
+            "unit": "% K−1",
+            "conditions": "TCL thermometer; maximum at −5 °C (268 K); 980 nm, P = 20 W cm−2"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Results and Discussion, Characterization of the Heterometallic Upconverters"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Introduction; general {Ln20} formula"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Accession Codes CCDC 2357809–2357816"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row CUCMAS"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Procedures, Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 1; Figure 4; Figure 5"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "{Ce2Gd6Er2Yb10} MCA",
+      "formula": "[Ce2Gd6Er2Yb10(chp)30(CO3)12(NO3)6(H2O)6]·H2O",
+      "ccdc_numbers": [
+        "2357810"
+      ],
+      "ccdc_refcodes": [
+        "CUCMEW"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ce",
+          "Gd",
+          "Er",
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "{Ln20} molecular cluster-aggregate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general procedure as 1 using Ce(NO3)3·6H2O (43.4 mg), Gd(NO3)3·6H2O (135.4 mg), Er(NO3)3·6H2O (44.3 mg), Yb(NO3)3·6H2O (224.5 mg), 6-chloro-2-pyridinol (134 mg, 1.00 mmol), and triethylamine (0.139 mL, 1.00 mmol) in 20 mL MeOH/MeCN (1:1). After 12 h the solution was filtered and crystallized by evaporation at room temperature (5–10 days).",
+        "reagents": [
+          {
+            "name": "cerium nitrate hexahydrate",
+            "formula": "Ce(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "43.4 mg"
+          },
+          {
+            "name": "gadolinium nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "135.4 mg"
+          },
+          {
+            "name": "erbium nitrate hexahydrate",
+            "formula": "Er(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "44.3 mg"
+          },
+          {
+            "name": "ytterbium nitrate hexahydrate",
+            "formula": "Yb(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "224.5 mg"
+          },
+          {
+            "name": "6-chloro-2-pyridinol",
+            "formula": "C5H4ClNO",
+            "role": "ligand",
+            "amount": "134 mg, 1.00 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.139 mL, 1.00 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH/MeCN (1:1)"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h stirring, then 5–10 days crystallization",
+        "ph": null,
+        "vessel_or_method": "open vial, solvent evaporation",
+        "workup_and_crystallization": "filtered after 12 h; colorless block-like single crystals",
+        "yield": "41–58% (range for the MCA series)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Ce doping increases UCQY relative to 1 via site distortion and Ce-mediated cross-relaxation that enhances the red Er emission. UCQY 1.6×10−5 %. Emitter lifetimes shorten versus 1. TCL SR max 1.08% K−1 at 268 K.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "upconversion quantum yield",
+            "value": "1.6e-5",
+            "unit": "%",
+            "conditions": "solution; 980 nm excitation; Table 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "relative thermal sensitivity SR",
+            "value": 1.08,
+            "unit": "% K−1",
+            "conditions": "TCL thermometer; maximum at −5 °C (268 K)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Results and Discussion"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2357810 / CUCMEW"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Procedures, Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 1; Figure 4; Figure 5"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "{Ce5Gd3Er2Yb10} MCA",
+      "formula": "[Ce5Gd3Er2Yb10(chp)30(CO3)12(NO3)6(H2O)6]·H2O",
+      "ccdc_numbers": [
+        "2357811"
+      ],
+      "ccdc_refcodes": [
+        "CUCMIA"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ce",
+          "Gd",
+          "Er",
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "{Ln20} molecular cluster-aggregate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general procedure as 1 using Ce(NO3)3·6H2O (108.5 mg), Gd(NO3)3·6H2O (67.7 mg), Er(NO3)3·6H2O (44.3 mg), Yb(NO3)3·6H2O (224.5 mg), 6-chloro-2-pyridinol (134 mg, 1.00 mmol), and triethylamine (0.139 mL, 1.00 mmol) in 20 mL MeOH/MeCN (1:1). After 12 h the solution was filtered and crystallized by evaporation at room temperature (5–10 days).",
+        "reagents": [
+          {
+            "name": "cerium nitrate hexahydrate",
+            "formula": "Ce(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "108.5 mg"
+          },
+          {
+            "name": "gadolinium nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "67.7 mg"
+          },
+          {
+            "name": "erbium nitrate hexahydrate",
+            "formula": "Er(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "44.3 mg"
+          },
+          {
+            "name": "ytterbium nitrate hexahydrate",
+            "formula": "Yb(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "224.5 mg"
+          },
+          {
+            "name": "6-chloro-2-pyridinol",
+            "formula": "C5H4ClNO",
+            "role": "ligand",
+            "amount": "134 mg, 1.00 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.139 mL, 1.00 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH/MeCN (1:1)"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h stirring, then 5–10 days crystallization",
+        "ph": null,
+        "vessel_or_method": "open vial, solvent evaporation",
+        "workup_and_crystallization": "filtered after 12 h; colorless block-like single crystals",
+        "yield": "41–58% (range for the MCA series)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Highest UCQY of the series (3.3×10−5 %) due to stronger Ce-induced core distortion and cross-relaxation. TCL SR max 0.86% K−1 at 268 K, lower than 1 and 2.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "upconversion quantum yield",
+            "value": "3.3e-5",
+            "unit": "%",
+            "conditions": "solution; 980 nm excitation; Table 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "relative thermal sensitivity SR",
+            "value": 0.86,
+            "unit": "% K−1",
+            "conditions": "TCL thermometer; maximum at −5 °C (268 K)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Results and Discussion"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2357811 / CUCMIA"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Procedures, Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 1; Figure 5"
+        }
+      ]
+    },
+    {
+      "compound_label": "{Nd20}",
+      "compound_name": "{Nd20} MCA",
+      "formula": "[Nd20(chp)30(CO3)12(NO3)6(H2O)6]·H2O",
+      "ccdc_numbers": [
+        "2357812"
+      ],
+      "ccdc_refcodes": [
+        "CUCMOG"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Nd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "{Ln20} molecular cluster-aggregate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general MCA synthesis: Ln(NO3)3·6H2O (1.00 mmol; 438.3 mg for Nd) and 6-chloro-2-pyridinol (134 mg, 1.00 mmol) in 20 mL MeOH/MeCN (1:1) with triethylamine (0.139 mL, 1.00 mmol). After 12 h, filter and crystallize by evaporation at room temperature (5–10 days).",
+        "reagents": [
+          {
+            "name": "neodymium nitrate hexahydrate",
+            "formula": "Nd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "438.3 mg (1.00 mmol)"
+          },
+          {
+            "name": "6-chloro-2-pyridinol",
+            "formula": "C5H4ClNO",
+            "role": "ligand",
+            "amount": "134 mg, 1.00 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.139 mL, 1.00 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH/MeCN (1:1)"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h stirring, then 5–10 days crystallization",
+        "ph": null,
+        "vessel_or_method": "open vial, solvent evaporation",
+        "workup_and_crystallization": "filtered after 12 h; colorless block-like single crystals",
+        "yield": "41–58% (range for the MCA series)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Experimental Procedures, Synthesis and Single-Crystal X-ray Crystallography"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2357812 / CUCMOG"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Procedures, Synthesis"
+        }
+      ]
+    },
+    {
+      "compound_label": "{Gd20}",
+      "compound_name": "{Gd20} MCA",
+      "formula": "[Gd20(chp)30(CO3)12(NO3)6(H2O)6]·H2O",
+      "ccdc_numbers": [
+        "2357813"
+      ],
+      "ccdc_refcodes": [
+        "CUCMUM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "{Ln20} molecular cluster-aggregate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general MCA synthesis using Gd(NO3)3·6H2O (451.3 mg, 1.00 mmol), 6-chloro-2-pyridinol (134 mg, 1.00 mmol), and triethylamine (0.139 mL, 1.00 mmol) in 20 mL MeOH/MeCN (1:1). After 12 h, filter and crystallize by evaporation at room temperature (5–10 days). SCXRD collected at 200 K.",
+        "reagents": [
+          {
+            "name": "gadolinium nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "451.3 mg (1.00 mmol)"
+          },
+          {
+            "name": "6-chloro-2-pyridinol",
+            "formula": "C5H4ClNO",
+            "role": "ligand",
+            "amount": "134 mg, 1.00 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.139 mL, 1.00 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH/MeCN (1:1)"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h stirring, then 5–10 days crystallization",
+        "ph": null,
+        "vessel_or_method": "open vial, solvent evaporation",
+        "workup_and_crystallization": "filtered after 12 h; colorless block-like single crystals",
+        "yield": "41–58% (range for the MCA series)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": "Used as optically silent blank reference for absolute UCQY (no absorption at 980 nm); no magnetic or optical measurements of the Gd20 cluster itself are reported as target properties.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Experimental Procedures"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2357813 / CUCMUM"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Procedures, Synthesis"
+        }
+      ]
+    },
+    {
+      "compound_label": "{Dy20}",
+      "compound_name": "{Dy20} MCA",
+      "formula": "[Dy20(chp)30(CO3)12(NO3)6(H2O)6]·2H2O",
+      "ccdc_numbers": [
+        "2357814"
+      ],
+      "ccdc_refcodes": [
+        "CUCNAT"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "{Ln20} molecular cluster-aggregate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general MCA synthesis using Dy(NO3)3·6H2O (456.6 mg), 6-chloro-2-pyridinol (134 mg, 1.00 mmol), and triethylamine (0.139 mL, 1.00 mmol) in 20 mL MeOH/MeCN (1:1). After 12 h, filter and crystallize by evaporation at room temperature (5–10 days).",
+        "reagents": [
+          {
+            "name": "dysprosium nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "456.6 mg"
+          },
+          {
+            "name": "6-chloro-2-pyridinol",
+            "formula": "C5H4ClNO",
+            "role": "ligand",
+            "amount": "134 mg, 1.00 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.139 mL, 1.00 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH/MeCN (1:1)"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h stirring, then 5–10 days crystallization",
+        "ph": null,
+        "vessel_or_method": "open vial, solvent evaporation",
+        "workup_and_crystallization": "filtered after 12 h; colorless block-like single crystals; crystal data exhibited twinning by merohedry",
+        "yield": "41–58% (range for the MCA series)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Experimental Procedures"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2357814 / CUCNAT"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Procedures, Synthesis"
+        }
+      ]
+    },
+    {
+      "compound_label": "{Ho20}",
+      "compound_name": "{Ho20} MCA",
+      "formula": "[Ho20(chp)30(CO3)12(NO3)6(H2O)6]·H2O",
+      "ccdc_numbers": [
+        "2357815"
+      ],
+      "ccdc_refcodes": [
+        "CUCNEX"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "{Ln20} molecular cluster-aggregate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general MCA synthesis using Ho(NO3)3·6H2O (441 mg), 6-chloro-2-pyridinol (134 mg, 1.00 mmol), and triethylamine (0.139 mL, 1.00 mmol) in 20 mL MeOH/MeCN (1:1). After 12 h, filter and crystallize by evaporation at room temperature (5–10 days).",
+        "reagents": [
+          {
+            "name": "holmium nitrate hexahydrate",
+            "formula": "Ho(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "441 mg"
+          },
+          {
+            "name": "6-chloro-2-pyridinol",
+            "formula": "C5H4ClNO",
+            "role": "ligand",
+            "amount": "134 mg, 1.00 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.139 mL, 1.00 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH/MeCN (1:1)"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h stirring, then 5–10 days crystallization",
+        "ph": null,
+        "vessel_or_method": "open vial, solvent evaporation",
+        "workup_and_crystallization": "filtered after 12 h; colorless block-like single crystals; nonmerohedral refinement (HKLF 5)",
+        "yield": "41–58% (range for the MCA series)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Experimental Procedures"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2357815 / CUCNEX"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Procedures, Synthesis"
+        }
+      ]
+    },
+    {
+      "compound_label": "{Er20}",
+      "compound_name": "{Er20} MCA",
+      "formula": "[Er20(chp)30(CO3)12(NO3)6(H2O)6]·H2O",
+      "ccdc_numbers": [
+        "2357816"
+      ],
+      "ccdc_refcodes": [
+        "CUCNIB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "{Ln20} molecular cluster-aggregate"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same general MCA synthesis using Er(NO3)3·6H2O (443.3 mg), 6-chloro-2-pyridinol (134 mg, 1.00 mmol), and triethylamine (0.139 mL, 1.00 mmol) in 20 mL MeOH/MeCN (1:1). After 12 h, filter and crystallize by evaporation at room temperature (5–10 days).",
+        "reagents": [
+          {
+            "name": "erbium nitrate hexahydrate",
+            "formula": "Er(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "443.3 mg"
+          },
+          {
+            "name": "6-chloro-2-pyridinol",
+            "formula": "C5H4ClNO",
+            "role": "ligand",
+            "amount": "134 mg, 1.00 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.139 mL, 1.00 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH/MeCN (1:1)"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h stirring, then 5–10 days crystallization",
+        "ph": null,
+        "vessel_or_method": "open vial, solvent evaporation",
+        "workup_and_crystallization": "filtered after 12 h; colorless block-like single crystals",
+        "yield": "41–58% (range for the MCA series)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Experimental Procedures"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2357816 / CUCNIB"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Procedures, Synthesis"
+        }
+      ]
+    }
+  ]
+}

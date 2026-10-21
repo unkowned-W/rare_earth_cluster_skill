@@ -1,0 +1,411 @@
+{
+  "title": "Chalcogen-Rich Lanthanide Clusters: Cluster Reactivity and the Influence of Ancillary Ligands on Structure",
+  "doi": "10.1021/ja011487u",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "(py)8Yb4(μ4-Se)(μ2-SeSe)3(μ2-SeSeSePh)(Se0.38SePh)·2py",
+      "formula": "(py)8Yb4Se(SeSe)3(SeSeSePh)(Se0.38SePh)·2py",
+      "ccdc_numbers": [
+        "176451"
+      ],
+      "ccdc_refcodes": [
+        "QUTMUN"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "square Yb4 array with a central μ4-Se and bridging diselenides"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under ultrapure nitrogen (drybox or Schlenk), Yb, PhSeSePh, and Hg were stirred in pyridine for 24 h to give a deep violet solution with unreacted metal. Elemental Se was added; after 7 h the black/brown solution was filtered into a 41 mm diameter tube, concentrated to 20 mL, and layered with hexanes to give dark red crystals of 1. An alternative route treats crystalline [(py)2YbSe(SePh)]4·py with elemental Se in pyridine at room temperature for 1 day, followed by filtration, concentration, and layering with hexanes.",
+        "reagents": [
+          {
+            "name": "ytterbium",
+            "formula": "Yb",
+            "role": "metal source",
+            "amount": "346 mg, 2.0 mmol"
+          },
+          {
+            "name": "diphenyl diselenide",
+            "formula": "PhSeSePh",
+            "role": "chalcogenolate source",
+            "amount": "312 mg, 1.0 mmol"
+          },
+          {
+            "name": "mercury",
+            "formula": "Hg",
+            "role": "amalgamating additive",
+            "amount": "50 mg, 0.25 mmol"
+          },
+          {
+            "name": "selenium",
+            "formula": "Se",
+            "role": "chalcogen source",
+            "amount": "355 mg, 4.5 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexanes"
+        ],
+        "temperature": "room temperature (direct synthesis); room temperature for 1 day (from cubane)",
+        "time": "24 h then 7 h after Se addition (direct); 1 day (from cubane)",
+        "ph": null,
+        "vessel_or_method": "Schlenk/drybox; filtration into a 41 mm tube; hexane layering",
+        "workup_and_crystallization": "Filter, concentrate to 20 mL, layer with 3 mL hexanes to give dark red crystals that appear to desolvate at 125 °C and decompose at 176 °C.",
+        "yield": "0.892 g, 70% (direct synthesis); 0.51 g, 51% from cubane (text identifies those crystals as 1 by spectroscopy/unit cell, though it writes “2”)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Electronic absorption spectra of 1 were recorded; THF shows bands at 351 and 500 nm, while the visible spectrum is featureless in pyridine.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV-Vis absorption",
+            "value": "351 (ε = 4.2×10^3), 500 (ε = 1.1×10^3)",
+            "unit": "nm",
+            "conditions": "THF, 0.10 mm quartz cell"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV-Vis absorption",
+            "value": "featureless in the visible",
+            "unit": null,
+            "conditions": "pyridine"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract and Experimental Section"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 176451 / QUTMUN"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Experimental Section, UV-Vis of 1"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Results"
+        }
+      ]
+    },
+    {
+      "compound_label": "[(py)2YbSe(SePh)]4",
+      "compound_name": "[(py)2YbSe(SePh)]4",
+      "formula": "[(py)2YbSe(SePh)]4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "Yb4Se4 cubane"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Cluster 1 and (py)4Yb(SePh)2 were combined in pyridine and heated to 40 °C for 30 min. After 1 day the deep red solution was filtered, concentrated to 25 mL, and layered with hexanes to give dark red crystals of the cubane, identified by melting point, IR, UV-vis, and a low-temperature single-crystal unit cell (previously reported).",
+        "reagents": [
+          {
+            "name": "cluster 1",
+            "formula": "(py)8Yb4Se(SeSe)3(SeSeSePh)(Se0.38SePh)·2py",
+            "role": "starting cluster",
+            "amount": "1.05 mg, 0.45 mmol"
+          },
+          {
+            "name": "(py)4Yb(SePh)2",
+            "formula": "(py)4Yb(SePh)2",
+            "role": "reductant",
+            "amount": "1.97 mg, 2.2 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexanes"
+        ],
+        "temperature": "40 °C for 30 min, then 1 day",
+        "time": "30 min at 40 °C then 1 day",
+        "ph": null,
+        "vessel_or_method": "pyridine solution; filtration and hexane layering",
+        "workup_and_crystallization": "Filter, concentrate to 25 mL, layer with 10 mL hexanes to give dark red crystals.",
+        "yield": "0.46 mg, 46%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "The cubane was identified by UV-vis spectroscopy (and IR/mp/unit cell) versus the previously reported compound; no new band positions are tabulated in this article.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of cubane from 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Results, Scheme 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Experimental Section (identification by UV-vis)"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "(py)8Yb4Se(SeSe)3(SeSeTePh)(SeTePh)·2py",
+      "formula": "(py)8Yb4Se(SeSe)3(SeSeTePh)(SeTePh)·2py",
+      "ccdc_numbers": [
+        "176452"
+      ],
+      "ccdc_refcodes": [
+        "QUTNAU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "square Yb4 array with central μ4-Se, bridging SeSe, and SeTePh ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under nitrogen, Yb, PhTeTePh, and Hg were stirred in pyridine for 24 h to give a deep violet solution with unreacted metal. Elemental Se was added; after 7 h the black/brown solution was filtered into a 41 mm tube, concentrated to 20 mL, and layered with hexanes to give black-red crystals of 2.",
+        "reagents": [
+          {
+            "name": "ytterbium",
+            "formula": "Yb",
+            "role": "metal source",
+            "amount": "346 mg, 2.0 mmol"
+          },
+          {
+            "name": "diphenyl ditelluride",
+            "formula": "PhTeTePh",
+            "role": "tellurolate source",
+            "amount": "409 mg, 1.0 mmol"
+          },
+          {
+            "name": "mercury",
+            "formula": "Hg",
+            "role": "amalgamating additive",
+            "amount": "50 mg, 0.25 mmol"
+          },
+          {
+            "name": "selenium",
+            "formula": "Se",
+            "role": "chalcogen source",
+            "amount": "355 mg, 4.5 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexanes"
+        ],
+        "temperature": "room temperature",
+        "time": "24 h then 7 h after Se addition",
+        "ph": null,
+        "vessel_or_method": "Schlenk/drybox; filtration into a 41 mm tube; hexane layering",
+        "workup_and_crystallization": "Filter, concentrate to 20 mL, layer with 2 mL hexanes to give black-red crystals that desolvate at 144 °C and do not melt up to 320 °C.",
+        "yield": "0.773 g, 57%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "UV-Vis absorption of 2 was measured in THF and pyridine.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV-Vis absorption",
+            "value": "381 (ε = 2.7×10^3)",
+            "unit": "nm",
+            "conditions": "THF"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV-Vis absorption",
+            "value": "370 (ε = 8.8×10^2)",
+            "unit": "nm",
+            "conditions": "pyridine"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section, Synthesis of 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 176452 / QUTNAU"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Experimental Section, UV-Vis of 2"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Results"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "(py)8Yb4(μ3-Se)2(μ2-SeSe)2(μ2-SPh)2(SPh)2·2py",
+      "formula": "(py)8Yb4(Se)2(SeSe)2(μ2-SPh)2(SPh)2·2py",
+      "ccdc_numbers": [
+        "176453"
+      ],
+      "ccdc_refcodes": [
+        "QUTNEY"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "rhombohedral Yb4 array with μ3-Se, alternating μ2-SeSe and SPh"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under nitrogen, Yb, PhSSPh, and Hg were stirred in pyridine for 24 h to give a black-purple solution with unreacted metal. Elemental Se was added; after 2 days the deep red solution was filtered and concentrated to 25 mL to give red crystals of 3.",
+        "reagents": [
+          {
+            "name": "ytterbium",
+            "formula": "Yb",
+            "role": "metal source",
+            "amount": "346 mg, 2.0 mmol"
+          },
+          {
+            "name": "diphenyl disulfide",
+            "formula": "PhSSPh",
+            "role": "thiolate source",
+            "amount": "218 mg, 1.0 mmol"
+          },
+          {
+            "name": "mercury",
+            "formula": "Hg",
+            "role": "amalgamating additive",
+            "amount": "50 mg, 0.25 mmol"
+          },
+          {
+            "name": "selenium",
+            "formula": "Se",
+            "role": "chalcogen source",
+            "amount": "355 mg, 4.5 mmol"
+          }
+        ],
+        "solvents": [
+          "pyridine"
+        ],
+        "temperature": "room temperature",
+        "time": "24 h then 2 days after Se addition",
+        "ph": null,
+        "vessel_or_method": "Schlenk/drybox; filtration and concentration",
+        "workup_and_crystallization": "Filter and concentrate to 25 mL to give red crystals that do not melt but slowly turn dark orange, brown, then black by 320 °C. The compound is not soluble in THF or toluene and is sparingly soluble in pyridine.",
+        "yield": "0.453 g, 35%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "UV-Vis absorption of 3 was recorded in tert-butylpyridine.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV-Vis absorption",
+            "value": "380 (ε = 316), 445 (ε = 136)",
+            "unit": "nm",
+            "conditions": "tert-butylpyridine"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 176453 / QUTNEY"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Experimental Section, UV-Vis of 3"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Results, Figure 3"
+        }
+      ]
+    }
+  ]
+}

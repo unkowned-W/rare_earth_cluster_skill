@@ -1,0 +1,172 @@
+{
+  "refcode": "RIRROB",
+  "ccdc_number": "945440",
+  "dois": [
+    "10.1021/ic401652f"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\945440.cif",
+  "formula_moiety": "C90 H108 Dy4 N12 O28,2(C1 H1 Cl3)",
+  "crystal_system": "orthorhombic",
+  "space_group_hm": "P b c a",
+  "international_tables_number": "61",
+  "unit_cell": {
+    "a": "24.962(5)",
+    "b": "15.241(5)",
+    "c": "27.609(5)",
+    "alpha": "90.000(5)",
+    "beta": "90.000(5)",
+    "gamma": "90.000(5)",
+    "volume": "10503.7",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O13",
+        "O2",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O19",
+        "O2",
+        "O3",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O15",
+        "O16",
+        "O21",
+        "O22",
+        "O23",
+        "O25",
+        "O27"
+      ]
+    },
+    {
+      "label": "Dy4",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O17",
+        "O20",
+        "O21",
+        "O24",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.851,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 109.37,
+            "metal_oxygen_distances_angstrom": [
+              2.343,
+              2.377
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 109.49,
+            "metal_oxygen_distances_angstrom": [
+              2.362,
+              2.355
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy3",
+          "Dy4"
+        ],
+        "shared_oxygen_labels": [
+          "O16",
+          "O21"
+        ],
+        "metal_metal_separation_angstrom": 3.851,
+        "bridge_geometry": [
+          {
+            "oxygen": "O16",
+            "angle_deg": 109.37,
+            "metal_oxygen_distances_angstrom": [
+              2.343,
+              2.377
+            ]
+          },
+          {
+            "oxygen": "O21",
+            "angle_deg": 109.49,
+            "metal_oxygen_distances_angstrom": [
+              2.362,
+              2.355
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2"
+      ],
+      [
+        "Dy3",
+        "Dy4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "RIRROB crystallizes in the orthorhombic crystal system with space group P b c a. Reported CIF formula moiety: C90 H108 Dy4 N12 O28,2(C1 H1 Cl3). From the CIF bond table, Dy1 (Dy) has 7 O neighbors; Dy2 (Dy) has 6 O neighbors; Dy3 (Dy) has 7 O neighbors; Dy4 (Dy) has 6 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.851-3.851 Å (not direct metal-metal bonds). Computed M-O-M angles span 109.37-109.49°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C92H110N12O28Cl6Dy4.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic401652f",
+    "formula": "C92H110N12O28Cl6Dy4",
+    "compound_name": "[Dy4(LH)2(LH2)2(μ2-η1η1Piv)2(η1Piv)4]·2CHCl3",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

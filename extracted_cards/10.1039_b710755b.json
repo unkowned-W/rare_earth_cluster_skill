@@ -1,0 +1,355 @@
+{
+  "title": "A new family of octanuclear Cu4Ln4 (Ln = Gd, Tb and Dy) spin clusters",
+  "doi": "10.1039/b710755b",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Cu4Gd4(OAc)12(ampdH)8(OH2)2]",
+      "formula": "C56H120N8Cu4Gd4O42",
+      "ccdc_numbers": [
+        "656206"
+      ],
+      "ccdc_refcodes": [
+        "NITFUS"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear Cu4Ln4 chain-like {Cu4Ln4(μ2-O)12} cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Shared Method 1 (preferred, aerobic): Cu(OAc)2·4H2O (0.59 g, 3.0 mmol), Ln(OAc)3·xH2O (1.0 g, 3.0 mmol), ampdH2 (0.63 g, 6.0 mmol) and MeOH (7 ml) were combined in a Teflon-lined autoclave, heated at 393 K for 48 h, then cooled at 2 K h−1 to a very dark blue solution. Layering with Et2O gave violet cuboidal crystals (yield 30–35%), washed with MeOH and Et2O and dried under vacuum at 25 °C. Method 2: Cu(OAc)2·4H2O (0.24 g, 1.2 mmol), Ln(OAc)3·xH2O (0.4 g, 1.2 mmol) and ampdH2 (0.25 g, 2.4 mmol) in MeCN (50 ml) were stirred overnight, giving a light blue precipitate that was recrystallised by layering a concentrated MeOH solution with Et2O (yield <10%).",
+        "reagents": [
+          {
+            "name": "copper(II) acetate tetrahydrate",
+            "formula": "Cu(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "0.59 g, 3.0 mmol (Method 1); 0.24 g, 1.2 mmol (Method 2)"
+          },
+          {
+            "name": "gadolinium(III) acetate hydrate",
+            "formula": "Gd(OAc)3·xH2O",
+            "role": "metal source",
+            "amount": "1.0 g, 3.0 mmol (Method 1); 0.4 g, 1.2 mmol (Method 2)"
+          },
+          {
+            "name": "2-amino-2-methyl-1,3-propanediol",
+            "formula": "ampdH2",
+            "role": "ligand",
+            "amount": "0.63 g, 6.0 mmol (Method 1); 0.25 g, 2.4 mmol (Method 2)"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "Et2O",
+          "MeCN"
+        ],
+        "temperature": "393 K (Method 1); room temperature (Method 2); dried at 25 °C",
+        "time": "48 h heating then cool at 2 K h−1 (Method 1); overnight stirring (Method 2)",
+        "ph": null,
+        "vessel_or_method": "solvothermal Teflon-lined autoclave (Method 1); ambient stirring in MeCN (Method 2)",
+        "workup_and_crystallization": "dark blue MeOH solution layered with Et2O to give violet cuboidal crystals; washed with MeOH and Et2O and dried under vacuum (Method 1). Method 2 precipitate recrystallised from concentrated MeOH layered with Et2O.",
+        "yield": "30–35% (Method 1); <10% (Method 2)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Weak intramolecular exchange; ferromagnetic Cu–Gd coupling. χMT rises from 32 cm3 mol−1 K at 300 K to a maximum of 35 cm3 mol−1 K at 7 K, then falls to 32 cm3 mol−1 K at 1.8 K. Curie–Weiss fit (25–300 K): C = 32 cm3 mol−1 K, θ = +1.5 K. No out-of-phase ac peaks; not an SMM. Magnetostructural correlation suggests JCuGd ≈ 3–5 cm−1.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 32,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1000 Oe; 300 K; ground crystals"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT maximum",
+            "value": 35,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1000 Oe; 7 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 32,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1000 Oe; 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 32,
+            "unit": "cm3 mol−1 K",
+            "conditions": "Curie–Weiss fit 25–300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": 1.5,
+            "unit": "K",
+            "conditions": "Curie–Weiss fit 25–300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility slow relaxation",
+            "value": "no out-of-phase peaks",
+            "unit": null,
+            "conditions": "ac susceptibility on 1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental Synthesis"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 2; elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 656206 / NITFUS"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Synthesis Methods 1 and 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic measurements; Fig. 4a"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Cu4Tb4(OAc)12(ampdH)8(OH2)2]",
+      "formula": "C56H120N8Cu4Tb4O42",
+      "ccdc_numbers": [
+        "656207"
+      ],
+      "ccdc_refcodes": [
+        "NITGAZ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear Cu4Ln4 chain-like {Cu4Ln4(μ2-O)12} cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same shared procedures as 1 with Ln = Tb. Method 1: Cu(OAc)2·4H2O (0.59 g, 3.0 mmol), Ln(OAc)3·xH2O (1.0 g, 3.0 mmol), ampdH2 (0.63 g, 6.0 mmol), MeOH (7 ml), Teflon-lined autoclave at 393 K for 48 h, cool 2 K h−1, layer with Et2O (yield 30–35%). Method 2: MeCN stirring overnight then MeOH/Et2O recrystallisation (yield <10%).",
+        "reagents": [
+          {
+            "name": "copper(II) acetate tetrahydrate",
+            "formula": "Cu(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "0.59 g, 3.0 mmol (Method 1); 0.24 g, 1.2 mmol (Method 2)"
+          },
+          {
+            "name": "terbium(III) acetate hydrate",
+            "formula": "Tb(OAc)3·xH2O",
+            "role": "metal source",
+            "amount": "1.0 g, 3.0 mmol (Method 1); 0.4 g, 1.2 mmol (Method 2)"
+          },
+          {
+            "name": "2-amino-2-methyl-1,3-propanediol",
+            "formula": "ampdH2",
+            "role": "ligand",
+            "amount": "0.63 g, 6.0 mmol (Method 1); 0.25 g, 2.4 mmol (Method 2)"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "Et2O",
+          "MeCN"
+        ],
+        "temperature": "393 K (Method 1); room temperature (Method 2)",
+        "time": "48 h heating then cool at 2 K h−1 (Method 1); overnight (Method 2)",
+        "ph": null,
+        "vessel_or_method": "solvothermal Teflon-lined autoclave (Method 1); ambient MeCN stirring (Method 2)",
+        "workup_and_crystallization": "MeOH solution layered with Et2O; violet cuboidal crystals washed with MeOH/Et2O and dried under vacuum.",
+        "yield": "30–35% (Method 1); <10% (Method 2)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT ≈ 51 cm3 mol−1 K from 300 to 25 K, then falls to 37 cm3 mol−1 K at 1.8 K. Curie–Weiss (25–300 K): C = 51 cm3 mol−1 K, θ = −0.7 K. Behaviour attributed to weak intramolecular exchange plus crystal-field splitting of TbIII 7F6; ferro- vs antiferromagnetic sign of coupling is uncertain. No ac out-of-phase peaks; not an SMM.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 51,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1000 Oe; 300–25 K; ground crystals"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 37,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1000 Oe; 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 51,
+            "unit": "cm3 mol−1 K",
+            "conditions": "Curie–Weiss fit 25–300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": -0.7,
+            "unit": "K",
+            "conditions": "Curie–Weiss fit 25–300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility slow relaxation",
+            "value": "no out-of-phase peaks",
+            "unit": null,
+            "conditions": "ac susceptibility on 2"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental Synthesis"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 656207 / NITGAZ"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic measurements; Fig. 4b"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Cu4Dy4(OAc)12(ampdH)8(OH2)2]",
+      "formula": "C56H120N8Cu4Dy4O42",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "octanuclear Cu4Ln4 analogue of 1 and 2 (isostructural family; no single-crystal structure reported)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same shared procedures as 1 and 2 with Ln = Dy. Method 1 solvothermal in MeOH at 393 K for 48 h then Et2O layering (30–35%). Method 2 MeCN overnight then MeOH/Et2O recrystallisation (<10%). Identity supported by elemental analysis and nearly identical IR spectra.",
+        "reagents": [
+          {
+            "name": "copper(II) acetate tetrahydrate",
+            "formula": "Cu(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "0.59 g, 3.0 mmol (Method 1); 0.24 g, 1.2 mmol (Method 2)"
+          },
+          {
+            "name": "dysprosium(III) acetate hydrate",
+            "formula": "Dy(OAc)3·xH2O",
+            "role": "metal source",
+            "amount": "1.0 g, 3.0 mmol (Method 1); 0.4 g, 1.2 mmol (Method 2)"
+          },
+          {
+            "name": "2-amino-2-methyl-1,3-propanediol",
+            "formula": "ampdH2",
+            "role": "ligand",
+            "amount": "0.63 g, 6.0 mmol (Method 1); 0.25 g, 2.4 mmol (Method 2)"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "Et2O",
+          "MeCN"
+        ],
+        "temperature": "393 K (Method 1); room temperature (Method 2)",
+        "time": "48 h heating then cool at 2 K h−1 (Method 1); overnight (Method 2)",
+        "ph": null,
+        "vessel_or_method": "solvothermal Teflon-lined autoclave (Method 1); ambient MeCN stirring (Method 2)",
+        "workup_and_crystallization": "MeOH solution layered with Et2O; violet cuboidal crystals washed with MeOH/Et2O and dried under vacuum.",
+        "yield": "30–35% (Method 1); <10% (Method 2)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": "No magnetic data were collected for 3; the authors only note that Dy/Tb structural analogues typically show similar magnetic behaviour.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental Synthesis elemental analysis for 3"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental elemental analysis C56H120N8Dy4Cu4O42"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic measurements paragraph stating no data for 3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "refcode": "WADWIL",
+  "ccdc_number": "1831083",
+  "dois": [
+    "10.1002/ejic.202000718"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1831083.cif",
+  "formula_moiety": "C136 H144 Dy2 N13 O19 1+,2(C2 H3 N1),N1 O3 1-",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "23.304(3)",
+    "b": "21.638(2)",
+    "c": "34.991(4)",
+    "alpha": "90",
+    "beta": "108.843(2)",
+    "gamma": "90",
+    "volume": "16698.7",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O5",
+        "O6",
+        "O7A",
+        "O8A",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O5A",
+        "O6A",
+        "O7",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Dy1"
+      ],
+      [
+        "Dy2"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "WADWIL crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C136 H144 Dy2 N13 O19 1+,2(C2 H3 N1),N1 O3 1-. From the CIF bond table, Dy1 (Dy) has 6 O neighbors; Dy2 (Dy) has 4 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C136H144Dy2N14O22. Explicit grouped units in the article formula/name: 1 NO3 (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/ejic.202000718",
+    "formula": "C136H144Dy2N14O22",
+    "compound_name": "[Dy2(H4L)2(η2-NO3)2](NO3)·xMeCN (x ≈ 7)",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

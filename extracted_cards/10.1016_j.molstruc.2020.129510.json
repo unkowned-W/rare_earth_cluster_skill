@@ -1,0 +1,249 @@
+{
+  "title": "Structure, fluorescence properties and slow magnetic relaxation of Dy2 and Tb4 clusters",
+  "doi": "10.1016/j.molstruc.2020.129510",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy2(acac)2(HL)2(H2O)2]",
+      "formula": "C44H40Dy2N6O12",
+      "ccdc_numbers": [
+        "2015809"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "dinuclear Dy2O2 parallelogram cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "H3L (0.04 mmol) and Dy(acac)3·2H2O (0.04 mmol) were mixed in CH3OH (9 mL) and CH3CN (3 mL). The mixture was sealed in a glass vial and heated at 80 °C for 8 h. After slow cooling to room temperature, yellow block-shaped single crystals were obtained. Yield 35% based on Dy(acac)3·2H2O.",
+        "reagents": [
+          {
+            "name": "H3L (2-hydroxy-N'-[(1E)-(8-hydroxyquinolin-2-yl)methylidene]benzohydrazide)",
+            "formula": "C17H13N3O3",
+            "role": "ligand",
+            "amount": "0.04 mmol"
+          },
+          {
+            "name": "Dy(acac)3·2H2O",
+            "formula": "Dy(acac)3·2H2O",
+            "role": "metal source",
+            "amount": "0.04 mmol"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "CH3CN"
+        ],
+        "temperature": "80 °C",
+        "time": "8 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal reaction in a sealed glass vial",
+        "workup_and_crystallization": "slow cooling to room temperature; yellow block-shaped single crystals",
+        "yield": "35% (based on Dy(acac)3·2H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Solid-state emission of 1 under 293 nm excitation shows Dy(III) bands at 482 and 574 nm (4F9/2 → 6H15/2 and 4F9/2 → 6H13/2). dc susceptibility: χmT = 28.40 cm3 K mol−1 at 300 K (1000 Oe), falling to 12.89 cm3 K mol−1 at 2.0 K, attributed to Stark depopulation and/or antiferromagnetic Ln···Ln interactions. ac data under zero dc field show frequency-dependent χ′ and χ″ with χ″ peaks, indicating SMM behavior (Arrhenius ΔE/kB = 48.1 K, τ0 = 3.63 × 10−7 s); Cole–Cole α = 0.45–0.68.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "emission maxima",
+            "value": "482 nm and 574 nm",
+            "unit": "nm",
+            "conditions": "solid state, room temperature, λex = 293 nm"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "28.40",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe (1.0 kOe)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "12.89",
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB",
+            "value": "48.1",
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit of lnτ vs T−1 from χ″ peaks"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "3.63e-7",
+            "unit": "s",
+            "conditions": "zero dc field Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.45–0.68",
+            "unit": null,
+            "conditions": "Debye fit; poorly fitted at 2.0 and 3.0 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 2.1; section 3.1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.1 elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 2.3"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "sections 3.3–3.4; Figs. 5–7"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Tb4(L)4(CH3OH)4]·3CH3OH·H2O",
+      "formula": "C75H69N12O20Tb4",
+      "ccdc_numbers": [
+        "2015810"
+      ],
+      "ccdc_refcodes": [
+        "SAHSED"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetrahedral Tb4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "The synthesis was similar to cluster 1. H3L (0.04 mmol), Tb(NO3)3·6H2O (0.04 mmol) and Hacac (0.12 mmol) were mixed in CH3OH (8 mL), CH2Cl2 (2 mL) and CH3CN (3 mL). The mixture was sealed in a glass vial and heated at 80 °C for 12 h. After slow cooling to room temperature, yellow needle-like single crystals were obtained. Yield 38% based on Tb(NO3)3·6H2O.",
+        "reagents": [
+          {
+            "name": "H3L (2-hydroxy-N'-[(1E)-(8-hydroxyquinolin-2-yl)methylidene]benzohydrazide)",
+            "formula": "C17H13N3O3",
+            "role": "ligand",
+            "amount": "0.04 mmol"
+          },
+          {
+            "name": "Tb(NO3)3·6H2O",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.04 mmol"
+          },
+          {
+            "name": "Hacac (acetylacetone)",
+            "formula": "C5H8O2",
+            "role": "auxiliary ligand",
+            "amount": "0.12 mmol"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "CH2Cl2",
+          "CH3CN"
+        ],
+        "temperature": "80 °C",
+        "time": "12 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal reaction in a sealed glass vial",
+        "workup_and_crystallization": "slow cooling to room temperature; yellow needle-like single crystals",
+        "yield": "38% (based on Tb(NO3)3·6H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Solid-state emission of 2 under 297 nm excitation shows Tb(III) bands at 491, 546, 585 and 622 nm (5D4 → 7F6, 7F5, 7F4, 7F3). dc susceptibility: χmT = 47.21 cm3 K mol−1 at 300 K (1000 Oe), decreasing to 28.20 cm3 K mol−1 at 2.0 K. No frequency-dependent χ″ signals or SMM behavior under zero dc field.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "emission maxima",
+            "value": "491, 546, 585, 622",
+            "unit": "nm",
+            "conditions": "solid state, room temperature, λex = 297 nm"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "47.21",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "28.20",
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1000 Oe"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 2.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.2 elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 2.3"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row SAHSED / 2015810"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "sections 3.3–3.4; Fig. 5"
+        }
+      ]
+    }
+  ]
+}

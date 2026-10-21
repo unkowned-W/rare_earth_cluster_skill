@@ -1,0 +1,162 @@
+{
+  "refcode": "YAMFAX",
+  "ccdc_number": "2055258",
+  "dois": [
+    "10.1007/s11172-021-3155-x"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2055258.cif",
+  "formula_moiety": "C136 H182 Dy3 N12 O17 1+,C24 H20 B1 1-,2(C4 H8 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "20.6541(8)",
+    "b": "27.7280(11)",
+    "c": "27.3000(11)",
+    "alpha": "90",
+    "beta": "91.047(2)",
+    "gamma": "90",
+    "volume": "15632",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O13",
+        "O1S",
+        "O1S'",
+        "O3",
+        "O5",
+        "O7"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O13",
+        "O1P",
+        "O1P'",
+        "O1Q",
+        "O1Q'",
+        "O2",
+        "O4",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O12",
+        "O13",
+        "O1R",
+        "O1R'",
+        "O6",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O13"
+        ],
+        "metal_metal_separation_angstrom": 3.764,
+        "bridge_geometry": [
+          {
+            "oxygen": "O13",
+            "angle_deg": 121.1,
+            "metal_oxygen_distances_angstrom": [
+              2.14,
+              2.182
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O13"
+        ],
+        "metal_metal_separation_angstrom": 3.706,
+        "bridge_geometry": [
+          {
+            "oxygen": "O13",
+            "angle_deg": 120.22,
+            "metal_oxygen_distances_angstrom": [
+              2.14,
+              2.135
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O13"
+        ],
+        "metal_metal_separation_angstrom": 3.714,
+        "bridge_geometry": [
+          {
+            "oxygen": "O13",
+            "angle_deg": 118.67,
+            "metal_oxygen_distances_angstrom": [
+              2.182,
+              2.135
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "YAMFAX crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C136 H182 Dy3 N12 O17 1+,C24 H20 B1 1-,2(C4 H8 O1). From the CIF bond table, Dy1 (Dy) has 7 O neighbors; Dy2 (Dy) has 9 O neighbors; Dy3 (Dy) has 7 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.706-3.764 Å (not direct metal-metal bonds). Computed M-O-M angles span 118.67-121.10°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Dy3O(O2CHAr2)6(THF)4][BPh4]·2THF (Ar = 5-Me-2-Me2NC6H3).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1007/s11172-021-3155-x",
+    "formula": "[Dy3O(O2CHAr2)6(THF)4][BPh4]·2THF (Ar = 5-Me-2-Me2NC6H3)",
+    "compound_name": "oxohexa{2,2-bis[2-(dimethylamino)-5-methylphenyl]acetate}tris(dysprosium)tetrakis(tetrahydrofuranate) tetraphenylborate",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

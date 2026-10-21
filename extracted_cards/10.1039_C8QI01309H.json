@@ -1,0 +1,544 @@
+{
+  "title": "Tetranuclear rare-earth complexes: energy barrier enhancement and two-step slow magnetic relaxation activated by ligand substitution",
+  "doi": "10.1039/c8qi01309h",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Y4(dbm)4(L)6(μ3-OH)2]",
+      "formula": "C144H100N12O22Y4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "defect-dicubane tetranuclear RE4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Y(dbm)3·2H2O (0.03 mmol) was dissolved in 15 mL acetonitrile. Then 5 mL of a CH2Cl2 solution of HL (0.0071 g, 0.03 mmol) was added to the stirred acetonitrile solution, and the mixture was stirred for 4 h at room temperature. The solution was filtered. Yellow block crystals suitable for single-crystal X-ray diffraction were isolated by keeping the filtrate under ambient conditions for a few days.",
+        "reagents": [
+          {
+            "name": "Y(dbm)3·2H2O",
+            "formula": "Y(dbm)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.03 mmol"
+          },
+          {
+            "name": "5-(2-furanimino)-8-hydroxylquinoline (HL)",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.0071 g, 0.03 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile (15 mL)",
+          "CH2Cl2 (5 mL)"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 4 h; crystals after a few days",
+        "ph": null,
+        "vessel_or_method": "solution mixing, filtration, ambient crystallization",
+        "workup_and_crystallization": "filtered; yellow block crystals from filtrate under ambient conditions for a few days",
+        "yield": "60% based on Y"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Experimental, synthesis of 1; Table 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of complexes 1 and 2"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal structure analysis of 1 and 2"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy4(dbm)4(L)6(μ3-OH)2]",
+      "formula": "C144H100N12O22Dy4",
+      "ccdc_numbers": [
+        "1838859"
+      ],
+      "ccdc_refcodes": [
+        "TIYKOE"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "defect-dicubane tetranuclear RE4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(dbm)3·2H2O (0.03 mmol) was dissolved in 15 mL acetonitrile. Then 5 mL of a CH2Cl2 solution of HL (0.0071 g, 0.03 mmol) was added, stirred 4 h at room temperature, filtered, and yellow block crystals were isolated from the filtrate under ambient conditions for a few days.",
+        "reagents": [
+          {
+            "name": "Dy(dbm)3·2H2O",
+            "formula": "Dy(dbm)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.03 mmol"
+          },
+          {
+            "name": "5-(2-furanimino)-8-hydroxylquinoline (HL)",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.0071 g, 0.03 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile (15 mL)",
+          "CH2Cl2 (5 mL)"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 4 h; crystals after a few days",
+        "ph": null,
+        "vessel_or_method": "solution mixing, filtration, ambient crystallization",
+        "workup_and_crystallization": "filtered; yellow block crystals from filtrate under ambient conditions for a few days",
+        "yield": "55% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "SMM under zero dc field with a single dominant Orbach process plus QTM; weak ferromagnetic compensation of χMT on cooling. Applying 1500 Oe partly suppresses QTM and slightly raises Ueff.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 60.23,
+            "unit": "cm3 K mol-1",
+            "conditions": "room temperature, 1000 Oe dc, 2–300 K dataset"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 39.57,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 117.4,
+            "unit": "K",
+            "conditions": "zero dc field; τ0 = 1.79×10^-8 s; Orbach+Raman fit of ln τ vs T^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": 1.79e-08,
+            "unit": "s",
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 123.3,
+            "unit": "K",
+            "conditions": "1500 Oe dc field; τ0 = 1.45×10^-8 s"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Experimental; Table 1"
+        },
+        {
+          "field": "ccdc",
+          "source": "external_metadata",
+          "location": "CCDC 1838859 / TIYKOE"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Synthesis of complexes 1 and 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Static and dynamic magnetic properties; Fig. 3–8"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Y4(acac)4(L)6(μ3-OH)2]·(CH3CN)2",
+      "formula": "C108H90N14O22Y4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "defect-dicubane tetranuclear RE4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1/2 except Y(acac)3·2H2O (0.03 mmol) replaced RE(dbm)3·2H2O, using HL (0.0071 g, 0.03 mmol) in acetonitrile/CH2Cl2, stirring 4 h at room temperature, filtration, and crystallization. Yellow crystals after a few days.",
+        "reagents": [
+          {
+            "name": "Y(acac)3·2H2O",
+            "formula": "Y(acac)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.03 mmol"
+          },
+          {
+            "name": "5-(2-furanimino)-8-hydroxylquinoline (HL)",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.0071 g, 0.03 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile (15 mL)",
+          "CH2Cl2 (5 mL)"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 4 h; crystals after a few days",
+        "ph": null,
+        "vessel_or_method": "solution mixing analogous to 1/2, ambient crystallization",
+        "workup_and_crystallization": "yellow crystals suitable for single-crystal X-ray analysis after a few days",
+        "yield": "52% based on Y"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Experimental, complex 3; Table 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Synthesis of complexes 3–6"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Dy4(acac)4(L)6(μ3-OH)2]·(CH3CN)2",
+      "formula": "C108H90N14O22Dy4",
+      "ccdc_numbers": [
+        "1838840"
+      ],
+      "ccdc_refcodes": [
+        "TIYKEU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "defect-dicubane tetranuclear RE4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1/2 except Dy(acac)3·2H2O (0.03 mmol) replaced RE(dbm)3·2H2O with HL (0.0071 g, 0.03 mmol) in acetonitrile/CH2Cl2. Yellow crystals after a few days.",
+        "reagents": [
+          {
+            "name": "Dy(acac)3·2H2O",
+            "formula": "Dy(acac)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.03 mmol"
+          },
+          {
+            "name": "5-(2-furanimino)-8-hydroxylquinoline (HL)",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.0071 g, 0.03 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile (15 mL)",
+          "CH2Cl2 (5 mL)"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 4 h; crystals after a few days",
+        "ph": null,
+        "vessel_or_method": "solution mixing analogous to 1/2, ambient crystallization",
+        "workup_and_crystallization": "yellow crystals after a few days",
+        "yield": "54% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Two-step slow magnetic relaxation (FR and SR) under zero dc field with SMM behavior; χMT increases from 300–50 K then drops, attributed to weak ferromagnetic Dy–Dy interactions.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 58.24,
+            "unit": "cm3 K mol-1",
+            "conditions": "room temperature, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 38.12,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (FR)",
+            "value": 162.1,
+            "unit": "K",
+            "conditions": "zero dc field; fast relaxation; τ0 = 8.53×10^-11 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (FR)",
+            "value": 8.53e-11,
+            "unit": "s",
+            "conditions": "zero dc field, fast relaxation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (SR)",
+            "value": 165.3,
+            "unit": "K",
+            "conditions": "zero dc field; slow relaxation; τ0 = 1.14×10^-9 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (SR)",
+            "value": 1.14e-09,
+            "unit": "s",
+            "conditions": "zero dc field, slow relaxation"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Experimental; Table 1"
+        },
+        {
+          "field": "ccdc",
+          "source": "external_metadata",
+          "location": "CCDC 1838840 / TIYKEU"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Static and dynamic magnetic properties; Fig. 3–6"
+        }
+      ]
+    },
+    {
+      "compound_label": "5",
+      "compound_name": "[Ho4(acac)4(L)6(μ3-OH)2]·(CH3CN)2",
+      "formula": "C108H90N14O22Ho4",
+      "ccdc_numbers": [
+        "1839179"
+      ],
+      "ccdc_refcodes": [
+        "TIYJET"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "defect-dicubane tetranuclear RE4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1/2 except Ho(acac)3·2H2O (0.03 mmol) replaced RE(dbm)3·2H2O with HL (0.0071 g, 0.03 mmol) in acetonitrile/CH2Cl2. Yellow crystals after a few days.",
+        "reagents": [
+          {
+            "name": "Ho(acac)3·2H2O",
+            "formula": "Ho(acac)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.03 mmol"
+          },
+          {
+            "name": "5-(2-furanimino)-8-hydroxylquinoline (HL)",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.0071 g, 0.03 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile (15 mL)",
+          "CH2Cl2 (5 mL)"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 4 h; crystals after a few days",
+        "ph": null,
+        "vessel_or_method": "solution mixing analogous to 1/2, ambient crystallization",
+        "workup_and_crystallization": "yellow crystals after a few days",
+        "yield": "49% based on Ho"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "No SMM maxima; χ′ independent and χ″ weakly increases below 4 K without maxima to 2 K, ascribed to QTM and non-Ising Ho ground state.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 57.01,
+            "unit": "cm3 K mol-1",
+            "conditions": "room temperature, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 29.08,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Experimental, complex 5; Table 1"
+        },
+        {
+          "field": "ccdc",
+          "source": "external_metadata",
+          "location": "CCDC 1839179 / TIYJET"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Static magnetic properties; Dynamic magnetic properties; Fig. 3, Fig. S4"
+        }
+      ]
+    },
+    {
+      "compound_label": "6",
+      "compound_name": "[Tb4(acac)4(L)6(μ3-OH)2]",
+      "formula": "C104H84N12O22Tb4",
+      "ccdc_numbers": [
+        "1838839"
+      ],
+      "ccdc_refcodes": [
+        "TIYKAQ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "defect-dicubane tetranuclear RE4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1/2 except Tb(acac)3·2H2O (0.03 mmol) replaced RE(dbm)3·2H2O with HL (0.0071 g, 0.03 mmol) in acetonitrile/CH2Cl2. Yellow crystals after a few days. No lattice MeCN in the isolated formula.",
+        "reagents": [
+          {
+            "name": "Tb(acac)3·2H2O",
+            "formula": "Tb(acac)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.03 mmol"
+          },
+          {
+            "name": "5-(2-furanimino)-8-hydroxylquinoline (HL)",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.0071 g, 0.03 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile (15 mL)",
+          "CH2Cl2 (5 mL)"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 4 h; crystals after a few days",
+        "ph": null,
+        "vessel_or_method": "solution mixing analogous to 1/2, ambient crystallization",
+        "workup_and_crystallization": "yellow crystals after a few days",
+        "yield": "52% based on Tb"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "No SMM maxima; χ″ weakly increases below 4 K without maxima to 2 K due to QTM; χMT trend similar to 2, suggesting weak ferromagnetic Tb–Tb interaction.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 48.89,
+            "unit": "cm3 K mol-1",
+            "conditions": "room temperature, 1000 Oe dc"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "Experimental, complex 6; Table 1"
+        },
+        {
+          "field": "ccdc",
+          "source": "external_metadata",
+          "location": "CCDC 1838839 / TIYKAQ"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Static magnetic properties; Dynamic magnetic properties; Fig. 3, Fig. S4"
+        }
+      ]
+    }
+  ]
+}

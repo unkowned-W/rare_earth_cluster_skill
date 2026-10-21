@@ -1,0 +1,175 @@
+{
+  "refcode": "HEYQEK",
+  "ccdc_number": "1589728",
+  "dois": [
+    "10.1002/cplu.201800049"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1589728.cif",
+  "formula_moiety": "C89 H84 Dy3 Ga2 N6 O23 1+,7(C1 H4 O1),N1 O3 1-",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "22.7465(2)",
+    "b": "21.3311(2)",
+    "c": "20.7923(2)",
+    "alpha": "90",
+    "beta": "93.264(1)",
+    "gamma": "90",
+    "volume": "10072.2",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O14",
+        "O21",
+        "O3",
+        "O5",
+        "O6",
+        "O8"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O22",
+        "O3",
+        "O4",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O14",
+        "O2",
+        "O23",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O3",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.579,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 98.35,
+            "metal_oxygen_distances_angstrom": [
+              2.401,
+              2.328
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 99.81,
+            "metal_oxygen_distances_angstrom": [
+              2.39,
+              2.288
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 96.93,
+            "metal_oxygen_distances_angstrom": [
+              2.467,
+              2.312
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O14",
+          "O5",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.574,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 99.56,
+            "metal_oxygen_distances_angstrom": [
+              2.404,
+              2.276
+            ]
+          },
+          {
+            "oxygen": "O6",
+            "angle_deg": 98.79,
+            "metal_oxygen_distances_angstrom": [
+              2.379,
+              2.328
+            ]
+          },
+          {
+            "oxygen": "O14",
+            "angle_deg": 96.92,
+            "metal_oxygen_distances_angstrom": [
+              2.446,
+              2.328
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "HEYQEK crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C89 H84 Dy3 Ga2 N6 O23 1+,7(C1 H4 O1),N1 O3 1-. From the CIF bond table, Dy1 (Dy) has 7 O neighbors; Dy2 (Dy) has 7 O neighbors; Dy3 (Dy) has 7 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.574-3.579 Å (not direct metal-metal bonds). Computed M-O-M angles span 96.92-99.81°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Ga2Dy3(L)6(MeO)2(MeOH)3]·NO3·7MeOH.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/cplu.201800049",
+    "formula": "[Ga2Dy3(L)6(MeO)2(MeOH)3]·NO3·7MeOH",
+    "compound_name": "[Ga2Dy3(L)6(MeO)2(MeOH)3]·NO3·7MeOH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

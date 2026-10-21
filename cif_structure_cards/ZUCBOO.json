@@ -1,0 +1,142 @@
+{
+  "refcode": "ZUCBOO",
+  "ccdc_number": "1315927",
+  "dois": [
+    "10.1021/om950691l"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1315927.cif",
+  "formula_moiety": "C61 H159 B24 Dy3 Li6 O5 Si12,C6 H6",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "16.012(5)",
+    "b": "16.822(5)",
+    "c": "23.779(7)",
+    "alpha": "89.55(2)",
+    "beta": "89.25(2)",
+    "gamma": "67.96(2)",
+    "volume": "5936.37",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.725,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 120.03,
+            "metal_oxygen_distances_angstrom": [
+              2.183,
+              2.117
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.726,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 117.05,
+            "metal_oxygen_distances_angstrom": [
+              2.183,
+              2.185
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.743,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 120.91,
+            "metal_oxygen_distances_angstrom": [
+              2.117,
+              2.185
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ZUCBOO crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C61 H159 B24 Dy3 Li6 O5 Si12,C6 H6. From the CIF bond table, Dy1 (Dy) has 1 O neighbors; Dy2 (Dy) has 1 O neighbors; Dy3 (Dy) has 1 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.725-3.743 Å (not direct metal-metal bonds). Computed M-O-M angles span 117.05-120.91°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [C61H159B24O5Si12Li6Dy3]·1.5[C6H6].",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/om950691l",
+    "formula": "[C61H159B24O5Si12Li6Dy3]·1.5[C6H6]",
+    "compound_name": "{[η5-1-Dy-2,3-(SiMe3)2-2,3-C2B4H4]3[(μ2-1-Li-2,3-(SiMe3)2-2,3-C2B4H4)3(μ3-OMe)][μ2-Li(C4H8O)]3(μ3-O)}·1.5C6H6",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

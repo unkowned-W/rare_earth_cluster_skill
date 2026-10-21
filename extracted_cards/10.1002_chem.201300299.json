@@ -1,0 +1,329 @@
+{
+  "title": "Multifunctional Dy4III Cluster Exhibiting White-Emitting, Ferroelectric and Single-Molecule Magnet Behavior",
+  "doi": "10.1002/chem.201300299",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "L-1",
+      "compound_name": "[Dy4(μ-bpt)4(μ3-OH)2(μ-OMe)2(NO3)4]·3MeOH (L enantiomer)",
+      "formula": "C53H52Dy4N24O19",
+      "ccdc_numbers": [
+        "921432"
+      ],
+      "ccdc_refcodes": [
+        "IDUSAD"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "butterfly-shaped {Dy4(OH)2} cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of Dy(NO3)3·6H2O (0.043 g, 0.10 mmol), 2,2-Hbpt (0.023 g, 0.10 mmol), and NEt (0.2 mmol) in MeOH (8 mL) was sealed in a Teflon-lined stainless-steel vessel (25 mL) and heated at 120 °C for 72 h, then cooled to room temperature to give colorless crystals of 1 (enantiomers D-1 and L-1).",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.043 g, 0.10 mmol"
+          },
+          {
+            "name": "3,5-bis(pyridin-2-yl)-1,2,4-triazole (2,2-Hbpt)",
+            "formula": "Hbpt",
+            "role": "ligand",
+            "amount": "0.023 g, 0.10 mmol"
+          },
+          {
+            "name": "NEt",
+            "formula": null,
+            "role": "base",
+            "amount": "0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "120 °C",
+        "time": "72 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal; Teflon-lined stainless-steel vessel (25 mL)",
+        "workup_and_crystallization": "cooled to room temperature; colorless block-shaped crystals",
+        "yield": "ca. 32% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Chiral tetranuclear Dy4 cluster is a white-emitting luminescent SMM: dual ligand/Dy emission gives near-white CIE coordinates and a cold-white pc-LED; frequency-dependent AC susceptibility under zero DC field indicates slow magnetization relaxation with Ueff/kB = 116(14) K.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "photoluminescence emission maxima",
+            "value": "482, 575, 663",
+            "unit": "nm",
+            "conditions": "solid state, room temperature; Dy 4F9/2 → 6HJ (J=15/2, 13/2, 11/2)"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-centered emission",
+            "value": "410",
+            "unit": "nm",
+            "conditions": "solid-state PL; attributed to bpt"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime τ1, τ2",
+            "value": "0.022 μs, 0.78 μs",
+            "unit": "μs",
+            "conditions": "480 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime τ1, τ2",
+            "value": "0.023 ms, 0.81 ms",
+            "unit": "ms",
+            "conditions": "575 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "CIE chromaticity coordinates",
+            "value": "(0.300, 0.310) to (0.308, 0.322)",
+            "unit": null,
+            "conditions": "excitation 200–330 nm; white dual emission"
+          },
+          {
+            "property_type": "optical",
+            "name": "pc-LED CIE coordinates",
+            "value": "(0.279, 0.291)",
+            "unit": null,
+            "conditions": "n-UV chip + complex 1, IF = 20 mA"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 55.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "310 K, 500 Oe DC"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 43.45,
+            "unit": "cm3 K mol−1",
+            "conditions": "ca. 14 K, 500 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 20.4,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 500 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 21.1,
+            "unit": "Nβ",
+            "conditions": "3 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff/kB",
+            "value": "116(14)",
+            "unit": "K",
+            "conditions": "zero DC field; Orbach + QTM + Raman fit, n=4"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "2.89e-7",
+            "unit": "s",
+            "conditions": "zero DC field Arrhenius/Orbach term"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α distribution",
+            "value": "0.24–0.39",
+            "unit": null,
+            "conditions": "generalized Debye fit of AC data"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "introduction/structure; Experimental, X-ray crystallography"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental, crystal data for L-1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental, CCDC-921432 (L-1)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row IDUSAD"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "PL/LED discussion; Figures 2–5; magnetic susceptibility paragraphs"
+        }
+      ]
+    },
+    {
+      "compound_label": "D-1",
+      "compound_name": "[Dy4(μ-bpt)4(μ3-OH)2(μ-OMe)2(NO3)4]·3MeOH (D enantiomer)",
+      "formula": "C53H52Dy4N24O19",
+      "ccdc_numbers": [
+        "921055"
+      ],
+      "ccdc_refcodes": [
+        "IDUSEH"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "butterfly-shaped {Dy4(OH)2} cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same solvothermal procedure as for complex 1: Dy(NO3)3·6H2O (0.043 g, 0.10 mmol), 2,2-Hbpt (0.023 g, 0.10 mmol), and NEt (0.2 mmol) in MeOH (8 mL), sealed in a 25 mL Teflon-lined stainless-steel vessel, heated at 120 °C for 72 h, then cooled to room temperature to afford colorless crystals (enantiomers D-1 and L-1).",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.043 g, 0.10 mmol"
+          },
+          {
+            "name": "3,5-bis(pyridin-2-yl)-1,2,4-triazole (2,2-Hbpt)",
+            "formula": "Hbpt",
+            "role": "ligand",
+            "amount": "0.023 g, 0.10 mmol"
+          },
+          {
+            "name": "NEt",
+            "formula": null,
+            "role": "base",
+            "amount": "0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "120 °C",
+        "time": "72 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal; Teflon-lined stainless-steel vessel (25 mL)",
+        "workup_and_crystallization": "cooled to room temperature; colorless block-shaped crystals",
+        "yield": "ca. 32% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Enantiomer of the same Dy4 cluster 1; bulk magnetic and white-light emission/LED data are reported for complex 1 and apply to this enantiomeric pair as the paper does not split D-1 vs L-1 physically.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "photoluminescence emission maxima",
+            "value": "482, 575, 663",
+            "unit": "nm",
+            "conditions": "solid state, room temperature; reported for complex 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "CIE chromaticity coordinates",
+            "value": "(0.300, 0.310) to (0.308, 0.322)",
+            "unit": null,
+            "conditions": "excitation 200–330 nm; reported for complex 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "pc-LED CIE coordinates",
+            "value": "(0.279, 0.291)",
+            "unit": null,
+            "conditions": "n-UV chip + 1, IF = 20 mA"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 55.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "310 K, 500 Oe DC; complex 1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff/kB",
+            "value": "116(14)",
+            "unit": "K",
+            "conditions": "zero DC field; complex 1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "2.89e-7",
+            "unit": "s",
+            "conditions": "zero DC field; complex 1"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Figure 1; Experimental, CCDC-921055 (D-1)"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental, crystal data for D-1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental, CCDC-921055 (D-1)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row IDUSEH"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "reported for bulk complex 1; Figures 2–5"
+        }
+      ]
+    }
+  ]
+}

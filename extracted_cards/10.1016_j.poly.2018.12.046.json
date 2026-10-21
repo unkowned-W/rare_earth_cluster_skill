@@ -1,0 +1,270 @@
+{
+  "title": "Modulating single-molecule magnet behaviors of Dy4III clusters through utilizing two different β-diketonate coligands",
+  "doi": "10.1016/j.poly.2018.12.046",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "Dy4(tmhd)4L6(μ3-OH)2·5CH3CN",
+      "formula": "C152H168Dy4N12O22·5(C2H3N)",
+      "ccdc_numbers": [
+        "1866986"
+      ],
+      "ccdc_refcodes": [
+        "SIYFOY"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "rhombus-shaped Dy4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(tmhd)3·2H2O (0.02 mmol) was dissolved in CH3CN (15.0 mL). A solution of HL (0.02 mmol) in 5.0 mL dichloromethane was added to the stirred mixture, and the reaction mixture was stirred for 4.0 h at 70 °C. The mixture was filtered and the filtrate was concentrated by slow evaporation at 4 °C. After about one week, block-shaped yellow crystals were obtained.",
+        "reagents": [
+          {
+            "name": "Dy(tmhd)3·2H2O",
+            "formula": "Dy(tmhd)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.02 mmol"
+          },
+          {
+            "name": "HL (5-(4-ethoxybenzylidene)-8-hydroxyquinoline)",
+            "formula": "HL",
+            "role": "Schiff base ligand",
+            "amount": "0.02 mmol"
+          }
+        ],
+        "solvents": [
+          "CH3CN",
+          "dichloromethane"
+        ],
+        "temperature": "70 °C (reaction); 4 °C (crystallization)",
+        "time": "4.0 h stirring; about one week crystallization",
+        "ph": null,
+        "vessel_or_method": "solution reaction, filtration, slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate concentrated by slow evaporation at 4 °C; block-shaped yellow crystals after about one week",
+        "yield": "33% (based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Rhombus-shaped Dy4 SMM. χMT at 300 K is 56.81 cm3 K mol−1, decreasing to 31.77 cm3 K mol−1 at 2.0 K (1 kOe), consistent with Dy(III) Stark depopulation and/or weak antiferromagnetic coupling. Under zero dc field, frequency-dependent ac susceptibility shows slow magnetic relaxation with QTM at low T. Arrhenius fit gives ΔE/kB = 39.6 K and τ0 = 2.1×10−6 s. Cole–Cole α = 0.36–0.65.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 56.81,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 31.77,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB",
+            "value": 39.6,
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit of τ from χ″ maxima"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "2.1e-6",
+            "unit": "s",
+            "conditions": "zero dc field; Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.36–0.65",
+            "unit": null,
+            "conditions": "generalized Debye model, frequency-dependent ac data"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 2.2.1"
+        },
+        {
+          "field": "formula",
+          "source": "external_metadata",
+          "location": "CCDC SIYFOY / 1866986"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1866986 (formula match to tmhd cluster 1; paper lists 1866984 for 1)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.2.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3; Figs. 3, 4, 6, 8, 10"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "section 3.1; Fig. 1"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "Dy4(acac)4L6(μ3-OH)2",
+      "formula": "C128H120Dy4N12O22",
+      "ccdc_numbers": [
+        "1866984"
+      ],
+      "ccdc_refcodes": [
+        "SIYFIS"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "rhombus-shaped Dy4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to cluster 1, using Dy(acac)3·2H2O (0.02 mmol) instead of Dy(tmhd)3·2H2O (0.02 mmol). Dy(acac)3·2H2O was dissolved in CH3CN (15.0 mL); HL (0.02 mmol) in 5.0 mL dichloromethane was added, and the mixture was stirred for 4.0 h at 70 °C, filtered, and crystallized by slow evaporation at 4 °C. Rectangular-shaped yellow crystals were obtained.",
+        "reagents": [
+          {
+            "name": "Dy(acac)3·2H2O",
+            "formula": "Dy(acac)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.02 mmol"
+          },
+          {
+            "name": "HL (5-(4-ethoxybenzylidene)-8-hydroxyquinoline)",
+            "formula": "HL",
+            "role": "Schiff base ligand",
+            "amount": "0.02 mmol"
+          }
+        ],
+        "solvents": [
+          "CH3CN",
+          "dichloromethane"
+        ],
+        "temperature": "70 °C (reaction); 4 °C (crystallization)",
+        "time": "4.0 h stirring (as for 1); crystallization as for 1",
+        "ph": null,
+        "vessel_or_method": "solution reaction analogous to 1, filtration, slow evaporation",
+        "workup_and_crystallization": "rectangular-shaped yellow crystals",
+        "yield": "39% (based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Rhombus-shaped Dy4 SMM with multiple relaxation processes. χMT at 300 K is 56.66 cm3 K mol−1, decreasing to 33.41 cm3 K mol−1 at 2.0 K (1 kOe). Zero-field ac susceptibility shows more than two frequency-dependent χ″ peaks. Arrhenius fits give LT ΔE/kB = 31.3 K, τ0 = 3.1×10−6 s and HT ΔE/kB = 81.6 K, τ0 = 2.2×10−7 s. Cole–Cole plots between 8.0 and 14.0 K show two semicircles; α = 0.25–0.74.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 56.66,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 33.41,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, 1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB (LT)",
+            "value": 31.3,
+            "unit": "K",
+            "conditions": "zero dc field; low-temperature relaxation, Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0 (LT)",
+            "value": "3.1e-6",
+            "unit": "s",
+            "conditions": "zero dc field; low-temperature relaxation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB (HT)",
+            "value": 81.6,
+            "unit": "K",
+            "conditions": "zero dc field; high-temperature relaxation, Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0 (HT)",
+            "value": "2.2e-7",
+            "unit": "s",
+            "conditions": "zero dc field; high-temperature relaxation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.25–0.74",
+            "unit": null,
+            "conditions": "generalized Debye model; two semicircles at 8.0–14.0 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract; section 2.2.2"
+        },
+        {
+          "field": "formula",
+          "source": "external_metadata",
+          "location": "CCDC SIYFIS / 1866984"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1866984 (formula match to acac cluster 2; paper lists 1866986 for 2)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3; Figs. 3, 5, 7, 9, 10"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "section 3.1; Fig. 2"
+        }
+      ]
+    }
+  ]
+}

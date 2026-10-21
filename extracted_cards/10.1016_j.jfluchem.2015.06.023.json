@@ -1,0 +1,145 @@
+{
+  "title": "A versatile ethanolamine-derived trifluoromethyl enaminone ligand for the elaboration of nickel(II) and copper(II)–dysprosium(III) multinuclear complexes with magnetic properties",
+  "doi": "10.1016/j.jfluchem.2015.06.023",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "2",
+      "compound_name": "nonanuclear Cu(II)–Dy(III) complex",
+      "formula": "[Dy3Cu6(L1)6(μ3-OH)6(H2O)6(OH)6]",
+      "ccdc_numbers": [
+        "1061691"
+      ],
+      "ccdc_refcodes": [
+        "YUKTEF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "nonanuclear Dy3Cu6 cluster from three condensed {Dy2Cu2O4} cubane-like moieties"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "In a sealed tube, DBU was added to L1H2 in CH2Cl2. A methanolic solution of Dy(NO3)3·5H2O was added dropwise and the mixture was stirred at room temperature for 20 min. A methanolic solution of CuCl2·2H2O was then added slowly and the mixture was stirred at 80 °C for 4 h. Fast evaporation under reduced pressure precipitated the crude complex, which was washed with cold methanol. Single crystals were obtained by slow evaporation of a CH2Cl2/MeOH (1/1) solution (the experimental write-up erroneously says complex 1).",
+        "reagents": [
+          {
+            "name": "L1H2",
+            "formula": "L1H2",
+            "role": "ligand",
+            "amount": "50 mg, 0.19 mmol"
+          },
+          {
+            "name": "DBU",
+            "formula": "C9H16N2",
+            "role": "base",
+            "amount": "0.11 mL, 0.77 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "88.0 mg, 0.20 mmol"
+          },
+          {
+            "name": "copper(II) chloride dihydrate",
+            "formula": "CuCl2·2H2O",
+            "role": "metal source",
+            "amount": "34 mg, 0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "methanol"
+        ],
+        "temperature": "room temperature for 20 min after Dy addition, then 80 °C",
+        "time": "20 min then 4 h",
+        "ph": null,
+        "vessel_or_method": "sealed tube; sequential addition of Dy then Cu",
+        "workup_and_crystallization": "fast evaporation under reduced pressure; wash with cold methanol; slow evaporation from CH2Cl2/MeOH 1/1",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT of 2 decreases from 42.66 cm3 K mol−1 at room temperature (close to 44.76 expected for 3 DyIII + 6 CuII) to 19.32 cm3 K mol−1 at 2.0 K. Magnetization isotherms at 2–5 K indicate magnetic anisotropy and lack the 10 kOe step seen in a related cationic [Dy3Cu6] analogue. Zero-field ac susceptibility is frequency-dependent without maxima, consistent with slow magnetic relaxation/SMM behavior that is not suppressed by a small dc field.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 42.66,
+            "unit": "cm3 K mol−1",
+            "conditions": "H = 0.1 T, room temperature"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 19.32,
+            "unit": "cm3 K mol−1",
+            "conditions": "H = 0.1 T, 2.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected χMT (3 DyIII + 6 CuII)",
+            "value": 44.76,
+            "unit": "cm3 K mol−1",
+            "conditions": "DyIII 6H15/2, L = 5, g = 4/3; CuII S = 1/2, g = 2.00"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization isotherms",
+            "value": "anisotropic M(H) without 10 kOe step",
+            "unit": null,
+            "conditions": "2, 3, 4 and 5 K; 0–5 T (section 4.4)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility (in-phase/out-of-phase)",
+            "value": "frequency-dependent χ′ without maxima; slow relaxation not removed by 0.01–0.1 T dc field",
+            "unit": null,
+            "conditions": "2–12 K, zero dc field, 2.7 Oe ac field, 10–1400 Hz (text); also 2–10 K, 2.8 Oe, 1–1500 Hz (experimental)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Section 2.2; Experimental 4.1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Section 2.2 formula of 2; Fig. 2b caption"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1061691 / YUKTEF"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Section 2.2 crystal structure of 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.1 and Experimental Complex 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 2.4; Fig. 5; Experimental 4.4"
+        }
+      ]
+    }
+  ]
+}

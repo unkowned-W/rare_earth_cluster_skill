@@ -1,0 +1,191 @@
+{
+  "title": "A single-molecule magnet assembly exhibiting a dielectric transition at 470 K",
+  "doi": "10.1039/c2sc21023a",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Dy3L",
+      "compound_name": "[Dy3(HL)(H2L)(NO3)4]·ethanol",
+      "formula": "C22H49Dy3N8O21",
+      "ccdc_numbers": [
+        "853328"
+      ],
+      "ccdc_refcodes": [
+        "SEHYAH"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "triangular Dy3 single-molecule magnet with toroidal local-moment alignment"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(NO3)3·6H2O (0.5 mmol, 228.3 mg) was slowly added to a 20 mL ethanol solution containing H4L (N,N,N',N'-tetrakis(2-hydroxyethyl)ethylenediamine; 1.0 mmol, 273 mg) and LiOH (0.4 mmol, 16.8 mg). After stirring for two hours the mixture was transferred to a vial and heated under solvothermal conditions. Colorless crystals of pure phase (microscope selection and PXRD) were obtained.",
+        "reagents": [
+          {
+            "name": "Dy(NO3)3·6H2O",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.5 mmol, 228.3 mg"
+          },
+          {
+            "name": "N,N,N',N'-tetrakis(2-hydroxyethyl)ethylenediamine",
+            "formula": "H4L",
+            "role": "ligand",
+            "amount": "1.0 mmol, 273 mg"
+          },
+          {
+            "name": "LiOH",
+            "formula": "LiOH",
+            "role": "base",
+            "amount": "0.4 mmol, 16.8 mg"
+          },
+          {
+            "name": "ethanol",
+            "formula": "C2H6O",
+            "role": "solvent",
+            "amount": "20 mL"
+          }
+        ],
+        "solvents": [
+          "ethanol"
+        ],
+        "temperature": "100 °C",
+        "time": "2 h stirring, then 3 days solvothermal",
+        "ph": null,
+        "vessel_or_method": "vial, solvothermal",
+        "workup_and_crystallization": "Colorless crystals formed directly and were confirmed as a pure phase by careful microscopic selection and PXRD.",
+        "yield": "~63% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Powder χT and magnetization, zero-field ac susceptibility, and single-crystal micro-SQUID hysteresis establish two-step SMM relaxation and a non-vanishing ground-state moment. Ab initio analysis gives Ising local moments whose dipolar and exchange couplings favor a toroidal arrangement, distinct from a non-magnetic Dy3 ground state.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "40.83",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "room temperature, polycrystalline powder, 0.1 T; expected 42.51 cm^3 K mol^-1 for three uncoupled Dy(III)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "6.83",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "minimum at 2 K, 0.1 T, after a gradual decrease to 20 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "saturation magnetization",
+            "value": "16.1",
+            "unit": "μB",
+            "conditions": "2 K, 5 T; expected 15.7 μB for three free Dy(III) ions"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier (fast relaxation)",
+            "value": "42.6",
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit of χ'' over 3–9 K; τ0 = 1.0×10^-6 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier (slow relaxation)",
+            "value": "90.9",
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit of χ'' over 6–22 K; τ0 = 5.8×10^-7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α1",
+            "value": "0.26–0.49",
+            "unit": null,
+            "conditions": "fast process; generalized Debye fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α2",
+            "value": "0.41–0.57",
+            "unit": null,
+            "conditions": "slow process; generalized Debye fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ising exchange J12",
+            "value": "7.036",
+            "unit": "cm^-1",
+            "conditions": "J = Jdip + Jexch; Jexch = 1.608, Jdip = 5.428 cm^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ising exchange J23",
+            "value": "6.901",
+            "unit": "cm^-1",
+            "conditions": "Jexch = 1.608, Jdip = 5.293 cm^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ising exchange J13",
+            "value": "4.270",
+            "unit": "cm^-1",
+            "conditions": "Jexch = 1.311, Jdip = 2.959 cm^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ground Kramers doublet gZ",
+            "value": "19.7092, 19.8247, 19.8525",
+            "unit": null,
+            "conditions": "Dy1, Dy2, Dy3 lowest doublets; gX/gY near zero"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic hysteresis",
+            "value": null,
+            "unit": null,
+            "conditions": "single-crystal micro-SQUID; coercivity increases on cooling and with faster field sweep rates; steps near −1.0 T and other crossings"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract and introduction; formula Dy3L = [Dy3(HL)(H2L)(NO3)4]·ethanol"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Notes and references, elemental analysis C22H49Dy3N8O21"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "catalog row SEHYAH / 853328 matches ethanol solvate formula"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Fig. 1; space group Pna21"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Notes and references, Synthesis of Dy3L"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion, Figs. 2–5, Tables 1–3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "refcode": "QELVIQ",
+  "ccdc_number": "2083313",
+  "dois": [
+    "10.1002/cphc.202200213"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2083313.cif",
+  "formula_moiety": "C112 H176 Gd5 N32 O40 15+,15(C2 F6 N1 O4 S2 1-)",
+  "crystal_system": "orthorhombic",
+  "space_group_hm": "P b c n",
+  "international_tables_number": "60",
+  "unit_cell": {
+    "a": "31.0699(12)",
+    "b": "17.1925(7)",
+    "c": "50.3962(17)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "26920.1",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Gd2",
+      "element": "Gd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O13",
+        "O15",
+        "O17",
+        "O18",
+        "O19",
+        "O6",
+        "O8"
+      ]
+    },
+    {
+      "label": "Gd3",
+      "element": "Gd",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O16",
+        "O17",
+        "O20",
+        "O62",
+        "O64",
+        "O65",
+        "O68"
+      ]
+    },
+    {
+      "label": "Gd4",
+      "element": "Gd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O49",
+        "O51",
+        "O52",
+        "O53",
+        "O54",
+        "O55",
+        "O57",
+        "O58",
+        "O59"
+      ]
+    },
+    {
+      "label": "Gd5",
+      "element": "Gd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O54",
+        "O56",
+        "O59",
+        "O60",
+        "O61",
+        "O63",
+        "O65",
+        "O66",
+        "O67"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Gd1",
+          "Gd2"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 4.076,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 111.98,
+            "metal_oxygen_distances_angstrom": [
+              2.556,
+              2.36
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 110.4,
+            "metal_oxygen_distances_angstrom": [
+              2.43,
+              2.534
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd2",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O17"
+        ],
+        "metal_metal_separation_angstrom": 4.379,
+        "bridge_geometry": [
+          {
+            "oxygen": "O17",
+            "angle_deg": 116.94,
+            "metal_oxygen_distances_angstrom": [
+              2.715,
+              2.42
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd3",
+          "Gd5"
+        ],
+        "shared_oxygen_labels": [
+          "O65"
+        ],
+        "metal_metal_separation_angstrom": 4.379,
+        "bridge_geometry": [
+          {
+            "oxygen": "O65",
+            "angle_deg": 116.94,
+            "metal_oxygen_distances_angstrom": [
+              2.42,
+              2.715
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd4",
+          "Gd5"
+        ],
+        "shared_oxygen_labels": [
+          "O54",
+          "O59"
+        ],
+        "metal_metal_separation_angstrom": 4.076,
+        "bridge_geometry": [
+          {
+            "oxygen": "O54",
+            "angle_deg": 111.98,
+            "metal_oxygen_distances_angstrom": [
+              2.556,
+              2.36
+            ]
+          },
+          {
+            "oxygen": "O59",
+            "angle_deg": 110.4,
+            "metal_oxygen_distances_angstrom": [
+              2.43,
+              2.534
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Gd1",
+        "Gd2",
+        "Gd3",
+        "Gd4",
+        "Gd5"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "QELVIQ crystallizes in the orthorhombic crystal system with space group P b c n. Reported CIF formula moiety: C112 H176 Gd5 N32 O40 15+,15(C2 F6 N1 O4 S2 1-). From the CIF bond table, Gd1 (Gd) has 9 O neighbors; Gd2 (Gd) has 9 O neighbors; Gd3 (Gd) has 8 O neighbors; Gd4 (Gd) has 9 O neighbors; Gd5 (Gd) has 9 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 4.076-4.379 Å (not direct metal-metal bonds). Computed M-O-M angles span 110.40-116.94°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Gd5(L)16(H2O)8](Tf2N)15. Explicit grouped units in the article formula/name: 8 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/cphc.202200213",
+    "formula": "[Gd5(L)16(H2O)8](Tf2N)15",
+    "compound_name": "pentadecakis(bis(trifluoromethanesulfonyl)imide) octaaquahexadecakis(1-carboxymethyl-3-ethylimidazolium)pentagadolinium",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 8,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

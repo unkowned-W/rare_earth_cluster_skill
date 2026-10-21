@@ -1,0 +1,320 @@
+{
+  "title": "Magnetic and 57Fe Mossbauer Study of the Single Molecule Magnet Behavior of a Dy3Fe7 Coordination Cluster",
+  "doi": "10.1021/ic901248r",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy3Fe7(μ4-O)2(μ3-OH)2(mdea)7(μ-benzoate)4(N3)6]·2H2O·7CH3OH",
+      "formula": "[Dy3Fe7(μ4-O)2(μ3-OH)2(mdea)7(μ-benzoate)4(N3)6]·2H2O·7CH3OH",
+      "ccdc_numbers": [
+        "729433"
+      ],
+      "ccdc_refcodes": [
+        "YUHREZ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Fe"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "decanuclear Dy3Fe7 oxo/hydroxo cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under aerobic conditions, a solution of N-methyldiethanolamine (0.09 g, 0.75 mmol) in 20 mL of MeOH was added dropwise over 20 min to a stirred solution of DyCl3·6H2O (0.07 g, 0.25 mmol), benzoic acid (0.06 g, 0.50 mmol), FeCl3 (0.08 g, 0.50 mmol), and NaN3 (0.034 g, 0.50 mmol) in 20 mL of MeOH. The mixture was heated under reflux for 1 h, cooled to room temperature, and allowed to stand undisturbed in a sealed vial. Orange needles of 1 were obtained after 3 days, collected by filtration, and washed with MeCN.",
+        "reagents": [
+          {
+            "name": "N-methyldiethanolamine",
+            "formula": "mdeaH2",
+            "role": "ligand",
+            "amount": "0.09 g, 0.75 mmol"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.07 g, 0.25 mmol"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "C6H5CO2H",
+            "role": "bridging ligand precursor",
+            "amount": "0.06 g, 0.50 mmol"
+          },
+          {
+            "name": "iron(III) chloride",
+            "formula": "FeCl3",
+            "role": "metal source",
+            "amount": "0.08 g, 0.50 mmol"
+          },
+          {
+            "name": "sodium azide",
+            "formula": "NaN3",
+            "role": "azide source",
+            "amount": "0.034 g, 0.50 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN"
+        ],
+        "temperature": "reflux, then room temperature",
+        "time": "20 min addition; 1 h reflux; 3 days crystallization",
+        "ph": null,
+        "vessel_or_method": "aerobic reflux then standing in a sealed vial",
+        "workup_and_crystallization": "cooled to room temperature, stood undisturbed in a sealed vial; orange needles collected by filtration and washed with MeCN",
+        "yield": "40%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc and ac susceptibility of 1 show dominant intracluster antiferromagnetic coupling and a ferrimagnetic spin arrangement. Slow magnetization relaxation (SMM behavior) is observed, mainly attributed to Dy(III) anisotropy, with hysteresis below about 1.9–2 K. Powder ac data give Ueff = 30.9 K (τ0 = 1.3×10−7 s); combined single-crystal ac/dc decay data give Ueff = 33.4 K (τ0 = 6.6×10−8 s), reported as the highest barrier then known for a Ln(III)–Fe(III) SMM. Below 0.5 K the hysteresis width becomes temperature-independent (~2 T at 0.035 T/s), indicating a quantum tunneling regime. 57Fe Mössbauer spectra confirm Fe(III) antiferromagnetic coupling and slow relaxation relative to the Larmor time below 35 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "71.6",
+            "unit": "cm3 K mol−1",
+            "conditions": "250 K, 0.1 T, polycrystalline sample in Apiezon grease"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "15.1",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "15.4",
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss temperature θ",
+            "value": "-24.0",
+            "unit": "K",
+            "conditions": "Curie–Weiss fit of 0.1 T data, 100–250 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": "72.84",
+            "unit": "cm3 K mol−1",
+            "conditions": "Curie–Weiss fit, 100–250 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective magnetic moment μeff",
+            "value": "24.14",
+            "unit": "μB",
+            "conditions": "from Curie–Weiss fit, 100–250 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "24.57",
+            "unit": "μB",
+            "conditions": "7 T; no true saturation; two-step rise with inflection near 1.6 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (ac powder)",
+            "value": "30.9",
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit of χ″ temperature/frequency dependence; τ0 = 1.3×10−7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential relaxation time τ0 (ac powder)",
+            "value": "1.3e-7",
+            "unit": "s",
+            "conditions": "zero dc field Arrhenius analysis"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ″ maximum temperature",
+            "value": "4.4",
+            "unit": "K",
+            "conditions": "1500 Hz, zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (single crystal ac + dc decay)",
+            "value": "33.4",
+            "unit": "K",
+            "conditions": "oriented single crystal; Arrhenius fit 1.2–5 K; combined ac susceptibility and dc magnetization decay"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential relaxation time τ0 (single crystal)",
+            "value": "6.6e-8",
+            "unit": "s",
+            "conditions": "combined ac and dc decay, 1.2–5 K thermally activated range"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "hysteresis / blocking",
+            "value": "hysteresis below ~2 K; coercive field temperature- and sweep-rate dependent; temperature-independent loop width ~2 T below 0.5 K",
+            "unit": null,
+            "conditions": "single crystal, easy axis // H, 0.035 T/s; powder M vs H shows onset of hysteresis at 1.8 K with coercive field of a few 100 μT"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Introduction; Experimental Synthesis"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Crystal data for 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental, X-ray Crystallography, CCDC 729433"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row YUHREZ"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Results, structure of 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Studies; Figures 4–7; Mössbauer Spectral Studies"
+        }
+      ]
+    },
+    {
+      "compound_label": "1 (desolvated dihydrate)",
+      "compound_name": "[Dy3Fe7(μ4-O)2(μ3-OH)2(mdea)7(μ-benzoate)4(N3)6]·2H2O",
+      "formula": "[Dy3Fe7(μ4-O)2(μ3-OH)2(mdea)7(μ-benzoate)4(N3)6]·2H2O",
+      "ccdc_numbers": [
+        "1307228"
+      ],
+      "ccdc_refcodes": [
+        "YUQZIU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Fe"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "desolvated decanuclear Dy3Fe7 oxo/hydroxo cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Orange needles of the methanol solvate 1 were prepared as above. On exposure to air the crystals lose all seven lattice methanol molecules but remain crystalline; the desolvated phase is formulated as the dihydrate from microanalysis. A synchrotron structure of a small air-exposed crystal confirmed that the molecular Dy3Fe7 cluster is essentially unchanged. Crystals remain unchanged in air for at least a year.",
+        "reagents": [
+          {
+            "name": "N-methyldiethanolamine",
+            "formula": "mdeaH2",
+            "role": "ligand",
+            "amount": "0.09 g, 0.75 mmol"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.07 g, 0.25 mmol"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "C6H5CO2H",
+            "role": "bridging ligand precursor",
+            "amount": "0.06 g, 0.50 mmol"
+          },
+          {
+            "name": "iron(III) chloride",
+            "formula": "FeCl3",
+            "role": "metal source",
+            "amount": "0.08 g, 0.50 mmol"
+          },
+          {
+            "name": "sodium azide",
+            "formula": "NaN3",
+            "role": "azide source",
+            "amount": "0.034 g, 0.50 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "air exposure after crystallization of 1; synchrotron data at 150 K",
+        "time": "air exposure; crystals stable for at least one year",
+        "ph": null,
+        "vessel_or_method": "air desolvation of crystals of 1; synchrotron SCD beamline structure of desolvated crystal",
+        "workup_and_crystallization": "loss of lattice methanols on exposure to air; remains crystalline as dihydrate",
+        "yield": null
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": "Only crystallographic/microanalytic characterization of the air-desolvated dihydrate is given; magnetic and Mössbauer data are reported for compound 1 without a separate dataset for the desolvated phase.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental elemental analysis; crystal packing/desolvation discussion"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "CHN for Dy3Fe7C63H103N25O28 (loss of 7 MeOH)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC row 1307228 / YUQZIU"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row YUQZIU"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Desolvated crystal structure discussion"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Synthesis plus air-exposure/desolvation paragraph"
+        }
+      ]
+    }
+  ]
+}

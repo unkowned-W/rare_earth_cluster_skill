@@ -1,0 +1,585 @@
+{
+  "title": "Reversible ON–OFF switching of single-molecule magnetism associated with single-crystal-to-single-crystal structural transformation of a decanuclear dysprosium phosphonate",
+  "doi": "10.1039/c8sc01228h",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "I",
+      "compound_name": "oxalate-bridged decanuclear dysprosium(III) EDDC/9-anthrylmethylphosphonate cluster hexahydrate",
+      "formula": "C138H132Dy10N32O54P4·6H2O",
+      "ccdc_numbers": [
+        "1819929"
+      ],
+      "ccdc_refcodes": [
+        "BIBBIA"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "oxalate-bridged pair of cyclic Dy5 phosphonate pentamers"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "H2EDDC (59.6 mg, 0.20 mmol) and triethylamine (0.07 mL, 0.5 mmol) were slurried in water/methanol (20 mL, 1:3). Solid Dy(OAc)3·4H2O (82.4 mg, 0.20 mmol) and sodium oxalate (20.1 mg, 0.15 mmol) were added at room temperature and the mixture was stirred for 24 h. C15H11PO3H2 (54.4 mg, 0.2 mmol) was then added and stirring continued for 24 h at room temperature. The mixture was sealed in 25 mL glassware and kept in a vacuum drying oven at 100 °C for 7 days, giving dark red single crystals as a single-phase product.",
+        "reagents": [
+          {
+            "name": "H2EDDC",
+            "formula": "C12H12N8O2",
+            "role": "ligand precursor",
+            "amount": "59.6 mg, 0.20 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "C6H15N",
+            "role": "base",
+            "amount": "0.07 mL, 0.5 mmol"
+          },
+          {
+            "name": "dysprosium(III) acetate tetrahydrate",
+            "formula": "Dy(OAc)3·4H2O",
+            "role": "metal source",
+            "amount": "82.4 mg, 0.20 mmol"
+          },
+          {
+            "name": "sodium oxalate",
+            "formula": "Na2C2O4",
+            "role": "bridging-ligand source",
+            "amount": "20.1 mg, 0.15 mmol"
+          },
+          {
+            "name": "9-anthrylmethylphosphonic acid",
+            "formula": "C15H11PO3H2",
+            "role": "phosphonate ligand",
+            "amount": "54.4 mg, 0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "water",
+          "methanol"
+        ],
+        "temperature": "room temperature, then 100 °C",
+        "time": "24 h + 24 h stirring, then 7 days crystallization",
+        "ph": null,
+        "vessel_or_method": "sealed 25 mL glassware in a vacuum drying oven",
+        "workup_and_crystallization": "Dark red single crystals formed after 7 days at 100 °C as a single-phase product.",
+        "yield": "47 mg (39% based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "I is not an SMM: dc susceptibility is typical of weakly coupled Dy(III), and zero-field ac susceptibility shows no slow relaxation. UV irradiation switches the SMM response ON in I-UV; annealing switches it OFF again.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "139.9",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1 kOe, per Dy10"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "88.1",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "low temperature below 30 K, 1 kOe, per Dy10"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "53.1",
+            "unit": "muB",
+            "conditions": "1.8 K, 70 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility",
+            "value": "frequency-independent chi' and chi''",
+            "unit": null,
+            "conditions": "zero dc field, 1.8–26 K, 1–1000 Hz"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1 and elemental analysis in Synthesis of I"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1, CCDC column for I"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "catalog row BIBBIA / 1819929"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of I"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties and Fig. 4a"
+        }
+      ]
+    },
+    {
+      "compound_label": "I-UV",
+      "compound_name": "UV-transformed decanuclear dysprosium phosphonate hydrate",
+      "formula": "C134H124Dy10N32O54P4·12H2O",
+      "ccdc_numbers": [
+        "1819930",
+        "1819933"
+      ],
+      "ccdc_refcodes": [
+        "BIBCUN01",
+        "BIBCUN"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "oxalate-bridged pair of cyclic Dy5 phosphonate pentamers; methanol ligands replaced by water"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": false,
+        "procedure": "Crystals of I were converted to I-UV by UV irradiation at 365 nm for 3 days in air. The two coordinated methanol molecules are replaced by two water molecules. No numerical mass of I is given.",
+        "reagents": [
+          {
+            "name": "compound I",
+            "formula": "C138H132Dy10N32O54P4·6H2O",
+            "role": "starting crystal",
+            "amount": null
+          }
+        ],
+        "solvents": [],
+        "temperature": "ambient, 365 nm UV",
+        "time": "3 days",
+        "ph": null,
+        "vessel_or_method": "UV irradiation of single crystals in air",
+        "workup_and_crystallization": "Single-crystal-to-single-crystal transformation; structure collected at 123(2) K.",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "I-UV is an SMM. Zero-field ac data fit Orbach, Raman and QTM processes, with a narrow relaxation-time distribution (alpha about 0.15).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "137.4",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1 kOe, per Dy10"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "79.2",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "low temperature below 30 K, 1 kOe, per Dy10"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "51.4",
+            "unit": "muB",
+            "conditions": "1.8 K, 70 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "47.3",
+            "unit": "K",
+            "conditions": "zero dc field; also reported as 32.8 cm^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "tau0",
+            "value": "1.26e-7",
+            "unit": "s",
+            "conditions": "fit of 1.8–7.6 K ac data including Orbach, Raman and QTM"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole alpha",
+            "value": "0.15",
+            "unit": null,
+            "conditions": "generalized Debye fit, 3.0–7.6 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1 formula C134H148Dy10N32O66P4, equivalent to the 12-hydrate catalog formula"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1 assigns 1819930 to I-UV; 1819933 is the matching hydrate deposition in the stated CCDC 1819929–1819933 range"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "BIBCUN01/1819930 and BIBCUN/1819933 share the I-UV hydrate formula"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Results and Experimental conversion of I to I-UV"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties and Fig. 4b,c"
+        }
+      ]
+    },
+    {
+      "compound_label": "I-A-N2",
+      "compound_name": "annealed desolvated decanuclear dysprosium phosphonate",
+      "formula": "C134H116Dy10N32O50P4",
+      "ccdc_numbers": [
+        "1819931"
+      ],
+      "ccdc_refcodes": [
+        "BIBBOG"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "oxalate-bridged pair of cyclic Dy5 phosphonate pentamers after loss of two water molecules"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": false,
+        "procedure": "A single crystal of I was heated in situ under flowing nitrogen on the diffractometer at 100 °C for half an hour to give I-A-N2, whose data were collected at 373 K. Bulk I-A-Ar, used for magnetism, was obtained by annealing I-UV at 100 °C under argon in a glovebox for 2 days. No numerical sample mass is stated.",
+        "reagents": [
+          {
+            "name": "compound I",
+            "formula": null,
+            "role": "starting crystal for I-A-N2",
+            "amount": null
+          },
+          {
+            "name": "compound I-UV",
+            "formula": null,
+            "role": "starting material for bulk I-A-Ar",
+            "amount": null
+          }
+        ],
+        "solvents": [],
+        "temperature": "100 °C",
+        "time": "0.5 h under N2 on the diffractometer; 2 days under Ar in a glovebox",
+        "ph": null,
+        "vessel_or_method": "in situ nitrogen flow on a Bruker D8 diffractometer, or argon glovebox annealing",
+        "workup_and_crystallization": "SCSC transformation; I-A-Ar was loaded in a glovebox and immobilized in n-eicosane for magnetic measurements.",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "The annealed form (measured as I-A-Ar) loses slow relaxation and is a non-SMM, reversing the ON state of I-UV.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "135.6",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1 kOe, per Dy10, sample I-A-Ar"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "81.5",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "low temperature below 30 K, 1 kOe, per Dy10, sample I-A-Ar"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "49.9",
+            "unit": "muB",
+            "conditions": "1.8 K, 70 kOe, sample I-A-Ar"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility",
+            "value": "non-SMM, no slow relaxation",
+            "unit": null,
+            "conditions": "zero dc field, I-A-Ar, Fig. 4d"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1, I-A-N2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1, CCDC 1819931"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "catalog row BIBBOG / 1819931"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Structure determinations and Experimental"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties for I-A-Ar and Fig. 4d"
+        }
+      ]
+    },
+    {
+      "compound_label": "I-A-N2-cool",
+      "compound_name": "rehydrated decanuclear dysprosium phosphonate after air exposure of the annealed crystal",
+      "formula": "C134H148Dy10N32O66P4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "rehydrated oxalate-bridged Dy5-dimer; same molecular content as I-UV but a distinct SCSC state"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": false,
+        "procedure": "The same single crystal of I-A-N2 was exposed to air at 25 °C for one week to give I-A-N2-cool, and data were collected at 123 K. The paper states that the refinement was poor and the structure was not deposited. Air exposure of bulk I-A-Ar restores SMM behaviour and is treated as the corresponding rehydrated form. No numerical sample mass is given.",
+        "reagents": [
+          {
+            "name": "compound I-A-N2",
+            "formula": "C134H116Dy10N32O50P4",
+            "role": "starting crystal",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "air/moisture"
+        ],
+        "temperature": "25 °C",
+        "time": "one week",
+        "ph": null,
+        "vessel_or_method": "standing in air after in situ annealing",
+        "workup_and_crystallization": "SCSC rehydration; 11 lattice water sites were located, most disordered. Not deposited in the CCDC because of poor data (R1 11.1%, wR2 27.1%).",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Standing the annealed non-SMM in air restores SMM behaviour with a slightly lower barrier than I-UV. The metrics are reported for air-exposed I-A-Ar, which the paper equates with the rehydrated structure.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "37.6",
+            "unit": "K",
+            "conditions": "zero dc field, air-exposed I-A-Ar; also 26.1 cm^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "tau0",
+            "value": "1.04e-7",
+            "unit": "s",
+            "conditions": "ac fit of air-exposed I-A-Ar"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole alpha",
+            "value": "0.19",
+            "unit": null,
+            "conditions": "air-exposed I-A-Ar"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1, I-A-N2-cool; CCDC entry marked dash"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Structure determinations and Experimental"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Fig. 4e,f and text for I-A-Ar exposed to air"
+        }
+      ]
+    },
+    {
+      "compound_label": "II",
+      "compound_name": "pair of crystallographically independent neutral cyclic Dy5 phosphonate pentamers chloroform solvate",
+      "formula": "C140H132Dy10N32O52P4Cl6",
+      "ccdc_numbers": [
+        "1819932"
+      ],
+      "ccdc_refcodes": [
+        "BIBCAT"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "two discrete cyclic Dy5 phosphonate pentamers (molecules A and B) with two CHCl3"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "H2EDDC (44.7 mg, 0.15 mmol) and Dy(OAc)3·4H2O (61.8 mg, 0.15 mmol) in methanol (20 mL) were stirred with triethylamine (0.14 mL, 1.0 mmol) at room temperature. After 12 h, C15H11PO3H2 (27.2 mg, 0.1 mmol) was added and the mixture was stirred overnight. The yellow precipitate was filtered, dissolved in chloroform (5 mL), evaporated to 2 mL under vacuum, and transferred to a 5 mL glass tube. Red hexagonal crystals formed by slow diffusion of n-hexane (2 mL) over one week.",
+        "reagents": [
+          {
+            "name": "H2EDDC",
+            "formula": "C12H12N8O2",
+            "role": "ligand precursor",
+            "amount": "44.7 mg, 0.15 mmol"
+          },
+          {
+            "name": "dysprosium(III) acetate tetrahydrate",
+            "formula": "Dy(OAc)3·4H2O",
+            "role": "metal source",
+            "amount": "61.8 mg, 0.15 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "C6H15N",
+            "role": "base",
+            "amount": "0.14 mL, 1.0 mmol"
+          },
+          {
+            "name": "9-anthrylmethylphosphonic acid",
+            "formula": "C15H11PO3H2",
+            "role": "phosphonate ligand",
+            "amount": "27.2 mg, 0.1 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "chloroform",
+          "n-hexane"
+        ],
+        "temperature": "room temperature",
+        "time": "12 h, then overnight stirring, then one week diffusion",
+        "ph": null,
+        "vessel_or_method": "5 mL glass tube, slow diffusion",
+        "workup_and_crystallization": "Yellow precipitate filtered, dissolved in chloroform, concentrated to 2 mL, and crystallized by diffusion of n-hexane (2 mL).",
+        "yield": "34 mg (45% based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "II shows zero-field SMM behaviour with a much higher effective barrier than I-UV. Dc data are reported per Dy10 for the crystal containing two pentamers.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "140.4",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 1 kOe, per Dy10"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "86.7",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "low temperature below 30 K, 1 kOe, per Dy10"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "59.2",
+            "unit": "muB",
+            "conditions": "1.8 K, 70 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "138",
+            "unit": "K",
+            "conditions": "zero dc field; also 95.9 cm^-1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "tau0",
+            "value": "2.79e-7",
+            "unit": "s",
+            "conditions": "ac susceptibility fit, Fig. 5"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1 and elemental analysis for II"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1, CCDC 1819932"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "catalog row BIBCAT / 1819932 matches the two Dy5 molecules plus 2 CHCl3"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of II"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties and Fig. 5"
+        }
+      ]
+    }
+  ]
+}

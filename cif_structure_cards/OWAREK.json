@@ -1,0 +1,211 @@
+{
+  "refcode": "OWAREK",
+  "ccdc_number": "816882",
+  "dois": [
+    "10.1002/ejic.201000963"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\816882.cif",
+  "formula_moiety": "C44 H101 O11 Tb3",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "19.625(4)",
+    "b": "10.831(2)",
+    "c": "27.509(6)",
+    "alpha": "90",
+    "beta": "99.39(3)",
+    "gamma": "90",
+    "volume": "5768.92",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O4",
+        "O5",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.531,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 92.42,
+            "metal_oxygen_distances_angstrom": [
+              2.404,
+              2.487
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 93.61,
+            "metal_oxygen_distances_angstrom": [
+              2.343,
+              2.498
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 98.35,
+            "metal_oxygen_distances_angstrom": [
+              2.285,
+              2.38
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.526,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 93.34,
+            "metal_oxygen_distances_angstrom": [
+              2.404,
+              2.443
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 93.79,
+            "metal_oxygen_distances_angstrom": [
+              2.343,
+              2.484
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 97.84,
+            "metal_oxygen_distances_angstrom": [
+              2.32,
+              2.357
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.593,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 93.57,
+            "metal_oxygen_distances_angstrom": [
+              2.487,
+              2.443
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 92.29,
+            "metal_oxygen_distances_angstrom": [
+              2.498,
+              2.484
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 101.12,
+            "metal_oxygen_distances_angstrom": [
+              2.337,
+              2.315
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "OWAREK crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C44 H101 O11 Tb3. From the CIF bond table, Tb1 (Tb) has 6 O neighbors; Tb2 (Tb) has 6 O neighbors; Tb3 (Tb) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.526-3.593 Å (not direct metal-metal bonds). Computed M-O-M angles span 92.29-101.12°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Tb3(μ3-OtBu)2(μ2-OtBu)3(OtBu)4(HOtBu)2].",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/ejic.201000963",
+    "formula": "[Tb3(μ3-OtBu)2(μ2-OtBu)3(OtBu)4(HOtBu)2]",
+    "compound_name": "terbium tert-butoxide",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

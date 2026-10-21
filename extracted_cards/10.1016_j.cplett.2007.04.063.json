@@ -1,0 +1,181 @@
+{
+  "title": "Quantum tunneling of magnetization via well-defined Dy–Cu exchange coupling in a ferrimagnetic high-spin [Dy4Cu] single-molecule magnet",
+  "doi": "10.1016/j.cplett.2007.04.063",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "[Dy4Cu]",
+      "compound_name": "[Cu(dmg)2{Dy(hfac)2}2{Dy(hfac)}2(AcO)6](Ph4P)2·2EtOH",
+      "formula": "C102H88CuDy4F36N4O30P2",
+      "ccdc_numbers": [
+        "635852"
+      ],
+      "ccdc_refcodes": [
+        "GIFSAQ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric rectangular pentanuclear [Dy4Cu] oximato-bridged cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to [Gd4Cu]. Cu(Hdmg)2 (14.7 mg, 0.050 mmol) was dissolved in EtOH (0.5 mL) containing KOH (5.6 mg, 0.10 mmol) and combined at room temperature with an ethanolic solution (2 mL) of Dy(OAc)3·4H2O (28.8 mg, 0.070 mmol) and Dy(hfac)3·2H2O (106 mg, 0.13 mmol). Ph4PCl (37.5 mg, 0.10 mmol) in EtOH (1 mL) was added, colorless impurities were removed by filtration, and reddish-brown plates of [Dy4Cu] precipitated from the clear filtrate at room temperature over 1 d.",
+        "reagents": [
+          {
+            "name": "Cu(Hdmg)2",
+            "formula": "Cu(Hdmg)2",
+            "role": "copper source / oximato ligand precursor",
+            "amount": "14.7 mg; 0.050 mmol"
+          },
+          {
+            "name": "KOH",
+            "formula": "KOH",
+            "role": "base",
+            "amount": "5.6 mg; 0.10 mmol"
+          },
+          {
+            "name": "Dy(OAc)3·4H2O",
+            "formula": "Dy(OAc)3·4H2O",
+            "role": "dysprosium/acetate source",
+            "amount": "28.8 mg; 0.070 mmol"
+          },
+          {
+            "name": "Dy(hfac)3·2H2O",
+            "formula": "Dy(hfac)3·2H2O",
+            "role": "dysprosium/hfac source",
+            "amount": "106 mg; 0.13 mmol"
+          },
+          {
+            "name": "Ph4PCl",
+            "formula": "Ph4PCl",
+            "role": "counterion source",
+            "amount": "37.5 mg; 0.10 mmol"
+          }
+        ],
+        "solvents": [
+          "EtOH"
+        ],
+        "temperature": "room temperature",
+        "time": "1 d (crystallization)",
+        "ph": null,
+        "vessel_or_method": "solution mixing and filtration",
+        "workup_and_crystallization": "Slight colorless impurities removed by filtration; reddish-brown plates precipitated from the clear filtrate at room temperature for 1 d and were suitable for X-ray and magnetic studies.",
+        "yield": "38%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Ferrimagnetic high-spin [Dy4Cu] SMM. χmolT at 100 K is 62.9 cm3 K mol−1 (calc. 57.1 for four non-interacting Dy3+ and one Cu2+); χmolT rises on cooling, consistent with a large ground-state moment and antiferromagnetic Dy–Cu coupling. Frequency-dependent ac susceptibility below ~4 K and a Cole–Cole semicircle indicate blocking/slow relaxation of a single process; an Arrhenius barrier could not be determined precisely (first excited level estimated ~5 K). No SQUID hysteresis at ≥1.8 K. Pulsed-field magnetization at 0.5 K shows hysteresis (<0.6 T), QTM steps at 0.12, 0.24 and 0.39 T, saturation near 18 T, and a 2 μB jump at 14.1 T giving JI/kB = −0.64 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmolT",
+            "value": 62.9,
+            "unit": "cm3 K mol−1",
+            "conditions": "100 K, polycrystalline sample, SQUID"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmolT (calculated, uncoupled ions)",
+            "value": 57.1,
+            "unit": "cm3 K mol−1",
+            "conditions": "four Dy3+ (J=15/2, g=4/3) + one Cu2+ (S=1/2, g=2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility frequency dependence (blocking)",
+            "value": "χac'' elevated below ~4 K for 100–10000 Hz; χac' decreases",
+            "unit": null,
+            "conditions": "ac field amplitude 5 Oe; PPMS down to 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "estimated first excited-level splitting",
+            "value": "~5",
+            "unit": "K",
+            "conditions": "inferred from ac/Arrhenius analysis (barrier not precisely determined)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "hysteresis loop width",
+            "value": "<0.6",
+            "unit": "T",
+            "conditions": "pulsed-field magnetization, 0.5 K, polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "QTM magnetization steps",
+            "value": "0.12, 0.24, 0.39",
+            "unit": "T",
+            "conditions": "0.5 K; dM/dH of pulsed-field curves; 0.24 T step sweep-rate dependent"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "high-field magnetization jump",
+            "value": "2",
+            "unit": "μB",
+            "conditions": "around 14.1 T; saturation calibrated as 41 μB"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "JI/kB (Dy–Cu Ising exchange)",
+            "value": -0.64,
+            "unit": "K",
+            "conditions": "from 2 μB jump at 14.1 T; ground ferrimagnetic |Mz|=39 μB"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "title; Experimental; Results 3.1"
+        },
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental (elemental analysis and crystallographic formula)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental; CCDC 635852"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC metadata row GIFSAQ"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Results 3.1; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results 3.2–3.3; Discussion; Figs. 2–5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "title": "Synthesis, Structure, and Magnetic Properties of a Large Lanthanide–Transition-Metal Single-Molecule Magnet",
+  "doi": "10.1002/anie.200454013",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy6Mn6(H2shi)4(Hshi)2(shi)10(CH3OH)10(H2O)2]·9CH3OH·8H2O",
+      "formula": "[Dy6Mn6(H2shi)4(Hshi)2(shi)10(CH3OH)10(H2O)2]·9CH3OH·8H2O",
+      "ccdc_numbers": [
+        "231260"
+      ],
+      "ccdc_refcodes": [
+        "PAFHAG"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Dy6 hexagonal ring capped by two MnIII2MnIV trimers (metallacrown-related)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Complex 1 was prepared by reaction of Dy(NO3)3·5H2O (0.125 mmol), Mn(O2CCH3)2·4H2O (1 mmol), and salicylhydroxamic acid (1 mmol) in wet methanol (30 mL). The mixture was stirred overnight, giving a brown solution and white precipitate. The precipitate was filtered and the brown filtrate was allowed to slowly evaporate. Within three weeks, X-ray quality brown needle crystals of 1 were obtained.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "Dy source",
+            "amount": "0.125 mmol"
+          },
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(O2CCH3)2·4H2O",
+            "role": "Mn source",
+            "amount": "1 mmol"
+          },
+          {
+            "name": "salicylhydroxamic acid",
+            "formula": "H3shi",
+            "role": "ligand",
+            "amount": "1 mmol"
+          }
+        ],
+        "solvents": [
+          "wet methanol"
+        ],
+        "temperature": null,
+        "time": "stirred overnight; crystals within three weeks",
+        "ph": null,
+        "vessel_or_method": "stirring in methanol followed by filtration and slow evaporation",
+        "workup_and_crystallization": "White precipitate filtered; brown filtrate slowly evaporated to give brown needle crystals of 1.",
+        "yield": "15 %"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility shows χT decreasing from 105 cm3 K mol−1 at 300 K to 47.4 cm3 K mol−1 at 2 K, consistent with dominant intramolecular antiferromagnetic exchange and/or depopulation of Dy single-ion sublevels. Variable-field magnetization (2–10 K, 0.5–14 T) does not saturate and the ground spin state could not be assigned. Ac susceptibility shows a frequency-dependent out-of-phase signal that increases dramatically near 4 K, supporting SMM behavior, but TB < 2 K and no magnetization hysteresis was observed.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 105,
+            "unit": "cm3 K mol−1",
+            "conditions": "powder mulled in eicosane; dc SQUID; 300 K; 5–300 K range"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 47.4,
+            "unit": "cm3 K mol−1",
+            "conditions": "powder mulled in eicosane; dc SQUID; 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization vs field",
+            "value": "does not saturate; slight decrease at low fields (<9 T) from 2 to 5 K, large drop at 10 K; linear increase and convergence above 9 T",
+            "unit": null,
+            "conditions": "PPMS; 2, 2.5, 3.33, 5, and 10 K; 0.5–14 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility (χ′T decrease / χ″ increase)",
+            "value": "χ″ frequency-dependent; no χ″ maximum down to 2 K even at 1000 Hz",
+            "unit": null,
+            "conditions": "powder ac SQUID; 2–100 K; 10, 100, 1000 Hz; 3.5 G oscillating ac field; no applied dc field; onset near 4.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "blocking temperature TB",
+            "value": "< 2",
+            "unit": "K",
+            "conditions": "no hysteresis observed; instrument temperature limit 2 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "opening Communication paragraph; footnote [7]"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "opening Communication paragraph; footnote [7]"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "footnote [7] CCDC-231260"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row PAFHAG / 231260"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion; Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        },
+        {
+          "field": "yield",
+          "source": "main_text",
+          "location": "footnote [7]"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism paragraphs; Figure 3"
+        }
+      ]
+    }
+  ]
+}

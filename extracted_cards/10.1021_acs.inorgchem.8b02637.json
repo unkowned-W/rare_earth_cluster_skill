@@ -1,0 +1,321 @@
+{
+  "title": "Two Dy(III) Single-Molecule Magnets with Their Performance Tuned by Schiff Base Ligands",
+  "doi": "10.1021/acs.inorgchem.8b02637",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy2(MeOH)2(HL1)2(NO3)2]·2MeOH",
+      "formula": "C32H42Dy2N4O16",
+      "ccdc_numbers": [
+        "1860651"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "dinuclear Dy2 alkoxo-bridged Schiff-base cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Methanol (2 mL) and triethylamine (5 μL) were mixed with 2-hydroxynaphthaldehyde (0.1 mmol, 0.0172 g), 3-amino-1,2-propanediol (0.1 mmol, 0.0091 g), and Dy(NO3)3·6H2O (0.1 mmol, 0.0568 g) in a Pyrex tube. The mixture was sealed under vacuum. The resulting yellow solution was heated at 80 °C for 3 days, cooled overnight, and filtered. The filtrate was evaporated over 10 days to give yellow crystals of 1. The Schiff-base ligand H3L1 is formed in situ.",
+        "reagents": [
+          {
+            "name": "2-hydroxynaphthaldehyde",
+            "formula": "C11H8O2",
+            "role": "ligand precursor",
+            "amount": "0.1 mmol, 0.0172 g"
+          },
+          {
+            "name": "3-amino-1,2-propanediol",
+            "formula": "C3H9NO2",
+            "role": "ligand precursor",
+            "amount": "0.1 mmol, 0.0091 g"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol, 0.0568 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "5 μL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "80 °C",
+        "time": "3 days heating, then overnight cooling, then 10 days evaporation",
+        "ph": null,
+        "vessel_or_method": "sealed Pyrex tube under vacuum; solvothermal heating then evaporation",
+        "workup_and_crystallization": "cooled overnight, filtered; yellow crystals obtained by evaporating the filtrate over 10 days",
+        "yield": "22% based on Dy(NO3)3·6H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field Dy2 SMM. χMT at 300 K is 28.58 cm3 K mol−1 (calc. 28.34 for two isolated Dy(III)); χMT decreases to 27.12 cm3 K mol−1 at 25 K then rises on cooling to 2 K, indicating ferromagnetic Dy···Dy coupling. Magnetization reaches 11.57 NμB at 70 kOe and 1.8 K. Frequency-dependent ac susceptibility under zero dc field gives Ueff/kB = 34 K and τ0 = 9.5×10−6 s (QTM τQTM = 0.0025 s); under 1000 Oe, Ueff/kB = 36.4 K and τ0 = 4.5×10−6 s. Cole–Cole α = 0.14–0.28 (0 Oe) and 0.14–0.36 (1000 Oe).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 28.58,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 27.12,
+            "unit": "cm3 K mol−1",
+            "conditions": "25 K, 1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 11.57,
+            "unit": "NμB",
+            "conditions": "70 kOe, 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": 34,
+            "unit": "K",
+            "conditions": "zero dc field; Orbach+Raman+QTM fit of ln(τ) vs 1/T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "9.5e-6",
+            "unit": "s",
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τQTM",
+            "value": 0.0025,
+            "unit": "s",
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": 36.4,
+            "unit": "K",
+            "conditions": "1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "4.5e-6",
+            "unit": "s",
+            "conditions": "1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.14–0.28",
+            "unit": null,
+            "conditions": "zero dc field, Debye model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "relaxation time τ",
+            "value": "1.50e-4 to 1.24e-3",
+            "unit": "s",
+            "conditions": "zero dc field, Debye model"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section; Table 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Collection of Crystal Data and Structural Refinement (CCDC 1860651)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 3–7; Conclusions"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy6(μ3-OH)2(L2)2(HL2)2(H2L2)2Cl2(EtOH)2]Cl2·3EtOH·CH3CN",
+      "formula": "C102H125Cl4Dy6N7O25",
+      "ccdc_numbers": [
+        "1860652"
+      ],
+      "ccdc_refcodes": [
+        "FIWHAX"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "nearly planar hexanuclear Dy6 with four edge-shared Dy3 triangles"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "2-Hydroxy-1-naphthaldehyde (0.1 mmol, 0.0172 g), triethylamine (20 μL), DyCl3·6H2O (0.10 mmol, 0.0386 g), and 1,1-di(hydroxymethyl)ethylamine (0.1 mmol, 0.0105 g) in ethanol (1.5 mL) and acetonitrile (0.5 mL) were sealed in a Pyrex tube under vacuum and heated at 80 °C for 2 days. After cooling overnight, light-yellow crystals of 2 were separated. The Schiff-base ligand H3L2 is formed in situ.",
+        "reagents": [
+          {
+            "name": "2-hydroxy-1-naphthaldehyde",
+            "formula": "C11H8O2",
+            "role": "ligand precursor",
+            "amount": "0.1 mmol, 0.0172 g"
+          },
+          {
+            "name": "1,1-di(hydroxymethyl)ethylamine",
+            "formula": "C4H11NO2",
+            "role": "ligand precursor",
+            "amount": "0.1 mmol, 0.0105 g"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.10 mmol, 0.0386 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "20 μL"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "acetonitrile"
+        ],
+        "temperature": "80 °C",
+        "time": "2 days heating, then overnight cooling",
+        "ph": null,
+        "vessel_or_method": "sealed Pyrex tube under vacuum; solvothermal",
+        "workup_and_crystallization": "cooled overnight; light-yellow crystals separated directly",
+        "yield": "18% based on DyCl3·6H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field Dy6 SMM. χMT at 300 K is 82.74 cm3 K mol−1 (calc. 85.02 for six isolated Dy(III)); χMT stays nearly constant to 242 K then decreases to 39.68 cm3 K mol−1 at 2 K, consistent with dominant antiferromagnetic interactions. Magnetization reaches 33.83 NμB at 70 kOe and 1.8 K. Under zero dc field, Ueff/kB = 40 K and τ0 = 1.68×10−6 s (Orbach+Raman). Cole–Cole α = 0.17–0.29; τ = 1.99×10−4 to 7.22×10−4 s.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 82.74,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 39.68,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 33.83,
+            "unit": "NμB",
+            "conditions": "70 kOe, 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": 40,
+            "unit": "K",
+            "conditions": "zero dc field; Orbach+Raman fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "1.68e-6",
+            "unit": "s",
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.17–0.29",
+            "unit": null,
+            "conditions": "zero dc field, Debye model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "relaxation time τ",
+            "value": "1.99e-4 to 7.22e-4",
+            "unit": "s",
+            "conditions": "zero dc field, Debye model"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section; Table 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Collection of Crystal Data (CCDC 1860652)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row FIWHAX / 1860652"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 3–7; Conclusions"
+        }
+      ]
+    }
+  ]
+}

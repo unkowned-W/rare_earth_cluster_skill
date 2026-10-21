@@ -1,0 +1,166 @@
+{
+  "refcode": "ANIVEB",
+  "ccdc_number": "2047787",
+  "dois": [
+    "10.1039/d0dt04122j"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2047787.cif",
+  "formula_moiety": "C64 H40 N29 O19 Tb3,2(C3 H7 N1 O1)",
+  "crystal_system": "orthorhombic",
+  "space_group_hm": "F d d 2",
+  "international_tables_number": "43",
+  "unit_cell": {
+    "a": "32.353(5)",
+    "b": "35.316(6)",
+    "c": "13.8018(19)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "15769.6",
+    "Z": "8"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1A",
+        "O2",
+        "O2A",
+        "O3",
+        "O3A"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O5",
+        "O6",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tb2A",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O2A",
+        "O5A",
+        "O6A",
+        "O8A",
+        "O9A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 4.182,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 116.52,
+            "metal_oxygen_distances_angstrom": [
+              2.49,
+              2.427
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 119.36,
+            "metal_oxygen_distances_angstrom": [
+              2.385,
+              2.46
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb2A"
+        ],
+        "shared_oxygen_labels": [
+          "O1A",
+          "O2A"
+        ],
+        "metal_metal_separation_angstrom": 4.182,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1A",
+            "angle_deg": 116.52,
+            "metal_oxygen_distances_angstrom": [
+              2.49,
+              2.427
+            ]
+          },
+          {
+            "oxygen": "O2A",
+            "angle_deg": 119.36,
+            "metal_oxygen_distances_angstrom": [
+              2.385,
+              2.46
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb2A"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ANIVEB crystallizes in the orthorhombic crystal system with space group F d d 2. Reported CIF formula moiety: C64 H40 N29 O19 Tb3,2(C3 H7 N1 O1). From the CIF bond table, Tb1 (Tb) has 6 O neighbors; Tb2 (Tb) has 6 O neighbors; Tb2A (Tb) has 6 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 4.182-4.182 Å (not direct metal-metal bonds). Computed M-O-M angles span 116.52-119.36°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C70H56Tb3N31O21. Explicit grouped units in the article formula/name: 5 NO3 (explicit grouped unit in article compound name (structural notation)). Article name explicitly identifies Tb(III).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d0dt04122j",
+    "formula": "C70H56Tb3N31O21",
+    "compound_name": "[TbIII3(Phen)2(NO3)5]·2DMF",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 5,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "Tb",
+        "state": "III",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

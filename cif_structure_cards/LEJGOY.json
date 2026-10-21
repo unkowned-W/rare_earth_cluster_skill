@@ -1,0 +1,262 @@
+{
+  "refcode": "LEJGOY",
+  "ccdc_number": "751400",
+  "dois": [
+    "10.1002/chem.201002296"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\751400.cif",
+  "formula_moiety": "C49 H50 Cl1 N6 O19 Tb3,H2 O1,C48 H48 Cl1 N6 O19 Tb3",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "17.4982(5)",
+    "b": "19.4175(3)",
+    "c": "35.5740(7)",
+    "alpha": "90",
+    "beta": "92.3880(10)",
+    "gamma": "90",
+    "volume": "12076.5",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O13",
+        "O2",
+        "O5",
+        "O8"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O14",
+        "O3",
+        "O5",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O17",
+        "O2",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "label": "Tb4",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O24",
+        "O25",
+        "O27",
+        "O30",
+        "O31",
+        "O33"
+      ]
+    },
+    {
+      "label": "Tb5",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O21",
+        "O24",
+        "O27",
+        "O28",
+        "O32",
+        "O38"
+      ]
+    },
+    {
+      "label": "Tb6",
+      "element": "Tb",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O26",
+        "O30",
+        "O33",
+        "O34",
+        "O36"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O5",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.729,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 104.96,
+            "metal_oxygen_distances_angstrom": [
+              2.309,
+              2.392
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 103.12,
+            "metal_oxygen_distances_angstrom": [
+              2.392,
+              2.369
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.749,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 104.11,
+            "metal_oxygen_distances_angstrom": [
+              2.29,
+              2.462
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 104.21,
+            "metal_oxygen_distances_angstrom": [
+              2.368,
+              2.382
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb4",
+          "Tb5"
+        ],
+        "shared_oxygen_labels": [
+          "O24",
+          "O27"
+        ],
+        "metal_metal_separation_angstrom": 3.734,
+        "bridge_geometry": [
+          {
+            "oxygen": "O24",
+            "angle_deg": 102.95,
+            "metal_oxygen_distances_angstrom": [
+              2.418,
+              2.354
+            ]
+          },
+          {
+            "oxygen": "O27",
+            "angle_deg": 105.52,
+            "metal_oxygen_distances_angstrom": [
+              2.335,
+              2.355
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb4",
+          "Tb6"
+        ],
+        "shared_oxygen_labels": [
+          "O30",
+          "O33"
+        ],
+        "metal_metal_separation_angstrom": 3.745,
+        "bridge_geometry": [
+          {
+            "oxygen": "O30",
+            "angle_deg": 104.46,
+            "metal_oxygen_distances_angstrom": [
+              2.368,
+              2.369
+            ]
+          },
+          {
+            "oxygen": "O33",
+            "angle_deg": 104.9,
+            "metal_oxygen_distances_angstrom": [
+              2.275,
+              2.447
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3"
+      ],
+      [
+        "Tb4",
+        "Tb5",
+        "Tb6"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LEJGOY crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C49 H50 Cl1 N6 O19 Tb3,H2 O1,C48 H48 Cl1 N6 O19 Tb3. From the CIF bond table, Tb1 (Tb) has 6 O neighbors; Tb2 (Tb) has 6 O neighbors; Tb3 (Tb) has 5 O neighbors; Tb4 (Tb) has 6 O neighbors; Tb5 (Tb) has 6 O neighbors; Tb6 (Tb) has 5 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 2 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.729-3.749 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.95-105.52°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C97H100Cl2N12O39Tb6. Explicit grouped units in the article formula/name: 1 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/chem.201002296",
+    "formula": "C97H100Cl2N12O39Tb6",
+    "compound_name": "[Tb3(MeOsalox)2(MeosaloxH)4Cl(MeOH)][Tb3(MeOsalox)2(MeosaloxH)4Cl(H2O)]·H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

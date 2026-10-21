@@ -1,0 +1,94 @@
+{
+  "refcode": "EJICEI",
+  "ccdc_number": "1999948",
+  "dois": [
+    "10.1016/j.molstruc.2020.129783"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1999948.cif",
+  "formula_moiety": "C50 H100 Cr2 Er3 O28 1-,C6 H16 N1 1+",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "P 42/n m c",
+  "international_tables_number": "137",
+  "unit_cell": {
+    "a": "18.4851(2)",
+    "b": "18.4851(2)",
+    "c": "29.6102(3)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "10117.8",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Er1",
+      "element": "Er",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Er2",
+      "element": "Er",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Cr1",
+      "element": "Cr",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O13",
+        "O14",
+        "O2",
+        "O3",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Cr1"
+      ],
+      [
+        "Er1"
+      ],
+      [
+        "Er2"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "EJICEI crystallizes in the tetragonal crystal system with space group P 42/n m c. Reported CIF formula moiety: C50 H100 Cr2 Er3 O28 1-,C6 H16 N1 1+. From the CIF bond table, Er1 (Er) has 0 O neighbors; Er2 (Er) has 0 O neighbors; Cr1 (Cr) has 6 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula Et3NH[Er3Cr2(piv)10(OH)6(H2O)2]. Explicit grouped units in the article formula/name: 6 OH (explicit grouped unit in article formula), 2 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.molstruc.2020.129783",
+    "formula": "Et3NH[Er3Cr2(piv)10(OH)6(H2O)2]",
+    "compound_name": "{Et3NH[Er3Cr2L10(OH)6(H2O)2]} (L = piv)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 6,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

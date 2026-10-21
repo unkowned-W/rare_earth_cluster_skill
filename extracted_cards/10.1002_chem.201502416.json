@@ -1,0 +1,124 @@
+{
+  "title": "Rational Design of a Lanthanide-Based Complex Featuring Different Single-Molecule Magnets",
+  "doi": "10.1002/chem.201502416",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Dy-Dy2-Dy",
+      "compound_name": "[Dy4(tta)12(L)2]·(C6H14)4",
+      "formula": "C176H156Dy4F36N8O26S24",
+      "ccdc_numbers": [
+        "1057005"
+      ],
+      "ccdc_refcodes": [
+        "QUWCUI"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetranuclear Dy4 assembly of two terminal mononuclear Dy(tta)3 units bridged by a central dinuclear Dy2(tta)6 core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(tta)3·2H2O (34.4 mg, 0.04 mmol) was dissolved in CH2Cl2 (10 mL) and added to a solution of L (12.5 mg, 0.02 mmol) in CH2Cl2 (10 mL). After 15 min of stirring, the solution was layered with 25 mL of n-hexane at room temperature in the dark. Slow diffusion afforded red single crystals suitable for X-ray studies.",
+        "reagents": [
+          {
+            "name": "Dy(tta)3·2H2O",
+            "formula": "Dy(tta)3·2H2O",
+            "role": "metal precursor",
+            "amount": "34.4 mg, 0.04 mmol"
+          },
+          {
+            "name": "2-{1-methylpyridine-N-oxide-4,5-[4,5-bis(propylthio)tetrathiafulvalenyl]-1H-benzimidazol-2-yl}pyridine (L)",
+            "formula": "C28H26N4OS6",
+            "role": "bridging ligand",
+            "amount": "12.5 mg, 0.02 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "n-hexane"
+        ],
+        "temperature": "room temperature",
+        "time": "15 min stirring, then slow diffusion",
+        "ph": null,
+        "vessel_or_method": "layering/slow diffusion in the dark",
+        "workup_and_crystallization": "layered with 25 mL n-hexane; slow diffusion gave red single crystals",
+        "yield": "28 mg (57%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Tetranuclear SMM combining two terminal mononuclear Dy SMMs and a central antiferromagnetically coupled dinuclear Dy2 SMM. Room-temperature χMT is 56 cm3 K mol−1 (expected 56.7 for four DyIII). Zero-field ac susceptibility is frequency-dependent below 14 K and splits below 10 K into fast (mononuclear) and slow (dinuclear) relaxation processes that merge above ~7 K. A magnetic hysteresis loop opens at 0.5 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "56",
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature; expected 56.7 cm3 K mol−1 for four DyIII (6H15/2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "out-of-phase ac susceptibility (SMM)",
+            "value": "frequency-dependent signal below 14 K; FR/SR split below 10 K",
+            "unit": null,
+            "conditions": "zero external dc field; ac frequency range 10−2–103 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Hcross (dinuclear interaction)",
+            "value": "1500",
+            "unit": "Oe",
+            "conditions": "related to J by Hcross = −J/2gβ with g = 20, giving J ≈ −2.8 cm−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic hysteresis loop",
+            "value": "slightly open at 0.5 K; not open at 2 K",
+            "unit": null,
+            "conditions": "0.5 K (Figure 9); relaxation times too fast for opening at 2 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section (Synthesis of [Dy4(tta)12(L)2]·(C6H14)4)"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Crystal data for Dy-Dy2-Dy"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Crystal structure determination (CCDC 1057005)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row QUWCUI / 1057005"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of [Dy4(tta)12(L)2]·(C6H14)4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic measurements; Figures 5–7 and 9"
+        }
+      ]
+    }
+  ]
+}

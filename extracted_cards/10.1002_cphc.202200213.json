@@ -1,0 +1,167 @@
+{
+  "title": "A Magnetocaloric Glass from an Ionic-Liquid Gadolinium Complex",
+  "doi": "10.1002/cphc.202200213",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "pentadecakis(bis(trifluoromethanesulfonyl)imide) octaaquahexadecakis(1-carboxymethyl-3-ethylimidazolium)pentagadolinium",
+      "formula": "[Gd5(L)16(H2O)8](Tf2N)15",
+      "ccdc_numbers": [
+        "2083313"
+      ],
+      "ccdc_refcodes": [
+        "QELVIQ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "ionic-liquid pentanuclear Gd5 carboxylate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Following a published procedure for related Er/Ho/Tm complexes, LHCl (4.46 g, 23.4 mmol) and Gd2O3 (1.20 g, 3.30 mmol) were added to 35 mL H2O and the white slurry was refluxed for 24 h. Li(Tf2N) (5.74 g, 20.0 mmol) was then added, the mixture was refluxed for 30 min and allowed to cool. The separated organic phase was washed with 6 mL H2O, phases were allowed to separate overnight, and the organic phase was dried at 50 °C under vacuum. After about two weeks a large crystalline fraction formed admixed with a viscous liquid; the product of 1 was isolated as a colorless liquid that crystallized under ambient conditions. Residual diamagnetic [LH][NTf2] remained in the crude mixture.",
+        "reagents": [
+          {
+            "name": "1-carboxymethyl-3-ethylimidazolium chloride (LHCl)",
+            "formula": "C7H11ClN2O2",
+            "role": "ligand precursor",
+            "amount": "4.46 g, 23.4 mmol"
+          },
+          {
+            "name": "gadolinium(III) oxide",
+            "formula": "Gd2O3",
+            "role": "metal source",
+            "amount": "1.20 g, 3.30 mmol"
+          },
+          {
+            "name": "lithium bis(trifluoromethanesulfonyl)imide",
+            "formula": "Li(Tf2N)",
+            "role": "anion source",
+            "amount": "5.74 g, 20.0 mmol"
+          }
+        ],
+        "solvents": [
+          "H2O"
+        ],
+        "temperature": "reflux; organic phase dried at 50 °C under vacuum",
+        "time": "24 h reflux, then 30 min after Li(Tf2N) addition; phase separation overnight; crystallization over about two weeks",
+        "ph": null,
+        "vessel_or_method": "aqueous reflux; vacuum drying of the organic phase",
+        "workup_and_crystallization": "organic phase washed with 6 mL H2O, separated overnight, dried at 50 °C under vacuum; crystals of 1 developed from the ionic liquid under ambient conditions within days to two weeks, remaining admixed with a viscous liquid",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Glassy ionic-liquid 1 shows weak intramolecular Gd···Gd couplings of mixed ferro- and antiferromagnetic sign and behaves near the uncoupled limit. After correction for residual diamagnetic [LH][NTf2], χMT matches five S=7/2 Gd(III) ions. A magnetocaloric effect is observed in the molecular glass, with −ΔSm = 11.36 J K−1 kg−1 at 1.8 K for a 0–7 T field change and RC = 125.9 J kg−1 over 1.8–50 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (pristine, uncorrected)",
+            "value": 25.8,
+            "unit": "cm3 mol−1 K",
+            "conditions": "300 K, 0.5 T; MW of crystal structure"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (theoretical, five uncoupled Gd(III))",
+            "value": 39.4,
+            "unit": "cm3 mol−1 K",
+            "conditions": "S=7/2, g=2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "saturation magnetization (pristine, uncorrected)",
+            "value": 22,
+            "unit": "NA μB",
+            "conditions": "compared with 35 NA μB for five uncoupled S=7/2 spins"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J1 / J2",
+            "value": "+0.0715(2) / −0.0682(3)",
+            "unit": "cm−1",
+            "conditions": "0.05 T dataset; Hamiltonian with two isotropic exchanges and Zeeman term; g=2 fixed"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J1 / J2",
+            "value": "+0.0244(1) / −0.0228(9)",
+            "unit": "cm−1",
+            "conditions": "0.5 T dataset"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change ΔSm",
+            "value": -11.36,
+            "unit": "J K−1 kg−1",
+            "conditions": "1.8 K; magnetic field change 0–7 T; diamagnetic-impurity-corrected; from isothermal magnetization via Maxwell relation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change ΔSm (volumetric)",
+            "value": -21.09,
+            "unit": "J K−1 L−1",
+            "conditions": "1.8 K; 0–7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "refrigerant capacity RC",
+            "value": 125.9,
+            "unit": "J kg−1",
+            "conditions": "0–7 T; 1.8–50 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Introduction; compound 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract and Introduction"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Supporting Information statement, CCDC 2083313"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row QELVIQ / 2083313"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Solid-Liquid X-ray Crystallography; Figure 1 pentadecacation"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental / Syntheses of 1"
+        },
+        {
+          "field": "synthesis.main_text_has_explicit_synthesis",
+          "source": "main_text",
+          "location": "Synthesis section (procedure cited without quantities)"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Studies; Figures 7–9"
+        }
+      ]
+    }
+  ]
+}

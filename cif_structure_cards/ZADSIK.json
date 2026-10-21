@@ -1,0 +1,198 @@
+{
+  "refcode": "ZADSIK",
+  "ccdc_number": "2007147",
+  "dois": [
+    "10.1016/j.poly.2020.114830"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2007147.cif",
+  "formula_moiety": "C66 H76 Dy4 N8 O26",
+  "crystal_system": "rhombohedral",
+  "space_group_hm": "R -3",
+  "international_tables_number": "148",
+  "unit_cell": {
+    "a": "40.4752(2)",
+    "b": "40.4752(2)",
+    "c": "14.9389(3)",
+    "alpha": "90.00",
+    "beta": "90.00",
+    "gamma": "120.00",
+    "volume": "21194.7",
+    "Z": "9"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O13",
+        "O15",
+        "O21",
+        "O5",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O12",
+        "O2",
+        "O5"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O17",
+        "O20",
+        "O6",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy4",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O16",
+        "O17",
+        "O19",
+        "O22",
+        "O26"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.788,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 110.32,
+            "metal_oxygen_distances_angstrom": [
+              2.278,
+              2.338
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 104.33,
+            "metal_oxygen_distances_angstrom": [
+              2.422,
+              2.375
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O15",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.804,
+        "bridge_geometry": [
+          {
+            "oxygen": "O9",
+            "angle_deg": 111.7,
+            "metal_oxygen_distances_angstrom": [
+              2.282,
+              2.315
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 111.71,
+            "metal_oxygen_distances_angstrom": [
+              2.314,
+              2.281
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy3",
+          "Dy4"
+        ],
+        "shared_oxygen_labels": [
+          "O14",
+          "O17"
+        ],
+        "metal_metal_separation_angstrom": 3.788,
+        "bridge_geometry": [
+          {
+            "oxygen": "O14",
+            "angle_deg": 110.31,
+            "metal_oxygen_distances_angstrom": [
+              2.338,
+              2.278
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 104.33,
+            "metal_oxygen_distances_angstrom": [
+              2.375,
+              2.422
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3",
+        "Dy4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ZADSIK crystallizes in the rhombohedral crystal system with space group R -3. Reported CIF formula moiety: C66 H76 Dy4 N8 O26. From the CIF bond table, Dy2 (Dy) has 6 O neighbors; Dy1 (Dy) has 6 O neighbors; Dy3 (Dy) has 6 O neighbors; Dy4 (Dy) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.788-3.804 Å (not direct metal-metal bonds). Computed M-O-M angles span 104.33-111.71°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Dy4(HL3)4(CH3COO)4(EtOH)2].",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.poly.2020.114830",
+    "formula": "[Dy4(HL3)4(CH3COO)4(EtOH)2]",
+    "compound_name": "[Dy4(HL3)4(CH3COO)4(EtOH)2] (HL3 = 2-(4,4-bis(hydroxymethyl)oxazolidin-2-yl)quinolin-8-ol)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

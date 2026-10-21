@@ -1,0 +1,167 @@
+{
+  "refcode": "KUFTUD",
+  "ccdc_number": "1938308",
+  "dois": [
+    "10.1002/chem.201904535"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1938308.cif",
+  "formula_moiety": "C98 H54 Dy3 Li1 N24 O6 S1,0.5(C7 H8),C2 H6 O1 S1",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "16.7941(6)",
+    "b": "16.8958(6)",
+    "c": "18.6611(5)",
+    "alpha": "73.085(2)",
+    "beta": "80.252(3)",
+    "gamma": "75.379(3)",
+    "volume": "4875.59",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O3",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O4",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.748,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 105.1,
+            "metal_oxygen_distances_angstrom": [
+              2.429,
+              2.29
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 105.21,
+            "metal_oxygen_distances_angstrom": [
+              2.427,
+              2.289
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.754,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 104.76,
+            "metal_oxygen_distances_angstrom": [
+              2.45,
+              2.287
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 107.47,
+            "metal_oxygen_distances_angstrom": [
+              2.435,
+              2.218
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 5.008,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 141.96,
+            "metal_oxygen_distances_angstrom": [
+              2.619,
+              2.678
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "KUFTUD crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C98 H54 Dy3 Li1 N24 O6 S1,0.5(C7 H8),C2 H6 O1 S1. From the CIF bond table, Dy1 (Dy) has 4 O neighbors; Dy2 (Dy) has 3 O neighbors; Dy3 (Dy) has 3 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.748-5.008 Å (not direct metal-metal bonds). Computed M-O-M angles span 104.76-141.96°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C98H54Dy3LiN24O6S·0.5(C7H8)·C2H6OS.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/chem.201904535",
+    "formula": "C98H54Dy3LiN24O6S·0.5(C7H8)·C2H6OS",
+    "compound_name": "lithium tris(phthalocyaninatodysprosium) tetrahydroxide aqua cluster",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

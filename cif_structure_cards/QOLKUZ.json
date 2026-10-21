@@ -1,0 +1,148 @@
+{
+  "refcode": "QOLKUZ",
+  "ccdc_number": "957084",
+  "dois": [
+    "10.1002/ejic.201402447"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\957084.cif",
+  "formula_moiety": "C118 H120 N12 Na4 O34 S4 Tb4",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "13.613(2)",
+    "b": "25.110(5)",
+    "c": "18.264(2)",
+    "alpha": "90.00",
+    "beta": "99.690(10)",
+    "gamma": "90.00",
+    "volume": "6153.97",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O112",
+        "O212",
+        "O312",
+        "O91",
+        "O93"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O412",
+        "O512",
+        "O612",
+        "O91",
+        "O92"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O19",
+        "O21",
+        "O23",
+        "O26",
+        "O28"
+      ]
+    },
+    {
+      "label": "Tb4",
+      "element": "Tb",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O19",
+        "O20",
+        "O30",
+        "O32",
+        "O35"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O91"
+        ],
+        "metal_metal_separation_angstrom": 4.989,
+        "bridge_geometry": [
+          {
+            "oxygen": "O91",
+            "angle_deg": 172.68,
+            "metal_oxygen_distances_angstrom": [
+              2.483,
+              2.516
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb3",
+          "Tb4"
+        ],
+        "shared_oxygen_labels": [
+          "O19"
+        ],
+        "metal_metal_separation_angstrom": 4.989,
+        "bridge_geometry": [
+          {
+            "oxygen": "O19",
+            "angle_deg": 172.68,
+            "metal_oxygen_distances_angstrom": [
+              2.483,
+              2.516
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2"
+      ],
+      [
+        "Tb3",
+        "Tb4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "QOLKUZ crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C118 H120 N12 Na4 O34 S4 Tb4. From the CIF bond table, Tb1 (Tb) has 5 O neighbors; Tb2 (Tb) has 5 O neighbors; Tb3 (Tb) has 5 O neighbors; Tb4 (Tb) has 5 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.989-4.989 Å (not direct metal-metal bonds). Computed M-O-M angles span 172.68-172.68°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Na2(Tb(L1)3)2(CO3)(DMSO)2]2.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/ejic.201402447",
+    "formula": "[Na2(Tb(L1)3)2(CO3)(DMSO)2]2",
+    "compound_name": "octanuclear sodium–terbium carbonate DMSO complex of L1",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

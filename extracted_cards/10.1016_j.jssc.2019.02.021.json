@@ -1,0 +1,157 @@
+{
+  "title": "Tetranuclear dysprosium compound: Synthesis and single-molecule magnet properties",
+  "doi": "10.1016/j.jssc.2019.02.021",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": null,
+      "compound_name": "[Dy4(L)4(OH)2(DMF)2(TMAA)2]·2(CH3CN)",
+      "formula": "[Dy4(L)4(OH)2(DMF)2(TMAA)2]·2(CH3CN)",
+      "ccdc_numbers": [
+        "1885577"
+      ],
+      "ccdc_refcodes": [
+        "LIVKEJ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "distorted defective dicubane {Dy4O8} parallelogram core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under aerobic conditions, a mixture of Schiff-base H2L (0.2 mmol, 48.6 mg) and triethylamine (0.4 mmol, 0.06 mL) in acetonitrile (5 mL) was stirred for 30 min. Solid Dy(NO3)3·6H2O (0.3 mmol, 131.6 mg) was added and the mixture was stirred for a further 30 min. A DMF (5 mL) solution of trimethylacetic acid (0.2 mmol, 20.4 mg) and triethylamine (0.2 mmol, 0.03 mL) was then added and stirring continued for 30 min. The resulting solution was filtered and the filtrate was allowed to stand at room temperature for one week. Crystals suitable for single-crystal analysis formed by slow solvent evaporation and were collected by careful filtration (48% yield based on Dy).",
+        "reagents": [
+          {
+            "name": "2-(2-Hydroxy-3-methoxybenzylideneamino)phenol (H2L)",
+            "formula": "C14H13NO3",
+            "role": "Schiff-base ligand",
+            "amount": "0.2 mmol, 48.6 mg"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.4 mmol, 0.06 mL (first portion); 0.2 mmol, 0.03 mL (second portion)"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.3 mmol, 131.6 mg"
+          },
+          {
+            "name": "trimethylacetic acid (HTMAA)",
+            "formula": "C5H10O2",
+            "role": "carboxylate ligand",
+            "amount": "0.2 mmol, 20.4 mg"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "DMF"
+        ],
+        "temperature": "room temperature",
+        "time": "ligand/base stirring 30 min; after Dy salt 30 min; after HTMAA/DMF addition 30 min; then standing one week",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring followed by filtration and slow solvent evaporation",
+        "workup_and_crystallization": "solution filtered; filtrate stood at room temperature for one week; crystals formed by slow evaporation and collected by careful filtration",
+        "yield": "48% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "The tetranuclear Dy(III) cluster is an SMM. χMT at 300 K is 56.82 cm3 K mol−1 (expected 56.68 for four uncoupled Dy(III)), decreasing to 33.49 cm3 K mol−1 at 1.8 K, consistent with Stark depopulation and/or intramolecular antiferromagnetic interactions. Magnetization at 2–5 K does not saturate and M vs HT−1 curves do not superimpose, indicating magnetic anisotropy; no hysteresis at 1.8 K. Zero-dc-field ac data (1–997 Hz) show frequency-dependent χ′ and χ″ with a χ″(T) peak at 5 K (997 Hz). Relaxation times from a generalized Debye model were fitted to QTM + Raman + Orbach processes, giving Ueff/kB = 56 K and τ0 = 2.66 × 10−8 s.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 56.82,
+            "unit": "cm3 K mol-1",
+            "conditions": "500 Oe, 300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 33.49,
+            "unit": "cm3 K mol-1",
+            "conditions": "500 Oe, 1.8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff/kB",
+            "value": 56,
+            "unit": "K",
+            "conditions": "zero dc field; QTM+Raman+Orbach fit of lnτ vs T−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "2.66e-8",
+            "unit": "s",
+            "conditions": "zero dc field; same multi-process fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τQTM^-1",
+            "value": 324.9,
+            "unit": "s-1",
+            "conditions": "zero dc field; eqn (1) fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C",
+            "value": 5.3,
+            "unit": "s-1 K-4.1",
+            "conditions": "n = 4.1; zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ″(T) peak temperature",
+            "value": 5,
+            "unit": "K",
+            "conditions": "zero dc field, 997 Hz, 2.0 Oe oscillating field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Section 2.2; Table 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1 (C76H84Dy4N8O20)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1885577 / LIVKEJ"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Section 3.1; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 3.2; Figs. 2–5"
+        }
+      ]
+    }
+  ]
+}

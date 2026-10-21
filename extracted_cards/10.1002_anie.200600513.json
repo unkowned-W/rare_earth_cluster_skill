@@ -1,0 +1,163 @@
+{
+  "title": "A Nonanuclear Dysprosium(III)–Copper(II) Complex Exhibiting Single-Molecule Magnet Behavior with Very Slow Zero-Field Relaxation",
+  "doi": "10.1002/anie.200600513",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "[Dy3Cu6]",
+      "compound_name": "[DyIII3CuII6L6(μ3-OH)6(H2O)10]Cl2·ClO4·3.5H2O",
+      "formula": "[DyIII3CuII6L6(μ3-OH)6(H2O)10]Cl2·ClO4·3.5H2O (C42H81Cl3Cu6Dy3F18N6O35.50)",
+      "ccdc_numbers": [
+        "297249"
+      ],
+      "ccdc_refcodes": [
+        "NELZUA"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "nonanuclear Dy3Cu6 cluster with three {Cu2II L2} dimers about a Dy3(μ3-OH)6 core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "All chemicals and solvents were used as received; preparations were performed under aerobic conditions. Ligand LH2 (1,1,1-trifluoro-7-hydroxy-4-methyl-5-azahept-3-en-2-one) was obtained by condensation of ethanolamine with 1,1,1-trifluoro-2,4-pentanedione in methanol by a previously reported method. [Dy3Cu6] was obtained in a one-pot reaction: LH2 (0.2 g, 1.02 mmol) was dissolved in methanol (10 mL) and [Dy(ClO4)3]·6H2O (0.26 g, 0.56 mmol) in methanol (10 mL) was added dropwise with stirring over 10 min. A solution of CuCl2·2H2O (85 mg, 0.50 mmol) in methanol (5 mL) was added to the resulting clear yellow solution; the solution turned clear green and stirring was maintained for 5 min. Triethylamine (0.2 mL) was then added to give a deep-blue solution. One week of slow evaporation gave 125 mg of square-plate blue single crystals suitable for X-ray diffraction, which were isolated by filtration and washed with a small amount of methanol (60% yield based on Cu).",
+        "reagents": [
+          {
+            "name": "LH2 (1,1,1-trifluoro-7-hydroxy-4-methyl-5-azahept-3-en-2-one)",
+            "formula": "C6H8F3NO2",
+            "role": "ligand",
+            "amount": "0.2 g, 1.02 mmol"
+          },
+          {
+            "name": "dysprosium(III) perchlorate hexahydrate",
+            "formula": "[Dy(ClO4)3]·6H2O",
+            "role": "metal salt",
+            "amount": "0.26 g, 0.56 mmol"
+          },
+          {
+            "name": "copper(II) chloride dihydrate",
+            "formula": "CuCl2·2H2O",
+            "role": "metal salt",
+            "amount": "85 mg, 0.50 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.2 mL"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": null,
+        "time": "ligand/Dy mixing 10 min; after Cu addition stirred 5 min; crystallization by slow evaporation for 1 week",
+        "ph": null,
+        "vessel_or_method": "one-pot aerobic solution reaction; slow evaporation",
+        "workup_and_crystallization": "slow evaporation for one week afforded square-plate blue single crystals; isolated by filtration and washed with a small amount of methanol",
+        "yield": "125 mg (60% based on Cu)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "The Dy3Cu6 cluster is an SMM: χT = 43.56 cm3 K mol−1 at 300 K (close to 44.75 expected for 6 CuII + 3 DyIII), falling to 7.57 cm3 K mol−1 at 2 K. Magnetization at 2 K shows a two-step curve (~6–7 μB at 10 kOe, ~19 μB at 50 kOe). Single-crystal micro-SQUID data below 1.1 K show hysteresis of the first step with Hc = 15 kOe at 0.1 K. ac susceptibility is strongly frequency-dependent below 5 K; Arrhenius fit of relaxation gives Ueff = 25 K and τ0 = 1.5×10−7 s, with slow zero-field relaxation.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 43.56,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1 kOe, polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 7.57,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization (first step)",
+            "value": "6–7",
+            "unit": "μB",
+            "conditions": "2 K, ~10 kOe, polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 19,
+            "unit": "μB",
+            "conditions": "2 K, 50 kOe, polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "coercive field Hc",
+            "value": 15,
+            "unit": "kOe",
+            "conditions": "single crystal, micro-SQUID, 0.1 K, scan rate 0.002 T s−1; hysteresis of first magnetization step below 1.1 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 25,
+            "unit": "K",
+            "conditions": "Arrhenius fit of ac χ″ maxima (1.8–4 K) and dc magnetization decay (1.8–0.04 K) in the high-temperature regime"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "1.5e-7",
+            "unit": "s",
+            "conditions": "Arrhenius fit τ = τ0 exp(Ueff/kB T)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "title"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "introduction; Experimental Section elemental analysis and crystal data"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section; CCDC 297249"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row NELZUA / 297249"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion; Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion; Figures 2–4; Experimental Section, Magnetic measurements"
+        }
+      ]
+    }
+  ]
+}

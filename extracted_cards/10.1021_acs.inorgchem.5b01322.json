@@ -1,0 +1,306 @@
+{
+  "title": "Single-Molecule-Magnet Behavior in a [2 × 2] Grid DyIII4 Cluster and a Dysprosium-Doped YIII Cluster",
+  "doi": "10.1021/acs.inorgchem.5b01322",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4(OH)2(bpt)4(NO3)4(OAc)2] (Dy4)",
+      "formula": "C52H40N24O18Dy4",
+      "ccdc_numbers": [
+        "1054224"
+      ],
+      "ccdc_refcodes": [
+        "SUQPEB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "[2 × 2] square-grid Dy4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Hbpt (0.1 mmol, 0.023 g) and MeCN (8 mL) were added to a 23 mL Teflon-lined reactor and dissolved by an ultrasonic bath for 10 min at room temperature. Dy(NO3)3·6H2O (0.1 mmol, 0.045 g) was added, and the solution was heated at 160 °C for 72 h, then cooled to room temperature at 5 °C/h. Colorless blocklike crystals along with white amorphous powder were obtained. Products were washed with analytically pure MeCN three times and collected by filtration; pure colorless crystals were manually separated under a microscope. Acetate ligands arise from in situ MeCN hydrolysis.",
+        "reagents": [
+          {
+            "name": "3,5-bis(pyridin-2-yl)-1,2,4-triazole (Hbpt)",
+            "formula": "C12H9N5",
+            "role": "ligand",
+            "amount": "0.1 mmol, 0.023 g"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol, 0.045 g"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "ultrasonication at room temperature, then 160 °C; cooled at 5 °C/h",
+        "time": "10 min ultrasonication; 72 h solvothermal heating",
+        "ph": null,
+        "vessel_or_method": "23 mL Teflon-lined reactor, solvothermal",
+        "workup_and_crystallization": "washed with MeCN three times, filtered; colorless block crystals manually separated from white amorphous powder under a microscope",
+        "yield": "34% of pure crystals (based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Complex 1 is a [2 × 2] Dy4 SMM with two zero-field slow-relaxation processes attributed mainly to single-ion Dy behavior. χMT at 300 K is close to four free DyIII ions; weak ferromagnetic interactions appear at low T. Dual Arrhenius barriers Ueff1 = 93(3) cm−1 (FR) and Ueff2 = 143(15) cm−1 (SR) under zero dc field; 1500 Oe data are nearly identical. The SR barrier was described as the highest among pure Dy4 SMMs at the time.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "55.60",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 500 Oe dc, polycrystalline sample, 2–300 K SQUID data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "49.01",
+            "unit": "cm3 K mol−1",
+            "conditions": "13.00 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "49.92",
+            "unit": "cm3 K mol−1",
+            "conditions": "maximum at 3.80 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "48.49",
+            "unit": "cm3 K mol−1",
+            "conditions": "minimum at lowest T (~2 K)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": "55.56",
+            "unit": "cm3 K mol−1",
+            "conditions": "Curie–Weiss fit of χM, 300–2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss temperature θ",
+            "value": "−0.039",
+            "unit": "K",
+            "conditions": "Curie–Weiss fit of χM, 300–2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff1 (fast relaxation)",
+            "value": "93(3)",
+            "unit": "cm−1",
+            "conditions": "zero dc field Arrhenius fit of thermally activated τ; τ1 = 4.07 × 10−9 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (fast relaxation)",
+            "value": "4.07e-9",
+            "unit": "s",
+            "conditions": "zero dc field Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff2 (slow relaxation)",
+            "value": "143(15)",
+            "unit": "cm−1",
+            "conditions": "zero dc field Arrhenius fit; τ2 = 2.85 × 10−9 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (slow relaxation)",
+            "value": "2.85e-9",
+            "unit": "s",
+            "conditions": "zero dc field Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "optimum dc field suppressing QTM",
+            "value": "1500",
+            "unit": "Oe",
+            "conditions": "field dependence of relaxation rate; ac barriers under 1500 Oe nearly identical to zero field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section, synthesis of Dy4 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1 empirical formula for 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray Crystallography, CCDC 1054224 (1)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row SUQPEB / 1054224"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract and Crystal Structure"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 3–5"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy0.24Y3.76(OH)2(bpt)4(NO3)4(OAc)2] (Dy@Y4)",
+      "formula": "C52H40N24O18Dy0.24Y3.76",
+      "ccdc_numbers": [
+        "1405886"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy",
+          "Y"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "isostructural [2 × 2] square-grid tetranuclear cluster; magnetically dilute Dy-doped Y4"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Magnetically dilute Dy@Y4 was obtained by combining accurately measured Dy(NO3)3·6H2O and Y(NO3)3·6H2O in a 1:19 molar ratio, following the solvothermal procedure described for 1 (Hbpt/MeCN, 23 mL Teflon-lined reactor, 160 °C, 72 h). The resulting doped ratio is 1:16 (nonstoichiometric) rather than the 1:19 feed. DyIII content in 2 is 6% by ICP.",
+        "reagents": [
+          {
+            "name": "3,5-bis(pyridin-2-yl)-1,2,4-triazole (Hbpt)",
+            "formula": "C12H9N5",
+            "role": "ligand",
+            "amount": "same procedure as 1 (0.1 mmol, 0.023 g in the parent synthesis)"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal salt (dopant)",
+            "amount": "combined with Y salt in 1:19 molar ratio"
+          },
+          {
+            "name": "yttrium(III) nitrate hexahydrate",
+            "formula": "Y(NO3)3·6H2O",
+            "role": "metal salt (host)",
+            "amount": "1:19 molar ratio vs Dy(NO3)3·6H2O"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "160 °C (procedure of 1)",
+        "time": "72 h (procedure of 1)",
+        "ph": null,
+        "vessel_or_method": "23 mL Teflon-lined reactor, solvothermal (as for 1)",
+        "workup_and_crystallization": "same isolation as 1; bulk purity checked by PXRD vs single-crystal calculation (Figure S1)",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "ac magnetometry of dilute 2 shows two slow-relaxation processes similar to 1, supporting a single-ion Dy origin. Cole–Cole α = 0.09–0.28 (11–15 K). Arrhenius fits above 5 K give Ueff1 = 86(6) cm−1 (FR) and Ueff2 = 117(8) cm−1 (SR). Barriers and τ0 differ modestly from 1, ascribed to subtle geometry changes and vanishing Dy–Dy exchange upon dilution; low-T τ is nonlinear due to competing relaxation.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "Ueff1 (fast relaxation)",
+            "value": "86(6)",
+            "unit": "cm−1",
+            "conditions": "Arrhenius fit of Cole–Cole τ above 5 K; τ1 = 1.8 × 10−8 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (fast relaxation)",
+            "value": "1.8e-8",
+            "unit": "s",
+            "conditions": "Arrhenius fit above 5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff2 (slow relaxation)",
+            "value": "117(8)",
+            "unit": "cm−1",
+            "conditions": "Arrhenius fit of Cole–Cole τ above 5 K; τ2 = 4.3 × 10−8 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0 (slow relaxation)",
+            "value": "4.3e-8",
+            "unit": "s",
+            "conditions": "Arrhenius fit above 5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.09–0.28",
+            "unit": null,
+            "conditions": "two modified Debye functions, 11–15 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section, synthesis of Dy@Y4 2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1 empirical formula for 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray Crystallography, CCDC 1405886 (2)"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal Structure (isostructural with 1)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties, doped species 2; Figure 4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "refcode": "PUYDIY",
+  "ccdc_number": "1442830",
+  "dois": [
+    "10.1021/acs.cgd.5b01387"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1442830.cif",
+  "formula_moiety": "C122 H85 N8 O41 Sm3,4(H2 O1)",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "P 43 21 2",
+  "international_tables_number": "96",
+  "unit_cell": {
+    "a": "14.9573(9)",
+    "b": "14.9573(9)",
+    "c": "55.690(3)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "12459",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm1",
+      "element": "Sm",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O2D",
+        "O3A",
+        "O3D",
+        "O42",
+        "O4A",
+        "O4B",
+        "O4C",
+        "O4D",
+        "O5C"
+      ]
+    },
+    {
+      "label": "Sm2",
+      "element": "Sm",
+      "oxygen_coordination_number": 10,
+      "oxygen_neighbor_labels": [
+        "O22",
+        "O26",
+        "O27",
+        "O32",
+        "O41",
+        "O4A",
+        "O4D",
+        "O5A",
+        "O5B",
+        "O6"
+      ]
+    },
+    {
+      "label": "Sm3",
+      "element": "Sm",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O25",
+        "O26",
+        "O31",
+        "O36",
+        "O37",
+        "O39",
+        "O40",
+        "O41",
+        "O5D"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Sm1",
+          "Sm2"
+        ],
+        "shared_oxygen_labels": [
+          "O4A",
+          "O4D"
+        ],
+        "metal_metal_separation_angstrom": 3.973,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4A",
+            "angle_deg": 111.76,
+            "metal_oxygen_distances_angstrom": [
+              2.386,
+              2.413
+            ]
+          },
+          {
+            "oxygen": "O4D",
+            "angle_deg": 105.22,
+            "metal_oxygen_distances_angstrom": [
+              2.465,
+              2.535
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm2",
+          "Sm3"
+        ],
+        "shared_oxygen_labels": [
+          "O26",
+          "O41"
+        ],
+        "metal_metal_separation_angstrom": 3.973,
+        "bridge_geometry": [
+          {
+            "oxygen": "O26",
+            "angle_deg": 111.76,
+            "metal_oxygen_distances_angstrom": [
+              2.413,
+              2.386
+            ]
+          },
+          {
+            "oxygen": "O41",
+            "angle_deg": 105.22,
+            "metal_oxygen_distances_angstrom": [
+              2.535,
+              2.465
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Sm1",
+        "Sm2",
+        "Sm3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "PUYDIY crystallizes in the tetragonal crystal system with space group P 43 21 2. Reported CIF formula moiety: C122 H85 N8 O41 Sm3,4(H2 O1). From the CIF bond table, Sm1 (Sm) has 9 O neighbors; Sm2 (Sm) has 10 O neighbors; Sm3 (Sm) has 9 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.973-3.973 Å (not direct metal-metal bonds). Computed M-O-M angles span 105.22-111.76°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C122H93N8O45Sm3.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.cgd.5b01387",
+    "formula": "C122H93N8O45Sm3",
+    "compound_name": "[Sm3(Lser)8(OEt)]·(H2O,EtOH)x",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

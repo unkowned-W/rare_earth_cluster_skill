@@ -1,0 +1,145 @@
+{
+  "refcode": "NUQGUF",
+  "ccdc_number": "2353582",
+  "dois": [
+    "10.1021/jacs.5c01065"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2353582.cif",
+  "formula_moiety": "C114 H156 I3 Nd3 O3 S3,2(C6 H14)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "16.5599(11)",
+    "b": "25.4330(17)",
+    "c": "30.300(2)",
+    "alpha": "90",
+    "beta": "102.0030(10)",
+    "gamma": "90",
+    "volume": "12482.4",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Nd1",
+      "element": "Nd",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3"
+      ]
+    },
+    {
+      "label": "Nd2",
+      "element": "Nd",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2"
+      ]
+    },
+    {
+      "label": "Nd3",
+      "element": "Nd",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O3"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Nd1",
+          "Nd2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 4.161,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 126.52,
+            "metal_oxygen_distances_angstrom": [
+              2.312,
+              2.347
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Nd1",
+          "Nd3"
+        ],
+        "shared_oxygen_labels": [
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 4.143,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 125.83,
+            "metal_oxygen_distances_angstrom": [
+              2.349,
+              2.304
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Nd2",
+          "Nd3"
+        ],
+        "shared_oxygen_labels": [
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 4.133,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 125.38,
+            "metal_oxygen_distances_angstrom": [
+              2.304,
+              2.347
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Nd1",
+        "Nd2",
+        "Nd3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "NUQGUF crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C114 H156 I3 Nd3 O3 S3,2(C6 H14). From the CIF bond table, Nd1 (Nd) has 2 O neighbors; Nd2 (Nd) has 2 O neighbors; Nd3 (Nd) has 2 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 4.133-4.161 Å (not direct metal-metal bonds). Computed M-O-M angles span 125.38-126.52°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C114H156I3Nd3O3S3.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/jacs.5c01065",
+    "formula": "C114H156I3Nd3O3S3",
+    "compound_name": "[Nd(SAr^iPr6)(μ-I)(μ-OCCH3)]3",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

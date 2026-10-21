@@ -1,0 +1,185 @@
+{
+  "refcode": "ZESFAI",
+  "ccdc_number": "2204328",
+  "dois": [
+    "10.1021/acs.inorgchem.2c03238"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2204328.cif",
+  "formula_moiety": "C88 H96 Dy4 N16 O28 S4,4(C2 H6 O1),3(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "25.0620(2)",
+    "b": "20.6787(2)",
+    "c": "26.1182(2)",
+    "alpha": "90",
+    "beta": "104.9240(10)",
+    "gamma": "90",
+    "volume": "13079.2",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O15",
+        "O20",
+        "O21",
+        "O25",
+        "O4",
+        "O8"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O2",
+        "O22",
+        "O5",
+        "O6",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O16",
+        "O17",
+        "O3",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Dy4",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O13",
+        "O23",
+        "O24",
+        "O28",
+        "O4",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy4"
+        ],
+        "shared_oxygen_labels": [
+          "O4",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.673,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 106.69,
+            "metal_oxygen_distances_angstrom": [
+              2.293,
+              2.285
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 105.58,
+            "metal_oxygen_distances_angstrom": [
+              2.349,
+              2.262
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.697,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 106.79,
+            "metal_oxygen_distances_angstrom": [
+              2.312,
+              2.294
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 105.35,
+            "metal_oxygen_distances_angstrom": [
+              2.276,
+              2.373
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy4"
+      ],
+      [
+        "Dy2",
+        "Dy3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ZESFAI crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C88 H96 Dy4 N16 O28 S4,4(C2 H6 O1),3(H2 O1). From the CIF bond table, Dy1 (Dy) has 7 O neighbors; Dy2 (Dy) has 7 O neighbors; Dy3 (Dy) has 7 O neighbors; Dy4 (Dy) has 7 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.673-3.697 Å (not direct metal-metal bonds). Computed M-O-M angles span 105.35-106.79°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Dy4(L1)2(L2)2(OAc)4]·4C2H5OH·3H2O (L1 = 1,3,4-thiadiazole-2,5-diamine; H4L2 = 6,6'-(((1,3,4-thiadiazole-2,5-diyl)bis(azanediyl))bis(((3-ethoxy-2-hydroxybenzyl)oxy)methylene))bis(2-ethoxyphenol)). Explicit grouped units in the article formula/name: 4 OAc (explicit grouped unit in article formula), 4 OAc (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.2c03238",
+    "formula": "[Dy4(L1)2(L2)2(OAc)4]·4C2H5OH·3H2O (L1 = 1,3,4-thiadiazole-2,5-diamine; H4L2 = 6,6'-(((1,3,4-thiadiazole-2,5-diyl)bis(azanediyl))bis(((3-ethoxy-2-hydroxybenzyl)oxy)methylene))bis(2-ethoxyphenol))",
+    "compound_name": "[Dy4(L1)2(L2)2(OAc)4]·4C2H5OH·3H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OAc",
+        "count": 4,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "OAc",
+        "count": 4,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

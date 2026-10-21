@@ -1,0 +1,178 @@
+{
+  "title": "Opening up a dysprosium triangle by ligand oximation",
+  "doi": "10.1039/b908194a",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1·(ClO4)·1.5EtOH·H2O",
+      "compound_name": "[Dy3(vanox)2(Hvanox)4(EtOH)2](ClO4)·1.5EtOH·H2O",
+      "formula": "C55H69ClDy3N6O26.5",
+      "ccdc_numbers": [
+        "729180"
+      ],
+      "ccdc_refcodes": [
+        "FUJZEQ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "nearly linear Dy3 oxime cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(ClO4)3·6H2O (114 mg, 0.2 mmol) was added to a 3 mL ethanolic solution containing H2vanox (64 mg, 0.4 mmol) and triethylamine (60 mL as printed, 0.6 mmol). The solution was heated with stirring for 30 min. After standing for 2 d at room temperature, colourless crystalline plates (42 mg, 36%) formed which readily lose solvent.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) perchlorate hexahydrate",
+            "formula": "Dy(ClO4)3·6H2O",
+            "role": "metal source",
+            "amount": "114 mg, 0.2 mmol"
+          },
+          {
+            "name": "o-vanillin oxime (H2vanox)",
+            "formula": "H2vanox",
+            "role": "ligand",
+            "amount": "64 mg, 0.4 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "60 mL (0.6 mmol; likely µL in original typesetting)"
+          }
+        ],
+        "solvents": [
+          "ethanol"
+        ],
+        "temperature": "heated then room temperature",
+        "time": "heated with stirring 30 min; standing 2 d",
+        "ph": null,
+        "vessel_or_method": "solution synthesis in ethanol with heating/stirring",
+        "workup_and_crystallization": "after standing 2 d at room temperature, colourless crystalline plates formed; crystals readily lose solvent",
+        "yield": "42 mg, 36%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Near-linear Dy3 cluster with weak ferromagnetic Dy–Dy coupling and slow relaxation of the magnetisation with more than one relaxation process. χT at 300 K is 42.05 emu K mol−1; it decreases to 40.2 emu K mol−1 at 20 K then rises to 58.5 emu K mol−1 at 1.8 K. Magnetisation at 1.8 K levels near 16.4 µB around 15 kOe. Arrhenius analysis of ac data gives two regimes (below/above 6 K): Δ = 28.7 K, τ0 = 6.3×10−5 s and Δ = 69.3 K, τ0 = 5.9×10−8 s. Fit of low-T χT with Ising exchange gives J_Dy–Dy = +3.9(4) K; dipolar contributions are ferromagnetic (Jdip12 = 6.8 K, Jdip13 = 6.5 K). Easy axes of the three Dy ions are essentially collinear.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 42.05,
+            "unit": "emu K mol−1",
+            "conditions": "300 K, 1 kOe, polycrystalline"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 40.2,
+            "unit": "emu K mol−1",
+            "conditions": "20 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 58.5,
+            "unit": "emu K mol−1",
+            "conditions": "1.8 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 16.4,
+            "unit": "µB",
+            "conditions": "1.8 K, around 15 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ",
+            "value": 28.7,
+            "unit": "K",
+            "conditions": "ac susceptibility, Arrhenius, T < 6 K, zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "6.3e-5",
+            "unit": "s",
+            "conditions": "Arrhenius, T < 6 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ",
+            "value": 69.3,
+            "unit": "K",
+            "conditions": "ac susceptibility, Arrhenius, T > 6 K, zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "5.9e-8",
+            "unit": "s",
+            "conditions": "Arrhenius, T > 6 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J_Dy–Dy",
+            "value": "+3.9(4)",
+            "unit": "K",
+            "conditions": "fit of χT below 20 K; Hex = −J(S1zS2z + S1zS3z)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "dipolar coupling Jdip12",
+            "value": 6.8,
+            "unit": "K",
+            "conditions": "computed from easy-axis orientation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "dipolar coupling Jdip13",
+            "value": 6.5,
+            "unit": "K",
+            "conditions": "computed from easy-axis orientation"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "introduction/results; Fig. 1; footnote z"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "crystal data footnote y"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 729180 / FUJZEQ"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "footnote z"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Figs. 2–4 and magnetic discussion"
+        }
+      ]
+    }
+  ]
+}

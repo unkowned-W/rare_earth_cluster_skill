@@ -1,0 +1,588 @@
+{
+  "title": "Symmetry-Related [LnIII6MnIII12] Clusters toward Single-Molecule Magnets and Cryogenic Magnetic Refrigerants",
+  "doi": "10.1021/ic302349f",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1-Gd",
+      "compound_name": "high-symmetry [GdIII6MnIII12] cluster",
+      "formula": "C122H190N8Mn12Gd6O88",
+      "ccdc_numbers": [
+        "832665"
+      ],
+      "ccdc_refcodes": [
+        "LEXPOV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 18,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "[Ln6Mn12] with D2 symmetry and parallel {Ln3} units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of 2-hydroxy-5-methylisophthalaldehyde (33 mg, 0.2 mmol) and 2-aminoethanol (15 mg, 0.25 mmol) in MeCN/MeOH (8/8 mL) was stirred and heated at 80 °C for 1 h (solution turned dark yellow). LnCl3·6H2O (Ln = Gd; 37 mg, 0.1 mmol), Mn(OAc)2·4H2O (49 mg, 0.2 mmol), and triethylamine (30 mg, 0.3 mmol) were then added in order. The brown solution was stirred under ambient conditions for 2 h, filtered, and small black crystals of 1-Ln formed as the solution nearly dried.",
+        "reagents": [
+          {
+            "name": "2-hydroxy-5-methylisophthalaldehyde",
+            "formula": "C9H8O3",
+            "role": "ligand precursor",
+            "amount": "33 mg, 0.2 mmol"
+          },
+          {
+            "name": "2-aminoethanol",
+            "formula": "C2H7NO",
+            "role": "ligand precursor",
+            "amount": "15 mg, 0.25 mmol"
+          },
+          {
+            "name": "gadolinium(III) chloride hexahydrate",
+            "formula": "GdCl3·6H2O",
+            "role": "metal source",
+            "amount": "37 mg, 0.1 mmol"
+          },
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "49 mg, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "30 mg, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH"
+        ],
+        "temperature": "80 °C (1 h ligand formation), then ambient (2 h)",
+        "time": "1 h heating then 2 h stirring",
+        "ph": null,
+        "vessel_or_method": "solution synthesis; filtration and slow drying",
+        "workup_and_crystallization": "filtered; small black crystals obtained until the solution nearly dried",
+        "yield": "~6%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dominant ferromagnetic coupling with ST = 23 for high-symmetry 1-Gd; cryogenic magnetocaloric effect with −ΔSm max 17.0 J kg−1 K−1 at 7 K (ΔH = 7 T) and a broad temperature span.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (290 K)",
+            "value": 85.5,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc susceptibility, 2–290 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT maximum",
+            "value": 254.7,
+            "unit": "cm3 K mol−1",
+            "conditions": "3.5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": "84.0(1)",
+            "unit": "cm3 K mol−1",
+            "conditions": "Curie–Weiss fit 290–50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss temperature θ",
+            "value": "8.0(2)",
+            "unit": "K",
+            "conditions": "Curie–Weiss fit 290–50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "spin ground state ST",
+            "value": 23,
+            "unit": null,
+            "conditions": "from χM′T maxima and structure"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm maximum",
+            "value": 17.0,
+            "unit": "J kg−1 K−1",
+            "conditions": "from magnetization via Maxwell relation; 7 K, ΔH = 7 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "LEXPOV/832665"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1-Ln"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 3–5"
+        }
+      ]
+    },
+    {
+      "compound_label": "1-Tb",
+      "compound_name": "high-symmetry [TbIII6MnIII12] cluster",
+      "formula": "C123H194N8Mn12Tb6O89",
+      "ccdc_numbers": [
+        "903377"
+      ],
+      "ccdc_refcodes": [
+        "FETWOS"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 18,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "[Ln6Mn12] with D2 symmetry and parallel {Ln3} units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1-Gd: 2-hydroxy-5-methylisophthalaldehyde (33 mg, 0.2 mmol) and 2-aminoethanol (15 mg, 0.25 mmol) in MeCN/MeOH (8/8 mL) were heated at 80 °C for 1 h, then TbCl3·6H2O (37 mg, 0.1 mmol), Mn(OAc)2·4H2O (49 mg, 0.2 mmol), and triethylamine (30 mg, 0.3 mmol) were added. The brown solution was stirred 2 h under ambient conditions, filtered, and black crystals formed on near-drying.",
+        "reagents": [
+          {
+            "name": "2-hydroxy-5-methylisophthalaldehyde",
+            "formula": "C9H8O3",
+            "role": "ligand precursor",
+            "amount": "33 mg, 0.2 mmol"
+          },
+          {
+            "name": "2-aminoethanol",
+            "formula": "C2H7NO",
+            "role": "ligand precursor",
+            "amount": "15 mg, 0.25 mmol"
+          },
+          {
+            "name": "terbium(III) chloride hexahydrate",
+            "formula": "TbCl3·6H2O",
+            "role": "metal source",
+            "amount": "37 mg, 0.1 mmol"
+          },
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "49 mg, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "30 mg, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH"
+        ],
+        "temperature": "80 °C (1 h), then ambient (2 h)",
+        "time": "1 h heating then 2 h stirring",
+        "ph": null,
+        "vessel_or_method": "solution synthesis; filtration and slow drying",
+        "workup_and_crystallization": "filtered; small black crystals obtained until the solution nearly dried",
+        "yield": "~6%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dominant ferromagnetic interactions; SMM-like slow magnetization relaxation with Δeff/kB = 36.6(7) K, larger than the low-symmetry Tb analogue.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (290 K)",
+            "value": 109.4,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc susceptibility, 2–290 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT maximum",
+            "value": 320.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "3.5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": "107.7(2)",
+            "unit": "cm3 K mol−1",
+            "conditions": "Curie–Weiss fit 290–50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss temperature θ",
+            "value": "4.0(4)",
+            "unit": "K",
+            "conditions": "Curie–Weiss fit 290–50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δeff/kB",
+            "value": "36.6(7)",
+            "unit": "K",
+            "conditions": "Arrhenius fit of ac relaxation; τ0 = 4.52×10−10 s; Hac = 5 Oe, Hdc = 0"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Mydosh parameter φ",
+            "value": 0.13,
+            "unit": null,
+            "conditions": "from ac χ″ peak shift"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Debye α",
+            "value": "0.46–0.47",
+            "unit": null,
+            "conditions": "Cole–Cole/generalized Debye fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "FETWOS/903377"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1-Ln"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 3, 6, 7"
+        }
+      ]
+    },
+    {
+      "compound_label": "2-Gd",
+      "compound_name": "low-symmetry [GdIII6MnIII12] cluster",
+      "formula": "C140H234N8Mn12Gd6O100",
+      "ccdc_numbers": [
+        "832666"
+      ],
+      "ccdc_refcodes": [
+        "LEXPIP"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 18,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "[Ln6Mn12] with C1 symmetry and nearly perpendicular {Ln3} units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "2-Hydroxy-5-methylisophthalaldehyde (33 mg, 0.2 mmol) and 2-aminoethanol (12 mg, 0.2 mmol) in MeCN/MeOH (8/8 mL) were mixed at room temperature. GdCl3·6H2O (37 mg, 0.1 mmol), Mn(OAc)2·4H2O (49 mg, 0.2 mmol), and triethylamine (30 mg, 0.3 mmol) were immediately added in order. The brown solution was stirred under ambient conditions for 2 h, filtered, and black prism crystals formed as the solution nearly dried.",
+        "reagents": [
+          {
+            "name": "2-hydroxy-5-methylisophthalaldehyde",
+            "formula": "C9H8O3",
+            "role": "ligand precursor",
+            "amount": "33 mg, 0.2 mmol"
+          },
+          {
+            "name": "2-aminoethanol",
+            "formula": "C2H7NO",
+            "role": "ligand precursor",
+            "amount": "12 mg, 0.2 mmol"
+          },
+          {
+            "name": "gadolinium(III) chloride hexahydrate",
+            "formula": "GdCl3·6H2O",
+            "role": "metal source",
+            "amount": "37 mg, 0.1 mmol"
+          },
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "49 mg, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "30 mg, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH"
+        ],
+        "temperature": "room temperature/ambient",
+        "time": "2 h stirring",
+        "ph": null,
+        "vessel_or_method": "solution synthesis; filtration and slow drying",
+        "workup_and_crystallization": "filtered; black prism crystals obtained until the solution nearly dried",
+        "yield": "~6%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Low-symmetry analogue with ST = 16; MCE −ΔSm max 15.8 J kg−1 K−1 at 6 K (ΔH = 7 T). Gd···Gd ferromagnetic and Gd···Mn antiferromagnetic coupling; central {Mn8O13} dominantly antiferromagnetic (S = 3).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (290 K)",
+            "value": 81.5,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc susceptibility, 2–290 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT local maximum",
+            "value": 115.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "4 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": "82.5(4)",
+            "unit": "cm3 K mol−1",
+            "conditions": "Curie–Weiss fit 290–50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss temperature θ",
+            "value": "-6.5(9)",
+            "unit": "K",
+            "conditions": "Curie–Weiss fit 290–50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "spin ground state ST",
+            "value": 16,
+            "unit": null,
+            "conditions": "from χM′T and structure"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm maximum",
+            "value": 15.8,
+            "unit": "J kg−1 K−1",
+            "conditions": "from magnetization via Maxwell relation; 6 K, ΔH = 7 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "LEXPIP/832666"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 2-Ln"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 3–5"
+        }
+      ]
+    },
+    {
+      "compound_label": "2-Tb",
+      "compound_name": "low-symmetry [TbIII6MnIII12] cluster",
+      "formula": "C130H210N8Mn12Tb6O98",
+      "ccdc_numbers": [
+        "903378"
+      ],
+      "ccdc_refcodes": [
+        "FETWIM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 18,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "[Ln6Mn12] with C1 symmetry and nearly perpendicular {Ln3} units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 2-Gd: 2-hydroxy-5-methylisophthalaldehyde (33 mg, 0.2 mmol) and 2-aminoethanol (12 mg, 0.2 mmol) in MeCN/MeOH (8/8 mL) mixed at room temperature, then TbCl3·6H2O (0.1 mmol scale as for 1-Ln/2-Gd), Mn(OAc)2·4H2O (49 mg, 0.2 mmol), and triethylamine (30 mg, 0.3 mmol) added immediately. Stirred 2 h under ambient conditions, filtered; black prism crystals of 2-Ln formed on near-drying.",
+        "reagents": [
+          {
+            "name": "2-hydroxy-5-methylisophthalaldehyde",
+            "formula": "C9H8O3",
+            "role": "ligand precursor",
+            "amount": "33 mg, 0.2 mmol"
+          },
+          {
+            "name": "2-aminoethanol",
+            "formula": "C2H7NO",
+            "role": "ligand precursor",
+            "amount": "12 mg, 0.2 mmol"
+          },
+          {
+            "name": "terbium(III) chloride hexahydrate",
+            "formula": "TbCl3·6H2O",
+            "role": "metal source",
+            "amount": "37 mg, 0.1 mmol (LnCl3·6H2O scale given for 1-Ln/2-Gd)"
+          },
+          {
+            "name": "manganese(II) acetate tetrahydrate",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "49 mg, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "30 mg, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH"
+        ],
+        "temperature": "room temperature/ambient",
+        "time": "2 h stirring",
+        "ph": null,
+        "vessel_or_method": "solution synthesis; filtration and slow drying",
+        "workup_and_crystallization": "filtered; black prism crystals obtained until the solution nearly dried",
+        "yield": "~6%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "SMM-like slow relaxation with Δeff/kB = 19.6(14) K, lower than high-symmetry 1-Tb; frequency-dependent ac χ″ and nonoverlapping reduced magnetization plots.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (290 K)",
+            "value": 104.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc susceptibility, 2–290 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT local maximum",
+            "value": 98.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "6.5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": "106.9(2)",
+            "unit": "cm3 K mol−1",
+            "conditions": "Curie–Weiss fit 290–50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss temperature θ",
+            "value": "-6.8(3)",
+            "unit": "K",
+            "conditions": "Curie–Weiss fit 290–50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δeff/kB",
+            "value": "19.6(14)",
+            "unit": "K",
+            "conditions": "Arrhenius fit; τ0 = 2.04×10−8 s; Hac = 5 Oe, Hdc = 0"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Mydosh parameter φ",
+            "value": 0.19,
+            "unit": null,
+            "conditions": "from ac χ″ peak shift"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Debye α",
+            "value": "0.44–0.49",
+            "unit": null,
+            "conditions": "Cole–Cole/generalized Debye fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "FETWIM/903378"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 2-Ln"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 3, 6, 7"
+        }
+      ]
+    }
+  ]
+}

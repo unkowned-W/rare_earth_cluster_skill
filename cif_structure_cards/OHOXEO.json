@@ -1,0 +1,195 @@
+{
+  "refcode": "OHOXEO",
+  "ccdc_number": "207019",
+  "dois": [
+    "10.1039/b303414c"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\207019.cif",
+  "formula_moiety": "C12 H36 Lu3 N6 O12 3+,1.5(O4 S1 2-),8(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "27.8101(17)",
+    "b": "15.4654(9)",
+    "c": "20.3601(12)",
+    "alpha": "90",
+    "beta": "129.0270(10)",
+    "gamma": "90",
+    "volume": "6802.69",
+    "Z": "8"
+  },
+  "metal_sites": [
+    {
+      "label": "Lu1",
+      "element": "Lu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O22",
+        "O23",
+        "O25",
+        "O26",
+        "O28",
+        "O29"
+      ]
+    },
+    {
+      "label": "Lu2",
+      "element": "Lu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O23",
+        "O24",
+        "O26",
+        "O27",
+        "O30",
+        "O31"
+      ]
+    },
+    {
+      "label": "Lu3",
+      "element": "Lu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O22",
+        "O24",
+        "O25",
+        "O27",
+        "O32",
+        "O33"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Lu1",
+          "Lu2"
+        ],
+        "shared_oxygen_labels": [
+          "O23",
+          "O26"
+        ],
+        "metal_metal_separation_angstrom": 3.614,
+        "bridge_geometry": [
+          {
+            "oxygen": "O23",
+            "angle_deg": 105.08,
+            "metal_oxygen_distances_angstrom": [
+              2.267,
+              2.286
+            ]
+          },
+          {
+            "oxygen": "O26",
+            "angle_deg": 103.74,
+            "metal_oxygen_distances_angstrom": [
+              2.304,
+              2.29
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Lu1",
+          "Lu3"
+        ],
+        "shared_oxygen_labels": [
+          "O22",
+          "O25"
+        ],
+        "metal_metal_separation_angstrom": 3.606,
+        "bridge_geometry": [
+          {
+            "oxygen": "O22",
+            "angle_deg": 104.01,
+            "metal_oxygen_distances_angstrom": [
+              2.279,
+              2.297
+            ]
+          },
+          {
+            "oxygen": "O25",
+            "angle_deg": 107.77,
+            "metal_oxygen_distances_angstrom": [
+              2.246,
+              2.218
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Lu2",
+          "Lu3"
+        ],
+        "shared_oxygen_labels": [
+          "O24",
+          "O27"
+        ],
+        "metal_metal_separation_angstrom": 3.601,
+        "bridge_geometry": [
+          {
+            "oxygen": "O24",
+            "angle_deg": 106.65,
+            "metal_oxygen_distances_angstrom": [
+              2.243,
+              2.246
+            ]
+          },
+          {
+            "oxygen": "O27",
+            "angle_deg": 102.85,
+            "metal_oxygen_distances_angstrom": [
+              2.28,
+              2.326
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Lu1",
+        "Lu2",
+        "Lu3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "OHOXEO crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C12 H36 Lu3 N6 O12 3+,1.5(O4 S1 2-),8(H2 O1). From the CIF bond table, Lu1 (Lu) has 6 O neighbors; Lu2 (Lu) has 6 O neighbors; Lu3 (Lu) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.601-3.614 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.85-107.77°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Lu3(taciH-3)2(H2O)6](SO4)1.5(H2O)7.5. Explicit grouped units in the article formula/name: 6 H2O (explicit grouped unit in article formula), 7 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/b303414c",
+    "formula": "[Lu3(taciH-3)2(H2O)6](SO4)1.5(H2O)7.5",
+    "compound_name": "[Lu3(taciH-3)2(H2O)6](SO4)1.5(H2O)7.5",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 6,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 7,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

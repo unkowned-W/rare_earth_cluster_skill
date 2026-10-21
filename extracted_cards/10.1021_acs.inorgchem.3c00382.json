@@ -1,0 +1,200 @@
+{
+  "title": "A Near-Infrared Luminescent 11-Metal Cd(II)–Nd(III) Nanocluster for the Rapid Excitation Wavelength-Dependent Detection of Rutin",
+  "doi": "10.1021/acs.inorgchem.3c00382",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "undecanuclear Cd(II)–Nd(III) Schiff-base nanocluster [Cd6Nd5(L)3(L′)6(OH)3(OAc)15]",
+      "formula": "[Cd6Nd5(L)3(L′)6(OH)3(OAc)15] (C138H137Cd6N6O63S3Nd5; CCDC C138H141Cd6N6Nd5O63S3)",
+      "ccdc_numbers": [
+        "2211760"
+      ],
+      "ccdc_refcodes": [
+        "AFABES",
+        "AFABES01"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 11,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Nd"
+        ],
+        "other_metal_elements": [
+          "Cd"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Cd6Nd5 Schiff-base nanocluster with Nd5(OH)3(OAc)6 core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Triethylamine in EtOH (1.0 mol/L, 1 mL) was added to a 10 mL EtOH/MeOH (3:2) solution containing Cd(NO3)2·4H2O (0.20 mmol, 0.061 g), Nd(OAc)3·6H2O (0.20 mmol, 0.064 g), HL (0.20 mmol, 0.033 g), and HL′ (3-methoxysalicylaldehyde, 0.20 mmol, 0.030 g). The mixture was heated and stirred at ~80 °C for 30 min, cooled, and filtered. Yellow crystals of 1 formed from the filtrate after diffusion of diethyl ether vapor for 3 weeks. Yield 0.071 g (48% based on Cd(NO3)2·4H2O). Mp 235 °C (dec.).",
+        "reagents": [
+          {
+            "name": "cadmium(II) nitrate tetrahydrate",
+            "formula": "Cd(NO3)2·4H2O",
+            "role": "Cd source",
+            "amount": "0.20 mmol, 0.061 g"
+          },
+          {
+            "name": "neodymium(III) acetate hexahydrate",
+            "formula": "Nd(OAc)3·6H2O",
+            "role": "Nd source",
+            "amount": "0.20 mmol, 0.064 g"
+          },
+          {
+            "name": "(E)-2-[({4-[(4-aminophenyl)sulfonyl]phenyl}imino)methyl]-6-methoxyphenol (HL)",
+            "formula": "HL",
+            "role": "salen-type Schiff-base ligand",
+            "amount": "0.20 mmol, 0.033 g"
+          },
+          {
+            "name": "3-methoxysalicylaldehyde (HL′)",
+            "formula": "C8H8O3",
+            "role": "secondary ligand",
+            "amount": "0.20 mmol, 0.030 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1.0 mol/L in EtOH, 1 mL"
+          }
+        ],
+        "solvents": [
+          "EtOH",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "~80 °C (reaction); ambient for crystallization",
+        "time": "30 min heating/stirring; 3 weeks vapor diffusion",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by diethyl ether vapor diffusion crystallization",
+        "workup_and_crystallization": "After cooling, the solution was filtered. Yellow crystals of 1 were obtained from the filtrate after diffusion of diethyl ether vapor for 3 weeks.",
+        "yield": "0.071 g (48% based on Cd(NO3)2·4H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Discrete NIR-luminescent Cd6Nd5 nanocluster (dimensions 1.0 nm × 2.2 nm × 2.2 nm). Under 395 nm excitation in CH3CN it shows Nd3+ NIR emission at 875, 1060, and 1335 nm (strongest 1060 nm, τ = 7.85 μs). Rutin quenches the 395 nm-excited emission (Ksv = 2.01 × 10^4 M−1; LOD = 5.98 μM) via inner-filter effect while a new 470 nm excitation band grows and 470 nm-excited NIR emission increases. The ratiometric I(Ex 470 nm)/I(Ex 395 nm) vs [Rut] third-order calibration enables quantitative rutin sensing in CH3CN and fetal calf serum with ~5 s response and good selectivity versus interferents.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "UV-vis absorption maxima",
+            "value": "233 and 376",
+            "unit": "nm",
+            "conditions": "CH3CN (Figure S6)"
+          },
+          {
+            "property_type": "optical",
+            "name": "Nd3+ NIR emission maxima",
+            "value": "875, 1060, 1335",
+            "unit": "nm",
+            "conditions": "λex = 395 nm; 4F3/2 → 4IJ/2 transitions; strongest at 1060 nm (4F3/2 → 4I11/2)"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime τ",
+            "value": 7.85,
+            "unit": "μs",
+            "conditions": "cluster 1, NIR emission (Figure S8)"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission lifetime τ with rutin",
+            "value": "6.52 (48 μM Rut); 5.87 (192 μM Rut)",
+            "unit": "μs",
+            "conditions": "dynamic quenching upon addition of rutin"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern–Volmer quenching constant Ksv",
+            "value": "2.01e4",
+            "unit": "M-1",
+            "conditions": "I0/I at 1060 nm vs [Rut], λex = 395 nm, 1 = 30 μM in CH3CN"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD for rutin",
+            "value": 5.98,
+            "unit": "μM",
+            "conditions": "LOD = 3σ/Ksv, 1060 nm emission, λex = 395 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission intensity change at 1060 nm",
+            "value": "~90% decrease after 192 μM rutin",
+            "unit": null,
+            "conditions": "1 = 30 μM in CH3CN, λex = 395 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "ratiometric calibration I(Ex 470 nm)/I(Ex 395 nm) vs [Rut]",
+            "value": "A = -9.0e-7, B = 1.7e-4, C = 1.7e-2, D = 3.6e-2, R2 = 0.9998",
+            "unit": null,
+            "conditions": "CH3CN; third-order polynomial in [Rut]"
+          },
+          {
+            "property_type": "optical",
+            "name": "ratiometric calibration I(Ex 470 nm)/I(Ex 395 nm) vs [Rut] in FCS",
+            "value": "A = -3.6e-6, B = 4.4e-4, C = 2.9e-2, D = 7.6e-2, R2 = 0.9999",
+            "unit": null,
+            "conditions": "fetal calf serum"
+          },
+          {
+            "property_type": "optical",
+            "name": "response time",
+            "value": "stable within 5 s after each rutin addition",
+            "unit": "s",
+            "conditions": "1060 nm intensity under 395 or 470 nm excitation"
+          },
+          {
+            "property_type": "optical",
+            "name": "molar absorption coefficient at 395 nm",
+            "value": "0.081e5",
+            "unit": "M-1 cm-1",
+            "conditions": "cluster 1 vs rutin 0.048e5 M-1 cm-1 (Figure S6)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "article title"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Introduction; Experimental Section, Structural Refinement of 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section; associated content (CCDC 2211760)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC rows AFABES and AFABES01 for 2211760"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and Discussion, Synthesis and Characterization; Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and Discussion, Excitation Wavelength-Dependent Detection of Rut; Figures 3–6; Table 1; Conclusions"
+        }
+      ]
+    }
+  ]
+}

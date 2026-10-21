@@ -1,0 +1,584 @@
+{
+  "refcode": "DEKXEZ",
+  "ccdc_number": "1545428",
+  "dois": [
+    "10.1021/acs.inorgchem.7b01522"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1545428.cif",
+  "formula_moiety": "C228 H277 Eu5 O48 Ti4",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "22.494(2)",
+    "b": "30.270(2)",
+    "c": "41.062(3)",
+    "alpha": "90",
+    "beta": "106.715(10)",
+    "gamma": "90",
+    "volume": "26777.5",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O13",
+        "O24F",
+        "O3",
+        "O4F",
+        "O5",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O15",
+        "O17",
+        "O19",
+        "O2",
+        "O21",
+        "O3",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O2F",
+        "O4",
+        "O4F",
+        "O8",
+        "O8F"
+      ]
+    },
+    {
+      "label": "Ti1",
+      "element": "Ti",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O14F",
+        "O16",
+        "O18",
+        "O2",
+        "O23",
+        "O4"
+      ]
+    },
+    {
+      "label": "Ti2",
+      "element": "Ti",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O12",
+        "O20",
+        "O22",
+        "O3"
+      ]
+    },
+    {
+      "label": "Eu1F",
+      "element": "Eu",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O11F",
+        "O13F",
+        "O24",
+        "O3F",
+        "O4",
+        "O5F",
+        "O7F",
+        "O9F"
+      ]
+    },
+    {
+      "label": "Eu2F",
+      "element": "Eu",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O15F",
+        "O17F",
+        "O19F",
+        "O21F",
+        "O2F",
+        "O3F",
+        "O5F",
+        "O6F",
+        "O7F"
+      ]
+    },
+    {
+      "label": "Ti1F",
+      "element": "Ti",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O16F",
+        "O18F",
+        "O23F",
+        "O2F",
+        "O4F"
+      ]
+    },
+    {
+      "label": "Ti2F",
+      "element": "Ti",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10F",
+        "O12F",
+        "O1F",
+        "O20F",
+        "O22F",
+        "O3F"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O5",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.852,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 100.83,
+            "metal_oxygen_distances_angstrom": [
+              2.478,
+              2.52
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 97.09,
+            "metal_oxygen_distances_angstrom": [
+              2.431,
+              2.704
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 102.32,
+            "metal_oxygen_distances_angstrom": [
+              2.446,
+              2.5
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O4F"
+        ],
+        "metal_metal_separation_angstrom": 3.963,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4F",
+            "angle_deg": 114.25,
+            "metal_oxygen_distances_angstrom": [
+              2.305,
+              2.414
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Ti1F"
+        ],
+        "shared_oxygen_labels": [
+          "O4F"
+        ],
+        "metal_metal_separation_angstrom": 3.761,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4F",
+            "angle_deg": 133.28,
+            "metal_oxygen_distances_angstrom": [
+              2.305,
+              1.786
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Ti2"
+        ],
+        "shared_oxygen_labels": [
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.791,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 129.1,
+            "metal_oxygen_distances_angstrom": [
+              2.478,
+              1.704
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1F",
+          "Eu2F"
+        ],
+        "shared_oxygen_labels": [
+          "O3F",
+          "O5F",
+          "O7F"
+        ],
+        "metal_metal_separation_angstrom": 3.852,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3F",
+            "angle_deg": 100.83,
+            "metal_oxygen_distances_angstrom": [
+              2.478,
+              2.52
+            ]
+          },
+          {
+            "oxygen": "O5F",
+            "angle_deg": 97.09,
+            "metal_oxygen_distances_angstrom": [
+              2.431,
+              2.704
+            ]
+          },
+          {
+            "oxygen": "O7F",
+            "angle_deg": 102.32,
+            "metal_oxygen_distances_angstrom": [
+              2.446,
+              2.5
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1F",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.963,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 114.25,
+            "metal_oxygen_distances_angstrom": [
+              2.305,
+              2.414
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1F",
+          "Ti1"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.761,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 133.28,
+            "metal_oxygen_distances_angstrom": [
+              2.305,
+              1.786
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1F",
+          "Ti2F"
+        ],
+        "shared_oxygen_labels": [
+          "O3F"
+        ],
+        "metal_metal_separation_angstrom": 3.791,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3F",
+            "angle_deg": 129.1,
+            "metal_oxygen_distances_angstrom": [
+              2.478,
+              1.704
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 4.125,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 118.33,
+            "metal_oxygen_distances_angstrom": [
+              2.391,
+              2.413
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Ti1"
+        ],
+        "shared_oxygen_labels": [
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.905,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 130.48,
+            "metal_oxygen_distances_angstrom": [
+              2.391,
+              1.904
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Ti2"
+        ],
+        "shared_oxygen_labels": [
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.837,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 129.57,
+            "metal_oxygen_distances_angstrom": [
+              2.52,
+              1.704
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2F",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O2F"
+        ],
+        "metal_metal_separation_angstrom": 4.125,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2F",
+            "angle_deg": 118.33,
+            "metal_oxygen_distances_angstrom": [
+              2.391,
+              2.413
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2F",
+          "Ti1F"
+        ],
+        "shared_oxygen_labels": [
+          "O2F"
+        ],
+        "metal_metal_separation_angstrom": 3.905,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2F",
+            "angle_deg": 130.48,
+            "metal_oxygen_distances_angstrom": [
+              2.391,
+              1.904
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2F",
+          "Ti2F"
+        ],
+        "shared_oxygen_labels": [
+          "O3F"
+        ],
+        "metal_metal_separation_angstrom": 3.837,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3F",
+            "angle_deg": 129.57,
+            "metal_oxygen_distances_angstrom": [
+              2.52,
+              1.704
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu3",
+          "Ti1"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.353,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 101.26,
+            "metal_oxygen_distances_angstrom": [
+              2.413,
+              1.904
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 104.96,
+            "metal_oxygen_distances_angstrom": [
+              2.414,
+              1.786
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu3",
+          "Ti1F"
+        ],
+        "shared_oxygen_labels": [
+          "O2F",
+          "O4F"
+        ],
+        "metal_metal_separation_angstrom": 3.353,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2F",
+            "angle_deg": 101.26,
+            "metal_oxygen_distances_angstrom": [
+              2.413,
+              1.904
+            ]
+          },
+          {
+            "oxygen": "O4F",
+            "angle_deg": 104.96,
+            "metal_oxygen_distances_angstrom": [
+              2.414,
+              1.786
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu1F",
+        "Eu2",
+        "Eu2F",
+        "Eu3",
+        "Ti1",
+        "Ti1F",
+        "Ti2",
+        "Ti2F"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "DEKXEZ crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C228 H277 Eu5 O48 Ti4. From the CIF bond table, Eu1 (Eu) has 8 O neighbors; Eu2 (Eu) has 9 O neighbors; Eu3 (Eu) has 6 O neighbors; Ti1 (Ti) has 6 O neighbors; Ti2 (Ti) has 6 O neighbors; Eu1F (Eu) has 8 O neighbors; Eu2F (Eu) has 9 O neighbors; Ti1F (Ti) has 6 O neighbors; Ti2F (Ti) has 6 O neighbors. Oxygen-bridged metal-site graph: 16 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.353-4.125 Å (not direct metal-metal bonds). Computed M-O-M angles span 97.09-133.28°; individual values and O labels are in metal_framework.links. Article card reports molecular formula Eu5Ti4(μ3-O)6(tbba)20(Htbba)(THF)2. Explicit grouped units in the article formula/name: 6 μ3-O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.7b01522",
+    "formula": "Eu5Ti4(μ3-O)6(tbba)20(Htbba)(THF)2",
+    "compound_name": "Eu5Ti4",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-O",
+        "count": 6,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

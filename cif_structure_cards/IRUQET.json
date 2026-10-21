@@ -1,0 +1,182 @@
+{
+  "refcode": "IRUQET",
+  "ccdc_number": "1444462",
+  "dois": [
+    "10.1016/j.mencom.2016.07.012"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1444462.cif",
+  "formula_moiety": "C118 H80 N8 Nd4 O30",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "16.6472(4)",
+    "b": "20.7052(5)",
+    "c": "16.0879(5)",
+    "alpha": "90.00",
+    "beta": "106.283(3)",
+    "gamma": "90.00",
+    "volume": "5322.81",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Nd1",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O13",
+        "O16",
+        "O2",
+        "O20",
+        "O4",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Nd2",
+      "element": "Nd",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O14",
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "label": "Nd3",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O16",
+        "O17",
+        "O19",
+        "O22",
+        "O23",
+        "O25",
+        "O28",
+        "O5"
+      ]
+    },
+    {
+      "label": "Nd4",
+      "element": "Nd",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O18",
+        "O26",
+        "O29"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Nd1",
+          "Nd2"
+        ],
+        "shared_oxygen_labels": [
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 4.542,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 131.21,
+            "metal_oxygen_distances_angstrom": [
+              2.555,
+              2.431
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Nd1",
+          "Nd3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O16"
+        ],
+        "metal_metal_separation_angstrom": 4.115,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 108.07,
+            "metal_oxygen_distances_angstrom": [
+              2.646,
+              2.435
+            ]
+          },
+          {
+            "oxygen": "O16",
+            "angle_deg": 108.07,
+            "metal_oxygen_distances_angstrom": [
+              2.435,
+              2.646
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Nd3",
+          "Nd4"
+        ],
+        "shared_oxygen_labels": [
+          "O17"
+        ],
+        "metal_metal_separation_angstrom": 4.542,
+        "bridge_geometry": [
+          {
+            "oxygen": "O17",
+            "angle_deg": 131.21,
+            "metal_oxygen_distances_angstrom": [
+              2.555,
+              2.431
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Nd1",
+        "Nd2",
+        "Nd3",
+        "Nd4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "IRUQET crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C118 H80 N8 Nd4 O30. From the CIF bond table, Nd1 (Nd) has 9 O neighbors; Nd2 (Nd) has 4 O neighbors; Nd3 (Nd) has 9 O neighbors; Nd4 (Nd) has 4 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 4.115-4.542 Å (not direct metal-metal bonds). Computed M-O-M angles span 108.07-131.21°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C118H80N8Nd4O30.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.mencom.2016.07.012",
+    "formula": "C118H80N8Nd4O30",
+    "compound_name": "[Nd2(HSA)4(SA)(phen)2]2",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

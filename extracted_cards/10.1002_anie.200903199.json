@@ -1,0 +1,167 @@
+{
+  "title": "A Polynuclear Lanthanide Single-Molecule Magnet with a Record Anisotropic Barrier",
+  "doi": "10.1002/anie.200903199",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4(μ3-OH)2(bmh)2(msh)2Cl2]",
+      "formula": "C64H66Cl2Dy4N12O18",
+      "ccdc_numbers": [
+        "735900"
+      ],
+      "ccdc_refcodes": [
+        "SULPAR"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "defect-dicubane Dy4"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A suspension of DyCl3·6H2O (0.125 mmol) and o-vanillin (0.25 mmol) in DMF/CH2Cl2 (5 mL/25 mL) was treated with Et3N (0.5 mmol). The solution was stirred for 1 min, then N2H4·H2O (0.5 mmol) was added. The pale-yellow solution was stirred a further 15 min, filtered, and the filtrate left undisturbed. After 2 days, rectangular orange-yellow crystals of 1 formed. The msh and bmh ligands form in situ from o-vanillin and hydrazine under basic conditions that also generate bridging hydroxides. Crystals were kept in contact with the mother liquor to prevent deterioration.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.125 mmol"
+          },
+          {
+            "name": "o-vanillin",
+            "formula": "C8H8O3",
+            "role": "ligand precursor",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.5 mmol"
+          },
+          {
+            "name": "hydrazine hydrate",
+            "formula": "N2H4·H2O",
+            "role": "ligand precursor",
+            "amount": "0.5 mmol"
+          }
+        ],
+        "solvents": [
+          "DMF",
+          "CH2Cl2"
+        ],
+        "temperature": null,
+        "time": "stirred 1 min then 15 min after hydrazine addition; crystals after 2 days",
+        "ph": null,
+        "vessel_or_method": "solution synthesis with filtration and undisturbed crystallization",
+        "workup_and_crystallization": "filtered; filtrate left undisturbed; rectangular X-ray-quality orange-yellow crystals; sample kept in mother liquor",
+        "yield": "19.1%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Tetranuclear Dy(III) SMM with two relaxation modes, hysteresis open to 7 K, and a high-temperature effective barrier of 170 K, described as a record anisotropic barrier for a polynuclear SMM.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 55.6,
+            "unit": "cm3 K mol-1",
+            "conditions": "0.1 T, 300 K, per molecule"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 49.4,
+            "unit": "cm3 K mol-1",
+            "conditions": "0.1 T, 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ'' maxima",
+            "value": "30 and 9 K at 1500 Hz",
+            "unit": null,
+            "conditions": "zero dc field; two relaxation modes"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "hysteresis opening temperature",
+            "value": 7,
+            "unit": "K",
+            "conditions": "single-crystal micro-SQUID, 0.04–7 K; multistep loops"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (low-T)",
+            "value": 9.7,
+            "unit": "K",
+            "conditions": "Arrhenius from ac χ'' and dc magnetization decay; τ0 = 3.2×10^-5 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (high-T)",
+            "value": 170,
+            "unit": "K",
+            "conditions": "Arrhenius from ac χ'' and dc magnetization decay; τ0 = 4×10^-7 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "local axial g-factor",
+            "value": "g∥ = 19.5 (Dy1), 19.2 (Dy2); g⊥ negligible",
+            "unit": null,
+            "conditions": "ab initio; lowest Kramers doublets"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "article title"
+        },
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental Section; synthesis paragraph"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, crystal structure data for 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section, CCDC 735900 (1)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row SULPAR / 735900"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion; Figure 1; defect-dicubane Dy4"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section compound 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetism text; Figures 2–4; Arrhenius discussion"
+        }
+      ]
+    }
+  ]
+}

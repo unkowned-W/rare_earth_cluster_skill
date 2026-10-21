@@ -1,0 +1,180 @@
+{
+  "refcode": "PADHAG",
+  "ccdc_number": "1409391",
+  "dois": [
+    "10.1039/c5dt03573b"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1409391.cif",
+  "formula_moiety": "C60 H91 Eu3 O8",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "12.5855(3)",
+    "b": "20.3033(6)",
+    "c": "24.2945(7)",
+    "alpha": "90.00",
+    "beta": "104.6510(10)",
+    "gamma": "90.00",
+    "volume": "6006.05",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O12",
+        "O21",
+        "O31"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O2",
+        "O22",
+        "O32"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O21",
+        "O22",
+        "O31",
+        "O32"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O12"
+        ],
+        "metal_metal_separation_angstrom": 3.624,
+        "bridge_geometry": [
+          {
+            "oxygen": "O11",
+            "angle_deg": 95.5,
+            "metal_oxygen_distances_angstrom": [
+              2.457,
+              2.439
+            ]
+          },
+          {
+            "oxygen": "O12",
+            "angle_deg": 95.76,
+            "metal_oxygen_distances_angstrom": [
+              2.457,
+              2.429
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O21",
+          "O31"
+        ],
+        "metal_metal_separation_angstrom": 3.713,
+        "bridge_geometry": [
+          {
+            "oxygen": "O21",
+            "angle_deg": 101.35,
+            "metal_oxygen_distances_angstrom": [
+              2.487,
+              2.311
+            ]
+          },
+          {
+            "oxygen": "O31",
+            "angle_deg": 101.78,
+            "metal_oxygen_distances_angstrom": [
+              2.494,
+              2.288
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O22",
+          "O32"
+        ],
+        "metal_metal_separation_angstrom": 3.704,
+        "bridge_geometry": [
+          {
+            "oxygen": "O22",
+            "angle_deg": 100.79,
+            "metal_oxygen_distances_angstrom": [
+              2.504,
+              2.3
+            ]
+          },
+          {
+            "oxygen": "O32",
+            "angle_deg": 101.3,
+            "metal_oxygen_distances_angstrom": [
+              2.506,
+              2.28
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2",
+        "Eu3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "PADHAG crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C60 H91 Eu3 O8. From the CIF bond table, Eu1 (Eu) has 5 O neighbors; Eu2 (Eu) has 5 O neighbors; Eu3 (Eu) has 4 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.624-3.713 Å (not direct metal-metal bonds). Computed M-O-M angles span 95.50-101.78°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C60H91Eu3O8.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c5dt03573b",
+    "formula": "C60H91Eu3O8",
+    "compound_name": "[(EuCp*)(Eu·thf)2(dbcat)3]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

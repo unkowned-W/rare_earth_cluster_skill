@@ -1,0 +1,316 @@
+{
+  "refcode": "GOBPUL",
+  "ccdc_number": "1839360",
+  "dois": [
+    "10.1002/zaac.201800356"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1839360.cif",
+  "formula_moiety": "C100 H117 Eu4 Na1 O17 S8",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "32.693(4)",
+    "b": "32.636(4)",
+    "c": "12.9816(16)",
+    "alpha": "90.00",
+    "beta": "102.546(2)",
+    "gamma": "90.00",
+    "volume": "13520.2",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O13",
+        "O2",
+        "O3",
+        "O5",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12",
+        "O13",
+        "O14",
+        "O15",
+        "O2",
+        "O5"
+      ]
+    },
+    {
+      "label": "Eu4",
+      "element": "Eu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O12",
+        "O16",
+        "O17",
+        "O4",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O3",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.629,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 98.15,
+            "metal_oxygen_distances_angstrom": [
+              2.396,
+              2.407
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 90.11,
+            "metal_oxygen_distances_angstrom": [
+              2.565,
+              2.563
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 97.9,
+            "metal_oxygen_distances_angstrom": [
+              2.411,
+              2.402
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 5.129,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 180.0,
+            "metal_oxygen_distances_angstrom": [
+              2.565,
+              2.565
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Eu4"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.622,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 98.39,
+            "metal_oxygen_distances_angstrom": [
+              2.39,
+              2.396
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 89.89,
+            "metal_oxygen_distances_angstrom": [
+              2.565,
+              2.563
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 98.54,
+            "metal_oxygen_distances_angstrom": [
+              2.388,
+              2.392
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O2",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.622,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 89.89,
+            "metal_oxygen_distances_angstrom": [
+              2.563,
+              2.565
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 98.54,
+            "metal_oxygen_distances_angstrom": [
+              2.392,
+              2.388
+            ]
+          },
+          {
+            "oxygen": "O13",
+            "angle_deg": 98.39,
+            "metal_oxygen_distances_angstrom": [
+              2.396,
+              2.39
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu4"
+        ],
+        "shared_oxygen_labels": [
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 5.126,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 180.0,
+            "metal_oxygen_distances_angstrom": [
+              2.563,
+              2.563
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu3",
+          "Eu4"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O12",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.629,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 90.11,
+            "metal_oxygen_distances_angstrom": [
+              2.565,
+              2.563
+            ]
+          },
+          {
+            "oxygen": "O1",
+            "angle_deg": 97.9,
+            "metal_oxygen_distances_angstrom": [
+              2.411,
+              2.402
+            ]
+          },
+          {
+            "oxygen": "O12",
+            "angle_deg": 98.15,
+            "metal_oxygen_distances_angstrom": [
+              2.396,
+              2.407
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2",
+        "Eu3",
+        "Eu4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "GOBPUL crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C100 H117 Eu4 Na1 O17 S8. From the CIF bond table, Eu1 (Eu) has 7 O neighbors; Eu2 (Eu) has 7 O neighbors; Eu3 (Eu) has 7 O neighbors; Eu4 (Eu) has 7 O neighbors. Oxygen-bridged metal-site graph: 6 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.622-5.129 Å (not direct metal-metal bonds). Computed M-O-M angles span 89.89-180.00°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C100H117Eu4NaO17S8. Explicit grouped units in the article formula/name: 1 μ4-OH (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/zaac.201800356",
+    "formula": "C100H117Eu4NaO17S8",
+    "compound_name": "[Eu4Na(μ4-OH)(TC4A)2(acac)4]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ4-OH",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "title": "An octanuclear Mn4IIIDy4III cluster connected via two μ5-NO3− bridges with slow relaxation of magnetization",
+  "doi": "10.1039/c6ra08314e",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Mn4IIIDy4III(mbm)14(μ5-NO3)2(μ-NO3)2(MeOH)2](NO3)6·12H2O",
+      "formula": "C128H158Dy4Mn4N38O58",
+      "ccdc_numbers": [
+        "849069"
+      ],
+      "ccdc_refcodes": [
+        "INISEF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "nearly planar butterfly Mn4Dy4 core templated by two μ5-NO3 bridges"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Mn(ClO4)2·6H2O (0.50 mmol, 0.181 g), Dy(NO3)3·6H2O (0.10 mmol, 0.035 g) and Hmbm (0.857 mmol, 0.137 g) were dissolved in 30 mL MeCN/MeOH (v/v = 2:1). Triethylamine (0.75 mmol, 0.11 mL) was added with stirring. The dark-brown solution was stirred for another hour, filtered, and the filtrate was left undisturbed at ambient temperature. Large dark-brown crystals were collected by filtration after two weeks. The main text gives the same reagents and MeOH/MeCN (1/2, v/v) but without reagent quantities.",
+        "reagents": [
+          {
+            "name": "manganese(II) perchlorate hexahydrate",
+            "formula": "Mn(ClO4)2·6H2O",
+            "role": "metal source",
+            "amount": "0.50 mmol, 0.181 g"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.10 mmol, 0.035 g"
+          },
+          {
+            "name": "(1-methyl-benzoimidazol-2-yl)methanol",
+            "formula": "Hmbm",
+            "role": "ligand",
+            "amount": "0.857 mmol, 0.137 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.75 mmol, 0.11 mL"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH"
+        ],
+        "temperature": "ambient temperature",
+        "time": "stirred 1 h; crystallization for two weeks",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by filtration and undisturbed crystallization",
+        "workup_and_crystallization": "Filtrate left undisturbed at ambient temperature; dark-brown crystals collected by filtration after two weeks",
+        "yield": "35%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "dc susceptibility shows χMT falling from 63.76 cm3 K mol−1 at 300 K to 27.31 cm3 K mol−1 at 1.8 K, attributed to Dy Stark depopulation and possible antiferromagnetic exchange. Reduced-magnetization isotherms do not superimpose, indicating strong anisotropy, and M reaches 29.9 Nβ at 7 T and 1.8 K without saturation. Zero-field ac data show frequency-dependent out-of-phase signals but no peaks down to 1.8 K, so the barrier and relaxation time were not determined; probable SMM behavior with blocking temperature below 1.8 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "63.76",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 2000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "27.31",
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 2000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "theoretical uncoupled χMT",
+            "value": "68.68",
+            "unit": "cm3 K mol−1",
+            "conditions": "four Mn(III) (g = 2.0, S = 2) and four Dy(III) (6H15/2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "29.9",
+            "unit": "Nβ",
+            "conditions": "1.8 K, 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "calculated saturation magnetization",
+            "value": "36.92",
+            "unit": "Nβ",
+            "conditions": "uncoupled Mn4IIIDy4III"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility",
+            "value": null,
+            "unit": null,
+            "conditions": "zero dc field, 5 Oe oscillating field, T < 10 K; frequency-dependent χ″, no maxima to 1.8 K; Ueff and τ not determined"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "crystal-data footnote and abstract formula of 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC INISEF / 849069"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "ESI Experiment Section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion, Figs. 2 and 3"
+        }
+      ]
+    }
+  ]
+}

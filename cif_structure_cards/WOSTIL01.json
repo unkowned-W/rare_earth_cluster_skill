@@ -1,0 +1,65 @@
+{
+  "refcode": "WOSTIL01",
+  "ccdc_number": "2355785",
+  "dois": [
+    "10.1021/jacs.4c07346"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2355785_WOSTIL01.cif",
+  "formula_moiety": "C408 H566 Cl6 Cu54 N24 O248 Sm15 1+,Cl1 1-,11(C2 H6 O1),7(H2 O1)",
+  "crystal_system": "trigonal",
+  "space_group_hm": "P 31",
+  "international_tables_number": "144",
+  "unit_cell": {
+    "a": "34.4753(2)",
+    "b": "34.4753(2)",
+    "c": "69.3758(12)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "120",
+    "volume": "71409.3",
+    "Z": "3"
+  },
+  "metal_sites": [],
+  "atom_sites_available": false,
+  "bond_table_available": false,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "undetermined (missing bonds, symmetry links, or consistent periodic-image geometry)",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "WOSTIL01 crystallizes in the trigonal crystal system with space group P 31. Reported CIF formula moiety: C408 H566 Cl6 Cu54 N24 O248 Sm15 1+,Cl1 1-,11(C2 H6 O1),7(H2 O1). Metal?O coordination is not determined because atom sites or bond data are absent. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula [Sm15Cu54(μ3-OH)24Cl6(S-L)24(Ac)72(H2O)6]Cl·11EtOH·7H2O. Explicit grouped units in the article formula/name: 24 μ3-OH (explicit grouped unit in article formula), 6 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/jacs.4c07346",
+    "formula": "[Sm15Cu54(μ3-OH)24Cl6(S-L)24(Ac)72(H2O)6]Cl·11EtOH·7H2O",
+    "compound_name": "S-Sm15Cu54 chiral cage",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "insufficient_graph",
+    "nuclearity": 69,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count",
+    "reason": "missing links or omitted symmetry bonds"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-OH",
+        "count": 24,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 6,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

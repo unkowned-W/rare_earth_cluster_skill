@@ -1,0 +1,236 @@
+{
+  "refcode": "ZIMVIC",
+  "ccdc_number": "942794",
+  "dois": [
+    "10.1039/c3dt51490k"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\942794.cif",
+  "formula_moiety": "C82 H70 Br10 Eu4 N24 O16 S4,18(C2 H6 O1 S1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "14.4400(5)",
+    "b": "15.7422(6)",
+    "c": "18.2586(6)",
+    "alpha": "74.988(3)",
+    "beta": "86.298(3)",
+    "gamma": "75.568(3)",
+    "volume": "3882.34",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O6",
+        "O7",
+        "O9",
+        "O91"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O3",
+        "O41",
+        "O7",
+        "O92"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O14",
+        "O15",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Eu4",
+      "element": "Eu",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O13",
+        "O16",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 4.187,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 127.49,
+            "metal_oxygen_distances_angstrom": [
+              2.32,
+              2.349
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O7",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.725,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 106.33,
+            "metal_oxygen_distances_angstrom": [
+              2.32,
+              2.334
+            ]
+          },
+          {
+            "oxygen": "O9",
+            "angle_deg": 106.33,
+            "metal_oxygen_distances_angstrom": [
+              2.334,
+              2.32
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Eu4"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.794,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 109.83,
+            "metal_oxygen_distances_angstrom": [
+              2.352,
+              2.284
+            ]
+          },
+          {
+            "oxygen": "O9",
+            "angle_deg": 108.21,
+            "metal_oxygen_distances_angstrom": [
+              2.334,
+              2.349
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.794,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 108.21,
+            "metal_oxygen_distances_angstrom": [
+              2.349,
+              2.334
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 109.83,
+            "metal_oxygen_distances_angstrom": [
+              2.284,
+              2.352
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu3",
+          "Eu4"
+        ],
+        "shared_oxygen_labels": [
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 4.187,
+        "bridge_geometry": [
+          {
+            "oxygen": "O9",
+            "angle_deg": 127.49,
+            "metal_oxygen_distances_angstrom": [
+              2.32,
+              2.349
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2",
+        "Eu3",
+        "Eu4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ZIMVIC crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C82 H70 Br10 Eu4 N24 O16 S4,18(C2 H6 O1 S1). From the CIF bond table, Eu1 (Eu) has 5 O neighbors; Eu2 (Eu) has 5 O neighbors; Eu3 (Eu) has 5 O neighbors; Eu4 (Eu) has 5 O neighbors. Oxygen-bridged metal-site graph: 5 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.725-4.187 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.33-127.49°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C110H154N24O30S18Br10Eu4.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c3dt51490k",
+    "formula": "C110H154N24O30S18Br10Eu4",
+    "compound_name": "[{{Eu(DMSO)}2(HBr3L′)(H3Br2L″)}2(μ-OH)2]·18DMSO",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "title": "High-Nuclearity Ce/Mn and Th/Mn Cluster Chemistry: Preparation of Complexes with [Ce4Mn10O10(OMe)6]18+ and [Th6Mn10O22(OH)2]18+ Cores",
+  "doi": "10.1021/ic061946y",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Ce4Mn10O10(OMe)6(O2CPh)16(NO3)2(MeOH)2(H2O)2]",
+      "formula": "C120H110Ce4Mn10N2O58·4H2O",
+      "ccdc_numbers": [
+        "249073"
+      ],
+      "ccdc_refcodes": [
+        "RIDZOU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 14,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ce"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "tubular mixed-valence Ce/Mn oxo-methoxide cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Aerobic Method A: a MeCN solution of (NBu^n4)[Mn4O2(O2CPh)9(H2O)] (3) was treated with solid (NBu^n4)2Ce(NO3)6 and stirred 20 min. The brown solution was filtered to remove an off-white precipitate, and the filtrate was layered with MeOH and left at room temperature. After ~2 weeks, reddish-brown crystals of 1·H2O·4MeOH·6MeCN were collected, washed with Et2O, and dried in vacuo (dried solid analyzed as 1·4H2O). Method B: treating [Mn3O(O2CPh)6(py)2(H2O)] (4) in MeCN with (NBu^n4)2Ce(NO3)6, then the same workup, also gave 1·4H2O.",
+        "reagents": [
+          {
+            "name": "(NBu^n4)[Mn4O2(O2CPh)9(H2O)] (3)",
+            "formula": "(NBu^n4)[Mn4O2(O2CPh)9(H2O)]",
+            "role": "Mn starting cluster (Method A)",
+            "amount": "1.0 g, 0.62 mmol"
+          },
+          {
+            "name": "(NBu^n4)2Ce(NO3)6",
+            "formula": "(NBu^n4)2Ce(NO3)6",
+            "role": "Ce source (Method A)",
+            "amount": "0.98 g, 0.98 mmol"
+          },
+          {
+            "name": "[Mn3O(O2CPh)6(py)2(H2O)] (4)",
+            "formula": "[Mn3O(O2CPh)6(py)2(H2O)]",
+            "role": "Mn starting cluster (Method B)",
+            "amount": "1.0 g, 0.92 mmol"
+          },
+          {
+            "name": "(NBu^n4)2Ce(NO3)6",
+            "formula": "(NBu^n4)2Ce(NO3)6",
+            "role": "Ce source (Method B)",
+            "amount": "0.91 g, 0.91 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH",
+          "Et2O"
+        ],
+        "temperature": "room temperature (crystallization)",
+        "time": "stirring 20 min; crystallization ~2 weeks",
+        "ph": null,
+        "vessel_or_method": "aerobic solution reaction, filtration, MeOH layering",
+        "workup_and_crystallization": "filter off-white precipitate; layer filtrate with MeOH (10 mL); collect X-ray-quality reddish-brown crystals of 1·H2O·4MeOH·6MeCN, wash with Et2O, dry in vacuo (analyzed as 1·4H2O)",
+        "yield": "25% (Method A); 20% (Method B)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dried 1·4H2O is a mixed-valence CeIII2CeIV2MnIII10 cluster with dominant antiferromagnetic exchange and an approximate S = 4 ground state. χMT falls from 34.38 cm3 mol−1 K (300 K) to 10.26 cm3 mol−1 K (5.0 K). Magnetization fitting (0.1–3.0 T, 1.8–10 K) gave S = 4, D = −0.57(2) cm−1, g = 2.09(1). Frequency-dependent ac χM″ tails appear below 3 K for both wet 1·H2O·4MeOH·6MeCN and dried 1·4H2O, but micro-SQUID M vs H scans to 0.04 K show only tiny hysteresis assigned to intermolecular H-bonding rather than SMM blocking; the compound is concluded not to be an SMM.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 34.38,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1·4H2O; 300 K; 0.1 T dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 10.26,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1·4H2O; 5.0 K; 0.1 T dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ground-state spin S",
+            "value": 4,
+            "unit": null,
+            "conditions": "magnetization fit of 1·4H2O, 0.1–3.0 T, 1.8–10 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "axial ZFS parameter D",
+            "value": "-0.57(2)",
+            "unit": "cm−1",
+            "conditions": "same magnetization fit; approximate (CeIII spin–orbit neglected)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g factor",
+            "value": "2.09(1)",
+            "unit": null,
+            "conditions": "same magnetization fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac out-of-phase χM″",
+            "value": "frequency-dependent tails below 3 K",
+            "unit": null,
+            "conditions": "3.5 G ac field, 5–1000 Hz, 1.8–10 K; wet crystals and dried 1·4H2O"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "hysteresis / SMM behavior",
+            "value": "not an SMM; only very minor hysteresis at 0.04 K",
+            "unit": null,
+            "conditions": "single-crystal micro-SQUID M vs H, 0.04–5.0 K, sweep rates 0.035–0.280 T/s"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section, synthesis of 1"
+        },
+        {
+          "field": "formula",
+          "source": "external_metadata",
+          "location": "CCDC RIDZOU/249073"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 249073"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Description of the Structures of 1 and 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Syntheses, Methods A and B"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "DC Magnetic Susceptibility Studies; AC Magnetic Susceptibility Studies; Hysteresis Studies below 1.8 K; Figures 5–9"
+        }
+      ]
+    }
+  ]
+}

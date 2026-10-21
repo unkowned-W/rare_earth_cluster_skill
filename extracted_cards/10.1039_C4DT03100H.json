@@ -1,0 +1,153 @@
+{
+  "title": "A fluoride bridged {CrIII4DyIII4} single molecule magnet",
+  "doi": "10.1039/c4dt03100h",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[CrIII4DyIII4F4(OMe)1.25(OH)2.75(O2CPh)8(mdea)4]",
+      "formula": "C77H90Cr4Dy4F4N4O28·1.75MeOH·0.5H2O",
+      "ccdc_numbers": [
+        "1022180"
+      ],
+      "ccdc_refcodes": [
+        "EQIKEW"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "fluoride-bridged square-in-square {Cr4Dy4}"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Under aerobic conditions, CrCl3·6H2O (0.13 g, 0.5 mmol) and Dy(NO3)3·6H2O (0.22 g, 0.5 mmol) were dissolved in MeCN (20 mL). N-methyldiethanolamine (0.06 mL, 0.5 mmol), benzoic acid (0.1 mL, 1.0 mmol), NaF (0.82 g, 1 mmol) and triethylamine (0.28 mL, 2.0 mmol) were added, giving a green solution that turned deep purple on heating. The mixture was stirred for 2 h, the solvent was removed to a purple oil, and the oil was redissolved in MeOH and layered with Et2O. After 2 days the MeOH/Et2O mixture was allowed to evaporate slowly; red plate crystals of 1 formed within 5–7 days (approximate crystalline yield 27%). Bulk analysis was reported for Cr4Dy4C78.75H111.13O33N4F4. The main text only names the same reagents and crystallization from MeOH, referring the full procedure to the ESI.",
+        "reagents": [
+          {
+            "name": "chromium(III) chloride hexahydrate",
+            "formula": "CrCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.13 g, 0.5 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.22 g, 0.5 mmol"
+          },
+          {
+            "name": "N-methyldiethanolamine",
+            "formula": "mdeaH2",
+            "role": "ligand",
+            "amount": "0.06 mL, 0.5 mmol"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "PhCO2H",
+            "role": "ligand",
+            "amount": "0.1 mL, 1.0 mmol"
+          },
+          {
+            "name": "sodium fluoride",
+            "formula": "NaF",
+            "role": "fluoride source",
+            "amount": "0.82 g, 1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.28 mL, 2.0 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH",
+          "Et2O"
+        ],
+        "temperature": "heated, then stirred; crystallization at ambient temperature",
+        "time": "stirred 2 h; crystals after 5–7 days following 2 days of layering",
+        "ph": null,
+        "vessel_or_method": "aerobic solution reaction in MeCN, then MeOH/Et2O layering and slow evaporation",
+        "workup_and_crystallization": "Solvent removed to a purple oil, redissolved in MeOH and layered with diethyl ether; slow evaporation afforded red plate crystals.",
+        "yield": "approximately 27% (crystalline product)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Compound 1 is an SMM. χMT decreases from room temperature, plateaus near 50 K, then drops below 10 K. Zero-dc-field ac data show multiple relaxation processes; the dominant process is thermally activated between 4.5 and 10 K. Open hysteresis loops persist up to 3.5 K, with a large coercive field at 1.8 K and a loss of magnetization at zero field. The 100 s blocking temperature is 3.8 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "64.26",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "room temperature; dc fields 0.01, 0.1 and 1 T over 2–300 K (expected 64.18 cm^3 K mol^-1 for four CrIII and four DyIII)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "55",
+            "unit": "cm^-1",
+            "conditions": "Arrhenius fit of the dominant ac relaxation process, 4.5–10 K, zero dc field, ac field 3.5 Oe, 0.1–1500 Hz; R = 0.99"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "6.1e-8",
+            "unit": "s",
+            "conditions": "same Arrhenius fit as Ueff"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "coercive field Hc",
+            "value": "1.5",
+            "unit": "T",
+            "conditions": "maximum at 1.8 K; average sweep rate 0.003 T s^-1; open loops up to 3.5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "blocking temperature",
+            "value": "3.8",
+            "unit": "K",
+            "conditions": "temperature for a relaxation time of 100 s, extrapolated from the Arrhenius plot"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "paragraph after the reaction summary; Fig. 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "X-ray crystallography section"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row EQIKEW / 1022180"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental information, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion and Figs. 2–4"
+        }
+      ]
+    }
+  ]
+}

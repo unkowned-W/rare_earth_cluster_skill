@@ -1,0 +1,664 @@
+{
+  "title": "A series of Ln4III clusters: Dy4 single molecule magnet and Tb4 multi-responsive luminescent sensor for Fe3+, CrO42−/Cr2O72− and 4-nitroaniline",
+  "doi": "10.1039/c8ra01485j",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Gd4L4(NO3)2(Piv)2]·2CH3OH",
+      "formula": "C76H86N6O28Gd4",
+      "ccdc_numbers": [
+        "1538938"
+      ],
+      "ccdc_refcodes": [
+        "FEZFUO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "zig-zag [Ln4O6] tetranuclear cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of Gd(NO3)3·6H2O (0.1 mmol), H2L (0.1 mmol), pivalic acid (0.1 mmol), triethylamine (0.2 mmol) and MeOH (2.5 mL) was sealed in a 10 mL Pyrex tube and heated at 80 °C (353 K) for 24 h under solvothermal conditions. After cooling to room temperature, yellow block crystals suitable for X-ray diffraction were obtained.",
+        "reagents": [
+          {
+            "name": "gadolinium nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "2-(((2-hydroxy-3-methoxybenzyl)imino)methyl)-6-methoxyphenol",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "C5H10O2",
+            "role": "coligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "80 °C (353 K)",
+        "time": "24 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal; sealed 10 mL Pyrex tube",
+        "workup_and_crystallization": "cooled to room temperature; yellow block crystals obtained",
+        "yield": "47% (0.0254 g based on Gd)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Weak antiferromagnetic Gd···Gd interactions from DC susceptibility (1000 Oe, 2–300 K). Solid-state ligand-centred emission at 557 nm with a shoulder at 483 nm (λex = 396 nm).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 33.41,
+            "unit": "cm3 K mol−1",
+            "conditions": "1000 Oe, 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (theoretical, 4 isolated GdIII)",
+            "value": 31.52,
+            "unit": "cm3 K mol−1",
+            "conditions": "8S7/2, g = 2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 13.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie–Weiss θ",
+            "value": 1.98,
+            "unit": "K",
+            "conditions": "Fig. S6"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 32.86,
+            "unit": "cm3 K mol−1",
+            "conditions": "Fig. S6"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maxima",
+            "value": "557 nm (shoulder 483 nm)",
+            "unit": null,
+            "conditions": "solid state, RT, λex = 396 nm"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1–5; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1538938 / FEZFUO"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1–5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic studies; Table 2; Luminescent properties"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Tb4L4(NO3)2(Piv)2]·2CH3OH",
+      "formula": "C76H86N6O28Tb4",
+      "ccdc_numbers": [
+        "1538931"
+      ],
+      "ccdc_refcodes": [
+        "FEZFAU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "zig-zag [Ln4O6] tetranuclear cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1–5: Tb(NO3)3·6H2O (0.1 mmol), H2L (0.1 mmol), pivalic acid (0.1 mmol), triethylamine (0.2 mmol) and MeOH (2.5 mL) sealed in a 10 mL Pyrex tube and heated at 80 °C for 24 h. Yellow block crystals formed on cooling.",
+        "reagents": [
+          {
+            "name": "terbium nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "2-(((2-hydroxy-3-methoxybenzyl)imino)methyl)-6-methoxyphenol",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "C5H10O2",
+            "role": "coligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "80 °C (353 K)",
+        "time": "24 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal; sealed 10 mL Pyrex tube",
+        "workup_and_crystallization": "cooled to room temperature; yellow block crystals obtained",
+        "yield": "53% (0.0287 g based on Tb)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "DC susceptibility indicates weak antiferromagnetic interactions. Solid-state TbIII characteristic emission (490, 544, 584, 618 nm; λex = 360 nm). Functions as a multi-responsive luminescent sensor for Fe3+, CrO42−, Cr2O72− in water and 4-nitroaniline in ethanol, with high selectivity and recyclability.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 46.91,
+            "unit": "cm3 K mol−1",
+            "conditions": "1000 Oe, 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (theoretical, 4 uncoupled TbIII)",
+            "value": 47.2,
+            "unit": "cm3 K mol−1",
+            "conditions": "7F6, g = 3/2"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maxima",
+            "value": "490, 544, 584, 618 nm",
+            "unit": null,
+            "conditions": "solid state, RT, λex = 360 nm; 5D4 → 7F6,7F5,7F4,7F3"
+          },
+          {
+            "property_type": "optical",
+            "name": "KSV (Fe3+)",
+            "value": "1.86e4",
+            "unit": "M−1",
+            "conditions": "aqueous suspension, 2 mg/2 mL, low concentration, λem = 544 nm, λex = 360 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD (Fe3+)",
+            "value": "1e-5",
+            "unit": "M",
+            "conditions": "3δ/s, aqueous suspension"
+          },
+          {
+            "property_type": "optical",
+            "name": "KSV (CrO42−)",
+            "value": "2.998e3",
+            "unit": "M−1",
+            "conditions": "aqueous suspension, low concentration"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD (CrO42−)",
+            "value": "5.2e-5",
+            "unit": "M",
+            "conditions": "3δ/s"
+          },
+          {
+            "property_type": "optical",
+            "name": "KSV (Cr2O72−)",
+            "value": "7.44e3",
+            "unit": "M−1",
+            "conditions": "aqueous suspension, low concentration"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD (Cr2O72−)",
+            "value": "2.7e-5",
+            "unit": "M",
+            "conditions": "3δ/s"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD (4-NA)",
+            "value": "8.5e-6",
+            "unit": "M",
+            "conditions": "1.17 ppm; ethanol suspension, 3δ/s"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1–5; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1538931 / FEZFAU"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1–5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic studies; Table 2; Luminescent properties; sensing sections"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Dy4L4(NO3)2(Piv)2]·2CH3OH",
+      "formula": "C76H86N6O28Dy4",
+      "ccdc_numbers": [
+        "1538932"
+      ],
+      "ccdc_refcodes": [
+        "FEZFEY"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "zig-zag [Ln4O6] tetranuclear cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously: Dy(NO3)3·6H2O (0.1 mmol), H2L (0.1 mmol), pivalic acid (0.1 mmol), triethylamine (0.2 mmol) and MeOH (2.5 mL) in a sealed 10 mL Pyrex tube heated at 80 °C for 24 h. Yellow block crystals obtained after cooling.",
+        "reagents": [
+          {
+            "name": "dysprosium nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "2-(((2-hydroxy-3-methoxybenzyl)imino)methyl)-6-methoxyphenol",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "C5H10O2",
+            "role": "coligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "80 °C (353 K)",
+        "time": "24 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal; sealed 10 mL Pyrex tube",
+        "workup_and_crystallization": "cooled to room temperature; yellow block crystals obtained",
+        "yield": "54% (0.0294 g based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Ferromagnetic Dy···Dy interactions inferred from the low-T rise of χMT. Frequency-dependent out-of-phase AC susceptibility under zero DC field indicates SMM-type slow magnetization relaxation; no χ″ maxima; Ea/kB ≈ 1.61 K and τ0 ≈ 7.42×10−6 s from Debye analysis. Solid-state emission centred at 482 nm (λex = 324 nm).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 58.5,
+            "unit": "cm3 K mol−1",
+            "conditions": "1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (theoretical, 4 uncoupled DyIII)",
+            "value": 56.68,
+            "unit": "cm3 K mol−1",
+            "conditions": "6H15/2, g = 4/3; Table 2 lists 58.68"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (23 K)",
+            "value": 55.9,
+            "unit": "cm3 K mol−1",
+            "conditions": "1000 Oe, minimum on cooling"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 69.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "energy barrier Ea/kB",
+            "value": 1.61,
+            "unit": "K",
+            "conditions": "zero DC field; AC 2 Oe; Debye fit of ln(χ″/χ′) vs T−1, 2–4.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "7.42e-6",
+            "unit": "s",
+            "conditions": "zero DC field AC data"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maximum",
+            "value": 482,
+            "unit": "nm",
+            "conditions": "solid state, λex = 324 nm"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental; Table 1; crystal structure of 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1538932 / FEZFEY"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1–5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic studies; Fig. 2–4; Luminescent properties"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Ho4L4(NO3)2(Piv)2]·2CH3OH",
+      "formula": "C76H86N6O28Ho4",
+      "ccdc_numbers": [
+        "1538933"
+      ],
+      "ccdc_refcodes": [
+        "FEZFIC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "zig-zag [Ln4O6] tetranuclear cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously: Ho(NO3)3·6H2O (0.1 mmol), H2L (0.1 mmol), pivalic acid (0.1 mmol), triethylamine (0.2 mmol) and MeOH (2.5 mL) in a sealed 10 mL Pyrex tube heated at 80 °C for 24 h. Yellow block crystals obtained after cooling.",
+        "reagents": [
+          {
+            "name": "holmium nitrate hexahydrate",
+            "formula": "Ho(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "2-(((2-hydroxy-3-methoxybenzyl)imino)methyl)-6-methoxyphenol",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "C5H10O2",
+            "role": "coligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "80 °C (353 K)",
+        "time": "24 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal; sealed 10 mL Pyrex tube",
+        "workup_and_crystallization": "cooled to room temperature; yellow block crystals obtained",
+        "yield": "53% (0.0290 g based on Ho)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "DC susceptibility consistent with weak antiferromagnetic interactions plus crystal-field depopulation. Solid-state emission centred at 482 nm (λex = 324 nm).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 57.47,
+            "unit": "cm3 K mol−1",
+            "conditions": "1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (theoretical, 4 uncoupled HoIII)",
+            "value": 58.28,
+            "unit": "cm3 K mol−1",
+            "conditions": "5I8, g = 5/4"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maximum",
+            "value": 482,
+            "unit": "nm",
+            "conditions": "solid state, λex = 324 nm"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1538933 / FEZFIC"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1–5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic studies; Table 2; Luminescent properties"
+        }
+      ]
+    },
+    {
+      "compound_label": "5",
+      "compound_name": "[Er4L4(NO3)2(Piv)2]·2CH3OH",
+      "formula": "C76H86N6O28Er4",
+      "ccdc_numbers": [
+        "1538934"
+      ],
+      "ccdc_refcodes": [
+        "FEZFOI"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "zig-zag [Ln4O6] tetranuclear cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously: Er(NO3)3·6H2O (0.1 mmol), H2L (0.1 mmol), pivalic acid (0.1 mmol), triethylamine (0.2 mmol) and MeOH (2.5 mL) in a sealed 10 mL Pyrex tube heated at 80 °C for 24 h. Yellow block crystals obtained after cooling.",
+        "reagents": [
+          {
+            "name": "erbium nitrate hexahydrate",
+            "formula": "Er(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "2-(((2-hydroxy-3-methoxybenzyl)imino)methyl)-6-methoxyphenol",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "pivalic acid",
+            "formula": "C5H10O2",
+            "role": "coligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "80 °C (353 K)",
+        "time": "24 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal; sealed 10 mL Pyrex tube",
+        "workup_and_crystallization": "cooled to room temperature; yellow block crystals obtained",
+        "yield": "51% (0.0280 g based on Er)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "DC susceptibility consistent with weak antiferromagnetic interactions plus crystal-field depopulation. Solid-state emission centred at 480 nm (λex = 324 nm).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 44.21,
+            "unit": "cm3 K mol−1",
+            "conditions": "1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (theoretical, 4 uncoupled ErIII)",
+            "value": 45.92,
+            "unit": "cm3 K mol−1",
+            "conditions": "4I15/2, g = 6/5"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maximum",
+            "value": 480,
+            "unit": "nm",
+            "conditions": "solid state, λex = 324 nm"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1538934 / FEZFOI"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 1–5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic studies; Table 2; Luminescent properties"
+        }
+      ]
+    }
+  ]
+}

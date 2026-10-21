@@ -1,0 +1,239 @@
+{
+  "refcode": "AWIVAF",
+  "ccdc_number": "1457005",
+  "dois": [
+    "10.1002/ejic.201600744"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1457005.cif",
+  "formula_moiety": "C64 H60 Ho4 N12 O20,13(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "14.108(5)",
+    "b": "16.007(5)",
+    "c": "18.684(5)",
+    "alpha": "76.376(5)",
+    "beta": "80.418(5)",
+    "gamma": "89.088(5)",
+    "volume": "4042.22",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Ho2",
+      "element": "Ho",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O3",
+        "O3C",
+        "O4",
+        "O5C",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Ho4",
+      "element": "Ho",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O2C",
+        "O5",
+        "O5C",
+        "O6"
+      ]
+    },
+    {
+      "label": "Ho1",
+      "element": "Ho",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O1C",
+        "O3",
+        "O3C",
+        "O4C",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ho3",
+      "element": "Ho",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O13",
+        "O14",
+        "O1C",
+        "O2C"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ho1",
+          "Ho2"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O3C"
+        ],
+        "metal_metal_separation_angstrom": 3.796,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3C",
+            "angle_deg": 112.05,
+            "metal_oxygen_distances_angstrom": [
+              2.309,
+              2.268
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 108.25,
+            "metal_oxygen_distances_angstrom": [
+              2.319,
+              2.365
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho1",
+          "Ho3"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O1C"
+        ],
+        "metal_metal_separation_angstrom": 3.81,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1C",
+            "angle_deg": 108.22,
+            "metal_oxygen_distances_angstrom": [
+              2.347,
+              2.356
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 109.98,
+            "metal_oxygen_distances_angstrom": [
+              2.318,
+              2.334
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho2",
+          "Ho4"
+        ],
+        "shared_oxygen_labels": [
+          "O5C",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.934,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5C",
+            "angle_deg": 106.4,
+            "metal_oxygen_distances_angstrom": [
+              2.498,
+              2.415
+            ]
+          },
+          {
+            "oxygen": "O6",
+            "angle_deg": 113.37,
+            "metal_oxygen_distances_angstrom": [
+              2.321,
+              2.386
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho3",
+          "Ho4"
+        ],
+        "shared_oxygen_labels": [
+          "O14",
+          "O2C"
+        ],
+        "metal_metal_separation_angstrom": 3.826,
+        "bridge_geometry": [
+          {
+            "oxygen": "O14",
+            "angle_deg": 109.2,
+            "metal_oxygen_distances_angstrom": [
+              2.369,
+              2.324
+            ]
+          },
+          {
+            "oxygen": "O2C",
+            "angle_deg": 115.8,
+            "metal_oxygen_distances_angstrom": [
+              2.237,
+              2.279
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ho1",
+        "Ho2",
+        "Ho3",
+        "Ho4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "AWIVAF crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C64 H60 Ho4 N12 O20,13(H2 O1). From the CIF bond table, Ho2 (Ho) has 6 O neighbors; Ho4 (Ho) has 6 O neighbors; Ho1 (Ho) has 6 O neighbors; Ho3 (Ho) has 6 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.796-3.934 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.40-115.80°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Ho4(LH2)4(μ2-OH)4]·13H2O (C64H60Ho4N12O20·13H2O). Explicit grouped units in the article formula/name: 4 μ2-OH (explicit grouped unit in article formula), 4 μ2-OH (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/ejic.201600744",
+    "formula": "[Ho4(LH2)4(μ2-OH)4]·13H2O (C64H60Ho4N12O20·13H2O)",
+    "compound_name": "[Ho4(LH2)4(μ2-OH)4]·13H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ2-OH",
+        "count": 4,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "μ2-OH",
+        "count": 4,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

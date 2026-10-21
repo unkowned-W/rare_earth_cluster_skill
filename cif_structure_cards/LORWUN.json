@@ -1,0 +1,204 @@
+{
+  "refcode": "LORWUN",
+  "ccdc_number": "1949162",
+  "dois": [
+    "10.1039/c9dt03478a"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1949162.cif",
+  "formula_moiety": "C62 H82 N6 O24 Sm4,2(C1 H4 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "24.4789(12)",
+    "b": "15.0651(7)",
+    "c": "20.8613(11)",
+    "alpha": "90",
+    "beta": "98.526(2)",
+    "gamma": "90",
+    "volume": "7608.15",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm1",
+      "element": "Sm",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O13",
+        "O14",
+        "O18",
+        "O23",
+        "O24",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "label": "Sm2",
+      "element": "Sm",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O17",
+        "O18",
+        "O2",
+        "O20",
+        "O4",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Sm3",
+      "element": "Sm",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O16",
+        "O19",
+        "O22",
+        "O3",
+        "O6"
+      ]
+    },
+    {
+      "label": "Sm4",
+      "element": "Sm",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O15",
+        "O2",
+        "O21",
+        "O5",
+        "O7",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Sm1",
+          "Sm2"
+        ],
+        "shared_oxygen_labels": [
+          "O18",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.881,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 107.24,
+            "metal_oxygen_distances_angstrom": [
+              2.387,
+              2.434
+            ]
+          },
+          {
+            "oxygen": "O18",
+            "angle_deg": 107.86,
+            "metal_oxygen_distances_angstrom": [
+              2.424,
+              2.378
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm1",
+          "Sm3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.956,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 110.04,
+            "metal_oxygen_distances_angstrom": [
+              2.417,
+              2.41
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 111.59,
+            "metal_oxygen_distances_angstrom": [
+              2.412,
+              2.371
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm2",
+          "Sm4"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.955,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 109.69,
+            "metal_oxygen_distances_angstrom": [
+              2.412,
+              2.426
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 111.51,
+            "metal_oxygen_distances_angstrom": [
+              2.404,
+              2.381
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Sm1",
+        "Sm2",
+        "Sm3",
+        "Sm4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LORWUN crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C62 H82 N6 O24 Sm4,2(C1 H4 O1). From the CIF bond table, Sm1 (Sm) has 8 O neighbors; Sm2 (Sm) has 8 O neighbors; Sm3 (Sm) has 7 O neighbors; Sm4 (Sm) has 7 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.881-3.956 Å (not direct metal-metal bonds). Computed M-O-M angles span 107.24-111.59°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C64H90N6O26Sm4.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c9dt03478a",
+    "formula": "C64H90N6O26Sm4",
+    "compound_name": "[Sm4(acac)6L2(CH3O)2(CH3OH)4]·2CH3OH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

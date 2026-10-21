@@ -1,0 +1,266 @@
+{
+  "refcode": "FIBLIN",
+  "ccdc_number": "900609",
+  "dois": [
+    "10.1002/anie.201210172"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\900609.cif",
+  "formula_moiety": "C138 H165 La6 N24 O42 3+,3(Cl1 O4 1-)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "62.7829(11)",
+    "b": "21.594(2)",
+    "c": "32.3508(15)",
+    "alpha": "90",
+    "beta": "94.413(2)",
+    "gamma": "90",
+    "volume": "43729",
+    "Z": "8"
+  },
+  "metal_sites": [
+    {
+      "label": "La1",
+      "element": "La",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O18",
+        "O2",
+        "O20",
+        "O21",
+        "O3",
+        "O37",
+        "O40"
+      ]
+    },
+    {
+      "label": "La2",
+      "element": "La",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O22",
+        "O23",
+        "O25",
+        "O26",
+        "O38",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "La3",
+      "element": "La",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O26",
+        "O27",
+        "O38",
+        "O41",
+        "O5",
+        "O6",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "La4",
+      "element": "La",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O28",
+        "O29",
+        "O31",
+        "O32",
+        "O39"
+      ]
+    },
+    {
+      "label": "La5",
+      "element": "La",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O14",
+        "O15",
+        "O32",
+        "O33",
+        "O39",
+        "O42"
+      ]
+    },
+    {
+      "label": "La6",
+      "element": "La",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O17",
+        "O19",
+        "O20",
+        "O34",
+        "O35",
+        "O37"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "La1",
+          "La6"
+        ],
+        "shared_oxygen_labels": [
+          "O17",
+          "O20",
+          "O37"
+        ],
+        "metal_metal_separation_angstrom": 3.92,
+        "bridge_geometry": [
+          {
+            "oxygen": "O17",
+            "angle_deg": 104.47,
+            "metal_oxygen_distances_angstrom": [
+              2.451,
+              2.507
+            ]
+          },
+          {
+            "oxygen": "O20",
+            "angle_deg": 105.31,
+            "metal_oxygen_distances_angstrom": [
+              2.51,
+              2.42
+            ]
+          },
+          {
+            "oxygen": "O37",
+            "angle_deg": 91.6,
+            "metal_oxygen_distances_angstrom": [
+              2.774,
+              2.693
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "La2",
+          "La3"
+        ],
+        "shared_oxygen_labels": [
+          "O26",
+          "O38",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.905,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 106.96,
+            "metal_oxygen_distances_angstrom": [
+              2.331,
+              2.526
+            ]
+          },
+          {
+            "oxygen": "O26",
+            "angle_deg": 108.4,
+            "metal_oxygen_distances_angstrom": [
+              2.419,
+              2.396
+            ]
+          },
+          {
+            "oxygen": "O38",
+            "angle_deg": 89.68,
+            "metal_oxygen_distances_angstrom": [
+              2.782,
+              2.756
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "La4",
+          "La5"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O32",
+          "O39"
+        ],
+        "metal_metal_separation_angstrom": 3.846,
+        "bridge_geometry": [
+          {
+            "oxygen": "O11",
+            "angle_deg": 106.28,
+            "metal_oxygen_distances_angstrom": [
+              2.43,
+              2.376
+            ]
+          },
+          {
+            "oxygen": "O32",
+            "angle_deg": 107.38,
+            "metal_oxygen_distances_angstrom": [
+              2.437,
+              2.334
+            ]
+          },
+          {
+            "oxygen": "O39",
+            "angle_deg": 89.45,
+            "metal_oxygen_distances_angstrom": [
+              2.581,
+              2.876
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "La1",
+        "La6"
+      ],
+      [
+        "La2",
+        "La3"
+      ],
+      [
+        "La4",
+        "La5"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "FIBLIN crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C138 H165 La6 N24 O42 3+,3(Cl1 O4 1-). From the CIF bond table, La1 (La) has 8 O neighbors; La2 (La) has 7 O neighbors; La3 (La) has 8 O neighbors; La4 (La) has 7 O neighbors; La5 (La) has 8 O neighbors; La6 (La) has 7 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.846-3.920 Å (not direct metal-metal bonds). Computed M-O-M angles span 89.45-108.40°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [La6L6(CH3O)3(CH3OH)3](ClO4)3.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/anie.201210172",
+    "formula": "[La6L6(CH3O)3(CH3OH)3](ClO4)3",
+    "compound_name": "hexanuclear lanthanum circular helicate [La6L6(CH3O)3(CH3OH)3](ClO4)3",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "title": "A {CoIII2DyIII4} Single-Molecule Magnet with an Expanded Core Structure",
+  "doi": "10.1021/acs.cgd.2c01085",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[CoIII2DyIII4(OH)2(ib)8(bdea)2(NO3)4(H2O)2]·2MeCN",
+      "formula": "[Co2Dy4(OH)2(ib)8(bdea)2(NO3)4(H2O)2]·2MeCN",
+      "ccdc_numbers": [
+        "2092378"
+      ],
+      "ccdc_refcodes": [
+        "BEWJUM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "hexanuclear {CoIII2DyIII4} cluster with a C_i-symmetric zigzag {CoDy2(μ3-OH)}2 core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under aerobic conditions, Co(ib) (0.100 g, 0.774 mmol) was dissolved in 10 mL MeCN with N-butyldiethanolamine (H2bdea) (0.080 g, 0.644 mmol) and Dy(NO3)3·6H2O (0.160 g, 1.230 mmol as reported). The dark pink solution was refluxed for 30 min and filtered. The purple mixture was placed in a vial, capped, and allowed to evaporate slowly. Violet crystals suitable for SCXRD were filtered off after 2 weeks (also described as 12 days), washed with 10 mL MeCN, and dried in air. Yield 0.123 g (64% based on Dy).",
+        "reagents": [
+          {
+            "name": "cobalt(II) isobutyrate",
+            "formula": "Co(ib)",
+            "role": "Co source / carboxylate ligand source",
+            "amount": "0.100 g, 0.774 mmol"
+          },
+          {
+            "name": "N-butyldiethanolamine",
+            "formula": "H2bdea",
+            "role": "aminoalcohol ligand",
+            "amount": "0.080 g, 0.644 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "Dy source",
+            "amount": "0.160 g, 1.230 mmol (as reported)"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "reflux",
+        "time": "reflux 30 min; crystals after 2 weeks (also 12 days)",
+        "ph": null,
+        "vessel_or_method": "aerobic reflux then slow evaporation in a capped vial",
+        "workup_and_crystallization": "filtered after reflux; slow evaporation; violet crystals washed with 10 mL MeCN and dried in air",
+        "yield": "0.123 g (64% based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Hexanuclear {CoIII2DyIII4} SMM. χmT = 55.06 cm3 K mol−1 at 290 K (0.1 T), nearly constant to ~100 K, then decreases to 29.54 cm3 K mol−1 at 2.0 K, consistent with four DyIII centers plus low-spin CoIII TIP and weak antiferromagnetic Dy···Dy coupling. Mm reaches 17.8 NAμB at 1.0 T and 21.5 NAμB at 5.0 T (2.0 K). Zero-field ac χm″ signals persist up to 14 K. Generalized Debye fits (1.9–10 K) give α = 0.19 ± 0.06; τ−1 = B + τ0−1 exp(−Ueff/kBT) yields B = 400 ± 3 s−1, τ0 = (2.26 ± 0.15)×10−5 s, Ueff = 18.6 ± 0.4 cm−1, indicating reduced QTM versus more condensed {Co2Dy4} analogues.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 55.06,
+            "unit": "cm3 K mol−1",
+            "conditions": "0.1 T, 290 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 29.54,
+            "unit": "cm3 K mol−1",
+            "conditions": "0.1 T, 2.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Mm",
+            "value": 17.8,
+            "unit": "NAμB",
+            "conditions": "2.0 K, 1.0 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Mm",
+            "value": 21.5,
+            "unit": "NAμB",
+            "conditions": "2.0 K, 5.0 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χm″ onset temperature (zero bias field)",
+            "value": 14,
+            "unit": "K",
+            "conditions": "ac susceptibility, Hdc = 0, 3–938 Hz, 1.9–50 K measurement window"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.19 ± 0.06",
+            "unit": null,
+            "conditions": "zero static bias field; generalized Debye fit, 1.9–10 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "QTM rate B",
+            "value": "400 ± 3",
+            "unit": "s−1",
+            "conditions": "zero-field ac; Orbach + QTM model of τ(T)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "(2.26 ± 0.15)×10−5",
+            "unit": "s",
+            "conditions": "zero-field ac; Orbach + QTM model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "18.6 ± 0.4",
+            "unit": "cm−1",
+            "conditions": "zero-field ac; Orbach + QTM model"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "title"
+        },
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "abstract; Experimental Section (Synthesis)"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; Experimental Section (Synthesis); Results (Synthesis and Preliminary Characterization)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section (X-ray Crystallography)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC metadata row BEWJUM / 2092378"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "abstract; Crystal Structure; Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section (Synthesis)"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic Properties; Figures 3–4; Experimental Section (magnetometry methods)"
+        }
+      ]
+    }
+  ]
+}

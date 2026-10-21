@@ -1,0 +1,192 @@
+{
+  "refcode": "PESVAN",
+  "ccdc_number": "1540751",
+  "dois": [
+    "10.1002/open.201700165"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1540751.cif",
+  "formula_moiety": "C50 H100 Al2 Dy3 O28 1-,C6 H16 N1 1+,H2 O1",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "P 42/n m c",
+  "international_tables_number": "137",
+  "unit_cell": {
+    "a": "18.5559(4)",
+    "b": "18.5559(4)",
+    "c": "29.3126(5)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "10093",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O1L",
+        "O2",
+        "O2B",
+        "O4",
+        "O4L",
+        "O9"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1B",
+        "O1L",
+        "O1M",
+        "O6",
+        "O6B",
+        "O7",
+        "O7B"
+      ]
+    },
+    {
+      "label": "Dy1B",
+      "element": "Dy",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O10B",
+        "O11B",
+        "O1B",
+        "O1M",
+        "O2",
+        "O2B",
+        "O4B",
+        "O4M",
+        "O9B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy1B"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O2B"
+        ],
+        "metal_metal_separation_angstrom": 3.953,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 109.57,
+            "metal_oxygen_distances_angstrom": [
+              2.419,
+              2.419
+            ]
+          },
+          {
+            "oxygen": "O2B",
+            "angle_deg": 109.57,
+            "metal_oxygen_distances_angstrom": [
+              2.419,
+              2.419
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O1L"
+        ],
+        "metal_metal_separation_angstrom": 3.932,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 108.79,
+            "metal_oxygen_distances_angstrom": [
+              2.429,
+              2.407
+            ]
+          },
+          {
+            "oxygen": "O1L",
+            "angle_deg": 108.79,
+            "metal_oxygen_distances_angstrom": [
+              2.429,
+              2.407
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1B",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O1B",
+          "O1M"
+        ],
+        "metal_metal_separation_angstrom": 3.932,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1B",
+            "angle_deg": 108.79,
+            "metal_oxygen_distances_angstrom": [
+              2.429,
+              2.407
+            ]
+          },
+          {
+            "oxygen": "O1M",
+            "angle_deg": 108.79,
+            "metal_oxygen_distances_angstrom": [
+              2.429,
+              2.407
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy1B",
+        "Dy2"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "PESVAN crystallizes in the tetragonal crystal system with space group P 42/n m c. Reported CIF formula moiety: C50 H100 Al2 Dy3 O28 1-,C6 H16 N1 1+,H2 O1. From the CIF bond table, Dy1 (Dy) has 9 O neighbors; Dy2 (Dy) has 8 O neighbors; Dy1B (Dy) has 9 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.932-3.953 Å (not direct metal-metal bonds). Computed M-O-M angles span 108.79-109.57°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C56H118Al2Dy3NO29.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/open.201700165",
+    "formula": "C56H118Al2Dy3NO29",
+    "compound_name": "{[Al2Dy3L10(OH)6(H2O)2]Et3NH·H2O} (HL = pivalic acid)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

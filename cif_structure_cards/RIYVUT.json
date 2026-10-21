@@ -1,0 +1,175 @@
+{
+  "refcode": "RIYVUT",
+  "ccdc_number": "1854363",
+  "dois": [
+    "10.1021/acs.inorgchem.9b00067"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1854363.cif",
+  "formula_moiety": "C57 H60 Dy4 N21 O24 3+,3(N1 O3 1-),2(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "16.9883(8)",
+    "b": "32.8821(17)",
+    "c": "13.6972(7)",
+    "alpha": "90",
+    "beta": "99.4389(9)",
+    "gamma": "90",
+    "volume": "7547.81",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O15",
+        "O2",
+        "O24",
+        "O3",
+        "O7"
+      ]
+    },
+    {
+      "label": "Dy4",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O13",
+        "O17",
+        "O18",
+        "O4",
+        "O8"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O13",
+        "O14",
+        "O23",
+        "O8"
+      ]
+    },
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O15",
+        "O16",
+        "O19",
+        "O22",
+        "O7",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O15",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.802,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 111.16,
+            "metal_oxygen_distances_angstrom": [
+              2.329,
+              2.28
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 110.43,
+            "metal_oxygen_distances_angstrom": [
+              2.329,
+              2.3
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy4"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.81,
+        "bridge_geometry": [
+          {
+            "oxygen": "O8",
+            "angle_deg": 111.59,
+            "metal_oxygen_distances_angstrom": [
+              2.323,
+              2.284
+            ]
+          },
+          {
+            "oxygen": "O13",
+            "angle_deg": 110.67,
+            "metal_oxygen_distances_angstrom": [
+              2.306,
+              2.327
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy3"
+      ],
+      [
+        "Dy2",
+        "Dy4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "RIYVUT crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C57 H60 Dy4 N21 O24 3+,3(N1 O3 1-),2(H2 O1). From the CIF bond table, Dy3 (Dy) has 5 O neighbors; Dy4 (Dy) has 6 O neighbors; Dy2 (Dy) has 6 O neighbors; Dy1 (Dy) has 6 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.802-3.810 Å (not direct metal-metal bonds). Computed M-O-M angles span 110.43-111.59°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Dy4(L)2(CH3OH)3(NO3)3]·3NO3·2H2O. Explicit grouped units in the article formula/name: 3 NO3 (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.9b00067",
+    "formula": "[Dy4(L)2(CH3OH)3(NO3)3]·3NO3·2H2O",
+    "compound_name": "[Dy4(L)2(CH3OH)3(NO3)3]·3NO3·2H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 3,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "refcode": "LIMZAI",
+  "ccdc_number": "1022247",
+  "dois": [
+    "10.1107/s0108270194008164"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1022247.cif",
+  "formula_moiety": "C61 H159 B24 Li6 O5 Si12 Tb3,C6 H6",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "15.976(4)",
+    "b": "16.627(4)",
+    "c": "23.670(6)",
+    "alpha": "90.08(2)",
+    "beta": "89.97(2)",
+    "gamma": "69.16(2)",
+    "volume": "5876.18",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.752,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 119.03,
+            "metal_oxygen_distances_angstrom": [
+              2.184,
+              2.17
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.753,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 118.91,
+            "metal_oxygen_distances_angstrom": [
+              2.184,
+              2.173
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.762,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 120.04,
+            "metal_oxygen_distances_angstrom": [
+              2.17,
+              2.173
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LIMZAI crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C61 H159 B24 Li6 O5 Si12 Tb3,C6 H6. From the CIF bond table, Tb1 (Tb) has 1 O neighbors; Tb2 (Tb) has 1 O neighbors; Tb3 (Tb) has 1 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.752-3.762 Å (not direct metal-metal bonds). Computed M-O-M angles span 118.91-120.04°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [C61H159B24Li6O5Si12Tb3]·C6H6.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1107/s0108270194008164",
+    "formula": "[C61H159B24Li6O5Si12Tb3]·C6H6",
+    "compound_name": "[{μ3-methoxy-tris[μ-2,3-bis(trimethylsilyl)-2,3-dicarba-1-lithia-closo-heptaborane(6)]}-Tb][{μ3-oxo-tris[μ-2,3-bis(trimethylsilyl)-2,3-dicarba-1-terba-closo-heptaborane(6)]}][Li(THF)]3 benzene solvate",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

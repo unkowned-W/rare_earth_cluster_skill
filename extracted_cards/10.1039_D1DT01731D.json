@@ -1,0 +1,175 @@
+{
+  "title": "Ratiometric fluorescent detection of dipicolinic acid as an anthrax biomarker based on a high-nuclearity Yb18 nanoring",
+  "doi": "10.1039/d1dt01731d",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Yb18(L1)8(HL2)2(OAc)20(MeOH)8(EtOH)6(H2O)4]·2(MeOH)·6(H2O)",
+      "formula": "[Yb18(L1)8(HL2)2(OAc)20(MeOH)8(EtOH)6(H2O)4]·2MeOH·6H2O",
+      "ccdc_numbers": [
+        "2022305"
+      ],
+      "ccdc_refcodes": [
+        "HALGEK"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 18,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "18-metal lanthanide nanoring"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "At room temperature, Yb(OAc)3·6H2O (0.2 mmol, 0.084 g), H4L1 (0.2 mmol, 0.076 g) and H2L2 (0.1 mmol, 0.014 g) were dissolved in 9 mL EtOH, then triethylamine in MeOH (1.0 mol L−1, 1 mL) was added. The mixture was heated for 30 min under reflux with stirring, then cooled to room temperature. The clear solution was obtained by filtration and slow diffusion of diethyl ether into the solution for one week gave the red crystalline product of 1. The lanthanide complex was synthesized using a Schlenk system.",
+        "reagents": [
+          {
+            "name": "ytterbium(III) acetate hexahydrate",
+            "formula": "Yb(OAc)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol, 0.084 g"
+          },
+          {
+            "name": "3,3'-((1E,1'E)-((4,5-dimethyl-1,2-phenylene)bis(azaneylylidene))bis(methaneylylidene))bis(benzene-1,2-diol)",
+            "formula": "H4L1",
+            "role": "Schiff-base ligand",
+            "amount": "0.2 mmol, 0.076 g"
+          },
+          {
+            "name": "2,3-dihydroxybenzaldehyde",
+            "formula": "H2L2",
+            "role": "secondary ligand",
+            "amount": "0.1 mmol, 0.014 g"
+          },
+          {
+            "name": "triethylamine in methanol",
+            "formula": "NEt3 in MeOH",
+            "role": "base",
+            "amount": "1.0 mol L−1, 1 mL"
+          }
+        ],
+        "solvents": [
+          "EtOH",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature, then reflux",
+        "time": "30 min reflux; diethyl ether diffusion for one week",
+        "ph": null,
+        "vessel_or_method": "Schlenk system; reflux with stirring; filtration; slow diffusion of diethyl ether",
+        "workup_and_crystallization": "Filtered to a clear solution; slow diffusion of diethyl ether for one week afforded red crystals of 1.",
+        "yield": "0.027 g (42%, based on Yb(OAc)3·6H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Yb18 nanoring 1 is dual-emissive (ligand-centered visible emission at 484 nm and Yb(III) NIR emission at 980 nm, λex = 368 nm) and shows a ratiometric fluorescent response to DPA: ligand emission increases while Yb NIR luminescence is quenched. Demonstrated as a NIR/visible ratiometric fluorescent sensor for DPA (anthrax biomarker) with LOD 1.5 μM.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "ligand-centered emission wavelength",
+            "value": 484,
+            "unit": "nm",
+            "conditions": "CH3CN; λex = 368 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Yb(III) NIR emission wavelength",
+            "value": 980,
+            "unit": "nm",
+            "conditions": "2F5/2 → 2F7/2; CH3CN and solid state; λex = 368 nm; λem for excitation = 980 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR luminescence lifetime",
+            "value": "9.07 ± 0.03",
+            "unit": "μs",
+            "conditions": "compound 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "overall quantum yield (φem)",
+            "value": "0.15 ± 0.02",
+            "unit": "%",
+            "conditions": "integrating sphere"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern–Volmer quenching constant KSV for DPA",
+            "value": "4.5e4",
+            "unit": "M−1",
+            "conditions": "CH3CN; 1 at 7 μM"
+          },
+          {
+            "property_type": "optical",
+            "name": "limit of detection for DPA",
+            "value": 1.5,
+            "unit": "μM",
+            "conditions": "LOD = 3σ/KSV"
+          },
+          {
+            "property_type": "optical",
+            "name": "ratiometric calibration I980/I484 vs [DPA]",
+            "value": "I980 nm/I484 nm = 0.30 − 0.0035 × [DPA]",
+            "unit": null,
+            "conditions": "λex = 368 nm; 1 at 7 μM in CH3CN"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR luminescence lifetime after DPA",
+            "value": "6.8 ± 0.02",
+            "unit": "μs",
+            "conditions": "100 μM DPA added"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "title"
+        },
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "abstract; synthesis heading; experimental synthesis of 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "experimental: Synthesis of [Yb18(L1)8(HL2)2(OAc)20(MeOH)8(EtOH)6(H2O)4]·2(MeOH)·6(H2O) (1)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Crystallography section, CCDC 2022305"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row HALGEK / 2022305"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and discussion: Synthesis and characterization; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental: Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photoluminescence properties and ratiometric fluorescent detection of DPA; Fig. 3–6"
+        }
+      ]
+    }
+  ]
+}

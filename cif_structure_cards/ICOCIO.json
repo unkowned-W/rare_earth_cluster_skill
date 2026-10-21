@@ -1,0 +1,195 @@
+{
+  "refcode": "ICOCIO",
+  "ccdc_number": "833033",
+  "dois": [
+    "10.1002/ejic.201100719"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\833033.cif",
+  "formula_moiety": "C40 H36 Mn3 N8 O6 4+,H2 Ce1 N5 O16 2-,2(N1 O3 1-),2(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C c",
+  "international_tables_number": "9",
+  "unit_cell": {
+    "a": "24.816(2)",
+    "b": "15.2835(10)",
+    "c": "17.4941(16)",
+    "alpha": "90",
+    "beta": "122.636(3)",
+    "gamma": "90",
+    "volume": "5587.49",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 11,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O13",
+        "O14",
+        "O16",
+        "O17",
+        "O19",
+        "O20",
+        "O22",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Mn1",
+      "element": "Mn",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O5"
+      ]
+    },
+    {
+      "label": "Mn2",
+      "element": "Mn",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "label": "Mn3",
+      "element": "Mn",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O3",
+        "O4"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Mn1",
+          "Mn2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 2.67,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 95.47,
+            "metal_oxygen_distances_angstrom": [
+              1.806,
+              1.802
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 95.13,
+            "metal_oxygen_distances_angstrom": [
+              1.808,
+              1.81
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Mn1",
+          "Mn3"
+        ],
+        "shared_oxygen_labels": [
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.259,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 130.74,
+            "metal_oxygen_distances_angstrom": [
+              1.826,
+              1.759
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Mn2",
+          "Mn3"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.253,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 128.35,
+            "metal_oxygen_distances_angstrom": [
+              1.835,
+              1.779
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1"
+      ],
+      [
+        "Mn1",
+        "Mn2",
+        "Mn3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ICOCIO crystallizes in the monoclinic crystal system with space group C c. Reported CIF formula moiety: C40 H36 Mn3 N8 O6 4+,H2 Ce1 N5 O16 2-,2(N1 O3 1-),2(H2 O1). From the CIF bond table, Ce1 (Ce) has 11 O neighbors; Mn1 (Mn) has 4 O neighbors; Mn2 (Mn) has 4 O neighbors; Mn3 (Mn) has 2 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 2 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 2.670-3.259 Å (not direct metal-metal bonds). Computed M-O-M angles span 95.13-130.74°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C40H42CeMn3N15O30. Explicit grouped units in the article formula/name: 2 H2O (explicit grouped unit in article compound name (structural notation)), 5 NO3 (explicit grouped unit in article compound name (structural notation)), 1 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/ejic.201100719",
+    "formula": "C40H42CeMn3N15O30",
+    "compound_name": "[Mn3O4(bipy)4(H2O)2][Ce(NO3)5(H2O)][NO3]2·2H2O",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "NO3",
+        "count": 5,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "H2O",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

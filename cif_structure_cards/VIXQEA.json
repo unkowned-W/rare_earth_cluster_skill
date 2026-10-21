@@ -1,0 +1,170 @@
+{
+  "refcode": "VIXQEA",
+  "ccdc_number": "900277",
+  "dois": [
+    "10.1021/cg401187x"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\900277.cif",
+  "formula_moiety": "C90 H178 Ce3 N10 O24 9+,12(H2 O1),9(Cl1 1-)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "35.1640(7)",
+    "b": "12.2270(8)",
+    "c": "29.8690(6)",
+    "alpha": "90.00",
+    "beta": "107.999(4)",
+    "gamma": "90.00",
+    "volume": "12213.7",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 10,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O12",
+        "O2",
+        "O3",
+        "O4",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O16",
+        "O17",
+        "O19",
+        "O22",
+        "O4",
+        "O5",
+        "O7"
+      ]
+    },
+    {
+      "label": "Ce3",
+      "element": "Ce",
+      "oxygen_coordination_number": 10,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O14",
+        "O15",
+        "O16",
+        "O18",
+        "O19",
+        "O20",
+        "O21",
+        "O23",
+        "O24"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ce1",
+          "Ce2"
+        ],
+        "shared_oxygen_labels": [
+          "O4",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 4.194,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 105.18,
+            "metal_oxygen_distances_angstrom": [
+              2.798,
+              2.476
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 106.5,
+            "metal_oxygen_distances_angstrom": [
+              2.715,
+              2.517
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2",
+          "Ce3"
+        ],
+        "shared_oxygen_labels": [
+          "O16",
+          "O19"
+        ],
+        "metal_metal_separation_angstrom": 4.194,
+        "bridge_geometry": [
+          {
+            "oxygen": "O16",
+            "angle_deg": 105.18,
+            "metal_oxygen_distances_angstrom": [
+              2.476,
+              2.798
+            ]
+          },
+          {
+            "oxygen": "O19",
+            "angle_deg": 106.5,
+            "metal_oxygen_distances_angstrom": [
+              2.517,
+              2.715
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1",
+        "Ce2",
+        "Ce3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "VIXQEA crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C90 H178 Ce3 N10 O24 9+,12(H2 O1),9(Cl1 1-). From the CIF bond table, Ce1 (Ce) has 10 O neighbors; Ce2 (Ce) has 8 O neighbors; Ce3 (Ce) has 10 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 4.194-4.194 Å (not direct metal-metal bonds). Computed M-O-M angles span 105.18-106.50°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Ce3GBP10(H2O)4]Cl9·12H2O. Explicit grouped units in the article formula/name: 4 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/cg401187x",
+    "formula": "[Ce3GBP10(H2O)4]Cl9·12H2O",
+    "compound_name": "gabapentin–cerium trimer network",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 4,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

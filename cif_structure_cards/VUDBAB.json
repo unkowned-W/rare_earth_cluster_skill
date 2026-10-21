@@ -1,0 +1,86 @@
+{
+  "refcode": "VUDBAB",
+  "ccdc_number": "2294082",
+  "dois": [
+    "10.1021/acs.inorgchem.4c02567"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2294082.cif",
+  "formula_moiety": "C133 H132 Br16 O43 P8 Tb4 2-,2(C4 H12 N1 1+)",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "I 4 2 2",
+  "international_tables_number": "97",
+  "unit_cell": {
+    "a": "24.841(4)",
+    "b": "24.841(4)",
+    "c": "31.117(6)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "19201.5",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O30"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O50",
+        "O6",
+        "O60"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Tb1"
+      ],
+      [
+        "Tb2"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "VUDBAB crystallizes in the tetragonal crystal system with space group I 4 2 2. Reported CIF formula moiety: C133 H132 Br16 O43 P8 Tb4 2-,2(C4 H12 N1 1+). From the CIF bond table, Tb1 (Tb) has 3 O neighbors; Tb2 (Tb) has 3 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula [Me4N]2[Tb4(μ2-η1:η1-PO2R2)8(η2-CO2But)4(μ4-CO3)] (R = CH(OH)PhBr); anal. Br16C141Tb4H156N2O43P8. Explicit grouped units in the article formula/name: 1 OH (explicit grouped unit in article formula), 1 OH (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.4c02567",
+    "formula": "[Me4N]2[Tb4(μ2-η1:η1-PO2R2)8(η2-CO2But)4(μ4-CO3)] (R = CH(OH)PhBr); anal. Br16C141Tb4H156N2O43P8",
+    "compound_name": "[Me4N]2[Tb4(μ2-η1:η1-PO2R2)8(η2-CO2But)4(μ4-CO3)] (R = CH(OH)PhBr)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "OH",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

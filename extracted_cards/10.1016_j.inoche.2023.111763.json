@@ -1,0 +1,128 @@
+{
+  "title": "A mixed valence decanuclear cerium-oxo cluster Ce4IIICe6IV for efficient photocurrent response",
+  "doi": "10.1016/j.inoche.2023.111763",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Ce4IIICe6IV",
+      "compound_name": "Ce4IIICe6IV(μ3-O)4(μ4-O)4(acac)14(CH3O)6(CH3OH)2",
+      "formula": "C78H124O44Ce10",
+      "ccdc_numbers": [
+        "2283156"
+      ],
+      "ccdc_refcodes": [
+        "FOMHOI"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Ce"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "mixed-valence decanuclear cerium-oxo cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "A 1 mmol/3 mL methanol solution of CeCl3 was prepared by dissolving CeCl3·6H2O (354.56 mg/mmol) in MeOH. Next, 3 mL of this solution was transferred into an 8 mL vial. Hacac (2.00 mmol, 205 µL) was added and the mixture shaken until homogeneous. Et3N (3.00 mmol, 412 µL) was added slowly dropwise. The vial was sealed, sonicated for 1 minute, and kept at 2–6 °C. Brown block crystals formed after 1 day. The main text describes the same low-temperature crystallization from CeCl3·6H2O, Hacac, and Et3N in methanol, with Et3N added last, but does not give reagent amounts.",
+        "reagents": [
+          {
+            "name": "cerium(III) chloride hexahydrate",
+            "formula": "CeCl3·6H2O",
+            "role": "cerium source",
+            "amount": "1 mmol (3 mL of a 1 mmol/3 mL methanol solution; 354.56 mg/mmol)"
+          },
+          {
+            "name": "acetylacetone",
+            "formula": "C5H8O2",
+            "role": "ligand",
+            "amount": "2.00 mmol, 205 µL"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "C6H15N",
+            "role": "base",
+            "amount": "3.00 mmol, 412 µL"
+          },
+          {
+            "name": "methanol",
+            "formula": "CH3OH",
+            "role": "solvent",
+            "amount": "3 mL of the CeCl3 solution"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "2–6 °C",
+        "time": "sonication 1 min; crystallization 1 day",
+        "ph": null,
+        "vessel_or_method": "sealed 8 mL vial; low-temperature crystallization",
+        "workup_and_crystallization": "Brown block crystals obtained after one day at 2–6 °C.",
+        "yield": "32.6% based on CeCl3·6H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "The solid shows strong diffuse-reflectance absorption from 200 to 450 nm that extends beyond 800 nm, with an optical band gap of about 1.82 eV. An ITO electrode prepared from the cluster gives a clear, reversible photocurrent under a 300 W xenon lamp, with a transient photocurrent density of 0.98 μA cm−2 at 0.5 V in 0.50 mol L−1 Na2SO4, attributed to light absorption and CeIII/CeIV redox-assisted charge separation. No magnetic data are reported.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "diffuse-reflectance absorption range",
+            "value": "200–450 nm strong absorption, extending beyond 800 nm",
+            "unit": null,
+            "conditions": "solid-state diffuse reflectance spectrum"
+          },
+          {
+            "property_type": "optical",
+            "name": "optical band gap",
+            "value": "1.82",
+            "unit": "eV",
+            "conditions": "derived from the diffuse reflectance spectrum (Fig. 5a insert)"
+          },
+          {
+            "property_type": "optical",
+            "name": "transient photocurrent density",
+            "value": "0.98",
+            "unit": "μA cm−2",
+            "conditions": "ITO working electrode, 0.5 V, 0.50 mol L−1 Na2SO4, 300 W xenon lamp, repetitive on/off illumination"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "synthesis and SCXRD discussion"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Table S2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC row FOMHOI / 2283156"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "SCXRD analysis"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Synthesis of CeIII4CeIV6"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Fig. 5 and photocurrent discussion"
+        }
+      ]
+    }
+  ]
+}

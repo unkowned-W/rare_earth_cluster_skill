@@ -1,0 +1,294 @@
+{
+  "title": "Two rhombus-shaped tetranuclear gadolinium clusters showing magnetic refrigeration",
+  "doi": "10.1016/j.poly.2018.03.014",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Gd4(μ3-OH)2(L1)6(beac)4]",
+      "formula": "C136H100Cl6Gd4N12O16",
+      "ccdc_numbers": [
+        "1581389"
+      ],
+      "ccdc_refcodes": [
+        "ZIBPOS"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "rhombus-shaped tetranuclear Gd4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A solution of Gd(beac)3·2H2O (0.03 mmol) in 15.0 mL of CH3CN was heated to 75 °C for 30 min, then a CH2Cl2 solution (5.0 mL) containing HL1 (0.03 mmol) was added. The mixture was stirred for another 4 h at 70 °C and then cooled to room temperature. After filtration, the resulting solution was kept in the dark and concentrated slowly by evaporation at 4 °C. After about 4 days, block-shaped yellow crystals were obtained. Yield: 38% (based on Gd).",
+        "reagents": [
+          {
+            "name": "Gd(beac)3·2H2O",
+            "formula": "Gd(beac)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.03 mmol"
+          },
+          {
+            "name": "5-(3-chlorobenzylidene)-8-hydroxylquinoline (HL1)",
+            "formula": "HL1",
+            "role": "Schiff-base ligand",
+            "amount": "0.03 mmol"
+          }
+        ],
+        "solvents": [
+          "CH3CN",
+          "CH2Cl2"
+        ],
+        "temperature": "75 °C for 30 min, then 70 °C for 4 h; crystallization at 4 °C",
+        "time": "30 min + 4 h stirring; about 4 days crystallization",
+        "ph": null,
+        "vessel_or_method": "solution synthesis with filtration and slow evaporation in the dark",
+        "workup_and_crystallization": "filtered; kept in the dark and concentrated slowly by evaporation at 4 °C; block-shaped yellow crystals after about 4 days",
+        "yield": "38% (based on Gd)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility (1000 Oe, 2–300 K) shows χMT = 31.61 cm3 K mol−1 at 300 K, remaining nearly constant to 50 K then dropping to 17.58 cm3 K mol−1 at 2.0 K, consistent with weak antiferromagnetic Gd···Gd coupling (fit g = 2.03, J = −0.12 cm−1). Magnetization saturates at 28.02 Nβ at 8 T and 2 K. Magnetic refrigeration/MCE: maximum −ΔSm = 20.43 J K−1 kg−1 for ΔH = 7 T at 2.0 K (theoretical 23.05 J K−1 kg−1).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 31.61,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, H = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 17.58,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, H = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g (from χMT fit)",
+            "value": 2.03,
+            "unit": null,
+            "conditions": "Hamiltonian fit of χMT vs T; R = 0.99673"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J",
+            "value": -0.12,
+            "unit": "cm−1",
+            "conditions": "weak AF exchange between adjacent Gd(III); Hamiltonian (1)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "saturation magnetization Msat",
+            "value": 28.02,
+            "unit": "Nβ",
+            "conditions": "8 T, 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm (maximum)",
+            "value": 20.43,
+            "unit": "J K−1 kg−1",
+            "conditions": "ΔH = 7 T, T = 2.0 K; from M(H,T) via Maxwell relation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm (theoretical maximum)",
+            "value": 23.05,
+            "unit": "J K−1 kg−1",
+            "conditions": "4R ln(2S+1) for four Gd(III)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Section 2.2 Synthesis of 1 and 2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1; Section 2.2 Anal. Calc."
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Appendix A. Supplementary data"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ZIBPOS / 1581389"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Section 3.1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 3.3 Magnetic properties; Figs. 4–6"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Gd4(μ3-OH)2(L2)6(tmhd)4]",
+      "formula": "C128H132Gd4N12O16S6",
+      "ccdc_numbers": [
+        "1581390"
+      ],
+      "ccdc_refcodes": [
+        "ZIBPUY"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "rhombus-shaped tetranuclear Gd4 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Gd(tmhd)3·2H2O (0.03 mmol) and HL2 (0.03 mmol) were dissolved in 20 mL of acetonitrile and dichloromethane (15 mL/5 mL). The mixture was stirred for 3 h at room temperature. After filtration, the resulting solution was kept in the dark and concentrated slowly by evaporation at 4 °C. After about 3 days, block-shaped yellow crystals were obtained. Yield: 29% (based on Gd).",
+        "reagents": [
+          {
+            "name": "Gd(tmhd)3·2H2O",
+            "formula": "Gd(tmhd)3·2H2O",
+            "role": "metal precursor",
+            "amount": "0.03 mmol"
+          },
+          {
+            "name": "5-(2-thenylidene)-8-hydroxylquinoline (HL2)",
+            "formula": "HL2",
+            "role": "Schiff-base ligand",
+            "amount": "0.03 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "dichloromethane"
+        ],
+        "temperature": "room temperature stirring; crystallization at 4 °C",
+        "time": "3 h stirring; about 3 days crystallization",
+        "ph": null,
+        "vessel_or_method": "solution synthesis with filtration and slow evaporation in the dark",
+        "workup_and_crystallization": "filtered; kept in the dark and concentrated slowly by evaporation at 4 °C; block-shaped yellow crystals after about 3 days",
+        "yield": "29% (based on Gd)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility (1000 Oe, 2–300 K) shows χMT = 31.58 cm3 K mol−1 at 300 K, remaining nearly constant to 50 K then dropping to 14.64 cm3 K mol−1 at 2.0 K, indicating weak antiferromagnetic coupling (fit g = 2.05, J = −0.08 cm−1). Magnetization saturates at 28.14 Nβ at 8 T and 2 K. Magnetic refrigeration/MCE: maximum −ΔSm = 19.94 J kg−1 K−1 for ΔH = 7 T at 2.5 K (theoretical 23.73 J K−1 kg−1).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 31.58,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, H = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 14.64,
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, H = 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g (from χMT fit)",
+            "value": 2.05,
+            "unit": null,
+            "conditions": "Hamiltonian fit of χMT vs T; R = 0.99779"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J",
+            "value": -0.08,
+            "unit": "cm−1",
+            "conditions": "weak AF exchange between adjacent Gd(III); Hamiltonian (1)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "saturation magnetization Msat",
+            "value": 28.14,
+            "unit": "Nβ",
+            "conditions": "8 T, 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm (maximum)",
+            "value": 19.94,
+            "unit": "J kg−1 K−1",
+            "conditions": "ΔH = 7 T, T = 2.5 K; from M(H,T) via Maxwell relation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm (theoretical maximum)",
+            "value": 23.73,
+            "unit": "J K−1 kg−1",
+            "conditions": "expected maximum for 2"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Section 2.2 (HL2/tmhd reagents)"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1; Section 2.2 Anal. Calc."
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Appendix A. Supplementary data"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row ZIBPUY / 1581390"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Section 3.1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 2.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 3.3 Magnetic properties; Figs. 4–6"
+        }
+      ]
+    }
+  ]
+}

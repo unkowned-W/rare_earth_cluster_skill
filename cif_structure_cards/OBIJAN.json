@@ -1,0 +1,142 @@
+{
+  "refcode": "OBIJAN",
+  "ccdc_number": "1486222",
+  "dois": [
+    "10.1039/c6dt03500k"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1486222.cif",
+  "formula_moiety": "C152 H122 Ho4 N10 O24,2(C2 H3 N1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "14.4324(15)",
+    "b": "27.420(3)",
+    "c": "18.9236(19)",
+    "alpha": "90",
+    "beta": "99.698(2)",
+    "gamma": "90",
+    "volume": "7381.74",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Ho1",
+      "element": "Ho",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12",
+        "O1B",
+        "O2",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Ho2",
+      "element": "Ho",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ho1B",
+      "element": "Ho",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12B",
+        "O1B",
+        "O2B",
+        "O4B",
+        "O5B"
+      ]
+    },
+    {
+      "label": "Ho2B",
+      "element": "Ho",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10B",
+        "O11B",
+        "O6B",
+        "O7B",
+        "O8B",
+        "O9B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ho1",
+          "Ho1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O1B"
+        ],
+        "metal_metal_separation_angstrom": 3.821,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 108.48,
+            "metal_oxygen_distances_angstrom": [
+              2.343,
+              2.366
+            ]
+          },
+          {
+            "oxygen": "O1B",
+            "angle_deg": 108.48,
+            "metal_oxygen_distances_angstrom": [
+              2.366,
+              2.343
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ho1",
+        "Ho1B"
+      ],
+      [
+        "Ho2"
+      ],
+      [
+        "Ho2B"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "OBIJAN crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C152 H122 Ho4 N10 O24,2(C2 H3 N1). From the CIF bond table, Ho1 (Ho) has 6 O neighbors; Ho2 (Ho) has 6 O neighbors; Ho1B (Ho) has 6 O neighbors; Ho2B (Ho) has 6 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.821-3.821 Å (not direct metal-metal bonds). Computed M-O-M angles span 108.48-108.48°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C156H128Ho4N12O24.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c6dt03500k",
+    "formula": "C156H128Ho4N12O24",
+    "compound_name": "[Ho4(dbm)8L2(DMF)2]·2C2H3N",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

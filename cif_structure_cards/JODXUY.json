@@ -1,0 +1,120 @@
+{
+  "refcode": "JODXUY",
+  "ccdc_number": "1858000",
+  "dois": [
+    "10.1038/s41586-019-1134-2"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1858000.cif",
+  "formula_moiety": "C16 H46 O14 Sm2 4+,4(I1 1-)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "11.6322(10)",
+    "b": "13.2188(11)",
+    "c": "12.1364(10)",
+    "alpha": "90.0000",
+    "beta": "100.414(7)",
+    "gamma": "90.0000",
+    "volume": "1835.4",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm1",
+      "element": "Sm",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Sm2",
+      "element": "Sm",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O12",
+        "O13",
+        "O14",
+        "O8",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Sm1",
+          "Sm2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.813,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 110.94,
+            "metal_oxygen_distances_angstrom": [
+              2.336,
+              2.292
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 110.94,
+            "metal_oxygen_distances_angstrom": [
+              2.292,
+              2.336
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Sm1",
+        "Sm2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "JODXUY crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C16 H46 O14 Sm2 4+,4(I1 1-). From the CIF bond table, Sm1 (Sm) has 8 O neighbors; Sm2 (Sm) has 8 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 1 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.813-3.813 Å (not direct metal-metal bonds). Computed M-O-M angles span 110.94-110.94°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C16H46I4O14Sm2. Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1038/s41586-019-1134-2",
+    "formula": "C16H46I4O14Sm2",
+    "compound_name": "oxygen-bridged disamarium(III) complex",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

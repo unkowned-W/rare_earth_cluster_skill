@@ -1,0 +1,144 @@
+{
+  "refcode": "ASIFEP",
+  "ccdc_number": "1453011",
+  "dois": [
+    "10.1021/acs.inorgchem.6b00408"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1453011.cif",
+  "formula_moiety": "C114 H58 Cl24 N6 O24 Tb4",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.7734(8)",
+    "b": "16.2509(10)",
+    "c": "16.5612(10)",
+    "alpha": "74.915(3)",
+    "beta": "68.995(3)",
+    "gamma": "79.546(4)",
+    "volume": "3083.87",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O6",
+        "O8"
+      ]
+    },
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O21",
+        "O23",
+        "O3",
+        "O4",
+        "O5",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O15",
+        "O16",
+        "O20",
+        "O22"
+      ]
+    },
+    {
+      "label": "Tb4",
+      "element": "Tb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O14",
+        "O17",
+        "O18",
+        "O19",
+        "O23",
+        "O24",
+        "O4"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb4"
+        ],
+        "shared_oxygen_labels": [
+          "O23",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 4.025,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 101.21,
+            "metal_oxygen_distances_angstrom": [
+              2.829,
+              2.366
+            ]
+          },
+          {
+            "oxygen": "O23",
+            "angle_deg": 101.21,
+            "metal_oxygen_distances_angstrom": [
+              2.366,
+              2.829
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb4"
+      ],
+      [
+        "Tb2"
+      ],
+      [
+        "Tb3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ASIFEP crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C114 H58 Cl24 N6 O24 Tb4. From the CIF bond table, Tb2 (Tb) has 5 O neighbors; Tb1 (Tb) has 8 O neighbors; Tb3 (Tb) has 5 O neighbors; Tb4 (Tb) has 8 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.025-4.025 Å (not direct metal-metal bonds). Computed M-O-M angles span 101.21-101.21°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C114H58Cl24N6O24Tb4.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.6b00408",
+    "formula": "C114H58Cl24N6O24Tb4",
+    "compound_name": "[Tb2(C15H11N3)(C7H3Cl2O2)6]2",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

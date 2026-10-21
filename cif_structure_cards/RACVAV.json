@@ -1,0 +1,116 @@
+{
+  "refcode": "RACVAV",
+  "ccdc_number": "1414198",
+  "dois": [
+    "10.1002/chem.201502953"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1414198.cif",
+  "formula_moiety": "C60 H46 Eu2 F16 N8 O4",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "11.621(2)",
+    "b": "11.832(2)",
+    "c": "12.313(3)",
+    "alpha": "75.40(3)",
+    "beta": "79.27(3)",
+    "gamma": "61.53(3)",
+    "volume": "1435.89",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O4"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O3",
+        "O4"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.75,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 110.65,
+            "metal_oxygen_distances_angstrom": [
+              2.282,
+              2.278
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 110.65,
+            "metal_oxygen_distances_angstrom": [
+              2.278,
+              2.282
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "RACVAV crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C60 H46 Eu2 F16 N8 O4. From the CIF bond table, Eu1 (Eu) has 3 O neighbors; Eu2 (Eu) has 3 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 1 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.750-3.750 Å (not direct metal-metal bonds). Computed M-O-M angles span 110.65-110.65°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [{Eu(DFForm)2(OH)(thf)}2]. Explicit grouped units in the article formula/name: 1 OH (explicit grouped unit in article formula). Article name explicitly identifies I(I).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/chem.201502953",
+    "formula": "[{Eu(DFForm)2(OH)(thf)}2]",
+    "compound_name": "bis{bis[N,N'-bis(2,6-difluorophenyl)formamidinato](hydroxido)(tetrahydrofuran)europium(II)}",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "I",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

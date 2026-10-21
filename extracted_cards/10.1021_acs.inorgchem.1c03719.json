@@ -1,0 +1,358 @@
+{
+  "title": "MnII/III and CeIII/IV Units Supported on an Octahedral Molecular Nanoparticle of CeO2",
+  "doi": "10.1021/acs.inorgchem.1c03719",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Ce6Mn12O17(O2CPh)26]",
+      "formula": "C182H130Ce6Mn12O69",
+      "ccdc_numbers": [
+        "2121875"
+      ],
+      "ccdc_refcodes": [
+        "DEBVOZ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 18,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ce"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ce–Mn oxo benzoate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under aerobic conditions, benzoic acid was dissolved in diphenyl ether with stirring at 80 °C. Manganese(II) benzoate dihydrate and cerium(III) nitrate hexahydrate were added, followed by portionwise addition of tetrabutylammonium permanganate during a further 5 min of stirring at 80 °C. The solution was heated at 150 °C for 24 h and slowly cooled to ambient temperature over 4 days. After precipitation, the mixture was filtered. The filtrate was layered with nitromethane for 3 days; the resulting microcrystals were filtered, washed with diethyl ether, redissolved in dichloromethane, and layered with nitromethane. Red plate-like crystals of 1·x(solv) grew over 5 days.",
+        "reagents": [
+          {
+            "name": "benzoic acid",
+            "formula": "PhCO2H",
+            "role": "carboxylate source",
+            "amount": "1.00 g, 8.20 mmol"
+          },
+          {
+            "name": "manganese(II) benzoate dihydrate",
+            "formula": "Mn(O2CPh)2·2H2O",
+            "role": "Mn source",
+            "amount": "0.70 g, 2.12 mmol"
+          },
+          {
+            "name": "cerium(III) nitrate hexahydrate",
+            "formula": "Ce(NO3)3·6H2O",
+            "role": "Ce source",
+            "amount": "0.92 g, 2.12 mmol"
+          },
+          {
+            "name": "tetrabutylammonium permanganate",
+            "formula": "NnBu4MnO4",
+            "role": "Mn source and oxidant",
+            "amount": "0.19 g, 0.53 mmol"
+          }
+        ],
+        "solvents": [
+          "diphenyl ether (20 mL)",
+          "nitromethane",
+          "diethyl ether",
+          "dichloromethane"
+        ],
+        "temperature": "80 °C during mixing; 150 °C for reaction; slow cooling to ambient temperature",
+        "time": "5 min further stirring during permanganate addition; 24 h at 150 °C; 4 days cooling; 3 days initial crystallization; 5 days final crystallization",
+        "ph": null,
+        "vessel_or_method": "Stirring followed by heating in a programmable oven; solvent layering",
+        "workup_and_crystallization": "Filter the cooled mixture; layer filtrate with nitromethane, collect and wash microcrystals, then redissolve in dichloromethane and layer with nitromethane.",
+        "yield": "17% based on Mn"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Predominantly antiferromagnetic behavior is observed. A two-exchange model describes four nearly independent V-shaped Mn3 units, each with an S = 2 ground state; one fitted exchange is ferromagnetic and the other antiferromagnetic.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "33.78 at 300 K; 11.31 at 5.0 K",
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "dc susceptibility, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange parameter J1",
+            "value": "5.2(3)",
+            "unit": "cm⁻¹",
+            "conditions": "two-J fit of dc susceptibility, 5.0–300 K; H = −2J1S1·S2 − 2J2S2·S3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange parameter J2",
+            "value": "−7.4(3)",
+            "unit": "cm⁻¹",
+            "conditions": "same two-J fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "fitted g factor",
+            "value": "1.96(2)",
+            "unit": null,
+            "conditions": "same two-J fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "extrapolated χ′MT",
+            "value": "approximately 11.2",
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "extrapolated to 0 K from ac data above 3 K; 3.5 G ac field, 1000 Hz, zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name, formula, synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, synthesis of 1; Table 1"
+        },
+        {
+          "field": "ccdc_numbers, ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "Supplied CCDC catalog row DEBVOZ; reconciled with Table 1 and crystallography discussion"
+        },
+        {
+          "field": "material_class, structure_description",
+          "source": "main_text",
+          "location": "Results and Discussion, Description of Structures; Figure 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and Discussion, dc and ac magnetic susceptibility studies; Figures 6–8"
+        }
+      ],
+      "structure_description": "A central Ce6 octahedron contains a μ6-oxo ion. Its faces connect to an outer layer of twelve MnIII ions arranged as four V-shaped Mn3 units."
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Ce10Mn14O24(O2CPh)32]",
+      "formula": "C224H160Ce10Mn14O88",
+      "ccdc_numbers": [
+        "2121876"
+      ],
+      "ccdc_refcodes": [
+        "DEBVUF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 24,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ce"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ce–Mn oxo benzoate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Compound 2 was obtained from the precipitate formed in the explicitly quantified preparation of 1. That preparation combined benzoic acid, manganese(II) benzoate dihydrate, cerium(III) nitrate hexahydrate, and tetrabutylammonium permanganate in diphenyl ether, heated the mixture at 150 °C for 24 h, and cooled it over 4 days. The precipitate was dissolved in chloroform and filtered. Layering the filtrate with acetonitrile yielded dark-brown block-like crystals of 2·4CHCl3 over 4 days; these were filtered, washed with cold diethyl ether, and dried under vacuum.",
+        "reagents": [
+          {
+            "name": "benzoic acid",
+            "formula": "PhCO2H",
+            "role": "carboxylate source in shared preparation",
+            "amount": "1.00 g, 8.20 mmol"
+          },
+          {
+            "name": "manganese(II) benzoate dihydrate",
+            "formula": "Mn(O2CPh)2·2H2O",
+            "role": "Mn source in shared preparation",
+            "amount": "0.70 g, 2.12 mmol"
+          },
+          {
+            "name": "cerium(III) nitrate hexahydrate",
+            "formula": "Ce(NO3)3·6H2O",
+            "role": "Ce source in shared preparation",
+            "amount": "0.92 g, 2.12 mmol"
+          },
+          {
+            "name": "tetrabutylammonium permanganate",
+            "formula": "NnBu4MnO4",
+            "role": "Mn source and oxidant in shared preparation",
+            "amount": "0.19 g, 0.53 mmol"
+          }
+        ],
+        "solvents": [
+          "diphenyl ether (20 mL, shared preparation)",
+          "chloroform",
+          "acetonitrile",
+          "diethyl ether"
+        ],
+        "temperature": "80 °C during shared preparation; 150 °C for 24 h; slow cooling to ambient temperature",
+        "time": "24 h at 150 °C; 4 days cooling; 4 days crystallization after acetonitrile layering",
+        "ph": null,
+        "vessel_or_method": "Shared heated preparation followed by dissolution of its precipitate and solvent layering",
+        "workup_and_crystallization": "Dissolve the precipitate from preparation of 1 in chloroform, filter, layer with acetonitrile, then filter the crystals, wash with cold diethyl ether, and dry under vacuum.",
+        "yield": "45% based on Mn"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Magnetic susceptibility decreases on cooling, consistent with dominant antiferromagnetic interactions. The ac data support two nearly noninteracting Mn7 units, each with an S = 1/2 ground state.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "44.75 at 300 K; 4.41 at 5.0 K",
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "dc susceptibility, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "extrapolated χ′MT",
+            "value": "approximately 0.7",
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "extrapolated to 0 K from ac susceptibility; 3.5 G ac field, 1000 Hz, zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name, formula, synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, syntheses of 1 and 2; Table 1"
+        },
+        {
+          "field": "ccdc_numbers, ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "Supplied CCDC catalog row DEBVUF; reconciled with Table 1 and crystallography discussion"
+        },
+        {
+          "field": "material_class, structure_description",
+          "source": "main_text",
+          "location": "Results and Discussion, Description of Structures; Figure 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and Discussion, dc and ac magnetic susceptibility studies; Figures 6 and 8"
+        }
+      ],
+      "structure_description": "Two edge-fused Ce6 octahedra form a Ce10 bioctahedral core. Fourteen surrounding Mn ions form two Mn7 units on opposite sides, giving a Mn7–Ce10–Mn7 sandwich-like arrangement."
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Ce23Mn20O48(OH)2(tbb)46(H2O)4](NO3)2 (tbb = 4-tert-butylbenzoate)",
+      "formula": "C506H608Ce23Mn20N2O152",
+      "ccdc_numbers": [
+        "2121877"
+      ],
+      "ccdc_refcodes": [
+        "DEBWAM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 43,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Ce"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ce–Mn oxo carboxylate molecular nanoparticle"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under aerobic conditions, 4-tert-butylbenzoic acid was dissolved in diphenyl ether, followed by manganese(II) nitrate tetrahydrate and cerium(III) nitrate hexahydrate. Tetrabutylammonium permanganate was added slowly in portions during stirring at 80 °C. After another hour at 80 °C, the solution was heated in an oven at 150 °C for 24 h and slowly cooled over 4 days. The solution was kept near 40 °C while filtered, and the filtrate was layered with acetonitrile. Deep-red tetragonal crystals of 3·x(solv) formed within a week; they were filtered, washed with cold acetonitrile, and dried under vacuum.",
+        "reagents": [
+          {
+            "name": "4-tert-butylbenzoic acid",
+            "formula": "tbbH",
+            "role": "carboxylate source",
+            "amount": "0.71 g, 4.0 mmol"
+          },
+          {
+            "name": "manganese(II) nitrate tetrahydrate",
+            "formula": "Mn(NO3)2·4H2O",
+            "role": "Mn source",
+            "amount": "0.25 g, 1.0 mmol"
+          },
+          {
+            "name": "cerium(III) nitrate hexahydrate",
+            "formula": "Ce(NO3)3·6H2O",
+            "role": "Ce source",
+            "amount": "0.43 g, 1.0 mmol"
+          },
+          {
+            "name": "tetrabutylammonium permanganate",
+            "formula": "NnBu4MnO4",
+            "role": "Mn source and oxidant",
+            "amount": "0.09 g, 0.25 mmol"
+          }
+        ],
+        "solvents": [
+          "diphenyl ether (10 mL)",
+          "acetonitrile"
+        ],
+        "temperature": "80 °C during stirring; 150 °C for reaction; approximately 40 °C during filtration",
+        "time": "5 min during permanganate addition, then 1 h at 80 °C; 24 h at 150 °C; 4 days cooling; approximately 1 week crystallization",
+        "ph": null,
+        "vessel_or_method": "Stirring followed by heating in a programmable oven; acetonitrile layering",
+        "workup_and_crystallization": "Filter the cooled solution while near 40 °C; layer the filtrate with acetonitrile, then filter, wash with cold acetonitrile, and vacuum-dry the crystals.",
+        "yield": "15% based on Ce"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Magnetic susceptibility indicates predominantly antiferromagnetic interactions. The ac data are consistent with four nearly noninteracting Mn5 units, each with an S = 3/2 ground state.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "62.00 at 300 K; 53.14 at 90.0 K; 17.64 at 5.0 K",
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "dc susceptibility, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "extrapolated χ′MT",
+            "value": "approximately 6–7",
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "extrapolated to 0 K from ac susceptibility; 3.5 G ac field, 1000 Hz, zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name, formula, synthesis",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section, synthesis of 3; Table 1"
+        },
+        {
+          "field": "ccdc_numbers, ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "Supplied CCDC catalog row DEBWAM; reconciled with Table 1 and crystallography discussion"
+        },
+        {
+          "field": "material_class, structure_description",
+          "source": "main_text",
+          "location": "Results and Discussion, Description of Structures and Complex 3 as a Molecular Nanoparticle; Figure 4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and Discussion, dc and ac magnetic susceptibility studies; Figures 6 and 8"
+        }
+      ],
+      "structure_description": "A Ce19O32 octahedron with the fluorite arrangement forms the central core. Four additional Ce ions and four Mn5 units attach at its surface and form concentric tetrahedral arrangements around it, yielding the Ce23Mn20 cluster cation."
+    }
+  ]
+}

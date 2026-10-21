@@ -1,0 +1,210 @@
+{
+  "refcode": "JOXTOI",
+  "ccdc_number": "1968910",
+  "dois": [
+    "10.1016/j.jssc.2020.121172"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1968910.cif",
+  "formula_moiety": "C84 H80 N16 O24 Yb4 4+,4(C2 H6 O1),4(Cl1 O4 1-),2(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "17.2061(13)",
+    "b": "26.7898(17)",
+    "c": "14.1167(10)",
+    "alpha": "90",
+    "beta": "112.287(2)",
+    "gamma": "90",
+    "volume": "6020.96",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O2",
+        "O3",
+        "O4",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O2",
+        "O28",
+        "O3",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O22",
+        "O23",
+        "O24",
+        "O25",
+        "O30",
+        "O31",
+        "O32"
+      ]
+    },
+    {
+      "label": "Yb4",
+      "element": "Yb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O23",
+        "O24",
+        "O26",
+        "O27",
+        "O28",
+        "O29",
+        "O33",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.896,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 117.28,
+            "metal_oxygen_distances_angstrom": [
+              2.261,
+              2.301
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 115.63,
+            "metal_oxygen_distances_angstrom": [
+              2.272,
+              2.332
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb2",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O28",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.912,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 117.62,
+            "metal_oxygen_distances_angstrom": [
+              2.312,
+              2.261
+            ]
+          },
+          {
+            "oxygen": "O28",
+            "angle_deg": 117.62,
+            "metal_oxygen_distances_angstrom": [
+              2.261,
+              2.312
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb3",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O23",
+          "O24"
+        ],
+        "metal_metal_separation_angstrom": 3.896,
+        "bridge_geometry": [
+          {
+            "oxygen": "O23",
+            "angle_deg": 117.28,
+            "metal_oxygen_distances_angstrom": [
+              2.261,
+              2.301
+            ]
+          },
+          {
+            "oxygen": "O24",
+            "angle_deg": 115.63,
+            "metal_oxygen_distances_angstrom": [
+              2.272,
+              2.332
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2",
+        "Yb3",
+        "Yb4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "JOXTOI crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C84 H80 N16 O24 Yb4 4+,4(C2 H6 O1),4(Cl1 O4 1-),2(H2 O1). From the CIF bond table, Yb1 (Yb) has 7 O neighbors; Yb2 (Yb) has 8 O neighbors; Yb3 (Yb) has 7 O neighbors; Yb4 (Yb) has 8 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.896-3.912 Å (not direct metal-metal bonds). Computed M-O-M angles span 115.63-117.62°; individual values and O labels are in metal_framework.links. Article card reports molecular formula Yb4C92H108N16O46Cl4. Explicit grouped units in the article formula/name: 6 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.jssc.2020.121172",
+    "formula": "Yb4C92H108N16O46Cl4",
+    "compound_name": "[Yb4(Hquinha)8(C2H5OH)2(H2O)6](ClO4)4·4C2H5OH·2H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 6,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "title": "Structure and magnetic properties of a decanuclear MnII2MnIII2Dy6 aggregate",
+  "doi": "10.1039/c000082e",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[MnII2MnIII2DyIII6(μ3-OH)2(Hgly)4(H2gly)2(PhCO2)16(H2O)2]·10CH3CN",
+      "formula": "C150H156Dy6Mn4N10O54",
+      "ccdc_numbers": [
+        "757611"
+      ],
+      "ccdc_refcodes": [
+        "PUWYIQ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "decanuclear Mn2Dy2 cubane pair linked by a Dy2 benzoate paddle-wheel dimer"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of glycerol (0.5 mmol), DyCl3 (0.25 mmol), MnCl2·4H2O (0.25 mmol), benzoic acid (1.25 mmol) and NaN3 (1.5 mmol) in 20 ml MeCN was refluxed for 2 h in a round-bottomed flask. The solution was allowed to cool to room temperature and filtered. After slow evaporation of the filtrate at room temperature, yellow-brown rhomb-like crystals of 1 were obtained after 7 days.",
+        "reagents": [
+          {
+            "name": "glycerol",
+            "formula": "C3H8O3",
+            "role": "ligand",
+            "amount": "0.5 mmol"
+          },
+          {
+            "name": "dysprosium chloride",
+            "formula": "DyCl3",
+            "role": "metal source",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "manganese(II) chloride tetrahydrate",
+            "formula": "MnCl2·4H2O",
+            "role": "metal source",
+            "amount": "0.25 mmol"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "PhCO2H",
+            "role": "ligand",
+            "amount": "1.25 mmol"
+          },
+          {
+            "name": "sodium azide",
+            "formula": "NaN3",
+            "role": "base/additive",
+            "amount": "1.5 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "reflux then room temperature",
+        "time": "reflux 2 h; crystallization 7 days",
+        "ph": null,
+        "vessel_or_method": "round-bottomed flask; reflux then slow evaporation",
+        "workup_and_crystallization": "cooled to room temperature, filtered; slow evaporation of the filtrate at room temperature gave yellow-brown rhomb-like crystals after 7 days",
+        "yield": "72%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "DC susceptibility of 1 is slightly below the uncoupled-ion sum and decreases on cooling, consistent with DyIII Stark depopulation and weak intramolecular antiferromagnetic coupling. Magnetization does not saturate at 70 kOe, indicating anisotropy and low-lying excited states, while ac data show a frequency-dependent out-of-phase signal below 4 K, suggesting possible SMM behaviour with a blocking temperature below 1.8 K and a likely low energy barrier.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 93.17,
+            "unit": "cm3 K mol-1",
+            "conditions": "powder sample; 300 K; 1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT (calculated uncoupled sum)",
+            "value": 99.77,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 MnII (g=2, S=5/2) + 2 MnIII (g=2, S=2) + 6 DyIII (gJ=4/3, 6H15/2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": 74.72,
+            "unit": "cm3 K mol-1",
+            "conditions": "1.8 K; 1 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 50.0,
+            "unit": "μB",
+            "conditions": "2 K; 70 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "out-of-phase ac susceptibility χ″ frequency dependence",
+            "value": "frequency-dependent signal below 4 K; χ″ increases with frequency; possible SMM with TB < 1.8 K",
+            "unit": null,
+            "conditions": "ac susceptibility vs T at indicated frequencies (Fig. 2 lower)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "abstract / title compound 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Notes and references, crystal data for 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Notes and references, CCDC 757611"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row PUWYIQ"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and conclusion"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Notes and references, Synthesis footnote"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion and Fig. 2"
+        }
+      ]
+    }
+  ]
+}

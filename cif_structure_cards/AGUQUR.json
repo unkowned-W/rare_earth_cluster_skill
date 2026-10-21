@@ -1,0 +1,232 @@
+{
+  "refcode": "AGUQUR",
+  "ccdc_number": "1997094",
+  "dois": [
+    "10.1002/ejic.202000247"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1997094.cif",
+  "formula_moiety": "C47 H75 Eu3 N9 O17 1+,6.25(C1 H4 O1),N1 O3 1-,0.25(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P 1",
+  "international_tables_number": "1",
+  "unit_cell": {
+    "a": "11.548(3)",
+    "b": "12.073(5)",
+    "c": "12.881(6)",
+    "alpha": "96.86(4)",
+    "beta": "92.26(3)",
+    "gamma": "91.50(3)",
+    "volume": "1780.75",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1M",
+        "O2",
+        "O4",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O2M",
+        "O3",
+        "O4",
+        "O5",
+        "O9"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12",
+        "O1W",
+        "O3",
+        "O4",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.584,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 95.92,
+            "metal_oxygen_distances_angstrom": [
+              2.392,
+              2.434
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 97.26,
+            "metal_oxygen_distances_angstrom": [
+              2.408,
+              2.368
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 96.83,
+            "metal_oxygen_distances_angstrom": [
+              2.408,
+              2.384
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.573,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 95.43,
+            "metal_oxygen_distances_angstrom": [
+              2.416,
+              2.414
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 95.51,
+            "metal_oxygen_distances_angstrom": [
+              2.408,
+              2.419
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 96.6,
+            "metal_oxygen_distances_angstrom": [
+              2.408,
+              2.378
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.581,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 96.83,
+            "metal_oxygen_distances_angstrom": [
+              2.368,
+              2.419
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 97.54,
+            "metal_oxygen_distances_angstrom": [
+              2.384,
+              2.378
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 94.73,
+            "metal_oxygen_distances_angstrom": [
+              2.439,
+              2.428
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2",
+        "Eu3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "AGUQUR crystallizes in the triclinic crystal system with space group P 1. Reported CIF formula moiety: C47 H75 Eu3 N9 O17 1+,6.25(C1 H4 O1),N1 O3 1-,0.25(H2 O1). From the CIF bond table, Eu1 (Eu) has 6 O neighbors; Eu2 (Eu) has 6 O neighbors; Eu3 (Eu) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.573-3.584 Å (not direct metal-metal bonds). Computed M-O-M angles span 94.73-97.54°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C47H75Eu3N9O17. Explicit grouped units in the article formula/name: 2 OH (explicit grouped unit in article compound name (structural notation)), 3 NO3 (explicit grouped unit in article compound name (structural notation)), 1 H2O (explicit grouped unit in article compound name (structural notation)), 1 NO3 (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/ejic.202000247",
+    "formula": "C47H75Eu3N9O17",
+    "compound_name": "[Eu3(L^S)(OH)2(NO3)3(CH3OH)2(H2O)](NO3)·6.25CH3OH·0.25H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "NO3",
+        "count": 3,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "H2O",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

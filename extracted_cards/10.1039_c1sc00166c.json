@@ -1,0 +1,444 @@
+{
+  "title": "Symmetry related [DyIII6MnIII12] cores with different magnetic anisotropies",
+  "doi": "10.1039/c1sc00166c",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy6Mn12O7(OH)10(OAc)14(mpea)8]·20H2O·4MeOH",
+      "formula": "[Dy6Mn12O7(OH)10(OAc)14(mpea)8]·20H2O·4MeOH",
+      "ccdc_numbers": [
+        "779464"
+      ],
+      "ccdc_refcodes": [
+        "UTEVUL"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 18,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "D2-symmetric Dy6Mn12 core of two oxo-linked linear Dy3 units and an Mn8O13 fragment"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "2-Hydroxy-5-methylisophthalaldehyde (33 mg, 0.2 mmol) and 2-aminoethanol (15 mg, 0.25 mmol) in MeCN/MeOH (8/8 mL) were stirred and heated at 80 °C for 1 h, giving a dark-yellow solution. DyCl3·6H2O (38 mg, 0.1 mmol), Mn(OAc)2·4H2O (49 mg, 0.2 mmol) and triethylamine (30 mg, 0.3 mmol) were then added in that order. The brown solution was stirred under ambient conditions for more than 2 h and filtered. Small black crystals formed as the solution nearly dried.",
+        "reagents": [
+          {
+            "name": "2-hydroxy-5-methylisophthalaldehyde",
+            "formula": null,
+            "role": "Schiff-base precursor",
+            "amount": "33 mg, 0.2 mmol"
+          },
+          {
+            "name": "2-aminoethanol",
+            "formula": null,
+            "role": "Schiff-base precursor",
+            "amount": "15 mg, 0.25 mmol"
+          },
+          {
+            "name": "DyCl3·6H2O",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "38 mg, 0.1 mmol"
+          },
+          {
+            "name": "Mn(OAc)2·4H2O",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "49 mg, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": null,
+            "role": "base",
+            "amount": "30 mg, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH"
+        ],
+        "temperature": "80 °C for Schiff-base formation, then ambient",
+        "time": "1 h at 80 °C, then more than 2 h at ambient temperature",
+        "ph": null,
+        "vessel_or_method": "stirred solution under ambient conditions, then filtration",
+        "workup_and_crystallization": "Filtered brown solution left until nearly dry; small black crystals of 1",
+        "yield": "~6%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "1-Dy has a high-spin ground state from predominantly ferromagnetic coupling. Both 1-Dy and 2-Dy are SMMs; the higher spin and more collinear Dy anisotropy axes of 1-Dy give a higher blocking temperature and a larger effective barrier than 2-Dy. The frequency shift is superparamagnetic-like rather than spin-glass-like.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "123.6",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 500 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "409.5",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "maximum at 3.5 K, 500 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "71",
+            "unit": "mu_B",
+            "conditions": "measured low-temperature magnetization used in the ground-state analysis; field not stated for this value"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility peak temperature",
+            "value": "3.7",
+            "unit": "K",
+            "conditions": "out-of-phase chiM'', 1488 Hz, Hac = 5 Oe, Hdc = 0"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole alpha",
+            "value": "0.30-0.36",
+            "unit": null,
+            "conditions": "Debye fit of ac data for 1-Dy"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Mydosh phi",
+            "value": "0.14",
+            "unit": null,
+            "conditions": "phi = (Delta Tp/Tp)/Delta(log f)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Delta_eff/kB",
+            "value": "35.1(5)",
+            "unit": "K",
+            "conditions": "Arrhenius fit of ac relaxation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "relaxation time tau0",
+            "value": "1.00e-8",
+            "unit": "s",
+            "conditions": "Arrhenius fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "introduction, compound 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "UTEVUL / 779464 matched by Dy6Mn12 and 4 MeOH + 20 H2O"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism discussion and Fig. 2 and Fig. 4"
+        }
+      ]
+    },
+    {
+      "compound_label": "2-Dy",
+      "compound_name": "[Dy6Mn12O9(OH)8(OAc)10(mpea)8(mp)2(MeOH)2(H2O)2]·26H2O·2MeOH",
+      "formula": "[Dy6Mn12O9(OH)8(OAc)10(mpea)8(mp)2(MeOH)2(H2O)2]·26H2O·2MeOH",
+      "ccdc_numbers": [
+        "779465"
+      ],
+      "ccdc_refcodes": [
+        "UTEWAS"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 18,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "C1-symmetric Dy6Mn12 core with nearly perpendicular, magnetically separated Dy3 units and an Mn8O13 fragment"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "2-Hydroxy-5-methylisophthalaldehyde (33 mg, 0.2 mmol) and 2-aminoethanol (12 mg, 0.2 mmol) in MeCN/MeOH (8/8 mL) were mixed at room temperature. LnCl3·6H2O (0.1 mmol; Ln = Dy for 2-Dy), Mn(OAc)2·4H2O (49 mg, 0.2 mmol) and triethylamine (30 mg, 0.3 mmol) were immediately added in that order. The brown solution was stirred under ambient conditions for more than 2 h and filtered. Black prism crystals formed as the solution nearly dried.",
+        "reagents": [
+          {
+            "name": "2-hydroxy-5-methylisophthalaldehyde",
+            "formula": null,
+            "role": "ligand/Schiff-base precursor",
+            "amount": "33 mg, 0.2 mmol"
+          },
+          {
+            "name": "2-aminoethanol",
+            "formula": null,
+            "role": "Schiff-base precursor",
+            "amount": "12 mg, 0.2 mmol"
+          },
+          {
+            "name": "DyCl3·6H2O",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol (reported as LnCl3·6H2O)"
+          },
+          {
+            "name": "Mn(OAc)2·4H2O",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "49 mg, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": null,
+            "role": "base",
+            "amount": "30 mg, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH"
+        ],
+        "temperature": "room temperature / ambient",
+        "time": "more than 2 h",
+        "ph": null,
+        "vessel_or_method": "mixed and stirred under ambient conditions, then filtration",
+        "workup_and_crystallization": "Filtered brown solution left until nearly dry; black prism crystals",
+        "yield": "~6%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "2-Dy shows competing ferro- and antiferromagnetic interactions and/or Dy crystal-field effects. The central Mn8O13 spin is smaller than in 1-Dy and couples antiferromagnetically to the Dy3 triads, while coupling within each Dy3 triad is ferromagnetic. It is an SMM with a lower barrier than 1-Dy; comparison with diamagnetic 2-Y indicates that the slow relaxation originates mainly from the Dy3 units.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "120.3",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 500 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "107.0",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "23 K, 500 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "117.9",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "maximum at 5 K, 500 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "chiMT",
+            "value": "100.88",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "2 K, 500 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "57",
+            "unit": "mu_B",
+            "conditions": "approaches this value at 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility peak temperature",
+            "value": "2.0",
+            "unit": "K",
+            "conditions": "out-of-phase chiM'', 1488 Hz, Hac = 5 Oe, Hdc = 0"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole alpha",
+            "value": "0.48-0.51",
+            "unit": null,
+            "conditions": "Debye fit of ac data for 2-Dy"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Mydosh phi",
+            "value": "0.23",
+            "unit": null,
+            "conditions": "phi = (Delta Tp/Tp)/Delta(log f)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Delta_eff/kB",
+            "value": "18.2(5)",
+            "unit": "K",
+            "conditions": "Arrhenius fit of ac relaxation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "relaxation time tau0",
+            "value": "3.02e-8",
+            "unit": "s",
+            "conditions": "Arrhenius fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "introduction, compound 2 with Ln = Dy"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "UTEWAS / 779465 matched by Dy6Mn12 and 2 MeOH + 26 H2O"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism discussion and Fig. 2 and Fig. 4"
+        }
+      ]
+    },
+    {
+      "compound_label": "2-Y",
+      "compound_name": "[Y6Mn12O9(OH)8(OAc)10(mpea)8(mp)2(MeOH)2(H2O)2]·15H2O·4MeOH",
+      "formula": "[Y6Mn12O9(OH)8(OAc)10(mpea)8(mp)2(MeOH)2(H2O)2]·15H2O·4MeOH",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 18,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Y analogue of the C1 Ln6Mn12 cluster used as a diamagnetic substitute for Dy"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Prepared by the same route as 2. 2-Hydroxy-5-methylisophthalaldehyde (33 mg, 0.2 mmol) and 2-aminoethanol (12 mg, 0.2 mmol) in MeCN/MeOH (8/8 mL) were mixed at room temperature, then LnCl3·6H2O (0.1 mmol; Ln = Y), Mn(OAc)2·4H2O (49 mg, 0.2 mmol) and triethylamine (30 mg, 0.3 mmol) were added immediately. The brown solution was stirred under ambient conditions for more than 2 h, filtered, and left until nearly dry to give black prism crystals.",
+        "reagents": [
+          {
+            "name": "2-hydroxy-5-methylisophthalaldehyde",
+            "formula": null,
+            "role": "ligand/Schiff-base precursor",
+            "amount": "33 mg, 0.2 mmol"
+          },
+          {
+            "name": "2-aminoethanol",
+            "formula": null,
+            "role": "Schiff-base precursor",
+            "amount": "12 mg, 0.2 mmol"
+          },
+          {
+            "name": "YCl3·6H2O",
+            "formula": "YCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol (reported as LnCl3·6H2O)"
+          },
+          {
+            "name": "Mn(OAc)2·4H2O",
+            "formula": "Mn(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "49 mg, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": null,
+            "role": "base",
+            "amount": "30 mg, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH"
+        ],
+        "temperature": "room temperature / ambient",
+        "time": "more than 2 h",
+        "ph": null,
+        "vessel_or_method": "mixed and stirred under ambient conditions, then filtration",
+        "workup_and_crystallization": "Filtered brown solution left until nearly dry; black prism crystals",
+        "yield": "~6%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "The chiMT decay of diamagnetic-Y 2-Y indicates antiferromagnetic Mn–Mn coupling. Low-temperature magnetization is lower than an isotropic S = 3 plus four S = 2 model because of Mn zero-field splitting. No out-of-phase ac signal is observed above 1.8 K, so the SMM behavior of 2-Dy is attributed to the Dy3 units.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "chiMT extrapolated to 0 K",
+            "value": "17.7",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "low-frequency 1 Hz chiM T data extrapolated to 0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "22",
+            "unit": "mu_B",
+            "conditions": "approaches this value at 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Mn(III) zero-field splitting",
+            "value": "ca. 12",
+            "unit": "cm^-1",
+            "conditions": "ab initio, ground S = 2 of the four peripheral Mn(III) ions"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "introduction, compound 2 with Ln = Y"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Section, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "comparison of 2-Y with 2-Dy, Fig. 2 and Figure S4–S5"
+        }
+      ]
+    }
+  ]
+}

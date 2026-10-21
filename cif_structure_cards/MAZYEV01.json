@@ -1,0 +1,85 @@
+{
+  "refcode": "MAZYEV01",
+  "ccdc_number": "2153791",
+  "dois": [
+    "10.1021/acs.inorgchem.2c01018"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2153791_MAZYEV01.cif",
+  "formula_moiety": "C117 H264 Fe33 N27 O127 Pr12 4+,3(Cl1 O4 1-),N1 O3 1-,11(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2",
+  "international_tables_number": "5",
+  "unit_cell": {
+    "a": "37.4509(7)",
+    "b": "34.8221(6)",
+    "c": "22.4889(4)",
+    "alpha": "90",
+    "beta": "93.0378(18)",
+    "gamma": "90",
+    "volume": "29287",
+    "Z": "4"
+  },
+  "metal_sites": [],
+  "atom_sites_available": false,
+  "bond_table_available": false,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "undetermined (missing bonds, symmetry links, or consistent periodic-image geometry)",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "MAZYEV01 crystallizes in the monoclinic crystal system with space group C 2. Reported CIF formula moiety: C117 H264 Fe33 N27 O127 Pr12 4+,3(Cl1 O4 1-),N1 O3 1-,11(H2 O1). Metal?O coordination is not determined because atom sites or bond data are absent. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula [Pr12Fe33(NO3)6(L-van)4(D-van)5(TEOA)12(μ3-OH)12(μ4-OH)12(μ4-O)28(H2O)4]·(ClO4)3·(NO3)·10H2O. Explicit grouped units in the article formula/name: 6 NO3 (explicit grouped unit in article formula), 12 μ3-OH (explicit grouped unit in article formula), 12 μ4-OH (explicit grouped unit in article formula), 28 μ4-O (explicit grouped unit in article formula), 4 H2O (explicit grouped unit in article formula), 1 NO3 (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.2c01018",
+    "formula": "[Pr12Fe33(NO3)6(L-van)4(D-van)5(TEOA)12(μ3-OH)12(μ4-OH)12(μ4-O)28(H2O)4]·(ClO4)3·(NO3)·10H2O",
+    "compound_name": "Pr12Fe33 Keggin-Fe13-oxo cluster",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "insufficient_graph",
+    "nuclearity": 45,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count",
+    "reason": "missing links or omitted symmetry bonds"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 6,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "μ3-OH",
+        "count": 12,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "μ4-OH",
+        "count": 12,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "μ4-O",
+        "count": 28,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 4,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

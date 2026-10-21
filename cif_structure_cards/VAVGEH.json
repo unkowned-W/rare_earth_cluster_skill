@@ -1,0 +1,118 @@
+{
+  "refcode": "VAVGEH",
+  "ccdc_number": "1510593",
+  "dois": [
+    "10.1016/j.poly.2017.04.032"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1510593.cif",
+  "formula_moiety": "H3 O1 1+,n(C14 F21 Lu2 O14 1-)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "8.5881(4)",
+    "b": "11.2657(5)",
+    "c": "15.0434(6)",
+    "alpha": "76.123(2)",
+    "beta": "88.851(2)",
+    "gamma": "80.340(2)",
+    "volume": "1392.64",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Lu1",
+      "element": "Lu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2_2",
+        "O3",
+        "O4_2",
+        "O5",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Lu2",
+      "element": "Lu",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12_2",
+        "O13",
+        "O14_2",
+        "O6",
+        "O8_2"
+      ]
+    },
+    {
+      "label": "Lu1_2",
+      "element": "Lu",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O4"
+      ]
+    },
+    {
+      "label": "Lu2_2",
+      "element": "Lu",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O8"
+      ]
+    },
+    {
+      "label": "Lu2_3",
+      "element": "Lu",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O14"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Lu1"
+      ],
+      [
+        "Lu1_2"
+      ],
+      [
+        "Lu2"
+      ],
+      [
+        "Lu2_2"
+      ],
+      [
+        "Lu2_3"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "VAVGEH crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: H3 O1 1+,n(C14 F21 Lu2 O14 1-). From the CIF bond table, Lu1 (Lu) has 7 O neighbors; Lu2 (Lu) has 7 O neighbors; Lu1_2 (Lu) has 2 O neighbors; Lu2_2 (Lu) has 1 O neighbors; Lu2_3 (Lu) has 2 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C13H6ErF12NO8.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.poly.2017.04.032",
+    "formula": "C13H6ErF12NO8",
+    "compound_name": "[Er(μ-TFA)3(μ-H-TFA)]n·py",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

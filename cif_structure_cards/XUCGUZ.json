@@ -1,0 +1,241 @@
+{
+  "refcode": "XUCGUZ",
+  "ccdc_number": "1046437",
+  "dois": [
+    "10.1039/c5dt00880h"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1046437.cif",
+  "formula_moiety": "C48 H44 Br2 Dy4 N20 O8 2+,2(Br1 1-),4(C2 H6 O1),2(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "11.6203(9)",
+    "b": "12.2946(8)",
+    "c": "14.2923(10)",
+    "alpha": "75.951(2)",
+    "beta": "70.984(2)",
+    "gamma": "68.022(2)",
+    "volume": "1773.1",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1A",
+        "O2A",
+        "O4"
+      ]
+    },
+    {
+      "label": "Dy1A",
+      "element": "Dy",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O2A",
+        "O3A"
+      ]
+    },
+    {
+      "label": "Dy2A",
+      "element": "Dy",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1A",
+        "O2",
+        "O4A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 4.309,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 126.72,
+            "metal_oxygen_distances_angstrom": [
+              2.432,
+              2.389
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy2A"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.736,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 102.86,
+            "metal_oxygen_distances_angstrom": [
+              2.432,
+              2.346
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 112.76,
+            "metal_oxygen_distances_angstrom": [
+              2.244,
+              2.243
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1A",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O1A",
+          "O2A"
+        ],
+        "metal_metal_separation_angstrom": 3.736,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1A",
+            "angle_deg": 102.86,
+            "metal_oxygen_distances_angstrom": [
+              2.432,
+              2.346
+            ]
+          },
+          {
+            "oxygen": "O2A",
+            "angle_deg": 112.76,
+            "metal_oxygen_distances_angstrom": [
+              2.244,
+              2.243
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1A",
+          "Dy2A"
+        ],
+        "shared_oxygen_labels": [
+          "O1A"
+        ],
+        "metal_metal_separation_angstrom": 4.309,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1A",
+            "angle_deg": 126.72,
+            "metal_oxygen_distances_angstrom": [
+              2.432,
+              2.389
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy2A"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O1A"
+        ],
+        "metal_metal_separation_angstrom": 3.799,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 106.68,
+            "metal_oxygen_distances_angstrom": [
+              2.389,
+              2.346
+            ]
+          },
+          {
+            "oxygen": "O1A",
+            "angle_deg": 106.68,
+            "metal_oxygen_distances_angstrom": [
+              2.346,
+              2.389
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy1A",
+        "Dy2",
+        "Dy2A"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "XUCGUZ crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C48 H44 Br2 Dy4 N20 O8 2+,2(Br1 1-),4(C2 H6 O1),2(H2 O1). From the CIF bond table, Dy1 (Dy) has 3 O neighbors; Dy2 (Dy) has 4 O neighbors; Dy1A (Dy) has 3 O neighbors; Dy2A (Dy) has 4 O neighbors. Oxygen-bridged metal-site graph: 5 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.736-4.309 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.86-126.72°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C56H72Br4Dy4N20O14. Explicit grouped units in the article formula/name: 2 μ3-OH (explicit grouped unit in article compound name (structural notation)), 4 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c5dt00880h",
+    "formula": "C56H72Br4Dy4N20O14",
+    "compound_name": "[Dy4Br2(μ3-OH)2(μ-OH)2(2,2-bpt)4(H2O)4]Br2·2H2O·4EtOH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "H2O",
+        "count": 4,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

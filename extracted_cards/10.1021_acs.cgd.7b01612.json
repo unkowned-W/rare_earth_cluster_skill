@@ -1,0 +1,509 @@
+{
+  "title": "Exploiting Miraculous Atmospheric CO2 Fixation in the Design of Dysprosium Single-Molecule Magnets",
+  "doi": "10.1021/acs.cgd.7b01612",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy6(μ3-OH)3(μ3-CO3)(μ-OMe)(spch)6(MeOH)4(H2O)2]·3MeOH·2H2O",
+      "formula": "[Dy6(μ3-OH)3(μ3-CO3)(μ-OMe)(spch)6(MeOH)4(H2O)2]·3MeOH·2H2O",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "CO3-bridged Dy6 cluster based on Dy3 triangles"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Reaction of DyCl3·6H2O (56.5 mg, 0.15 mmol) and H2spch (36.3 mg, 0.15 mmol) in 15 mL of CH3OH/CH2Cl2 (1:2 v/v), followed by treatment with Et3N (0.6 mmol). Compound 1 formed after 1 week by slow evaporation of the solvent in air. Previously reported procedure is followed and briefly restated.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal salt",
+            "amount": "56.5 mg, 0.15 mmol"
+          },
+          {
+            "name": "(E)-N′-(2-hydroxybenzylidene)pyrazine-2-carbohydrazide",
+            "formula": "H2spch",
+            "role": "ligand",
+            "amount": "36.3 mg, 0.15 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.6 mmol"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "CH2Cl2"
+        ],
+        "temperature": null,
+        "time": "1 week crystallization",
+        "ph": null,
+        "vessel_or_method": "slow evaporation in air",
+        "workup_and_crystallization": "slow evaporation of the mixed solvent in air for 1 week",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "SMM under zero dc field with multiple (two) magnetization-relaxation regimes. Room-temperature χMT matches six Dy(III) ions; χMT declines to 68.4 cm3 K mol−1 at 2 K, consistent with crystal-field depopulation and intramolecular antiferromagnetic coupling. Cole–Cole α = 0.22–0.27 (1.9–8.0 K).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 84.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 68.4,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ",
+            "value": 5.6,
+            "unit": "K",
+            "conditions": "zero dc field; low-temperature Arrhenius regime"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "4.2e-5",
+            "unit": "s",
+            "conditions": "zero dc field; low-temperature regime"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ",
+            "value": 49.1,
+            "unit": "K",
+            "conditions": "zero dc field; high-temperature Arrhenius regime"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "1.6e-6",
+            "unit": "s",
+            "conditions": "zero dc field; high-temperature regime"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of complexes 1, 2, and 4"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Introduction; Scheme 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic discussion; Figures 5, 7–9"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy6(OAc)3(μ3-CO3)2(opch)5(Hopch)(MeOH)2]·4H2O·5MeOH·EtOH",
+      "formula": "[Dy6(OAc)3(μ3-CO3)2(opch)5(Hopch)(MeOH)2]·4H2O·5MeOH·EtOH",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "double-CO3-bridged trigonal-prism Dy6 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Assembled analogously to 1 but using H2opch and slowly adding Dy(OAc)3·6H2O into the ligand solution, other conditions unchanged (15 mL CH3OH/CH2Cl2 1:2 v/v, Et3N 0.6 mmol). Previously reported procedure is briefly restated.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) acetate hexahydrate",
+            "formula": "Dy(OAc)3·6H2O",
+            "role": "metal salt",
+            "amount": "slowly added; same scale as related reactions (0.15 mmol implied by unchanged conditions)"
+          },
+          {
+            "name": "(E)-N′-(2-hydroxy-3-methoxybenzylidene)pyrazine-2-carbohydrazide",
+            "formula": "H2opch",
+            "role": "ligand",
+            "amount": "replaces H2spch under otherwise unchanged conditions"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.6 mmol"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "CH2Cl2"
+        ],
+        "temperature": null,
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "slow addition of metal salt; previously reported crystallization",
+        "workup_and_crystallization": null,
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "SMM with a single relaxation process below 26 K. χMT at 300 K agrees with six Dy(III) ions; a shoulder near 20 K may indicate competing ligand-field and weak ferromagnetic effects. QTM-dominated τ ≈ 0.07461 s below 3 K; thermally activated Orbach relaxation above 8 K. Debye α = 0.06–0.11.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 85.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 66.7,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "QTM characteristic time",
+            "value": 0.07461,
+            "unit": "s",
+            "conditions": "zero dc field, T < 3 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ",
+            "value": 56.7,
+            "unit": "K",
+            "conditions": "zero dc field; thermally activated regime above 8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "6.6e-6",
+            "unit": "s",
+            "conditions": "zero dc field; Orbach regime above 8 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of complexes 1, 2, and 4"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Introduction; Scheme 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic discussion; Figures 5, 7–9"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Dy6(μ4-CO3)3(μ3-OH2)(spch)6(MeOH)6(H2O)3]·4MeOH·3H2O",
+      "formula": "[Dy6(μ4-CO3)3(μ3-OH2)(spch)6(MeOH)6(H2O)3]·4MeOH·3H2O",
+      "ccdc_numbers": [
+        "945883"
+      ],
+      "ccdc_refcodes": [
+        "YETTID"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "triple-CO3-bridged crown-like trigonal-prismoid Dy6 cluster (R-3)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A solution of Dy(OAc)3·6H2O (53.3 mg, 0.15 mmol) and H2spch (36.3 mg, 0.15 mmol) in 15 mL of CH3OH/CH2Cl2 (1:2 v/v) was stirred with Et3N (0.6 mmol) for 8 h. The yellow solution was left unperturbed for slow solvent evaporation. Yellow single crystals suitable for X-ray diffraction formed after 1 week. Atmospheric CO2 is captured as three μ4-CO3 bridges.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) acetate hexahydrate",
+            "formula": "Dy(OAc)3·6H2O",
+            "role": "metal salt",
+            "amount": "53.3 mg, 0.15 mmol"
+          },
+          {
+            "name": "(E)-N′-(2-hydroxybenzylidene)pyrazine-2-carbohydrazide",
+            "formula": "H2spch",
+            "role": "ligand",
+            "amount": "36.3 mg, 0.15 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.6 mmol"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "CH2Cl2"
+        ],
+        "temperature": null,
+        "time": "stirred 8 h; crystals after 1 week",
+        "ph": null,
+        "vessel_or_method": "stirring then slow evaporation in air",
+        "workup_and_crystallization": "unperturbed slow evaporation; yellow crystals after 1 week",
+        "yield": "31 mg (28%, based on metal salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "New hexanuclear Dy SMM with two relaxation regimes under zero dc field. χMT at 300 K (86.3 cm3 K mol−1) is slightly above six free Dy(III) ions and falls to 70.8 cm3 K mol−1 at 2 K. Cole–Cole plots (1.9–8.0 K) give α = 0.25–0.31. Arrhenius fits give Δ = 5.4 K / τ0 = 2.7×10−5 s below 9 K and Δ = 186.8 K / τ0 = 1.1×10−9 s above 9 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 86.3,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 70.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ",
+            "value": 5.4,
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius regime below 9 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "2.7e-5",
+            "unit": "s",
+            "conditions": "zero dc field; below 9 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ",
+            "value": 186.8,
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius regime above 9 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "1.1e-9",
+            "unit": "s",
+            "conditions": "zero dc field; above 9 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Introduction; Experimental Section, Synthesis of Complex 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Accession Codes"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row YETTID / 945883"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Structure Descriptions; Figure 1; space group R-3"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Complex 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic discussion; Figures 5, 7–9; Conclusion"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Dy8(μ4-CO3)4(opch)8(H2O)8]·10MeOH·2H2O",
+      "formula": "[Dy8(μ4-CO3)4(opch)8(H2O)8]·10MeOH·2H2O",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "quadruple-CO3-bridged square-prismoid Dy8 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 by replacing H2spch with H2opch: DyCl3·6H2O (56.5 mg, 0.15 mmol) with H2opch in 15 mL CH3OH/CH2Cl2 (1:2 v/v) and Et3N (0.6 mmol). Previously reported procedure is briefly restated.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal salt",
+            "amount": "56.5 mg, 0.15 mmol"
+          },
+          {
+            "name": "(E)-N′-(2-hydroxy-3-methoxybenzylidene)pyrazine-2-carbohydrazide",
+            "formula": "H2opch",
+            "role": "ligand",
+            "amount": "replaces H2spch (0.15 mmol scale of related reaction)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.6 mmol"
+          }
+        ],
+        "solvents": [
+          "CH3OH",
+          "CH2Cl2"
+        ],
+        "temperature": null,
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "same general procedure as compound 1",
+        "workup_and_crystallization": null,
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "SMM with a single relaxation process below 24 K. χMT at 300 K (105.8 cm3 K mol−1) is below eight free Dy(III) ions (113.36); after a minimum of 97.8 at 30 K it rises to 127.1 at 2 K, indicating intramolecular ferromagnetic coupling. QTM τ ≈ 0.20149 s below 3 K; Orbach Δ = 72.4 K above 8 K. Debye α = 0.08–0.13 (1.9–7.0 K).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 105.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 97.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "30 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 127.1,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "QTM characteristic time",
+            "value": 0.20149,
+            "unit": "s",
+            "conditions": "zero dc field, T < 3 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ",
+            "value": 72.4,
+            "unit": "K",
+            "conditions": "zero dc field; thermally activated regime above 8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "2.1e-6",
+            "unit": "s",
+            "conditions": "zero dc field; Orbach regime above 8 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of complexes 1, 2, and 4"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Introduction; Scheme 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic discussion; Figures 5, 7–9"
+        }
+      ]
+    }
+  ]
+}

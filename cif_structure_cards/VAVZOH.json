@@ -1,0 +1,148 @@
+{
+  "refcode": "VAVZOH",
+  "ccdc_number": "1280559",
+  "dois": [
+    "10.1002/anie.198910331"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1280559.cif",
+  "formula_moiety": "C53 H79 N18 Na2 O3 Yb3,3(C4 H8 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.981(3)",
+    "b": "14.233(4)",
+    "c": "22.133(3)",
+    "alpha": "92.01(2)",
+    "beta": "94.88(2)",
+    "gamma": "114.84(2)",
+    "volume": "3686.13",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.702,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 120.37,
+            "metal_oxygen_distances_angstrom": [
+              2.138,
+              2.129
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb1",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.722,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 121.27,
+            "metal_oxygen_distances_angstrom": [
+              2.138,
+              2.133
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb2",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.66,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 118.36,
+            "metal_oxygen_distances_angstrom": [
+              2.129,
+              2.133
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2",
+        "Yb3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "VAVZOH crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C53 H79 N18 Na2 O3 Yb3,3(C4 H8 O1). From the CIF bond table, Yb1 (Yb) has 1 O neighbors; Yb2 (Yb) has 1 O neighbors; Yb3 (Yb) has 1 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.660-3.722 Å (not direct metal-metal bonds). Computed M-O-M angles span 118.36-121.27°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C53H79N18Na2O3Yb3·3(C4H8O). Explicit grouped units in the article formula/name: 1 μ3-O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/anie.198910331",
+    "formula": "C53H79N18Na2O3Yb3·3(C4H8O)",
+    "compound_name": "[Yb3(μ-pzMe2)6(η2-pzMe2)3(μ3-O)Na2(thf)2]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-O",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

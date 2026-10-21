@@ -1,0 +1,161 @@
+{
+  "refcode": "ATEBIM",
+  "ccdc_number": "1047069",
+  "dois": [
+    "10.14102/j.cnki.0254-5861.2011-0709"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1047069.cif",
+  "formula_moiety": "C90 H54 N14 Nd4 O32,4(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.2439(19)",
+    "b": "13.318(2)",
+    "c": "15.252(3)",
+    "alpha": "113.560(4)",
+    "beta": "93.154(8)",
+    "gamma": "102.031(6)",
+    "volume": "2202.96",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Nd1",
+      "element": "Nd",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O18",
+        "O22",
+        "O25",
+        "O27"
+      ]
+    },
+    {
+      "label": "Nd2",
+      "element": "Nd",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O21",
+        "O5",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Nd3",
+      "element": "Nd",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O17",
+        "O20",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Nd4",
+      "element": "Nd",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O19",
+        "O20",
+        "O23",
+        "O24",
+        "O28",
+        "O37"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Nd1",
+          "Nd2"
+        ],
+        "shared_oxygen_labels": [
+          "O11"
+        ],
+        "metal_metal_separation_angstrom": 5.148,
+        "bridge_geometry": [
+          {
+            "oxygen": "O11",
+            "angle_deg": 150.59,
+            "metal_oxygen_distances_angstrom": [
+              2.587,
+              2.735
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Nd3",
+          "Nd4"
+        ],
+        "shared_oxygen_labels": [
+          "O20"
+        ],
+        "metal_metal_separation_angstrom": 5.148,
+        "bridge_geometry": [
+          {
+            "oxygen": "O20",
+            "angle_deg": 150.59,
+            "metal_oxygen_distances_angstrom": [
+              2.587,
+              2.735
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Nd1",
+        "Nd2"
+      ],
+      [
+        "Nd3",
+        "Nd4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ATEBIM crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C90 H54 N14 Nd4 O32,4(H2 O1). From the CIF bond table, Nd1 (Nd) has 5 O neighbors; Nd2 (Nd) has 6 O neighbors; Nd3 (Nd) has 5 O neighbors; Nd4 (Nd) has 6 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 5.148-5.148 Å (not direct metal-metal bonds). Computed M-O-M angles span 150.59-150.59°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C90H58N14Nd4O36. Explicit grouped units in the article formula/name: 2 H2O (explicit grouped unit in article compound name (structural notation)), 4 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.14102/j.cnki.0254-5861.2011-0709",
+    "formula": "C90H58N14Nd4O36",
+    "compound_name": "[Nd4(2,6-pydcOH)6(Phen)4(H2O)2](H2O)4",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "H2O",
+        "count": 4,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

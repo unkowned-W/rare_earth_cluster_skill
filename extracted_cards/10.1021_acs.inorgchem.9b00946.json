@@ -1,0 +1,332 @@
+{
+  "title": "A Ferromagnetically Coupled, Bell-Shaped [Ni4Gd5] Cage",
+  "doi": "10.1021/acs.inorgchem.9b00946",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1·13.6MeCN·H2O",
+      "compound_name": "[NiII4GdIII5(PhCOO)10(HL)4(HLzw)4(OH)2(NO3)2]Cl·13.6MeCN·H2O",
+      "formula": "[Ni4Gd5(PhCOO)10(HL)4(HLzw)4(OH)2(NO3)2]Cl·13.6MeCN·H2O",
+      "ccdc_numbers": [
+        "1896818"
+      ],
+      "ccdc_refcodes": [
+        "RONGIN"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "bell-shaped {Ni4Gd5} cage with a linear zigzag {Ni4} subunit bisecting a central {Gd5} ring"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "All syntheses were performed under aerobic conditions. Gd(NO3)3·6H2O (113 mg, 0.25 mmol), H2L (122 mg, 0.5 mmol), PhCOOH (61 mg, 0.5 mmol), and NEt3 (1.5 mmol) were added to MeCN (20 mL); NiCl2·6H2O is the nickel source used in the 1:1:2:2 Ni:Gd:H2L:benzoic acid reaction. The green solution was stirred for 60 min, filtered, and left to evaporate undisturbed at room temperature. Yellow-green single crystals of 1·13.6MeCN·H2O formed after 2 days (~40% yield), were collected by filtration, and dried in air. Elemental analysis was reported for the desolvated composition 1·4MeCN.",
+        "reagents": [
+          {
+            "name": "nickel(II) chloride hexahydrate",
+            "formula": "NiCl2·6H2O",
+            "role": "Ni source",
+            "amount": null
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Gd source",
+            "amount": "113 mg, 0.25 mmol"
+          },
+          {
+            "name": "2-hydroxy-4-methyl-6-phenyl-pyridine-3-amidoxime",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "122 mg, 0.5 mmol"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "PhCOOH",
+            "role": "carboxylate ligand",
+            "amount": "61 mg, 0.5 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1.5 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "room temperature (crystallization); stirring not specified beyond ambient aerobic conditions",
+        "time": "stirred 60 min; crystals after 2 days",
+        "ph": null,
+        "vessel_or_method": "aerobic solution reaction in MeCN followed by filtration and slow evaporation",
+        "workup_and_crystallization": "solution filtered and left undisturbed to evaporate at room temperature; yellow-green crystals collected by filtration and dried in air",
+        "yield": "~40%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility (300–2 K, 0.1 T) shows ferromagnetic intramolecular coupling. Room-temperature χmT is 46.13 cm3 mol−1 K (Curie expectation 44.21 cm3 mol−1 K for 4 NiII + 5 GdIII with gNi=2.2, gGd=2.0). χmT is nearly constant to ~50 K then rises to 109.43 cm3 mol−1 K; magnetization saturates at 43.0 μB. Heat-capacity and magnetization data give a magnetocaloric effect: for ΔB=7 T, −ΔSm reaches 10.7 R (19.2 J kg−1 K−1) at 3.3 K and ΔTad reaches 7.3 K at 2.3 K, so adiabatic demagnetization from 9.6 K and 7 T to 0 T cools the sample to 2.3 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT (300 K)",
+            "value": 46.13,
+            "unit": "cm3 mol−1 K",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT (maximum)",
+            "value": 109.43,
+            "unit": "cm3 mol−1 K",
+            "conditions": "dc, 0.1 T; low-T maximum after rise below ~50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization saturation",
+            "value": 43.0,
+            "unit": "μB",
+            "conditions": "M vs B, 1–7 T, 2.0–6.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm (MCE)",
+            "value": 10.7,
+            "unit": "R",
+            "conditions": "ΔB = 7 T (Bf = 0), T = 3.3 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm (MCE)",
+            "value": 19.2,
+            "unit": "J kg−1 K−1",
+            "conditions": "ΔB = 7 T (Bf = 0), T = 3.3 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ΔTad (MCE)",
+            "value": 7.3,
+            "unit": "K",
+            "conditions": "ΔB = 7 T (Bi = 7 T to Bf = 0); ΔTad maximum at 2.3 K (start T = 9.6 K)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section (synthesis of 1)"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-Ray Crystallography; CCDC 1896818 for 1"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "RONGIN / 1896818"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Description of Structures"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section; Results and Discussion (Synthesis)"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetochemistry; Figures 2–4"
+        }
+      ]
+    },
+    {
+      "compound_label": "2·3H2O",
+      "compound_name": "[NiII4YIII5(PhCOO)10(HL)4(HLzw)4(OH)2(NO3)1.5(H2O)0.5]0.5Cl(NO3)·3H2O",
+      "formula": "[Ni4Y5(PhCOO)10(HL)4(HLzw)4(OH)2(NO3)1.5(H2O)0.5]0.5Cl(NO3)·3H2O",
+      "ccdc_numbers": [
+        "1896819"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "bell-shaped {Ni4Y5} cage analogous to 1, not isomorphous (Pca21)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 under aerobic conditions, substituting Y(NO3)3·6H2O for the Gd salt in MeCN with H2L, PhCOOH, and NEt3. Light-green crystals suitable for X-ray diffraction formed after 3 days (~35% yield). Elemental analysis was reported for 2·H2O.",
+        "reagents": [
+          {
+            "name": "yttrium(III) nitrate hexahydrate",
+            "formula": "Y(NO3)3·6H2O",
+            "role": "Y source",
+            "amount": "analogous to 1 (Gd salt 113 mg, 0.25 mmol)"
+          },
+          {
+            "name": "nickel(II) chloride hexahydrate",
+            "formula": "NiCl2·6H2O",
+            "role": "Ni source",
+            "amount": null
+          },
+          {
+            "name": "2-hydroxy-4-methyl-6-phenyl-pyridine-3-amidoxime",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "analogous to 1 (122 mg, 0.5 mmol)"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "PhCOOH",
+            "role": "carboxylate ligand",
+            "amount": "analogous to 1 (61 mg, 0.5 mmol)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "analogous to 1 (1.5 mmol)"
+          }
+        ],
+        "solvents": [
+          "MeCN"
+        ],
+        "temperature": "room temperature (crystallization implied by analogy to 1)",
+        "time": "crystals after 3 days",
+        "ph": null,
+        "vessel_or_method": "analogous aerobic MeCN reaction and crystallization as for 1",
+        "workup_and_crystallization": "light-green crystals formed after 3 days",
+        "yield": "~35%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility (300–2 K, 0.1 T) indicates dominant ferromagnetic Ni–Ni exchange. Room-temperature χmT is 4.82 cm3 mol−1 K (Curie 4.84 cm3 mol−1 K for 4 NiII, diamagnetic Y). χmT is nearly constant to ~50 K, rises to 9.41 cm3 mol−1 K, then drops near 5 K to 8.93 cm3 mol−1 K at 2 K. Magnetization saturates at 8.4 μB. Simultaneous PHI fit of χmT and M vs B: J1 = +5.26(9) cm−1, J2 = +2.26(1) cm−1, D1 = −10.86(10) cm−1, D2 = 3.90(3) cm−1, g = 2.21, zJ′ = 0.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT (300 K)",
+            "value": 4.82,
+            "unit": "cm3 mol−1 K",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT (maximum)",
+            "value": 9.41,
+            "unit": "cm3 mol−1 K",
+            "conditions": "dc, 0.1 T; rise below ~50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT (2 K)",
+            "value": 8.93,
+            "unit": "cm3 mol−1 K",
+            "conditions": "dc, 0.1 T; drop below ~5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization saturation",
+            "value": 8.4,
+            "unit": "μB",
+            "conditions": "M vs B, 1–7 T, 2.0–6.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1 (Ni1–Ni1′)",
+            "value": 5.26,
+            "unit": "cm−1",
+            "conditions": "PHI simultaneous fit of χ and M; −2J convention; ±0.09 cm−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J2 (Ni1–Ni2)",
+            "value": 2.26,
+            "unit": "cm−1",
+            "conditions": "PHI fit; ±0.01 cm−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "D1 (Ni1)",
+            "value": -10.86,
+            "unit": "cm−1",
+            "conditions": "PHI fit; ±0.10 cm−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "D2 (Ni2)",
+            "value": 3.9,
+            "unit": "cm−1",
+            "conditions": "PHI fit; ±0.03 cm−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g",
+            "value": 2.21,
+            "unit": null,
+            "conditions": "PHI fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section (synthesis of 2)"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-Ray Crystallography; CCDC 1896819 for 2"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Description of Structures"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetochemistry; Figure 2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "refcode": "IYAVUA",
+  "ccdc_number": "822912",
+  "dois": [
+    "10.1002/anie.201103127"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\822912.cif",
+  "formula_moiety": "Cl17 O18 Pr4 Sb12 5-,5(C6 H8 N1 1+)",
+  "crystal_system": "rhombohedral",
+  "space_group_hm": "R 3 m",
+  "international_tables_number": "160",
+  "unit_cell": {
+    "a": "18.2342(5)",
+    "b": "18.2342(5)",
+    "c": "17.7781(9)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "120",
+    "volume": "5119.05",
+    "Z": "3"
+  },
+  "metal_sites": [
+    {
+      "label": "Pr1",
+      "element": "Pr",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O2E",
+        "O3",
+        "O5",
+        "O5B"
+      ]
+    },
+    {
+      "label": "Pr2",
+      "element": "Pr",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O1A",
+        "O1B",
+        "O4",
+        "O4A",
+        "O4C"
+      ]
+    },
+    {
+      "label": "Pr1B",
+      "element": "Pr",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1B",
+        "O2B",
+        "O2D",
+        "O3B",
+        "O5A",
+        "O5B"
+      ]
+    },
+    {
+      "label": "Pr1A",
+      "element": "Pr",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O2A",
+        "O2C",
+        "O3A",
+        "O5",
+        "O5A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Pr1",
+          "Pr1A"
+        ],
+        "shared_oxygen_labels": [
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 4.83,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 121.84,
+            "metal_oxygen_distances_angstrom": [
+              2.764,
+              2.764
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Pr1",
+          "Pr1B"
+        ],
+        "shared_oxygen_labels": [
+          "O5B"
+        ],
+        "metal_metal_separation_angstrom": 4.83,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5B",
+            "angle_deg": 121.84,
+            "metal_oxygen_distances_angstrom": [
+              2.764,
+              2.764
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Pr1",
+          "Pr2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 4.838,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 120.88,
+            "metal_oxygen_distances_angstrom": [
+              2.633,
+              2.926
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Pr1A",
+          "Pr1B"
+        ],
+        "shared_oxygen_labels": [
+          "O5A"
+        ],
+        "metal_metal_separation_angstrom": 4.83,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5A",
+            "angle_deg": 121.84,
+            "metal_oxygen_distances_angstrom": [
+              2.764,
+              2.764
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Pr1A",
+          "Pr2"
+        ],
+        "shared_oxygen_labels": [
+          "O1A"
+        ],
+        "metal_metal_separation_angstrom": 4.838,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1A",
+            "angle_deg": 120.88,
+            "metal_oxygen_distances_angstrom": [
+              2.633,
+              2.926
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Pr1B",
+          "Pr2"
+        ],
+        "shared_oxygen_labels": [
+          "O1B"
+        ],
+        "metal_metal_separation_angstrom": 4.838,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1B",
+            "angle_deg": 120.9,
+            "metal_oxygen_distances_angstrom": [
+              2.633,
+              2.925
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Pr1",
+        "Pr1A",
+        "Pr1B",
+        "Pr2"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "three-dimensional metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "IYAVUA crystallizes in the rhombohedral crystal system with space group R 3 m. Reported CIF formula moiety: Cl17 O18 Pr4 Sb12 5-,5(C6 H8 N1 1+). From the CIF bond table, Pr1 (Pr) has 6 O neighbors; Pr2 (Pr) has 6 O neighbors; Pr1B (Pr) has 6 O neighbors; Pr1A (Pr) has 6 O neighbors. Oxygen-bridged metal-site graph: 6 pairs, 1 components; largest component is a network with cycles with three-dimensional metal-site arrangement. Computed bridged metal-metal separations span 4.830-4.838 Å (not direct metal-metal bonds). Computed M-O-M angles span 120.88-121.84°; individual values and O labels are in metal_framework.links. Article card reports molecular formula (2-MepyH)5[Pr4Sb12O18Cl17].",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/anie.201103127",
+    "formula": "(2-MepyH)5[Pr4Sb12O18Cl17]",
+    "compound_name": "(2-MepyH)5[Pr4Sb12O18Cl17]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

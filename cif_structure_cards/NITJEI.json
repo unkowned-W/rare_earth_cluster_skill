@@ -1,0 +1,224 @@
+{
+  "refcode": "NITJEI",
+  "ccdc_number": "1882798",
+  "dois": [
+    "10.1007/s10876-019-01495-x"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1882798.cif",
+  "formula_moiety": "C45 H45 N14 O17 Tb3,C1 H4 O1",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.665(4)",
+    "b": "13.021(4)",
+    "c": "19.196(6)",
+    "alpha": "101.758(5)",
+    "beta": "101.702(5)",
+    "gamma": "111.040(4)",
+    "volume": "2757.49",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O8"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O12",
+        "O14",
+        "O2",
+        "O3",
+        "O4",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O2",
+        "O3",
+        "O5",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O3",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.614,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 95.67,
+            "metal_oxygen_distances_angstrom": [
+              2.405,
+              2.471
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 95.5,
+            "metal_oxygen_distances_angstrom": [
+              2.392,
+              2.489
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 104.12,
+            "metal_oxygen_distances_angstrom": [
+              2.282,
+              2.301
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O3",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.56,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 95.7,
+            "metal_oxygen_distances_angstrom": [
+              2.405,
+              2.397
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 95.63,
+            "metal_oxygen_distances_angstrom": [
+              2.392,
+              2.412
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 100.82,
+            "metal_oxygen_distances_angstrom": [
+              2.325,
+              2.295
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.579,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 94.62,
+            "metal_oxygen_distances_angstrom": [
+              2.471,
+              2.397
+            ]
+          },
+          {
+            "oxygen": "O1",
+            "angle_deg": 102.73,
+            "metal_oxygen_distances_angstrom": [
+              2.286,
+              2.295
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 93.78,
+            "metal_oxygen_distances_angstrom": [
+              2.489,
+              2.412
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "NITJEI crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C45 H45 N14 O17 Tb3,C1 H4 O1. From the CIF bond table, Tb1 (Tb) has 6 O neighbors; Tb2 (Tb) has 8 O neighbors; Tb3 (Tb) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.560-3.614 Å (not direct metal-metal bonds). Computed M-O-M angles span 93.78-104.12°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Tb3(L)5(NO3)4]·CH3OH. Explicit grouped units in the article formula/name: 4 NO3 (explicit grouped unit in article formula), 4 NO3 (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1007/s10876-019-01495-x",
+    "formula": "[Tb3(L)5(NO3)4]·CH3OH",
+    "compound_name": "[Tb3(L)5(NO3)4]·MeOH (L = N-methylbenzimidazole-2-methanolate)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 4,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 4,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

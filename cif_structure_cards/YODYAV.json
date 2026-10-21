@@ -1,0 +1,176 @@
+{
+  "refcode": "YODYAV",
+  "ccdc_number": "2248460",
+  "dois": [
+    "10.1039/d3dt00812f"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2248460.cif",
+  "formula_moiety": "C72 H72 Eu2 Fe6 N2 O16,2(C3 H7 N1 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "14.7146(2)",
+    "b": "11.9172(2)",
+    "c": "22.3816(3)",
+    "alpha": "90",
+    "beta": "105.931(2)",
+    "gamma": "90",
+    "volume": "3774.03",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Fe1",
+      "element": "Fe",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Fe2",
+      "element": "Fe",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Fe3",
+      "element": "Fe",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Fe4",
+      "element": "Fe",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Fe5",
+      "element": "Fe",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Fe6",
+      "element": "Fe",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O12",
+        "O13",
+        "O14",
+        "O15",
+        "O16",
+        "O17"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O10"
+        ],
+        "metal_metal_separation_angstrom": 4.232,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 110.65,
+            "metal_oxygen_distances_angstrom": [
+              2.779,
+              2.358
+            ]
+          },
+          {
+            "oxygen": "O10",
+            "angle_deg": 110.65,
+            "metal_oxygen_distances_angstrom": [
+              2.358,
+              2.779
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2"
+      ],
+      [
+        "Fe1"
+      ],
+      [
+        "Fe2"
+      ],
+      [
+        "Fe3"
+      ],
+      [
+        "Fe4"
+      ],
+      [
+        "Fe5"
+      ],
+      [
+        "Fe6"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "YODYAV crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C72 H72 Eu2 Fe6 N2 O16,2(C3 H7 N1 O1). From the CIF bond table, Fe1 (Fe) has 0 O neighbors; Fe2 (Fe) has 0 O neighbors; Fe3 (Fe) has 0 O neighbors; Eu1 (Eu) has 9 O neighbors; Fe4 (Fe) has 0 O neighbors; Fe5 (Fe) has 0 O neighbors; Fe6 (Fe) has 0 O neighbors; Eu2 (Eu) has 9 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 7 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.232-4.232 Å (not direct metal-metal bonds). Computed M-O-M angles span 110.65-110.65°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C78H86Eu2Fe6N4O18. Explicit grouped units in the article formula/name: 2 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d3dt00812f",
+    "formula": "C78H86Eu2Fe6N4O18",
+    "compound_name": "[Eu2(μ-O;κ2OO'-O2CFc)2(O2CFc)4(H2O)2(dmf)2]·(dmf)2",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

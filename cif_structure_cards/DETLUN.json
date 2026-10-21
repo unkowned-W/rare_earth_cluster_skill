@@ -1,0 +1,193 @@
+{
+  "refcode": "DETLUN",
+  "ccdc_number": "2206323",
+  "dois": [
+    "10.1039/d2dt02996k"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2206323.cif",
+  "formula_moiety": "C97 H84 Dy4 N12 Na2 O28,2(C2 H3 N1),3(C1 H4 O1),10(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21",
+  "international_tables_number": "4",
+  "unit_cell": {
+    "a": "12.3852(6)",
+    "b": "32.5128(16)",
+    "c": "15.4534(7)",
+    "alpha": "90",
+    "beta": "106.5540(10)",
+    "gamma": "90",
+    "volume": "5964.81",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O13",
+        "O2",
+        "O3",
+        "O4",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O18",
+        "O20",
+        "O22",
+        "O24",
+        "O25"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O14",
+        "O18",
+        "O21",
+        "O24",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Dy4",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O13",
+        "O17",
+        "O4",
+        "O8",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy4"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O4",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.677,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 93.55,
+            "metal_oxygen_distances_angstrom": [
+              2.653,
+              2.387
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 92.04,
+            "metal_oxygen_distances_angstrom": [
+              2.377,
+              2.722
+            ]
+          },
+          {
+            "oxygen": "O13",
+            "angle_deg": 106.15,
+            "metal_oxygen_distances_angstrom": [
+              2.306,
+              2.293
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O18",
+          "O24"
+        ],
+        "metal_metal_separation_angstrom": 3.713,
+        "bridge_geometry": [
+          {
+            "oxygen": "O18",
+            "angle_deg": 109.5,
+            "metal_oxygen_distances_angstrom": [
+              2.27,
+              2.277
+            ]
+          },
+          {
+            "oxygen": "O24",
+            "angle_deg": 93.77,
+            "metal_oxygen_distances_angstrom": [
+              2.416,
+              2.665
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy4"
+      ],
+      [
+        "Dy2",
+        "Dy3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "DETLUN crystallizes in the monoclinic crystal system with space group P 21. Reported CIF formula moiety: C97 H84 Dy4 N12 Na2 O28,2(C2 H3 N1),3(C1 H4 O1),10(H2 O1). From the CIF bond table, Dy1 (Dy) has 7 O neighbors; Dy2 (Dy) has 6 O neighbors; Dy3 (Dy) has 7 O neighbors; Dy4 (Dy) has 7 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.677-3.713 Å (not direct metal-metal bonds). Computed M-O-M angles span 92.04-109.50°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Dy4Na2L2(μ2-OH)2(PhCOO)8(CH3OH)(H2O)]·CH3CN·2CH3OH·7H2O. Explicit grouped units in the article formula/name: 2 μ2-OH (explicit grouped unit in article formula), 1 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d2dt02996k",
+    "formula": "[Dy4Na2L2(μ2-OH)2(PhCOO)8(CH3OH)(H2O)]·CH3CN·2CH3OH·7H2O",
+    "compound_name": "[Dy4Na2L2(μ2-OH)2(PhCOO)8(CH3OH)(H2O)]·CH3CN·2CH3OH·7H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ2-OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

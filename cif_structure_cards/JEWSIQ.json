@@ -1,0 +1,142 @@
+{
+  "refcode": "JEWSIQ",
+  "ccdc_number": "1587078",
+  "dois": [
+    "10.1002/anie.201711305"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1587078.cif",
+  "formula_moiety": "C110 H139 N8 O1 Y3,C7 H8",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "16.0456(13)",
+    "b": "16.9317(13)",
+    "c": "22.987(3)",
+    "alpha": "103.589(2)",
+    "beta": "100.572(2)",
+    "gamma": "107.9900(10)",
+    "volume": "5547.66",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Y1",
+      "element": "Y",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Y2",
+      "element": "Y",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Y3",
+      "element": "Y",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Y1",
+          "Y2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.364,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 84.0,
+            "metal_oxygen_distances_angstrom": [
+              2.668,
+              2.346
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Y1",
+          "Y3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.361,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 84.4,
+            "metal_oxygen_distances_angstrom": [
+              2.668,
+              2.32
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Y2",
+          "Y3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 4.64,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 167.86,
+            "metal_oxygen_distances_angstrom": [
+              2.346,
+              2.32
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Y1",
+        "Y2",
+        "Y3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "JEWSIQ crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C110 H139 N8 O1 Y3,C7 H8. From the CIF bond table, Y1 (Y) has 1 O neighbors; Y2 (Y) has 1 O neighbors; Y3 (Y) has 1 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.361-4.640 Å (not direct metal-metal bonds). Computed M-O-M angles span 84.00-167.86°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C110H139N8OY3.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/anie.201711305",
+    "formula": "C110H139N8OY3",
+    "compound_name": "L1_3Y3(μ2-Me)4[μ3-OC(NPh)2]",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

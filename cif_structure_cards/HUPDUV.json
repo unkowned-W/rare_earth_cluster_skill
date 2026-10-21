@@ -1,0 +1,190 @@
+{
+  "refcode": "HUPDUV",
+  "ccdc_number": "2380490",
+  "dois": [
+    "10.1021/acs.inorgchem.4c04721"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2380490.cif",
+  "formula_moiety": "C117 H81 Bi8 Cl3 Dy3 N9 O24",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "16.6121(3)",
+    "b": "17.1652(3)",
+    "c": "26.2397(5)",
+    "alpha": "87.0780(10)",
+    "beta": "78.601(2)",
+    "gamma": "63.643(2)",
+    "volume": "6566.43",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O12",
+        "O17",
+        "O18",
+        "O20",
+        "O6",
+        "O8"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12",
+        "O14",
+        "O21",
+        "O3",
+        "O4",
+        "O5",
+        "O7"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O14",
+        "O16",
+        "O22",
+        "O4",
+        "O6",
+        "O8",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O12"
+        ],
+        "metal_metal_separation_angstrom": 4.139,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 109.63,
+            "metal_oxygen_distances_angstrom": [
+              2.41,
+              2.652
+            ]
+          },
+          {
+            "oxygen": "O12",
+            "angle_deg": 111.91,
+            "metal_oxygen_distances_angstrom": [
+              2.586,
+              2.408
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 4.084,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 109.34,
+            "metal_oxygen_distances_angstrom": [
+              2.401,
+              2.603
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 110.33,
+            "metal_oxygen_distances_angstrom": [
+              2.573,
+              2.401
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O14",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 4.141,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 109.84,
+            "metal_oxygen_distances_angstrom": [
+              2.63,
+              2.428
+            ]
+          },
+          {
+            "oxygen": "O14",
+            "angle_deg": 112.1,
+            "metal_oxygen_distances_angstrom": [
+              2.406,
+              2.584
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "HUPDUV crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C117 H81 Bi8 Cl3 Dy3 N9 O24. From the CIF bond table, Dy1 (Dy) has 8 O neighbors; Dy2 (Dy) has 8 O neighbors; Dy3 (Dy) has 8 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 4.084-4.141 Å (not direct metal-metal bonds). Computed M-O-M angles span 109.34-112.10°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C117H81Bi8Cl3Dy3N9O24.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.4c04721",
+    "formula": "C117H81Bi8Cl3Dy3N9O24",
+    "compound_name": "[Dy3Bi8O6Cl3(saph)9]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

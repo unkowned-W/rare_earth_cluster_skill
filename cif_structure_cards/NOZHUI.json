@@ -1,0 +1,165 @@
+{
+  "refcode": "NOZHUI",
+  "ccdc_number": "1920548",
+  "dois": [
+    "10.1021/acs.inorgchem.9b01647"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1920548.cif",
+  "formula_moiety": "C50 H41 F36 N10 O19 Tb3",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "24.4732(4)",
+    "b": "23.4373(4)",
+    "c": "26.7742(4)",
+    "alpha": "90",
+    "beta": "97.0058(13)",
+    "gamma": "90",
+    "volume": "15242.6",
+    "Z": "8"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O13",
+        "O14",
+        "O15",
+        "O16",
+        "O17",
+        "O19"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O18",
+        "O3",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O18",
+        "O19",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O17"
+        ],
+        "metal_metal_separation_angstrom": 4.357,
+        "bridge_geometry": [
+          {
+            "oxygen": "O17",
+            "angle_deg": 157.8,
+            "metal_oxygen_distances_angstrom": [
+              2.224,
+              2.215
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O19"
+        ],
+        "metal_metal_separation_angstrom": 4.157,
+        "bridge_geometry": [
+          {
+            "oxygen": "O19",
+            "angle_deg": 141.76,
+            "metal_oxygen_distances_angstrom": [
+              2.193,
+              2.207
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O18"
+        ],
+        "metal_metal_separation_angstrom": 4.149,
+        "bridge_geometry": [
+          {
+            "oxygen": "O18",
+            "angle_deg": 141.64,
+            "metal_oxygen_distances_angstrom": [
+              2.199,
+              2.195
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "NOZHUI crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C50 H41 F36 N10 O19 Tb3. From the CIF bond table, Tb1 (Tb) has 7 O neighbors; Tb2 (Tb) has 7 O neighbors; Tb3 (Tb) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 4.149-4.357 Å (not direct metal-metal bonds). Computed M-O-M angles span 141.64-157.80°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C50H41F36N10O19Tb3. Explicit grouped units in the article formula/name: 3 OH (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.9b01647",
+    "formula": "C50H41F36N10O19Tb3",
+    "compound_name": "[Tb3(hfac)6(OH)3(4-Me-3-NITtrz)2]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 3,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

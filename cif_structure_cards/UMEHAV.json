@@ -1,0 +1,224 @@
+{
+  "refcode": "UMEHAV",
+  "ccdc_number": "209724",
+  "dois": [
+    "10.1021/om034019x"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\209724.cif",
+  "formula_moiety": "C48 H120 B16 Cl2 Ho4 O5 Si8,2(C4 H8 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "28.403(5)",
+    "b": "12.835(2)",
+    "c": "27.879(5)",
+    "alpha": "90",
+    "beta": "117.820(3)",
+    "gamma": "90",
+    "volume": "8988.66",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Ho1",
+      "element": "Ho",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2"
+      ]
+    },
+    {
+      "label": "Ho2",
+      "element": "Ho",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3"
+      ]
+    },
+    {
+      "label": "Ho1F",
+      "element": "Ho",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2F"
+      ]
+    },
+    {
+      "label": "Ho2F",
+      "element": "Ho",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3F"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ho1",
+          "Ho1F"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.876,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 116.29,
+            "metal_oxygen_distances_angstrom": [
+              2.281,
+              2.281
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho1",
+          "Ho2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.651,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 106.21,
+            "metal_oxygen_distances_angstrom": [
+              2.281,
+              2.284
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho1",
+          "Ho2F"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.654,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 106.31,
+            "metal_oxygen_distances_angstrom": [
+              2.281,
+              2.284
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho1F",
+          "Ho2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.654,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 106.31,
+            "metal_oxygen_distances_angstrom": [
+              2.281,
+              2.284
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho1F",
+          "Ho2F"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.651,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 106.21,
+            "metal_oxygen_distances_angstrom": [
+              2.281,
+              2.284
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho2",
+          "Ho2F"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.873,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 115.93,
+            "metal_oxygen_distances_angstrom": [
+              2.284,
+              2.284
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ho1",
+        "Ho1F",
+        "Ho2",
+        "Ho2F"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "three-dimensional metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "UMEHAV crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C48 H120 B16 Cl2 Ho4 O5 Si8,2(C4 H8 O1). From the CIF bond table, Ho1 (Ho) has 2 O neighbors; Ho2 (Ho) has 2 O neighbors; Ho1F (Ho) has 2 O neighbors; Ho2F (Ho) has 2 O neighbors. Oxygen-bridged metal-site graph: 6 pairs, 1 components; largest component is a network with cycles with three-dimensional metal-site arrangement. Computed bridged metal-metal separations span 3.651-3.876 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.21-116.29°; individual values and O labels are in metal_framework.links. Article card reports molecular formula {[η5-1-Ho(THF)-2,3-(SiMe3)2-2,3-C2B4H4]4(μ-Cl)2(μ4-O)}·2THF. Explicit grouped units in the article formula/name: 1 μ4-O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/om034019x",
+    "formula": "{[η5-1-Ho(THF)-2,3-(SiMe3)2-2,3-C2B4H4]4(μ-Cl)2(μ4-O)}·2THF",
+    "compound_name": "oxoholmacarborane oxide-ion encapsulating tetraholmium cluster",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ4-O",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "title": "Construction and magnetic study of two new dysprosium complexes with chain or tetranuclear structure",
+  "doi": "10.1039/c7ce00747g",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy2L2(NO3)2(DMF)2]·2DMF",
+      "formula": "C44H48Dy2N14O16",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "complex",
+        "nuclearity": 2,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "1D",
+        "structural_family": "phenoxo-bridged Dy2 chain linked by pyridine-N-oxide groups"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "H2L (0.1 mmol, 30.9 mg) was dissolved in 10 mL DMF. A methanolic solution of Et3N (1.0 mL, 0.1 mol L−1) was added and the mixture was stirred for 5 min, after which solid Dy(NO3)3·6H2O (0.1 mmol, 45.6 mg) was added. The wine-colored solution was stirred for 10 min at room temperature, transferred to a 20 mL Teflon-lined reactor, heated at 80 °C for 72 h under autogenous pressure, and cooled to room temperature at 5 °C h−1. Red crystals of 1 were obtained.",
+        "reagents": [
+          {
+            "name": "N′-(8-hydroxyquinoline-2-carboxaldehyde)pyridine-N-oxide-carbohydrazide",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.1 mmol, 30.9 mg"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "1.0 mL of 0.1 mol L−1 methanolic solution"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.1 mmol, 45.6 mg"
+          }
+        ],
+        "solvents": [
+          "DMF",
+          "methanol"
+        ],
+        "temperature": "room temperature stirring, then 80 °C solvothermal",
+        "time": "stir 5 min then 10 min; heat 72 h; cool at 5 °C h−1",
+        "ph": null,
+        "vessel_or_method": "20 mL Teflon-lined reactor, solvothermal under autogenous pressure",
+        "workup_and_crystallization": "red crystals obtained after cooling",
+        "yield": "29.5 mg (43.6% based on the metal salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dy3+ ions in 1 are ferromagnetically coupled through double μ-phenoxide bridges. χMT = 26.55 cm3 mol−1 K at room temperature (vs 28.34 expected for two Dy3+), decreases to 20.23 at 5 K, then rises to 21.04 at 2 K. Magnetization at 2–3 K (0–70 kOe) is unsaturated and M vs HT−1 plots do not superimpose, indicating anisotropy. Zero-field ac susceptibility (1 Hz–1 kHz) shows slow magnetic relaxation/SMM-like superparamagnetic behavior with QTM below ~4 K. Arrhenius/QTM+Orbach fit: Ueff = 18.0 K, τ0 = 1.86 × 10−6 s, τQTM = 0.475 ms; Cole–Cole α = 0.060–0.107 (2.0–4.0 K). Under 2 kOe, QTM is suppressed and two relaxation processes appear at 2–3 K; slow-process fit gives Ueff = 22.1 K, τ0 = 6.00 × 10−7 s, τQTM = 1.92 ms.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "26.55",
+            "unit": "cm3 mol−1 K",
+            "conditions": "room temperature, 1 kOe, microcrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "20.23",
+            "unit": "cm3 mol−1 K",
+            "conditions": "5 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "21.04",
+            "unit": "cm3 mol−1 K",
+            "conditions": "2 K, 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "18.0",
+            "unit": "K",
+            "conditions": "zero dc field; QTM + Orbach fit of ln τ vs T−1 from ac data 2.0–4.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "1.86e-6",
+            "unit": "s",
+            "conditions": "zero dc field, same fit as Ueff = 18.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τQTM",
+            "value": "0.475",
+            "unit": "ms",
+            "conditions": "zero dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "22.1",
+            "unit": "K",
+            "conditions": "2 kOe dc field; Orbach + QTM fit of the slow process"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "6.00e-7",
+            "unit": "s",
+            "conditions": "2 kOe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τQTM",
+            "value": "1.92",
+            "unit": "ms",
+            "conditions": "2 kOe dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental section; Table 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 1"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal structure of 1; Fig. 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic behaviour of complex 1; Fig. 3–6"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy4L4(OAc)4(DMF)2]",
+      "formula": "C78H66Dy4N18O22",
+      "ccdc_numbers": [
+        "1544762"
+      ],
+      "ccdc_refcodes": [
+        "ZEBWEL"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetranuclear Dy4 cluster of phenoxo- and acetate-bridged Dy2 units linked by pyridine-N-oxide"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to complex 1, replacing Dy(NO3)3·6H2O with Dy(OAc)3·4H2O and using 0.2 mmol Et3N instead of 0.1 mmol Et3N. The H2L/DMF solvothermal protocol of 1 (10 mL DMF, 80 °C, 72 h, Teflon-lined reactor) was otherwise followed. Red crystals of 2 were obtained.",
+        "reagents": [
+          {
+            "name": "N′-(8-hydroxyquinoline-2-carboxaldehyde)pyridine-N-oxide-carbohydrazide",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.1 mmol, 30.9 mg (as in the procedure for 1)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "dysprosium(III) acetate tetrahydrate",
+            "formula": "Dy(OAc)3·4H2O",
+            "role": "metal source",
+            "amount": "used in place of 0.1 mmol Dy(NO3)3·6H2O; mass not separately stated"
+          }
+        ],
+        "solvents": [
+          "DMF",
+          "methanol"
+        ],
+        "temperature": "80 °C solvothermal (as for 1)",
+        "time": "72 h (as for 1)",
+        "ph": null,
+        "vessel_or_method": "20 mL Teflon-lined reactor, solvothermal (as for 1)",
+        "workup_and_crystallization": "red crystals obtained",
+        "yield": "30.2 mg (53.3% based on the metal salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dy3+ ions in 2 are antiferromagnetically coupled (double μ-phenoxide plus anti–anti acetate bridges). χMT = 55.58 cm3 mol−1 K at 300 K (vs 56.68 expected for four Dy3+), decreasing to 39.47 at 2 K. M vs H/T plots indicate anisotropy. Under zero dc field, ac susceptibilities show negligible χM″, excluding slow relaxation. Under 2 kOe, frequency-dependent ac signals appear but χM″ peaks only at 1 kHz, so an energy barrier could not be extracted.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "55.58",
+            "unit": "cm3 mol−1 K",
+            "conditions": "300 K, 1 kOe, powder sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "39.47",
+            "unit": "cm3 mol−1 K",
+            "conditions": "2 K, 1 kOe"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental section; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1544762 / ZEBWEL matched to C78H66Dy4N18O22"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 2"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal structure of 2; Fig. 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties of complex 2; Fig. 3, Fig. S11–S12"
+        }
+      ]
+    }
+  ]
+}

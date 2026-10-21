@@ -1,0 +1,1256 @@
+{
+  "title": "Structurally Flexible and Solution Stable [Ln4TM8(OH)8(L)8(O2CR)8(MeOH)y](ClO4)4: A Playground for Magnetic Refrigeration",
+  "doi": "10.1021/acs.inorgchem.6b01730",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1a",
+      "compound_name": "[Gd4Zn8(OH)8(hmp)8(O2C-iPr)8](ClO4)4",
+      "formula": "[Gd4Zn8(OH)8(hmp)8(O2CiPr)8](ClO4)4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln4TM8 cubane / square-in-square [Ln4TM8(OH)8] cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under aerobic conditions, Zn(ClO4)2·6H2O (0.372 g, 1.00 mmol), Gd(NO3)3·6H2O (0.226 g, 0.5 mmol), and NaO2C-iPr (0.110 g, 1.00 mmol) were dissolved in 50:50 CH2Cl2/MeOH (20 cm3). Hhmp (0.10 cm3, 1.00 mmol) was added; after 5 min stirring, NaOMe (0.108 g, 2.00 mmol) was added and the mixture stirred 20 min. The solution was evaporated to dryness, redissolved in CH2Cl2 (15 cm3), and filtered. MeOH (5 cm3) was added to the filtrate. Vapor diffusion of diethyl ether yielded crystals after ~3 days.",
+        "reagents": [
+          {
+            "name": "zinc perchlorate hexahydrate",
+            "formula": "Zn(ClO4)2·6H2O",
+            "role": "TM source",
+            "amount": "0.372 g, 1.00 mmol"
+          },
+          {
+            "name": "gadolinium nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.226 g, 0.5 mmol"
+          },
+          {
+            "name": "sodium isobutyrate",
+            "formula": "NaO2CiPr",
+            "role": "carboxylate ligand",
+            "amount": "0.110 g, 1.00 mmol"
+          },
+          {
+            "name": "2-(hydroxymethyl)pyridine",
+            "formula": "Hhmp",
+            "role": "bridging ligand L",
+            "amount": "0.10 cm3, 1.00 mmol"
+          },
+          {
+            "name": "sodium methoxide",
+            "formula": "NaOMe",
+            "role": "base",
+            "amount": "0.108 g, 2.00 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "5 min after Hhmp then 20 min after NaOMe; crystals ~3 days",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring; evaporation to dryness; filtration; vapor diffusion of Et2O",
+        "workup_and_crystallization": "Evaporated to dryness, redissolved in CH2Cl2, filtered to remove NaNO3 and NaClO4; MeOH added; vapor diffusion of diethyl ether.",
+        "yield": "0.212 g, 51% (anal. for 1a·4H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Weakly coupled Gd4Zn8 cluster used as the Zn (nonmagnetic TM) reference for magnetocaloric studies. χMT matches four S=7/2 Gd(III) ions; JGdGd = 0.02 cm−1; ground state S=0 with many low-lying states. Large MCE: −ΔSm reaches 7.8 R = 19.4 J kg−1 K−1 at 1.9 K for ΔB = 7–0 T (~93% of the 8.3 R available entropy).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "31.5",
+            "unit": "cm3 K mol−1",
+            "conditions": "275 K, B = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "JGdGd",
+            "value": "0.02",
+            "unit": "cm−1",
+            "conditions": "fit of χMT to Hamiltonian (2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm",
+            "value": "19.4",
+            "unit": "J kg−1 K−1",
+            "conditions": "T = 1.9 K, ΔB = (7–0) T; also reported as 7.8 R"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Experimental synthesis 1a"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis 1a and 1b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetometry; Magnetocalorics; Figures 10–12"
+        }
+      ]
+    },
+    {
+      "compound_label": "1b",
+      "compound_name": "[Y4Zn8(OH)8(hmp)8(O2C-iPr)8](ClO4)4",
+      "formula": "[Y4Zn8(OH)8(hmp)8(O2CiPr)8](ClO4)4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln4TM8 cubane / square-in-square [Ln4TM8(OH)8] cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same procedure as 1a using Y(NO3)3·6H2O (0.192 g, 0.50 mmol) in place of the Gd salt. Zn(ClO4)2·6H2O (0.372 g, 1.00 mmol), NaO2C-iPr (0.110 g, 1.00 mmol), Hhmp (0.10 cm3, 1.00 mmol), and NaOMe (0.108 g, 2.00 mmol) in 50:50 CH2Cl2/MeOH; workup as for 1a; Et2O vapor diffusion, crystals ~3 days.",
+        "reagents": [
+          {
+            "name": "zinc perchlorate hexahydrate",
+            "formula": "Zn(ClO4)2·6H2O",
+            "role": "TM source",
+            "amount": "0.372 g, 1.00 mmol"
+          },
+          {
+            "name": "yttrium nitrate hexahydrate",
+            "formula": "Y(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.192 g, 0.50 mmol"
+          },
+          {
+            "name": "sodium isobutyrate",
+            "formula": "NaO2CiPr",
+            "role": "carboxylate ligand",
+            "amount": "0.110 g, 1.00 mmol"
+          },
+          {
+            "name": "2-(hydroxymethyl)pyridine",
+            "formula": "Hhmp",
+            "role": "bridging ligand L",
+            "amount": "0.10 cm3, 1.00 mmol"
+          },
+          {
+            "name": "sodium methoxide",
+            "formula": "NaOMe",
+            "role": "base",
+            "amount": "0.108 g, 2.00 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "5 min + 20 min stirring; crystals ~3 days",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring; evaporation; filtration; vapor diffusion of Et2O",
+        "workup_and_crystallization": "Evaporated to dryness, redissolved in CH2Cl2, filtered; MeOH added; vapor diffusion of diethyl ether.",
+        "yield": "0.132 g, 35% (anal. for 1b·4H2O)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": "Diamagnetic Y/Zn analogue used for solution NMR to demonstrate cluster integrity; no magnetic or optical measurements reported.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Experimental synthesis 1a and 1b"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis 1a and 1b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Solution NMR Spectroscopy"
+        }
+      ]
+    },
+    {
+      "compound_label": "2a",
+      "compound_name": "[Gd4Cu8(OH)8(hmp)8(O2C-iPr)8](ClO4)4",
+      "formula": "[Gd4Cu8(OH)8(hmp)8(O2CiPr)8](ClO4)4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln4TM8 cubane / square-in-square [Ln4TM8(OH)8] cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Cu(ClO4)2·6H2O (0.370 g, 1.0 mmol), Gd(NO3)3·6H2O (0.226 g, 0.5 mmol), and NaO2C-iPr (0.110 g, 1.0 mmol) were dissolved in 75:25 CH2Cl2/MeOH (20 cm3). Hhmp (0.10 cm3, 1.0 mmol) was added; after 5 min, NaOMe (0.108 g, 2.0 mmol) was added and stirred 20 min. Evaporated to dryness, redissolved in CH2Cl2 (15 cm3), filtered; MeOH (5 cm3) added. Slow evaporation yielded crystals after ~3 days.",
+        "reagents": [
+          {
+            "name": "copper perchlorate hexahydrate",
+            "formula": "Cu(ClO4)2·6H2O",
+            "role": "TM source",
+            "amount": "0.370 g, 1.0 mmol"
+          },
+          {
+            "name": "gadolinium nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.226 g, 0.5 mmol"
+          },
+          {
+            "name": "sodium isobutyrate",
+            "formula": "NaO2CiPr",
+            "role": "carboxylate ligand",
+            "amount": "0.110 g, 1.0 mmol"
+          },
+          {
+            "name": "2-(hydroxymethyl)pyridine",
+            "formula": "Hhmp",
+            "role": "bridging ligand L",
+            "amount": "0.10 cm3, 1.0 mmol"
+          },
+          {
+            "name": "sodium methoxide",
+            "formula": "NaOMe",
+            "role": "base",
+            "amount": "0.108 g, 2.0 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "MeOH"
+        ],
+        "temperature": "room temperature",
+        "time": "5 min + 20 min; crystals ~3 days",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring; evaporation; filtration; slow evaporation",
+        "workup_and_crystallization": "Evaporated to dryness, redissolved in CH2Cl2, filtered; MeOH added; slow evaporation of the filtrate.",
+        "yield": "0.247 g, 61% (anal. for 2a·0.5H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Antiferromagnetic Gd4Cu8 cluster (isostructural to 2b). χMT = 34.5 cm3 K mol−1 at 275 K; fitted JCuCu = 11.84 cm−1, JGdCu = −1.38 cm−1, JGdGd = 0.20 cm−1; ground state S=0. Relatively low MCE versus 1a because AF Cu–Cu pairs cancel; −ΔSm max 5.7 R = 14.6 J kg−1 K−1 at 5.2 K for ΔB = 7–0 T; inverse MCE (−ΔSm negative) at ΔB = 1–0 T.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "34.5",
+            "unit": "cm3 K mol−1",
+            "conditions": "275 K, B = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "JCuCu",
+            "value": "11.84",
+            "unit": "cm−1",
+            "conditions": "ITO-MAGFIT of χMT, Hamiltonian (2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "JGdCu",
+            "value": "-1.38",
+            "unit": "cm−1",
+            "conditions": "ITO-MAGFIT of χMT"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "JGdGd",
+            "value": "0.20",
+            "unit": "cm−1",
+            "conditions": "ITO-MAGFIT of χMT"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm",
+            "value": "14.6",
+            "unit": "J kg−1 K−1",
+            "conditions": "T = 5.2 K, ΔB = (7–0) T; also 5.7 R"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Figure 1; Experimental 2a"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis 2a and 2b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetometry; Magnetocalorics; Figures 10 and 12"
+        }
+      ]
+    },
+    {
+      "compound_label": "2b",
+      "compound_name": "[Y4Cu8(OH)8(hmp)8(O2C-iPr)8](ClO4)4",
+      "formula": "[Y4Cu8(OH)8(hmp)8(O2CiPr)8](ClO4)4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln4TM8 cubane / square-in-square [Ln4TM8(OH)8] cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same as 2a with Y(NO3)3·6H2O (0.192 g, 0.5 mmol) instead of Gd. Cu(ClO4)2·6H2O (0.370 g, 1.0 mmol), NaO2C-iPr (0.110 g, 1.0 mmol), Hhmp (0.10 cm3, 1.0 mmol), NaOMe (0.108 g, 2.0 mmol) in 75:25 CH2Cl2/MeOH; evaporation/filtration; slow evaporation, crystals ~3 days.",
+        "reagents": [
+          {
+            "name": "copper perchlorate hexahydrate",
+            "formula": "Cu(ClO4)2·6H2O",
+            "role": "TM source",
+            "amount": "0.370 g, 1.0 mmol"
+          },
+          {
+            "name": "yttrium nitrate hexahydrate",
+            "formula": "Y(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.192 g, 0.5 mmol"
+          },
+          {
+            "name": "sodium isobutyrate",
+            "formula": "NaO2CiPr",
+            "role": "carboxylate ligand",
+            "amount": "0.110 g, 1.0 mmol"
+          },
+          {
+            "name": "2-(hydroxymethyl)pyridine",
+            "formula": "Hhmp",
+            "role": "bridging ligand L",
+            "amount": "0.10 cm3, 1.0 mmol"
+          },
+          {
+            "name": "sodium methoxide",
+            "formula": "NaOMe",
+            "role": "base",
+            "amount": "0.108 g, 2.0 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "MeOH"
+        ],
+        "temperature": "room temperature",
+        "time": "5 min + 20 min; crystals ~3 days",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring; evaporation; filtration; slow evaporation",
+        "workup_and_crystallization": "Evaporated to dryness, redissolved in CH2Cl2, filtered; MeOH added; slow evaporation.",
+        "yield": "0.275 g, 74% (anal. for 2b·0.5H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Diamagnetic Y(III) analogue isolating Cu–Cu exchange. Weak antiferromagnetic Cu–Cu coupling (JCuCu = 4.83 cm−1); χMT nearly constant 275–40 K then falls to 1.6 cm3 K mol−1 at 5 K; gCu = 2.15.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "3.47",
+            "unit": "cm3 K mol−1",
+            "conditions": "275 K, B = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "1.6",
+            "unit": "cm3 K mol−1",
+            "conditions": "5 K, B = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "JCuCu",
+            "value": "4.83",
+            "unit": "cm−1",
+            "conditions": "fit of χMT to Hamiltonian (1); DCu = 0"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "gCu",
+            "value": "2.15",
+            "unit": null,
+            "conditions": "fixed from 275 K χMT"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Experimental 2a and 2b"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis 2a and 2b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetometry; Figure 10"
+        }
+      ]
+    },
+    {
+      "compound_label": "3a",
+      "compound_name": "[Gd4Cu8(OH)8(hep)8(O2C-iPr)8](ClO4)4",
+      "formula": "[Gd4Cu8(OH)8(hep)8(O2CiPr)8](ClO4)4",
+      "ccdc_numbers": [
+        "913280"
+      ],
+      "ccdc_refcodes": [
+        "HALHOU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln4TM8 cubane / square-in-square [Ln4TM8(OH)8] cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Cu(ClO4)2·6H2O (0.370 g, 1.0 mmol), Gd(NO3)3·6H2O (0.226 g, 0.5 mmol), and NaO2C-iPr (0.110 g, 1.0 mmol) were dissolved in 50:50 CH2Cl2/MeOH (20 cm3). Hhep (0.11 cm3, 1.0 mmol) was added; after 5 min, NEt3 (0.28 cm3, 2.0 mmol) was added and stirred 20 min. Filtered; slow evaporation of the filtrate yielded crystals after ~5 days.",
+        "reagents": [
+          {
+            "name": "copper perchlorate hexahydrate",
+            "formula": "Cu(ClO4)2·6H2O",
+            "role": "TM source",
+            "amount": "0.370 g, 1.0 mmol"
+          },
+          {
+            "name": "gadolinium nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.226 g, 0.5 mmol"
+          },
+          {
+            "name": "sodium isobutyrate",
+            "formula": "NaO2CiPr",
+            "role": "carboxylate ligand",
+            "amount": "0.110 g, 1.0 mmol"
+          },
+          {
+            "name": "2-(hydroxyethyl)pyridine",
+            "formula": "Hhep",
+            "role": "bridging ligand L",
+            "amount": "0.11 cm3, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.28 cm3, 2.0 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "MeOH"
+        ],
+        "temperature": "room temperature",
+        "time": "5 min + 20 min; crystals ~5 days",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring; filtration; slow evaporation",
+        "workup_and_crystallization": "Reaction mixture filtered; slow evaporation of the filtrate.",
+        "yield": "0.083 g, 21% (anal. for 3a·8MeOH)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "dc susceptibility measured 5–275 K at 0.1 T; magnetic properties stated to be similar to 2a, with detailed plots in the SI.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Figure 3; Experimental 3a"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "HALHOU / 913280 matches C88H128Cu8Gd4 cation of 3a"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis 3a"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetometry (data for 3a in SI Figures S2–S3)"
+        }
+      ]
+    },
+    {
+      "compound_label": "4a",
+      "compound_name": "[Gd4Cu8(OH)8(Hpdm)8(O2C-tBu)8](ClO4)4",
+      "formula": "[Gd4Cu8(OH)8(Hpdm)8(O2CtBu)8](ClO4)4",
+      "ccdc_numbers": [
+        "913281"
+      ],
+      "ccdc_refcodes": [
+        "HALHAG"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln4TM8 cubane / square-in-square [Ln4TM8(OH)8] cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Cu(ClO4)2·6H2O (0.370 g, 1.0 mmol), Gd(NO3)3·6H2O (0.226 g, 0.5 mmol), and NaO2C-tBu (0.124 g, 1.0 mmol) were dissolved in 50:50 CH2Cl2/MeOH (20 cm3). Pyridine-2,6-dimethanol (H2pdm, 0.139 g, 1.0 mmol) was added; after 5 min, NEt3 (0.28 cm3, 2.0 mmol) was added and stirred 20 min. Filtered; slow evaporation yielded crystals after ~7 days.",
+        "reagents": [
+          {
+            "name": "copper perchlorate hexahydrate",
+            "formula": "Cu(ClO4)2·6H2O",
+            "role": "TM source",
+            "amount": "0.370 g, 1.0 mmol"
+          },
+          {
+            "name": "gadolinium nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.226 g, 0.5 mmol"
+          },
+          {
+            "name": "sodium pivalate",
+            "formula": "NaO2CtBu",
+            "role": "carboxylate ligand",
+            "amount": "0.124 g, 1.0 mmol"
+          },
+          {
+            "name": "pyridine-2,6-dimethanol",
+            "formula": "H2pdm",
+            "role": "bridging ligand L",
+            "amount": "0.139 g, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.28 cm3, 2.0 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "MeOH"
+        ],
+        "temperature": "room temperature",
+        "time": "5 min + 20 min; crystals ~7 days",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring; filtration; slow evaporation",
+        "workup_and_crystallization": "Reaction mixture filtered; slow evaporation of the filtrate.",
+        "yield": "0.064 g, 14% (anal. for 4a·2MeOH·2H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "dc susceptibility measured 5–275 K at 0.1 T; magnetic properties stated to be similar to 2a, with detailed plots in the SI.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Experimental 4a"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "HALHAG / 913281 C96H144Cu8Gd4 matches 4a"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis 4a"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetometry (data in SI)"
+        }
+      ]
+    },
+    {
+      "compound_label": "5a",
+      "compound_name": "[Gd4Cu8(OH)8(ea)8(O2CMe)8](ClO4)4",
+      "formula": "[Gd4Cu8(OH)8(ea)8(O2CMe)8](ClO4)4",
+      "ccdc_numbers": [
+        "913282"
+      ],
+      "ccdc_refcodes": [
+        "HALGIN"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln4TM8 cubane / square-in-square [Ln4TM8(OH)8] cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Cu(ClO4)2·6H2O (0.370 g, 1.0 mmol), Gd(NO3)3·6H2O (0.226 g, 0.5 mmol), and NaO2CMe (0.082 g, 1.0 mmol) were dissolved in 50:50 CH2Cl2/MeOH (20 cm3). 2-Ethanolamine (Hea, 1.0 cm3 of 1.0 mol dm−3 MeOH solution, 1.0 mmol) was added; after 5 min, NEt3 (0.28 cm3, 2.0 mmol) was added and stirred 20 min. Vapor diffusion of diethyl ether yielded crystals after ~5 days.",
+        "reagents": [
+          {
+            "name": "copper perchlorate hexahydrate",
+            "formula": "Cu(ClO4)2·6H2O",
+            "role": "TM source",
+            "amount": "0.370 g, 1.0 mmol"
+          },
+          {
+            "name": "gadolinium nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.226 g, 0.5 mmol"
+          },
+          {
+            "name": "sodium acetate",
+            "formula": "NaO2CMe",
+            "role": "carboxylate ligand",
+            "amount": "0.082 g, 1.0 mmol"
+          },
+          {
+            "name": "2-ethanolamine",
+            "formula": "Hea",
+            "role": "bridging ligand L",
+            "amount": "1.0 cm3 of 1.0 mol dm−3 MeOH solution, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.28 cm3, 2.0 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "5 min + 20 min; crystals ~5 days",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring; vapor diffusion of Et2O",
+        "workup_and_crystallization": "Vapor diffusion of diethyl ether into the reaction solution.",
+        "yield": "0.112 g, 34% (anal. for 5a·2H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "dc susceptibility measured 5–275 K at 0.1 T; magnetic properties stated to be similar to 2a, with detailed plots in the SI.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Experimental 5a"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "HALGIN / 913282 C32H80Cu8Gd4 matches 5a"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis 5a"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetometry (data in SI)"
+        }
+      ]
+    },
+    {
+      "compound_label": "6a",
+      "compound_name": "[Gd4Ni8(OH)8(hmp)8(O2CEt)8(MeOH)6](ClO4)4",
+      "formula": "[Gd4Ni8(OH)8(hmp)8(O2CEt)8(MeOH)6](ClO4)4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln4TM8 cubane / square-in-square [Ln4TM8(OH)8] cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Ni(ClO4)2·6H2O (0.366 g, 1.0 mmol), Gd(NO3)3·6H2O (0.226 g, 0.5 mmol), and NaO2CEt (0.096 g, 1.0 mmol) were dissolved in 50:50 CH2Cl2/MeOH (20 cm3). Hhmp (0.10 cm3, 1.0 mmol) was added; after 5 min, NaOMe (0.108 g, 2.0 mmol) was added and stirred 20 min. Evaporated to dryness, redissolved in 50:50 CH2Cl2/MeOH (20 cm3), filtered. Vapor diffusion of diethyl ether yielded crystals after ~14 days.",
+        "reagents": [
+          {
+            "name": "nickel perchlorate hexahydrate",
+            "formula": "Ni(ClO4)2·6H2O",
+            "role": "TM source",
+            "amount": "0.366 g, 1.0 mmol"
+          },
+          {
+            "name": "gadolinium nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.226 g, 0.5 mmol"
+          },
+          {
+            "name": "sodium propionate",
+            "formula": "NaO2CEt",
+            "role": "carboxylate ligand",
+            "amount": "0.096 g, 1.0 mmol"
+          },
+          {
+            "name": "2-(hydroxymethyl)pyridine",
+            "formula": "Hhmp",
+            "role": "bridging ligand L",
+            "amount": "0.10 cm3, 1.0 mmol"
+          },
+          {
+            "name": "sodium methoxide",
+            "formula": "NaOMe",
+            "role": "base",
+            "amount": "0.108 g, 2.0 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "5 min + 20 min; crystals ~14 days",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring; evaporation; filtration; vapor diffusion of Et2O",
+        "workup_and_crystallization": "Evaporated to dryness, redissolved in 50:50 CH2Cl2/MeOH, filtered; vapor diffusion of diethyl ether.",
+        "yield": "0.087 g, 21% (anal. for 6a·4H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Ferromagnetic Gd4Ni8 cluster with the largest MCE in the hmp series. χMT = 39.5 cm3 K mol−1 at 275 K; preferred exchange set JNiNi = −24.0 cm−1, JGdNi = −0.34 cm−1, JGdGd = 0.20 cm−1 (FTLM); ground-state S = 14. −ΔSm = 9.3 R = 23.0 J kg−1 K−1 at 3.8 K for ΔB = 7–0 T.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "39.5",
+            "unit": "cm3 K mol−1",
+            "conditions": "275 K, B = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "JNiNi",
+            "value": "-24.0",
+            "unit": "cm−1",
+            "conditions": "FTLM simulation of χMT (ferromagnetic preferred)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "JGdNi",
+            "value": "-0.34",
+            "unit": "cm−1",
+            "conditions": "FTLM simulation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "JGdGd",
+            "value": "0.20",
+            "unit": "cm−1",
+            "conditions": "FTLM simulation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ground-state spin S",
+            "value": "14",
+            "unit": null,
+            "conditions": "from preferred ferromagnetic parameter set"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm",
+            "value": "23.0",
+            "unit": "J kg−1 K−1",
+            "conditions": "T = 3.8 K, ΔB = (7–0) T; also 9.3 R"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Experimental 6a"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis 6a and 6b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetometry; Magnetocalorics; Figures 10 and 12"
+        }
+      ]
+    },
+    {
+      "compound_label": "6b",
+      "compound_name": "[Y4Ni8(OH)8(hmp)8(O2CEt)8(MeOH)6](ClO4)4",
+      "formula": "[Y4Ni8(OH)8(hmp)8(O2CEt)8(MeOH)6](ClO4)4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln4TM8 cubane / square-in-square [Ln4TM8(OH)8] cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same as 6a with Y(NO3)3·6H2O (0.192 g, 0.5 mmol). Ni(ClO4)2·6H2O (0.366 g, 1.0 mmol), NaO2CEt (0.096 g, 1.0 mmol), Hhmp (0.10 cm3, 1.0 mmol), NaOMe (0.108 g, 2.0 mmol) in 50:50 CH2Cl2/MeOH; evaporation/redissolution/filtration; Et2O vapor diffusion, crystals ~14 days.",
+        "reagents": [
+          {
+            "name": "nickel perchlorate hexahydrate",
+            "formula": "Ni(ClO4)2·6H2O",
+            "role": "TM source",
+            "amount": "0.366 g, 1.0 mmol"
+          },
+          {
+            "name": "yttrium nitrate hexahydrate",
+            "formula": "Y(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.192 g, 0.5 mmol"
+          },
+          {
+            "name": "sodium propionate",
+            "formula": "NaO2CEt",
+            "role": "carboxylate ligand",
+            "amount": "0.096 g, 1.0 mmol"
+          },
+          {
+            "name": "2-(hydroxymethyl)pyridine",
+            "formula": "Hhmp",
+            "role": "bridging ligand L",
+            "amount": "0.10 cm3, 1.0 mmol"
+          },
+          {
+            "name": "sodium methoxide",
+            "formula": "NaOMe",
+            "role": "base",
+            "amount": "0.108 g, 2.0 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "5 min + 20 min; crystals ~14 days",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring; evaporation; filtration; vapor diffusion of Et2O",
+        "workup_and_crystallization": "Evaporated to dryness, redissolved in 50:50 CH2Cl2/MeOH, filtered; vapor diffusion of diethyl ether.",
+        "yield": "0.102 g, 27% (anal. for 6b·4H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Y analogue isolating ferromagnetic Ni–Ni coupling. χMT rises from 8.13 (275 K) to ~11.5 (20 K) then 9.3 cm3 K mol−1 at 5 K. Fit: JNiNi = −21.68 cm−1; DNi ≈ ±7 cm−1 (sign undetermined). Each {Y2Ni2O4} cubane has an S=2 ground state.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "8.13",
+            "unit": "cm3 K mol−1",
+            "conditions": "275 K, B = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "11.5",
+            "unit": "cm3 K mol−1",
+            "conditions": "maximum at 20 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "9.3",
+            "unit": "cm3 K mol−1",
+            "conditions": "5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "JNiNi",
+            "value": "-21.68",
+            "unit": "cm−1",
+            "conditions": "fit of χMT to Hamiltonian (1)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "DNi",
+            "value": "-7.62 or +7.12",
+            "unit": "cm−1",
+            "conditions": "χMT fit; sign not determined"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Experimental 6a and 6b"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis 6a and 6b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetometry; Figure 10"
+        }
+      ]
+    },
+    {
+      "compound_label": "7a",
+      "compound_name": "[Gd4Co8(OH)8(hmp)8(O2CEt)8(MeOH)6](ClO4)4",
+      "formula": "[Gd4Co8(OH)8(hmp)8(O2CEt)8(MeOH)6](ClO4)4",
+      "ccdc_numbers": [
+        "913284"
+      ],
+      "ccdc_refcodes": [
+        "HALHIO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln4TM8 cubane / square-in-square [Ln4TM8(OH)8] cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Co(ClO4)2·6H2O (0.367 g, 1.0 mmol), Gd(NO3)3·6H2O (0.226 g, 0.5 mmol), and NaO2CEt (0.096 g, 1.0 mmol) were dissolved in 50:50 CH2Cl2/MeOH (20 cm3). Hhmp (0.10 cm3, 1.0 mmol) was added; after 5 min, NaOMe (0.108 g, 2.0 mmol) was added and stirred 20 min. Evaporated to dryness, redissolved in 50:50 CH2Cl2/MeOH (20 cm3), filtered. Vapor diffusion of diethyl ether yielded crystals after ~14 days.",
+        "reagents": [
+          {
+            "name": "cobalt perchlorate hexahydrate",
+            "formula": "Co(ClO4)2·6H2O",
+            "role": "TM source",
+            "amount": "0.367 g, 1.0 mmol"
+          },
+          {
+            "name": "gadolinium nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.226 g, 0.5 mmol"
+          },
+          {
+            "name": "sodium propionate",
+            "formula": "NaO2CEt",
+            "role": "carboxylate ligand",
+            "amount": "0.096 g, 1.0 mmol"
+          },
+          {
+            "name": "2-(hydroxymethyl)pyridine",
+            "formula": "Hhmp",
+            "role": "bridging ligand L",
+            "amount": "0.10 cm3, 1.0 mmol"
+          },
+          {
+            "name": "sodium methoxide",
+            "formula": "NaOMe",
+            "role": "base",
+            "amount": "0.108 g, 2.0 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "5 min + 20 min; crystals ~14 days",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring; evaporation; filtration; vapor diffusion of Et2O",
+        "workup_and_crystallization": "Evaporated to dryness, redissolved in 50:50 CH2Cl2/MeOH, filtered; vapor diffusion of diethyl ether.",
+        "yield": "0.056 g, 13% (anal. for 7a)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Anisotropic Gd4Co8 cluster. χMT = 55.9 cm3 K mol−1 at 275 K (gCo ≈ 2.55). Magnetization 46.7 μB at 7 T suggests a field-induced intermediate ground state near S=20. Co(II) anisotropy reduces MCE at low ΔB; −ΔSm = 7.9 R = 19.7 J kg−1 K−1 at 4.0 K for ΔB = 7–0 T, comparable to 1a.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "55.9",
+            "unit": "cm3 K mol−1",
+            "conditions": "275 K, B = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "46.7",
+            "unit": "μB",
+            "conditions": "7 T (VTVH)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm",
+            "value": "19.7",
+            "unit": "J kg−1 K−1",
+            "conditions": "T = 4.0 K, ΔB = (7–0) T; also 7.9 R"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Experimental 7a"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "HALHIO / 913284 C78H120Co8Gd4 matches 7a"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis 7a and 7b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetometry; Magnetocalorics; Figures 10 and 12"
+        }
+      ]
+    },
+    {
+      "compound_label": "7b",
+      "compound_name": "[Y4Co8(OH)8(hmp)8(O2CEt)8(MeOH)6](ClO4)4",
+      "formula": "[Y4Co8(OH)8(hmp)8(O2CEt)8(MeOH)6](ClO4)4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Y"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Ln4TM8 cubane / square-in-square [Ln4TM8(OH)8] cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same as 7a with Y(NO3)3·6H2O (0.192 g, 0.5 mmol). Co(ClO4)2·6H2O (0.367 g, 1.0 mmol), NaO2CEt (0.096 g, 1.0 mmol), Hhmp (0.10 cm3, 1.0 mmol), NaOMe (0.108 g, 2.0 mmol) in 50:50 CH2Cl2/MeOH; evaporation/redissolution/filtration; Et2O vapor diffusion, crystals ~14 days.",
+        "reagents": [
+          {
+            "name": "cobalt perchlorate hexahydrate",
+            "formula": "Co(ClO4)2·6H2O",
+            "role": "TM source",
+            "amount": "0.367 g, 1.0 mmol"
+          },
+          {
+            "name": "yttrium nitrate hexahydrate",
+            "formula": "Y(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "0.192 g, 0.5 mmol"
+          },
+          {
+            "name": "sodium propionate",
+            "formula": "NaO2CEt",
+            "role": "carboxylate ligand",
+            "amount": "0.096 g, 1.0 mmol"
+          },
+          {
+            "name": "2-(hydroxymethyl)pyridine",
+            "formula": "Hhmp",
+            "role": "bridging ligand L",
+            "amount": "0.10 cm3, 1.0 mmol"
+          },
+          {
+            "name": "sodium methoxide",
+            "formula": "NaOMe",
+            "role": "base",
+            "amount": "0.108 g, 2.0 mmol"
+          }
+        ],
+        "solvents": [
+          "CH2Cl2",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature",
+        "time": "5 min + 20 min; crystals ~14 days",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring; evaporation; filtration; vapor diffusion of Et2O",
+        "workup_and_crystallization": "Evaporated to dryness, redissolved in 50:50 CH2Cl2/MeOH, filtered; vapor diffusion of diethyl ether.",
+        "yield": "0.035 g, 9%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Y analogue isolating Co(II) magnetism. χMT = 22.20 cm3 K mol−1 at 275 K (gCo = 2.43), slight rise to ~22.7 at 150 K, plateau 20.28 at 20 K, then 16.76 at 5 K. Not modeled with a spin Hamiltonian because of orbital degeneracy of octahedral Co(II); qualitative AF Co–Co interactions.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "22.20",
+            "unit": "cm3 K mol−1",
+            "conditions": "275 K, B = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "22.7",
+            "unit": "cm3 K mol−1",
+            "conditions": "maximum at 150 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "20.28",
+            "unit": "cm3 K mol−1",
+            "conditions": "plateau at 20 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "16.76",
+            "unit": "cm3 K mol−1",
+            "conditions": "5 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "identity",
+          "source": "main_text",
+          "location": "abstract; Experimental 7a and 7b"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis 7a and 7b"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetometry; Figure 10"
+        }
+      ]
+    }
+  ]
+}

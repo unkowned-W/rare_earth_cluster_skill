@@ -1,0 +1,291 @@
+{
+  "title": "Unveiling the Werner-Type Cluster Chemistry of Heterometallic 4f/Post-Transition Metals: A {Dy3Bi8} Complex Exhibiting Quantum Tunneling Steps in the Hysteresis Loops and its 1-D Congener",
+  "doi": "10.1021/acs.inorgchem.4c04721",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy3Bi8O6Cl3(saph)9]",
+      "formula": "C117H81Bi8Cl3Dy3N9O24",
+      "ccdc_numbers": [
+        "2380490"
+      ],
+      "ccdc_refcodes": [
+        "HUPDUV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 11,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Bi"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Werner-type {Dy3Bi8} cluster with an elongated trigonal-bipyramidal {Bi8} unit surrounding a {Dy3} equilateral triangle"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under aerobic conditions, solids BiCl3 (0.06 g, 0.20 mmol) and DyCl3·6H2O (0.08 g, 0.20 mmol) were added simultaneously to a stirred orange solution of saphH (0.04 g, 0.20 mmol) and NEt3 (28 μL, 0.20 mmol) in MeOH/MeCN (15 mL, 2:1 v/v). The orange suspension was stirred for 40 min until the solids dissolved, then filtered. Slow evaporation of the filtrate at room temperature afforded X-ray quality yellow platelike crystals of 1 after 4 days. The crystals were collected by filtration, washed with cold MeOH (2 × 2 mL) and Et2O (2 × 5 mL), and dried in air for 24 h. Yield 45% based on saphH.",
+        "reagents": [
+          {
+            "name": "saphH (Schiff base ligand)",
+            "formula": "saphH",
+            "role": "ligand",
+            "amount": "0.04 g, 0.20 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "28 μL, 0.20 mmol"
+          },
+          {
+            "name": "bismuth(III) chloride",
+            "formula": "BiCl3",
+            "role": "metal source",
+            "amount": "0.06 g, 0.20 mmol"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.08 g, 0.20 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 40 min; crystals after 4 days; dried in air 24 h",
+        "ph": null,
+        "vessel_or_method": "aerobic solution synthesis with filtration and slow evaporation",
+        "workup_and_crystallization": "filtration; slow evaporation at room temperature; yellow platelike crystals collected by filtration, washed with cold MeOH (2 × 2 mL) and Et2O (2 × 5 mL), dried in air 24 h",
+        "yield": "45% (based on saphH)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "dc susceptibility of microcrystalline 1 shows χMT = 41.97 cm3 K mol−1 at room temperature (theory 42.51 for three uncoupled DyIII), remaining nearly constant to ~170 K then falling to 22.79 cm3 K mol−1 at 2 K, consistent with crystal-field depopulation and weak intramolecular antiferromagnetic Dy···Dy coupling. Magnetization at 1.9–5 K rises without saturating at 7 T (~15.3 NμB vs 30 NμB expected), indicating anisotropy and a nontoroidal {Dy3} ground state. ac susceptibility (3.0 G ac) shows a frequency-dependent χM″ tail below ~9 K at zero dc field and still only tails under an optimum 600 Oe dc field, indicating slow relaxation/SMM-like behavior with residual QTM. Single-crystal μ-SQUID hysteresis (30 mK–5 K) exhibits rare two-step loops with steps at 0 and ±0.26 T that vanish above ~300 mK and are nearly sweep-rate independent at 30 mK; JIsing ≈ −4.86 cm−1 and JLines ≈ −0.19 cm−1.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 41.97,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, Hdc = 0.1 T, microcrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 22.79,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, Hdc = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 15.3,
+            "unit": "NμB",
+            "conditions": "7 T; T = 1.9, 3, and 5 K; no saturation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac out-of-phase susceptibility χM″ tail onset",
+            "value": "~9",
+            "unit": "K",
+            "conditions": "zero dc field, 3.0 G ac field, 1000 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "optimum Hdc for ac magnetometry",
+            "value": 600,
+            "unit": "Oe",
+            "conditions": "1.9 K, 1000 Hz ac"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "hysteresis loop steps",
+            "value": "0 and ±0.26",
+            "unit": "T",
+            "conditions": "single-crystal μ-SQUID; 30 mK–5 K; field sweep e.g. 8 mT/s; two-step loops"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "JIsing (average Dy···Dy)",
+            "value": -4.86,
+            "unit": "cm−1",
+            "conditions": "from ±0.26 T crossing; Ising Hamiltonian on {Dy3} triangle"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "JLines (average Dy···Dy)",
+            "value": -0.19,
+            "unit": "cm−1",
+            "conditions": "from JIsing/25 for mJ = 15/2"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; section 2.1.1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1; Anal. calc. in 2.1.1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1 (CCDC 2380490)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "HUPDUV matched to CCDC 2380490 / C117H81Bi8Cl3Dy3N9O24"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; section 3.2 Description of Structures"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.1.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3 Magnetic Studies; Figures 5–9"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy3Bi8O6(N3)3(saph)9]n",
+      "formula": "C117H81Bi8Dy3N18O24",
+      "ccdc_numbers": [
+        "2380491"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 11,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Bi"
+        ],
+        "dimensionality": "1D",
+        "structural_family": "1-D zigzag coordination polymer of {Dy3Bi8} cluster nodes linked by end-to-end azide bridges"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Method A: Me3SiN3 (54 μL, 0.40 mmol) was added dropwise over 20 min to a stirred yellow suspension of microcrystalline 1 (0.43 g, 0.10 mmol) in MeCN/THF (15 mL, 1:2 v/v). After dissolution, the yellow solution was filtered and the filtrate evaporated slowly at room temperature. After 3 days, yellow plate-like crystals of 2 were collected, washed with cold MeCN (2 × 2 mL) and Et2O (2 × 5 mL), and dried in air 24 h (yield 20% based on 1). Method B (direct): Me3SiN3 (108 μL, 0.80 mmol) was added to a stirred orange solution of saphH (0.04 g, 0.20 mmol) and NEt3 (28 μL, 0.20 mmol) in MeOH/MeCN (15 mL, 2:1 v/v), then BiCl3 (0.06 g, 0.20 mmol) and DyCl3·6H2O (0.08 g, 0.20 mmol) were added simultaneously. After 40 min stirring, filtration, and slow evaporation, crystals of 2 appeared after 5 days (yield 52% based on saphH).",
+        "reagents": [
+          {
+            "name": "complex 1",
+            "formula": "[Dy3Bi8O6Cl3(saph)9]",
+            "role": "starting cluster (Method A)",
+            "amount": "0.43 g, 0.10 mmol"
+          },
+          {
+            "name": "azidotrimethylsilane",
+            "formula": "Me3SiN3",
+            "role": "azide source (Method A)",
+            "amount": "54 μL, 0.40 mmol"
+          },
+          {
+            "name": "saphH (Schiff base ligand)",
+            "formula": "saphH",
+            "role": "ligand (Method B)",
+            "amount": "0.04 g, 0.20 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base (Method B)",
+            "amount": "28 μL, 0.20 mmol"
+          },
+          {
+            "name": "azidotrimethylsilane",
+            "formula": "Me3SiN3",
+            "role": "azide source (Method B)",
+            "amount": "108 μL, 0.80 mmol"
+          },
+          {
+            "name": "bismuth(III) chloride",
+            "formula": "BiCl3",
+            "role": "metal source (Method B)",
+            "amount": "0.06 g, 0.20 mmol"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source (Method B)",
+            "amount": "0.08 g, 0.20 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "THF",
+          "MeOH"
+        ],
+        "temperature": "room temperature",
+        "time": "Method A: 20 min addition, crystals after 3 days; Method B: stirred 40 min, crystals after 5 days; dried in air 24 h",
+        "ph": null,
+        "vessel_or_method": "aerobic solution synthesis; Method A metathesis of 1; Method B one-pot; filtration and slow evaporation",
+        "workup_and_crystallization": "filtration; slow evaporation; yellow plate-like crystals washed with cold MeCN or MeOH and Et2O, dried in air 24 h",
+        "yield": "Method A 20% (based on 1); Method B 52% (based on saphH)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "The magnetic properties of 2 are described as similar to molecular cluster 1 because the {Dy3Bi8} cores are chemically the same; detailed plots for 2 are given in Supporting Information Figures S8 and S9 rather than numerically in the main text.",
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; section 2.1.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1; Anal. calc. in 2.1.2.1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1 (CCDC 2380491)"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; section 3.2; Figure 4"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "sections 2.1.2.1 Method A and 2.1.2.2 Method B"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3 (similarity to 1; Figures S8 and S9 referenced)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "title": "DyIII single-molecule magnets from ligands incorporating both amine and acylhydrazine Schiff base groups: the centrosymmetric {Dy2} displaying dual magnetic relaxation behaviors",
+  "doi": "10.1039/c9dt04434e",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy2(Haphz)2(OAc)4(MeOH)2]",
+      "formula": "C36H42Dy2N8O12",
+      "ccdc_numbers": [
+        "1964713"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric acetate-bridged {Dy2} dinuclear cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of Dy(OAc)3·4H2O (0.2 mmol), Hpphz (0.1 mmol) and 5 drops of triethylamine in 7 mL MeOH was sealed in a Teflon-lined stainless autoclave after stirring for several minutes. The autoclave was heated to 60 °C for 48 h and then cooled to room temperature at 0.5 °C min−1, giving yellowish crystals of 1. The H2aphz− ligands formed in situ by hydrolysis of the amine Schiff-base group of Hpphz.",
+        "reagents": [
+          {
+            "name": "dysprosium acetate tetrahydrate",
+            "formula": "Dy(OAc)3·4H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "N′-(2-pyridylmethylidene)-2-(2-pyridylmethylideneamino)benzohydrazide (Hpphz)",
+            "formula": "C19H15N5O",
+            "role": "ligand precursor (in situ hydrolyzed to Haphz−)",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "5 drops"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "60 °C",
+        "time": "48 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal; Teflon-lined stainless autoclave",
+        "workup_and_crystallization": "cooled to room temperature at 0.5 °C min−1; yellowish crystals suitable for X-ray diffraction",
+        "yield": "32% (based on Hpphz)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field SMM with a single relaxation process (Ueff = 59 K). Under 1 kOe, field-induced dual (FR/SR) relaxation appears; dilution in Y (1@Y) restores one-step relaxation, indicating dual relaxation arises from single-ion anisotropy plus Dy···Dy interactions.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 28.02,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1 kOe, 300–2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 59,
+            "unit": "K",
+            "conditions": "zero dc field; fit of ln τ vs T−1 to Orbach+direct+QTM (eqn 2); τ0 = 2.75×10−6 s, A = 96.29 K−1 s−1, τQTM = 0.0018 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (slow relaxation)",
+            "value": 52,
+            "unit": "K",
+            "conditions": "1 kOe dc field; SR process; τ0 = 6.80×10−6 s, C = 16.20 s−1 K−0.35, n = 0.35"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (fast relaxation)",
+            "value": 3.7,
+            "unit": "K",
+            "conditions": "1 kOe dc field; FR Arrhenius fit; τ0 = 1.86×10−4 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "α (Cole–Cole)",
+            "value": "0.03–0.22",
+            "unit": null,
+            "conditions": "zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental section, Syntheses of 1 and 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray crystallography; CCDC 1964713–1964715 for 1–3"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Syntheses of 1 and 2"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Structural analysis; Fig. 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Static and dynamic magnetic properties; Figs. 3–5"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy2(Haphz)2(OAc)4(EtOH)2]",
+      "formula": "C38H46Dy2N8O12",
+      "ccdc_numbers": [
+        "1964714"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric acetate-bridged {Dy2} dinuclear cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same solvothermal procedure as 1, except that MeOH was replaced by EtOH: Dy(OAc)3·4H2O (0.2 mmol), Hpphz (0.1 mmol) and 5 drops of triethylamine in 7 mL EtOH, heated at 60 °C for 48 h in a Teflon-lined autoclave, then cooled at 0.5 °C min−1.",
+        "reagents": [
+          {
+            "name": "dysprosium acetate tetrahydrate",
+            "formula": "Dy(OAc)3·4H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "Hpphz",
+            "formula": "C19H15N5O",
+            "role": "ligand precursor (in situ hydrolyzed to Haphz−)",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "5 drops"
+          }
+        ],
+        "solvents": [
+          "EtOH"
+        ],
+        "temperature": "60 °C",
+        "time": "48 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal; Teflon-lined stainless autoclave",
+        "workup_and_crystallization": "cooled to room temperature at 0.5 °C min−1; yellowish crystals",
+        "yield": "29% (based on Hpphz)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field SMM (Ueff = 59 K) with field-induced dual relaxation under 1 kOe; diluted 2@Y shows only one-step relaxation.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 28.01,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1 kOe, 300–2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 59,
+            "unit": "K",
+            "conditions": "zero dc field; eqn 2; τ0 = 2.94×10−6 s, τQTM = 0.0005 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (slow relaxation)",
+            "value": 52,
+            "unit": "K",
+            "conditions": "1 kOe; SR; τ0 = 5.97×10−6 s, C = 31.98 s−1 K−0.51, n = 0.51"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff (fast relaxation)",
+            "value": 0.5,
+            "unit": "K",
+            "conditions": "1 kOe; FR Arrhenius; τ0 = 2.40×10−4 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "α (Cole–Cole)",
+            "value": "0.02–0.30",
+            "unit": null,
+            "conditions": "zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental section, Syntheses of 1 and 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray crystallography; CCDC 1964714 for 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Syntheses of 1 and 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Static and dynamic magnetic properties; Figs. 3–5"
+        }
+      ]
+    },
+    {
+      "compound_label": "1@Y",
+      "compound_name": "Y-diluted analogue of 1",
+      "formula": null,
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy",
+          "Y"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "magnetically diluted {Dy2}/{Y2} analogue of 1"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared as for 1 except Dy(OAc)3·4H2O was replaced by a 1:9 molar mixture of Dy(OAc)3·4H2O and Y(OAc)3·4H2O. EDS: 10.83% Dy and 89.07% Y in the crystalline product.",
+        "reagents": [
+          {
+            "name": "dysprosium acetate tetrahydrate",
+            "formula": "Dy(OAc)3·4H2O",
+            "role": "paramagnetic metal source",
+            "amount": "1:9 molar ratio vs Y salt"
+          },
+          {
+            "name": "yttrium acetate tetrahydrate",
+            "formula": "Y(OAc)3·4H2O",
+            "role": "diamagnetic diluent",
+            "amount": "1:9 Dy:Y molar ratio"
+          },
+          {
+            "name": "Hpphz",
+            "formula": "C19H15N5O",
+            "role": "ligand precursor",
+            "amount": "as for 1 (0.1 mmol procedure)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "5 drops (as for 1)"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "60 °C",
+        "time": "48 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal; same method as 1",
+        "workup_and_crystallization": "crystalline product; PXRD matched simulated 1",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "One-step SMM relaxation under both zero and 0.4 kOe fields; dual relaxation of 1 is lost upon dilution.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 62,
+            "unit": "K",
+            "conditions": "zero dc field; τ0 = 2.57×10−7 s, τQTM = 0.0005 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 60,
+            "unit": "K",
+            "conditions": "0.4 kOe; τ0 = 1.0×10−5 s, A = 0.65 K−1 s−1, C = 5.60×10−4 s−1 K−6.83, n = 6.83"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of diluted samples of 1 and 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Dynamic magnetic properties; Figs. 6–7"
+        }
+      ]
+    },
+    {
+      "compound_label": "2@Y",
+      "compound_name": "Y-diluted analogue of 2",
+      "formula": null,
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 2,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy",
+          "Y"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "magnetically diluted {Dy2}/{Y2} analogue of 2"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared as for 2 except Dy(OAc)3·4H2O was replaced by a 1:9 molar mixture of Dy(OAc)3·4H2O and Y(OAc)3·4H2O. EDS: 8.38% Dy and 91.62% Y.",
+        "reagents": [
+          {
+            "name": "dysprosium acetate tetrahydrate",
+            "formula": "Dy(OAc)3·4H2O",
+            "role": "paramagnetic metal source",
+            "amount": "1:9 molar ratio vs Y salt"
+          },
+          {
+            "name": "yttrium acetate tetrahydrate",
+            "formula": "Y(OAc)3·4H2O",
+            "role": "diamagnetic diluent",
+            "amount": "1:9 Dy:Y molar ratio"
+          },
+          {
+            "name": "Hpphz",
+            "formula": "C19H15N5O",
+            "role": "ligand precursor",
+            "amount": "as for 2"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "5 drops (as for 2)"
+          }
+        ],
+        "solvents": [
+          "EtOH"
+        ],
+        "temperature": "60 °C",
+        "time": "48 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal; same method as 2",
+        "workup_and_crystallization": "crystalline product; PXRD matched simulated 2",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "One-step relaxation under zero and 0.4 kOe fields; dual relaxation of undiluted 2 is absent after dilution.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 63,
+            "unit": "K",
+            "conditions": "zero dc field; τ0 = 6.51×10−8 s, τQTM = 0.0003 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 51,
+            "unit": "K",
+            "conditions": "0.4 kOe; τ0 = 5.2×10−6 s, A = 2.26 K−1 s−1, C = 1.25×10−3 s−1 K−6.48, n = 6.48"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Preparation of diluted samples of 1 and 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Dynamic magnetic properties; Figs. 6–7"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Dy6(sshz)4(μ4-O)(μ3-OH)4(MeOH)4]2·17.5MeOH·2H2O",
+      "formula": "C88H76Dy6N12O21·8.75MeOH·H2O",
+      "ccdc_numbers": [
+        "1964715"
+      ],
+      "ccdc_refcodes": [
+        "KACJOR"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "hexanuclear {Dy6} cluster of two {Dy3} triangular units (two discrete cores in the crystal)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of Dy(NO3)3·6H2O (0.15 mmol), H3sshz (0.1 mmol) and 7 drops of triethylamine in 7 mL MeOH was sealed in a Teflon-lined stainless autoclave after stirring for several minutes. Heated to 80 °C for 72 h, then cooled to room temperature at 0.5 °C min−1 to give yellowish crystals of 3.",
+        "reagents": [
+          {
+            "name": "dysprosium nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.15 mmol"
+          },
+          {
+            "name": "N′-(2-salicylmethylidene)-2-(2-salicylmethylideneamino)benzohydrazide (H3sshz)",
+            "formula": "C21H17N3O3",
+            "role": "ligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "7 drops"
+          }
+        ],
+        "solvents": [
+          "MeOH"
+        ],
+        "temperature": "80 °C",
+        "time": "72 h",
+        "ph": null,
+        "vessel_or_method": "solvothermal; Teflon-lined stainless autoclave",
+        "workup_and_crystallization": "cooled at 0.5 °C min−1; yellowish crystals suitable for X-ray diffraction",
+        "yield": "29% (based on H3sshz)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Zero-field SMM with a single relaxation process (Ueff = 14 K); under 2 kOe Ueff = 15 K with a Raman contribution.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 85.3,
+            "unit": "cm3 mol−1 K",
+            "conditions": "1 kOe, 300–2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 14,
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius eqn (1); τ0 = 1.23×10−5 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 15,
+            "unit": "K",
+            "conditions": "2 kOe; eqn (2); τ0 = 4.36×10−5 s, C = 4.36 s−1 K−2.39, n = 2.39"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "α (Cole–Cole)",
+            "value": "0.03–0.23",
+            "unit": null,
+            "conditions": "zero dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1964715 / KACJOR"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "KACJOR"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 3"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract and structural analysis"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Static and dynamic magnetic properties; Figs. 3 and 8"
+        }
+      ]
+    }
+  ]
+}

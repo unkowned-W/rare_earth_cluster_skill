@@ -1,0 +1,234 @@
+{
+  "refcode": "PEFLUJ",
+  "ccdc_number": "833580",
+  "dois": [
+    "10.1021/cg300173t"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\833580.cif",
+  "formula_moiety": "C84 H116 Dy4 O36 S8,4(H2 O1)",
+  "crystal_system": "orthorhombic",
+  "space_group_hm": "P n n m",
+  "international_tables_number": "58",
+  "unit_cell": {
+    "a": "32.308(6)",
+    "b": "12.271(2)",
+    "c": "20.700(4)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "8206.55",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O10A",
+        "O1W",
+        "O2",
+        "O4",
+        "O8"
+      ]
+    },
+    {
+      "label": "Dy1E",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10D",
+        "O10E",
+        "O1E",
+        "O1WE",
+        "O2",
+        "O4E",
+        "O8E"
+      ]
+    },
+    {
+      "label": "Dy1D",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10D",
+        "O10E",
+        "O1D",
+        "O1WD",
+        "O2A",
+        "O4D",
+        "O8D"
+      ]
+    },
+    {
+      "label": "Dy1A",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O10A",
+        "O1A",
+        "O1WA",
+        "O2A",
+        "O4A",
+        "O8A"
+      ]
+    },
+    {
+      "label": "Dy2?",
+      "element": "Dy",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy1A"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O10A"
+        ],
+        "metal_metal_separation_angstrom": 3.756,
+        "bridge_geometry": [
+          {
+            "oxygen": "O10",
+            "angle_deg": 107.57,
+            "metal_oxygen_distances_angstrom": [
+              2.342,
+              2.314
+            ]
+          },
+          {
+            "oxygen": "O10A",
+            "angle_deg": 107.57,
+            "metal_oxygen_distances_angstrom": [
+              2.314,
+              2.342
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy1E"
+        ],
+        "shared_oxygen_labels": [
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 2.578,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 67.81,
+            "metal_oxygen_distances_angstrom": [
+              2.311,
+              2.311
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1A",
+          "Dy1D"
+        ],
+        "shared_oxygen_labels": [
+          "O2A"
+        ],
+        "metal_metal_separation_angstrom": 2.578,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2A",
+            "angle_deg": 67.81,
+            "metal_oxygen_distances_angstrom": [
+              2.311,
+              2.311
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1D",
+          "Dy1E"
+        ],
+        "shared_oxygen_labels": [
+          "O10D",
+          "O10E"
+        ],
+        "metal_metal_separation_angstrom": 3.756,
+        "bridge_geometry": [
+          {
+            "oxygen": "O10E",
+            "angle_deg": 107.57,
+            "metal_oxygen_distances_angstrom": [
+              2.314,
+              2.342
+            ]
+          },
+          {
+            "oxygen": "O10D",
+            "angle_deg": 107.57,
+            "metal_oxygen_distances_angstrom": [
+              2.342,
+              2.314
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy1A",
+        "Dy1D",
+        "Dy1E"
+      ],
+      [
+        "Dy2?"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "PEFLUJ crystallizes in the orthorhombic crystal system with space group P n n m. Reported CIF formula moiety: C84 H116 Dy4 O36 S8,4(H2 O1). From the CIF bond table, Dy1 (Dy) has 7 O neighbors; Dy1E (Dy) has 7 O neighbors; Dy1D (Dy) has 7 O neighbors; Dy1A (Dy) has 7 O neighbors; Dy2? (Dy) has 0 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 2 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 2.578-3.756 Å (not direct metal-metal bonds). Computed M-O-M angles span 67.81-107.57°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Dy4(OH)4(TBSOC)2(H2O)4(CH3OH)4]·4H2O. Explicit grouped units in the article formula/name: 4 OH (explicit grouped unit in article formula), 4 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/cg300173t",
+    "formula": "[Dy4(OH)4(TBSOC)2(H2O)4(CH3OH)4]·4H2O",
+    "compound_name": "[Dy4(OH)4(TBSOC)2(H2O)4(CH3OH)4]·4H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 4,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 4,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

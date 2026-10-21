@@ -1,0 +1,206 @@
+{
+  "title": "Construction of a High-Nuclearity Elliptical Yb(III) Nanoring: NIR Luminescent Response to Metal Ions and Nitro Explosives",
+  "doi": "10.1021/acs.inorgchem.0c02670",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "14-metal Yb(III) nanoring",
+      "formula": "[Yb14(HL)2L20(DMF)8(H2O)8]",
+      "ccdc_numbers": [
+        "1992134"
+      ],
+      "ccdc_refcodes": [
+        "CUVBUT"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 14,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "elliptical Yb14 nanoring"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "To a mixed EtOH/DMF solution of Yb(OAc)3·4H2O and H2L (2,3-dihydroxybenzaldehyde) was added an EtOH solution of triethylamine. The mixture was heated under reflux for 30 min. Red crystals of 1 were obtained by slow diffusion of ether into the solution at room temperature after 1 week, then dried in an oven at 120 °C for 3 h.",
+        "reagents": [
+          {
+            "name": "ytterbium(III) acetate tetrahydrate",
+            "formula": "Yb(OAc)3·4H2O",
+            "role": "metal source",
+            "amount": "0.40 mmol, 0.1689 g"
+          },
+          {
+            "name": "2,3-dihydroxybenzaldehyde",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.60 mmol, 0.0829 g"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1.0 mol/L EtOH solution, 2 mL"
+          }
+        ],
+        "solvents": [
+          "EtOH",
+          "DMF",
+          "ether"
+        ],
+        "temperature": "reflux, then room temperature crystallization; dried at 120 °C",
+        "time": "reflux 30 min; crystallization 1 week; drying 3 h",
+        "ph": null,
+        "vessel_or_method": "reflux in mixed solvent followed by slow ether diffusion",
+        "workup_and_crystallization": "slow diffusion of ether into the reaction solution at room temperature afforded red crystals, which were dried in an oven at 120 °C for 3 h",
+        "yield": "0.0720 g (43% based on H2L)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "In CH3CN, 1 shows ligand-centered visible emission at 502 nm and Yb(III) NIR emission at 980 nm (2F5/2 → 2F7/2) under ligand excitation (λex = 416 nm). Lifetime 7.83 μs and Φem = 0.24%; estimated ΦLn = 0.4% and ηsens = 60%. NIR luminescence is enhanced by Na(I), Zn(II), Cd(II), Mg(II), and Pb(II), and quenched by Cr(III), Hg(II), Mn(II), Ni(II), Fe(III), Cu(II), Co(II), and nitro explosives, with highest sensitivity to Co(II), Cu(II), and picric acid (PA). Demonstrated NIR luminescent sensing of metal ions and nitro explosives at ppm level, including recyclable PA detection.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "NIR emission wavelength",
+            "value": "980",
+            "unit": "nm",
+            "conditions": "CH3CN, 10 μM, λex = 416 nm, 2F5/2 → 2F7/2"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-centered emission wavelength",
+            "value": "502",
+            "unit": "nm",
+            "conditions": "CH3CN"
+          },
+          {
+            "property_type": "optical",
+            "name": "luminescence lifetime",
+            "value": "7.83",
+            "unit": "μs",
+            "conditions": "CH3CN"
+          },
+          {
+            "property_type": "optical",
+            "name": "quantum yield Φem",
+            "value": "0.24",
+            "unit": "%",
+            "conditions": "CH3CN"
+          },
+          {
+            "property_type": "optical",
+            "name": "intrinsic quantum yield ΦLn",
+            "value": "0.4",
+            "unit": "%",
+            "conditions": "estimated as τ/τ0 with τ0 = 2000 μs for Yb(III)"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-to-metal energy transfer efficiency ηsens",
+            "value": "60",
+            "unit": "%",
+            "conditions": "estimated as Φem/ΦLn"
+          },
+          {
+            "property_type": "optical",
+            "name": "KSV Co(II)",
+            "value": "6.0e4",
+            "unit": "M^-1",
+            "conditions": "CH3CN, 1 at 10 μM, NIR emission at 980 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "KSV Cu(II)",
+            "value": "3.8e4",
+            "unit": "M^-1",
+            "conditions": "CH3CN, 1 at 10 μM"
+          },
+          {
+            "property_type": "optical",
+            "name": "KSV PA",
+            "value": "6.9e4",
+            "unit": "M^-1",
+            "conditions": "CH3CN, 1 at 10 μM"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD Co(II)",
+            "value": "1.1",
+            "unit": "μM",
+            "conditions": "LOD = 3σ/KSV"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD Cu(II)",
+            "value": "1.7",
+            "unit": "μM",
+            "conditions": "LOD = 3σ/KSV"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD PA",
+            "value": "0.9",
+            "unit": "μM",
+            "conditions": "LOD = 3σ/KSV"
+          },
+          {
+            "property_type": "optical",
+            "name": "lifetime after Co(II) addition",
+            "value": "5.64",
+            "unit": "μs",
+            "conditions": "17.2 μM Co(II) in CH3CN"
+          },
+          {
+            "property_type": "optical",
+            "name": "quantum yield after Co(II) addition",
+            "value": "0.11",
+            "unit": "%",
+            "conditions": "17.2 μM Co(II); ηsens estimated as 39%"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Experimental Section"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Crystallography; Accession Codes"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row CUVBUT / 1992134"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and Discussion, crystal structure of 1; Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photoluminescence Properties; Luminescent Sensing of Metal Ions and Explosives; Figures 3–7"
+        }
+      ]
+    }
+  ]
+}

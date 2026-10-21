@@ -1,0 +1,131 @@
+{
+  "title": "A Dy10 Cluster Incorporates Two Sets of Vertex-Sharing Dy3 Triangles",
+  "doi": "10.1002/chem.200901506",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy10(μ3-OH)4(OAc)20(H2L)2(H3L)2{NH2C(CH2OH)3}2]",
+      "formula": "C96H148Dy10N6O70",
+      "ccdc_numbers": [
+        "734601"
+      ],
+      "ccdc_refcodes": [
+        "MUJHUV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "Dy10 cluster of four fused μ3-OH-capped Dy3 triangles / two vertex-sharing Dy5 subcores"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A methanolic solution (10 mL) of dysprosium acetate monohydrate (0.40 mmol, 143 mg) was added to the H4L ligand (0.40 mmol, 101 mg) in acetonitrile (40 mL). The resulting yellow solution was left unperturbed to evaporate slowly at room temperature. Yellow crystals suitable for X-ray diffraction were obtained after three weeks.",
+        "reagents": [
+          {
+            "name": "dysprosium acetate monohydrate",
+            "formula": "Dy(OAc)3·H2O",
+            "role": "metal salt",
+            "amount": "0.40 mmol, 143 mg"
+          },
+          {
+            "name": "2-[{(2-hydroxy-3-methoxyphenyl)methylene}amino]-2-(hydroxymethyl)-1,3-propanediol",
+            "formula": "H4L",
+            "role": "ligand",
+            "amount": "0.40 mmol, 101 mg"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "acetonitrile"
+        ],
+        "temperature": "room temperature",
+        "time": "three weeks",
+        "ph": null,
+        "vessel_or_method": "slow evaporation of a methanol/acetonitrile solution",
+        "workup_and_crystallization": "unperturbed slow evaporation; yellow crystals suitable for X-ray diffraction obtained after three weeks",
+        "yield": "60 mg (36.4%, based on the metal)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility (1000 Oe) shows χMT = 130.8 cm3 K mol−1 at 300 K, below the 141.7 cm3 K mol−1 value expected for ten uncoupled DyIII ions, decreasing to 85.3 cm3 K mol−1 at 2 K, attributed to Dy···Dy exchange and depopulation of Stark sublevels. M vs H/T plots below 7 K are non-superimposable; magnetization reaches 55.6 μB at 1.9 K and 7 T without saturation (below 100 μB for ten DyIII). Zero-dc-field ac susceptibility (3.0 G, 1–1400 Hz) shows frequency-dependent in-phase and out-of-phase signals above 1.9 K, indicating onset of slow magnetization relaxation, but no hysteresis on a conventional SQUID; potential SMM behaviour was noted as needing micro-SQUID confirmation.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 130.8,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (expected for 10 uncoupled DyIII)",
+            "value": 141.7,
+            "unit": "cm3 K mol-1",
+            "conditions": "S = 5/2, L = 5, 6H15/2, g = 4/3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 85.3,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 55.6,
+            "unit": "μB",
+            "conditions": "1.9 K, 7 T; no saturation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility (onset of slow relaxation)",
+            "value": "frequency-dependent χ' increase and χ'' signal; no M vs H hysteresis on conventional SQUID",
+            "unit": null,
+            "conditions": "3.0 G ac field, 1–1400 Hz, zero dc field; signals above 1.9 K; T range 1.9–300 K on MPMS XL-7"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "introduction / formula of compound 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section CCDC 734601 (1)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC metadata MUJHUV"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc/ac magnetism discussion and Figures 4–6"
+        }
+      ]
+    }
+  ]
+}

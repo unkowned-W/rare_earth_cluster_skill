@@ -1,0 +1,155 @@
+{
+  "title": "A High-Symmetry Double-Shell Gd30Co12 Cluster Exhibiting a Large Magnetocaloric Effect",
+  "doi": "10.1021/acs.inorgchem.1c00993",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Gd30CoII6CoIII6(OH)56(NO3)12(CH3COO)30(H2O)30]·(NO3)22·(en)3·(H2O)3",
+      "formula": "C66H236N40O251Co12Gd30",
+      "ccdc_numbers": [
+        "1979250"
+      ],
+      "ccdc_refcodes": [
+        "OXEMOW"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 42,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "double-shell Gd30Co12 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Cobalt(II) nitrate hexahydrate, gadolinium(III) nitrate hexahydrate, and sodium acetate trihydrate were dissolved in deionized water, ethanol, and ethylenediamine. The solution was stirred for 30 min, adjusted to approximately pH 6.5 with aqueous NaOH, heated at 90 °C for 3 h, and filtered. Rose crystals formed after the filtrate stood for two weeks; they were collected and dried under vacuum at 35 °C.",
+        "reagents": [
+          {
+            "name": "cobalt(II) nitrate hexahydrate",
+            "formula": "Co(NO3)2·6H2O",
+            "role": "cobalt source",
+            "amount": "0.060 g, 0.2 mmol"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "gadolinium source",
+            "amount": "0.360 g, 0.8 mmol"
+          },
+          {
+            "name": "sodium acetate trihydrate",
+            "formula": "CH3COONa·3H2O",
+            "role": "acetate source",
+            "amount": "0.136 g, 1.0 mmol"
+          },
+          {
+            "name": "ethylenediamine",
+            "formula": "C2H8N2",
+            "role": "base and reaction-medium component",
+            "amount": "18 μL"
+          },
+          {
+            "name": "aqueous sodium hydroxide",
+            "formula": "NaOH",
+            "role": "pH adjustment",
+            "amount": "0.5 M; volume not reported"
+          }
+        ],
+        "solvents": [
+          "deionized water (4 mL)",
+          "ethanol (8 mL)",
+          "ethylenediamine (18 μL)"
+        ],
+        "temperature": "90 °C for reaction; 35 °C for vacuum drying",
+        "time": "30 min stirring; 3 h at 90 °C; two weeks for crystallization",
+        "ph": "approximately 6.5",
+        "vessel_or_method": "solution reaction followed by oven heating",
+        "workup_and_crystallization": "Filter the heated solution, keep the filtrate for two weeks, collect the rose crystals, and dry under vacuum at 35 °C.",
+        "yield": "40.8% based on Gd3+"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "The cluster shows weak, predominantly antiferromagnetic interactions and a large magnetocaloric effect.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "251.54",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K; 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": "150.18",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K; 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie–Weiss temperature θ",
+            "value": "-0.59",
+            "unit": "K",
+            "conditions": "fit over 50–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": "252.53",
+            "unit": "cm3 K mol−1",
+            "conditions": "Curie–Weiss fit over 50–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "224.6",
+            "unit": "NμB",
+            "conditions": "2 K; 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change −ΔSm",
+            "value": "44.7",
+            "unit": "J kg−1 K−1",
+            "conditions": "2.0 K; field change of 7 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name, material_class, structure_description",
+          "source": "main_text",
+          "location": "structural discussion and Figures 1–2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Accession Codes"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "supplied CCDC catalog row for DOI"
+        },
+        {
+          "field": "synthesis, formula",
+          "source": "supporting_information",
+          "location": "Supporting Information embedded in supplied Markdown, Experimental Section, Synthesis of 1 and Table S3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic-property discussion, Figure 3 and Table 1"
+        }
+      ],
+      "structure_description": "The discrete 42-metal-ion cluster has an inner Gd30 icosidodecahedron and an outer Co12 icosahedron. Its core is described as assembled from six dicubane-like Gd5Co2 units linked through nitrate and hydroxide bridges."
+    }
+  ]
+}

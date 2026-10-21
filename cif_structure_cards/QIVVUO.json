@@ -1,0 +1,209 @@
+{
+  "refcode": "QIVVUO",
+  "ccdc_number": "975150",
+  "dois": [
+    "10.1021/ic5001045"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\975150.cif",
+  "formula_moiety": "C56 H66 Er4 N10 O22 4+,4(N1 O3 1-),2(C1 H4 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21",
+  "international_tables_number": "4",
+  "unit_cell": {
+    "a": "15.5716(18)",
+    "b": "14.0309(15)",
+    "c": "16.5856(19)",
+    "alpha": "90.00",
+    "beta": "95.035(6)",
+    "gamma": "90.00",
+    "volume": "3609.7",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Er1",
+      "element": "Er",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O4",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Er2",
+      "element": "Er",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12",
+        "O2",
+        "O3",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Er3",
+      "element": "Er",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O13",
+        "O14",
+        "O15",
+        "O2",
+        "O22"
+      ]
+    },
+    {
+      "label": "Er4",
+      "element": "Er",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O16",
+        "O17",
+        "O20",
+        "O21"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Er1",
+          "Er2"
+        ],
+        "shared_oxygen_labels": [
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.707,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 110.02,
+            "metal_oxygen_distances_angstrom": [
+              2.235,
+              2.29
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 109.28,
+            "metal_oxygen_distances_angstrom": [
+              2.218,
+              2.327
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er2",
+          "Er3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.723,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 109.91,
+            "metal_oxygen_distances_angstrom": [
+              2.248,
+              2.299
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 109.96,
+            "metal_oxygen_distances_angstrom": [
+              2.303,
+              2.243
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er3",
+          "Er4"
+        ],
+        "shared_oxygen_labels": [
+          "O14",
+          "O15"
+        ],
+        "metal_metal_separation_angstrom": 3.705,
+        "bridge_geometry": [
+          {
+            "oxygen": "O14",
+            "angle_deg": 110.23,
+            "metal_oxygen_distances_angstrom": [
+              2.312,
+              2.204
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 109.94,
+            "metal_oxygen_distances_angstrom": [
+              2.248,
+              2.276
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Er1",
+        "Er2",
+        "Er3",
+        "Er4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "QIVVUO crystallizes in the monoclinic crystal system with space group P 21. Reported CIF formula moiety: C56 H66 Er4 N10 O22 4+,4(N1 O3 1-),2(C1 H4 O1). From the CIF bond table, Er1 (Er) has 6 O neighbors; Er2 (Er) has 6 O neighbors; Er3 (Er) has 6 O neighbors; Er4 (Er) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.705-3.723 Å (not direct metal-metal bonds). Computed M-O-M angles span 109.28-110.23°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C58H74Er4N14O36. Explicit grouped units in the article formula/name: 2 NO3 (explicit grouped unit in article compound name (structural notation)), 4 NO3 (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic5001045",
+    "formula": "C58H74Er4N14O36",
+    "compound_name": "[Er4(NO3)2(pdmH)6(pdmH2)2](NO3)4·2MeOH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "NO3",
+        "count": 4,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

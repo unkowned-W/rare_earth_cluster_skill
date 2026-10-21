@@ -1,0 +1,156 @@
+{
+  "refcode": "DOJGAO",
+  "ccdc_number": "2060845",
+  "dois": [
+    "10.1021/acs.organomet.3c00427"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2060845.cif",
+  "formula_moiety": "C68 H76 O4 Sm3,0.5(C6 H14),C4 H8 O1",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "13.2647(11)",
+    "b": "25.842(2)",
+    "c": "20.2822(16)",
+    "alpha": "90",
+    "beta": "107.754(3)",
+    "gamma": "90",
+    "volume": "6621.35",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm1",
+      "element": "Sm",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O21",
+        "O22"
+      ]
+    },
+    {
+      "label": "Sm2",
+      "element": "Sm",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O21"
+      ]
+    },
+    {
+      "label": "Sm3",
+      "element": "Sm",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O22"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Sm1",
+          "Sm2"
+        ],
+        "shared_oxygen_labels": [
+          "O12",
+          "O21"
+        ],
+        "metal_metal_separation_angstrom": 3.668,
+        "bridge_geometry": [
+          {
+            "oxygen": "O12",
+            "angle_deg": 102.71,
+            "metal_oxygen_distances_angstrom": [
+              2.301,
+              2.394
+            ]
+          },
+          {
+            "oxygen": "O21",
+            "angle_deg": 99.61,
+            "metal_oxygen_distances_angstrom": [
+              2.53,
+              2.266
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm1",
+          "Sm3"
+        ],
+        "shared_oxygen_labels": [
+          "O22"
+        ],
+        "metal_metal_separation_angstrom": 4.214,
+        "bridge_geometry": [
+          {
+            "oxygen": "O22",
+            "angle_deg": 126.63,
+            "metal_oxygen_distances_angstrom": [
+              2.394,
+              2.322
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm2",
+          "Sm3"
+        ],
+        "shared_oxygen_labels": [
+          "O11"
+        ],
+        "metal_metal_separation_angstrom": 3.952,
+        "bridge_geometry": [
+          {
+            "oxygen": "O11",
+            "angle_deg": 114.38,
+            "metal_oxygen_distances_angstrom": [
+              2.351,
+              2.352
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Sm1",
+        "Sm2",
+        "Sm3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "DOJGAO crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C68 H76 O4 Sm3,0.5(C6 H14),C4 H8 O1. From the CIF bond table, Sm1 (Sm) has 3 O neighbors; Sm2 (Sm) has 3 O neighbors; Sm3 (Sm) has 2 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.668-4.214 Å (not direct metal-metal bonds). Computed M-O-M angles span 99.61-126.63°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Sm3(Cp*)4(phenCat)2] (C68H76O4Sm3); solvate 7a·thf·0.5C6H14 and a solvent-free form.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.organomet.3c00427",
+    "formula": "[Sm3(Cp*)4(phenCat)2] (C68H76O4Sm3); solvate 7a·thf·0.5C6H14 and a solvent-free form",
+    "compound_name": "mixed-valence tetrakis(pentamethylcyclopentadienyl)bis(9,10-phenanthrenediolato)trisamarium, isomer 7a",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

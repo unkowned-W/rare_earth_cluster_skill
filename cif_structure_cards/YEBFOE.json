@@ -1,0 +1,131 @@
+{
+  "refcode": "YEBFOE",
+  "ccdc_number": "2118424",
+  "dois": [
+    "10.1039/d2sc01798a"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2118424.cif",
+  "formula_moiety": "C124 H188 O12 Tm4,7(C5 H12)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "14.9953(7)",
+    "b": "17.8272(9)",
+    "c": "28.3472(16)",
+    "alpha": "75.491(2)",
+    "beta": "82.620(2)",
+    "gamma": "70.215(2)",
+    "volume": "6895.23",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Tm1",
+      "element": "Tm",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3"
+      ]
+    },
+    {
+      "label": "Tm2",
+      "element": "Tm",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O2",
+        "O5",
+        "O7"
+      ]
+    },
+    {
+      "label": "Tm3",
+      "element": "Tm",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Tm4",
+      "element": "Tm",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tm2",
+          "Tm3"
+        ],
+        "shared_oxygen_labels": [
+          "O5",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 4.075,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 126.82,
+            "metal_oxygen_distances_angstrom": [
+              2.263,
+              2.294
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 106.89,
+            "metal_oxygen_distances_angstrom": [
+              2.642,
+              2.428
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tm1"
+      ],
+      [
+        "Tm2",
+        "Tm3"
+      ],
+      [
+        "Tm4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "YEBFOE crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C124 H188 O12 Tm4,7(C5 H12). From the CIF bond table, Tm1 (Tm) has 2 O neighbors; Tm2 (Tm) has 4 O neighbors; Tm3 (Tm) has 5 O neighbors; Tm4 (Tm) has 2 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.075-4.075 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.89-126.82°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C124H188O12Tm4.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d2sc01798a",
+    "formula": "C124H188O12Tm4",
+    "compound_name": "[Tm2(Cp^ttt)3{μ3-C7H7(C4O6)}]2",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

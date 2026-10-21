@@ -1,0 +1,262 @@
+{
+  "refcode": "KADPUE",
+  "ccdc_number": "1993424",
+  "dois": [
+    "10.1039/d0nj04469e"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1993424.cif",
+  "formula_moiety": "C71 H85 N12 O30 Tb5,3(C1 H4 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "14.5063(8)",
+    "b": "15.7926(7)",
+    "c": "20.4639(11)",
+    "alpha": "86.282(2)",
+    "beta": "74.652(3)",
+    "gamma": "89.702(3)",
+    "volume": "4511.06",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O19",
+        "O29",
+        "O30",
+        "O4"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O14",
+        "O2",
+        "O3",
+        "O5",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O20",
+        "O29",
+        "O3",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Tb4",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O13",
+        "O14",
+        "O15",
+        "O23",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tb5",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O16",
+        "O19",
+        "O26",
+        "O30",
+        "O6",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O29",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.88,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 115.08,
+            "metal_oxygen_distances_angstrom": [
+              2.289,
+              2.31
+            ]
+          },
+          {
+            "oxygen": "O29",
+            "angle_deg": 110.38,
+            "metal_oxygen_distances_angstrom": [
+              2.345,
+              2.381
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb5"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O19",
+          "O30"
+        ],
+        "metal_metal_separation_angstrom": 3.626,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 96.98,
+            "metal_oxygen_distances_angstrom": [
+              2.426,
+              2.416
+            ]
+          },
+          {
+            "oxygen": "O19",
+            "angle_deg": 92.48,
+            "metal_oxygen_distances_angstrom": [
+              2.446,
+              2.573
+            ]
+          },
+          {
+            "oxygen": "O30",
+            "angle_deg": 104.44,
+            "metal_oxygen_distances_angstrom": [
+              2.313,
+              2.275
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.903,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 116.09,
+            "metal_oxygen_distances_angstrom": [
+              2.284,
+              2.317
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 110.51,
+            "metal_oxygen_distances_angstrom": [
+              2.36,
+              2.39
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb4"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O14",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.628,
+        "bridge_geometry": [
+          {
+            "oxygen": "O9",
+            "angle_deg": 105.41,
+            "metal_oxygen_distances_angstrom": [
+              2.301,
+              2.26
+            ]
+          },
+          {
+            "oxygen": "O13",
+            "angle_deg": 92.74,
+            "metal_oxygen_distances_angstrom": [
+              2.45,
+              2.562
+            ]
+          },
+          {
+            "oxygen": "O14",
+            "angle_deg": 96.92,
+            "metal_oxygen_distances_angstrom": [
+              2.436,
+              2.412
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3",
+        "Tb4",
+        "Tb5"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "KADPUE crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C71 H85 N12 O30 Tb5,3(C1 H4 O1). From the CIF bond table, Tb1 (Tb) has 6 O neighbors; Tb2 (Tb) has 6 O neighbors; Tb3 (Tb) has 6 O neighbors; Tb4 (Tb) has 7 O neighbors; Tb5 (Tb) has 7 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.626-3.903 Å (not direct metal-metal bonds). Computed M-O-M angles span 92.48-116.09°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C74H97N12O33Tb5.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d0nj04469e",
+    "formula": "C74H97N12O33Tb5",
+    "compound_name": "[Tb5(L)4(acac)7]·3CH3OH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

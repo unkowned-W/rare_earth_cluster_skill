@@ -1,0 +1,149 @@
+{
+  "title": "Tracking the Stepwise Formation of a Water-Soluble Fluorescent Tb12 Cluster for Efficient Doxorubicin Detection",
+  "doi": "10.1021/acs.inorgchem.1c03785",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Tb12",
+      "compound_name": "{[Tb12(μ4-O)2(μ3-OH)12(HCOO)6(L)6](NO3)2·11DMF}",
+      "formula": "C93H155N61O55Tb12",
+      "ccdc_numbers": [
+        "2126210"
+      ],
+      "ccdc_refcodes": [
+        "GASFIT01"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "sandwich-shaped Tb12 cluster of two Tb4 tetrahedra linked by an equilateral triangular Tb4 core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of H2L (0.30 mmol, 0.0792 g; H2L = N-[5-(5-acetylamino-4H-[1,2,4]triazol-3-ylmethyl)-4H-[1,2,4]triazol-3-yl]-acetamide), Tb(NO3)3·6H2O (0.30 mmol, 0.1370 g), and NaN3 (0.60 mmol, 0.0390 g) was added to 7 mL DMF and 7 mL isopropanol and sealed in a 25 mL Teflon-lined stainless steel vessel. The mixture was stirred at room temperature for 20 min, heated at 120 °C for 3 days, then cooled to 25 °C at 5 °C h−1. Colorless block crystals of Tb12 were obtained, washed with filtered stock, and air-dried. Sodium azide was noted as beneficial for crystallization. Caution: sodium azide is highly toxic and explosion-prone.",
+        "reagents": [
+          {
+            "name": "N-[5-(5-acetylamino-4H-[1,2,4]triazol-3-ylmethyl)-4H-[1,2,4]triazol-3-yl]-acetamide (H2L)",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.30 mmol, 0.0792 g"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.30 mmol, 0.1370 g"
+          },
+          {
+            "name": "sodium azide",
+            "formula": "NaN3",
+            "role": "crystallization additive",
+            "amount": "0.60 mmol, 0.0390 g"
+          }
+        ],
+        "solvents": [
+          "DMF (7 mL)",
+          "isopropanol (7 mL)"
+        ],
+        "temperature": "stirred at room temperature, then 120 °C; cooled to 25 °C at 5 °C h−1",
+        "time": "20 min stirring, then 3 days heating",
+        "ph": null,
+        "vessel_or_method": "solvothermal synthesis in a 25 mL Teflon-lined stainless steel vessel",
+        "workup_and_crystallization": "colorless block crystals washed with filtered stock and dried in air",
+        "yield": "65% based on Tb(III) salts"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Water-soluble Tb12 is a yellow-green luminescent cluster used as a fluorescent probe for doxorubicin. Solid-state quantum yield 0.39% and lifetime 1.26 ns; aqueous solution UV absorption at 256 nm and Tb3+ emission at 490, 545, 585, and 622 nm (λex = 265 nm). DOX quenches the emission (up to ~90%) with KSV = 8.7 × 10^5 M−1 and LOD = 13 nM over 33–98 μM, remaining selective in simulated urine/serum interferents. Fluorescence is relatively stable at pH 4.0–12.0.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "solid-state photoluminescence quantum yield",
+            "value": 0.39,
+            "unit": "%",
+            "conditions": "crystalline Tb12; Figure S11"
+          },
+          {
+            "property_type": "optical",
+            "name": "solid-state fluorescence lifetime",
+            "value": 1.26,
+            "unit": "ns",
+            "conditions": "crystalline Tb12; Figure S11"
+          },
+          {
+            "property_type": "optical",
+            "name": "UV absorption maximum",
+            "value": 256,
+            "unit": "nm",
+            "conditions": "Tb12 aqueous solution (5 mg in 5 mL water); Figure S12a"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maxima",
+            "value": "490, 545, 585, 622",
+            "unit": "nm",
+            "conditions": "aqueous solution, λex = 265 nm; assigned to 5D4 → 7F6–3 of Tb3+"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern–Volmer constant KSV for DOX quenching",
+            "value": "8.7e5",
+            "unit": "M−1",
+            "conditions": "aqueous Tb12; linear I0/I vs [DOX] over 33–98 μM, R2 = 0.9933"
+          },
+          {
+            "property_type": "optical",
+            "name": "limit of detection for DOX",
+            "value": 13,
+            "unit": "nM",
+            "conditions": "3σ/k from 10 blank measurements"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "article title"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Tb12"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section elemental analysis and crystal-structure description"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Accession Codes, CCDC 2126210"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row GASFIT01 / 2126210"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and Discussion, Description of Crystal Structure"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Stabilities and Luminescence Properties; Figures 3–6"
+        }
+      ]
+    }
+  ]
+}

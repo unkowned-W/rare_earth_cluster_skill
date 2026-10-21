@@ -1,0 +1,70 @@
+{
+  "refcode": "DISVEJ",
+  "ccdc_number": "1851676",
+  "dois": [
+    "10.1002/anie.201811211"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1851676.cif",
+  "formula_moiety": "C192 H470 N48 Ni56 O384 Pr52 18+,18(N1 O3 1-),152(H2 O1)",
+  "crystal_system": "rhombohedral",
+  "space_group_hm": "R -3",
+  "international_tables_number": "148",
+  "unit_cell": {
+    "a": "33.612(3)",
+    "b": "33.612(3)",
+    "c": "53.903(11)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "120",
+    "volume": "52739",
+    "Z": "3"
+  },
+  "metal_sites": [],
+  "atom_sites_available": false,
+  "bond_table_available": false,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "undetermined (missing bonds, symmetry links, or consistent periodic-image geometry)",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "DISVEJ crystallizes in the rhombohedral crystal system with space group R -3. Reported CIF formula moiety: C192 H470 N48 Ni56 O384 Pr52 18+,18(N1 O3 1-),152(H2 O1). Metal?O coordination is not determined because atom sites or bond data are absent. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula [Pr52Ni56(IDA)48(OH)154(H2O)38](NO3)18·152H2O. Explicit grouped units in the article formula/name: 154 OH (explicit grouped unit in article formula), 38 H2O (explicit grouped unit in article formula), 18 NO3 (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/anie.201811211",
+    "formula": "[Pr52Ni56(IDA)48(OH)154(H2O)38](NO3)18·152H2O",
+    "compound_name": "Pr52Ni56 iminodiacetate cluster",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "insufficient_graph",
+    "nuclearity": 108,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count",
+    "reason": "missing links or omitted symmetry bonds"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 154,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 38,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 18,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

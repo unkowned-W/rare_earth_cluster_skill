@@ -1,0 +1,132 @@
+{
+  "refcode": "GUBMOH",
+  "ccdc_number": "1047588",
+  "dois": [
+    "10.1039/c5nj00318k"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1047588.cif",
+  "formula_moiety": "C80 H120 O12 S6 Sm4,2(C7 H8)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.415(2)",
+    "b": "12.471(3)",
+    "c": "17.870(3)",
+    "alpha": "97.595(16)",
+    "beta": "101.297(15)",
+    "gamma": "112.448(15)",
+    "volume": "2441.31",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm1",
+      "element": "Sm",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3"
+      ]
+    },
+    {
+      "label": "Sm2",
+      "element": "Sm",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O2",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "label": "Sm3",
+      "element": "Sm",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Sm4",
+      "element": "Sm",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O4",
+        "O5",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Sm2",
+          "Sm4"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.957,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 102.18,
+            "metal_oxygen_distances_angstrom": [
+              2.584,
+              2.502
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 102.18,
+            "metal_oxygen_distances_angstrom": [
+              2.502,
+              2.584
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Sm1"
+      ],
+      [
+        "Sm2",
+        "Sm4"
+      ],
+      [
+        "Sm3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "GUBMOH crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C80 H120 O12 S6 Sm4,2(C7 H8). From the CIF bond table, Sm1 (Sm) has 2 O neighbors; Sm2 (Sm) has 5 O neighbors; Sm3 (Sm) has 2 O neighbors; Sm4 (Sm) has 5 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.957-3.957 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.18-102.18°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C80H120O12S6Sm4·2(C7H8).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c5nj00318k",
+    "formula": "C80H120O12S6Sm4·2(C7H8)",
+    "compound_name": "[{(η5-C5Me5)2Sm(S2O4)}2{(η5-C5Me5)Sm(C5Me5SO2)}2]·2(C7H8)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

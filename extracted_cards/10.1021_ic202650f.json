@@ -1,0 +1,162 @@
+{
+  "title": "The First {Dy4} Single-Molecule Magnet with a Toroidal Magnetic Moment in the Ground State",
+  "doi": "10.1021/ic202650f",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4(μ3-OH)2(μ-OH)2(2,2-bpt)4(NO3)4(EtOH)2]",
+      "formula": "C52H48Dy4N24O18",
+      "ccdc_numbers": [
+        "848450"
+      ],
+      "ccdc_refcodes": [
+        "DARROF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric planar {Dy4} parallelogram with two μ3-OH, two μ-OH, and four μ-bpt bridges; eight-coordinate N4O4 square-antiprismatic Dy sites"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "A mixture of Dy(NO3)3·5H2O (0.043 g, 0.1 mmol), 2,2'-bptH (0.023 g, 0.1 mmol), and triethylamine (0.030 g, 0.3 mmol) in ethanol was sealed in a 15 mL Teflon-lined reactor, heated at 160 °C for 3 days, and cooled to room temperature at 5 °C h−1. Colorless transparent crystals were collected manually. The main text only states that colorless brick crystals were obtained from solvothermal reaction of Dy(NO3)3·5H2O with 2,2-bptH in the presence of triethylamine, without quantities.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "0.043 g, 0.1 mmol"
+          },
+          {
+            "name": "3,5-bis(pyridin-2-yl)-1,2,4-triazole",
+            "formula": "2,2'-bptH",
+            "role": "ligand",
+            "amount": "0.023 g, 0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.030 g, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "ethanol"
+        ],
+        "temperature": "160 °C, then cooled to room temperature at 5 °C h−1",
+        "time": "3 days",
+        "ph": null,
+        "vessel_or_method": "solvothermal, 15 mL Teflon-lined reactor",
+        "workup_and_crystallization": "Crystals formed during cooling and were collected manually; colorless transparent (main text: colorless brick) crystals.",
+        "yield": "20% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Tetranuclear Dy SMM with a nonmagnetic ground exchange state corresponding to a toroidal arrangement of local Dy(III) moments. χMT falls from 56.4 cm3 K mol−1 at 300 K to 20.5 cm3 K mol−1 at 2.0 K. Magnetization reaches 19.2 μB near 15 kOe at 2.0 K and then rises slowly. Ac susceptibility shows slow relaxation; Arrhenius analysis of the high-temperature regime gives Δeff/kB = 80(3) K and τ0 = 5.75×10−6 s, with quantum tunneling at lower temperature. Ab initio CASSCF finds strongly axial ground Kramers doublets (gz ≈ 19.90 and 19.89).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "56.4",
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "20.5",
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "19.2",
+            "unit": "μB",
+            "conditions": "2.0 K, about 15 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δeff/kB",
+            "value": "80(3)",
+            "unit": "K",
+            "conditions": "Arrhenius fit of high-temperature relaxation times; polycrystalline sample, 0 Oe dc, 5 Oe ac, frequencies 1–1500 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "5.75e-6",
+            "unit": "s",
+            "conditions": "Arrhenius prefactor from the high-temperature regime"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.14–0.22",
+            "unit": null,
+            "conditions": "ac susceptibility, Figure S9"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ground Kramers doublet g tensor (Dy1)",
+            "value": "gx = 0.0000, gy = 0.0017, gz = 19.9026",
+            "unit": null,
+            "conditions": "CASSCF/RASSI ab initio, Table S2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ground Kramers doublet g tensor (Dy2)",
+            "value": "gx = 0.0018, gy = 0.0031, gz = 19.8883",
+            "unit": null,
+            "conditions": "CASSCF/RASSI ab initio, Table S2"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "SI crystal data of 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "SI crystal data; main-text Associated Content"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC metadata row DARROF / 848450"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion, Figures 2 and 4"
+        },
+        {
+          "field": "properties",
+          "source": "supporting_information",
+          "location": "Tables S1–S2 and Figures S1 and S9"
+        }
+      ]
+    }
+  ]
+}

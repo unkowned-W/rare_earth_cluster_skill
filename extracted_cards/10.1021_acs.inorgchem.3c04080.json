@@ -1,0 +1,187 @@
+{
+  "title": "A 20-Metal Zn(II)–Cd(II)–Eu(III) Nanocluster with Qualitative and Quantitative Luminescence Detection of Meloxicam (an Anti-Inflammatory Drug)",
+  "doi": "10.1021/acs.inorgchem.3c04080",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "Zn(II)–Cd(II)–Eu(III) nanocluster 1",
+      "formula": "[Zn4Cd6Eu10L12(OAc)20Cl14(H2O)6]·2(ZnCl4) (HL = 3-ethoxysalicylaldehyde)",
+      "ccdc_numbers": [
+        "2305721"
+      ],
+      "ccdc_refcodes": [
+        "YOHBAC",
+        "YOHBAC01"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [
+          "Zn",
+          "Cd"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "ternary 20-metal Zn4Cd6Eu10 nanocluster with two [ZnCl4]2− counterions"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "At room temperature, Eu(OAc)3·6H2O (0.20 mmol, 0.0874 g), CdCl2 (0.20 mmol, 0.0366 g), ZnCl2 (0.20 mmol, 0.0272 g) and HL (0.20 mmol, 0.0332 g) were dissolved in ethanol (6 mL) and methanol (4 mL). Triethylamine (1.0 mol/L) in 1 mL of ethanol was added. The mixture was stirred under reflux for 30 min, cooled to room temperature, and filtered. Slow diffusion of diethyl ether into the filtrate afforded yellow crystals of 1.",
+        "reagents": [
+          {
+            "name": "europium(III) acetate hexahydrate",
+            "formula": "Eu(OAc)3·6H2O",
+            "role": "lanthanide source",
+            "amount": "0.20 mmol (0.0874 g)"
+          },
+          {
+            "name": "cadmium chloride",
+            "formula": "CdCl2",
+            "role": "cadmium source",
+            "amount": "0.20 mmol (0.0366 g)"
+          },
+          {
+            "name": "zinc chloride",
+            "formula": "ZnCl2",
+            "role": "zinc source",
+            "amount": "0.20 mmol (0.0272 g)"
+          },
+          {
+            "name": "3-ethoxysalicylaldehyde",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.20 mmol (0.0332 g)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1.0 mol/L in 1 mL ethanol"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "methanol",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature dissolution; reflux during reaction",
+        "time": "30 min reflux",
+        "ph": null,
+        "vessel_or_method": "stirred reflux followed by filtration and diethyl ether vapor diffusion",
+        "workup_and_crystallization": "filtered after cooling; slow diffusion of diethyl ether into the filtrate gave yellow crystalline solids",
+        "yield": "25% (0.0351 g, based on lanthanide salt)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Cluster 1 shows typical Eu(III) 5D0→7Fj luminescence in CH3CN with a weak ligand-centered emission near 485 nm upon 395 nm excitation; the strongest line is at 615 nm (5D0→7F2) with τ = 29.84 μs. MLX enhances the Eu emission (I615 more than fivefold at 60 μM MLX) with a linear calibration I615 nm = 3060 × [MLX] + 46604 (k = 3.065×10^3 μM−1), LOD 2.31×10−2 nM, and response time ≤5 s. Paper strips of 1 turn red under UV with MLX, enabling qualitative and quantitative sensing of MLX including in tablets.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "excitation wavelength",
+            "value": 395,
+            "unit": "nm",
+            "conditions": "CH3CN; ligand-centered visible absorption band"
+          },
+          {
+            "property_type": "optical",
+            "name": "Eu(III) emission maximum (5D0→7F2)",
+            "value": 615,
+            "unit": "nm",
+            "conditions": "CH3CN; λex = 395 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-centered emission",
+            "value": "about 485",
+            "unit": "nm",
+            "conditions": "CH3CN; weak; Figure S7a"
+          },
+          {
+            "property_type": "optical",
+            "name": "luminescence lifetime",
+            "value": 29.84,
+            "unit": "μs",
+            "conditions": "615 nm emission; Figure S8"
+          },
+          {
+            "property_type": "optical",
+            "name": "MLX luminescence enhancement constant k",
+            "value": "3.065e3",
+            "unit": "μM−1",
+            "conditions": "I615 nm vs [MLX] in CH3CN; 10 μM 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "linear sensing equation",
+            "value": "I615 nm = 3060 × [MLX] + 46604",
+            "unit": null,
+            "conditions": "quantitative MLX analysis in CH3CN / tablets"
+          },
+          {
+            "property_type": "optical",
+            "name": "detection limit for MLX",
+            "value": "2.31e-2",
+            "unit": "nM",
+            "conditions": "3σ/k"
+          },
+          {
+            "property_type": "optical",
+            "name": "luminescence response time",
+            "value": 5,
+            "unit": "s",
+            "conditions": "addition of MLX; Figure 4"
+          },
+          {
+            "property_type": "optical",
+            "name": "intensity increase at 615 nm",
+            "value": ">5-fold",
+            "unit": null,
+            "conditions": "10 μM 1 + 60 μM MLX in CH3CN"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "article title"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Introduction; crystal data for 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray Crystallography; Accession Codes"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC rows YOHBAC / YOHBAC01"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Introduction; Results and Discussion, Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of nanocluster 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Luminescence Response Properties to MLX; Abstract; Figures 3–8"
+        }
+      ]
+    }
+  ]
+}

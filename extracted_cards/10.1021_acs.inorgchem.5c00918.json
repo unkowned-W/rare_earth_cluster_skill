@@ -1,0 +1,282 @@
+{
+  "title": "Visual and Real-Time Luminescence Detection of Norfloxacin Based on a High-Nuclearity Cd(II)–Eu(III) Nanomolecular Sensor through Functionalized Sodium Alginate Film and Smartphone Scanning",
+  "doi": "10.1021/acs.inorgchem.5c00918",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "linear 20-metal Cd(II)–Eu(III) nanocluster",
+      "formula": "[Cd8Eu12L12(OAc)34(OH)6(H2O)2] (HL = 3-ethoxysalicylaldehyde)",
+      "ccdc_numbers": [
+        "2419046"
+      ],
+      "ccdc_refcodes": [
+        "JACQOY"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [
+          "Cd"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "linear Cd8Eu12 nanocluster with two Cd3Eu5L6 units bridged by a Cd2Eu2 chain"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Eu(OAc)3·6H2O (0.0874 g, 0.2 mmol), Cd(OAc)2·4H2O (0.0604 g, 0.2 mmol), and HL (0.0333 g, 0.2 mmol) were dissolved in 6 mL EtOH and 4 mL MeOH, then 1 mL EtOH containing triethylamine (1.0 mol/L) was added. The solution was stirred and heated under reflux for 30 min and filtered. Yellow crystals of 1 were obtained after 2 weeks by slow diffusion of diethyl ether into the filtrate.",
+        "reagents": [
+          {
+            "name": "europium(III) acetate hexahydrate",
+            "formula": "Eu(OAc)3·6H2O",
+            "role": "metal source",
+            "amount": "0.0874 g, 0.2 mmol"
+          },
+          {
+            "name": "cadmium(II) acetate tetrahydrate",
+            "formula": "Cd(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "0.0604 g, 0.2 mmol"
+          },
+          {
+            "name": "3-ethoxysalicylaldehyde",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.0333 g, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1 mL of 1.0 mol/L EtOH solution"
+          }
+        ],
+        "solvents": [
+          "EtOH",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "reflux",
+        "time": "30 min reflux; crystals after 2 weeks",
+        "ph": null,
+        "vessel_or_method": "reflux followed by filtration and slow diethyl ether diffusion",
+        "workup_and_crystallization": "filtered; yellow crystals grown by slow diffusion of diethyl ether into the filtrate over 2 weeks",
+        "yield": "32% (0.0365 g, based on Eu(OAc)3·6H2O)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Discrete Cd8Eu12 nanocluster 1 shows ligand-centered emission at 490 nm and Eu(III) 5D0→7FJ luminescence; NFX turns on the Eu emission (615 nm, 5D0→7F2) for luminescent sensing in CH3CN, FCS, and drug samples, with color change to dark red used on test strips, 1@SA films, and smartphone RGB readout.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "absorption maxima",
+            "value": "268 and 360",
+            "unit": "nm",
+            "conditions": "1 in solution (Figure S5)"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-centered emission wavelength",
+            "value": 490,
+            "unit": "nm",
+            "conditions": "λex = 390 nm (Figure S6)"
+          },
+          {
+            "property_type": "optical",
+            "name": "Eu(III) emission (5D0→7F2)",
+            "value": 615,
+            "unit": "nm",
+            "conditions": "λex = 335 nm; 1 μM in CH3CN with NFX titration (Figure 3)"
+          },
+          {
+            "property_type": "optical",
+            "name": "NFX luminescence enhancement constant k at 615 nm",
+            "value": 27353,
+            "unit": "cps/μM",
+            "conditions": "CH3CN; I615nm = k[NFX] + a"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD for NFX",
+            "value": "1.43e-2",
+            "unit": "μM",
+            "conditions": "CH3CN; 3σ/k; linear range 0–6 μM (Table 1 also lists 0.05–6 μM)"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD for NFX",
+            "value": "1.28e-2",
+            "unit": "μM",
+            "conditions": "fetal calf serum"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD for NFX",
+            "value": "1.39e-2",
+            "unit": "μM",
+            "conditions": "real drug sample"
+          },
+          {
+            "property_type": "optical",
+            "name": "luminescence lifetime of 1",
+            "value": 165.62,
+            "unit": "μs",
+            "conditions": "before NFX addition (Figure S16)"
+          },
+          {
+            "property_type": "optical",
+            "name": "luminescence lifetime of 1",
+            "value": 588.29,
+            "unit": "μs",
+            "conditions": "after 3 μM NFX"
+          },
+          {
+            "property_type": "optical",
+            "name": "luminescence lifetime of 1",
+            "value": 644.58,
+            "unit": "μs",
+            "conditions": "after 6 μM NFX"
+          },
+          {
+            "property_type": "optical",
+            "name": "NFX-enhanced Eu emission fit at λex 290 nm",
+            "value": "I615nm = 20693 × [NFX] + 688",
+            "unit": null,
+            "conditions": "CH3CN (Figure S15)"
+          },
+          {
+            "property_type": "optical",
+            "name": "molar absorptivity of 1 vs NFX",
+            "value": "0.057e5 vs 0.66e5",
+            "unit": "M-1 cm-1",
+            "conditions": "near 290 nm (Figure S5)"
+          },
+          {
+            "property_type": "optical",
+            "name": "sensing response time",
+            "value": "about 5",
+            "unit": "s",
+            "conditions": "luminescence sensing of NFX (Figure 4)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Introduction; Experimental elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-Ray Crystallography for 1; Deposition Number 2419046"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row JACQOY"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of 1"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Results and Discussion, Synthesis and Characterization; Figure 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Luminescence Detection to NFX; Figures 3–9; Table 1"
+        }
+      ]
+    },
+    {
+      "compound_label": "Gd(III) analogue",
+      "compound_name": "Cd(II)–Gd(III) analogue of nanocluster 1",
+      "formula": "C176H214Cd8Gd12O112",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Cd"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "linear Cd8Ln12 analogue of 1"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared following the procedure for 1, substituting Gd(OAc)3·6H2O (0.0884 g, 0.20 mmol) for the Eu salt.",
+        "reagents": [
+          {
+            "name": "gadolinium(III) acetate hexahydrate",
+            "formula": "Gd(OAc)3·6H2O",
+            "role": "metal source",
+            "amount": "0.0884 g, 0.20 mmol"
+          },
+          {
+            "name": "cadmium(II) acetate tetrahydrate",
+            "formula": "Cd(OAc)2·4H2O",
+            "role": "metal source",
+            "amount": "0.0604 g, 0.2 mmol (as for 1)"
+          },
+          {
+            "name": "3-ethoxysalicylaldehyde",
+            "formula": "HL",
+            "role": "ligand",
+            "amount": "0.0333 g, 0.2 mmol (as for 1)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "1 mL of 1.0 mol/L EtOH solution (as for 1)"
+          }
+        ],
+        "solvents": [
+          "EtOH",
+          "MeOH",
+          "diethyl ether"
+        ],
+        "temperature": "reflux (as for 1)",
+        "time": "30 min reflux; crystallization as for 1",
+        "ph": null,
+        "vessel_or_method": "same reflux/filtration/ether-diffusion method as 1",
+        "workup_and_crystallization": "as for 1",
+        "yield": "0.0403 g (35%, based on Gd(OAc)3·6H2O)"
+      },
+      "properties": {
+        "reported": false,
+        "property_type": "none",
+        "summary": null,
+        "measurements": []
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental Section, Gd(III) analogue elemental analysis"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, paragraph after Synthesis of 1"
+        }
+      ]
+    }
+  ]
+}

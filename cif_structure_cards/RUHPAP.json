@@ -1,0 +1,202 @@
+{
+  "refcode": "RUHPAP",
+  "ccdc_number": "2258756",
+  "dois": [
+    "10.11862/cjic.20240192"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2258756.cif",
+  "formula_moiety": "C124 H106 N6 O24 Tm4",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "14.9430(6)",
+    "b": "14.8789(5)",
+    "c": "24.5700(7)",
+    "alpha": "90",
+    "beta": "92.8515(12)",
+    "gamma": "90",
+    "volume": "5456.02",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Tm1",
+      "element": "Tm",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O2",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Tm2",
+      "element": "Tm",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O15",
+        "O2",
+        "O20",
+        "O3",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tm3",
+      "element": "Tm",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O17",
+        "O18",
+        "O19",
+        "O22",
+        "O23"
+      ]
+    },
+    {
+      "label": "Tm4",
+      "element": "Tm",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O16",
+        "O21",
+        "O22",
+        "O23",
+        "O3",
+        "O4"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tm1",
+          "Tm2"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.74,
+        "bridge_geometry": [
+          {
+            "oxygen": "O11",
+            "angle_deg": 114.94,
+            "metal_oxygen_distances_angstrom": [
+              2.22,
+              2.216
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 106.6,
+            "metal_oxygen_distances_angstrom": [
+              2.353,
+              2.312
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tm2",
+          "Tm4"
+        ],
+        "shared_oxygen_labels": [
+          "O15",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.753,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 110.44,
+            "metal_oxygen_distances_angstrom": [
+              2.265,
+              2.304
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 110.44,
+            "metal_oxygen_distances_angstrom": [
+              2.304,
+              2.265
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tm3",
+          "Tm4"
+        ],
+        "shared_oxygen_labels": [
+          "O22",
+          "O23"
+        ],
+        "metal_metal_separation_angstrom": 3.74,
+        "bridge_geometry": [
+          {
+            "oxygen": "O22",
+            "angle_deg": 114.94,
+            "metal_oxygen_distances_angstrom": [
+              2.22,
+              2.216
+            ]
+          },
+          {
+            "oxygen": "O23",
+            "angle_deg": 106.6,
+            "metal_oxygen_distances_angstrom": [
+              2.353,
+              2.312
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tm1",
+        "Tm2",
+        "Tm3",
+        "Tm4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "RUHPAP crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C124 H106 N6 O24 Tm4. From the CIF bond table, Tm1 (Tm) has 6 O neighbors; Tm2 (Tm) has 8 O neighbors; Tm3 (Tm) has 6 O neighbors; Tm4 (Tm) has 8 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.740-3.753 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.60-114.94°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Tm4(dbm)6(L)2(μ2-OCH3)2(CH3OH)2] (C124H106Tm4N6O24).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.11862/cjic.20240192",
+    "formula": "[Tm4(dbm)6(L)2(μ2-OCH3)2(CH3OH)2] (C124H106Tm4N6O24)",
+    "compound_name": "[Tm4(dbm)6(L)2(μ2-OCH3)2(CH3OH)2]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

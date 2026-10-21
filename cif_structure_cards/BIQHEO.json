@@ -1,0 +1,174 @@
+{
+  "refcode": "BIQHEO",
+  "ccdc_number": "135568",
+  "dois": [
+    "10.1039/a904792a"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\135568.cif",
+  "formula_moiety": "C84 H168 Ho4 N12 O24,2(C7 H16)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "29.130(2)",
+    "b": "19.844(2)",
+    "c": "23.1310(10)",
+    "alpha": "90",
+    "beta": "107.240(10)",
+    "gamma": "90",
+    "volume": "12770.3",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Ho1",
+      "element": "Ho",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O2",
+        "O3",
+        "O5",
+        "O7",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ho2",
+      "element": "Ho",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O12",
+        "O3",
+        "O4",
+        "O6",
+        "O8"
+      ]
+    },
+    {
+      "label": "Ho1F",
+      "element": "Ho",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10F",
+        "O1F",
+        "O2F",
+        "O3F",
+        "O5F",
+        "O7F",
+        "O9F"
+      ]
+    },
+    {
+      "label": "Ho2F",
+      "element": "Ho",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O11F",
+        "O12F",
+        "O1F",
+        "O3F",
+        "O4F",
+        "O6F",
+        "O8F"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ho1",
+          "Ho2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.827,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 106.95,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.398
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 107.7,
+            "metal_oxygen_distances_angstrom": [
+              2.371,
+              2.368
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho1F",
+          "Ho2F"
+        ],
+        "shared_oxygen_labels": [
+          "O1F",
+          "O3F"
+        ],
+        "metal_metal_separation_angstrom": 3.827,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1F",
+            "angle_deg": 106.95,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.398
+            ]
+          },
+          {
+            "oxygen": "O3F",
+            "angle_deg": 107.7,
+            "metal_oxygen_distances_angstrom": [
+              2.371,
+              2.368
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ho1",
+        "Ho2"
+      ],
+      [
+        "Ho1F",
+        "Ho2F"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "BIQHEO crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C84 H168 Ho4 N12 O24,2(C7 H16). From the CIF bond table, Ho1 (Ho) has 7 O neighbors; Ho2 (Ho) has 7 O neighbors; Ho1F (Ho) has 7 O neighbors; Ho2F (Ho) has 7 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.827-3.827 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.95-107.70°; individual values and O labels are in metal_framework.links. Article card reports molecular formula Ho4(O2CNPri2)12·2C7H16.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/a904792a",
+    "formula": "Ho4(O2CNPri2)12·2C7H16",
+    "compound_name": "tetrakis(holmium) dodecakis(N,N-diisopropylcarbamate) heptane solvate",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

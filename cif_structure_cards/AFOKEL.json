@@ -1,0 +1,218 @@
+{
+  "refcode": "AFOKEL",
+  "ccdc_number": "174007",
+  "dois": [
+    "10.1039/b110247h"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\174007.cif",
+  "formula_moiety": "C40 H90 Ce3 N1 O13,C6 H14",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "18.266(2)",
+    "b": "17.094(3)",
+    "c": "19.994(4)",
+    "alpha": "90",
+    "beta": "105.340(10)",
+    "gamma": "90",
+    "volume": "6020.49",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12",
+        "O13",
+        "O3",
+        "O4",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O4",
+        "O5",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Ce3",
+      "element": "Ce",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ce1",
+          "Ce2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.728,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 102.24,
+            "metal_oxygen_distances_angstrom": [
+              2.518,
+              2.266
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 95.89,
+            "metal_oxygen_distances_angstrom": [
+              2.541,
+              2.479
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 94.03,
+            "metal_oxygen_distances_angstrom": [
+              2.619,
+              2.475
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce1",
+          "Ce3"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.725,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 102.82,
+            "metal_oxygen_distances_angstrom": [
+              2.5,
+              2.261
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 95.18,
+            "metal_oxygen_distances_angstrom": [
+              2.541,
+              2.504
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 94.03,
+            "metal_oxygen_distances_angstrom": [
+              2.619,
+              2.471
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2",
+          "Ce3"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.683,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 102.51,
+            "metal_oxygen_distances_angstrom": [
+              2.358,
+              2.364
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 95.31,
+            "metal_oxygen_distances_angstrom": [
+              2.479,
+              2.504
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 96.25,
+            "metal_oxygen_distances_angstrom": [
+              2.475,
+              2.471
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1",
+        "Ce2",
+        "Ce3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "AFOKEL crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C40 H90 Ce3 N1 O13,C6 H14. From the CIF bond table, Ce1 (Ce) has 7 O neighbors; Ce2 (Ce) has 6 O neighbors; Ce3 (Ce) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.683-3.728 Å (not direct metal-metal bonds). Computed M-O-M angles span 94.03-102.82°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C40H90Ce3NO13·C6H14. Explicit grouped units in the article formula/name: 1 NO3 (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/b110247h",
+    "formula": "C40H90Ce3NO13·C6H14",
+    "compound_name": "[{Ce(OBut)2}2(μ-OBut)3(μ3-OBut)2{Ce(OBut)(NO3)}]·n-hexane",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

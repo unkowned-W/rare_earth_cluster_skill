@@ -1,0 +1,298 @@
+{
+  "title": "Single molecule magnet behaviour in a {Dy4P2} octahedron",
+  "doi": "10.1039/c5dt01786f",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Co3(μ3-O)(O2CtBu)6(py)3]2[Gd4(O3PtBu)2(O2CtBu)4(NO3)6(H2O)2]·2MeCN",
+      "formula": "C122H202Co6Gd4N14O60P2",
+      "ccdc_numbers": [
+        "1051264"
+      ],
+      "ccdc_refcodes": [
+        "OGUNOV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "{Ln4P2} phosphonate octahedron; Co3 triangles are countercations"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Compound 1 was prepared by reacting Gd(NO3)3·6H2O (0.13 g, 0.30 mmol), [Co3(μ3-O)(O2CtBu)6(py)3]·O2CtBu (1 g, 0.88 mmol), tert-butylphosphonic acid (0.07 g, 0.507 mmol) and pyridine (0.5 mL, 6.20 mmol) in acetonitrile (15 mL) for 7 h to give a brown solution. The solution was filtered and left undisturbed at room temperature for two weeks. Light-brown crystals suitable for X-ray diffraction were collected. The main text states that heating for 7 h was followed by crystallization over three weeks and reports yields of 20–25%.",
+        "reagents": [
+          {
+            "name": "gadolinium nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "lanthanide precursor",
+            "amount": "0.13 g, 0.30 mmol"
+          },
+          {
+            "name": "oxido-centred cobalt pivalate triangle",
+            "formula": "[Co3(μ3-O)(O2CtBu)6(py)3]·O2CtBu",
+            "role": "countercation precursor",
+            "amount": "1 g, 0.88 mmol"
+          },
+          {
+            "name": "tert-butylphosphonic acid",
+            "formula": "H2O3PtBu",
+            "role": "phosphonate ligand",
+            "amount": "0.07 g, 0.507 mmol"
+          },
+          {
+            "name": "pyridine",
+            "formula": "C5H5N",
+            "role": "base/ligand",
+            "amount": "0.5 mL, 6.20 mmol"
+          },
+          {
+            "name": "acetonitrile",
+            "formula": "CH3CN",
+            "role": "solvent",
+            "amount": "15 mL"
+          }
+        ],
+        "solvents": [
+          "acetonitrile"
+        ],
+        "temperature": "heated for 7 h, then room temperature",
+        "time": "7 h reaction, then two weeks standing (main text: three weeks)",
+        "ph": null,
+        "vessel_or_method": "solution reaction in acetonitrile, filtration, ambient crystallization",
+        "workup_and_crystallization": "Filtered brown solution left untouched at room temperature; light-brown X-ray-quality crystals collected.",
+        "yield": "65 mg (25%), based on Gd(NO3)3·6H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT is nearly constant from 300 to about 15 K and then falls, consistent with very weak antiferromagnetic coupling. Simultaneous fitting gives J = −0.01 cm−1, comparable to possible Gd(III) zero-field splitting, so a purely single-ion origin cannot be excluded. Magnetization saturates near the value expected for four Gd(III) ions.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "31.3",
+            "unit": "cm^3 mol^-1",
+            "conditions": "room temperature; DC field 1 kOe (calcd 31.2 cm^3 K mol^-1 for four Gd(III), g* = 1.99, S = 7/2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "26.5",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "2 K; DC field 1 kOe; 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "molar magnetization",
+            "value": "28",
+            "unit": "μB",
+            "conditions": "saturation above ca. 5 T at 1.8 and 3 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J",
+            "value": "-0.01",
+            "unit": "cm^-1",
+            "conditions": "PHI fit of χMT(T) and M(H) to H = −2J(S1·S2 + S2·S3 + S3·S4 + S1·S4) + gμBH Σ Si"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "crystal-data footnote for 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC row OGUNOV / 1051264; SI crystallography lists 1051263 and 1051264"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Details, Preparation of compounds 1 and 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion and Fig. 2"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Co3(μ3-O)(O2CtBu)6(py)3]2[Dy4(O3PtBu)2(O2CtBu)4(NO3)6(H2O)2]·2MeCN",
+      "formula": "C122H202Co6Dy4N14O60P2",
+      "ccdc_numbers": [
+        "1051263"
+      ],
+      "ccdc_refcodes": [
+        "OGUNUB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "{Ln4P2} phosphonate octahedron; Co3 triangles are countercations"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Compound 2 was prepared by the same procedure as compound 1, replacing Gd(NO3)3·6H2O with Dy(NO3)3·5H2O (0.30 mmol), together with [Co3(μ3-O)(O2CtBu)6(py)3]·O2CtBu (1 g, 0.88 mmol), tert-butylphosphonic acid (0.07 g, 0.507 mmol) and pyridine (0.5 mL, 6.20 mmol) in acetonitrile (15 mL). The mixture was heated for 7 h, filtered, and left at room temperature to crystallize. The main text reports light-brown crystals after three weeks and yields of 20–25%.",
+        "reagents": [
+          {
+            "name": "dysprosium nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "lanthanide precursor",
+            "amount": "0.30 mmol"
+          },
+          {
+            "name": "oxido-centred cobalt pivalate triangle",
+            "formula": "[Co3(μ3-O)(O2CtBu)6(py)3]·O2CtBu",
+            "role": "countercation precursor",
+            "amount": "1 g, 0.88 mmol"
+          },
+          {
+            "name": "tert-butylphosphonic acid",
+            "formula": "H2O3PtBu",
+            "role": "phosphonate ligand",
+            "amount": "0.07 g, 0.507 mmol"
+          },
+          {
+            "name": "pyridine",
+            "formula": "C5H5N",
+            "role": "base/ligand",
+            "amount": "0.5 mL, 6.20 mmol"
+          },
+          {
+            "name": "acetonitrile",
+            "formula": "CH3CN",
+            "role": "solvent",
+            "amount": "15 mL"
+          }
+        ],
+        "solvents": [
+          "acetonitrile"
+        ],
+        "temperature": "heated for 7 h, then room temperature",
+        "time": "7 h reaction, then two weeks standing (main text: three weeks)",
+        "ph": null,
+        "vessel_or_method": "solution reaction in acetonitrile, filtration, ambient crystallization",
+        "workup_and_crystallization": "Filtered solution left at room temperature; light-brown crystals collected.",
+        "yield": "50 mg (20%), based on Dy(NO3)3·5H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT decreases on cooling from crystal-field depopulation of Dy(III) and then rises slightly, suggesting weak ferromagnetic Dy–Dy interaction. AC susceptibility under an optimal 0.6 kG DC field shows frequency-dependent in-phase and out-of-phase signals below 16 K, characteristic of a single-molecule magnet. Arrhenius analysis gives Ueff = 67 K and τ0 = 2.7 × 10−6 s; Cole–Cole α increases from 0.05 to 0.50 as additional relaxation pathways appear below 11 K. Electrostatic modelling gives nearly collinear magnetic axes (21° deviation).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "55.2",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "room temperature; DC field 1 kOe (calcd 56.6 cm^3 K mol^-1 for four Dy(III), 6H15/2, gJ = 4/3)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "46.2",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "minimum at about 5 K; DC field 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "48.9",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "low-temperature maximum below about 5 K; DC field 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "molar magnetization",
+            "value": "19",
+            "unit": "μB",
+            "conditions": "saturation at ca. 5 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective relaxation barrier Ueff",
+            "value": "67",
+            "unit": "K",
+            "conditions": "Arrhenius fit of χ'' peaks above 11 K; optimal DC field 0.6 kG; AC 0.1–1400 Hz, 2–16 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "2.7e-6",
+            "unit": "s",
+            "conditions": "Arrhenius fit with Ueff = 67 K; optimal DC field 0.6 kG"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole alpha",
+            "value": "0.05",
+            "unit": null,
+            "conditions": "high temperature, single relaxation time; 0.6 kOe; α rises to 0.50 at lower temperature"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ'' maximum temperature",
+            "value": "15",
+            "unit": "K",
+            "conditions": "highest AC frequency 1.4 kHz; DC field 0.6 kG"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "crystal-data footnote for 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC row OGUNUB / 1051263; SI crystallography lists 1051263 and 1051264"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structure discussion and Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental Details, Preparation of compounds 1 and 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "magnetic discussion and Figs. 2–4"
+        }
+      ]
+    }
+  ]
+}

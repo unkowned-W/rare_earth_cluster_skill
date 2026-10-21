@@ -1,0 +1,116 @@
+{
+  "refcode": "OWARAG",
+  "ccdc_number": "816881",
+  "dois": [
+    "10.1002/ejic.201000963"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\816881.cif",
+  "formula_moiety": "C42 H100 Al2 O14 Tb2",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "10.823(2)",
+    "b": "11.951(2)",
+    "c": "12.971(3)",
+    "alpha": "82.34(3)",
+    "beta": "66.74(3)",
+    "gamma": "71.23(3)",
+    "volume": "1459.37",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O2A",
+        "O3",
+        "O4",
+        "O6"
+      ]
+    },
+    {
+      "label": "Tb1A",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O2",
+        "O2A",
+        "O3A",
+        "O4A",
+        "O6A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb1A"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O2A"
+        ],
+        "metal_metal_separation_angstrom": 3.663,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 106.99,
+            "metal_oxygen_distances_angstrom": [
+              2.277,
+              2.28
+            ]
+          },
+          {
+            "oxygen": "O2A",
+            "angle_deg": 106.99,
+            "metal_oxygen_distances_angstrom": [
+              2.28,
+              2.277
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb1A"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "OWARAG crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C42 H100 Al2 O14 Tb2. From the CIF bond table, Tb1 (Tb) has 6 O neighbors; Tb1A (Tb) has 6 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 1 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.663-3.663 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.99-106.99°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [TbAl(μ2-OiPr)3(OiPr)3(iPrOH)]. Explicit grouped units in the article formula/name: 3 OiPr (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/ejic.201000963",
+    "formula": "[TbAl(μ2-OiPr)3(OiPr)3(iPrOH)]",
+    "compound_name": "terbium aluminium isopropoxide isopropanol adduct",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OiPr",
+        "count": 3,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

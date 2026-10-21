@@ -1,0 +1,284 @@
+{
+  "title": "Pentanuclear sandwich-type ZnII-LnIII clusters based on a new Salen-like salicylamide ligand: Structure, near-infrared emission and magnetic properties",
+  "doi": "10.1016/j.poly.2017.03.019",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Zn2Er3",
+      "compound_name": "[Zn2Er3(HL)2(H2L)2(OH)2(NO3)3](NO3)2·2CH3OH",
+      "formula": "[Zn2Er3(HL)2(H2L)2(OH)2(NO3)3](NO3)2·2CH3OH (C74H84Er3N13O39Zn2)",
+      "ccdc_numbers": [
+        "1482429"
+      ],
+      "ccdc_refcodes": [
+        "LANXIK"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "sandwich-type pentanuclear Zn2Ln3 cluster with hydroxyl-bridged Ln3 core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "General procedure: to 20 mL acetonitrile containing 0.1 mmol (0.028 g) H3L was added 27 μL (0.2 mmol) triethylamine. After stirring 5 min, 0.1 mmol (0.021 g) Zn(NO3)2·H2O in 5 mL acetonitrile was added and the mixture was stirred for another 4 h to give a suspension. 5 mL methanol was added to obtain a clear solution, then 0.1 mmol Ln(NO3)3·6H2O (Ln = Er) was added. The mixture was stirred overnight, filtered into a sealed 10–20 mL glass vial and left for slow evaporation. After about three weeks pale yellow single crystals were collected by filtration, washed with cold methanol, and dried in air. Yield for Zn2Er3: 44.2 mg, 55% based on Er(NO3)3·6H2O.",
+        "reagents": [
+          {
+            "name": "H3L (1-(2-hydroxy-4-methoxy-benzamido)-2-(2-hydroxy-3-methoxybenzylideneamino)-ethane)",
+            "formula": "C18H20N2O5",
+            "role": "ligand",
+            "amount": "0.1 mmol (0.028 g)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "27 μL (0.2 mmol)"
+          },
+          {
+            "name": "zinc nitrate monohydrate",
+            "formula": "Zn(NO3)2·H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol (0.021 g)"
+          },
+          {
+            "name": "erbium nitrate hexahydrate",
+            "formula": "Er(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "methanol"
+        ],
+        "temperature": "ambient (not specified beyond air drying)",
+        "time": "5 min + 4 h stirring, then overnight stirring; crystallization about three weeks",
+        "ph": null,
+        "vessel_or_method": "solution self-assembly with slow evaporation in a sealed 10–20 mL glass vial",
+        "workup_and_crystallization": "filtered into a sealed vial for slow evaporation; pale yellow crystals collected by filtration, washed with cold methanol, dried in air",
+        "yield": "44.2 mg, 55% based on Er(NO3)3·6H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Displays ligand-centered visible emission and weak ErIII NIR emission (4I13/2 → 4I15/2) via zinc/ligand antenna sensitization in MeOH/MeCN and similarly in the solid state. DC magnetism shows antiferromagnetic interactions and incomplete magnetization saturation; zero-field AC data indicate frequency-dependent out-of-phase signals below 10 K consistent with slow relaxation/possible SMM behavior with a small barrier and QTM.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "ligand-centered excitation band",
+            "value": "approximately 345–426",
+            "unit": "nm",
+            "conditions": "Zn2Er3 in methanol + acetonitrile (v:v = 1:4)"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR emission assignment",
+            "value": "weak 4I13/2 → 4I15/2 ErIII NIR emission",
+            "unit": null,
+            "conditions": "excitation of zinc/ligand-centered absorption; solution (MeOH/MeCN 1:4) and similar solid-state spectra"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 38.47,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 17.28,
+            "unit": "cm3 mol−1 K",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 38.94,
+            "unit": "cm3 mol−1 K",
+            "conditions": "Curie–Weiss fit 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": -5.84,
+            "unit": "K",
+            "conditions": "Curie–Weiss fit 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 22.48,
+            "unit": "Nβ",
+            "conditions": "2 K, field up to 70 kOe; no obvious hysteresis at 100 Oe/s sweep"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "AC slow relaxation",
+            "value": "frequency-dependent χ″ below 10 K at 0 Oe; χ″ peaks still not observed under 2000 Oe",
+            "unit": null,
+            "conditions": "2–10 K, 3 Oe ac field, frequencies 400–3000 Hz; 0 Oe and 2000 Oe dc"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "section 2.2.1.1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.2.1.1 and Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC row LANXIK/1482429 matched to Er analogue"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "abstract and section 3.2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.2.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3 photoluminescence, Fig. 6; section 3.4 magnetism, Figs. 7–9"
+        }
+      ]
+    },
+    {
+      "compound_label": "Zn2Yb3",
+      "compound_name": "[Zn2Yb3(HL)2(H2L)2(OH)2(NO3)3](NO3)2·2CH3OH",
+      "formula": "[Zn2Yb3(HL)2(H2L)2(OH)2(NO3)3](NO3)2·2CH3OH (C73H80Yb3N13O38Zn2)",
+      "ccdc_numbers": [
+        "1482430"
+      ],
+      "ccdc_refcodes": [
+        "LANXOQ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "sandwich-type pentanuclear Zn2Ln3 cluster with hydroxyl-bridged Ln3 core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same general procedure as Zn2Er3 using 0.1 mmol Yb(NO3)3·6H2O in place of the Er salt: H3L (0.1 mmol, 0.028 g) and NEt3 (27 μL, 0.2 mmol) in 20 mL acetonitrile, addition of Zn(NO3)2·H2O (0.1 mmol, 0.021 g) in 5 mL acetonitrile, 4 h stirring, addition of 5 mL methanol then Ln salt, overnight stirring, filtration into a sealed vial and slow evaporation for about three weeks. Pale yellow crystals collected, washed with cold methanol, dried in air. Yield: 49.4 mg, 61% based on Yb(NO3)3·6H2O.",
+        "reagents": [
+          {
+            "name": "H3L (1-(2-hydroxy-4-methoxy-benzamido)-2-(2-hydroxy-3-methoxybenzylideneamino)-ethane)",
+            "formula": "C18H20N2O5",
+            "role": "ligand",
+            "amount": "0.1 mmol (0.028 g)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "27 μL (0.2 mmol)"
+          },
+          {
+            "name": "zinc nitrate monohydrate",
+            "formula": "Zn(NO3)2·H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol (0.021 g)"
+          },
+          {
+            "name": "ytterbium nitrate hexahydrate",
+            "formula": "Yb(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "methanol"
+        ],
+        "temperature": "ambient (not specified beyond air drying)",
+        "time": "5 min + 4 h stirring, then overnight stirring; crystallization about three weeks",
+        "ph": null,
+        "vessel_or_method": "solution self-assembly with slow evaporation in a sealed 10–20 mL glass vial",
+        "workup_and_crystallization": "filtered into a sealed vial for slow evaporation; pale yellow crystals collected by filtration, washed with cold methanol, dried in air",
+        "yield": "49.4 mg, 61% based on Yb(NO3)3·6H2O"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Isostructural sandwich cluster showing ligand-centered visible emission and strong YbIII NIR emission (2F5/2 → 2F7/2) after zinc/ligand-centered excitation; solid-state luminescence similar to solution, indicating the cluster is retained in solution. No magnetic data reported for this analogue.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "ligand-centered excitation band",
+            "value": "approximately 345–426",
+            "unit": "nm",
+            "conditions": "Zn2Yb3 in methanol + acetonitrile (v:v = 1:4)"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR emission assignment",
+            "value": "strong 2F5/2 → 2F7/2 YbIII NIR emission",
+            "unit": null,
+            "conditions": "excitation of zinc/ligand-centered absorption; solution (MeOH/MeCN 1:4) and similar solid-state spectra"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "section 2.2.1.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.2.1.2 and Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC row LANXOQ/1482430 matched to Yb analogue"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "abstract and section 3.2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.2.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3 photoluminescence, Fig. 6"
+        }
+      ]
+    }
+  ]
+}

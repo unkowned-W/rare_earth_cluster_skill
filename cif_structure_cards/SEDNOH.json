@@ -1,0 +1,219 @@
+{
+  "refcode": "SEDNOH",
+  "ccdc_number": "1540696",
+  "dois": [
+    "10.1021/acs.inorgchem.7b00828"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1540696.cif",
+  "formula_moiety": "C45 H99 Ce3 N2 O15,C7 H8",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "14.5349(4)",
+    "b": "13.2069(3)",
+    "c": "34.4193(8)",
+    "alpha": "90",
+    "beta": "97.1450(10)",
+    "gamma": "90",
+    "volume": "6555.85",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O5",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ce3",
+      "element": "Ce",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O12",
+        "O13",
+        "O14",
+        "O3",
+        "O5",
+        "O6"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ce1",
+          "Ce2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O5",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.638,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 94.37,
+            "metal_oxygen_distances_angstrom": [
+              2.515,
+              2.444
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 94.4,
+            "metal_oxygen_distances_angstrom": [
+              2.463,
+              2.495
+            ]
+          },
+          {
+            "oxygen": "O9",
+            "angle_deg": 103.42,
+            "metal_oxygen_distances_angstrom": [
+              2.303,
+              2.332
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce1",
+          "Ce3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O3",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.687,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 93.81,
+            "metal_oxygen_distances_angstrom": [
+              2.515,
+              2.535
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 103.46,
+            "metal_oxygen_distances_angstrom": [
+              2.275,
+              2.42
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 96.06,
+            "metal_oxygen_distances_angstrom": [
+              2.463,
+              2.496
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2",
+          "Ce3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O5",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.673,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 95.07,
+            "metal_oxygen_distances_angstrom": [
+              2.444,
+              2.535
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 94.77,
+            "metal_oxygen_distances_angstrom": [
+              2.495,
+              2.496
+            ]
+          },
+          {
+            "oxygen": "O6",
+            "angle_deg": 102.81,
+            "metal_oxygen_distances_angstrom": [
+              2.278,
+              2.421
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1",
+        "Ce2",
+        "Ce3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "SEDNOH crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C45 H99 Ce3 N2 O15,C7 H8. From the CIF bond table, Ce1 (Ce) has 6 O neighbors; Ce2 (Ce) has 6 O neighbors; Ce3 (Ce) has 8 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.638-3.687 Å (not direct metal-metal bonds). Computed M-O-M angles span 93.81-103.46°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Ce3(OCH2tBu)9(NO3)2]·C7H8. Explicit grouped units in the article formula/name: 2 NO3 (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.7b00828",
+    "formula": "[Ce3(OCH2tBu)9(NO3)2]·C7H8",
+    "compound_name": "[{Ce(OCH2tBu)2}2(μ2-OCH2tBu)3(μ3-OCH2tBu)2{Ce(κ2-NO3)2}]·C7H8",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "refcode": "ZAPJIM",
+  "ccdc_number": "1502598",
+  "dois": [
+    "10.1002/chem.201604203"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1502598.cif",
+  "formula_moiety": "C125 H175 F6 N10 O2 Yb5",
+  "crystal_system": "orthorhombic",
+  "space_group_hm": "P c c n",
+  "international_tables_number": "56",
+  "unit_cell": {
+    "a": "21.771(4)",
+    "b": "21.771(4)",
+    "c": "31.009(6)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "14697.5",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O2"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Yb4",
+      "element": "Yb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O2"
+      ]
+    },
+    {
+      "label": "Yb5",
+      "element": "Yb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.748,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 114.49,
+            "metal_oxygen_distances_angstrom": [
+              2.199,
+              2.258
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb2",
+          "Yb5"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.748,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 114.49,
+            "metal_oxygen_distances_angstrom": [
+              2.258,
+              2.199
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb4"
+      ],
+      [
+        "Yb2",
+        "Yb5"
+      ],
+      [
+        "Yb3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ZAPJIM crystallizes in the orthorhombic crystal system with space group P c c n. Reported CIF formula moiety: C125 H175 F6 N10 O2 Yb5. From the CIF bond table, Yb2 (Yb) has 1 O neighbors; Yb1 (Yb) has 1 O neighbors; Yb3 (Yb) has 0 O neighbors; Yb4 (Yb) has 1 O neighbors; Yb5 (Yb) has 1 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.748-3.748 Å (not direct metal-metal bonds). Computed M-O-M angles span 114.49-114.49°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C125H175F6N10O2Yb5.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/chem.201604203",
+    "formula": "C125H175F6N10O2Yb5",
+    "compound_name": "[Yb5F6O2(DippForm)5]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

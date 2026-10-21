@@ -1,0 +1,248 @@
+{
+  "refcode": "IKAQAO",
+  "ccdc_number": "1444693",
+  "dois": [
+    "10.1039/c6dt00683c"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1444693.cif",
+  "formula_moiety": "C92 H67 Dy3 N20 O6",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "13.2747(15)",
+    "b": "20.662(2)",
+    "c": "28.789(3)",
+    "alpha": "82.413(2)",
+    "beta": "87.565(2)",
+    "gamma": "88.6840(10)",
+    "volume": "7818.9",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1A",
+      "element": "Dy",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O1B",
+        "O2A",
+        "O4A",
+        "O5A"
+      ]
+    },
+    {
+      "label": "Dy2A",
+      "element": "Dy",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O1B"
+      ]
+    },
+    {
+      "label": "Dy3A",
+      "element": "Dy",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O3A",
+        "O4A",
+        "O5A"
+      ]
+    },
+    {
+      "label": "Dy1B",
+      "element": "Dy",
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1C",
+        "O1D",
+        "O2B",
+        "O4B",
+        "O5B"
+      ]
+    },
+    {
+      "label": "Dy2B",
+      "element": "Dy",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1C",
+        "O1D"
+      ]
+    },
+    {
+      "label": "Dy3B",
+      "element": "Dy",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O3B",
+        "O4B",
+        "O5B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1A",
+          "Dy2A"
+        ],
+        "shared_oxygen_labels": [
+          "O1A",
+          "O1B"
+        ],
+        "metal_metal_separation_angstrom": 3.882,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1A",
+            "angle_deg": 111.98,
+            "metal_oxygen_distances_angstrom": [
+              2.346,
+              2.338
+            ]
+          },
+          {
+            "oxygen": "O1B",
+            "angle_deg": 112.3,
+            "metal_oxygen_distances_angstrom": [
+              2.306,
+              2.369
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1A",
+          "Dy3A"
+        ],
+        "shared_oxygen_labels": [
+          "O4A",
+          "O5A"
+        ],
+        "metal_metal_separation_angstrom": 3.615,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4A",
+            "angle_deg": 103.82,
+            "metal_oxygen_distances_angstrom": [
+              2.268,
+              2.325
+            ]
+          },
+          {
+            "oxygen": "O5A",
+            "angle_deg": 106.85,
+            "metal_oxygen_distances_angstrom": [
+              2.219,
+              2.282
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1B",
+          "Dy2B"
+        ],
+        "shared_oxygen_labels": [
+          "O1C",
+          "O1D"
+        ],
+        "metal_metal_separation_angstrom": 3.876,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1C",
+            "angle_deg": 112.24,
+            "metal_oxygen_distances_angstrom": [
+              2.322,
+              2.347
+            ]
+          },
+          {
+            "oxygen": "O1D",
+            "angle_deg": 111.27,
+            "metal_oxygen_distances_angstrom": [
+              2.349,
+              2.346
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1B",
+          "Dy3B"
+        ],
+        "shared_oxygen_labels": [
+          "O4B",
+          "O5B"
+        ],
+        "metal_metal_separation_angstrom": 3.646,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4B",
+            "angle_deg": 105.69,
+            "metal_oxygen_distances_angstrom": [
+              2.277,
+              2.297
+            ]
+          },
+          {
+            "oxygen": "O5B",
+            "angle_deg": 107.37,
+            "metal_oxygen_distances_angstrom": [
+              2.222,
+              2.302
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1A",
+        "Dy2A",
+        "Dy3A"
+      ],
+      [
+        "Dy1B",
+        "Dy2B",
+        "Dy3B"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "IKAQAO crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C92 H67 Dy3 N20 O6. From the CIF bond table, Dy1A (Dy) has 5 O neighbors; Dy2A (Dy) has 2 O neighbors; Dy3A (Dy) has 3 O neighbors; Dy1B (Dy) has 5 O neighbors; Dy2B (Dy) has 2 O neighbors; Dy3B (Dy) has 3 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 2 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.615-3.882 Å (not direct metal-metal bonds). Computed M-O-M angles span 103.82-112.30°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C92H67Dy3N20O6. Explicit grouped units in the article formula/name: 1 OAc (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c6dt00683c",
+    "formula": "C92H67Dy3N20O6",
+    "compound_name": "[(Pc)2Dy3(L)(OAc)(OCH3)2]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OAc",
+        "count": 1,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

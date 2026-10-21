@@ -1,0 +1,269 @@
+{
+  "title": "pH-induced Dy4 and Dy10 cluster-based 1D chains with different magnetic relaxation features",
+  "doi": "10.1039/c4dt02427c",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4(μ3-OH)2(L)10(bipy)2(H2O)2]n (L = 3-fluoro-4-(trifluoromethyl)benzoate; bipy = 2,2′-bipyridine)",
+      "formula": "C100H52Dy4F40N4O24",
+      "ccdc_numbers": [
+        "989712"
+      ],
+      "ccdc_refcodes": [
+        "BOTCOE"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "1D",
+        "structural_family": "butterfly [Dy4(μ3-OH)2] cluster-based 1D chain"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A mixture of L (0.3 mmol), Dy(NO3)3 (0.1 mmol), bipy (0.1 mmol) and 10 mL distilled water was sealed in a 25 mL Teflon-lined stainless vessel and heated at 160 °C for 96 h, then cooled slowly to room temperature at 1.5 °C h−1, affording colorless needle-shaped crystals. The discussion states that controlling the pH at 7 yields only compound 1.",
+        "reagents": [
+          {
+            "name": "3-fluoro-4-(trifluoromethyl)benzoic acid (L)",
+            "formula": "C8H4F4O2",
+            "role": "ligand",
+            "amount": "0.3 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate",
+            "formula": "Dy(NO3)3",
+            "role": "metal source",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "2,2′-bipyridine",
+            "formula": "C10H8N2",
+            "role": "coligand",
+            "amount": "0.1 mmol"
+          }
+        ],
+        "solvents": [
+          "water"
+        ],
+        "temperature": "160 °C",
+        "time": "96 h; cooled at 1.5 °C h−1",
+        "ph": "7",
+        "vessel_or_method": "hydrothermal; 25 mL Teflon-lined stainless vessel",
+        "workup_and_crystallization": "slow cooling to room temperature gave colorless needle-shaped crystals",
+        "yield": "72% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility under 1 kOe (300–2 K) shows χMT = 56.5 cm3 K mol−1 at room temperature (four uncoupled Dy(III)), a minimum of 46.35 cm3 K mol−1 at 10 K, then a rise indicating significant intramolecular ferromagnetic interactions. Zero-field ac data show frequency-dependent χ″ peaks and SMM-like slow relaxation. Arrhenius fitting of τ above 4 K gives ΔE/kB = 23.6 K and τ0 = 2.57 × 10−6 s. Cole–Cole α = 0.22–0.40 (2–6 K); Mydosh parameter φ = 0.25, inconsistent with spin-glass behavior.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (room temperature)",
+            "value": 56.5,
+            "unit": "cm3 K mol−1",
+            "conditions": "Hdc = 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (minimum)",
+            "value": 46.35,
+            "unit": "cm3 K mol−1",
+            "conditions": "10 K, Hdc = 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB",
+            "value": 23.6,
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit of τ above 4 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "2.57e-6",
+            "unit": "s",
+            "conditions": "zero dc field; Arrhenius fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.22–0.40",
+            "unit": null,
+            "conditions": "2–6 K, generalized Debye model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Mydosh parameter φ",
+            "value": 0.25,
+            "unit": null,
+            "conditions": "φ = (ΔTp/Tp)/Δ(log f)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1; abstract and synthesis heading for 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 989712 BOTCOE"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal structure of 1; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 1; pH discussion"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 5–6, 8; Table 2"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "{[Dy10(μ3-OH)8(L)22(bipy)2(H2O)2]·5H2O}n (L = 3-fluoro-4-(trifluoromethyl)benzoate; bipy = 2,2′-bipyridine)",
+      "formula": "C196H104Dy10F88N4O59",
+      "ccdc_numbers": [
+        "989713"
+      ],
+      "ccdc_refcodes": [
+        "BOTDAR"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 10,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "1D",
+        "structural_family": "[Dy10(μ3-OH)8] cluster-based 1D chain (edge-sharing [Dy3(μ3-OH)] triangles)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "An aqueous NaOH solution (0.3 M, 10 mL) was added dropwise to a mixture of L (0.3 mmol), Dy(NO3)3 (0.1 mmol), bipy (0.1 mmol) and 10 mL distilled water until pH ≈ 10. The mixture was sealed in a 25 mL Teflon-lined stainless vessel, heated at 160 °C for 96 h, and cooled slowly to room temperature at 1.5 °C h−1 to give colorless needle-shaped crystals.",
+        "reagents": [
+          {
+            "name": "3-fluoro-4-(trifluoromethyl)benzoic acid (L)",
+            "formula": "C8H4F4O2",
+            "role": "ligand",
+            "amount": "0.3 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate",
+            "formula": "Dy(NO3)3",
+            "role": "metal source",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "2,2′-bipyridine",
+            "formula": "C10H8N2",
+            "role": "coligand",
+            "amount": "0.1 mmol"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "pH adjuster",
+            "amount": "0.3 M, 10 mL, added dropwise to pH ≈ 10"
+          }
+        ],
+        "solvents": [
+          "water"
+        ],
+        "temperature": "160 °C",
+        "time": "96 h; cooled at 1.5 °C h−1",
+        "ph": "about 10",
+        "vessel_or_method": "hydrothermal; 25 mL Teflon-lined stainless vessel",
+        "workup_and_crystallization": "slow cooling to room temperature gave colorless needle-shaped crystals",
+        "yield": "34% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc χMT at room temperature is 143.8 cm3 K mol−1 (ten uncoupled Dy(III)) and declines to 95.93 cm3 K mol−1 at 2 K without a low-T upturn, unlike 1. Zero-field ac χ″ is frequency dependent (SMM-like) but lacks peaks, attributed to stronger quantum tunneling. Rough Debye analysis of ln(χ″/χ′) vs 1/T (2.0–3.25 K) gives ΔE/kB = 3.2 K and τ0 = 1.32 × 10−6 s. Cole–Cole α = 0.04–0.25.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (room temperature)",
+            "value": 143.8,
+            "unit": "cm3 K mol−1",
+            "conditions": "Hdc = 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 95.93,
+            "unit": "cm3 K mol−1",
+            "conditions": "Hdc = 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB",
+            "value": 3.2,
+            "unit": "K",
+            "conditions": "zero dc field; Debye estimate from ln(χ″/χ′) vs 1/T, 2.0–3.25 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "1.32e-6",
+            "unit": "s",
+            "conditions": "zero dc field; Debye estimate"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α",
+            "value": "0.04–0.25",
+            "unit": null,
+            "conditions": "generalized Debye model"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1; synthesis heading for 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 989713 BOTDAR"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal structure of 2; Fig. 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 5, 7–8"
+        }
+      ]
+    }
+  ]
+}

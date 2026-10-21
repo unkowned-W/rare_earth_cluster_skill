@@ -1,0 +1,116 @@
+{
+  "refcode": "IQAHEQ",
+  "ccdc_number": "2053702",
+  "dois": [
+    "10.1021/acs.inorgchem.1c00037"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2053702.cif",
+  "formula_moiety": "C42 H35 N2 O10 Yb1 Zn1,2(C2 H6 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "15.465(4)",
+    "b": "14.908(4)",
+    "c": "20.192(5)",
+    "alpha": "90.00",
+    "beta": "104.164(6)",
+    "gamma": "90.00",
+    "volume": "4513.79",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O2",
+        "O3",
+        "O4",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Zn1",
+      "element": "Zn",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O3",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Zn1"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.367,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 101.88,
+            "metal_oxygen_distances_angstrom": [
+              2.322,
+              2.006
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 102.0,
+            "metal_oxygen_distances_angstrom": [
+              2.279,
+              2.049
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Zn1"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "IQAHEQ crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C42 H35 N2 O10 Yb1 Zn1,2(C2 H6 O1). From the CIF bond table, Yb1 (Yb) has 9 O neighbors; Zn1 (Zn) has 3 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 1 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.367-3.367 Å (not direct metal-metal bonds). Computed M-O-M angles span 101.88-102.00°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C46H47N2O12YbZn. Explicit grouped units in the article formula/name: 3 OAc (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.1c00037",
+    "formula": "C46H47N2O12YbZn",
+    "compound_name": "[ZnYbL(OAc)3]",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OAc",
+        "count": 3,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

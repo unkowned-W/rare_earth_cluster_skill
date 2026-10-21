@@ -1,0 +1,346 @@
+{
+  "refcode": "WUWROY",
+  "ccdc_number": "1979413",
+  "dois": [
+    "10.1039/d0qi00632g"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1979413.cif",
+  "formula_moiety": "C75 H72 N9 O20 Tb3 Zn3 4+,2(Cl1 O4 1-),2(H1 O1 1-),8(H2 O1)",
+  "crystal_system": "cubic",
+  "space_group_hm": "P 21 3",
+  "international_tables_number": "198",
+  "unit_cell": {
+    "a": "22.272(3)",
+    "b": "22.272(3)",
+    "c": "22.272(3)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "11047.8",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O6",
+        "O6H",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Zn1",
+      "element": "Zn",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O3",
+        "O5"
+      ]
+    },
+    {
+      "label": "Tb1D",
+      "element": "Tb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1D",
+        "O2D",
+        "O3D",
+        "O4D",
+        "O6",
+        "O6D",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Zn1D",
+      "element": "Zn",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O2D",
+        "O3D",
+        "O5D"
+      ]
+    },
+    {
+      "label": "Tb1H",
+      "element": "Tb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1H",
+        "O2H",
+        "O3H",
+        "O4H",
+        "O6D",
+        "O6H",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Zn1H",
+      "element": "Zn",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O2H",
+        "O3H",
+        "O5H"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb1D"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O7",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.872,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 102.09,
+            "metal_oxygen_distances_angstrom": [
+              2.585,
+              2.392
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 109.22,
+            "metal_oxygen_distances_angstrom": [
+              2.375,
+              2.375
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 110.31,
+            "metal_oxygen_distances_angstrom": [
+              2.359,
+              2.359
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb1H"
+        ],
+        "shared_oxygen_labels": [
+          "O6H",
+          "O7",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.872,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 109.22,
+            "metal_oxygen_distances_angstrom": [
+              2.375,
+              2.375
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 110.31,
+            "metal_oxygen_distances_angstrom": [
+              2.359,
+              2.359
+            ]
+          },
+          {
+            "oxygen": "O6H",
+            "angle_deg": 102.09,
+            "metal_oxygen_distances_angstrom": [
+              2.392,
+              2.585
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Zn1"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.484,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 106.29,
+            "metal_oxygen_distances_angstrom": [
+              2.291,
+              2.06
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 106.0,
+            "metal_oxygen_distances_angstrom": [
+              2.303,
+              2.056
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1D",
+          "Tb1H"
+        ],
+        "shared_oxygen_labels": [
+          "O6D",
+          "O7",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.872,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 109.22,
+            "metal_oxygen_distances_angstrom": [
+              2.375,
+              2.375
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 110.31,
+            "metal_oxygen_distances_angstrom": [
+              2.359,
+              2.359
+            ]
+          },
+          {
+            "oxygen": "O6D",
+            "angle_deg": 102.09,
+            "metal_oxygen_distances_angstrom": [
+              2.585,
+              2.392
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1D",
+          "Zn1D"
+        ],
+        "shared_oxygen_labels": [
+          "O2D",
+          "O3D"
+        ],
+        "metal_metal_separation_angstrom": 3.484,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2D",
+            "angle_deg": 106.29,
+            "metal_oxygen_distances_angstrom": [
+              2.291,
+              2.06
+            ]
+          },
+          {
+            "oxygen": "O3D",
+            "angle_deg": 106.0,
+            "metal_oxygen_distances_angstrom": [
+              2.303,
+              2.056
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1H",
+          "Zn1H"
+        ],
+        "shared_oxygen_labels": [
+          "O2H",
+          "O3H"
+        ],
+        "metal_metal_separation_angstrom": 3.484,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2H",
+            "angle_deg": 106.29,
+            "metal_oxygen_distances_angstrom": [
+              2.291,
+              2.06
+            ]
+          },
+          {
+            "oxygen": "O3H",
+            "angle_deg": 106.0,
+            "metal_oxygen_distances_angstrom": [
+              2.303,
+              2.056
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb1D",
+        "Tb1H",
+        "Zn1",
+        "Zn1D",
+        "Zn1H"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "WUWROY crystallizes in the cubic crystal system with space group P 21 3. Reported CIF formula moiety: C75 H72 N9 O20 Tb3 Zn3 4+,2(Cl1 O4 1-),2(H1 O1 1-),8(H2 O1). From the CIF bond table, Tb1 (Tb) has 8 O neighbors; Zn1 (Zn) has 3 O neighbors; Tb1D (Tb) has 8 O neighbors; Zn1D (Zn) has 3 O neighbors; Tb1H (Tb) has 8 O neighbors; Zn1H (Zn) has 3 O neighbors. Oxygen-bridged metal-site graph: 6 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.484-3.872 Å (not direct metal-metal bonds). Computed M-O-M angles span 102.09-110.31°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Zn3Tb3(O2)L3(PyCO2)3](OH)2(ClO4)2·8H2O. Explicit grouped units in the article formula/name: 2 OH (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d0qi00632g",
+    "formula": "[Zn3Tb3(O2)L3(PyCO2)3](OH)2(ClO4)2·8H2O",
+    "compound_name": "[Zn3Tb3(O2)L3(PyCO2)3](OH)2(ClO4)2·8H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

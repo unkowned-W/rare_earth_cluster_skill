@@ -1,0 +1,194 @@
+{
+  "refcode": "FIBLEJ",
+  "ccdc_number": "900610",
+  "dois": [
+    "10.1002/anie.201210172"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\900610.cif",
+  "formula_moiety": "C88 H96 La4 N17 O27 3+,3(N1 O3 1-)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "20.6668(6)",
+    "b": "24.4086(5)",
+    "c": "23.7787(6)",
+    "alpha": "90",
+    "beta": "103.613(3)",
+    "gamma": "90",
+    "volume": "11658.1",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "La1",
+      "element": "La",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O16",
+        "O2",
+        "O24",
+        "O4",
+        "O8"
+      ]
+    },
+    {
+      "label": "La2",
+      "element": "La",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O16",
+        "O19",
+        "O2",
+        "O25",
+        "O3",
+        "O5"
+      ]
+    },
+    {
+      "label": "La3",
+      "element": "La",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O13",
+        "O14",
+        "O15",
+        "O18",
+        "O23",
+        "O7"
+      ]
+    },
+    {
+      "label": "La4",
+      "element": "La",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O17",
+        "O20",
+        "O21",
+        "O23",
+        "O6",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "La1",
+          "La2"
+        ],
+        "shared_oxygen_labels": [
+          "O16",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 4.071,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 109.75,
+            "metal_oxygen_distances_angstrom": [
+              2.443,
+              2.534
+            ]
+          },
+          {
+            "oxygen": "O16",
+            "angle_deg": 111.86,
+            "metal_oxygen_distances_angstrom": [
+              2.502,
+              2.412
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "La3",
+          "La4"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O23",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 4.029,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 110.38,
+            "metal_oxygen_distances_angstrom": [
+              2.427,
+              2.48
+            ]
+          },
+          {
+            "oxygen": "O13",
+            "angle_deg": 108.56,
+            "metal_oxygen_distances_angstrom": [
+              2.533,
+              2.429
+            ]
+          },
+          {
+            "oxygen": "O23",
+            "angle_deg": 95.82,
+            "metal_oxygen_distances_angstrom": [
+              2.749,
+              2.68
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "La1",
+        "La2"
+      ],
+      [
+        "La3",
+        "La4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "FIBLEJ crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C88 H96 La4 N17 O27 3+,3(N1 O3 1-). From the CIF bond table, La1 (La) has 7 O neighbors; La2 (La) has 7 O neighbors; La3 (La) has 7 O neighbors; La4 (La) has 7 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.029-4.071 Å (not direct metal-metal bonds). Computed M-O-M angles span 95.82-111.86°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [La4L4(NO3)](NO3)3. Explicit grouped units in the article formula/name: 1 NO3 (explicit grouped unit in article formula), 3 NO3 (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/anie.201210172",
+    "formula": "[La4L4(NO3)](NO3)3",
+    "compound_name": "tetranuclear lanthanum quadruple-stranded helicate [La4L4(NO3)](NO3)3",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 3,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

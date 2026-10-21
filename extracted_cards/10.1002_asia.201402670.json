@@ -1,0 +1,730 @@
+{
+  "title": "Enantioselective Self-Assembly of Triangular Dy3 Clusters with Single-Molecule Magnet Behavior",
+  "doi": "10.1002/asia.201402670",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "R-Dy3",
+      "compound_name": "[Dy3L_RRRRRR(μ3-OH)2(H2O)2(SCN)4]·6CH3OH",
+      "formula": "C55H93Dy3N10O13S4",
+      "ccdc_numbers": [
+        "902977"
+      ],
+      "ccdc_refcodes": [
+        "DOKGOB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "chiral triangular Ln3 encapsulated in a hexaimine-reduced macrocycle"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Dy(SCN)3·6H2O (0.2 mmol) was treated with H3L_RRRRRR (0.05 mmol) in methanol (15 mL) in the presence of Et3N (0.2 mmol). The mixture was stirred at room temperature for 2 h and left unperturbed for slow solvent evaporation. Colorless single crystals of R-Dy3 formed after a few days.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) thiocyanate hexahydrate",
+            "formula": "Dy(SCN)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "H3L_RRRRRR (enantiopure macrocyclic ligand)",
+            "formula": "H3L_RRRRRR",
+            "role": "ligand",
+            "amount": "0.05 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 2 h, then a few days for crystallization",
+        "ph": null,
+        "vessel_or_method": "stirring followed by slow evaporation",
+        "workup_and_crystallization": "resultant solution left unperturbed to allow slow evaporation; colorless single crystals obtained after a few days",
+        "yield": "35 mg (40%, based on the ligand)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Enantiopure triangular Dy3 cluster showing optical activity (mirror-image CD/VCD versus S-Dy3) and field-induced SMM behavior. Dc χMT indicates intramolecular ferromagnetic Dy–Dy coupling below 40 K. Under 300 Oe, frequency-dependent ac maxima give Ueff = 37 K and τ0 = 5×10^-8 s; applied fields slow QTM and reveal two closely spaced relaxation processes above ~900 Oe.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K, 1000 Oe)",
+            "value": 42.23,
+            "unit": "cm3 K mol-1",
+            "conditions": "300-2 K, 1000 Oe; expected 42.51 for three uncoupled DyIII"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT maximum",
+            "value": 45.07,
+            "unit": "cm3 K mol-1",
+            "conditions": "3.5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 44.57,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 17.6,
+            "unit": "μB",
+            "conditions": "7 T, 1.9 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 37,
+            "unit": "K",
+            "conditions": "ac under 300 Oe dc; Arrhenius fit 5-8 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "5e-8",
+            "unit": "s",
+            "conditions": "ac under 300 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole-Cole α",
+            "value": "0.008-0.1",
+            "unit": null,
+            "conditions": "1.9-8.0 K, 300 Oe; generalized Debye"
+          },
+          {
+            "property_type": "optical",
+            "name": "circular dichroism",
+            "value": "mirror-image Cotton effects versus S-Dy3",
+            "unit": null,
+            "conditions": "CH3OH solution, 298 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "VCD",
+            "value": "mirror-image VCD bands versus S-Dy3",
+            "unit": null,
+            "conditions": "KBr pellet"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Table 1; Experimental elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray Crystallography paragraph"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC metadata DOKGOB/902977"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of R-Dy"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "CD/VCD discussion; Magnetic Properties; Table 2; Figures 2-6"
+        }
+      ]
+    },
+    {
+      "compound_label": "S-Dy3",
+      "compound_name": "[Dy3L_SSSSSS(μ3-OH)2(H2O)2(SCN)4]·6CH3OH·H2O",
+      "formula": "C55H95Dy3N10O14S4",
+      "ccdc_numbers": [
+        "902978"
+      ],
+      "ccdc_refcodes": [
+        "DOKGUH"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "chiral triangular Ln3 encapsulated in a hexaimine-reduced macrocycle"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to R-Dy3, using H3L_SSSSSS and KOH instead of H3L_RRRRRR and Et3N. Dy(SCN)3·6H2O (0.2 mmol) with H3L_SSSSSS (0.05 mmol) in methanol (15 mL) in the presence of KOH, stirred at room temperature for 2 h, then crystallized by slow evaporation.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) thiocyanate hexahydrate",
+            "formula": "Dy(SCN)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "H3L_SSSSSS (enantiopure macrocyclic ligand)",
+            "formula": "H3L_SSSSSS",
+            "role": "ligand",
+            "amount": "0.05 mmol"
+          },
+          {
+            "name": "potassium hydroxide",
+            "formula": "KOH",
+            "role": "base",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 2 h, then slow evaporation",
+        "ph": null,
+        "vessel_or_method": "same procedure as R-Dy3 with S-ligand and KOH",
+        "workup_and_crystallization": "slow evaporation as for R-Dy3",
+        "yield": "31 mg (35%, based on the ligand)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Enantiomer of R-Dy3 with essentially identical dc magnetism (ferromagnetic Dy–Dy coupling; χMT max 43.90 cm3 K mol-1 at 3.5 K) and similar field-induced SMM ac response. CD and VCD are mirror images of R-Dy3.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K, 1000 Oe)",
+            "value": 42.86,
+            "unit": "cm3 K mol-1",
+            "conditions": "300-2 K, 1000 Oe; expected 42.51"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT maximum",
+            "value": 43.9,
+            "unit": "cm3 K mol-1",
+            "conditions": "3.5 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 43.35,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "optical",
+            "name": "circular dichroism",
+            "value": "mirror-image Cotton effects versus R-Dy3",
+            "unit": null,
+            "conditions": "CH3OH, 298 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "VCD",
+            "value": "mirror-image VCD versus R-Dy3",
+            "unit": null,
+            "conditions": "KBr pellet"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray Crystallography, CCDC 902978"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC metadata DOKGUH/902978"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Synthesis of S-Dy3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 2; Figures 2-4; Magnetic Properties"
+        }
+      ]
+    },
+    {
+      "compound_label": "R-Ho3",
+      "compound_name": "[Ho3L_RRRRRR(μ3-OH)2(H2O)2(SCN)4]·6CH3OH·H2O",
+      "formula": "C55H95Ho3N10O14S4",
+      "ccdc_numbers": [
+        "1008526"
+      ],
+      "ccdc_refcodes": [
+        "DOKHAO"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "chiral triangular Ln3 encapsulated in a hexaimine-reduced macrocycle"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Pale-orange block crystals obtained by the same procedure as R-Dy3 except that Ho(SCN)3·6H2O (0.2 mmol) replaced Dy(SCN)3·6H2O.",
+        "reagents": [
+          {
+            "name": "holmium(III) thiocyanate hexahydrate",
+            "formula": "Ho(SCN)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "H3L_RRRRRR",
+            "formula": "H3L_RRRRRR",
+            "role": "ligand",
+            "amount": "0.05 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 2 h, then crystallization over a few days",
+        "ph": null,
+        "vessel_or_method": "same as R-Dy3",
+        "workup_and_crystallization": "pale-orange block-shaped crystals by slow evaporation",
+        "yield": "29 mg (33%, based on the ligand)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Chiral triangular Ho3 cluster. Optical activity confirmed by CD/VCD enantiomer pairs. Detailed dc/ac magnetism is reported for the S enantiomer rather than R-Ho3; optical isomers are stated to show very similar ac susceptibility, with no out-of-phase signal under zero dc field.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "circular dichroism",
+            "value": "mirror-image Cotton effects versus S-Ho3",
+            "unit": null,
+            "conditions": "CH3OH solution"
+          },
+          {
+            "property_type": "optical",
+            "name": "VCD",
+            "value": "mirror-image VCD versus S-Ho3",
+            "unit": null,
+            "conditions": "KBr pellet"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 1008526 R-Ho3"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "DOKHAO/1008526"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Synthesis of R-Ho3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "CD/VCD section; Magnetic Properties (optical isomers similar)"
+        }
+      ]
+    },
+    {
+      "compound_label": "S-Ho3",
+      "compound_name": "[Ho3L_SSSSSS(μ3-OH)2(H2O)2(SCN)4]·6CH3OH·H2O",
+      "formula": "C55H95Ho3N10O14S4",
+      "ccdc_numbers": [
+        "1008527"
+      ],
+      "ccdc_refcodes": [
+        "DOKHES"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "chiral triangular Ln3 encapsulated in a hexaimine-reduced macrocycle"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Pale-orange block crystals obtained by the same procedure as R-Ho3 except that the S-configured ligand H3L_SSSSSS was used instead of H3L_RRRRRR.",
+        "reagents": [
+          {
+            "name": "holmium(III) thiocyanate hexahydrate",
+            "formula": "Ho(SCN)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "H3L_SSSSSS",
+            "formula": "H3L_SSSSSS",
+            "role": "ligand",
+            "amount": "0.05 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "same as R-Ho3",
+        "ph": null,
+        "vessel_or_method": "same as R-Ho3",
+        "workup_and_crystallization": "pale-orange block-shaped crystals",
+        "yield": "32 mg (36%, based on the ligand)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Dc susceptibility decreases slowly at high T then rapidly below 100 K, approaching 12.72 cm3 K mol-1 at 2 K. No out-of-phase ac signal under zero dc field. CD/VCD confirm enantiopurity versus R-Ho3.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K, 1000 Oe)",
+            "value": 41.57,
+            "unit": "cm3 K mol-1",
+            "conditions": "expected 42.21 for three uncoupled HoIII"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 12.72,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 16.59,
+            "unit": "μB",
+            "conditions": "7 T, 1.9 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "circular dichroism",
+            "value": "mirror-image Cotton effects versus R-Ho3",
+            "unit": null,
+            "conditions": "CH3OH"
+          },
+          {
+            "property_type": "optical",
+            "name": "VCD",
+            "value": "mirror-image VCD versus R-Ho3",
+            "unit": null,
+            "conditions": "KBr pellet"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 1008527 S-Ho3"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "DOKHES/1008527"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Synthesis of S-Ho3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 2; Figure 4; Magnetic Properties"
+        }
+      ]
+    },
+    {
+      "compound_label": "R-Er3",
+      "compound_name": "[Er3L_RRRRRR(μ3-OH)2(H2O)2(SCN)4]·6CH3OH",
+      "formula": "C55H93Er3N10O13S4",
+      "ccdc_numbers": [
+        "1008528"
+      ],
+      "ccdc_refcodes": [
+        "DOKHIW"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "chiral triangular Ln3 encapsulated in a hexaimine-reduced macrocycle"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Pink block crystals obtained by the same procedure as R-Ho3 except that Er(SCN)3·6H2O (0.2 mmol) replaced Ho(SCN)3·6H2O.",
+        "reagents": [
+          {
+            "name": "erbium(III) thiocyanate hexahydrate",
+            "formula": "Er(SCN)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "H3L_RRRRRR",
+            "formula": "H3L_RRRRRR",
+            "role": "ligand",
+            "amount": "0.05 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.2 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "same as R-Ho3",
+        "ph": null,
+        "vessel_or_method": "same as R-Ho3",
+        "workup_and_crystallization": "pink block-shaped crystals by slow evaporation",
+        "yield": "30 mg (34%, based on the ligand)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Chiral triangular Er3 cluster with CD/VCD optical activity. Detailed magnetism reported for S-Er3; optical isomers show similar ac behavior and no out-of-phase signal under zero dc field.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "circular dichroism",
+            "value": "mirror-image Cotton effects versus S-Er3",
+            "unit": null,
+            "conditions": "CH3OH"
+          },
+          {
+            "property_type": "optical",
+            "name": "VCD",
+            "value": "mirror-image VCD versus S-Er3",
+            "unit": null,
+            "conditions": "KBr pellet"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Table 1; elemental analysis C55H93Er3N10O13S4"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 1008528 R-Er3"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "DOKHIW/1008528"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Synthesis of R-Er3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "CD/VCD; Magnetic Properties"
+        }
+      ]
+    },
+    {
+      "compound_label": "S-Er3",
+      "compound_name": "[Er3L_SSSSSS(μ3-OH)2(H2O)2(SCN)4]·6CH3OH·H2O",
+      "formula": "C55H95Er3N10O14S4",
+      "ccdc_numbers": [
+        "1008529"
+      ],
+      "ccdc_refcodes": [
+        "DOKHOC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "chiral triangular Ln3 encapsulated in a hexaimine-reduced macrocycle"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Pink block crystals obtained by the same procedure as R-Er3 except that H3L_SSSSSS was used instead of H3L_RRRRRR.",
+        "reagents": [
+          {
+            "name": "erbium(III) thiocyanate hexahydrate",
+            "formula": "Er(SCN)3·6H2O",
+            "role": "metal source",
+            "amount": "0.2 mmol"
+          },
+          {
+            "name": "H3L_SSSSSS",
+            "formula": "H3L_SSSSSS",
+            "role": "ligand",
+            "amount": "0.05 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "same as R-Er3",
+        "ph": null,
+        "vessel_or_method": "same as R-Er3",
+        "workup_and_crystallization": "pink block-shaped crystals",
+        "yield": "34 mg (38%, based on the ligand)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Dc χMT close to three uncoupled ErIII at room temperature, falling to 14.97 cm3 K mol-1 at 2 K. No out-of-phase ac signal under zero dc field. CD/VCD confirm chirality transfer from the S ligand.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K, 1000 Oe)",
+            "value": 33.95,
+            "unit": "cm3 K mol-1",
+            "conditions": "expected 34.44 for three uncoupled ErIII"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 14.97,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 14.48,
+            "unit": "μB",
+            "conditions": "7 T, 1.9 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "circular dichroism",
+            "value": "mirror-image Cotton effects versus R-Er3",
+            "unit": null,
+            "conditions": "CH3OH"
+          },
+          {
+            "property_type": "optical",
+            "name": "VCD",
+            "value": "mirror-image VCD versus R-Er3",
+            "unit": null,
+            "conditions": "KBr pellet"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 1008529 S-Er3"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "DOKHOC/1008529"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Synthesis of S-Er"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Table 2; Figure 4; Magnetic Properties"
+        }
+      ]
+    }
+  ]
+}

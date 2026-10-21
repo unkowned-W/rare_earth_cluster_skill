@@ -1,0 +1,156 @@
+{
+  "refcode": "PUQXIJ",
+  "ccdc_number": "769371",
+  "dois": [
+    "10.1021/cg901283k"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\769371.cif",
+  "formula_moiety": "C56 H44 Br4 Cl4 N8 O10 Yb3 1+,Cl1 1-,C2 H6 O1,H2 O1",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "P 4/n c c",
+  "international_tables_number": "130",
+  "unit_cell": {
+    "a": "25.902(4)",
+    "b": "25.902(4)",
+    "c": "23.203(5)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "15567.2",
+    "Z": "8"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O2F",
+        "O3",
+        "O3F",
+        "O4",
+        "O4F"
+      ]
+    },
+    {
+      "label": "Yb1F",
+      "element": "Yb",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1F",
+        "O2F",
+        "O4F",
+        "O5F"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.705,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 109.2,
+            "metal_oxygen_distances_angstrom": [
+              2.313,
+              2.232
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 111.59,
+            "metal_oxygen_distances_angstrom": [
+              2.234,
+              2.247
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb1F",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O2F",
+          "O4F"
+        ],
+        "metal_metal_separation_angstrom": 3.705,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2F",
+            "angle_deg": 109.2,
+            "metal_oxygen_distances_angstrom": [
+              2.313,
+              2.232
+            ]
+          },
+          {
+            "oxygen": "O4F",
+            "angle_deg": 111.59,
+            "metal_oxygen_distances_angstrom": [
+              2.234,
+              2.247
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb1F",
+        "Yb2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "PUQXIJ crystallizes in the tetragonal crystal system with space group P 4/n c c. Reported CIF formula moiety: C56 H44 Br4 Cl4 N8 O10 Yb3 1+,Cl1 1-,C2 H6 O1,H2 O1. From the CIF bond table, Yb1 (Yb) has 4 O neighbors; Yb2 (Yb) has 6 O neighbors; Yb1F (Yb) has 4 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.705-3.705 Å (not direct metal-metal bonds). Computed M-O-M angles span 109.20-111.59°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C58H52Br4Cl5N8O12Yb3. Explicit grouped units in the article formula/name: 2 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/cg901283k",
+    "formula": "C58H52Br4Cl5N8O12Yb3",
+    "compound_name": "[Yb3L4Cl4(H2O)2]·Cl·H2O·EtOH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "refcode": "MOSMIS",
+  "ccdc_number": "992000",
+  "dois": [
+    "10.1021/ic501118b"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\992000.cif",
+  "formula_moiety": "C23 H27 N2 O10 Yb1 Zn1",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "8.502(3)",
+    "b": "17.380(6)",
+    "c": "20.062(7)",
+    "alpha": "109.339(4)",
+    "beta": "98.788(4)",
+    "gamma": "100.564(4)",
+    "volume": "2675.96",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O13",
+        "O16",
+        "O17",
+        "O18",
+        "O19",
+        "O20"
+      ]
+    },
+    {
+      "label": "Zn2",
+      "element": "Zn",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O14",
+        "O15"
+      ]
+    },
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O2",
+        "O4",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Zn1",
+      "element": "Zn",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Zn1"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.647,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 110.92,
+            "metal_oxygen_distances_angstrom": [
+              2.341,
+              2.082
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb2",
+          "Zn2"
+        ],
+        "shared_oxygen_labels": [
+          "O11"
+        ],
+        "metal_metal_separation_angstrom": 3.638,
+        "bridge_geometry": [
+          {
+            "oxygen": "O11",
+            "angle_deg": 113.1,
+            "metal_oxygen_distances_angstrom": [
+              2.317,
+              2.039
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Zn1"
+      ],
+      [
+        "Yb2",
+        "Zn2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "MOSMIS crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C23 H27 N2 O10 Yb1 Zn1. From the CIF bond table, Yb2 (Yb) has 8 O neighbors; Zn2 (Zn) has 3 O neighbors; Yb1 (Yb) has 8 O neighbors; Zn1 (Zn) has 3 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.638-3.647 Å (not direct metal-metal bonds). Computed M-O-M angles span 110.92-113.10°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C38H42ClN4O16TbZn2.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ic501118b",
+    "formula": "C38H42ClN4O16TbZn2",
+    "compound_name": "{[Zn(OAc)2L]2Tb}ClO4 (HL = 2-ethoxy-6-[(pyridin-2-ylmethylimino)methyl]phenol)",
+    "match_basis": "ccdc_number"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "refcode": "VIMPAK",
+  "ccdc_number": "929918",
+  "dois": [
+    "10.1016/j.poly.2013.05.007"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\929918.cif",
+  "formula_moiety": "C45 H70 Dy3 N9 O16 2+,C2 H3 N1,2(Cl1 1-),4(H2 O1)",
+  "crystal_system": "trigonal",
+  "space_group_hm": "P -3",
+  "international_tables_number": "147",
+  "unit_cell": {
+    "a": "17.5986(3)",
+    "b": "17.5986(3)",
+    "c": "13.1888(5)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "120",
+    "volume": "3537.47",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O4B",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Dy1A",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2A",
+        "O3A",
+        "O4",
+        "O4A",
+        "O5A",
+        "O6A"
+      ]
+    },
+    {
+      "label": "Dy1B",
+      "element": "Dy",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2B",
+        "O3B",
+        "O4A",
+        "O4B",
+        "O5B",
+        "O6B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy1A"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.769,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 104.97,
+            "metal_oxygen_distances_angstrom": [
+              2.375,
+              2.376
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 112.72,
+            "metal_oxygen_distances_angstrom": [
+              2.28,
+              2.247
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O4B"
+        ],
+        "metal_metal_separation_angstrom": 3.769,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 105.01,
+            "metal_oxygen_distances_angstrom": [
+              2.375,
+              2.375
+            ]
+          },
+          {
+            "oxygen": "O4B",
+            "angle_deg": 112.72,
+            "metal_oxygen_distances_angstrom": [
+              2.247,
+              2.28
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1A",
+          "Dy1B"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O4A"
+        ],
+        "metal_metal_separation_angstrom": 3.769,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 104.96,
+            "metal_oxygen_distances_angstrom": [
+              2.376,
+              2.375
+            ]
+          },
+          {
+            "oxygen": "O4A",
+            "angle_deg": 112.72,
+            "metal_oxygen_distances_angstrom": [
+              2.28,
+              2.247
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy1A",
+        "Dy1B"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "VIMPAK crystallizes in the trigonal crystal system with space group P -3. Reported CIF formula moiety: C45 H70 Dy3 N9 O16 2+,C2 H3 N1,2(Cl1 1-),4(H2 O1). From the CIF bond table, Dy1 (Dy) has 7 O neighbors; Dy1A (Dy) has 7 O neighbors; Dy1B (Dy) has 7 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.769-3.769 Å (not direct metal-metal bonds). Computed M-O-M angles span 104.96-112.72°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [DyIII3(OH)(teaH2)3(paa)3](Cl)2·MeCN·4H2O. Explicit grouped units in the article formula/name: 1 OH (explicit grouped unit in article formula). Article name explicitly identifies Dy(III).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.poly.2013.05.007",
+    "formula": "[DyIII3(OH)(teaH2)3(paa)3](Cl)2·MeCN·4H2O",
+    "compound_name": "[DyIII3(OH)(teaH2)3(paa)3](Cl)2·MeCN·4H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "Dy",
+        "state": "III",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

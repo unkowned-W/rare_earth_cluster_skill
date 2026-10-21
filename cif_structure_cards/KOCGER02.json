@@ -1,0 +1,212 @@
+{
+  "refcode": "KOCGER02",
+  "ccdc_number": "1886464",
+  "dois": [
+    "10.1039/c8dt04267e"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1886464.cif",
+  "formula_moiety": "C20 H43 Gd3 N8 O20,C2 H6 O1",
+  "crystal_system": "orthorhombic",
+  "space_group_hm": "P n a 21",
+  "international_tables_number": "33",
+  "unit_cell": {
+    "a": "28.4536(6)",
+    "b": "14.9700(3)",
+    "c": "9.1074(2)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "3879.3",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O15",
+        "O16",
+        "O2",
+        "O3",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Gd2",
+      "element": "Gd",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O12",
+        "O13",
+        "O2",
+        "O3",
+        "O4",
+        "O9"
+      ]
+    },
+    {
+      "label": "Gd3",
+      "element": "Gd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O18",
+        "O19",
+        "O2",
+        "O4",
+        "O7",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Gd1",
+          "Gd2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.537,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 93.57,
+            "metal_oxygen_distances_angstrom": [
+              2.478,
+              2.375
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 93.06,
+            "metal_oxygen_distances_angstrom": [
+              2.425,
+              2.449
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 101.83,
+            "metal_oxygen_distances_angstrom": [
+              2.319,
+              2.238
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.929,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 104.02,
+            "metal_oxygen_distances_angstrom": [
+              2.478,
+              2.507
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 107.98,
+            "metal_oxygen_distances_angstrom": [
+              2.425,
+              2.432
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd2",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.57,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 93.91,
+            "metal_oxygen_distances_angstrom": [
+              2.375,
+              2.507
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 93.99,
+            "metal_oxygen_distances_angstrom": [
+              2.449,
+              2.432
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 103.31,
+            "metal_oxygen_distances_angstrom": [
+              2.249,
+              2.302
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Gd1",
+        "Gd2",
+        "Gd3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "KOCGER02 crystallizes in the orthorhombic crystal system with space group P n a 21. Reported CIF formula moiety: C20 H43 Gd3 N8 O20,C2 H6 O1. From the CIF bond table, Gd1 (Gd) has 7 O neighbors; Gd2 (Gd) has 8 O neighbors; Gd3 (Gd) has 7 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.537-3.929 Å (not direct metal-metal bonds). Computed M-O-M angles span 93.06-107.98°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C22H49Gd3N8O21. Explicit grouped units in the article formula/name: 4 NO3 (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c8dt04267e",
+    "formula": "C22H49Gd3N8O21",
+    "compound_name": "[Gd3(HL)(H2L)(NO3)4]·C2H5OH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 4,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

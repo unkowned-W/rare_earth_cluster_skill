@@ -1,0 +1,544 @@
+{
+  "title": "Two series of novel Ln2Mn and Ln6Mn2 (Ln = Gd/Tb) clusters: Synthesis, structures and magnetic properties",
+  "doi": "10.1016/j.poly.2020.114757",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Gd2Mn(H2TEOA)4(C7H5O2)2](NO3)3·4(H2O)",
+      "formula": "C38H74N7MnGd2O29",
+      "ccdc_numbers": [
+        "2003655"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "linear Ln2Mn(III) cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Benzoic acid (0.5 mmol, 61.1 mg), Mn(O2CPh)2·2H2O (0.5 mmol, 166.6 mg) and Gd(NO3)3·6H2O (1.0 mmol, 451.4 mg) were dissolved in 10 mL acetonitrile, followed by triethanolamine (H3TEOA, 600 μL). Upon addition of H3TEOA the solution turned dark violet. The mixture was heated and stirred at 80 °C under reflux, filtered hot after 2 h, and evaporated in air. Purple block crystals formed after one day (yield ~40% based on Gd).",
+        "reagents": [
+          {
+            "name": "benzoic acid",
+            "formula": "C7H6O2",
+            "role": "ligand",
+            "amount": "0.5 mmol, 61.1 mg"
+          },
+          {
+            "name": "manganese(II) benzoate dihydrate",
+            "formula": "Mn(O2CPh)2·2H2O",
+            "role": "Mn source",
+            "amount": "0.5 mmol, 166.6 mg"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol, 451.4 mg"
+          },
+          {
+            "name": "triethanolamine",
+            "formula": "H3TEOA",
+            "role": "ligand/base",
+            "amount": "600 μL"
+          }
+        ],
+        "solvents": [
+          "acetonitrile"
+        ],
+        "temperature": "80 °C (reflux)",
+        "time": "2 h heating/stirring; crystals after 1 day",
+        "ph": null,
+        "vessel_or_method": "reflux then hot filtration and evaporation in air",
+        "workup_and_crystallization": "filtered while hot after 2 h and evaporated in air; purple block crystals after one day",
+        "yield": "~40% based on Gd"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility (2–300 K, 1000 Oe) shows χMT = 18.39 cm3 K mol−1 at 300 K (calc. 18.75 for uncoupled Gd3+ and Mn3+), remaining nearly constant then dropping rapidly from 50 K to 13.75 cm3 K mol−1 at 4 K, indicating antiferromagnetic coupling. Curie–Weiss C = 18.72 cm3 K mol−1 with a negative Weiss constant. Magnetization at 7 T is 16.06 NμB versus a theoretical saturation of 18.00 NμB.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 18.39,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 13.75,
+            "unit": "cm3 K mol-1",
+            "conditions": "4 K (minimum after drop from 50 K)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 18.72,
+            "unit": "cm3 K mol-1",
+            "conditions": "Curie–Weiss fit of χMT vs T (Fig. S5)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 16.06,
+            "unit": "NμB",
+            "conditions": "7 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.1 synthesis of 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 2.2 X-ray crystallography"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3 Magnetic properties; Figs. 5–6"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Tb2Mn(H2TEOA)4(C7H5O2)2](C7H5O2)2(NO3)·(H3TEOA)·5(H2O)",
+      "formula": "C58H101N6MnTb2O31",
+      "ccdc_numbers": [
+        "2003656"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "linear Ln2Mn(III) cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 except Gd(NO3)3·6H2O was replaced by Tb(NO3)3·6H2O (1.0 mmol, 453.03 mg). Purple block crystals, yield ~40% based on Tb.",
+        "reagents": [
+          {
+            "name": "benzoic acid",
+            "formula": "C7H6O2",
+            "role": "ligand",
+            "amount": "0.5 mmol, 61.1 mg (as in 1)"
+          },
+          {
+            "name": "manganese(II) benzoate dihydrate",
+            "formula": "Mn(O2CPh)2·2H2O",
+            "role": "Mn source",
+            "amount": "0.5 mmol, 166.6 mg (as in 1)"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol, 453.03 mg"
+          },
+          {
+            "name": "triethanolamine",
+            "formula": "H3TEOA",
+            "role": "ligand/base",
+            "amount": "600 μL (as in 1)"
+          }
+        ],
+        "solvents": [
+          "acetonitrile"
+        ],
+        "temperature": "80 °C (reflux, as in 1)",
+        "time": "2 h heating/stirring (as in 1)",
+        "ph": null,
+        "vessel_or_method": "same as 1: reflux, hot filtration, evaporation in air",
+        "workup_and_crystallization": "purple block crystals",
+        "yield": "~40% based on Tb"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 26.24 cm3 K mol−1 at 300 K (calc. 26.63), dropping from 100 K to 18.36 cm3 K mol−1 at 2 K, consistent with antiferromagnetic interactions. Curie–Weiss C = 26.69 cm3 K mol−1 with a negative Weiss constant. M(7 T) = 13.17 NμB (theoretical 22.00 NμB). Ac susceptibility (2–10 K, Hdc = 0 Oe) showed no frequency dependence, so no SMM behavior (quantum tunneling).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 26.24,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 18.36,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K (minimum after drop from 100 K)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 26.69,
+            "unit": "cm3 K mol-1",
+            "conditions": "Curie–Weiss fit (Fig. S5)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 13.17,
+            "unit": "NμB",
+            "conditions": "7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility frequency dependence",
+            "value": "none observed",
+            "unit": null,
+            "conditions": "2–10 K, Hdc = 0 Oe (Fig. S6)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.1 synthesis of 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 2.2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3; Figs. 5–6, S6"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Gd6Mn2(L)4(H2L)4(C7H5O2)4(C2H5OH)2(NO3)4(H2O)4]·(CH3CN)·24(H2O)",
+      "formula": "C80H120Gd6Mn2N4O58·C2H3N·24(H2O)",
+      "ccdc_numbers": [
+        "2003657"
+      ],
+      "ccdc_refcodes": [
+        "DUWLUF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "coplanar quadrilateral Ln6Mn2(III) cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "2,2-bis(hydroxymethyl)butyric acid (H3L, 0.5 mmol, 74.08 mg), Mn(O2CPh)2·2H2O (0.5 mmol, 166.6 mg) and Gd(NO3)3·6H2O (1.0 mmol, 451.4 mg) were dissolved in 5 mL ethanol + 5 mL acetonitrile. pH was adjusted with NaOH (1.0 M) to about 5.5, then heated and stirred at 80 °C under reflux. Upon NaOH addition the solution turned dark yellow. Filtered hot after 2 h and evaporated in air. Brown-yellow rod-like crystals after two days (yield ~15% based on Gd).",
+        "reagents": [
+          {
+            "name": "2,2-bis(hydroxymethyl)butyric acid",
+            "formula": "H3L",
+            "role": "ligand",
+            "amount": "0.5 mmol, 74.08 mg"
+          },
+          {
+            "name": "manganese(II) benzoate dihydrate",
+            "formula": "Mn(O2CPh)2·2H2O",
+            "role": "Mn source",
+            "amount": "0.5 mmol, 166.6 mg"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol, 451.4 mg"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "pH adjuster",
+            "amount": "1.0 M, to pH ~5.5"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "acetonitrile"
+        ],
+        "temperature": "80 °C (reflux)",
+        "time": "2 h heating/stirring; crystals after two days",
+        "ph": "about 5.5",
+        "vessel_or_method": "reflux then hot filtration and evaporation in air",
+        "workup_and_crystallization": "filtered while hot after 2 h and evaporated in air; brown-yellow rod-like crystals after two days",
+        "yield": "~15% based on Gd"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 52.28 cm3 K mol−1 at 300 K (calc. 52.89), nearly constant until 30 K then falling to 21.22 cm3 K mol−1 at 2 K, indicating dominant antiferromagnetism. Curie–Weiss C = 52.94 cm3 K mol−1 with a negative Weiss constant. QMC fit of 3: J1 = −0.401(5) cm−1, J2 = 0.370(7) cm−1 (Gd–Mn); J3 = −0.498(7) cm−1, J4 = 0.711(7) cm−1 (Gd–Gd); D1 = 0.000 cm−1, D2 = 2.924(1) cm−1, g = 1.998, zJ = −0.030 cm−1, R = 2.128×10−5. Mixed ferro/antiferromagnetic couplings, with AF Gd–Mn and Gd–Gd dominant at low T. M(7 T) = 22.12 NμB vs theoretical 50.00 NμB.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 52.28,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 21.22,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 52.94,
+            "unit": "cm3 K mol-1",
+            "conditions": "Curie–Weiss fit (Fig. S5)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1 (Gd–Mn)",
+            "value": "-0.401(5)",
+            "unit": "cm-1",
+            "conditions": "QMC fit of χMT for 3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J2 (Gd–Mn)",
+            "value": "0.370(7)",
+            "unit": "cm-1",
+            "conditions": "QMC fit of χMT for 3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J3 (Gd–Gd)",
+            "value": "-0.498(7)",
+            "unit": "cm-1",
+            "conditions": "QMC fit of χMT for 3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J4 (Gd–Gd)",
+            "value": "0.711(7)",
+            "unit": "cm-1",
+            "conditions": "QMC fit of χMT for 3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "zJ",
+            "value": "-0.030",
+            "unit": "cm-1",
+            "conditions": "QMC intermolecular coupling"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g",
+            "value": "1.998(0)",
+            "unit": null,
+            "conditions": "QMC fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 22.12,
+            "unit": "NμB",
+            "conditions": "7 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract and section 2.1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2003657 / DUWLUF"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3; QMC discussion; Figs. 5–6"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Tb6Mn2(L)4(H2L)4(C7H5O2)4(C2H5OH)2(NO3)4(H2O)4]·(CH3CN)·24(H2O)",
+      "formula": "C80H120Mn2N4O58Tb6·C2H3N·24(H2O)",
+      "ccdc_numbers": [
+        "2003658"
+      ],
+      "ccdc_refcodes": [
+        "DUWMAM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 8,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "coplanar quadrilateral Ln6Mn2(III) cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same as 3 except Gd(NO3)3·6H2O was replaced by Tb(NO3)3·6H2O (1.0 mmol, 453.03 mg). Brown-yellow rod-like crystals after two days (yield ~15% based on Tb).",
+        "reagents": [
+          {
+            "name": "2,2-bis(hydroxymethyl)butyric acid",
+            "formula": "H3L",
+            "role": "ligand",
+            "amount": "0.5 mmol, 74.08 mg (as in 3)"
+          },
+          {
+            "name": "manganese(II) benzoate dihydrate",
+            "formula": "Mn(O2CPh)2·2H2O",
+            "role": "Mn source",
+            "amount": "0.5 mmol, 166.6 mg (as in 3)"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol, 453.03 mg"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "pH adjuster",
+            "amount": "1.0 M, to pH ~5.5 (as in 3)"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "acetonitrile"
+        ],
+        "temperature": "80 °C (reflux, as in 3)",
+        "time": "2 h heating/stirring; crystals after two days",
+        "ph": "about 5.5",
+        "vessel_or_method": "same as 3",
+        "workup_and_crystallization": "brown-yellow rod-like crystals after two days",
+        "yield": "~15% based on Tb"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT = 76.65 cm3 K mol−1 at 300 K (calc. 76.88), constant 300–55 K then declining to 48.55 cm3 K mol−1 at 2 K, indicating antiferromagnetic interactions. Curie–Weiss C = 77.34 cm3 K mol−1 with a negative Weiss constant. M(7 T) = 39.60 NμB vs theoretical 62.00 NμB. Ac susceptibility (2–10 K, Hdc = 0 Oe) showed no frequency dependence; no SMM behavior attributed to quantum tunneling.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 76.65,
+            "unit": "cm3 K mol-1",
+            "conditions": "300 K, 1000 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 48.55,
+            "unit": "cm3 K mol-1",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 77.34,
+            "unit": "cm3 K mol-1",
+            "conditions": "Curie–Weiss fit (Fig. S5)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 39.6,
+            "unit": "NμB",
+            "conditions": "7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ac susceptibility frequency dependence",
+            "value": "none observed",
+            "unit": null,
+            "conditions": "2–10 K, Hdc = 0 Oe (Fig. S6)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract and section 2.1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2003658 / DUWMAM"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3; Figs. 5–6, S6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "title": "4f-Metal Clusters Exhibiting Slow Relaxation of Magnetization: A {Dy7} Complex with An Hourglass-like Metal Topology",
+  "doi": "10.3390/molecules25092191",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy7(OH)6(OMe)2(NO3)1.5(nacb)2(nacbH)6(MeOH)(H2O)2](NO3)1.5",
+      "formula": "[Dy7(OH)6(OMe)2(NO3)1.5(nacb)2(nacbH)6(MeOH)(H2O)2](NO3)1.5 (1·5MeOH·MeCN; air-dried 1·MeOH)",
+      "ccdc_numbers": [
+        "1994400"
+      ],
+      "ccdc_refcodes": [
+        "MUXRUV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 7,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "hourglass-like {Dy7} core of two vertex-sharing {Dy4(μ3-OH)3(μ3-OMe)} cubanes"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Under aerobic conditions, solid Dy(NO3)3·5H2O (0.09 g, 0.20 mmol) was added to a stirred yellow solution of nacbH2 (0.07 g, 0.20 mmol) and NEt3 (84 μL, 0.60 mmol) in MeOH/MeCN (20 mL, 5:1 v/v). The orange-yellow suspension was stirred for 30 min until all solids dissolved, then filtered. The filtrate was left to evaporate slowly at room temperature. After ten days, X-ray quality yellow needle-like crystals of 1·5MeOH·MeCN were collected by filtration, washed with cold MeOH (2 × 2 mL) and MeCN (2 × 2 mL), and dried in air for 24 h. The air-dried solid analyzed as 1·MeOH. Isolated yield 40% based on ligand.",
+        "reagents": [
+          {
+            "name": "N-naphthalidene-2-amino-5-chlorobenzoic acid (nacbH2)",
+            "formula": "nacbH2",
+            "role": "Schiff-base ligand",
+            "amount": "0.07 g, 0.20 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "84 μL, 0.60 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate pentahydrate",
+            "formula": "Dy(NO3)3·5H2O",
+            "role": "metal salt",
+            "amount": "0.09 g, 0.20 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN",
+          "MeOH/MeCN 20 mL (5:1 v/v)"
+        ],
+        "temperature": "room temperature (slow evaporation)",
+        "time": "stirred 30 min; crystals after 10 days; dried in air 24 h",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring followed by filtration and slow evaporation",
+        "workup_and_crystallization": "filtered; filtrate evaporated slowly at room temperature; yellow needle crystals of 1·5MeOH·MeCN collected, washed with cold MeOH (2 × 2 mL) and MeCN (2 × 2 mL), and air-dried 24 h (air-dried solid 1·MeOH)",
+        "yield": "40% (based on ligand)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Heptanuclear Dy(III) cluster 1·MeOH shows χMT close to seven noninteracting Dy(III) ions at 300 K, a low-T decline attributed to crystal-field depopulation and weak intramolecular antiferromagnetic coupling, unsaturated anisotropic magnetization, and zero-dc-field SMM-like slow relaxation with a very small barrier (~5 K) dominated by fast QTM rather than an Orbach process.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (room temperature)",
+            "value": 99.12,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc susceptibility, 0.1 T; 300 K; microcrystalline 1·MeOH"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (theoretical, seven noninteracting Dy(III))",
+            "value": 99.19,
+            "unit": "cm3 K mol−1",
+            "conditions": "6H15/2, S = 5/2, L = 5, g = 4/3"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 72.05,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc susceptibility, 0.1 T; 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization at 7 T",
+            "value": "~36.5",
+            "unit": "NμB",
+            "conditions": "1.9–5 K magnetization vs field; no saturation at 7 T (expected MS 70 NμB)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "3.2(1) cm−1 (~4.6(1) K)",
+            "unit": null,
+            "conditions": "ac susceptibility, Hdc = 0, Hac = 3.0 G, 3–1000 Hz; Kramers–Kronig/Debye fit of χ″/χ′"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "3.7(2)×10−6",
+            "unit": "s",
+            "conditions": "same zero-dc-field ac fit as Ueff"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "title",
+          "source": "main_text",
+          "location": "title"
+        },
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Section 2.1; Section 3.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Equation (1); Section 3.2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Section 3.3 (CCDC-1994400)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC metadata row MUXRUV"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Section 2.2; Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Section 3.2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 2.3; Figures 6–8"
+        }
+      ]
+    }
+  ]
+}

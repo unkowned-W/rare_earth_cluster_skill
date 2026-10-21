@@ -1,0 +1,202 @@
+{
+  "refcode": "FAWVOR",
+  "ccdc_number": "1523290",
+  "dois": [
+    "10.1002/chem.201700827"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1523290.cif",
+  "formula_moiety": "C104 H120 La4 N17 O27 3+,3(N1 O3 1-),3(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21",
+  "international_tables_number": "4",
+  "unit_cell": {
+    "a": "17.3843(15)",
+    "b": "24.192(2)",
+    "c": "17.7219(15)",
+    "alpha": "90.00",
+    "beta": "105.7640(10)",
+    "gamma": "90.00",
+    "volume": "7172.82",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "La1",
+      "element": "La",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O20",
+        "O21",
+        "O26",
+        "O26'",
+        "O3",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "La2",
+      "element": "La",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O16",
+        "O17",
+        "O25'",
+        "O27",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "La3",
+      "element": "La",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O19",
+        "O20",
+        "O25",
+        "O26'",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "La4",
+      "element": "La",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O18",
+        "O22",
+        "O23",
+        "O27",
+        "O27'",
+        "O4",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "La1",
+          "La3"
+        ],
+        "shared_oxygen_labels": [
+          "O20",
+          "O26'",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 4.062,
+        "bridge_geometry": [
+          {
+            "oxygen": "O8",
+            "angle_deg": 110.15,
+            "metal_oxygen_distances_angstrom": [
+              2.535,
+              2.419
+            ]
+          },
+          {
+            "oxygen": "O20",
+            "angle_deg": 109.86,
+            "metal_oxygen_distances_angstrom": [
+              2.455,
+              2.509
+            ]
+          },
+          {
+            "oxygen": "O26'",
+            "angle_deg": 97.41,
+            "metal_oxygen_distances_angstrom": [
+              2.859,
+              2.541
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "La2",
+          "La4"
+        ],
+        "shared_oxygen_labels": [
+          "O17",
+          "O27",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 4.015,
+        "bridge_geometry": [
+          {
+            "oxygen": "O27",
+            "angle_deg": 96.58,
+            "metal_oxygen_distances_angstrom": [
+              2.766,
+              2.611
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 108.79,
+            "metal_oxygen_distances_angstrom": [
+              2.494,
+              2.444
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 107.84,
+            "metal_oxygen_distances_angstrom": [
+              2.439,
+              2.529
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "La1",
+        "La3"
+      ],
+      [
+        "La2",
+        "La4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "FAWVOR crystallizes in the monoclinic crystal system with space group P 21. Reported CIF formula moiety: C104 H120 La4 N17 O27 3+,3(N1 O3 1-),3(H2 O1). From the CIF bond table, La1 (La) has 8 O neighbors; La2 (La) has 8 O neighbors; La3 (La) has 8 O neighbors; La4 (La) has 8 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.015-4.062 Å (not direct metal-metal bonds). Computed M-O-M angles span 96.58-110.15°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [La4{(S)-L}4(NO3)]·3NO3·xCH3OH·yH2O·zCH3CN (dried: C104H120La4N20O36). Explicit grouped units in the article formula/name: 1 NO3 (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/chem.201700827",
+    "formula": "[La4{(S)-L}4(NO3)]·3NO3·xCH3OH·yH2O·zCH3CN (dried: C104H120La4N20O36)",
+    "compound_name": "homochiral tetranuclear quadruple-stranded P helicate [La4{(S)-L}4(NO3)]·3NO3·xCH3OH·yH2O·zCH3CN",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

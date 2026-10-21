@@ -1,0 +1,338 @@
+{
+  "refcode": "RUJGUA",
+  "ccdc_number": "1402575",
+  "dois": [
+    "10.1016/j.synthmet.2015.07.035"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1402575.cif",
+  "formula_moiety": "C40 H60 Er4 O20,C7 H8",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "I 41/a",
+  "international_tables_number": "88",
+  "unit_cell": {
+    "a": "13.9128(2)",
+    "b": "13.9128(2)",
+    "c": "32.5639(12)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "6303.26",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Er1",
+      "element": "Er",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O4N",
+        "O5",
+        "O5E",
+        "O5K"
+      ]
+    },
+    {
+      "label": "Er1E",
+      "element": "Er",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1E",
+        "O2E",
+        "O3E",
+        "O4E",
+        "O4K",
+        "O5",
+        "O5E",
+        "O5N"
+      ]
+    },
+    {
+      "label": "Er1K",
+      "element": "Er",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1K",
+        "O2K",
+        "O3K",
+        "O4",
+        "O4K",
+        "O5E",
+        "O5K",
+        "O5N"
+      ]
+    },
+    {
+      "label": "Er1N",
+      "element": "Er",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1N",
+        "O2N",
+        "O3N",
+        "O4E",
+        "O4N",
+        "O5",
+        "O5K",
+        "O5N"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Er1",
+          "Er1E"
+        ],
+        "shared_oxygen_labels": [
+          "O5",
+          "O5E"
+        ],
+        "metal_metal_separation_angstrom": 3.858,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 112.57,
+            "metal_oxygen_distances_angstrom": [
+              2.314,
+              2.323
+            ]
+          },
+          {
+            "oxygen": "O5E",
+            "angle_deg": 112.57,
+            "metal_oxygen_distances_angstrom": [
+              2.323,
+              2.314
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er1",
+          "Er1K"
+        ],
+        "shared_oxygen_labels": [
+          "O4",
+          "O5E",
+          "O5K"
+        ],
+        "metal_metal_separation_angstrom": 3.592,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 89.02,
+            "metal_oxygen_distances_angstrom": [
+              2.428,
+              2.689
+            ]
+          },
+          {
+            "oxygen": "O5E",
+            "angle_deg": 100.92,
+            "metal_oxygen_distances_angstrom": [
+              2.323,
+              2.334
+            ]
+          },
+          {
+            "oxygen": "O5K",
+            "angle_deg": 101.19,
+            "metal_oxygen_distances_angstrom": [
+              2.334,
+              2.314
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er1",
+          "Er1N"
+        ],
+        "shared_oxygen_labels": [
+          "O4N",
+          "O5",
+          "O5K"
+        ],
+        "metal_metal_separation_angstrom": 3.592,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 101.19,
+            "metal_oxygen_distances_angstrom": [
+              2.314,
+              2.334
+            ]
+          },
+          {
+            "oxygen": "O5K",
+            "angle_deg": 100.92,
+            "metal_oxygen_distances_angstrom": [
+              2.334,
+              2.323
+            ]
+          },
+          {
+            "oxygen": "O4N",
+            "angle_deg": 89.02,
+            "metal_oxygen_distances_angstrom": [
+              2.689,
+              2.428
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er1E",
+          "Er1K"
+        ],
+        "shared_oxygen_labels": [
+          "O4K",
+          "O5E",
+          "O5N"
+        ],
+        "metal_metal_separation_angstrom": 3.592,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5E",
+            "angle_deg": 101.19,
+            "metal_oxygen_distances_angstrom": [
+              2.314,
+              2.334
+            ]
+          },
+          {
+            "oxygen": "O4K",
+            "angle_deg": 89.02,
+            "metal_oxygen_distances_angstrom": [
+              2.689,
+              2.428
+            ]
+          },
+          {
+            "oxygen": "O5N",
+            "angle_deg": 100.92,
+            "metal_oxygen_distances_angstrom": [
+              2.334,
+              2.323
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er1E",
+          "Er1N"
+        ],
+        "shared_oxygen_labels": [
+          "O4E",
+          "O5",
+          "O5N"
+        ],
+        "metal_metal_separation_angstrom": 3.592,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 100.92,
+            "metal_oxygen_distances_angstrom": [
+              2.323,
+              2.334
+            ]
+          },
+          {
+            "oxygen": "O4E",
+            "angle_deg": 89.02,
+            "metal_oxygen_distances_angstrom": [
+              2.428,
+              2.689
+            ]
+          },
+          {
+            "oxygen": "O5N",
+            "angle_deg": 101.19,
+            "metal_oxygen_distances_angstrom": [
+              2.334,
+              2.314
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Er1K",
+          "Er1N"
+        ],
+        "shared_oxygen_labels": [
+          "O5K",
+          "O5N"
+        ],
+        "metal_metal_separation_angstrom": 3.858,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5K",
+            "angle_deg": 112.57,
+            "metal_oxygen_distances_angstrom": [
+              2.314,
+              2.323
+            ]
+          },
+          {
+            "oxygen": "O5N",
+            "angle_deg": 112.57,
+            "metal_oxygen_distances_angstrom": [
+              2.323,
+              2.314
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Er1",
+        "Er1E",
+        "Er1K",
+        "Er1N"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "three-dimensional metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "RUJGUA crystallizes in the tetragonal crystal system with space group I 41/a. Reported CIF formula moiety: C40 H60 Er4 O20,C7 H8. From the CIF bond table, Er1 (Er) has 8 O neighbors; Er1E (Er) has 8 O neighbors; Er1K (Er) has 8 O neighbors; Er1N (Er) has 8 O neighbors. Oxygen-bridged metal-site graph: 6 pairs, 1 components; largest component is a network with cycles with three-dimensional metal-site arrangement. Computed bridged metal-metal separations span 3.592-3.858 Å (not direct metal-metal bonds). Computed M-O-M angles span 89.02-112.57°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C40H60Er4O20·C7H8. Explicit grouped units in the article formula/name: 4 μ3-OH (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.synthmet.2015.07.035",
+    "formula": "C40H60Er4O20·C7H8",
+    "compound_name": "[Er4(μ3-OH)4{(μ-O)-η2-acac}4(η2-acac)4]·C7H8",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-OH",
+        "count": 4,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "title": "A nested spin structure and single molecule magnet behaviour in an Fe8Dy12 heterometallic cyclic coordination cluster",
+  "doi": "10.1039/d3dt04141g",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Fe8Dy12(tea)8(teaH)12(NO3)12]·8MeCN·6MeOH",
+      "formula": "C142H300Dy12Fe8N40O102",
+      "ccdc_numbers": [
+        "2306455"
+      ],
+      "ccdc_refcodes": [
+        "DOGXAC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 20,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Fe"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "saddle-shaped cyclic Fe8Dy12 coordination cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "A solution of 109 mg teaH3 (1 mmol) and 100 µL Et3N in 10 mL MeCN was added dropwise to a stirred solution of 101 mg Fe(NO3)3·9H2O (0.25 mmol) and 112 mg Dy(NO3)3·6H2O (0.25 mmol) in 5 mL MeOH. The mixture was stirred for 10 minutes, then 80 µL Et3N was added dropwise. After another 10 minutes of stirring, the glass vial was sealed and left undisturbed. The main text states that the reaction was performed at ambient temperature. Colourless block-shaped crystals were isolated after 14 days.",
+        "reagents": [
+          {
+            "name": "triethanolamine",
+            "formula": "teaH3",
+            "role": "ligand",
+            "amount": "109 mg (1 mmol)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "100 µL, then an additional 80 µL"
+          },
+          {
+            "name": "iron(III) nitrate nonahydrate",
+            "formula": "Fe(NO3)3·9H2O",
+            "role": "metal source",
+            "amount": "101 mg (0.25 mmol)"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "112 mg (0.25 mmol)"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "MeOH"
+        ],
+        "temperature": "ambient temperature",
+        "time": "stirring 10 min, then 10 min after the second base addition; crystallisation for 14 days",
+        "ph": null,
+        "vessel_or_method": "sealed glass vial, solution reaction followed by undisturbed crystallisation",
+        "workup_and_crystallization": "The sealed vial was left undisturbed and colourless block-shaped crystals were isolated after 14 days.",
+        "yield": "47% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Compound 1 shows dominant ferromagnetic Fe(III)–Dy(III) coupling, magnetic anisotropy, and single-molecule-magnet behaviour. AC susceptibility shows out-of-phase signals below 5 K without observable maxima, and microSQUID hysteresis at millikelvin temperatures lacks a zero-field quantum-tunnelling step. Relaxation is fitted to direct, Raman, and Orbach terms with Ueff = 3.54 K. MAGELLAN analysis divides the twelve Dy(III) easy axes into spin-ice-like, toroidal, and boat-like sets that rationalise the hysteresis shape.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "204.7",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "246.9",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "maximum at 4.3 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "200.6",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "1.8 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant",
+            "value": "0.54",
+            "unit": "K",
+            "conditions": "Curie–Weiss fit of 1/χ over 1.8–300 K; positive sign"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant",
+            "value": "203",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "Curie–Weiss fit over 1.8–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetisation",
+            "value": "95.80",
+            "unit": "μB",
+            "conditions": "7 T; isotherms collected at 2, 3 and 5 K; not saturated"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff",
+            "value": "3.54",
+            "unit": "K",
+            "conditions": "dc magnetisation decay under zero field in the sub-kelvin range; fit without a ZFQTM term"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "1.49e-6",
+            "unit": "s",
+            "conditions": "same relaxation fit as Ueff"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "direct-process coefficient A",
+            "value": "1.18e-5",
+            "unit": "s^-1 K^-1",
+            "conditions": "same relaxation fit as Ueff"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman coefficient C",
+            "value": "90.4",
+            "unit": "s^-1 K^-n",
+            "conditions": "same relaxation fit; n = 7.05; ZFQTM coefficient B = 0"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman exponent n",
+            "value": "7.05",
+            "unit": null,
+            "conditions": "same relaxation fit as Ueff"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "SI Experimental, crystal data for 1 and elemental analysis; CCDC formula also includes 8 MeCN and 6 MeOH"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "SI Crystallography, CCDC 2306455"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC metadata row DOGXAC"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract and structural discussion, Figs. 1–2"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI Experimental, preparation of compound 1; ambient temperature stated in the main-text synthesis paragraph"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic discussion, Figs. 3–5; AC and microSQUID details also in SI magnetic data"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "title": "Construction of a crystalline 14-metal Zn–Nd rectangular nanocluster with a dual-emissive response towards metal ions",
+  "doi": "10.1039/c9ra09409a",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "14-metal Zn–Nd rectangular nanocluster [Zn6Nd8L2(OAc)20(O)2(NO3)4(OC2H5)4]",
+      "formula": "[Zn6Nd8L2(OAc)20(O)2(NO3)4(OC2H5)4] (C100H152N8O72Zn6Nd8; CCDC C92H132N8Nd8O70Zn6·2(C4H10O))",
+      "ccdc_numbers": [
+        "1952292"
+      ],
+      "ccdc_refcodes": [
+        "CUCREA"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 14,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Nd"
+        ],
+        "other_metal_elements": [
+          "Zn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "centrosymmetric rectangular Zn6Nd8 nanocluster with two flexible Schiff-base ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Zn(OAc)2·2H2O (0.30 mmol, 0.0666 g), Nd(NO3)3·6H2O (0.40 mmol, 0.1800 g) and H2L (0.10 mmol, 0.0417 g) were dissolved in 10 mL EtOH, 2 mL MeOH and 2 mL DMF at room temperature, then a solution of triethylamine in EtOH (0.01 mol L−1, 2 mL) was added. The resulting solution was heated under reflux for 30 min and filtered at room temperature. Pale yellow crystals of 1 were obtained by slow diffusion of diethyl ether into the filtrate at room temperature after three weeks. The product was collected and dried in an oven at 120 °C for two hours. Reactions were performed under dry oxygen-free dinitrogen using standard Schlenk techniques.",
+        "reagents": [
+          {
+            "name": "zinc acetate dihydrate",
+            "formula": "Zn(OAc)2·2H2O",
+            "role": "Zn source",
+            "amount": "0.30 mmol, 0.0666 g"
+          },
+          {
+            "name": "neodymium nitrate hexahydrate",
+            "formula": "Nd(NO3)3·6H2O",
+            "role": "Nd source",
+            "amount": "0.40 mmol, 0.1800 g"
+          },
+          {
+            "name": "Schiff-base ligand H2L",
+            "formula": "H2L",
+            "role": "bridging ligand",
+            "amount": "0.10 mmol, 0.0417 g"
+          },
+          {
+            "name": "triethylamine in ethanol",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.01 mol L−1, 2 mL"
+          }
+        ],
+        "solvents": [
+          "EtOH",
+          "MeOH",
+          "DMF",
+          "diethyl ether"
+        ],
+        "temperature": "room temperature dissolution and crystallization; reflux during reaction; oven drying at 120 °C",
+        "time": "reflux 30 min; crystallization three weeks; drying two hours",
+        "ph": null,
+        "vessel_or_method": "Schlenk techniques under dry N2; reflux then diethyl-ether diffusion crystallization",
+        "workup_and_crystallization": "filtered at room temperature; yellow crystals grown by slow diffusion of diethyl ether into the filtrate; collected and dried at 120 °C",
+        "yield": "0.0672 g (32%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Cluster 1 is dual-emissive: ligand-centered visible emission at 494 nm and typical Nd3+ NIR emission (most intense 4F3/2 → 4I11/2 line at 1061 nm) upon 355 nm excitation in MeCN and the solid state. Intrinsic Nd quantum yield 2.2% from τ/τ0, overall NIR quantum yield 0.7%, ligand-to-Nd sensitization efficiency 31.8%. In DMF it shows dual fluorescent sensing of metal ions, with highest sensitivity to K+ and Co2+ at the ppm level (NIR quenching and visible enhancement/quenching).",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "Nd3+ NIR emission maximum",
+            "value": "1061",
+            "unit": "nm",
+            "conditions": "CH3CN, room temperature, λex = 355 nm; 4F3/2 → 4I11/2"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-centered emission maximum",
+            "value": "494",
+            "unit": "nm",
+            "conditions": "CH3CN, λex = 355 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "NIR emission lifetime",
+            "value": "5.5",
+            "unit": "μs",
+            "conditions": "CH3CN; reported as 5.5 ms in converted text but used with τ0 = 250 μs to give φLn = 2.2%, implying 5.5 μs"
+          },
+          {
+            "property_type": "optical",
+            "name": "intrinsic Nd quantum yield φLn",
+            "value": "2.2",
+            "unit": "%",
+            "conditions": "φLn = τ/τ0 with τ0 = 250 μs for Nd3+"
+          },
+          {
+            "property_type": "optical",
+            "name": "overall NIR emission quantum yield φem",
+            "value": "0.7",
+            "unit": "%",
+            "conditions": "cluster 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "ligand-to-lanthanide energy-transfer efficiency ηsens",
+            "value": "31.8",
+            "unit": "%",
+            "conditions": "ηsens = Φem/ΦLn"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern–Volmer KSV (NIR, K+)",
+            "value": "17.2e3",
+            "unit": "M−1",
+            "conditions": "DMF, 1 at 60 μM, monitoring ~1065/1061 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern–Volmer KSV (NIR, Co2+)",
+            "value": "12.7e3",
+            "unit": "M−1",
+            "conditions": "DMF, lanthanide emission sensing"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern–Volmer KSV (ligand-centered, K+)",
+            "value": "-9.4e3",
+            "unit": "M−1",
+            "conditions": "DMF, monitoring 494 nm (negative value indicates enhancement)"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern–Volmer KSV (ligand-centered, Co2+)",
+            "value": "58.7e3",
+            "unit": "M−1",
+            "conditions": "DMF, visible emission sensing"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD (NIR, K+)",
+            "value": "3.67",
+            "unit": "μM",
+            "conditions": "LOD = 3σ/KSV; S/N = 3; converted text gives mM, chemically consistent with μM/ppm-level claim"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD (NIR, Co2+)",
+            "value": "4.96",
+            "unit": "μM",
+            "conditions": "lanthanide emission sensing"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD (ligand-centered, K+)",
+            "value": "1.87",
+            "unit": "μM",
+            "conditions": "visible emission sensing"
+          },
+          {
+            "property_type": "optical",
+            "name": "LOD (ligand-centered, Co2+)",
+            "value": "2.97",
+            "unit": "μM",
+            "conditions": "visible emission sensing; converted text also lists mM"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Abstract; Experimental synthesis of cluster 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract and Experimental crystallography formula C100H152N8O72Zn6Nd8"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1952292 / CUCREA"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Synthesis and crystal structure of 1; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental: Synthesis of the crystalline cluster"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photophysical properties; Luminescent sensing towards metal ions; Figs. 4–8"
+        }
+      ]
+    }
+  ]
+}

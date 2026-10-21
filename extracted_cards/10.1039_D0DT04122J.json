@@ -1,0 +1,395 @@
+{
+  "title": "Lanthanide clusters of phenanthroline containing a pyridine–pyrazole based ligand: magnetism and cell imaging",
+  "doi": "10.1039/d0dt04122j",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Phen-Gd",
+      "compound_name": "[GdIII3(Phen)2(NO3)5]·2DMF",
+      "formula": "C70H58Gd3N31O21",
+      "ccdc_numbers": [
+        "2047786"
+      ],
+      "ccdc_refcodes": [
+        "ANIVOL"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear trinuclear interdigitating-hairpin Ln3 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Phen-Gd was prepared analogously to Phen-Eu: Phen (0.121 g, 0.2 mmol) and Gd(NO3)3·6H2O (0.135 g, 0.3 mmol) were dissolved in DMF (15 mL) and methanol (10 mL), stirred for 0.5 h, then refluxed in an oil bath at 80 °C for 8 h. After cooling to room temperature, the solution was filtered and left undisturbed; X-ray quality crystals formed after 7 days, were washed with methanol and dried.",
+        "reagents": [
+          {
+            "name": "Phen ligand",
+            "formula": null,
+            "role": "ligand",
+            "amount": "0.121 g, 0.2 mmol"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.135 g, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "DMF",
+          "methanol"
+        ],
+        "temperature": "80 °C (reflux)",
+        "time": "stir 0.5 h, then reflux 8 h; crystallization 7 days",
+        "ph": null,
+        "vessel_or_method": "oil-bath reflux",
+        "workup_and_crystallization": "cooled to room temperature, filtered, and kept undisturbed; crystals washed with methanol and dried",
+        "yield": "71%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Linear Gd3 cluster with weak ferromagnetic exchange at low T (J = +3.82(2) cm−1) after high-T antiferromagnetic Curie–Weiss behaviour; significant magnetocaloric effect with −ΔSm = 23.42 J kg−1 K−1 at 7 T and 2 K, close to the theoretical 24.22 J kg−1 K−1, supporting cryogenic magnetic refrigeration.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 23.39,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 22.79,
+            "unit": "cm3 K mol−1",
+            "conditions": "30 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 25.49,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 23.64,
+            "unit": "cm3 K mol−1",
+            "conditions": "Curie–Weiss fit of 1/χM vs T, T > 100 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": -3.47,
+            "unit": "K",
+            "conditions": "Curie–Weiss fit, T > 100 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J",
+            "value": "+3.82(2)",
+            "unit": "cm−1",
+            "conditions": "fit of χMT vs T with H = −J(S1S2 + S2S3) − gμB H ΣSi; g = 2.0"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 20.96,
+            "unit": "NμB",
+            "conditions": "7 T, 2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm",
+            "value": 23.42,
+            "unit": "J kg−1 K−1",
+            "conditions": "7 T, 2 K, from Maxwell relation on isothermal magnetization"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Results and discussions; Experimental (Synthesis of complex Phen-Gd)"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental elemental analysis for Phen-Gd"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2047786 / ANIVOL"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Descriptions of molecular structures; Fig. 1–2"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of complex Phen-Gd / Phen-Eu"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic studies; Fig. 5–6"
+        }
+      ]
+    },
+    {
+      "compound_label": "Phen-Eu",
+      "compound_name": "[EuIII3(Phen)2(NO3)5]·2DMF",
+      "formula": "C70H58Eu3N31O21",
+      "ccdc_numbers": [
+        "2047785"
+      ],
+      "ccdc_refcodes": [
+        "ANIVIF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear trinuclear interdigitating-hairpin Ln3 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Phen (0.121 g, 0.2 mmol) and Eu(NO3)3·6H2O (0.134 g, 0.3 mmol) were dissolved in DMF (15 mL) and methanol (10 mL), stirred for 0.5 h, then refluxed in an oil bath at 80 °C for 8 h. After cooling to room temperature, the greenish yellow solution was filtered and left undisturbed. After 7 days, light greenish yellow octahedral single crystals were obtained, washed with methanol and dried.",
+        "reagents": [
+          {
+            "name": "Phen ligand",
+            "formula": null,
+            "role": "ligand",
+            "amount": "0.121 g, 0.2 mmol"
+          },
+          {
+            "name": "europium(III) nitrate hexahydrate",
+            "formula": "Eu(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.134 g, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "DMF",
+          "methanol"
+        ],
+        "temperature": "80 °C (reflux)",
+        "time": "stir 0.5 h, then reflux 8 h; crystallization 7 days",
+        "ph": null,
+        "vessel_or_method": "oil-bath reflux",
+        "workup_and_crystallization": "cooled, filtered, undisturbed crystallization; crystals washed with methanol and dried",
+        "yield": "86%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Characteristic EuIII photoluminescence in DMSO (λex = 350 nm) with 5D0→7F0–3 bands; used as a fluorescent live-cell probe that localizes in MCF7 cytoplasm and nucleus.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "emission wavelength",
+            "value": 578,
+            "unit": "nm",
+            "conditions": "DMSO solution, 1 mg mL−1, sonicated; λex = 350 nm; 5D0→7F0"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission wavelength",
+            "value": 589,
+            "unit": "nm",
+            "conditions": "DMSO, λex = 350 nm; 5D0→7F1"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission wavelength",
+            "value": 615,
+            "unit": "nm",
+            "conditions": "DMSO, λex = 350 nm; 5D0→7F2"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission wavelength",
+            "value": 639,
+            "unit": "nm",
+            "conditions": "DMSO, λex = 350 nm; 5D0→7F3"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of complex Phen-Eu"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental elemental analysis for Phen-Eu"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2047785 / ANIVIF"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Descriptions of molecular structures; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of complex Phen-Eu"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photoluminescence properties; Fig. 7b; Cellular imaging"
+        }
+      ]
+    },
+    {
+      "compound_label": "Phen-Tb",
+      "compound_name": "[TbIII3(Phen)2(NO3)5]·2DMF",
+      "formula": "C70H56Tb3N31O21",
+      "ccdc_numbers": [
+        "2047787"
+      ],
+      "ccdc_refcodes": [
+        "ANIVEB"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear trinuclear interdigitating-hairpin Ln3 cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Phen-Tb was prepared analogously to Phen-Eu, substituting Tb(NO3)3·5H2O (0.131 g, 0.3 mmol) for Eu(NO3)3·6H2O in DMF/methanol, with stirring, 80 °C reflux for 8 h, filtration and undisturbed crystallization.",
+        "reagents": [
+          {
+            "name": "Phen ligand",
+            "formula": null,
+            "role": "ligand",
+            "amount": "0.121 g, 0.2 mmol (as for Phen-Eu)"
+          },
+          {
+            "name": "terbium(III) nitrate pentahydrate",
+            "formula": "Tb(NO3)3·5H2O",
+            "role": "metal salt",
+            "amount": "0.131 g, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "DMF",
+          "methanol"
+        ],
+        "temperature": "80 °C (reflux)",
+        "time": "stir 0.5 h, then reflux 8 h; crystallization as for Phen-Eu",
+        "ph": null,
+        "vessel_or_method": "oil-bath reflux",
+        "workup_and_crystallization": "same workup/crystallization as Phen-Eu",
+        "yield": "75%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Antiferromagnetic Tb3 cluster (χmT decreases on cooling; Curie–Weiss θ = −0.431 K). Characteristic TbIII emission at ~490 and 544 nm (λex = 350 nm) used for live-cell nuclear imaging of MCF7 cells.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 35.26,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 15.28,
+            "unit": "cm3 K mol−1",
+            "conditions": "Curie–Weiss fit of 1/χM vs T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": -0.431,
+            "unit": "K",
+            "conditions": "Curie–Weiss fit"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission wavelength",
+            "value": 490,
+            "unit": "nm",
+            "conditions": "DMSO, 1 mg mL−1, sonicated; λex = 350 nm; 5D4→7F6"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission wavelength",
+            "value": 544,
+            "unit": "nm",
+            "conditions": "DMSO, λex = 350 nm; 5D4→7F5"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of complex Phen-Tb"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental elemental analysis for Phen-Tb"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2047787 / ANIVEB"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Descriptions of molecular structures; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of complex Phen-Tb"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic studies; Photoluminescence properties; Fig. 5 and 7a"
+        }
+      ]
+    }
+  ]
+}

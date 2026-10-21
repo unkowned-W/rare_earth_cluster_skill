@@ -1,0 +1,248 @@
+{
+  "title": "Effective and efficient photoluminescence of salicylate-ligating terbium(III) clusters stabilized by multiple phenyl–phenyl interactions",
+  "doi": "10.1039/b616387d",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "TNS-He",
+      "compound_name": "nonanuclear terbium(III) hexyl salicylate hydroxo cluster",
+      "formula": "Tb9(Hesa)16(μ-OH)10(NO3)",
+      "ccdc_numbers": [
+        "626753"
+      ],
+      "ccdc_refcodes": [
+        "DEZKID"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "nonanuclear lanthanide hydroxo cluster with two square-pyramidal Tb4 units about a central Tb"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "TNS-He was prepared analogously to TNS-Me: hexyl salicylate was dissolved in methanol, triethylamine was added with stirring at 40 °C, then Tb(NO3)3·6H2O in methanol was added dropwise and the mixture was stirred for 20 min. A single crystal of TNS-He was obtained by slow evaporation of the reaction mixture in methanol.",
+        "reagents": [
+          {
+            "name": "hexyl salicylate",
+            "formula": "H-Hesa",
+            "role": "ligand",
+            "amount": "used in place of methyl salicylate (0.600 g, 3.94 mmol in the TNS-Me procedure)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.648 g, 6.41 mmol (as in TNS-Me procedure)"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "1.00 g, 2.22 mmol (as in TNS-Me procedure)"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "40 °C",
+        "time": "20 min after Tb salt addition",
+        "ph": null,
+        "vessel_or_method": "stirred solution; slow evaporation of the methanol reaction mixture for crystals",
+        "workup_and_crystallization": "single crystals by slow evaporation of the reaction mixture in methanol",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "TNS-He shows a ~25 nm bathochromic shift of the ligand π–π* absorption versus TNS-Me, attributed to J-type π–π stacking, with high molar absorptivity into the near-UV/violet. Excitation at 380 nm gives Tb(III) 4f–4f emission, strongest at 545 nm (5D4→7F5); the 5D4→7F5 intensity is seven times that of TNS-Me in methanol, and the relative emission efficiency TNS-He/TNS-Me is 3.0 after normalization by ε. Solid-state luminescence is also stronger than for TNS-Me.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "molar extinction coefficient (ε_max)",
+            "value": 60000,
+            "unit": "dm3 mol−1 cm−1",
+            "conditions": "methanol, [cluster] = 1 × 10−5 M, λ ≈ 340 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "molar extinction coefficient (ε)",
+            "value": 9000,
+            "unit": "dm3 mol−1 cm−1",
+            "conditions": "methanol, λ = 380 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "absorption red-shift vs TNS-Me",
+            "value": "approximately 25 nm",
+            "unit": null,
+            "conditions": "methanol; TNS-Me π–π* carbonyl peak ~315 nm not observed for TNS-He"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maximum (5D4→7F5)",
+            "value": 545,
+            "unit": "nm",
+            "conditions": "methanol, λ_ex = 380 nm, [cluster] = 1 × 10−5 M"
+          },
+          {
+            "property_type": "optical",
+            "name": "relative 5D4→7F5 emission intensity vs TNS-Me",
+            "value": 7,
+            "unit": "fold",
+            "conditions": "methanol, λ_ex = 380 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "relative emission efficiency TNS-He/TNS-Me",
+            "value": 3.0,
+            "unit": null,
+            "conditions": "peak integral of emission intensity normalized by ε values"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "abstract and introductory synthesis paragraph"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; Notes and references, syntheses and characterizations"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Notes and references, crystallographic data (CCDC 626753)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row DEZKID"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Fig. 1 discussion; crystallographic data"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Notes and references, syntheses and characterizations of TNS-Me and TNS-He"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Figs. 3–4 and accompanying absorption/emission discussion"
+        }
+      ]
+    },
+    {
+      "compound_label": "TNS-Me",
+      "compound_name": "nonanuclear terbium(III) methyl salicylate hydroxo cluster",
+      "formula": "Tb9(Mesa)16(μ-OH)10(NO3)",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "nonanuclear lanthanide hydroxo cluster (analogous to TNS-He)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Methyl salicylate (0.600 g, 3.94 mmol) was dissolved in methanol and triethylamine (0.648 g, 6.41 mmol) was added with stirring at 40 °C. Tb(NO3)3·6H2O (1.00 g, 2.22 mmol) in methanol was then added dropwise and the mixture was stirred for a further 20 min, affording TNS-Me as a white powder.",
+        "reagents": [
+          {
+            "name": "methyl salicylate",
+            "formula": "H-Mesa",
+            "role": "ligand",
+            "amount": "0.600 g, 3.94 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.648 g, 6.41 mmol"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "1.00 g, 2.22 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "40 °C",
+        "time": "20 min after Tb salt addition",
+        "ph": null,
+        "vessel_or_method": "stirred solution",
+        "workup_and_crystallization": "white powder isolated (no crystal structure reported)",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "TNS-Me in methanol shows a ligand π–π* absorption near 315 nm and Tb(III) 4f–4f emission under 380 nm excitation with the strongest band at 545 nm (5D4→7F5). Its emission intensity and relative efficiency are lower than those of TNS-He.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "absorption maximum (π–π* of carbonyl)",
+            "value": "around 315",
+            "unit": "nm",
+            "conditions": "methanol, [cluster] = 1 × 10−5 M"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maximum (5D4→7F5)",
+            "value": 545,
+            "unit": "nm",
+            "conditions": "methanol, λ_ex = 380 nm, [cluster] = 1 × 10−5 M"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "introductory synthesis paragraph"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Notes and references, syntheses and characterizations"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "comparison with TNS-He X-ray structure and FAB-MS"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Notes and references, syntheses and characterizations of TNS-Me and TNS-He"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Figs. 3–4 and accompanying absorption/emission discussion"
+        }
+      ]
+    }
+  ]
+}

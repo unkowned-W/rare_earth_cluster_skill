@@ -1,0 +1,176 @@
+{
+  "refcode": "XAWRUJ",
+  "ccdc_number": "264627",
+  "dois": [
+    "10.1002/zaac.200500084"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\264627.cif",
+  "formula_moiety": "C81 H54 Ho3 N9 O9,C9 H7 N1 O1",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "17.336(4)",
+    "b": "23.464(5)",
+    "c": "18.038(4)",
+    "alpha": "90",
+    "beta": "92.92(3)",
+    "gamma": "90",
+    "volume": "7327.83",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Ho1",
+      "element": "Ho",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "label": "Ho2",
+      "element": "Ho",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O2B",
+        "O3",
+        "O3B",
+        "O4",
+        "O4B",
+        "O5",
+        "O5B"
+      ]
+    },
+    {
+      "label": "Ho1B",
+      "element": "Ho",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1B",
+        "O2B",
+        "O3B",
+        "O4B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ho1",
+          "Ho2"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O3",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.501,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 97.77,
+            "metal_oxygen_distances_angstrom": [
+              2.334,
+              2.313
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 93.31,
+            "metal_oxygen_distances_angstrom": [
+              2.35,
+              2.463
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 96.68,
+            "metal_oxygen_distances_angstrom": [
+              2.356,
+              2.329
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ho1B",
+          "Ho2"
+        ],
+        "shared_oxygen_labels": [
+          "O2B",
+          "O3B",
+          "O4B"
+        ],
+        "metal_metal_separation_angstrom": 3.501,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2B",
+            "angle_deg": 97.77,
+            "metal_oxygen_distances_angstrom": [
+              2.334,
+              2.313
+            ]
+          },
+          {
+            "oxygen": "O3B",
+            "angle_deg": 93.31,
+            "metal_oxygen_distances_angstrom": [
+              2.35,
+              2.463
+            ]
+          },
+          {
+            "oxygen": "O4B",
+            "angle_deg": 96.68,
+            "metal_oxygen_distances_angstrom": [
+              2.356,
+              2.329
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ho1",
+        "Ho1B",
+        "Ho2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "XAWRUJ crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C81 H54 Ho3 N9 O9,C9 H7 N1 O1. From the CIF bond table, Ho1 (Ho) has 4 O neighbors; Ho2 (Ho) has 8 O neighbors; Ho1B (Ho) has 4 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.501-3.501 Å (not direct metal-metal bonds). Computed M-O-M angles span 93.31-97.77°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Ho3(OQ)9]·HOQ (C90H61Ho3N10O10). Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/zaac.200500084",
+    "formula": "[Ho3(OQ)9]·HOQ (C90H61Ho3N10O10)",
+    "compound_name": "(η2-8-quinolinolato-κ:N,O(Ho(2))bis(η2-8-quinolinolato-κ:N,O(Ho(1)))-hexakis(µ-(O)-8-quinolinolato-κ:N,O(Ho(1))trisholmium(III) 8-hydroxyquinoline solvate",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

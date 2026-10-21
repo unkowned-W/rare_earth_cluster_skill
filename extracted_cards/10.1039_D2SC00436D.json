@@ -1,0 +1,220 @@
+{
+  "title": "Unparalleled selectivity and electronic structure of heterometallic [LnLn'Ln] molecules as 3-qubit quantum gates",
+  "doi": "10.1039/d2sc00436d",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Er2Pr(LA)2(LB)2(py)(H2O)2](NO3)",
+      "formula": "[Er2Pr(LA)2(LB)2(py)(H2O)2](NO3)·10py",
+      "ccdc_numbers": [
+        "2142740"
+      ],
+      "ccdc_refcodes": [
+        "NAZHEF"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Er",
+          "Pr"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear heterometallic [ErPrEr] beta-diketonate cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": true,
+        "procedure": "A light-brown pyridine solution of H2LA (10.2 mg, 0.032 mmol) and H2LB (14.8 mg, 0.032 mmol) in pyridine (10 mL) was added dropwise with stirring to a colorless pyridine solution (10 mL) of Pr(NO3)3·6H2O (7 mg, 0.016 mmol), Er(NO3)3·5H2O (14.2 mg, 0.032 mmol) and CuCl2·2H2O (2.7 mg, 0.016 mmol; one equivalent relative to Pr). The green solution was stirred for 1 h and layered with hexane. Green crystals of [Cu(py)4(NO3)2] formed after about one week; after about one month, large crystals of 1 (described as yellow in the main text and orange in the SI) were separated manually. The main text states that equal molar amounts of H2LA and H2LB react in pyridine with stoichiometric Er(NO3)3 and Pr(NO3)3, and that CuCl2 modulates assembly/crystallization rather than entering the cluster.",
+        "reagents": [
+          {
+            "name": "6-(3-(naphthalen-2-yl)-3-oxopropanoyl)picolinic acid",
+            "formula": "H2LA",
+            "role": "ligand",
+            "amount": "10.2 mg, 0.032 mmol"
+          },
+          {
+            "name": "2,6-bis[(3-oxo-3-(naphthalen-2-yl)propanoyl)]pyridine",
+            "formula": "H2LB",
+            "role": "ligand",
+            "amount": "14.8 mg, 0.032 mmol"
+          },
+          {
+            "name": "praseodymium(III) nitrate hexahydrate",
+            "formula": "Pr(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "7 mg, 0.016 mmol"
+          },
+          {
+            "name": "erbium(III) nitrate pentahydrate",
+            "formula": "Er(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "14.2 mg, 0.032 mmol"
+          },
+          {
+            "name": "copper(II) chloride dihydrate",
+            "formula": "CuCl2·2H2O",
+            "role": "crystallization modulator",
+            "amount": "2.7 mg, 0.016 mmol (one equivalent)"
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "hexane"
+        ],
+        "temperature": null,
+        "time": "stirred 1 h; crystals of 1 after about one month",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by hexane layering/diffusion",
+        "workup_and_crystallization": "Hexane layered onto the pyridine reaction mixture; green [Cu(py)4(NO3)2] separated manually from crystals of 1.",
+        "yield": "~15%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Compound 1 shows nearly uncoupled Er(III) and Pr(III) ions that behave as two-level systems at low temperature, with chiT close to the free-ion value, weak intramolecular exchange, and EPR g-values distinct for Er and Pr. Pulsed EPR gives phase-memory times up to 0.64 ms and coherent Rabi control, supporting its use as an addressable three-qubit spin system.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "chiT",
+            "value": "22.82",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "chiT",
+            "value": "15.51",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected chiT",
+            "value": "22.74",
+            "unit": "cm^3 K mol^-1",
+            "conditions": "two Er(III) (4I15/2) plus one Pr(III) (3H4), non-interacting"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "10.96",
+            "unit": "muB",
+            "conditions": "2 K, high-field unsaturated region"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "10.79",
+            "unit": "muB",
+            "conditions": "5 K, high-field unsaturated region"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "crystal-field gap Delta/kB",
+            "value": "77",
+            "unit": "K",
+            "conditions": "two Er(III) doublets in simplified van Vleck fit, taken from [ErLaEr]"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "crystal-field gap Delta/kB",
+            "value": "12",
+            "unit": "K",
+            "conditions": "fitted for Pr(III) in the chiT model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g_Er",
+            "value": "11.5; 5; 1",
+            "unit": null,
+            "conditions": "X-band CW-EPR simulation at 5.7 K using values previously measured for ErLaEr"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g_Pr",
+            "value": "3.4",
+            "unit": null,
+            "conditions": "CW X-band EPR simulation of frozen solution of 1 at 5.7 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "calculated g_Pr",
+            "value": "3.55",
+            "unit": null,
+            "conditions": "CASSCF-SO ground state of the [LuPrLu] model"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "intramolecular exchange",
+            "value": "<0.1",
+            "unit": "cm^-1",
+            "conditions": "estimated from specific-heat comparison with [ErCeEr]; 0.35-20 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "T1",
+            "value": "70-300",
+            "unit": "ms",
+            "conditions": "2.5 and 5 mM frozen solutions, 3 and 5 K, 145-700 mT"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "TM",
+            "value": "0.35-0.64",
+            "unit": "ms",
+            "conditions": "3 K, 2.5 mM frozen solution, main part of the EDFS spectrum"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "TM",
+            "value": "0.64",
+            "unit": "ms",
+            "conditions": "maximum at 330 mT, 3 K, 2.5 mM"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "TM",
+            "value": "0.22",
+            "unit": "ms",
+            "conditions": "1 T, 3 K, 2.5 mM frozen solution"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Synthesis and structure of 1; crystal description and CCDC formula NAZHEF/2142740"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 2142740, refcode NAZHEF"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Synthesis and structure section; Fig. 2"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI Synthesis section for compound 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Synthesis and structure of 1, including the balanced equation"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetothermal properties; Figs. 5 and 6; Quantum coherence section"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "refcode": "ODUDIA",
+  "ccdc_number": "173117",
+  "dois": [
+    "10.1021/om010928f"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\173117.cif",
+  "formula_moiety": "C64 H80 N8 O3 Yb4",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21",
+  "international_tables_number": "4",
+  "unit_cell": {
+    "a": "14.183(1)",
+    "b": "14.065(1)",
+    "c": "14.911(1)",
+    "alpha": "90",
+    "beta": "103.209(1)",
+    "gamma": "90",
+    "volume": "2895.81",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3"
+      ]
+    },
+    {
+      "label": "Yb4",
+      "element": "Yb",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.35,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 89.47,
+            "metal_oxygen_distances_angstrom": [
+              2.592,
+              2.146
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb1",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 5.269,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 177.71,
+            "metal_oxygen_distances_angstrom": [
+              2.592,
+              2.678
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb1",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.422,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 92.16,
+            "metal_oxygen_distances_angstrom": [
+              2.592,
+              2.139
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb2",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.38,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 88.24,
+            "metal_oxygen_distances_angstrom": [
+              2.146,
+              2.678
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb2",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 4.284,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 178.35,
+            "metal_oxygen_distances_angstrom": [
+              2.146,
+              2.139
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb3",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.432,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 90.14,
+            "metal_oxygen_distances_angstrom": [
+              2.678,
+              2.139
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2",
+        "Yb3",
+        "Yb4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ODUDIA crystallizes in the monoclinic crystal system with space group P 21. Reported CIF formula moiety: C64 H80 N8 O3 Yb4. From the CIF bond table, Yb1 (Yb) has 2 O neighbors; Yb2 (Yb) has 1 O neighbors; Yb3 (Yb) has 2 O neighbors; Yb4 (Yb) has 1 O neighbors. Oxygen-bridged metal-site graph: 6 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.350-5.269 Å (not direct metal-metal bonds). Computed M-O-M angles span 88.24-178.35°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C64H80N8O3Yb4.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/om010928f",
+    "formula": "C64H80N8O3Yb4",
+    "compound_name": "(1,1′-dipyrrolylcyclohexanediyl-Yb)4(μ-O)(THF)2",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

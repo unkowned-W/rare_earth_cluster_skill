@@ -1,0 +1,754 @@
+{
+  "title": "Dodecanuclear [MnIIILnIII] clusters with 2-(hydroxymethyl)pyridine: syntheses, structures, and magnetic properties",
+  "doi": "10.1039/c5dt03130c",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Mn8La4(O)8(hmp)4(O2CPh)12(NO3)4(PhCO2H)(C2H5OH)]",
+      "formula": "[Mn8La4(O)8(hmp)4(O2CPh)12(NO3)4(PhCO2H)(C2H5OH)]",
+      "ccdc_numbers": [
+        "1045933"
+      ],
+      "ccdc_refcodes": [
+        "MOXZAC01"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "La"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "spindle-shaped [Mn8Ln4] cluster with six face-sharing defective cubanes and two square-pyramidal units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "All syntheses were performed under aerobic conditions. Mn(NO3)2 (aq., 50%, 0.36 ml, 1.5 mmol) and Ln(NO3)3·6H2O (1.0 mmol; Ln = La for 1) were added to a colorless stirred solution of hmpH (0.10 ml, 1.0 mmol) and NEt3 (0.14 ml, 1.0 mmol) in MeCN (20 ml) and EtOH (5 ml), giving a rapid color change to dark red. The solution was stirred for another 1 h at room temperature, then solid benzoic acid (0.12 g, 1.0 mmol) was added under vigorous stirring. The mixture was stirred for a further 4 h, filtered, and left undisturbed. Slow evaporation at room temperature gave large black crystals in one week, which were collected by filtration, washed thoroughly with MeCN, and dried in vacuum.",
+        "reagents": [
+          {
+            "name": "manganese(II) nitrate",
+            "formula": "Mn(NO3)2",
+            "role": "Mn source",
+            "amount": "aq., 50%, 0.36 ml, 1.5 mmol"
+          },
+          {
+            "name": "lanthanum(III) nitrate hexahydrate",
+            "formula": "La(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "2-(hydroxymethyl)pyridine",
+            "formula": "hmpH",
+            "role": "ligand",
+            "amount": "0.10 ml, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.14 ml, 1.0 mmol"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "PhCO2H",
+            "role": "co-ligand",
+            "amount": "0.12 g, 1.0 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "EtOH"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 1 h then 4 h after benzoic acid; crystals in one week",
+        "ph": null,
+        "vessel_or_method": "aerobic solution synthesis in a flask; slow evaporation",
+        "workup_and_crystallization": "filtered; left undisturbed; slow evaporation at room temperature gave large black crystals; collected by filtration, washed with MeCN, dried in vacuum",
+        "yield": "0.125 g, 19%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dominant ferromagnetic Mn–Mn exchange (La diamagnetic). χMT rises from 23.65 cm3 K mol−1 at 300 K to 41.68 cm3 K mol−1 at 3 K then 40.09 cm3 K mol−1 at 2 K. Magnetization fit gives S = 8, g* = 2.05, D = −0.1693 cm−1; M = 15.71 NμB at 2 K and 8 T. Out-of-phase χ″M peak appears under 500 Oe dc field; Arrhenius fit Ueff = 6.88 K, τ0 = 1.48 × 10−5 s, indicating slow relaxation of the Mn core.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 23.65,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (3 K, max)",
+            "value": 41.68,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 40.09,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 23.27,
+            "unit": "cm3 K mol−1",
+            "conditions": "from dc data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": 4.95,
+            "unit": "K",
+            "conditions": "from dc data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "ground spin S",
+            "value": 8,
+            "unit": null,
+            "conditions": "ANISOFIT2.0, 0.1–1 T, 2.0–15.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g*",
+            "value": 2.05,
+            "unit": null,
+            "conditions": "ANISOFIT2.0, low fields 0.1–1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "zero-field splitting D",
+            "value": -0.1693,
+            "unit": "cm−1",
+            "conditions": "ANISOFIT2.0, low fields"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 15.71,
+            "unit": "NμB",
+            "conditions": "2 K, 8 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff",
+            "value": 6.88,
+            "unit": "K",
+            "conditions": "ac χ″ Arrhenius fit; 3.0 G ac field, 500 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": 1.48e-05,
+            "unit": "s",
+            "conditions": "Arrhenius fit of ac χ″"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental, compound 1"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Experimental, compound 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1045933 / MOXZAC01"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Abstract; Results and discussion"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Preparation of compounds 1–5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Table 3; Fig. 2; Fig. 4"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Mn8Pr4(O)8(hmp)4(O2CPh)12(NO3)4(PhCO2H)(C2H5OH)]",
+      "formula": "[Mn8Pr4(O)8(hmp)4(O2CPh)12(NO3)4(PhCO2H)(C2H5OH)]",
+      "ccdc_numbers": [
+        "1045934"
+      ],
+      "ccdc_refcodes": [
+        "MOXZEG01"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Pr"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "spindle-shaped [Mn8Ln4] cluster with six face-sharing defective cubanes and two square-pyramidal units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 under aerobic conditions using Pr(NO3)3·6H2O (1.0 mmol) in place of La(NO3)3·6H2O, with Mn(NO3)2 (aq., 50%, 0.36 ml, 1.5 mmol), hmpH (0.10 ml, 1.0 mmol), NEt3 (0.14 ml, 1.0 mmol) in MeCN (20 ml)/EtOH (5 ml), then benzoic acid (0.12 g, 1.0 mmol). Stirring, filtration, and slow evaporation at room temperature afforded large black crystals in one week.",
+        "reagents": [
+          {
+            "name": "manganese(II) nitrate",
+            "formula": "Mn(NO3)2",
+            "role": "Mn source",
+            "amount": "aq., 50%, 0.36 ml, 1.5 mmol"
+          },
+          {
+            "name": "praseodymium(III) nitrate hexahydrate",
+            "formula": "Pr(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "2-(hydroxymethyl)pyridine",
+            "formula": "hmpH",
+            "role": "ligand",
+            "amount": "0.10 ml, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.14 ml, 1.0 mmol"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "PhCO2H",
+            "role": "co-ligand",
+            "amount": "0.12 g, 1.0 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "EtOH"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 1 h then 4 h after benzoic acid; crystals in one week",
+        "ph": null,
+        "vessel_or_method": "aerobic solution synthesis; slow evaporation",
+        "workup_and_crystallization": "filtered; slow evaporation at room temperature; black crystals washed with MeCN and dried in vacuum",
+        "yield": "0.102 g, 16%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dominant ferromagnetic interactions. χMT increases from 29.94 cm3 K mol−1 at 300 K to 46.90 cm3 K mol−1 at 3 K then 45.08 cm3 K mol−1 at 2 K. No clear χ″M maximum diagnostic of SMM behaviour under zero dc field. M vs. H/T curves are non-coincident, indicating anisotropy or low-lying excited states.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 29.94,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (3 K, max)",
+            "value": 46.9,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 45.08,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 29.17,
+            "unit": "cm3 K mol−1",
+            "conditions": "from dc data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": 3.56,
+            "unit": "K",
+            "conditions": "from dc data"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental, compound 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1045934 / MOXZEG01"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Preparation of compounds 1–5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Table 3; Fig. 2"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Mn8Nd4(O)8(hmp)4(O2CPh)12(NO3)4(PhCO2H)(C2H5OH)]",
+      "formula": "[Mn8Nd4(O)8(hmp)4(O2CPh)12(NO3)4(PhCO2H)(C2H5OH)]",
+      "ccdc_numbers": [
+        "1045935"
+      ],
+      "ccdc_refcodes": [
+        "MOXZIK01"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Nd"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "spindle-shaped [Mn8Ln4] cluster with six face-sharing defective cubanes and two square-pyramidal units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 using Nd(NO3)3·6H2O (1.0 mmol) with the same Mn(NO3)2, hmpH, NEt3, benzoic acid, MeCN/EtOH procedure under aerobic conditions; black crystals from slow evaporation in one week.",
+        "reagents": [
+          {
+            "name": "manganese(II) nitrate",
+            "formula": "Mn(NO3)2",
+            "role": "Mn source",
+            "amount": "aq., 50%, 0.36 ml, 1.5 mmol"
+          },
+          {
+            "name": "neodymium(III) nitrate hexahydrate",
+            "formula": "Nd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "2-(hydroxymethyl)pyridine",
+            "formula": "hmpH",
+            "role": "ligand",
+            "amount": "0.10 ml, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.14 ml, 1.0 mmol"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "PhCO2H",
+            "role": "co-ligand",
+            "amount": "0.12 g, 1.0 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "EtOH"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 1 h then 4 h after benzoic acid; crystals in one week",
+        "ph": null,
+        "vessel_or_method": "aerobic solution synthesis; slow evaporation",
+        "workup_and_crystallization": "filtered; slow evaporation at room temperature; black crystals washed with MeCN and dried in vacuum",
+        "yield": "0.098 g, 15%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dominant ferromagnetic interactions. χMT increases from 29.56 cm3 K mol−1 at 300 K to 36.42 cm3 K mol−1 at 8 K then falls to 28.48 cm3 K mol−1 at 2 K (Table 3 lists 30.34 cm3 K mol−1 at 2 K). No clear SMM χ″M maximum under zero dc field.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 29.56,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (8 K, max)",
+            "value": 36.42,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 28.48,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T; narrative value (Table 3 lists 30.34)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 28.64,
+            "unit": "cm3 K mol−1",
+            "conditions": "from dc data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": 7.43,
+            "unit": "K",
+            "conditions": "from dc data"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental, compound 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1045935 / MOXZIK01"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Preparation of compounds 1–5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Table 3; Fig. 2"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Mn8Gd4(O)8(hmp)4(O2CPh)12(NO3)4(PhCO2H)(C2H5OH)]",
+      "formula": "[Mn8Gd4(O)8(hmp)4(O2CPh)12(NO3)4(PhCO2H)(C2H5OH)]",
+      "ccdc_numbers": [
+        "1045936"
+      ],
+      "ccdc_refcodes": [
+        "MOXZOQ01"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "spindle-shaped [Mn8Ln4] cluster with six face-sharing defective cubanes and two square-pyramidal units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 using Gd(NO3)3·6H2O (1.0 mmol) with the same Mn(NO3)2, hmpH, NEt3, benzoic acid, MeCN/EtOH aerobic procedure; black crystals from slow evaporation in one week. For compound 4, a PhCO2H/C2H5OH ligand-site disorder (occupancies 0.5/0.5) was noted crystallographically.",
+        "reagents": [
+          {
+            "name": "manganese(II) nitrate",
+            "formula": "Mn(NO3)2",
+            "role": "Mn source",
+            "amount": "aq., 50%, 0.36 ml, 1.5 mmol"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "2-(hydroxymethyl)pyridine",
+            "formula": "hmpH",
+            "role": "ligand",
+            "amount": "0.10 ml, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.14 ml, 1.0 mmol"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "PhCO2H",
+            "role": "co-ligand",
+            "amount": "0.12 g, 1.0 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "EtOH"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 1 h then 4 h after benzoic acid; crystals in one week",
+        "ph": null,
+        "vessel_or_method": "aerobic solution synthesis; slow evaporation",
+        "workup_and_crystallization": "filtered; slow evaporation at room temperature; black crystals washed with MeCN and dried in vacuum",
+        "yield": "0.084 g, 13%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dominant ferromagnetic interactions. χMT increases from 55.26–55.27 cm3 K mol−1 at 300 K to 73.93 cm3 K mol−1 at 10 K then 53.11 cm3 K mol−1 at 2 K. Displays a magnetocaloric effect: −ΔSm = 13.94 J kg−1 K−1 (49.83 J mol−1 K−1) at 6 K for ΔH = 8 T, larger than the expected spin-ground-state value, attributed to low-lying excited states. No clear SMM χ″M maximum under zero dc field.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 55.27,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T (Table 3; narrative 55.26)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (10 K, max)",
+            "value": 73.93,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 53.11,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 54.37,
+            "unit": "cm3 K mol−1",
+            "conditions": "from dc data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": 5.11,
+            "unit": "K",
+            "conditions": "from dc data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change −ΔSm",
+            "value": 13.94,
+            "unit": "J kg−1 K−1",
+            "conditions": "6 K, ΔH = 8 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change −ΔSm",
+            "value": 49.83,
+            "unit": "J mol−1 K−1",
+            "conditions": "experimental, Table 4"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental, compound 4"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1045936 / MOXZOQ01"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Preparation of compounds 1–5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Table 3; Table 4; Fig. 2; Fig. 3"
+        }
+      ]
+    },
+    {
+      "compound_label": "5",
+      "compound_name": "[Mn8Dy4(O)8(hmp)4(O2CPh)12(NO3)4(PhCO2H)(C2H5OH)]",
+      "formula": "[Mn8Dy4(O)8(hmp)4(O2CPh)12(NO3)4(PhCO2H)(C2H5OH)]",
+      "ccdc_numbers": [
+        "1045937"
+      ],
+      "ccdc_refcodes": [
+        "MOXZUW01"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Mn"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "spindle-shaped [Mn8Ln4] cluster with six face-sharing defective cubanes and two square-pyramidal units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1 using Dy(NO3)3·6H2O (1.0 mmol) with the same Mn(NO3)2, hmpH, NEt3, benzoic acid, MeCN/EtOH aerobic procedure; black crystals from slow evaporation in one week.",
+        "reagents": [
+          {
+            "name": "manganese(II) nitrate",
+            "formula": "Mn(NO3)2",
+            "role": "Mn source",
+            "amount": "aq., 50%, 0.36 ml, 1.5 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "Ln source",
+            "amount": "1.0 mmol"
+          },
+          {
+            "name": "2-(hydroxymethyl)pyridine",
+            "formula": "hmpH",
+            "role": "ligand",
+            "amount": "0.10 ml, 1.0 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.14 ml, 1.0 mmol"
+          },
+          {
+            "name": "benzoic acid",
+            "formula": "PhCO2H",
+            "role": "co-ligand",
+            "amount": "0.12 g, 1.0 mmol"
+          }
+        ],
+        "solvents": [
+          "MeCN",
+          "EtOH"
+        ],
+        "temperature": "room temperature",
+        "time": "stirred 1 h then 4 h after benzoic acid; crystals in one week",
+        "ph": null,
+        "vessel_or_method": "aerobic solution synthesis; slow evaporation",
+        "workup_and_crystallization": "filtered; slow evaporation at room temperature; black crystals washed with MeCN and dried in vacuum",
+        "yield": "0.079 g, 12%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χMT is nearly constant until ~20 K then falls to 64.10 cm3 K mol−1 at 2 K (78.04 cm3 K mol−1 at 300 K), attributed mainly to DyIII Stark-sublevel depopulation; Weiss constant near zero. Frequency-dependent ac χ′T decrease and χ″M peaks above 2 K indicate slow magnetic relaxation/potential SMM behaviour. Arrhenius fit: Ueff = 7.44 K, τ0 = 7.68 × 10−6 s (zero dc field, 3.0 G ac).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT (300 K)",
+            "value": 78.04,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT (2 K)",
+            "value": 64.1,
+            "unit": "cm3 K mol−1",
+            "conditions": "dc, 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 77.4,
+            "unit": "cm3 K mol−1",
+            "conditions": "from dc data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": -0.05,
+            "unit": "K",
+            "conditions": "from dc data"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff",
+            "value": 7.44,
+            "unit": "K",
+            "conditions": "ac χ″ Arrhenius fit; 3.0 G ac, zero dc field, 2.0–5.0 K, 511–5111 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": 7.68e-06,
+            "unit": "s",
+            "conditions": "Arrhenius fit of ac χ″"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Experimental, compound 5"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "CCDC 1045937 / MOXZUW01"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Preparation of compounds 1–5"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Table 3; Fig. 2; Fig. 4"
+        }
+      ]
+    }
+  ]
+}

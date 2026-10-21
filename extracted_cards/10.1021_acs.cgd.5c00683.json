@@ -1,0 +1,226 @@
+{
+  "title": "Stepwise Assembly Mechanism of Acid-Resistant DyIII–NiII Core–Shell Single-Molecule Magnets with Elucidated Growth Pathway",
+  "doi": "10.1021/acs.cgd.5c00683",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy3Ni6(HL)6(μ3-OH)6(NO3)3]·9.5CH3CN",
+      "formula": "C109H124.5Dy3N18.5Ni6O33",
+      "ccdc_numbers": [
+        "2448471"
+      ],
+      "ccdc_refcodes": [
+        "UPOHAM"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Ni"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "discrete core-shell Dy3Ni6 cluster with a triangular Dy3 core and three distorted Ni2Dy2 cubane units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "A mixture of ethanol (1 mL) and acetonitrile (1 mL) was added to a Pyrex tube containing 2-methylpropane-1,3-diol (0.0105 g, 0.1 mmol), 2-hydroxy-1-naphthaldehyde (0.0172 g, 0.1 mmol), Dy(NO3)3·6H2O (0.0568 g, 0.1 mmol), Ni(NO3)2·4H2O (0.0255 g, 0.1 mmol), and triethylamine (50 μL). The mixture was thoroughly mixed and sealed under vacuum. The resulting clear green solution was heated at 80 °C for 15 hours, then slowly cooled to ambient temperature under air. Light green crystals formed upon cooling were isolated by filtration, affording a yield of 38% based on Dy content. The Schiff-base ligand HL is generated in situ from 2-hydroxy-1-naphthaldehyde and 2-methylpropane-1,3-diol.",
+        "reagents": [
+          {
+            "name": "ethanol",
+            "formula": "C2H5OH",
+            "role": "solvent",
+            "amount": "1 mL"
+          },
+          {
+            "name": "acetonitrile",
+            "formula": "CH3CN",
+            "role": "solvent",
+            "amount": "1 mL"
+          },
+          {
+            "name": "2-methylpropane-1,3-diol",
+            "formula": null,
+            "role": "ligand precursor",
+            "amount": "0.0105 g, 0.1 mmol"
+          },
+          {
+            "name": "2-hydroxy-1-naphthaldehyde",
+            "formula": null,
+            "role": "ligand precursor",
+            "amount": "0.0172 g, 0.1 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.0568 g, 0.1 mmol"
+          },
+          {
+            "name": "nickel(II) nitrate tetrahydrate",
+            "formula": "Ni(NO3)2·4H2O",
+            "role": "metal source",
+            "amount": "0.0255 g, 0.1 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "50 μL"
+          }
+        ],
+        "solvents": [
+          "ethanol",
+          "acetonitrile"
+        ],
+        "temperature": "80 °C, then cooled to ambient temperature",
+        "time": "15 hours",
+        "ph": null,
+        "vessel_or_method": "Pyrex tube sealed under vacuum",
+        "workup_and_crystallization": "Slowly cooled to ambient temperature under air; light green crystals isolated by filtration.",
+        "yield": "38% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Cluster 1 is a zero-dc-field single-molecule magnet. Room-temperature χMT is 49.69 cm3 K mol−1 (slightly above the spin-only value 48.51 cm3 K mol−1 for three DyIII and six NiII) and falls to 7.83 cm3 K mol−1 at 2.0 K. Exchange fitting gives antiferromagnetic J1 (Ni···Ni) and weak antiferromagnetic J2 and J3 (Dy···Dy). Magnetization reaches 25.00 NμB at 2 K and 50 kOe without saturation, and hysteresis at 2 K shows no apparent coercivity. AC susceptibility (0–1000 Hz, 0 Oe) shows slow relaxation; Orbach, QTM, and Raman pathways give Ueff = 19.41 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "49.69",
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, dc field 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "expected χMT",
+            "value": "48.51",
+            "unit": "cm3 K mol−1",
+            "conditions": "three uncoupled DyIII (6H15/2, g = 4/3) and six NiII (S = 1, g = 2)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "7.83",
+            "unit": "cm3 K mol−1",
+            "conditions": "2.0 K, dc field 1000 Oe; nearly constant from 300 to 23 K before the drop"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J1",
+            "value": "-6.63",
+            "unit": "cm−1",
+            "conditions": "magfit V1.0 fit; Ni···Ni coupling, gNi = 2.00"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J2",
+            "value": "-0.38",
+            "unit": "cm−1",
+            "conditions": "magfit V1.0 fit; Dy···Dy coupling, gDy = 1.33"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J3",
+            "value": "-0.40",
+            "unit": "cm−1",
+            "conditions": "magfit V1.0 fit; Dy···Dy coupling, gDy = 1.33"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "gNi",
+            "value": "2.00",
+            "unit": null,
+            "conditions": "best fit of dc susceptibility"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "gDy",
+            "value": "1.33",
+            "unit": null,
+            "conditions": "best fit of dc susceptibility"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "25.00",
+            "unit": "NμB",
+            "conditions": "2 K, 50 kOe; not saturated"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "19.41",
+            "unit": "K",
+            "conditions": "0 Oe dc field; fit of ln τ vs T−1 including Orbach, QTM, and Raman processes"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "4.78e-8",
+            "unit": "s",
+            "conditions": "0 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τQTM",
+            "value": "4.7e-6",
+            "unit": "s",
+            "conditions": "0 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman C",
+            "value": "21.13",
+            "unit": "s−1 K−n",
+            "conditions": "0 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman n",
+            "value": "5.05",
+            "unit": null,
+            "conditions": "0 Oe dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Accession Codes"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC refcode UPOHAM"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Section 3.1 Structural Analyses"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Synthesis of [Dy3Ni6(HL)6(μ3-OH)6(NO3)3]·9.5CH3CN (1)"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 3.4 Magnetic Properties; Figures 7 and S13–S16"
+        }
+      ]
+    }
+  ]
+}

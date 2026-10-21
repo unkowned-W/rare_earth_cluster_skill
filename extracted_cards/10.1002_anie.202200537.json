@@ -1,0 +1,265 @@
+{
+  "title": "Hierarchical Assembly of Coordination Macromolecules with Atypical Geometries: Gd44Co28 Crown and Gd95Co60 Cage",
+  "doi": "10.1002/anie.202200537",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Gd44Co28",
+      "compound_name": "Gd44Co28 molecular crown",
+      "formula": "[Gd44Co28(IDA)20(OH)72(CO3)12(OAc)28(H2O)64]·(ClO4)24·(H2O)x (x ≈ 60)",
+      "ccdc_numbers": [
+        "2087649"
+      ],
+      "ccdc_refcodes": [
+        "RAVPOX"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 72,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Co"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "molecular crown assembled from four heart-like Gd10Co7 units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "The Supporting Information specifies the same aqueous-solution/MeCN preparation as for Gd95Co60, except that Co(OAc)2 is increased from 1.0 to 1.5 mmol. The mixture is stirred, heated at 80 °C for 2 h, filtered, and left to evaporate at room temperature. Pink square crystals form after 2 days.",
+        "reagents": [
+          {
+            "name": "iminodiacetic acid",
+            "formula": "H2IDA",
+            "role": "ligand precursor",
+            "amount": "0.5 M in 1 mL mixed aqueous H2IDA/NaOH solution"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "base",
+            "amount": "0.5 M in 1 mL mixed aqueous H2IDA/NaOH solution, plus 1 M aqueous solution (1.8 mL)"
+          },
+          {
+            "name": "cobalt(II) acetate",
+            "formula": "Co(OAc)2",
+            "role": "cobalt source",
+            "amount": "1.5 mmol, increased from the 1.0 mmol used for Gd95Co60"
+          },
+          {
+            "name": "gadolinium(III) perchlorate",
+            "formula": "Gd(ClO4)3",
+            "role": "gadolinium source",
+            "amount": "1 M aqueous solution (1 mL)"
+          },
+          {
+            "name": "sodium carbonate",
+            "formula": "Na2CO3",
+            "role": "carbonate source",
+            "amount": "0.4 M aqueous solution (0.3 mL)"
+          }
+        ],
+        "solvents": [
+          "water",
+          "acetonitrile (5 mL)"
+        ],
+        "temperature": "80 °C for reaction; room temperature for evaporation",
+        "time": "2 h heating; crystals obtained after 2 days",
+        "ph": null,
+        "vessel_or_method": "Stirred solution synthesis; filtered mixture transferred to a 25 mL flask for evaporation",
+        "workup_and_crystallization": "Filter the reaction mixture and evaporate solvent at room temperature to obtain pink square crystals.",
+        "yield": "40–45%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Magnetic susceptibility decreases on cooling, consistent with antiferromagnetic interactions and zero-field splitting. The cluster shows a substantial low-temperature magnetocaloric effect.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 425.3,
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "Room temperature; 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 333.36,
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "2 K; 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 364.58,
+            "unit": "N μB",
+            "conditions": "2 K; 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "maximum magnetic entropy change, −ΔSm",
+            "value": 40.5,
+            "unit": "J kg⁻¹ K⁻¹",
+            "conditions": "2.0 K; ΔH = 7 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula, material_class, structure_description",
+          "source": "main_text",
+          "location": "Opening structural discussion; Figure 2"
+        },
+        {
+          "field": "ccdc_numbers, ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "Supplied catalog row RAVPOX; CCDC order corroborated by Supporting Information §1.3"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Supporting Information §1.4.2, embedded after the main article in the supplied Markdown; shared procedure in §1.4.1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic discussion and Figure 5"
+        }
+      ],
+      "structure_description": "Four Gd10Co7 heart-like units connect side by side to form a discrete crown-shaped Gd44Co28 core."
+    },
+    {
+      "compound_label": "Gd95Co60",
+      "compound_name": "Gd95Co60 molecular cage",
+      "formula": "[Na4Gd95Co60(IDA)40(OH)150(CO3)40(OAc)58(H2O)164]·(ClO4)41·(H2O)x (x ≈ 80)",
+      "ccdc_numbers": [
+        "2087650"
+      ],
+      "ccdc_refcodes": [
+        "RAVPUD"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 155,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Co",
+          "Na"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "molecular cage assembled from heart-like units and two crown-like units"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Mixed aqueous H2IDA/NaOH, Co(OAc)2, Gd(ClO4)3, NaOH, and Na2CO3 solutions are added to MeCN with stirring. After heating at 80 °C for 2 h, the mixture is filtered and transferred to a 25 mL flask for solvent evaporation at room temperature, yielding pink leaf-shaped crystals.",
+        "reagents": [
+          {
+            "name": "iminodiacetic acid",
+            "formula": "H2IDA",
+            "role": "ligand precursor",
+            "amount": "0.5 M in 1 mL mixed aqueous H2IDA/NaOH solution"
+          },
+          {
+            "name": "sodium hydroxide",
+            "formula": "NaOH",
+            "role": "base",
+            "amount": "0.5 M in 1 mL mixed aqueous H2IDA/NaOH solution, plus 1 M aqueous solution (1.8 mL)"
+          },
+          {
+            "name": "cobalt(II) acetate",
+            "formula": "Co(OAc)2",
+            "role": "cobalt source",
+            "amount": "1 M aqueous solution (1 mL)"
+          },
+          {
+            "name": "gadolinium(III) perchlorate",
+            "formula": "Gd(ClO4)3",
+            "role": "gadolinium source",
+            "amount": "1 M aqueous solution (1 mL)"
+          },
+          {
+            "name": "sodium carbonate",
+            "formula": "Na2CO3",
+            "role": "carbonate source",
+            "amount": "0.4 M aqueous solution (0.3 mL)"
+          }
+        ],
+        "solvents": [
+          "water",
+          "acetonitrile (5 mL)"
+        ],
+        "temperature": "80 °C for reaction; room temperature for evaporation",
+        "time": "2 h heating",
+        "ph": null,
+        "vessel_or_method": "Stirred solution synthesis; filtered mixture transferred to a 25 mL flask for evaporation",
+        "workup_and_crystallization": "Filter the reaction mixture and evaporate solvent at room temperature to obtain pink leaf-shaped crystals.",
+        "yield": "35–45%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Magnetic susceptibility decreases on cooling, consistent with antiferromagnetic interactions and zero-field splitting. The cage exhibits a substantial low-temperature magnetocaloric effect.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 914.2,
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "Room temperature; 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 716.98,
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "2 K; 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 785.5,
+            "unit": "N μB",
+            "conditions": "2 K; 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "maximum magnetic entropy change, −ΔSm",
+            "value": 41.2,
+            "unit": "J kg⁻¹ K⁻¹",
+            "conditions": "2.0 K; ΔH = 7 T"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula, material_class, structure_description",
+          "source": "main_text",
+          "location": "Opening structural discussion; Figures 3 and 4"
+        },
+        {
+          "field": "ccdc_numbers, ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "Supplied catalog row RAVPUD; CCDC order corroborated by Supporting Information §1.3"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Supporting Information §1.4.1, embedded after the main article in the supplied Markdown"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic discussion and Figure 5"
+        }
+      ],
+      "structure_description": "A discrete cage built around two crown-like units, each comprising four heart-like units, connected by linker units to produce multiple windows."
+    }
+  ]
+}

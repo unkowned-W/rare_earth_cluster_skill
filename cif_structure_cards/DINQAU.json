@@ -1,0 +1,551 @@
+{
+  "refcode": "DINQAU",
+  "ccdc_number": "911661",
+  "dois": [
+    "10.1016/j.poly.2013.02.007"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\911661.cif",
+  "formula_moiety": "C80 H76 Cl10 Co4 Gd4 N10 O26,0.5(C2 H3 N1)",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "P 42/n",
+  "international_tables_number": "86",
+  "unit_cell": {
+    "a": "24.582(4)",
+    "b": "24.582(4)",
+    "c": "17.409(4)",
+    "alpha": "90.00",
+    "beta": "90.00",
+    "gamma": "90.00",
+    "volume": "10519.8",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O14",
+        "O19",
+        "O2",
+        "O3",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Gd2",
+      "element": "Gd",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O16",
+        "O2",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Co3",
+      "element": "Co",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O13",
+        "O4"
+      ]
+    },
+    {
+      "label": "Co4",
+      "element": "Co",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O2",
+        "O5",
+        "O8"
+      ]
+    },
+    {
+      "label": "Gd3",
+      "element": "Gd",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O14",
+        "O15",
+        "O16",
+        "O17",
+        "O18",
+        "O6"
+      ]
+    },
+    {
+      "label": "Gd4",
+      "element": "Gd",
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O19",
+        "O20",
+        "O21",
+        "O22",
+        "O23",
+        "O3"
+      ]
+    },
+    {
+      "label": "Co5",
+      "element": "Co",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O24",
+        "O25",
+        "O26"
+      ]
+    },
+    {
+      "label": "Co6",
+      "element": "Co",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O15",
+        "O18",
+        "O21",
+        "O26"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Co3",
+          "Co4"
+        ],
+        "shared_oxygen_labels": [
+          "O13"
+        ],
+        "metal_metal_separation_angstrom": 3.638,
+        "bridge_geometry": [
+          {
+            "oxygen": "O13",
+            "angle_deg": 125.11,
+            "metal_oxygen_distances_angstrom": [
+              2.101,
+              1.998
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Co3",
+          "Gd1"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 4.229,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 128.09,
+            "metal_oxygen_distances_angstrom": [
+              2.382,
+              2.322
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Co4",
+          "Gd1"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.612,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 108.56,
+            "metal_oxygen_distances_angstrom": [
+              2.018,
+              2.421
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 99.87,
+            "metal_oxygen_distances_angstrom": [
+              2.432,
+              2.286
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Co4",
+          "Gd2"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 3.586,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 106.75,
+            "metal_oxygen_distances_angstrom": [
+              2.018,
+              2.439
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 97.12,
+            "metal_oxygen_distances_angstrom": [
+              2.433,
+              2.35
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Co5",
+          "Co6"
+        ],
+        "shared_oxygen_labels": [
+          "O26"
+        ],
+        "metal_metal_separation_angstrom": 3.638,
+        "bridge_geometry": [
+          {
+            "oxygen": "O26",
+            "angle_deg": 125.11,
+            "metal_oxygen_distances_angstrom": [
+              2.101,
+              1.998
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Co5",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O17"
+        ],
+        "metal_metal_separation_angstrom": 4.229,
+        "bridge_geometry": [
+          {
+            "oxygen": "O17",
+            "angle_deg": 128.09,
+            "metal_oxygen_distances_angstrom": [
+              2.382,
+              2.322
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Co6",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O15",
+          "O18"
+        ],
+        "metal_metal_separation_angstrom": 3.612,
+        "bridge_geometry": [
+          {
+            "oxygen": "O15",
+            "angle_deg": 108.56,
+            "metal_oxygen_distances_angstrom": [
+              2.018,
+              2.421
+            ]
+          },
+          {
+            "oxygen": "O18",
+            "angle_deg": 99.87,
+            "metal_oxygen_distances_angstrom": [
+              2.432,
+              2.286
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Co6",
+          "Gd4"
+        ],
+        "shared_oxygen_labels": [
+          "O15",
+          "O21"
+        ],
+        "metal_metal_separation_angstrom": 3.586,
+        "bridge_geometry": [
+          {
+            "oxygen": "O15",
+            "angle_deg": 106.75,
+            "metal_oxygen_distances_angstrom": [
+              2.018,
+              2.439
+            ]
+          },
+          {
+            "oxygen": "O21",
+            "angle_deg": 97.12,
+            "metal_oxygen_distances_angstrom": [
+              2.433,
+              2.35
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1",
+          "Gd2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.868,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 109.23,
+            "metal_oxygen_distances_angstrom": [
+              2.344,
+              2.4
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 105.47,
+            "metal_oxygen_distances_angstrom": [
+              2.421,
+              2.439
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O14"
+        ],
+        "metal_metal_separation_angstrom": 3.824,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 108.92,
+            "metal_oxygen_distances_angstrom": [
+              2.344,
+              2.355
+            ]
+          },
+          {
+            "oxygen": "O14",
+            "angle_deg": 108.92,
+            "metal_oxygen_distances_angstrom": [
+              2.355,
+              2.344
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd1",
+          "Gd4"
+        ],
+        "shared_oxygen_labels": [
+          "O14",
+          "O19",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.713,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 101.18,
+            "metal_oxygen_distances_angstrom": [
+              2.444,
+              2.361
+            ]
+          },
+          {
+            "oxygen": "O14",
+            "angle_deg": 102.69,
+            "metal_oxygen_distances_angstrom": [
+              2.355,
+              2.4
+            ]
+          },
+          {
+            "oxygen": "O19",
+            "angle_deg": 95.01,
+            "metal_oxygen_distances_angstrom": [
+              2.51,
+              2.527
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd2",
+          "Gd3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O16",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.713,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 102.69,
+            "metal_oxygen_distances_angstrom": [
+              2.4,
+              2.355
+            ]
+          },
+          {
+            "oxygen": "O6",
+            "angle_deg": 95.01,
+            "metal_oxygen_distances_angstrom": [
+              2.527,
+              2.51
+            ]
+          },
+          {
+            "oxygen": "O16",
+            "angle_deg": 101.18,
+            "metal_oxygen_distances_angstrom": [
+              2.361,
+              2.444
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Gd3",
+          "Gd4"
+        ],
+        "shared_oxygen_labels": [
+          "O14",
+          "O15"
+        ],
+        "metal_metal_separation_angstrom": 3.868,
+        "bridge_geometry": [
+          {
+            "oxygen": "O14",
+            "angle_deg": 109.23,
+            "metal_oxygen_distances_angstrom": [
+              2.344,
+              2.4
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 105.47,
+            "metal_oxygen_distances_angstrom": [
+              2.421,
+              2.439
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Co3",
+        "Co4",
+        "Co5",
+        "Co6",
+        "Gd1",
+        "Gd2",
+        "Gd3",
+        "Gd4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "DINQAU crystallizes in the tetragonal crystal system with space group P 42/n. Reported CIF formula moiety: C80 H76 Cl10 Co4 Gd4 N10 O26,0.5(C2 H3 N1). From the CIF bond table, Gd1 (Gd) has 7 O neighbors; Gd2 (Gd) has 8 O neighbors; Co3 (Co) has 4 O neighbors; Co4 (Co) has 4 O neighbors; Gd3 (Gd) has 7 O neighbors; Gd4 (Gd) has 8 O neighbors; Co5 (Co) has 4 O neighbors; Co6 (Co) has 4 O neighbors. Oxygen-bridged metal-site graph: 13 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.586-4.229 Å (not direct metal-metal bonds). Computed M-O-M angles span 95.01-128.09°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [CoII4GdIII4(OH)4(chp)10(acac)6]·0.5MeCN. Explicit grouped units in the article formula/name: 4 OH (explicit grouped unit in article formula). Article name explicitly identifies Co(II), Gd(III).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1016/j.poly.2013.02.007",
+    "formula": "[CoII4GdIII4(OH)4(chp)10(acac)6]·0.5MeCN",
+    "compound_name": "[CoII4GdIII4(OH)4(chp)10(acac)6]·0.5MeCN",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 4,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "Co",
+        "state": "II",
+        "basis": "article compound name"
+      },
+      {
+        "element": "Gd",
+        "state": "III",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

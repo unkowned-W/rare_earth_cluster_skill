@@ -1,0 +1,284 @@
+{
+  "refcode": "NETXES",
+  "ccdc_number": "1544680",
+  "dois": [
+    "10.1039/c7ra11750g"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1544680.cif",
+  "formula_moiety": "C146 H156 N12 O22 Tb4,2(C2 H6 O1),2(C2 H3 N1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "14.9673(6)",
+    "b": "15.9870(6)",
+    "c": "17.9639(8)",
+    "alpha": "67.936(4)",
+    "beta": "74.001(6)",
+    "gamma": "71.656(5)",
+    "volume": "3720.19",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O3",
+        "O5",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O13",
+        "O23",
+        "O3",
+        "O5",
+        "O9"
+      ]
+    },
+    {
+      "label": "Tb3",
+      "element": "Tb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O15",
+        "O17",
+        "O19",
+        "O20",
+        "O23"
+      ]
+    },
+    {
+      "label": "Tb4",
+      "element": "Tb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O15",
+        "O17",
+        "O21",
+        "O22",
+        "O23"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Tb1",
+          "Tb2"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O3",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.57,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 97.06,
+            "metal_oxygen_distances_angstrom": [
+              2.383,
+              2.381
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 95.9,
+            "metal_oxygen_distances_angstrom": [
+              2.395,
+              2.412
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 97.44,
+            "metal_oxygen_distances_angstrom": [
+              2.32,
+              2.429
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb1",
+          "Tb4"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O11"
+        ],
+        "metal_metal_separation_angstrom": 3.883,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 109.19,
+            "metal_oxygen_distances_angstrom": [
+              2.411,
+              2.353
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 111.27,
+            "metal_oxygen_distances_angstrom": [
+              2.32,
+              2.384
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb3"
+        ],
+        "shared_oxygen_labels": [
+          "O13",
+          "O23"
+        ],
+        "metal_metal_separation_angstrom": 3.883,
+        "bridge_geometry": [
+          {
+            "oxygen": "O13",
+            "angle_deg": 109.19,
+            "metal_oxygen_distances_angstrom": [
+              2.353,
+              2.411
+            ]
+          },
+          {
+            "oxygen": "O23",
+            "angle_deg": 111.27,
+            "metal_oxygen_distances_angstrom": [
+              2.384,
+              2.32
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb2",
+          "Tb4"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O23"
+        ],
+        "metal_metal_separation_angstrom": 3.922,
+        "bridge_geometry": [
+          {
+            "oxygen": "O11",
+            "angle_deg": 109.14,
+            "metal_oxygen_distances_angstrom": [
+              2.429,
+              2.384
+            ]
+          },
+          {
+            "oxygen": "O23",
+            "angle_deg": 109.14,
+            "metal_oxygen_distances_angstrom": [
+              2.384,
+              2.429
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Tb3",
+          "Tb4"
+        ],
+        "shared_oxygen_labels": [
+          "O15",
+          "O17",
+          "O23"
+        ],
+        "metal_metal_separation_angstrom": 3.57,
+        "bridge_geometry": [
+          {
+            "oxygen": "O23",
+            "angle_deg": 97.44,
+            "metal_oxygen_distances_angstrom": [
+              2.32,
+              2.429
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 97.06,
+            "metal_oxygen_distances_angstrom": [
+              2.383,
+              2.381
+            ]
+          },
+          {
+            "oxygen": "O17",
+            "angle_deg": 95.9,
+            "metal_oxygen_distances_angstrom": [
+              2.395,
+              2.412
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Tb1",
+        "Tb2",
+        "Tb3",
+        "Tb4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "NETXES crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C146 H156 N12 O22 Tb4,2(C2 H6 O1),2(C2 H3 N1). From the CIF bond table, Tb1 (Tb) has 6 O neighbors; Tb2 (Tb) has 7 O neighbors; Tb3 (Tb) has 6 O neighbors; Tb4 (Tb) has 7 O neighbors. Oxygen-bridged metal-site graph: 5 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.570-3.922 Å (not direct metal-metal bonds). Computed M-O-M angles span 95.90-111.27°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Tb4(μ3-OH)2L6(tmhd)4]·CH3CN·CH3CH2OH. Explicit grouped units in the article formula/name: 2 μ3-OH (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c7ra11750g",
+    "formula": "[Tb4(μ3-OH)2L6(tmhd)4]·CH3CN·CH3CH2OH",
+    "compound_name": "[Tb4(μ3-OH)2L6(tmhd)4]·CH3CN·CH3CH2OH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "refcode": "MUFMUZ",
+  "ccdc_number": "2117762",
+  "dois": [
+    "10.1039/d4ce00966e"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2117762.cif",
+  "formula_moiety": "C48 H44 Cl24 Nd4 O46,8(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "10.8914(15)",
+    "b": "13.7161(17)",
+    "c": "16.245(2)",
+    "alpha": "74.024(6)",
+    "beta": "86.691(6)",
+    "gamma": "72.279(5)",
+    "volume": "2221.47",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Nd1",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O13",
+        "O14",
+        "O15",
+        "O16",
+        "O17",
+        "O18",
+        "O2",
+        "O6"
+      ]
+    },
+    {
+      "label": "Nd2",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O19",
+        "O20",
+        "O21",
+        "O22",
+        "O23",
+        "O33",
+        "O42",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Nd3",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O24",
+        "O25",
+        "O29",
+        "O36",
+        "O37",
+        "O38",
+        "O39",
+        "O40",
+        "O41"
+      ]
+    },
+    {
+      "label": "Nd4",
+      "element": "Nd",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O19",
+        "O31",
+        "O32",
+        "O42",
+        "O43",
+        "O44",
+        "O45",
+        "O46"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Nd2",
+          "Nd4"
+        ],
+        "shared_oxygen_labels": [
+          "O19",
+          "O42"
+        ],
+        "metal_metal_separation_angstrom": 4.177,
+        "bridge_geometry": [
+          {
+            "oxygen": "O19",
+            "angle_deg": 106.14,
+            "metal_oxygen_distances_angstrom": [
+              2.548,
+              2.676
+            ]
+          },
+          {
+            "oxygen": "O42",
+            "angle_deg": 106.14,
+            "metal_oxygen_distances_angstrom": [
+              2.676,
+              2.548
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Nd1"
+      ],
+      [
+        "Nd2",
+        "Nd4"
+      ],
+      [
+        "Nd3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "MUFMUZ crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C48 H44 Cl24 Nd4 O46,8(H2 O1). From the CIF bond table, Nd1 (Nd) has 9 O neighbors; Nd2 (Nd) has 9 O neighbors; Nd3 (Nd) has 9 O neighbors; Nd4 (Nd) has 9 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.177-4.177 Å (not direct metal-metal bonds). Computed M-O-M angles span 106.14-106.14°; individual values and O labels are in metal_framework.links. Article card reports molecular formula Nd4(tcpa)6(H2O)22·8H2O. Explicit grouped units in the article formula/name: 22 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d4ce00966e",
+    "formula": "Nd4(tcpa)6(H2O)22·8H2O",
+    "compound_name": "tetra-neodymium hexakis(3,4,5,6-tetrachlorophthalate) docosaqua octahydrate",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 22,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

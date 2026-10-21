@@ -1,0 +1,80 @@
+{
+  "refcode": "NUCTIR",
+  "ccdc_number": "1833643",
+  "dois": [
+    "10.1021/jacs.9b11543"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1833643.cif",
+  "formula_moiety": "C428 H780 Gd102 N54 Ni36 O616 S54 12+,6(Br1 1-),6(N1 O3 1-),60(C1 H4 O1),130(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "77.656(16)",
+    "b": "32.255(7)",
+    "c": "64.599(13)",
+    "alpha": "90",
+    "beta": "118.26(3)",
+    "gamma": "90",
+    "volume": "142521",
+    "Z": "4"
+  },
+  "metal_sites": [],
+  "atom_sites_available": false,
+  "bond_table_available": false,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "undetermined (missing bonds, symmetry links, or consistent periodic-image geometry)",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "NUCTIR crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C428 H780 Gd102 N54 Ni36 O616 S54 12+,6(Br1 1-),6(N1 O3 1-),60(C1 H4 O1),130(H2 O1). Metal?O coordination is not determined because atom sites or bond data are absent. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula [Ni36Gd102(OH)132(mmt)18(dmpa)18(H2dmpa)24(CH3COO)84(SO4)18(NO3)18(H2O)30]Br6(NO3)6·(H2O)x·(CH3OH)y (x ≈ 130, y ≈ 60). Explicit grouped units in the article formula/name: 132 OH (explicit grouped unit in article formula), 18 NO3 (explicit grouped unit in article formula), 30 H2O (explicit grouped unit in article formula), 6 NO3 (explicit grouped unit in article formula), 1 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/jacs.9b11543",
+    "formula": "[Ni36Gd102(OH)132(mmt)18(dmpa)18(H2dmpa)24(CH3COO)84(SO4)18(NO3)18(H2O)30]Br6(NO3)6·(H2O)x·(CH3OH)y (x ≈ 130, y ≈ 60)",
+    "compound_name": "{Ni36Gd102} hexagon",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "insufficient_graph",
+    "nuclearity": 138,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count",
+    "reason": "missing links or omitted symmetry bonds"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "OH",
+        "count": 132,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 18,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 30,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 6,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

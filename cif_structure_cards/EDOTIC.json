@@ -1,0 +1,131 @@
+{
+  "refcode": "EDOTIC",
+  "ccdc_number": "878851",
+  "dois": [
+    "10.1002/chem.201202796"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\878851.cif",
+  "formula_moiety": "C54 H92 Lu4 O2 Si4,0.5(C6 H6)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "13.1095(18)",
+    "b": "13.4403(18)",
+    "c": "18.192(3)",
+    "alpha": "89.239(2)",
+    "beta": "79.898(2)",
+    "gamma": "80.930(2)",
+    "volume": "3115.86",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Lu1",
+      "element": "Lu",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O2"
+      ]
+    },
+    {
+      "label": "Lu2",
+      "element": "Lu",
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Lu3",
+      "element": "Lu",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Lu4",
+      "element": "Lu",
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Lu1",
+          "Lu4"
+        ],
+        "shared_oxygen_labels": [
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.729,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 119.6,
+            "metal_oxygen_distances_angstrom": [
+              2.173,
+              2.142
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Lu3",
+          "Lu4"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.488,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 104.73,
+            "metal_oxygen_distances_angstrom": [
+              2.241,
+              2.163
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Lu1",
+        "Lu3",
+        "Lu4"
+      ],
+      [
+        "Lu2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "EDOTIC crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C54 H92 Lu4 O2 Si4,0.5(C6 H6). From the CIF bond table, Lu1 (Lu) has 1 O neighbors; Lu2 (Lu) has 0 O neighbors; Lu3 (Lu) has 1 O neighbors; Lu4 (Lu) has 2 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.488-3.729 Å (not direct metal-metal bonds). Computed M-O-M angles span 104.73-119.60°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C54H92Lu4O2Si4·0.5C6H6.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/chem.201202796",
+    "formula": "C54H92Lu4O2Si4·0.5C6H6",
+    "compound_name": "bis(ketene dianion)/dimethylidene complex [Cp'4Lu4(μ3-CH2)2(μ3,η2-O-C=CH2)2]·0.5C6H6",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

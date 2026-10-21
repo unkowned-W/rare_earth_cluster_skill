@@ -1,0 +1,93 @@
+{
+  "refcode": "BOTCOE",
+  "ccdc_number": "989712",
+  "dois": [
+    "10.1039/c4dt02427c"
+  ],
+  "source_data_block": "1",
+  "source_cif": "CIFs\\989712.cif",
+  "formula_moiety": null,
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P21/c",
+  "international_tables_number": null,
+  "unit_cell": {
+    "a": "9.4512(19)",
+    "b": "31.333(6)",
+    "c": "20.413(6)",
+    "alpha": "90.00",
+    "beta": "117.58(2)",
+    "gamma": "90.00",
+    "volume": "5358(2)",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O2",
+        "O4",
+        "O5",
+        "O7"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 11,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O3",
+        "O6",
+        "O8",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Dy1"
+      ],
+      [
+        "Dy2"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "undetermined (missing bonds, symmetry links, or consistent periodic-image geometry)",
+    "omitted_nonidentity_symmetry_bonds": 20,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "BOTCOE crystallizes in the monoclinic crystal system with space group P21/c. From the CIF bond table, Dy1 (Dy) has 9 O neighbors; Dy2 (Dy) has 11 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C100H52Dy4F40N4O24. Explicit grouped units in the article formula/name: 2 μ3-OH (explicit grouped unit in article compound name (structural notation)), 2 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c4dt02427c",
+    "formula": "C100H52Dy4F40N4O24",
+    "compound_name": "[Dy4(μ3-OH)2(L)10(bipy)2(H2O)2]n (L = 3-fluoro-4-(trifluoromethyl)benzoate; bipy = 2,2′-bipyridine)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

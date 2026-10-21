@@ -1,0 +1,218 @@
+{
+  "refcode": "DOKGOB",
+  "ccdc_number": "902977",
+  "dois": [
+    "10.1002/asia.201402670"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\902977.cif",
+  "formula_moiety": "C49 H69 Dy3 N10 O7 S4,6(C1 H4 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21",
+  "international_tables_number": "4",
+  "unit_cell": {
+    "a": "14.1438(6)",
+    "b": "16.5882(6)",
+    "c": "15.7302(6)",
+    "alpha": "90",
+    "beta": "100.6500(10)",
+    "gamma": "90",
+    "volume": "3627.05",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.535,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 95.95,
+            "metal_oxygen_distances_angstrom": [
+              2.375,
+              2.384
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 96.47,
+            "metal_oxygen_distances_angstrom": [
+              2.375,
+              2.364
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 96.54,
+            "metal_oxygen_distances_angstrom": [
+              2.359,
+              2.378
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy1",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.527,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 94.91,
+            "metal_oxygen_distances_angstrom": [
+              2.396,
+              2.391
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 96.4,
+            "metal_oxygen_distances_angstrom": [
+              2.375,
+              2.357
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 97.2,
+            "metal_oxygen_distances_angstrom": [
+              2.359,
+              2.343
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O4",
+          "O5"
+        ],
+        "metal_metal_separation_angstrom": 3.53,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 95.16,
+            "metal_oxygen_distances_angstrom": [
+              2.373,
+              2.408
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 96.77,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.357
+            ]
+          },
+          {
+            "oxygen": "O5",
+            "angle_deg": 96.77,
+            "metal_oxygen_distances_angstrom": [
+              2.378,
+              2.343
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "DOKGOB crystallizes in the monoclinic crystal system with space group P 21. Reported CIF formula moiety: C49 H69 Dy3 N10 O7 S4,6(C1 H4 O1). From the CIF bond table, Dy1 (Dy) has 4 O neighbors; Dy2 (Dy) has 4 O neighbors; Dy3 (Dy) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.527-3.535 Å (not direct metal-metal bonds). Computed M-O-M angles span 94.91-97.20°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C55H93Dy3N10O13S4. Explicit grouped units in the article formula/name: 2 μ3-OH (explicit grouped unit in article compound name (structural notation)), 2 H2O (explicit grouped unit in article compound name (structural notation)).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/asia.201402670",
+    "formula": "C55H93Dy3N10O13S4",
+    "compound_name": "[Dy3L_RRRRRR(μ3-OH)2(H2O)2(SCN)4]·6CH3OH",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ3-OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      },
+      {
+        "unit": "H2O",
+        "count": 2,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

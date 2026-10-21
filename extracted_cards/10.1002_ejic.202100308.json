@@ -1,0 +1,456 @@
+{
+  "title": "New Magnetic and Luminescent Dy(III) and Dy(III)/Y(III) Based Tetranuclear Silsesquioxane Cages",
+  "doi": "10.1002/ejic.202100308",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "(Et4N)2[(PhSiO1.5)8(Y0.75Dy0.25O1.5)4(O)(NO2.5)6(EtOH)2(MeCN)2]",
+      "formula": "(Et4N)2[(PhSiO1.5)8(Y0.75Dy0.25O1.5)4(O)(NO2.5)6(EtOH)2(MeCN)2]",
+      "ccdc_numbers": [
+        "2062487"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Y",
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "prism-like cage metallasilsesquioxane with a tetranuclear oxo core between two cyclic tetraphenylcyclotetrasiloxanolate ligands"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Shared two-step route adapted from a previous method: in situ formation of phenylsiloxanolate [PhSi(O)ONa]x, followed by self-assembly with Dy3+/Y3+ salts in 1/3 stoichiometry and Et4NCl. Crystallization from an acetonitrile/ethanol mixture gave single crystals of 1. The main text states that experimental details are in the Supporting Information; numerical masses, volumes, time, temperature, and yield are not given in the main text.",
+        "reagents": [
+          {
+            "name": "phenylsiloxanolate",
+            "formula": "[PhSi(O)ONa]x",
+            "role": "in situ siloxanolate ligand precursor",
+            "amount": null
+          },
+          {
+            "name": "Dy3+/Y3+ salts",
+            "formula": null,
+            "role": "metal source",
+            "amount": "1/3 stoichiometry"
+          },
+          {
+            "name": "tetraethylammonium chloride",
+            "formula": "Et4NCl",
+            "role": "cation source",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "ethanol"
+        ],
+        "temperature": null,
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "two-step self-assembly followed by crystallization from acetonitrile/ethanol",
+        "workup_and_crystallization": "Crystallization from an acetonitrile/ethanol mixture afforded X-ray-quality single crystals.",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Room-temperature χT matches one Dy3+ ion in a statistically Y/Dy-substituted tetranuclear core. Magnetization at 1.8 K does not saturate, consistent with anisotropy. Only 1 shows field-induced slow magnetic relaxation (SMM) under 1800 Oe, with a fitted barrier of 49±4 cm−1 and a dominant Raman contribution. Solid-state Dy3+ green-yellow emission is observed; ligands do not efficiently sensitize Dy3+. Stark components of the 4F9/2 and 6H15/2 manifolds were extracted at 77 K and compared with the magnetic barrier.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "14.2",
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1000 Oe dc field; expected 14.2 cm3 K mol−1 for one Dy3+ (J=15/2, g=4/3)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "6.3",
+            "unit": "Nβ",
+            "conditions": "1.8 K, 5 T; linear rise at low field, no saturation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "optimum dc field for ac relaxation",
+            "value": "1800",
+            "unit": "Oe",
+            "conditions": "ac susceptibility; zero-field signal suppressed by QTM"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Orbach energy barrier Δ",
+            "value": "49±4",
+            "unit": "cm−1",
+            "conditions": "simultaneous fit of temperature and field dependence of τ under 1800 Oe; τ−1 = AH^4T + B/H^2 + CT^m + τ0−1 exp(−Δ/kBT)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "5.5×10^(−12.0±0.6)",
+            "unit": "s",
+            "conditions": "same simultaneous fit as Δ, 1800 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman exponent m",
+            "value": "1.7±0.2",
+            "unit": null,
+            "conditions": "same fit; C = 52±10 s−1 K−m"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Raman coefficient C",
+            "value": "52±10",
+            "unit": "s−1 K−m",
+            "conditions": "same simultaneous τ fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "QTM parameter B",
+            "value": "2.0×10^8",
+            "unit": "Oe2 s−1",
+            "conditions": "approximation B2H^2 ≫ 1 so QTM term is B/H^2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "direct-process parameter A",
+            "value": "7.7×10^−13",
+            "unit": "s−1 K−1 Oe−4",
+            "conditions": "same simultaneous τ fit"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission",
+            "value": null,
+            "unit": null,
+            "conditions": "solid state, 298 K and 77 K; typical Dy3+ green-yellow emission under UV excitation"
+          },
+          {
+            "property_type": "optical",
+            "name": "excitation maximum",
+            "value": "350",
+            "unit": "nm",
+            "conditions": "solid state, 77 K, monitored at 572 nm (4F9/2→6H13/2); 6H15/2→6P7/2"
+          },
+          {
+            "property_type": "optical",
+            "name": "6H15/2→4F9/2 excitation components",
+            "value": "21008; 21186; 21322; 21645",
+            "unit": "cm−1",
+            "conditions": "77 K, high-resolution excitation of 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "4F9/2 Kramers-doublet energies",
+            "value": "21035; 21089; 21131; 21173",
+            "unit": "cm−1",
+            "conditions": "77 K emission, multi-Gaussian fit of the high-energy 4F9/2→6H15/2 window"
+          },
+          {
+            "property_type": "optical",
+            "name": "crystal-field gap UA",
+            "value": "84±9",
+            "unit": "cm−1",
+            "conditions": "77 K emission; gap from ground to first excited Kramers doublet of 6H15/2, site group A"
+          },
+          {
+            "property_type": "optical",
+            "name": "crystal-field gap UB",
+            "value": "70±10",
+            "unit": "cm−1",
+            "conditions": "77 K emission; site group B"
+          },
+          {
+            "property_type": "optical",
+            "name": "4F9/2 lifetime",
+            "value": "0.112±0.002",
+            "unit": "ms",
+            "conditions": "solid state, 77 K, 4F9/2→6H13/2 decay"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "synthesis/structure paragraph, compound 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC deposition numbers 2062487 (1), 2002354 (2), 2002355 (3)"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Figure 1 and structural discussion"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "synthesis paragraph; details referred to Supporting Information Figure S1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Figures 2–5 and magnetic/luminescence discussion"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "(Et4N)2[(PhSiO1.5)8(DyO1.5)4(O)(NO2.5)6(EtOH)2(MeCN)2]",
+      "formula": "(Et4N)2[(PhSiO1.5)8(DyO1.5)4(O)(NO2.5)6(EtOH)2(MeCN)2]",
+      "ccdc_numbers": [
+        "2002354"
+      ],
+      "ccdc_refcodes": [
+        "UXESEY"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "prism-like tetranuclear Dy cage metallasilsesquioxane, isostructural with 1"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same two-step self-assembly as 1 using in situ [PhSi(O)ONa]x, Dy3+ salt (1/3 stoichiometry), and Et4NCl (Cat = Et4N), then crystallization from acetonitrile/ethanol. Quantitative experimental details are stated to be in the Supporting Information and are not given in the main text.",
+        "reagents": [
+          {
+            "name": "phenylsiloxanolate",
+            "formula": "[PhSi(O)ONa]x",
+            "role": "in situ siloxanolate ligand precursor",
+            "amount": null
+          },
+          {
+            "name": "Dy3+ salt",
+            "formula": null,
+            "role": "metal source",
+            "amount": "1/3 stoichiometry"
+          },
+          {
+            "name": "tetraethylammonium chloride",
+            "formula": "Et4NCl",
+            "role": "cation source",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "ethanol"
+        ],
+        "temperature": null,
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "two-step self-assembly followed by crystallization from acetonitrile/ethanol",
+        "workup_and_crystallization": "Crystallization from an acetonitrile/ethanol mixture.",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "χT at room temperature matches four free Dy3+ ions. χT decreases on cooling from crystal-field depopulation and antiferromagnetic Dy···Dy interactions. M(H) at 1.8 K is S-shaped and does not saturate (24.6 Nβ at 5 T). No slow relaxation of the magnetization is observed, attributed to intramolecular magnetic interactions. Solid-state Dy3+ green-yellow emission is present but poorly resolved, consistent with energy transfer and nonradiative decay among the four Dy3+ ions.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "56.9",
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1000 Oe; expected 56.7 cm3 K mol−1 for four Dy3+"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "24.6",
+            "unit": "Nβ",
+            "conditions": "1.8 K, 5 T; S-shaped curve, no saturation"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission",
+            "value": null,
+            "unit": null,
+            "conditions": "solid state, 298 K; Dy3+ green-yellow emission, less resolved than 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "4F9/2 lifetime",
+            "value": "0.167±0.005",
+            "unit": "ms",
+            "conditions": "solid state, 77 K, 4F9/2→6H13/2 decay"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "synthesis paragraph, Cat = Et4N (2)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 2002354"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row UXESEY / 2002354"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structures of 2 and 3, Figures S3–S6"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "shared synthesis paragraph"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Figure 2 and emission/lifetime discussion"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "(Ph4P)2[(PhSiO1.5)8(DyO1.5)4(O)(NO2.5)6(EtOH)2(MeCN)2]",
+      "formula": "(Ph4P)2[(PhSiO1.5)8(DyO1.5)4(O)(NO2.5)6(EtOH)2(MeCN)2]",
+      "ccdc_numbers": [
+        "2002355"
+      ],
+      "ccdc_refcodes": [
+        "UXESIC"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "prism-like tetranuclear Dy cage metallasilsesquioxane with Ph4P cations"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Same two-step self-assembly as 1–2 using in situ [PhSi(O)ONa]x, Dy3+ salt (1/3 stoichiometry), and Ph4PCl (Cat = Ph4P), then crystallization from acetonitrile/ethanol. Quantitative experimental details are stated to be in the Supporting Information and are not given in the main text.",
+        "reagents": [
+          {
+            "name": "phenylsiloxanolate",
+            "formula": "[PhSi(O)ONa]x",
+            "role": "in situ siloxanolate ligand precursor",
+            "amount": null
+          },
+          {
+            "name": "Dy3+ salt",
+            "formula": null,
+            "role": "metal source",
+            "amount": "1/3 stoichiometry"
+          },
+          {
+            "name": "tetraphenylphosphonium chloride",
+            "formula": "Ph4PCl",
+            "role": "cation source",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "acetonitrile",
+          "ethanol"
+        ],
+        "temperature": null,
+        "time": null,
+        "ph": null,
+        "vessel_or_method": "two-step self-assembly followed by crystallization from acetonitrile/ethanol",
+        "workup_and_crystallization": "Crystallization from an acetonitrile/ethanol mixture.",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "both",
+        "summary": "Room-temperature χT is close to four free Dy3+ ions. Cooling decreases χT, and M(H) at 1.8 K is S-shaped (21.9 Nβ at 5 T), consistent with antiferromagnetic coupling and anisotropy. No ac slow relaxation is reported. Solid-state Dy3+ green-yellow luminescence is observed and is less resolved than for the diluted Y/Dy cage 1.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χT",
+            "value": "53.7",
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, 1000 Oe; expected 56.7 cm3 K mol−1 for four Dy3+"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": "21.9",
+            "unit": "Nβ",
+            "conditions": "1.8 K, 5 T; S-shaped curve, no saturation"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission",
+            "value": null,
+            "unit": null,
+            "conditions": "solid state, 298 K; Dy3+ green-yellow emission, less resolved than 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "4F9/2 lifetime",
+            "value": "0.160±0.001",
+            "unit": "ms",
+            "conditions": "solid state, 77 K, 4F9/2→6H13/2 decay"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "synthesis paragraph, Cat = Ph4P (3)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "CCDC 2002355"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row UXESIC / 2002355"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "structures of 2 and 3"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "shared synthesis paragraph"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Figure 2 and emission/lifetime discussion"
+        }
+      ]
+    }
+  ]
+}

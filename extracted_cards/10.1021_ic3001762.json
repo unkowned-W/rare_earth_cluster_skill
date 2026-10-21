@@ -1,0 +1,170 @@
+{
+  "title": "Dodecanuclear [Cu6IIGd6III] Nanoclusters as Magnetic Refrigerants",
+  "doi": "10.1021/ic3001762",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[{(HL)(L)(DMF)CuIIGdIII(DMF)(H2O)}6]·6DMF",
+      "formula": "C150H192Cu6Gd6N30O72",
+      "ccdc_numbers": [
+        "864039"
+      ],
+      "ccdc_refcodes": [
+        "BAVNIX"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 12,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "discrete dodecanuclear Cu6Gd6 cluster of six phenoxo-bridged Cu–Gd pairs linked by syn-anti carboxylates"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Hydroxylamine hydrochloride (0.0209 g, 0.3 mmol) and triethylamine (0.0304 g, 0.3 mmol) were added to methanol (3 mL) and dimethylformamide (6 mL) and stirred for about 15 min. A solution of 3-formylsalicylic acid (0.0498 g, 0.3 mmol) and triethylamine (0.0304 g, 0.3 mmol) in methanol/dimethylformamide (6 mL) was added. After 1 h, Gd(NO3)3·6H2O (0.0343 g, 0.1 mmol) was added and the solution was stirred for another hour. Cu(ClO4)2·6H2O (0.0371 g, 0.1 mmol) was then added. Green crystals suitable for X-ray diffraction formed directly from the reaction mixture by slow evaporation of the solvents at room temperature.",
+        "reagents": [
+          {
+            "name": "hydroxylamine hydrochloride",
+            "formula": "NH2OH·HCl",
+            "role": "oxime ligand precursor",
+            "amount": "0.0209 g, 0.3 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.0304 g, 0.3 mmol, then a second portion of 0.0304 g, 0.3 mmol"
+          },
+          {
+            "name": "3-formylsalicylic acid",
+            "formula": null,
+            "role": "ligand precursor",
+            "amount": "0.0498 g, 0.3 mmol"
+          },
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "rare-earth source",
+            "amount": "0.0343 g, 0.1 mmol"
+          },
+          {
+            "name": "copper(II) perchlorate hexahydrate",
+            "formula": "Cu(ClO4)2·6H2O",
+            "role": "3d-metal source",
+            "amount": "0.0371 g, 0.1 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "N,N-dimethylformamide"
+        ],
+        "temperature": "room temperature for crystallization; reaction temperature not stated",
+        "time": "about 15 min, then 1 h, then another 1 h before copper addition",
+        "ph": null,
+        "vessel_or_method": "solution mixing followed by slow solvent evaporation",
+        "workup_and_crystallization": "Green crystals suitable for X-ray diffraction were obtained directly from the reaction mixture by slow evaporation of the solvents at room temperature.",
+        "yield": null
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Phenoxo-bridged CuII–GdIII exchange is weakly ferromagnetic (J = +1.01 cm−1), giving an S = 4 ground state for each {CuGd} pair and a high-spin, weakly anisotropic Cu6Gd6 cluster. The magnetocaloric effect reaches ΔSm[0–7 T] = 23.5 J kg−1 K−1 (13.8 R) near 2.3 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "49.0",
+            "unit": "cm3 mol−1 K",
+            "conditions": "300 K; expected 49.5 cm3 mol−1 K for six CuII and six GdIII with g = 2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "exchange coupling J(Cu–Gd)",
+            "value": "+1.01",
+            "unit": "cm−1",
+            "conditions": "fit of χMT(T) and M(B) to six independent {CuGd} pairs; gCu = gGd = 2.00; Hamiltonian H = −J SCu·SGd"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "saturation magnetization",
+            "value": "48.3",
+            "unit": "μB",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cu–Gd excited-state gap ΔE",
+            "value": "4.04",
+            "unit": "cm−1",
+            "conditions": "ΔE = 4J between S = 4 ground multiplet and S = 3 excited multiplet"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Gd axial anisotropy DGd",
+            "value": "-0.02",
+            "unit": "cm−1",
+            "conditions": "axial term used to simulate specific heat"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "upper limit of J(Gd–Gd)",
+            "value": "0.7",
+            "unit": "cm−1",
+            "conditions": "phenomenological Schottky term fitted to low-temperature zero-field specific heat"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change ΔSm",
+            "value": "23.5",
+            "unit": "J kg−1 K−1",
+            "conditions": "ΔB = 0–7 T; peak near 2.3 K; equivalent to 13.8 R; entropy saturation above 10 K is 6R ln(16)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "source": "main_text",
+          "location": "abstract and structure discussion, compound 1"
+        },
+        {
+          "field": "formula",
+          "source": "supporting_information",
+          "location": "Table S1 chemical formula C150H192Cu6Gd6N30O72"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "Physical measurements, CCDC 864039"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC refcode BAVNIX for DOI 10.1021/ic3001762"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Figure 1 and crystallographic description of the dodecanuclear cluster"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Supporting Information, Synthesis of compound 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "abstract and magnetic discussion, Figures 2 and 3"
+        }
+      ]
+    }
+  ]
+}

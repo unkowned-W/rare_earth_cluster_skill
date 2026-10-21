@@ -1,0 +1,214 @@
+{
+  "refcode": "GEYKUU",
+  "ccdc_number": "2181609",
+  "dois": [
+    "10.1002/zaac.202200222"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2181609.cif",
+  "formula_moiety": "C55 H77 Ce4 N22 O1",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "23.059(5)",
+    "b": "13.156(3)",
+    "c": "22.579(5)",
+    "alpha": "90",
+    "beta": "111.10(3)",
+    "gamma": "90",
+    "volume": "6390.41",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Ce3",
+      "element": "Ce",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    },
+    {
+      "label": "Ce4",
+      "element": "Ce",
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Ce1",
+          "Ce2"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.833,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 108.24,
+            "metal_oxygen_distances_angstrom": [
+              2.303,
+              2.427
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce1",
+          "Ce3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.893,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 115.38,
+            "metal_oxygen_distances_angstrom": [
+              2.303,
+              2.303
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce1",
+          "Ce4"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.862,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 109.46,
+            "metal_oxygen_distances_angstrom": [
+              2.303,
+              2.427
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2",
+          "Ce3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.862,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 109.46,
+            "metal_oxygen_distances_angstrom": [
+              2.427,
+              2.303
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce2",
+          "Ce4"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.866,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 105.62,
+            "metal_oxygen_distances_angstrom": [
+              2.427,
+              2.427
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Ce3",
+          "Ce4"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 3.833,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 108.24,
+            "metal_oxygen_distances_angstrom": [
+              2.303,
+              2.427
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Ce1",
+        "Ce2",
+        "Ce3",
+        "Ce4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "three-dimensional metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "GEYKUU crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C55 H77 Ce4 N22 O1. From the CIF bond table, Ce1 (Ce) has 1 O neighbors; Ce2 (Ce) has 1 O neighbors; Ce3 (Ce) has 1 O neighbors; Ce4 (Ce) has 1 O neighbors. Oxygen-bridged metal-site graph: 6 pairs, 1 components; largest component is a network with cycles with three-dimensional metal-site arrangement. Computed bridged metal-metal separations span 3.833-3.893 Å (not direct metal-metal bonds). Computed M-O-M angles span 105.62-115.38°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C55H77Ce4N22O.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/zaac.202200222",
+    "formula": "C55H77Ce4N22O",
+    "compound_name": "[Ce4O(Me2pz)11]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

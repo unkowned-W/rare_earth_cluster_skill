@@ -1,0 +1,456 @@
+{
+  "title": "Distributive Nd-to-Yb Energy Transfer within Pure [YbNdYb] Heterometallic Molecules",
+  "doi": "10.1021/acs.inorgchem.2c03940",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Yb2Nd(LA)2(LB)2(py)(H2O)2](NO3)",
+      "formula": "[Yb2Nd(LA)2(LB)2(py)(H2O)2](NO3)·11py",
+      "ccdc_numbers": [
+        "2209574"
+      ],
+      "ccdc_refcodes": [
+        "FICPIU"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Yb",
+          "Nd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear heterotrinuclear [YbNdYb] bis(beta-diketonate) complex"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": true,
+        "procedure": "Shared main-text route: equimolar H2LA and H2LB in pyridine with Ln(NO3)3 (Ln = Yb) and Ln'(NO3)3 (Ln' = Nd) in a 2:1 Ln/Ln' molar ratio plus 1 equiv CuCl2; heptane was layered into the mixture and large yellow/orange crystals grew over one month together with green [Cu(py)4(NO3)2], which was separated manually. SI procedure for 1: a yellow solution of H2LA (10.2 mg, 0.032 mmol) and H2LB (14.8 mg, 0.032 mmol) in pyridine (10 mL) was added dropwise under stirring to a light-blue pyridine (10 mL) solution of Nd(NO3)3·6H2O (7 mg, 0.016 mmol), Yb(NO3)3·5H2O (14.4 mg, 0.032 mmol), and CuCl2·2H2O (2.7 mg, 0.016 mmol). The green solution was stirred for 1 h and layered with heptane. After one week green [Cu(py)4(NO3)2] formed; after one month large orange crystals of 1 were separated manually.",
+        "reagents": [
+          {
+            "name": "2,6-bis[(3-oxo-3-naphthalen-2-yl)propionyl]pyridine",
+            "formula": "H2LA",
+            "role": "ligand",
+            "amount": "10.2 mg, 0.032 mmol"
+          },
+          {
+            "name": "6-(3-(naphthalen-2-yl)-3-oxopropanoyl)picolinic acid",
+            "formula": "H2LB",
+            "role": "ligand",
+            "amount": "14.8 mg, 0.032 mmol"
+          },
+          {
+            "name": "neodymium(III) nitrate hexahydrate",
+            "formula": "Nd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "7 mg, 0.016 mmol"
+          },
+          {
+            "name": "ytterbium(III) nitrate pentahydrate",
+            "formula": "Yb(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "14.4 mg, 0.032 mmol"
+          },
+          {
+            "name": "copper(II) chloride dihydrate",
+            "formula": "CuCl2·2H2O",
+            "role": "crystallization modulator",
+            "amount": "2.7 mg, 0.016 mmol"
+          },
+          {
+            "name": "pyridine",
+            "formula": "C5H5N",
+            "role": "solvent and ligand",
+            "amount": "10 mL plus 10 mL"
+          },
+          {
+            "name": "heptane",
+            "formula": null,
+            "role": "diffusion antisolvent",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "heptane"
+        ],
+        "temperature": null,
+        "time": "stirred 1 h; crystals after 1 month",
+        "ph": null,
+        "vessel_or_method": "solution mixing followed by heptane layering/diffusion",
+        "workup_and_crystallization": "Heptane diffusion; green [Cu(py)4(NO3)2] after about one week was separated manually from large orange crystals of 1 that formed after one month.",
+        "yield": "~15%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Both Yb3+ and Nd3+ NIR emissions are sensitized by LA2−/LB2−. Relative to [LuNdLu], the Nd3+ lifetime is strongly quenched while Yb3+ emission is retained, giving distributive Nd-to-Yb energy-transfer efficiencies of 87% in MeOH/DMSO solution and 89% in the solid state.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "Yb3+ emission lifetime",
+            "value": "9.3",
+            "unit": "μs",
+            "conditions": "MeOH/DMSO (1:1), room temperature, lambda_exc = 400 nm, detected at 976 nm; monoexponential; Table 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "Nd3+ emission lifetime",
+            "value": "0.24",
+            "unit": "μs",
+            "conditions": "MeOH/DMSO (1:1), room temperature, detected at 1056/1065 nm; Table 1 lists 0.24 μs at 1065 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Nd-to-Yb energy-transfer efficiency",
+            "value": "0.87",
+            "unit": null,
+            "conditions": "solution, room temperature; Phi_ET = 1 - tau_q/tau_u"
+          },
+          {
+            "property_type": "optical",
+            "name": "Nd3+ emission lifetime",
+            "value": "0.15",
+            "unit": "μs",
+            "conditions": "solid state, room temperature, 1056 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Nd-to-Yb energy-transfer efficiency",
+            "value": "0.89",
+            "unit": null,
+            "conditions": "solid state, room temperature, from Nd lifetimes of 1 and 3"
+          },
+          {
+            "property_type": "optical",
+            "name": "Yb3+ crystal-field splitting",
+            "value": "500",
+            "unit": "cm^-1",
+            "conditions": "frozen MeOH/DMSO (1:1) solution, 77 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "Yb3+ crystal-field splitting",
+            "value": "528",
+            "unit": "cm^-1",
+            "conditions": "solid state, 77 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maximum",
+            "value": "976",
+            "unit": "nm",
+            "conditions": "Yb3+ 2F5/2 -> 2F7/2; lambda_exc = 400 nm, diluted MeOH/DMSO"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Synthesis and Structures; Accession Codes CCDC 2209574-2209576"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "FICPIU / 2209574 matched to 11 lattice pyridines of compound 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Synthesis and Structures and eq 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI Synthesis, compound 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photophysical Properties; Table 1; Figures 6-7"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Yb2La(LA)2(LB)2(py)(H2O)2](NO3)",
+      "formula": "[Yb2La(LA)2(LB)2(py)(H2O)2](NO3)·10py",
+      "ccdc_numbers": [
+        "2209575"
+      ],
+      "ccdc_refcodes": [
+        "FICPOA"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Yb",
+          "La"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear heterotrinuclear [YbLaYb] bis(beta-diketonate) complex"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": true,
+        "procedure": "Prepared by the same general pyridine/heptane-diffusion procedure as 1, using Yb(NO3)3 and La(NO3)3 in a 2:1 molar ratio with equimolar H2LA and H2LB and 1 equiv CuCl2. SI: the procedure for 1 was repeated with La(NO3)3·6H2O (7 mg, 0.016 mmol) in place of the neodymium nitrate; orange crystals were obtained.",
+        "reagents": [
+          {
+            "name": "2,6-bis[(3-oxo-3-naphthalen-2-yl)propionyl]pyridine",
+            "formula": "H2LA",
+            "role": "ligand",
+            "amount": "10.2 mg, 0.032 mmol (same procedure as 1)"
+          },
+          {
+            "name": "6-(3-(naphthalen-2-yl)-3-oxopropanoyl)picolinic acid",
+            "formula": "H2LB",
+            "role": "ligand",
+            "amount": "14.8 mg, 0.032 mmol (same procedure as 1)"
+          },
+          {
+            "name": "lanthanum(III) nitrate hexahydrate",
+            "formula": "La(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "7 mg, 0.016 mmol"
+          },
+          {
+            "name": "ytterbium(III) nitrate pentahydrate",
+            "formula": "Yb(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "14.4 mg, 0.032 mmol (same procedure as 1)"
+          },
+          {
+            "name": "copper(II) chloride dihydrate",
+            "formula": "CuCl2·2H2O",
+            "role": "crystallization modulator",
+            "amount": "2.7 mg, 0.016 mmol (same procedure as 1)"
+          },
+          {
+            "name": "pyridine",
+            "formula": "C5H5N",
+            "role": "solvent and ligand",
+            "amount": "10 mL plus 10 mL"
+          },
+          {
+            "name": "heptane",
+            "formula": null,
+            "role": "diffusion antisolvent",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "heptane"
+        ],
+        "temperature": null,
+        "time": "stirred 1 h; crystals after 1 month",
+        "ph": null,
+        "vessel_or_method": "solution mixing followed by heptane layering/diffusion",
+        "workup_and_crystallization": "Heptane diffusion over about one month; orange crystals of 2 were separated manually from green [Cu(py)4(NO3)2].",
+        "yield": "~15%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "LA2−/LB2− sensitize a single set of Yb3+ NIR emission bands from two equivalent Yb sites; La3+ is nonemissive. The solution lifetime is much longer than that of the earlier dinuclear [LnYb] analogues.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "Yb3+ emission lifetime",
+            "value": "9.1",
+            "unit": "μs",
+            "conditions": "MeOH/DMSO (1:1), room temperature, 976 nm; monoexponential; Table 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission maximum",
+            "value": "980",
+            "unit": "nm",
+            "conditions": "Yb3+ 2F5/2 -> 2F7/2; solution and solid state; Table 1 lists 976 nm, lambda_exc = 400 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Yb3+ crystal-field splitting",
+            "value": "580",
+            "unit": "cm^-1",
+            "conditions": "frozen solution, 77 K"
+          },
+          {
+            "property_type": "optical",
+            "name": "Yb3+ crystal-field splitting",
+            "value": "530",
+            "unit": "cm^-1",
+            "conditions": "solid state, 77 K"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Synthesis and Structures; 10 lattice pyridines for 2"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "FICPOA / 2209575"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI Synthesis, compound 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photophysical Properties; Table 1; Figure 5"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Lu2Nd(LA)2(LB)2(py)(H2O)2](NO3)",
+      "formula": "[Lu2Nd(LA)2(LB)2(py)(H2O)2](NO3)·10py",
+      "ccdc_numbers": [
+        "2209576"
+      ],
+      "ccdc_refcodes": [
+        "FICPUG"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Lu",
+          "Nd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "linear heterotrinuclear [LuNdLu] bis(beta-diketonate) complex"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": true,
+        "procedure": "Prepared by the same general pyridine/heptane-diffusion procedure as 1, using Lu(NO3)3 and Nd(NO3)3 in a 2:1 molar ratio with equimolar H2LA and H2LB and 1 equiv CuCl2. SI: the procedure for 1 was repeated with Lu(NO3)3·5H2O (14.4 mg, 0.032 mmol) instead of Yb(NO3)3·5H2O; orange crystals were obtained.",
+        "reagents": [
+          {
+            "name": "2,6-bis[(3-oxo-3-naphthalen-2-yl)propionyl]pyridine",
+            "formula": "H2LA",
+            "role": "ligand",
+            "amount": "10.2 mg, 0.032 mmol (same procedure as 1)"
+          },
+          {
+            "name": "6-(3-(naphthalen-2-yl)-3-oxopropanoyl)picolinic acid",
+            "formula": "H2LB",
+            "role": "ligand",
+            "amount": "14.8 mg, 0.032 mmol (same procedure as 1)"
+          },
+          {
+            "name": "neodymium(III) nitrate hexahydrate",
+            "formula": "Nd(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "7 mg, 0.016 mmol (same procedure as 1)"
+          },
+          {
+            "name": "lutetium(III) nitrate pentahydrate",
+            "formula": "Lu(NO3)3·5H2O",
+            "role": "metal source",
+            "amount": "14.4 mg, 0.032 mmol"
+          },
+          {
+            "name": "copper(II) chloride dihydrate",
+            "formula": "CuCl2·2H2O",
+            "role": "crystallization modulator",
+            "amount": "2.7 mg, 0.016 mmol (same procedure as 1)"
+          },
+          {
+            "name": "pyridine",
+            "formula": "C5H5N",
+            "role": "solvent and ligand",
+            "amount": "10 mL plus 10 mL"
+          },
+          {
+            "name": "heptane",
+            "formula": null,
+            "role": "diffusion antisolvent",
+            "amount": null
+          }
+        ],
+        "solvents": [
+          "pyridine",
+          "heptane"
+        ],
+        "temperature": null,
+        "time": "stirred 1 h; crystals after 1 month",
+        "ph": null,
+        "vessel_or_method": "solution mixing followed by heptane layering/diffusion",
+        "workup_and_crystallization": "Heptane diffusion over about one month; orange crystals of 3 were separated manually from green [Cu(py)4(NO3)2].",
+        "yield": "~15%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "Ligands sensitize characteristic Nd3+ NIR emission while Lu3+ is nonemissive. The solution lifetime is much longer than that of the related [NdLu] dimer, and this complex is the unquenched Nd reference for the Nd-to-Yb energy-transfer efficiency of 1.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "Nd3+ emission lifetime",
+            "value": "1.8",
+            "unit": "μs",
+            "conditions": "MeOH/DMSO (1:1), room temperature, Table 1 at 1065 nm, lambda_exc = 400 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Nd3+ emission lifetime",
+            "value": "1.7",
+            "unit": "μs",
+            "conditions": "solution, room temperature, prose value at 1056 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "Nd3+ emission lifetime",
+            "value": "1.43",
+            "unit": "μs",
+            "conditions": "solid state, room temperature, 1056 nm"
+          },
+          {
+            "property_type": "optical",
+            "name": "emission bands",
+            "value": "880/1060/1340",
+            "unit": "nm",
+            "conditions": "Nd3+ 4F3/2 -> 4I_J (J = 9/2, 11/2, 13/2); lambda_exc = 400 nm"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Synthesis and Structures; 10 lattice pyridines for 3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "external_metadata",
+          "location": "FICPUG / 2209576"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI Synthesis, compound 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Photophysical Properties; Table 1; Figure 5"
+        }
+      ]
+    }
+  ]
+}

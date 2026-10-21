@@ -1,0 +1,480 @@
+{
+  "title": "A salen-type Dy4 single-molecule magnet with an enhanced energy barrier and its analogues",
+  "doi": "10.1039/c4dt02607a",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Dy4(L)2(HL)2(NO3)2(OH)2](NO3)2·4H2O",
+      "formula": "[Dy4(L)2(HL)2(NO3)2(OH)2](NO3)2·4H2O (C88H100Dy4N12O33.96)",
+      "ccdc_numbers": [
+        "1000758"
+      ],
+      "ccdc_refcodes": [
+        "MOTCUV"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "discrete tetranuclear {Ln4O8} rhombic salen-type cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "H2L (0.1 mmol, 38.3 mg) was dissolved in MeOH–DMF (9 mL, 2:1) in the presence of triethylamine (0.30 mmol, 42 μL), then Dy(NO3)3·6H2O (0.1 mmol, 45.7 mg) was added under stirring. The clear yellow solution was stirred for 10 minutes and filtered. Diethyl ether was allowed to diffuse slowly into the filtrate at ambient temperature. Yellow block-shaped crystals were obtained after 6 days. All manipulations were performed under ambient conditions.",
+        "reagents": [
+          {
+            "name": "N,N'-bis(3-methoxy-salicylidene)cyclohexane-1,2-diamine (H2L)",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.1 mmol, 38.3 mg"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.30 mmol, 42 μL"
+          },
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol, 45.7 mg"
+          }
+        ],
+        "solvents": [
+          "MeOH–DMF (9 mL, 2:1)",
+          "diethyl ether"
+        ],
+        "temperature": "ambient temperature",
+        "time": "stirred 10 min; crystals after 6 days",
+        "ph": null,
+        "vessel_or_method": "solution reaction followed by diethyl ether vapor diffusion",
+        "workup_and_crystallization": "filtered; diethyl ether slowly diffused into the filtrate; yellow block-shaped crystals",
+        "yield": "41 mg (65%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Complex 1 is a Dy4 SMM with two slow magnetic relaxation processes under zero dc field, assigned to the two inequivalent Dy sites. χmT at 300 K is 56.84 cm3 K mol−1 (expected 56.68). Upon cooling, χmT stays roughly constant to 85 K, decreases to 57.96 at 22 K, rises to 59.6 at 5 K, then falls to 45.05 at 1.8 K, consistent with thermal depopulation plus ferromagnetic coupling and low-T ZFS/Zeeman/competing AF coupling. Magnetization at 1.8 K reaches 21.34 μB (not 40 NμB saturation); M vs H/T curves do not superimpose, indicating anisotropy. Zero-field ac data (1–1000 Hz, 1.8–25 K) are frequency-dependent with χ″ maxima 1.37–4.87 cm3 mol−1 (1000–10 Hz) between 20 and 12 K; two peaks at 32 and 325 Hz. A 3600 Oe dc field only slightly shifts peaks but makes the two processes clearer. Arrhenius fit of high-T χ″ vs frequency gives Ueff = 48.14 K and τ0 = 6.46 × 10−6 s, the highest among reported tetranuclear salen-type Dy SMMs at zero field.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 56.84,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 100 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 57.96,
+            "unit": "cm3 K mol−1",
+            "conditions": "22 K, 100 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 59.6,
+            "unit": "cm3 K mol−1",
+            "conditions": "5 K, 100 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 45.05,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 100 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 21.34,
+            "unit": "μB",
+            "conditions": "1.8 K, 70 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": 48.14,
+            "unit": "K",
+            "conditions": "zero dc field; Arrhenius fit of high-T χ″ vs frequency"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "τ0",
+            "value": "6.46e-6",
+            "unit": "s",
+            "conditions": "zero dc field Arrhenius fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; Experimental synthesis of 1; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray crystallographic structures; Table 1"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC MOTCUV / 1000758"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "abstract; Results: Descriptions of the structures; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental section, Synthesis of 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 2–4"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Tb4(L)2(HL)2(NO3)2(OH)2](NO3)2·4H2O",
+      "formula": "[Tb4(L)2(HL)2(NO3)2(OH)2](NO3)2·4H2O (C88H100Tb4N12O33.96)",
+      "ccdc_numbers": [
+        "1000759"
+      ],
+      "ccdc_refcodes": [
+        "MOTDEG"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "discrete tetranuclear {Ln4O8} rhombic salen-type cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same procedure as complex 1 except that Tb(NO3)3·6H2O (0.1 mmol, 45.3 mg) replaced Dy(NO3)3·6H2O. H2L (0.1 mmol, 38.3 mg) in MeOH–DMF (9 mL, 2:1) with triethylamine (0.30 mmol, 42 μL), metal salt added, stirred 10 min, filtered, diethyl ether vapor diffusion at ambient temperature.",
+        "reagents": [
+          {
+            "name": "N,N'-bis(3-methoxy-salicylidene)cyclohexane-1,2-diamine (H2L)",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.1 mmol, 38.3 mg (as for 1)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.30 mmol, 42 μL (as for 1)"
+          },
+          {
+            "name": "terbium(III) nitrate hexahydrate",
+            "formula": "Tb(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol, 45.3 mg"
+          }
+        ],
+        "solvents": [
+          "MeOH–DMF (9 mL, 2:1)",
+          "diethyl ether"
+        ],
+        "temperature": "ambient temperature",
+        "time": "stirred 10 min; crystallization as for 1",
+        "ph": null,
+        "vessel_or_method": "same as 1: solution reaction and diethyl ether vapor diffusion",
+        "workup_and_crystallization": "as for 1",
+        "yield": "31 mg (50%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χmT at 300 K is 45.37 cm3 K mol−1 (expected 47.28 for four non-interacting TbIII). χmT decreases gradually to 36.07 at 5 K then sharply to 25.24 at 1.8 K, attributed to mJ depopulation and/or antiferromagnetic Tb–Tb coupling. Magnetization vs field resembles 1. No frequency-dependent out-of-phase ac signal at zero dc field; frequency-dependent χ″ peaks appear under 3000 Oe.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 45.37,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 100 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 36.07,
+            "unit": "cm3 K mol−1",
+            "conditions": "5 K, 100 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 25.24,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 100 Oe dc"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; Synthesis of 2; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC MOTDEG / 1000759"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 2; Fig. S4"
+        }
+      ]
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "[Ho4(L)2(HL)2(NO3)2(OH)2](NO3)2·4H2O",
+      "formula": "[Ho4(L)2(HL)2(NO3)2(OH)2](NO3)2·4H2O (C88H100Ho4N12O33.96)",
+      "ccdc_numbers": [
+        "1000760"
+      ],
+      "ccdc_refcodes": [
+        "MOTDUW"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "discrete tetranuclear {Ln4O8} rhombic salen-type cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same procedure as complex 1 except that Ho(NO3)3·6H2O (0.1 mmol, 45.9 mg) replaced Dy(NO3)3·6H2O.",
+        "reagents": [
+          {
+            "name": "N,N'-bis(3-methoxy-salicylidene)cyclohexane-1,2-diamine (H2L)",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.1 mmol, 38.3 mg (as for 1)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.30 mmol, 42 μL (as for 1)"
+          },
+          {
+            "name": "holmium(III) nitrate hexahydrate",
+            "formula": "Ho(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol, 45.9 mg"
+          }
+        ],
+        "solvents": [
+          "MeOH–DMF (9 mL, 2:1)",
+          "diethyl ether"
+        ],
+        "temperature": "ambient temperature",
+        "time": "stirred 10 min; crystallization as for 1",
+        "ph": null,
+        "vessel_or_method": "same as 1: solution reaction and diethyl ether vapor diffusion",
+        "workup_and_crystallization": "as for 1",
+        "yield": "37 mg (59%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χmT at 300 K is 55.54 cm3 K mol−1 (expected 56.28). χmT decreases slowly to 46.47 at 16 K then increases sharply to 50.54 at 1.8 K, indicating mJ depopulation plus dominant ferromagnetic Ho–Ho coupling. Magnetization vs field resembles 1. No zero-field frequency-dependent χ″; out-of-phase peaks appear under 3000 Oe.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 55.54,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 100 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 46.47,
+            "unit": "cm3 K mol−1",
+            "conditions": "16 K, 100 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 50.54,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 100 Oe dc"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; Synthesis of 3; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC MOTDUW / 1000760"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 3"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 2; Fig. S4"
+        }
+      ]
+    },
+    {
+      "compound_label": "4",
+      "compound_name": "[Er4(L)2(HL)2(NO3)2(OH)2](NO3)2·4H2O",
+      "formula": "[Er4(L)2(HL)2(NO3)2(OH)2](NO3)2·4H2O (C88H100Er4N12O33.96)",
+      "ccdc_numbers": [
+        "1000761"
+      ],
+      "ccdc_refcodes": [
+        "MOTFEI"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Er"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "discrete tetranuclear {Ln4O8} rhombic salen-type cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared by the same procedure as complex 1 except that Er(NO3)3·6H2O (0.1 mmol, 46.1 mg) replaced Dy(NO3)3·6H2O.",
+        "reagents": [
+          {
+            "name": "N,N'-bis(3-methoxy-salicylidene)cyclohexane-1,2-diamine (H2L)",
+            "formula": "H2L",
+            "role": "ligand",
+            "amount": "0.1 mmol, 38.3 mg (as for 1)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.30 mmol, 42 μL (as for 1)"
+          },
+          {
+            "name": "erbium(III) nitrate hexahydrate",
+            "formula": "Er(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.1 mmol, 46.1 mg"
+          }
+        ],
+        "solvents": [
+          "MeOH–DMF (9 mL, 2:1)",
+          "diethyl ether"
+        ],
+        "temperature": "ambient temperature",
+        "time": "stirred 10 min; crystallization as for 1",
+        "ph": null,
+        "vessel_or_method": "same as 1: solution reaction and diethyl ether vapor diffusion",
+        "workup_and_crystallization": "as for 1",
+        "yield": "35 mg (55%)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "χmT at 300 K is 42.21 cm3 K mol−1 (expected 45.92). χmT decreases continuously to 18.67 at 1.8 K, ascribed to mJ depopulation and/or antiferromagnetic Er–Er interactions. Magnetization vs field resembles 1. No zero-field frequency-dependent χ″; out-of-phase peaks appear under 3000 Oe.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 42.21,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 100 Oe dc"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 18.67,
+            "unit": "cm3 K mol−1",
+            "conditions": "1.8 K, 100 Oe dc"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "abstract; Synthesis of 4; Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Table 1"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC MOTFEI / 1000761"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental, Synthesis of 4"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic properties; Fig. 2; Fig. S4"
+        }
+      ]
+    }
+  ]
+}

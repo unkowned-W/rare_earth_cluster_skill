@@ -1,0 +1,159 @@
+{
+  "refcode": "YIKRIU",
+  "ccdc_number": "643505",
+  "dois": [
+    "10.1039/b705353c"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\643505.cif",
+  "formula_moiety": "C136 H212 N4 O8 Sm3,C4 H8 O1,1.5(C7 H8)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "14.9171(4)",
+    "b": "20.2284(3)",
+    "c": "30.2896(6)",
+    "alpha": "108.104(9)",
+    "beta": "95.546(10)",
+    "gamma": "104.692(13)",
+    "volume": "8248.9",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm1",
+      "element": "Sm",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3",
+        "O5",
+        "O7"
+      ]
+    },
+    {
+      "label": "Sm2",
+      "element": "Sm",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "label": "Sm3",
+      "element": "Sm",
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Sm1",
+          "Sm2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.974,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 110.56,
+            "metal_oxygen_distances_angstrom": [
+              2.471,
+              2.363
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 108.85,
+            "metal_oxygen_distances_angstrom": [
+              2.519,
+              2.365
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm1",
+          "Sm3"
+        ],
+        "shared_oxygen_labels": [
+          "O5",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.98,
+        "bridge_geometry": [
+          {
+            "oxygen": "O5",
+            "angle_deg": 109.89,
+            "metal_oxygen_distances_angstrom": [
+              2.494,
+              2.368
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 110.99,
+            "metal_oxygen_distances_angstrom": [
+              2.474,
+              2.356
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Sm1",
+        "Sm2",
+        "Sm3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately linear metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "YIKRIU crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C136 H212 N4 O8 Sm3,C4 H8 O1,1.5(C7 H8). From the CIF bond table, Sm1 (Sm) has 4 O neighbors; Sm2 (Sm) has 4 O neighbors; Sm3 (Sm) has 4 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 3.974-3.980 Å (not direct metal-metal bonds). Computed M-O-M angles span 108.85-110.99°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C136H212N4O8Sm3. Article name explicitly identifies Sm(III), Sm(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/b705353c",
+    "formula": "C136H212N4O8Sm3",
+    "compound_name": "SmIII2SmII(L1)4",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "Sm",
+        "state": "III",
+        "basis": "article compound name"
+      },
+      {
+        "element": "Sm",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

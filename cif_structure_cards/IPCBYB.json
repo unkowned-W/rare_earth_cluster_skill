@@ -1,0 +1,180 @@
+{
+  "refcode": "IPCBYB",
+  "ccdc_number": "1180559",
+  "dois": [
+    "10.1039/c39790001103"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1180559.cif",
+  "formula_moiety": "C84 H168 N12 O24 Yb4,2(C7 H16)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "29.069(5)",
+    "b": "19.591(3)",
+    "c": "23.193(4)",
+    "alpha": "90",
+    "beta": "107.70(2)",
+    "gamma": "90",
+    "volume": "12582.9",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O12",
+        "O2",
+        "O3",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O3",
+        "O4",
+        "O5",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb1B",
+      "element": "Yb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O11B",
+        "O12B",
+        "O1B",
+        "O2B",
+        "O3B",
+        "O6B",
+        "O7B"
+      ]
+    },
+    {
+      "label": "Yb2B",
+      "element": "Yb",
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O10B",
+        "O1B",
+        "O3B",
+        "O4B",
+        "O5B",
+        "O8B",
+        "O9B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.765,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 104.87,
+            "metal_oxygen_distances_angstrom": [
+              2.409,
+              2.341
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 108.07,
+            "metal_oxygen_distances_angstrom": [
+              2.253,
+              2.398
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb1B",
+          "Yb2B"
+        ],
+        "shared_oxygen_labels": [
+          "O1B",
+          "O3B"
+        ],
+        "metal_metal_separation_angstrom": 3.765,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1B",
+            "angle_deg": 104.87,
+            "metal_oxygen_distances_angstrom": [
+              2.409,
+              2.341
+            ]
+          },
+          {
+            "oxygen": "O3B",
+            "angle_deg": 108.07,
+            "metal_oxygen_distances_angstrom": [
+              2.253,
+              2.398
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2"
+      ],
+      [
+        "Yb1B",
+        "Yb2B"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "IPCBYB crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C84 H168 N12 O24 Yb4,2(C7 H16). From the CIF bond table, Yb1 (Yb) has 7 O neighbors; Yb2 (Yb) has 7 O neighbors; Yb1B (Yb) has 7 O neighbors; Yb2B (Yb) has 7 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.765-3.765 Å (not direct metal-metal bonds). Computed M-O-M angles span 104.87-108.07°; individual values and O labels are in metal_framework.links. Article card reports molecular formula Yb4(O2CNPri2)12·2C7H16. Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c39790001103",
+    "formula": "Yb4(O2CNPri2)12·2C7H16",
+    "compound_name": "tris(N,N-di-isopropylcarbamato)ytterbium(III)–heptane (tetramer, 1/2)",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

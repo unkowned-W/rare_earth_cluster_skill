@@ -1,0 +1,327 @@
+{
+  "title": "Two Discrete Ln12 Shelf-Shaped Clusters: Magnetic Studies Reveal a Significant Cryogenic Magnetocaloric Effect and Slow Magnetic Relaxation",
+  "doi": "10.1002/ejic.201600556",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "Gd12",
+      "compound_name": "[GdIII12Na3(μ3-OH)2(hmmp)6(piv)12(CO3)6(MeOH)6]OH·5MeOH",
+      "formula": "C137H213Gd12N6Na3O74",
+      "ccdc_numbers": [
+        "1420033"
+      ],
+      "ccdc_refcodes": [
+        "EZEZOA"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 15,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [
+          "Na"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "four-layer triangular shelf (ABBA)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "A solution of o-vanillin (0.0304 g, 0.2 mmol), 2-aminoethanol (0.0122 g, 0.2 mmol), and Et3N (0.0404 g, 0.4 mmol) in MeOH (10 mL) was gradually added to a stirred solution of GdCl3·6H2O (0.0744 g, 0.20 mmol) and NaPiv (0.0330 g, 0.3 mmol) in MeCN (10 mL). The resulting yellow solution was stirred under ambient conditions for 4 h and then filtered. The filtrate was left undisturbed to concentrate slowly by solvent evaporation. X-ray quality crystals of Gd12 slowly grew over 1 week and were collected by filtration, washed with cold MeOH, and dried under air. The cluster was obtained by a one-pot reaction at pH ≈ 8; carbonate ligands were attributed to atmospheric CO2 fixation.",
+        "reagents": [
+          {
+            "name": "o-vanillin",
+            "formula": "C8H8O3",
+            "role": "Schiff-base precursor",
+            "amount": "0.0304 g, 0.2 mmol"
+          },
+          {
+            "name": "2-aminoethanol",
+            "formula": "C2H7NO",
+            "role": "Schiff-base precursor",
+            "amount": "0.0122 g, 0.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.0404 g, 0.4 mmol"
+          },
+          {
+            "name": "gadolinium(III) chloride hexahydrate",
+            "formula": "GdCl3·6H2O",
+            "role": "metal source",
+            "amount": "0.0744 g, 0.20 mmol"
+          },
+          {
+            "name": "sodium pivalate",
+            "formula": "NaPiv",
+            "role": "carboxylate ligand/Na source",
+            "amount": "0.0330 g, 0.3 mmol"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN"
+        ],
+        "temperature": "ambient conditions",
+        "time": "stirred 4 h; crystals grew over 1 week",
+        "ph": "≈ 8",
+        "vessel_or_method": "one-pot reaction under ambient/atmospheric conditions; solvent evaporation crystallization",
+        "workup_and_crystallization": "filtered; filtrate left undisturbed to concentrate by evaporation; crystals collected by filtration, washed with cold MeOH, and dried in air",
+        "yield": "58% based on Gd (yellow crystals)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility shows χmT = 94.46 cm3 K mol−1 at room temperature, remaining nearly constant to 50 K then falling to 65.58 cm3 K mol−1 at 2 K; Curie–Weiss fit gives C = 94.33 cm3 K mol−1 and θ = −0.87 K, indicating weak antiferromagnetic Gd···Gd coupling. Magnetization at 2 K and 7 T is 76.45 Nβ (below 84 Nβ for ferromagnetic alignment). Isofield reduced-magnetization curves nearly superimpose, consistent with weak anisotropy. Magnetic entropy change reaches −ΔSm = 30.99 J kg−1 K−1 at 4 K and 7 T, below the theoretical 40.81 J kg−1 K−1 (24.95R) maximum, identifying Gd12 as a cryogenic magnetocaloric candidate.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 94.46,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, H = 0.1 T (1000 Oe), polycrystalline sample, 2–300 K range"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 65.58,
+            "unit": "cm3 K mol−1",
+            "conditions": "T = 2 K, H = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 94.33,
+            "unit": "cm3 K mol−1",
+            "conditions": "Curie–Weiss fit of 1/χm vs T, 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": -0.87,
+            "unit": "K",
+            "conditions": "Curie–Weiss fit, 2–300 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 76.45,
+            "unit": "Nβ",
+            "conditions": "T = 2 K, H = 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetic entropy change −ΔSm",
+            "value": 30.99,
+            "unit": "J kg−1 K−1",
+            "conditions": "T = 4 K, H = 7 T, from Maxwell relation using magnetization data"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental synthesis of Gd12"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1; elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray Crystallography; CCDC 1420033"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row EZEZOA"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal Structures of the Gd12 and Dy12 Clusters; Figures 1–3"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Gd12; Synthetic Aspects"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetochemistry dc studies; Figures 4, 6, 7"
+        }
+      ]
+    },
+    {
+      "compound_label": "Dy12",
+      "compound_name": "[DyIII12Na3(μ3-OH)2(hmmp)6(piv)12(CO3)6(MeOH)6]OH·5MeOH",
+      "formula": "C137H213Dy12N6Na3O74",
+      "ccdc_numbers": [
+        "1420034"
+      ],
+      "ccdc_refcodes": [
+        "EZEZUG"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 15,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Na"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "four-layer triangular shelf (ABBA)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Obtained by the same one-pot procedure as Gd12, replacing GdCl3·6H2O with DyCl3·6H2O. A MeOH solution of o-vanillin, 2-aminoethanol, and Et3N was added to a MeCN solution of the Dy salt and NaPiv, stirred under ambient conditions for 4 h, filtered, and crystallized by slow evaporation over 1 week. Yellow crystals were collected by filtration, washed with cold MeOH, and dried in air.",
+        "reagents": [
+          {
+            "name": "o-vanillin",
+            "formula": "C8H8O3",
+            "role": "Schiff-base precursor",
+            "amount": "0.0304 g, 0.2 mmol (same procedure as Gd12)"
+          },
+          {
+            "name": "2-aminoethanol",
+            "formula": "C2H7NO",
+            "role": "Schiff-base precursor",
+            "amount": "0.0122 g, 0.2 mmol (same procedure as Gd12)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.0404 g, 0.4 mmol (same procedure as Gd12)"
+          },
+          {
+            "name": "dysprosium(III) chloride hexahydrate",
+            "formula": "DyCl3·6H2O",
+            "role": "metal source",
+            "amount": "in place of GdCl3·6H2O (amount not separately stated)"
+          },
+          {
+            "name": "sodium pivalate",
+            "formula": "NaPiv",
+            "role": "carboxylate ligand/Na source",
+            "amount": "0.0330 g, 0.3 mmol (same procedure as Gd12)"
+          }
+        ],
+        "solvents": [
+          "MeOH",
+          "MeCN"
+        ],
+        "temperature": "ambient conditions",
+        "time": "stirred 4 h; crystals grew over 1 week",
+        "ph": "≈ 8",
+        "vessel_or_method": "one-pot reaction under ambient/atmospheric conditions; solvent evaporation crystallization",
+        "workup_and_crystallization": "same workup as Gd12: filtration, slow evaporation, crystals washed with cold MeOH and air-dried",
+        "yield": "62% based on Dy (yellow crystals)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Room-temperature χmT = 170.36 cm3 K mol−1 matches 12 uncoupled DyIII ions, remaining constant to 58 K then decreasing to 160.11 cm3 K mol−1 at 5 K and 131.22 cm3 K mol−1 at 2 K, consistent with antiferromagnetic interactions and/or Stark-level depopulation. Magnetization at 2 K and 7 T is 74.79 Nβ, far below 120 Nβ, and M vs H/T curves do not superimpose, indicating anisotropy. Zero-dc-field ac susceptibility (2.0 Oe, 100–1000 Hz) shows frequency-dependent χ′ and χ″ without χ″ maxima, attributed to fast QTM; a 5 kOe dc field did not produce clear frequency-dependent χ″ peaks. Approximate Debye analysis gave Ueff = 3.5 K and τ0 = 0.12 × 10−6 s; Cole–Cole fits support a single relaxation process with α < 0.21. Weak SMM/slow-relaxation behavior is thus observed.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 170.36,
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, H = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 160.11,
+            "unit": "cm3 K mol−1",
+            "conditions": "T = 5.0 K, H = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 131.22,
+            "unit": "cm3 K mol−1",
+            "conditions": "T = 2.0 K, H = 0.1 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 74.79,
+            "unit": "Nβ",
+            "conditions": "T = 2 K, H = 7 T"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Ueff",
+            "value": 3.5,
+            "unit": "K",
+            "conditions": "zero dc field; Debye approximation from ln(χ″/χ′) vs 1/T at 100–1000 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential relaxation time τ0",
+            "value": "0.12e-6",
+            "unit": "s",
+            "conditions": "zero dc field; Debye approximation"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Cole–Cole α parameter",
+            "value": "< 0.21",
+            "unit": null,
+            "conditions": "zero dc field, generalized Debye model"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "Abstract; Experimental synthesis of Dy12"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Table 1; elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "X-ray Crystallography; CCDC 1420034"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row EZEZUG"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Crystal Structures; isomorphic with Gd12"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthesis of Dy12; Synthetic Aspects"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "dc Magnetochemistry; ac Magnetic Susceptibility Studies; Figures 5, 6, 8–10"
+        }
+      ]
+    }
+  ]
+}

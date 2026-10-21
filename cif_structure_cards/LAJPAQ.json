@@ -1,0 +1,190 @@
+{
+  "refcode": "LAJPAQ",
+  "ccdc_number": "882693",
+  "dois": [
+    "10.1080/15533174.2014.989606"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\882693.cif",
+  "formula_moiety": "C105 H179 N6 O13 Yb3,3(C4 H8 O1),4(H2 O1)",
+  "crystal_system": "rhombohedral",
+  "space_group_hm": "R 3 c",
+  "international_tables_number": "161",
+  "unit_cell": {
+    "a": "19.8387(13)",
+    "b": "19.8387(13)",
+    "c": "72.521(7)",
+    "alpha": "90.00",
+    "beta": "90.00",
+    "gamma": "120.00",
+    "volume": "24718.4",
+    "Z": "6"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O11",
+        "O2",
+        "O3",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O15",
+        "O4",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O14",
+        "O15",
+        "O16",
+        "O3",
+        "O4"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.736,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 103.61,
+            "metal_oxygen_distances_angstrom": [
+              2.376,
+              2.377
+            ]
+          },
+          {
+            "oxygen": "O11",
+            "angle_deg": 110.28,
+            "metal_oxygen_distances_angstrom": [
+              2.309,
+              2.244
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb1",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.736,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 110.28,
+            "metal_oxygen_distances_angstrom": [
+              2.244,
+              2.309
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 103.67,
+            "metal_oxygen_distances_angstrom": [
+              2.376,
+              2.375
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb2",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O15",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.736,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 103.64,
+            "metal_oxygen_distances_angstrom": [
+              2.377,
+              2.375
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 110.28,
+            "metal_oxygen_distances_angstrom": [
+              2.309,
+              2.244
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2",
+        "Yb3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LAJPAQ crystallizes in the rhombohedral crystal system with space group R 3 c. Reported CIF formula moiety: C105 H179 N6 O13 Yb3,3(C4 H8 O1),4(H2 O1). From the CIF bond table, Yb1 (Yb) has 6 O neighbors; Yb2 (Yb) has 6 O neighbors; Yb3 (Yb) has 6 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.736-3.736 Å (not direct metal-metal bonds). Computed M-O-M angles span 103.61-110.28°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [(H2O)LYb(μ-OH)]3(μ3-H2O)·3THF·4H2O (C117H211N6O20Yb3; L2− = Me2NCH2CH2CH2N{CH2-(3,5-tBu2-C6H2-2-O−)}2). Explicit grouped units in the article formula/name: 1 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1080/15533174.2014.989606",
+    "formula": "[(H2O)LYb(μ-OH)]3(μ3-H2O)·3THF·4H2O (C117H211N6O20Yb3; L2− = Me2NCH2CH2CH2N{CH2-(3,5-tBu2-C6H2-2-O−)}2)",
+    "compound_name": "trinuclear aminobis(phenolate) ytterbium hydroxide; 1·3THF·4H2O",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

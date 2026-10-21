@@ -1,0 +1,330 @@
+{
+  "title": "Heterometallic CuII–DyIII Clusters of Different Nuclearities with Slow Magnetic Relaxation",
+  "doi": "10.1021/acs.inorgchem.5b02107",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Cu4Dy(vap)2(Hvap)2(OH)2Cl2]Cl·4H2O",
+      "formula": "C44H64N4O18Cl3Cu4Dy",
+      "ccdc_numbers": [
+        "1403374"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 5,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "pentanuclear Cu4Dy cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "H2vap (0.339 g, 1.628 mmol) was dissolved in methanol (20 mL). Dy(NO3)3·xH2O (0.814 mmol) and triethylamine (0.7 mL, 5 mmol) were added and the mixture was stirred for 1 h. CuCl2·2H2O (0.259 g, 1.623 mmol) was then added and the mixture was stirred for a further 4 h at 25 °C to afford a clear deep green solution. The solvent was removed in vacuo, and the green solid was washed with diethyl ether and dried. Dark green block crystals of 1 suitable for X-ray diffraction were isolated after ~7 days by slow diffusion of diethyl ether into a methanolic solution of the complex. Manipulations were performed under aerobic conditions.",
+        "reagents": [
+          {
+            "name": "H2vap (2-[(3-hydroxypropylimino)methyl]-6-methoxyphenol)",
+            "formula": "C11H15NO3",
+            "role": "ligand",
+            "amount": "0.339 g, 1.628 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate hydrate",
+            "formula": "Dy(NO3)3·xH2O",
+            "role": "metal source",
+            "amount": "0.814 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.7 mL, 5 mmol"
+          },
+          {
+            "name": "copper(II) chloride dihydrate",
+            "formula": "CuCl2·2H2O",
+            "role": "metal source",
+            "amount": "0.259 g, 1.623 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "diethyl ether"
+        ],
+        "temperature": "25 °C",
+        "time": "1 h after Dy/TEA addition, then 4 h after CuCl2 addition; crystals after ~7 days",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring in methanol followed by vacuum stripping; crystallization by slow diethyl ether diffusion into methanol",
+        "workup_and_crystallization": "solvent removed in vacuo; green solid washed with diethyl ether and dried; X-ray-quality crystals grown by slow diffusion of diethyl ether into a methanolic solution",
+        "yield": "~70–78%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility of the pentanuclear Cu4Dy cluster is slightly below the free-ion expectation at 300 K, shows a ferromagnetic upturn below 70 K, then decreases to 2 K. Magnetization at 1.82 K does not saturate fully and shows no hysteresis. Ac susceptibility exhibits slow magnetic relaxation (frequency dependence 1.85–3 K) even at 0 dc field, without an out-of-phase maximum in the accessible frequency window; under 2000 Oe two relaxation processes are resolved (faster Orbach, slower direct).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 17.678,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, dc field 1000 Oe, polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 17.42,
+            "unit": "cm3 K mol−1",
+            "conditions": "70 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 19.675,
+            "unit": "cm3 K mol−1",
+            "conditions": "6.75 K (ferromagnetic upturn)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 18.119,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 7.89,
+            "unit": "Nβ",
+            "conditions": "1.82 K, 5 T; pseudo-saturation from ~1 T; no hysteresis"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ/kB (Orbach, faster process)",
+            "value": 12.876,
+            "unit": "K",
+            "conditions": "ac, 2000 Oe dc field, 1.85–3.2 K, generalized Debye fit"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0 (faster Orbach process)",
+            "value": "2.268e-7",
+            "unit": "s",
+            "conditions": "ac, 2000 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "direct-process slope (slower relaxation)",
+            "value": 0.99945,
+            "unit": null,
+            "conditions": "ac, 2000 Oe; additional process below 1 Hz"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "section 2.2"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.2 elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 2.4 (CCDC-1403374)"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.2"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "abstract; section 3; conclusion"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.5; Figures 8, S12–S15"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Cu6Dy3(vae)6(OH)6(H2O)5(MeOH)]NO3·Br2·4H2O·MeOH",
+      "formula": "C62H98N7O38Br2Cu6Dy3",
+      "ccdc_numbers": [
+        "1403375"
+      ],
+      "ccdc_refcodes": [
+        "SABQIY"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 9,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [
+          "Cu"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "nonanuclear Cu6Dy3 corner-shared cubane cluster (3,6M9-1 topology)"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "The protocol of 1 was used with H2vae (0.316 g, 1.628 mmol) and CuBr2 (0.362 g, 1.623 mmol) in place of H2vap and CuCl2·2H2O, with Dy(NO3)3·xH2O and triethylamine as in 1, in methanol. After stirring for ~0.5 h from addition of CuBr2 a bluish-green solid appeared; stirring was continued for ~1 h and the solid was filtered, washed with cold methanol, and dried under reduced pressure. Crystals suitable for X-ray studies were obtained by slow diffusion of diethyl ether into MeCN:MeOH (1:1) within 1 week.",
+        "reagents": [
+          {
+            "name": "H2vae (2-[(2-hydroxyethylimino)methyl]-6-methoxyphenol)",
+            "formula": "C10H13NO3",
+            "role": "ligand",
+            "amount": "0.316 g, 1.628 mmol"
+          },
+          {
+            "name": "dysprosium(III) nitrate hydrate",
+            "formula": "Dy(NO3)3·xH2O",
+            "role": "metal source",
+            "amount": "0.814 mmol (same protocol as 1)"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.7 mL, 5 mmol (same protocol as 1)"
+          },
+          {
+            "name": "copper(II) bromide",
+            "formula": "CuBr2",
+            "role": "metal source",
+            "amount": "0.362 g, 1.623 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol",
+          "acetonitrile",
+          "diethyl ether"
+        ],
+        "temperature": null,
+        "time": "~0.5 h after CuBr2 addition until precipitation, then ~1 h further stirring; crystals within 1 week",
+        "ph": null,
+        "vessel_or_method": "aerobic stirring analogous to 1; crystallization by diethyl ether diffusion into MeCN:MeOH (1:1)",
+        "workup_and_crystallization": "precipitate filtered, washed with cold methanol, and dried under reduced pressure; crystals grown by slow diffusion of diethyl ether into MeCN:MeOH (1:1)",
+        "yield": "~70–75%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc χmT of the nonanuclear Cu6Dy3 cluster decreases from 40.81 cm3 K mol−1 at 300 K to 7.015 cm3 K mol−1 at 2 K, consistent with antiferromagnetic interactions and/or Dy mJ depopulation. Magnetization at 1.82 K is a two-step process (partial spin flop near 1 T) without hysteresis. Zero-field ac susceptibility is frequency-dependent up to 4 K; two Orbach processes (with QTM for the faster process) are fitted, and an external field does not affect the relaxation time.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 40.81,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, dc field 1000 Oe, polycrystalline sample"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χmT",
+            "value": 7.015,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K; faster decrease from ~50 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization",
+            "value": 16.28,
+            "unit": "Nβ",
+            "conditions": "1.82 K, 5 T; two-step curve, acceleration at 1 T, pseudo-saturation from 3 T; no hysteresis"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ/kB (Orbach, slower process)",
+            "value": 23.657,
+            "unit": "K",
+            "conditions": "ac, 0 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0 (slower Orbach process)",
+            "value": "1.084e-7",
+            "unit": "s",
+            "conditions": "ac, 0 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier Δ/kB (Orbach, faster process)",
+            "value": 25.293,
+            "unit": "K",
+            "conditions": "ac, 0 Oe; QTM + Orbach fit below 3.2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0 (faster process)",
+            "value": "3.939e-9",
+            "unit": "s",
+            "conditions": "ac, 0 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "QTM time constant",
+            "value": "5.616e-3",
+            "unit": "s",
+            "conditions": "faster relaxation process, 0 Oe"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_name",
+          "source": "main_text",
+          "location": "section 2.3"
+        },
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "section 2.3 elemental analysis"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 2.4 (CCDC-1403375)"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "SABQIY / 1403375"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.3"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "abstract; section 3; conclusion"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.5; Figures 9–11"
+        }
+      ]
+    }
+  ]
+}

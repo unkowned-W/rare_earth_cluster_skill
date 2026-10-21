@@ -1,0 +1,210 @@
+{
+  "refcode": "WADWEH",
+  "ccdc_number": "2019304",
+  "dois": [
+    "10.1002/ejic.202000718"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2019304.cif",
+  "formula_moiety": "C136 H144 N16 O30 Yb4,2(C2 H3 N1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "17.936(4)",
+    "b": "22.210(4)",
+    "c": "28.571(6)",
+    "alpha": "108.01(3)",
+    "beta": "98.01(3)",
+    "gamma": "108.79(3)",
+    "volume": "9879.55",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O5",
+        "O6",
+        "O6A",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O14",
+        "O7",
+        "O8",
+        "O8A",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O17",
+        "O5A",
+        "O6",
+        "O6A",
+        "O9A"
+      ]
+    },
+    {
+      "label": "Yb4",
+      "element": "Yb",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O19",
+        "O20",
+        "O7A",
+        "O8",
+        "O8A",
+        "O9A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Yb1",
+          "Yb2"
+        ],
+        "shared_oxygen_labels": [
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 4.029,
+        "bridge_geometry": [
+          {
+            "oxygen": "O9",
+            "angle_deg": 147.17,
+            "metal_oxygen_distances_angstrom": [
+              2.072,
+              2.128
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb1",
+          "Yb3"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O6A"
+        ],
+        "metal_metal_separation_angstrom": 3.888,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6A",
+            "angle_deg": 110.86,
+            "metal_oxygen_distances_angstrom": [
+              2.279,
+              2.442
+            ]
+          },
+          {
+            "oxygen": "O6",
+            "angle_deg": 110.33,
+            "metal_oxygen_distances_angstrom": [
+              2.429,
+              2.307
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb2",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O8",
+          "O8A"
+        ],
+        "metal_metal_separation_angstrom": 3.923,
+        "bridge_geometry": [
+          {
+            "oxygen": "O8A",
+            "angle_deg": 111.64,
+            "metal_oxygen_distances_angstrom": [
+              2.364,
+              2.378
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 110.07,
+            "metal_oxygen_distances_angstrom": [
+              2.429,
+              2.358
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Yb3",
+          "Yb4"
+        ],
+        "shared_oxygen_labels": [
+          "O9A"
+        ],
+        "metal_metal_separation_angstrom": 4.107,
+        "bridge_geometry": [
+          {
+            "oxygen": "O9A",
+            "angle_deg": 145.43,
+            "metal_oxygen_distances_angstrom": [
+              2.207,
+              2.095
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Yb1",
+        "Yb2",
+        "Yb3",
+        "Yb4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "WADWEH crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C136 H144 N16 O30 Yb4,2(C2 H3 N1). From the CIF bond table, Yb1 (Yb) has 6 O neighbors; Yb2 (Yb) has 6 O neighbors; Yb3 (Yb) has 6 O neighbors; Yb4 (Yb) has 6 O neighbors. Oxygen-bridged metal-site graph: 4 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.888-4.107 Å (not direct metal-metal bonds). Computed M-O-M angles span 110.07-147.17°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C136H144N16O30Yb4·xMeCN.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/ejic.202000718",
+    "formula": "C136H144N16O30Yb4·xMeCN",
+    "compound_name": "[Yb4(H3L)2(μ-OH)2(η2-NO3)4]·xMeCN",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

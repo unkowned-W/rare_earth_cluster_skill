@@ -1,0 +1,145 @@
+{
+  "refcode": "EWURUJ",
+  "ccdc_number": "235607",
+  "dois": [
+    "10.1021/om0343418"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\235607.cif",
+  "formula_moiety": "C82 H177 Gd1 O24 Si6 Sm2,2.5(C6 H6)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "13.9216(17)",
+    "b": "18.802(2)",
+    "c": "26.762(3)",
+    "alpha": "106.655(2)",
+    "beta": "96.617(2)",
+    "gamma": "109.171(2)",
+    "volume": "6167.03",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm1",
+      "element": "Sm",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "label": "Sm2",
+      "element": "Sm",
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O4",
+        "O5",
+        "O6"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Sm1",
+          "Sm2"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2",
+          "O3"
+        ],
+        "metal_metal_separation_angstrom": 3.429,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 89.26,
+            "metal_oxygen_distances_angstrom": [
+              2.385,
+              2.495
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 88.99,
+            "metal_oxygen_distances_angstrom": [
+              2.394,
+              2.498
+            ]
+          },
+          {
+            "oxygen": "O3",
+            "angle_deg": 88.01,
+            "metal_oxygen_distances_angstrom": [
+              2.41,
+              2.525
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Gd1"
+      ],
+      [
+        "Sm1",
+        "Sm2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "EWURUJ crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C82 H177 Gd1 O24 Si6 Sm2,2.5(C6 H6). From the CIF bond table, Sm1 (Sm) has 3 O neighbors; Sm2 (Sm) has 6 O neighbors; Gd1 (Gd) has 3 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.429-3.429 Å (not direct metal-metal bonds). Computed M-O-M angles span 88.01-89.26°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C82H177O24Si6Sm2Gd. Article name explicitly identifies Gd(III), Sm(II), Sm(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/om0343418",
+    "formula": "C82H177O24Si6Sm2Gd",
+    "compound_name": "[{(tBuO)3SiO}3GdIII(μ,η5:η5-C5Me5)SmII{μ-OSi(OtBu)3}3SmII]",
+    "match_basis": "refcode"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "Gd",
+        "state": "III",
+        "basis": "article compound name"
+      },
+      {
+        "element": "Sm",
+        "state": "II",
+        "basis": "article compound name"
+      },
+      {
+        "element": "Sm",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

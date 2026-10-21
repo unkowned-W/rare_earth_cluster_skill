@@ -1,0 +1,207 @@
+{
+  "title": "Magnetic behaviour of a spin-canted asymmetric lanthanide quinolate trimer",
+  "doi": "10.1039/d4dt01588f",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": null,
+      "compound_name": "[Dy3(hq)7(NO3)2(H2O)]·2.5MeCN",
+      "formula": "[Dy3(hq)7(NO3)2(H2O)]·2.5MeCN",
+      "ccdc_numbers": [
+        "2354974"
+      ],
+      "ccdc_refcodes": [
+        "LOYQOJ"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 3,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "V-shaped asymmetric dysprosium 8-quinolinate trimer"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Under aerobic conditions, Dy(NO3)3·nH2O (0.548 g, 1.2 mmol, molar quantity calculated as the hexahydrate Dy(NO3)3·6H2O), 8-hydroxiquinoline (0.464 g, 3.2 mmol) and Et3N (0.14 mL, 1 mmol) were refluxed in acetonitrile (20 mL) for two hours to give a deep orange solution. The solution was cooled to room temperature and filtered. Orange X-ray-quality crystals of [Dy3(hq)7(NO3)2(H2O)] formed after two days of slow solvent evaporation. A non-equimolar amount of Et3N was required; an equimolar amount based on the ligand gave an insoluble product immediately, and no base gave a slurry.",
+        "reagents": [
+          {
+            "name": "dysprosium nitrate hydrate",
+            "formula": "Dy(NO3)3·nH2O",
+            "role": "metal source",
+            "amount": "0.548 g, 1.2 mmol (as Dy(NO3)3·6H2O)"
+          },
+          {
+            "name": "8-hydroxiquinoline",
+            "formula": "C9H7NO",
+            "role": "ligand",
+            "amount": "0.464 g, 3.2 mmol"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "Et3N",
+            "role": "base",
+            "amount": "0.14 mL, 1 mmol"
+          }
+        ],
+        "solvents": [
+          "acetonitrile"
+        ],
+        "temperature": "reflux, then cooled to room temperature",
+        "time": "2 h reflux, then 2 days slow evaporation",
+        "ph": null,
+        "vessel_or_method": "aerobic reflux",
+        "workup_and_crystallization": "Cooled to room temperature, filtered, and crystallized by slow evaporation of acetonitrile over two days to give orange single crystals.",
+        "yield": "45% based on the metal content"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "The trimer is an SMM. χMT falls from 42.2 cm3 K mol−1 at room temperature to 22.9 cm3 K mol−1 at 2 K under 1 kOe because of crystal-field depopulation and intramolecular antiferromagnetic coupling. Zero-field AC susceptibility shows slow relaxation with QTM below about 5 K. Lines-model fits give antiferromagnetic Jlines12 = −0.07(1) cm−1 and Jlines23 = −0.27(1) cm−1, attributed mainly to dipolar coupling. μSQUID hysteresis is open at 30 mK and is strongly angle-dependent because the Dy anisotropy axes are non-collinear. CASSCF finds only Dy(1) strongly axial (gz ≈ 20, first excited Kramers doublet at 147 cm−1); Dy(2) and Dy(3) are rhombic with first excited states at 35 and 14 cm−1.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "42.2",
+            "unit": "cm3 K mol−1",
+            "conditions": "room temperature, HDC = 1 kOe; expected 42.5 cm3 K mol−1 for three non-interacting Dy(III)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": "22.9",
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, HDC = 1 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ''M maximum temperature",
+            "value": "ca. 8",
+            "unit": "K",
+            "conditions": "zero DC field, 1512 Hz"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χ''M maximum frequency",
+            "value": "ca. 121",
+            "unit": "Hz",
+            "conditions": "zero DC field, lowest temperature up to ca. 5 K (QTM regime)"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Debye α",
+            "value": "0.18(1)–0.19(1)",
+            "unit": null,
+            "conditions": "generalised Debye fit of zero-field AC data, lowest to highest temperature"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "61(2)",
+            "unit": "K",
+            "conditions": "zero-field AC; Orbach + Raman + QTM fit; τ0 = 2.2(7)×10−7 s, C = 1.5(7) s−1 K−n, n = 2.8(3), τQTM = 12.2(5) ms"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Ueff",
+            "value": "34(1)",
+            "unit": "K",
+            "conditions": "alternative fit replacing power-law Raman by one vibrational mode; also 24(1) cm−1; τ0 = 6(1)×10−6 s, C1 = 341(260) s−1, ω1 = 5(1) cm−1, τQTM = 1.21(2)×10−3 s"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Jlines12",
+            "value": "-0.07(1)",
+            "unit": "cm−1",
+            "conditions": "Lines-model fit of χMT using CASSCF crystal-field parameters; R = 2.9"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Jlines23",
+            "value": "-0.27(1)",
+            "unit": "cm−1",
+            "conditions": "Lines-model fit of χMT using CASSCF crystal-field parameters; R = 2.9"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "gz",
+            "value": "20",
+            "unit": null,
+            "conditions": "CASSCF/RASSI/SINGLE_ANISO; Dy(1) ground Kramers doublet, gx ≈ gy ≈ 0; first excited state 147 cm−1"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "first excited Kramers doublet",
+            "value": "35",
+            "unit": "cm−1",
+            "conditions": "CASSCF; Dy(2), rhombic ground state with gz < 20"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "first excited Kramers doublet",
+            "value": "14",
+            "unit": "cm−1",
+            "conditions": "CASSCF; Dy(3), rhombic ground state with gz < 20"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "μSQUID hysteresis",
+            "value": null,
+            "unit": null,
+            "conditions": "single crystal, 30 mK to 4.5 K, ±1 T; sweep rates 1–128 mT s−1 at 30 mK; angle dependence at 30 mK and 16 mT s−1; loops open at low T and faster sweeps"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Synthesis and crystallography; Fig. 1; CCDC-2354974"
+        },
+        {
+          "field": "formula",
+          "source": "external_metadata",
+          "location": "CCDC refcode LOYQOJ, C63 H44 Dy3 N9 O14, 2.5(C2 H3 N)"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Data availability, CCDC-2354974"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "supporting_information",
+          "location": "SI section 1.2"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "Synthesis and crystallography; Fig. 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "SI section 1.1 Synthetic method"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Abstract; Synthesis and crystallography (qualitative reflux only)"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Magnetic studies; Electronic structure calculations; Conclusions; Figs. 2–4"
+        },
+        {
+          "field": "properties",
+          "source": "supporting_information",
+          "location": "SI sections 1.3 and 1.4"
+        }
+      ]
+    }
+  ]
+}

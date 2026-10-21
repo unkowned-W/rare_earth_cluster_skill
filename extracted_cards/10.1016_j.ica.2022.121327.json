@@ -1,0 +1,284 @@
+{
+  "title": "Assembly of tetra-nuclear lanthanide compounds: Structures, magnetic refrigeration and slow relaxation of magnetization",
+  "doi": "10.1016/j.ica.2022.121327",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "[Gd4(L1)2(L2)2(μ2-OCH3)2(CH3OH)2]·CH3OH",
+      "formula": "C61H62Gd4N18O17",
+      "ccdc_numbers": [
+        "2012172"
+      ],
+      "ccdc_refcodes": [
+        "SETDAA"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetranuclear Ln4 cluster with two [Ln2O2] subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "0.03 mmol Gd(NO3)3·6H2O, 0.015 mmol HL1 and 0.015 mmol HL2 were successively added into a mixed solution of methanol (8 mL), acetonitrile (3 mL) and dichloromethane (2 mL). The resultant solution was heated in an oil bath at 80 °C for 48 h and then filtrated. The filtrate was left unperturbed to evaporate at room temperature; red block-shaped crystals suitable for X-ray determination were obtained after 5 days.",
+        "reagents": [
+          {
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "formula": "Gd(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.03 mmol"
+          },
+          {
+            "name": "2-[(2-(hydroxyimino)propanehydrazide)methyl]-8-hydroxyquinoline",
+            "formula": "HL1/H2L1",
+            "role": "ligand",
+            "amount": "0.015 mmol"
+          },
+          {
+            "name": "2-[(2-(N'-acetylhydrazino)propanehydrazide)methyl]-8-hydroxyquinoline",
+            "formula": "H3L2",
+            "role": "ligand",
+            "amount": "0.015 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol (8 mL)",
+          "acetonitrile (3 mL)",
+          "dichloromethane (2 mL)"
+        ],
+        "temperature": "80 °C (oil bath), then room-temperature evaporation",
+        "time": "48 h heating, then 5 days crystallization",
+        "ph": null,
+        "vessel_or_method": "oil-bath heating of mixed solution, filtration, slow evaporation",
+        "workup_and_crystallization": "filtrated after heating; filtrate evaporated unperturbed at room temperature to give red block-shaped crystals after 5 days",
+        "yield": "39% (based on Gd)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc susceptibility shows χMT = 31.13 cm3 K mol−1 at 300 K, decreasing to 13.37 cm3 K mol−1 at 2 K. Curie–Weiss fit gives C = 31.07 cm3 K mol−1 and θ = −5.67 K; PHI fit of a Gd1–Gd2 Hamiltonian gives g = 2.05 and J = −0.08, indicating weak antiferromagnetic coupling. Magnetization saturates at 28.05 Nβ (2.0 K, 80 kOe). Large magnetocaloric effect: −ΔSm max = 32.10 J kg−1 K−1 at 2.0 K and 70 kOe (theoretical 35.50 J kg−1 K−1).",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 31.13,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 13.37,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Curie constant C",
+            "value": 31.07,
+            "unit": "cm3 K mol−1",
+            "conditions": "Curie–Weiss fit of 1/χM vs T, 300–2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Weiss constant θ",
+            "value": -5.67,
+            "unit": "K",
+            "conditions": "Curie–Weiss fit, 300–2 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "g",
+            "value": 2.05,
+            "unit": null,
+            "conditions": "PHI fit of Ĥ = −J ŜGd1 ŜGd2"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "J",
+            "value": -0.08,
+            "unit": null,
+            "conditions": "PHI fit of Ĥ = −J ŜGd1 ŜGd2; units as reported"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "magnetization M",
+            "value": 28.05,
+            "unit": "Nβ",
+            "conditions": "T = 2.0 K, ΔH = 80 kOe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "−ΔSm",
+            "value": 32.1,
+            "unit": "J kg−1 K−1",
+            "conditions": "T = 2.0 K, 70 kOe (Maxwell relation from M vs H, 2.0–10.0 K, 0–80 kOe)"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Table 1; section 2.3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 2.2 X-ray crystallography"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row SETDAA / 2012172"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "section 3.1 Crystal structures"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.3 Synthesis of compounds 1 and 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3 Magnetic properties; Figs. 3–4"
+        }
+      ]
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "[Dy4(L1)2(L2)2(μ2-OCH3)2(CH3OH)2]·CH3OH",
+      "formula": "C61H62Dy4N18O17",
+      "ccdc_numbers": [
+        "2012176"
+      ],
+      "ccdc_refcodes": [
+        "SETDEE"
+      ],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "tetranuclear Ln4 cluster with two [Ln2O2] subunits"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Prepared analogously to 1: 0.03 mmol Dy(NO3)3·6H2O, 0.015 mmol HL1 and 0.015 mmol HL2 were successively added into methanol (8 mL), acetonitrile (3 mL) and dichloromethane (2 mL). The solution was heated in an oil bath at 80 °C for 48 h, filtrated, and the filtrate evaporated at room temperature to give red block-shaped crystals after 5 days.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal salt",
+            "amount": "0.03 mmol"
+          },
+          {
+            "name": "2-[(2-(hydroxyimino)propanehydrazide)methyl]-8-hydroxyquinoline",
+            "formula": "HL1/H2L1",
+            "role": "ligand",
+            "amount": "0.015 mmol"
+          },
+          {
+            "name": "2-[(2-(N'-acetylhydrazino)propanehydrazide)methyl]-8-hydroxyquinoline",
+            "formula": "H3L2",
+            "role": "ligand",
+            "amount": "0.015 mmol"
+          }
+        ],
+        "solvents": [
+          "methanol (8 mL)",
+          "acetonitrile (3 mL)",
+          "dichloromethane (2 mL)"
+        ],
+        "temperature": "80 °C (oil bath), then room-temperature evaporation",
+        "time": "48 h heating, then 5 days crystallization",
+        "ph": null,
+        "vessel_or_method": "oil-bath heating of mixed solution, filtration, slow evaporation",
+        "workup_and_crystallization": "filtrated after heating; filtrate evaporated unperturbed at room temperature to give red block-shaped crystals after 5 days",
+        "yield": "37% (based on Dy)"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "Dc χMT is 56.56 cm3 K mol−1 at 300 K and 42.63 cm3 K mol−1 at 2 K (1000 Oe). Zero-field ac susceptibility is frequency-dependent below 13 K without χ″ maxima above 2.0 K, indicating QTM. Under 1000 Oe dc field, χ′ and χ″ show peaks; Arrhenius fit of lnτ vs 1/Tp gives ΔE/kB = 28.1 K and τ0 = 2.24 × 10−9 s. MAGELLAN indicates non-collinear Dy anisotropy axes.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 56.56,
+            "unit": "cm3 K mol−1",
+            "conditions": "300 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 42.63,
+            "unit": "cm3 K mol−1",
+            "conditions": "2 K, 1000 Oe"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "effective energy barrier ΔE/kB",
+            "value": 28.1,
+            "unit": "K",
+            "conditions": "Arrhenius fit of χ″ peaks, 1000 Oe dc field, ac 111–2311 Hz, 2.0–20.0 K"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "pre-exponential factor τ0",
+            "value": "2.24e-9",
+            "unit": "s",
+            "conditions": "Arrhenius law τ = τ0 exp(ΔE/kB T), 1000 Oe dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "source": "main_text",
+          "location": "Abstract; Table 1; section 2.3"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "section 2.2 X-ray crystallography"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "source": "external_metadata",
+          "location": "CCDC row SETDEE / 2012176"
+        },
+        {
+          "field": "material_class",
+          "source": "main_text",
+          "location": "section 3.1 Crystal structures"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "section 2.3 Synthesis of compounds 1 and 2"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "section 3.3 Magnetic properties; Figs. 3, 5–6"
+        }
+      ]
+    }
+  ]
+}
