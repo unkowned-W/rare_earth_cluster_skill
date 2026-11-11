@@ -1,0 +1,212 @@
+{
+  "refcode": "ZIJXOI",
+  "ccdc_number": "1576282",
+  "dois": [
+    "10.1038/s41467-018-05659-7"
+  ],
+  "source_data_block": "ZIJXOI",
+  "source_cif": "CIFs\\1576282.cif",
+  "formula_moiety": "(C120 H74 Eu2 N24 O16 Ru2 4+)n,2(N1 O3 1-),2(C7 H4 F1 O2 1-),22(H2 O1)",
+  "crystal_system": "orthorhombic",
+  "space_group_hm": "I 2 2 2",
+  "international_tables_number": "23",
+  "unit_cell": {
+    "a": "37.086(7)",
+    "b": "41.378(8)",
+    "c": "41.990(8)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "64435.5",
+    "Z": "8"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11_2",
+        "O12_2",
+        "O13",
+        "O1_2",
+        "O2_2",
+        "O3",
+        "O3W",
+        "O4"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O13",
+        "O2W",
+        "O4W",
+        "O5_2",
+        "O6_2",
+        "O7_2",
+        "O8_2",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ru1",
+      "element": "Ru",
+      "occupancy": null,
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Ru2",
+      "element": "Ru",
+      "occupancy": null,
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Eu1_2",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12"
+      ]
+    },
+    {
+      "label": "Eu1_3",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2"
+      ]
+    },
+    {
+      "label": "Eu2_2",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Eu2_3",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O7",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O10",
+          "O13"
+        ],
+        "metal_metal_separation_angstrom": 4.04,
+        "bridge_geometry": [
+          {
+            "oxygen": "O10",
+            "angle_deg": 101.15,
+            "metal_oxygen_distances_angstrom": [
+              2.486,
+              2.74
+            ]
+          },
+          {
+            "oxygen": "O13",
+            "angle_deg": 122.7,
+            "metal_oxygen_distances_angstrom": [
+              2.234,
+              2.369
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2"
+      ],
+      [
+        "Eu1_2"
+      ],
+      [
+        "Eu1_3"
+      ],
+      [
+        "Eu2_2"
+      ],
+      [
+        "Eu2_3"
+      ],
+      [
+        "Ru1"
+      ],
+      [
+        "Ru2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ZIJXOI crystallizes in the orthorhombic crystal system with space group I 2 2 2. Reported CIF formula moiety: (C120 H74 Eu2 N24 O16 Ru2 4+)n,2(N1 O3 1-),2(C7 H4 F1 O2 1-),22(H2 O1). From the CIF bond table, Eu1 (Eu) has 9 O neighbors; Eu2 (Eu) has 9 O neighbors; Ru1 (Ru) has 0 O neighbors; Ru2 (Ru) has 0 O neighbors; Eu1_2 (Eu) has 2 O neighbors; Eu1_3 (Eu) has 2 O neighbors; Eu2_2 (Eu) has 2 O neighbors; Eu2_3 (Eu) has 2 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 7 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.040-4.040 Å (not direct metal-metal bonds). Computed M-O-M angles span 101.15-122.70°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Eu2(μ2-H2O)(H2O)3(L)2]·(NO3)2·(2-FBA)2·(H2O)22. Explicit grouped units in the article formula/name: 3 H2O (explicit grouped unit in article formula), 2 NO3 (explicit grouped unit in article formula), 22 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1038/s41467-018-05659-7",
+    "formula": "[Eu2(μ2-H2O)(H2O)3(L)2]·(NO3)2·(2-FBA)2·(H2O)22",
+    "compound_name": "Eu-Ru(phen) metal–organic framework",
+    "match_basis": "ccdc_number"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 2,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 3,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 22,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

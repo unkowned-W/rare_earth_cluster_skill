@@ -1,0 +1,141 @@
+{
+  "refcode": "NAHLEQ",
+  "ccdc_number": "1056903",
+  "dois": [
+    "10.1039/c5dt04742k"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1056903.cif",
+  "formula_moiety": "C40 H80 Dy3 I5 N2 O10 S4,2(C4 H8 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21",
+  "international_tables_number": "4",
+  "unit_cell": {
+    "a": "12.4180(14)",
+    "b": "43.476(5)",
+    "c": "12.7074(15)",
+    "alpha": "90",
+    "beta": "90.030(2)",
+    "gamma": "90",
+    "volume": "6860.53",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1A",
+      "element": "Dy",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O2A",
+        "O3A",
+        "O4A"
+      ]
+    },
+    {
+      "label": "Dy2A",
+      "element": "Dy",
+      "occupancy": null,
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O5A",
+        "O6A"
+      ]
+    },
+    {
+      "label": "Dy3A",
+      "element": "Dy",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O10A",
+        "O7A",
+        "O8A",
+        "O9A"
+      ]
+    },
+    {
+      "label": "Dy1B",
+      "element": "Dy",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1B",
+        "O2B",
+        "O3B",
+        "O4B"
+      ]
+    },
+    {
+      "label": "Dy2B",
+      "element": "Dy",
+      "occupancy": null,
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O5B",
+        "O6B"
+      ]
+    },
+    {
+      "label": "Dy3B",
+      "element": "Dy",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O10B",
+        "O7B",
+        "O8B",
+        "O9B"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Dy1A"
+      ],
+      [
+        "Dy1B"
+      ],
+      [
+        "Dy2A"
+      ],
+      [
+        "Dy2B"
+      ],
+      [
+        "Dy3A"
+      ],
+      [
+        "Dy3B"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "NAHLEQ crystallizes in the monoclinic crystal system with space group P 21. Reported CIF formula moiety: C40 H80 Dy3 I5 N2 O10 S4,2(C4 H8 O1). From the CIF bond table, Dy1A (Dy) has 4 O neighbors; Dy2A (Dy) has 2 O neighbors; Dy3A (Dy) has 4 O neighbors; Dy1B (Dy) has 4 O neighbors; Dy2B (Dy) has 2 O neighbors; Dy3B (Dy) has 4 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula Dy3I5(S2N2)(S2)(THF)10.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c5dt04742k",
+    "formula": "Dy3I5(S2N2)(S2)(THF)10",
+    "compound_name": "Dysprosium iodide disulfur-dinitride disulfide THF cluster",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 3,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

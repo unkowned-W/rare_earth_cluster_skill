@@ -1,317 +1,368 @@
 {
-  "title": "Polysulfide Coordination Clusters of the Lanthanides",
   "doi": "10.1002/anie.201707578",
   "list_of_rare_earth_compounds": [
     {
-      "compound_label": "1",
-      "compound_name": "trinuclear samarium tetrasulfide formamidinate cluster",
-      "formula": "[(DippForm)3Sm3S12] (DippForm = N,N'-bis(2,6-diisopropylphenyl)formamidinate); isolated as [(DippForm)3Sm3S12]·2(C7H8)·S8 (Method A) and [(DippForm)3Sm3S12]·3(C7H8) (Method B)",
-      "ccdc_numbers": [],
-      "ccdc_refcodes": [],
+      "ccdc_numbers": [
+        "1564483"
+      ],
+      "ccdc_refcodes": [
+        "PELJEY"
+      ],
+      "compound_label": "1, Method A (C6D6)",
+      "compound_name": "[(DippForm)3Sm3S12]·0.5(C6D6)·1.5S8",
+      "formula": "C75H105N6S12Sm3·0.5(C6D6)·1.5(S8)",
       "material_class": {
+        "dimensionality": "0D",
         "material_type": "cluster",
-        "nuclearity": 3,
         "metal_composition": "homometallic",
+        "nuclearity": 3,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Sm"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "0D",
-        "structural_family": "trinuclear formamidinate-supported cluster with three bridging S4^2- ligands"
+        "structural_family": "trinuclear lanthanide polysulfide coordination cluster"
       },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": false,
-        "si_used": true,
-        "procedure": "All manipulations were performed under exclusion of oxygen and moisture in Schlenk glassware or an argon glovebox. Method A ([(DippForm)3Sm3S12]·2(C7H8)·S8): toluene (25 mL) was condensed at -78 °C onto [(DippForm)2Sm(thf)2] (204 mg, 0.2 mmol) and S8 (25 mg, 0.1 mmol). The mixture was warmed to ambient temperature and stirred for 12 h, then heated at 60 °C for 12 h. The orange suspension was filtered into a 2-section ampoule and flame-sealed. Slow solvent evaporation at ambient temperature gave light-orange crystals containing two toluene and one S8 per cluster; crystals suitable for diffraction were also grown from C6D6 in an NMR tube. Yield 57 mg (72%, assuming [(DippForm)3Sm] forms in equal amount). Method B ([(DippForm)3Sm3S12]·3(C7H8)): toluene (50 mL) was condensed at -78 °C onto [(DippForm)2Sm(thf)2] (1020 mg, 1.0 mmol) and S8 (128 mg, 0.5 mmol). The mixture was warmed to ambient temperature, stirred for 6 h, then heated at 110 °C for 12 h. Toluene was removed in vacuum and the residue extracted with n-heptane (100 mL) at -20 °C. DippFormH crystallized from the solid residue. The n-heptane phase was filtered and evaporated to a yellow residue, which was dissolved in toluene; golden block crystals formed on concentration at ambient temperature. Yield 50 mg (13%, same assumption). Further concentration gave a mixture with [(DippForm)3Sm]. The main text states only that excess elemental sulfur reacts with [(DippForm)2Sm(thf)2] in toluene; quantities are in the SI.",
-        "reagents": [
+      "properties": {
+        "measurements": [
           {
-            "name": "[(DippForm)2Sm(thf)2]",
-            "formula": "[(DippForm)2Sm(thf)2]",
-            "role": "starting material",
-            "amount": "Method A: 204 mg, 0.2 mmol; Method B: 1020 mg, 1.0 mmol"
-          },
-          {
-            "name": "elemental sulfur",
-            "formula": "S8",
-            "role": "reactant",
-            "amount": "Method A: 25 mg, 0.1 mmol; Method B: 128 mg, 0.5 mmol"
-          },
-          {
-            "name": "toluene",
-            "formula": "C7H8",
-            "role": "solvent",
-            "amount": "Method A: 25 mL; Method B: 50 mL"
-          },
-          {
-            "name": "n-heptane",
-            "formula": "C7H16",
-            "role": "extraction solvent",
-            "amount": "Method B: 100 mL"
-          },
-          {
-            "name": "C6D6",
-            "formula": "C6D6",
-            "role": "crystallization solvent",
-            "amount": null
+            "conditions": "solid state; NIR (ATR)",
+            "name": "NIR absorption bands",
+            "property_type": "optical",
+            "unit": "cm−1",
+            "value": "9220 (w), 9161 (m), 9114 (s), 8921 (w), 8043 (w), 7988 (m), 7953 (s), 7765 (w), 7651 (w), 7222 (s), 7127 (vs), 6937 (w), 6643 (s), 6379 (s), 6200 (m)"
           }
         ],
+        "property_type": "optical",
+        "reported": true,
+        "summary": "A solid-state NIR spectrum was reported."
+      },
+      "source_locations": [
+        {
+          "field": "compound identity and formula",
+          "location": "Supporting Information, Table S1; Figure S9",
+          "source": "supporting_information"
+        },
+        {
+          "field": "structure_description",
+          "location": "Main text, structural discussion; Supporting Information, Figures S9–S10",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Supporting Information, Synthesis and Analysis, Method A; Table S1",
+          "source": "supporting_information"
+        },
+        {
+          "field": "properties",
+          "location": "Supporting Information, IR and NIR spectra, Figure S7",
+          "source": "supporting_information"
+        }
+      ],
+      "structure_description": "The discrete trinuclear Sm cluster contains three bridging S4²− units; each samarium is coordinated by one bidentate DippForm ligand and sulfur donors from the polysulfide units.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "ph": null,
+        "procedure": "Toluene was condensed onto [(DippForm)2Sm(thf)2] and S8 at −78 °C, warmed to ambient temperature, stirred for 12 h, then heated to 60 °C and stirred for a further 12 h. The mixture was filtered into a two-section ampoule and flame-sealed; crystals were grown by slow solvent evaporation. Additional suitable crystals for X-ray diffraction were obtained from an NMR tube using C6D6.",
+        "reagents": [
+          {
+            "amount": "204 mg, 0.2 mmol",
+            "formula": "C75H105N4Sm",
+            "name": "[(DippForm)2Sm(thf)2]",
+            "role": "starting material"
+          },
+          {
+            "amount": "25 mg, 0.1 mmol",
+            "formula": "S8",
+            "name": "elemental sulfur",
+            "role": "reagent"
+          }
+        ],
+        "si_used": true,
         "solvents": [
           "toluene",
-          "n-heptane",
           "C6D6"
         ],
-        "temperature": "Method A: -78 °C, then ambient, then 60 °C; Method B: -78 °C, then ambient, then 110 °C; crystallization at ambient temperature (heptane extraction at -20 °C)",
-        "time": "Method A: 12 h at ambient temperature plus 12 h at 60 °C; Method B: 6 h at ambient temperature plus 12 h at 110 °C",
-        "ph": null,
-        "vessel_or_method": "Schlenk/argon conditions; toluene condensed onto solids; Method A flame-sealed 2-section ampoule",
-        "workup_and_crystallization": "Method A: filtration and slow evaporation; additional crystals from C6D6. Method B: vacuum removal of toluene, n-heptane extraction at -20 °C, filtration, dissolution of the yellow residue in toluene, and concentration.",
-        "yield": "Method A: 57 mg (72%); Method B: 50 mg (13%); both calculated assuming equal formation of [(DippForm)3Sm]"
-      },
-      "properties": {
-        "reported": true,
-        "property_type": "optical",
-        "summary": "Solid-state NIR absorption of 1 shows the characteristic Sm3+ f-f pattern. No magnetic susceptibility or luminescence data are reported; paramagnetic NMR shifts are noted but are not magnetic measurements.",
-        "measurements": [
-          {
-            "property_type": "optical",
-            "name": "NIR absorption band",
-            "value": "9113",
-            "unit": "cm^-1",
-            "conditions": "solid state, ATR; main-text value for 1; SI Method A also lists 9216 (w), 9164 (m), 9113 (s) cm^-1"
-          },
-          {
-            "property_type": "optical",
-            "name": "NIR absorption band",
-            "value": "7953",
-            "unit": "cm^-1",
-            "conditions": "solid state, ATR; main text; SI Method A also lists 8038 (w), 7992 (m), 7953 (s) cm^-1"
-          },
-          {
-            "property_type": "optical",
-            "name": "NIR absorption band",
-            "value": "7126",
-            "unit": "cm^-1",
-            "conditions": "solid state, ATR; main text; SI Method A also lists 7227 (m) and 7126 (vs) cm^-1"
-          },
-          {
-            "property_type": "optical",
-            "name": "NIR absorption band",
-            "value": "6641",
-            "unit": "cm^-1",
-            "conditions": "solid state, ATR; main text (s in SI Method A)"
-          },
-          {
-            "property_type": "optical",
-            "name": "NIR absorption band",
-            "value": "6379",
-            "unit": "cm^-1",
-            "conditions": "solid state, ATR; main text (vs in SI Method A); SI also reports 6936 (w) and 6197 (m) cm^-1 for Method A and a closely similar set for Method B"
-          }
-        ]
-      },
-      "source_locations": [
-        {
-          "field": "formula",
-          "source": "main_text",
-          "location": "Abstract and Scheme 1"
-        },
-        {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "Figure 1 discussion"
-        },
-        {
-          "field": "synthesis",
-          "source": "supporting_information",
-          "location": "Synthesis and Analysis, compound 1 Methods A and B"
-        },
-        {
-          "field": "properties",
-          "source": "main_text",
-          "location": "NIR paragraph citing Figures S6 and S7"
-        },
-        {
-          "field": "properties",
-          "source": "supporting_information",
-          "location": "NIR (ATR) data and Figures S6–S7"
-        }
-      ]
+        "temperature": "−78 °C; warmed to ambient temperature; then 60 °C",
+        "time": "12 h at ambient temperature, then 12 h at 60 °C",
+        "vessel_or_method": "Flame-sealed two-section ampoule; air- and moisture-excluding Schlenk/glovebox conditions",
+        "workup_and_crystallization": "Filtered into a two-section ampoule and flame-sealed; crystals grown by slow evaporation. C6D6-grown crystals also reported.",
+        "yield": "57 mg (72%; estimated assuming [(DippForm)3Sm] forms in equal amounts)"
+      }
     },
     {
-      "compound_label": "2",
-      "compound_name": "trinuclear ytterbium tetrasulfide formamidinate cluster",
-      "formula": "[(DippForm)3Yb3S12]·2(C7H8)·S8",
-      "ccdc_numbers": [],
-      "ccdc_refcodes": [],
+      "ccdc_numbers": [
+        "1564484"
+      ],
+      "ccdc_refcodes": [
+        "PELJIC"
+      ],
+      "compound_label": "1, Method B",
+      "compound_name": "[(DippForm)3Sm3S12]",
+      "formula": "C75H105N6S12Sm3",
       "material_class": {
+        "dimensionality": "0D",
         "material_type": "cluster",
-        "nuclearity": 3,
         "metal_composition": "homometallic",
-        "rare_earth_elements": [
-          "Yb"
-        ],
+        "nuclearity": 3,
         "other_metal_elements": [],
-        "dimensionality": "0D",
-        "structural_family": "trinuclear formamidinate-supported cluster with three bridging S4^2- ligands"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": false,
-        "si_used": true,
-        "procedure": "The SI states that 2 was prepared in the same way as [(DippForm)3Sm3S12]·2(C7H8)·S8 (Method A for 1): toluene condensed at -78 °C onto the divalent formamidinate precursor and S8, warm to ambient temperature (12 h), then 60 °C (12 h), filtration into a flame-sealed ampoule, and crystallization by slow evaporation. Deep-red crystals suitable for X-ray diffraction were obtained. The SI does not restate a separate mass or molar amount for [(DippForm)2Yb(thf)2] or S8. Yield 57 mg (35%). The main text describes reaction of [(DippForm)2Yb(thf)2] with excess elemental sulfur in toluene but gives no quantities.",
-        "reagents": [
-          {
-            "name": "[(DippForm)2Yb(thf)2]",
-            "formula": "[(DippForm)2Yb(thf)2]",
-            "role": "starting material",
-            "amount": null
-          },
-          {
-            "name": "elemental sulfur",
-            "formula": "S8",
-            "role": "reactant",
-            "amount": null
-          },
-          {
-            "name": "toluene",
-            "formula": "C7H8",
-            "role": "solvent",
-            "amount": "same procedure as Method A of 1; volume not restated for 2"
-          }
+        "rare_earth_elements": [
+          "Sm"
         ],
-        "solvents": [
-          "toluene"
-        ],
-        "temperature": "-78 °C, then ambient temperature, then 60 °C, by the Method A procedure of 1",
-        "time": "12 h at ambient temperature plus 12 h at 60 °C, by the Method A procedure of 1",
-        "ph": null,
-        "vessel_or_method": "Schlenk/argon conditions; same method as compound 1 Method A",
-        "workup_and_crystallization": "Deep-red single crystals obtained as for the Sm Method A solvate.",
-        "yield": "57 mg (35%)"
+        "structural_family": "trinuclear lanthanide polysulfide coordination cluster"
       },
       "properties": {
-        "reported": true,
-        "property_type": "optical",
-        "summary": "A solid-state NIR spectrum of 2 shows one very strong band at 10031 cm^-1. No magnetic data are reported.",
         "measurements": [
           {
+            "conditions": "solid state; NIR (ATR)",
+            "name": "NIR absorption bands",
             "property_type": "optical",
-            "name": "NIR absorption band",
-            "value": "10031",
-            "unit": "cm^-1",
-            "conditions": "solid state, ATR; very strong; Figure S8"
+            "unit": "cm−1",
+            "value": "9220 (w), 9161 (w), 9114 (s), 8921 (w), 8043 (w), 7988 (m), 7953 (s), 7765 (w), 7651 (w), 7222 (s), 7127 (vs), 6937 (w), 6643 (s), 6379 (s), 6200 (m)"
           }
-        ]
+        ],
+        "property_type": "optical",
+        "reported": true,
+        "summary": "A solid-state NIR spectrum was reported for the Method B product."
       },
       "source_locations": [
         {
-          "field": "formula",
-          "source": "main_text",
-          "location": "Abstract and Scheme 1"
+          "field": "compound identity and formula",
+          "location": "Supporting Information, Table S1; Figure S11",
+          "source": "supporting_information"
         },
         {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "structural discussion and Figure S12 caption"
+          "field": "structure_description",
+          "location": "Main text, structural discussion; Supporting Information, Figures S11 and S14",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "supporting_information",
-          "location": "Synthesis of [(DippForm)3Yb3S12]·2(C7H8)·S8 (2)"
+          "location": "Supporting Information, Synthesis and Analysis, Method B; Table S1",
+          "source": "supporting_information"
         },
         {
           "field": "properties",
-          "source": "supporting_information",
-          "location": "NIR (ATR) and Figure S8"
+          "location": "Supporting Information, IR and NIR spectra, Figure S7",
+          "source": "supporting_information"
         }
-      ]
-    },
-    {
-      "compound_label": "[(DippForm)2YbCl(thf)]",
-      "compound_name": "bis(formamidinate) ytterbium chloride THF complex",
-      "formula": "[(DippForm)2YbCl(thf)]",
-      "ccdc_numbers": [],
-      "ccdc_refcodes": [],
-      "material_class": {
-        "material_type": "complex",
-        "nuclearity": 1,
-        "metal_composition": "homometallic",
-        "rare_earth_elements": [
-          "Yb"
-        ],
-        "other_metal_elements": [],
-        "dimensionality": "0D",
-        "structural_family": "mononuclear formamidinate ytterbium chloride THF adduct"
-      },
+      ],
+      "structure_description": "The discrete trinuclear Sm cluster contains three bridging S4²− units; each samarium is coordinated by one bidentate DippForm ligand and sulfur donors from the polysulfide units.",
       "synthesis": {
         "main_text_has_explicit_synthesis": false,
-        "si_used": true,
-        "procedure": "An independent attempt to make [(DippForm)3Yb] from YbCl3 and in situ (DippForm)K instead gave the known complex [(DippForm)2YbCl(thf)]. THF (30 mL) was condensed at -78 °C onto DippFormH (364 mg, 1 mmol) and KH (40 mg, 1 mmol). The mixture was warmed to ambient temperature and refluxed for 24 h to a light-yellow solution. A suspension of YbCl3 (92 mg, 0.33 mmol) in THF (30 mL) was added and the mixture was refluxed for 48 h. Volatiles were removed in vacuum and the residue extracted with toluene. Yellow crystals suitable for X-ray diffraction grew from hot concentrated toluene. Yield 150 mg (45%). Composition matched published data.",
+        "ph": null,
+        "procedure": "Toluene was condensed onto [(DippForm)2Sm(thf)2] and S8 at −78 °C, warmed to ambient temperature, stirred for 6 h, then heated to 110 °C and stirred for a further 12 h. Toluene was removed under vacuum; the residue was extracted with n-heptane at −20 °C. After filtration and solvent removal, the residue was dissolved in toluene and crystallized by careful concentration at ambient temperature.",
         "reagents": [
           {
-            "name": "DippFormH",
-            "formula": "DippFormH",
-            "role": "ligand precursor",
-            "amount": "364 mg, 1 mmol"
+            "amount": "1020 mg, 1.0 mmol",
+            "formula": "C75H105N4Sm",
+            "name": "[(DippForm)2Sm(thf)2]",
+            "role": "starting material"
           },
           {
-            "name": "potassium hydride",
-            "formula": "KH",
-            "role": "base",
-            "amount": "40 mg, 1 mmol"
+            "amount": "128 mg, 0.5 mmol",
+            "formula": "S8",
+            "name": "elemental sulfur",
+            "role": "reagent"
           },
           {
-            "name": "ytterbium(III) chloride",
-            "formula": "YbCl3",
-            "role": "metal source",
-            "amount": "92 mg, 0.33 mmol"
-          },
-          {
-            "name": "tetrahydrofuran",
-            "formula": "THF",
-            "role": "solvent",
-            "amount": "30 mL plus 30 mL"
-          },
-          {
+            "amount": "50 mL",
+            "formula": null,
             "name": "toluene",
-            "formula": "C7H8",
-            "role": "extraction and crystallization solvent",
-            "amount": null
+            "role": "reaction and crystallization solvent"
+          },
+          {
+            "amount": "100 mL",
+            "formula": "C7H16",
+            "name": "n-heptane",
+            "role": "extraction solvent"
           }
         ],
+        "si_used": true,
         "solvents": [
-          "THF",
-          "toluene"
+          "toluene",
+          "n-heptane"
         ],
-        "temperature": "-78 °C, then ambient temperature, then reflux",
-        "time": "24 h reflux for ligand deprotonation, then 48 h reflux after YbCl3 addition",
-        "ph": null,
-        "vessel_or_method": "Schlenk/argon conditions; THF condensed onto solids; reflux",
-        "workup_and_crystallization": "Removal of volatiles, toluene extraction, and crystallization from hot concentrated toluene.",
-        "yield": "150 mg (45%)"
+        "temperature": "−78 °C; warmed to ambient temperature; then 110 °C; extraction at −20 °C",
+        "time": "6 h at ambient temperature, then 12 h at 110 °C",
+        "vessel_or_method": "Air- and moisture-excluding Schlenk/glovebox conditions",
+        "workup_and_crystallization": "Toluene removed under vacuum; extracted with n-heptane at −20 °C, filtered, solvent removed, then dissolved in toluene and crystallized by careful concentration at ambient temperature.",
+        "yield": "50 mg (13%; estimated assuming [(DippForm)3Sm] forms in equal amounts)"
+      }
+    },
+    {
+      "ccdc_numbers": [
+        "1564485"
+      ],
+      "ccdc_refcodes": [
+        "PELJOI"
+      ],
+      "compound_label": "1, Method A (toluene)",
+      "compound_name": "[(DippForm)3Sm3S12]·2(C7H8)·S8",
+      "formula": "C75H105N6S12Sm3·S8·2(C7H8)",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "homometallic",
+        "nuclearity": 3,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Sm"
+        ],
+        "structural_family": "trinuclear lanthanide polysulfide coordination cluster"
       },
       "properties": {
-        "reported": false,
-        "property_type": "none",
-        "summary": null,
-        "measurements": []
+        "measurements": [
+          {
+            "conditions": "solid state; NIR (ATR)",
+            "name": "NIR absorption bands",
+            "property_type": "optical",
+            "unit": "cm−1",
+            "value": "9216 (w), 9164 (m), 9113 (s), 8038 (w), 7992 (m), 7953 (s), 7227 (m), 7126 (vs), 6936 (w), 6641 (vs), 6379 (vs), 6197 (m)"
+          }
+        ],
+        "property_type": "optical",
+        "reported": true,
+        "summary": "A solid-state NIR spectrum was reported."
       },
       "source_locations": [
         {
-          "field": "formula",
-          "source": "main_text",
-          "location": "mechanistic discussion of compound 2"
+          "field": "compound identity and formula",
+          "location": "Supporting Information, Table S1; Figure S14",
+          "source": "supporting_information"
+        },
+        {
+          "field": "structure_description",
+          "location": "Main text, structural discussion; Supporting Information, Figure S14",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "supporting_information",
-          "location": "Synthesis of [(DippForm)2YbCl(thf)]"
+          "location": "Supporting Information, Synthesis and Analysis, Method A; Table S1",
+          "source": "supporting_information"
         },
         {
-          "field": "material_class",
-          "source": "supporting_information",
-          "location": "Figure S15"
+          "field": "properties",
+          "location": "Supporting Information, IR and NIR spectra, Figure S6",
+          "source": "supporting_information"
         }
-      ]
+      ],
+      "structure_description": "The discrete trinuclear Sm cluster contains three bridging S4²− units; each samarium is coordinated by one bidentate DippForm ligand and sulfur donors from the polysulfide units.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "ph": null,
+        "procedure": "Prepared by Method A: toluene was condensed onto [(DippForm)2Sm(thf)2] and S8 at −78 °C, warmed to ambient temperature, stirred for 12 h, then heated to 60 °C and stirred for a further 12 h. The mixture was filtered into a two-section ampoule and flame-sealed; crystals were grown by slow solvent evaporation.",
+        "reagents": [
+          {
+            "amount": "204 mg, 0.2 mmol",
+            "formula": "C75H105N4Sm",
+            "name": "[(DippForm)2Sm(thf)2]",
+            "role": "starting material"
+          },
+          {
+            "amount": "25 mg, 0.1 mmol",
+            "formula": "S8",
+            "name": "elemental sulfur",
+            "role": "reagent"
+          }
+        ],
+        "si_used": true,
+        "solvents": [
+          "toluene"
+        ],
+        "temperature": "−78 °C; warmed to ambient temperature; then 60 °C",
+        "time": "12 h at ambient temperature, then 12 h at 60 °C",
+        "vessel_or_method": "Flame-sealed two-section ampoule; air- and moisture-excluding Schlenk/glovebox conditions",
+        "workup_and_crystallization": "Filtered into a two-section ampoule and flame-sealed; crystals grown by slow solvent evaporation.",
+        "yield": "57 mg (72%; estimated assuming [(DippForm)3Sm] forms in equal amounts)"
+      }
+    },
+    {
+      "ccdc_numbers": [
+        "1564486"
+      ],
+      "ccdc_refcodes": [
+        "PELJUO"
+      ],
+      "compound_label": "2",
+      "compound_name": "[(DippForm)3Yb3S12]·2(C7H8)·S8",
+      "formula": "C75H105N6S12Yb3·S8·2(C7H8)",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "homometallic",
+        "nuclearity": 3,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "structural_family": "trinuclear lanthanide polysulfide coordination cluster"
+      },
+      "properties": {
+        "measurements": [
+          {
+            "conditions": "solid state; NIR (ATR)",
+            "name": "NIR absorption band",
+            "property_type": "optical",
+            "unit": "cm−1",
+            "value": "10031 (vs)"
+          }
+        ],
+        "property_type": "optical",
+        "reported": true,
+        "summary": "A solid-state NIR spectrum was reported."
+      },
+      "source_locations": [
+        {
+          "field": "compound identity and formula",
+          "location": "Supporting Information, Table S1; Figure S12",
+          "source": "supporting_information"
+        },
+        {
+          "field": "structure_description",
+          "location": "Main text, structural discussion; Supporting Information, Figure S12",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Supporting Information, Synthesis and Analysis, synthesis of 2; Table S1",
+          "source": "supporting_information"
+        },
+        {
+          "field": "properties",
+          "location": "Supporting Information, IR and NIR spectra, Figure S8",
+          "source": "supporting_information"
+        }
+      ],
+      "structure_description": "The discrete trinuclear Yb cluster contains three bridging S4²− units; each ytterbium is coordinated by one bidentate DippForm ligand and sulfur donors from the polysulfide units.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "ph": null,
+        "procedure": "Prepared by the same method as the Sm Method A synthesis: toluene was condensed at −78 °C onto [(DippForm)2Yb(thf)2] and S8, then the mixture was warmed, stirred, heated, filtered into a flame-sealed ampoule, and crystallized by slow evaporation.",
+        "reagents": [
+          {
+            "amount": null,
+            "formula": null,
+            "name": "[(DippForm)2Yb(thf)2]",
+            "role": "starting material (same quantities and conditions as the referenced Sm method, not independently restated)"
+          },
+          {
+            "amount": null,
+            "formula": "S8",
+            "name": "elemental sulfur",
+            "role": "reagent (same quantities and conditions as the referenced Sm method, not independently restated)"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "toluene"
+        ],
+        "temperature": null,
+        "time": null,
+        "vessel_or_method": "Same method as the Sm Method A synthesis; flame-sealed two-section ampoule",
+        "workup_and_crystallization": "Crystals obtained by slow evaporation of solvent.",
+        "yield": "57 mg (35%)"
+      }
     }
-  ]
+  ],
+  "title": "Polysulfide Coordination Clusters of the Lanthanides"
 }

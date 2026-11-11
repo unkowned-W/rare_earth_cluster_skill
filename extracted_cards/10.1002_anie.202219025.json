@@ -28,19 +28,56 @@
       },
       "synthesis": {
         "main_text_has_explicit_synthesis": false,
-        "si_used": false,
+        "si_used": true,
         "procedure": "The main article describes solvothermal assembly in a mixture of 2-methylpyridine and water but refers to the Supporting Information for preparation details.",
-        "reagents": [],
+        "reagents": [
+          {
+            "amount": "236 mg, 0.67 mmol",
+            "formula": "PrCl3·6H2O",
+            "name": "praseodymium(III) chloride hexahydrate",
+            "role": "Pr source"
+          },
+          {
+            "amount": "456 mg, 2.00 mmol",
+            "formula": "SbCl3",
+            "name": "antimony trichloride",
+            "role": "Sb source"
+          },
+          {
+            "amount": "159 mg, 0.33 mmol",
+            "formula": "Na4Fe(CN)6·10H2O",
+            "name": "sodium hexacyanoferrate(II) decahydrate",
+            "role": "Fe(CN)6 source"
+          },
+          {
+            "amount": "193 mg, 1.00 mmol",
+            "formula": null,
+            "name": "2,2′-bipyridine",
+            "role": "ligand"
+          },
+          {
+            "amount": "1.5 mL",
+            "formula": "H2O",
+            "name": "water",
+            "role": "solvent"
+          },
+          {
+            "amount": "6 mL",
+            "formula": null,
+            "name": "2-methylpyridine",
+            "role": "solvent"
+          }
+        ],
         "solvents": [
           "2-methylpyridine",
           "water"
         ],
-        "temperature": null,
-        "time": null,
+        "temperature": "423 K",
+        "time": "3.5 days",
         "ph": null,
         "vessel_or_method": "Solvothermal reaction",
-        "workup_and_crystallization": null,
-        "yield": null
+        "workup_and_crystallization": "Cooled to room temperature at 0.1 K/min; dark-red octahedral crystals were obtained.",
+        "yield": "62 mg; 10.1% based on PrCl3·6H2O"
       },
       "properties": {
         "reported": true,
@@ -88,6 +125,11 @@
           "field": "properties",
           "source": "main_text",
           "location": "Properties discussion; Figures S17 and S16 cited"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Supporting Information, §1, “Synthesis of 1”"
         }
       ],
       "structure_description": "A discrete cubic supercluster assembled from eight {Pr4Sb12} oxohalide units coexists with a discrete {Pr4Sb12} cluster in a 1:1 ratio."
@@ -118,19 +160,62 @@
       },
       "synthesis": {
         "main_text_has_explicit_synthesis": false,
-        "si_used": false,
+        "si_used": true,
         "procedure": "The main article describes solvothermal assembly in a mixture of 2-methylpyridine and water but refers to the Supporting Information for preparation details.",
-        "reagents": [],
+        "reagents": [
+          {
+            "amount": "177 mg, 0.50 mmol",
+            "formula": "PrCl3·6H2O",
+            "name": "praseodymium(III) chloride hexahydrate",
+            "role": "Pr source"
+          },
+          {
+            "amount": "342 mg, 1.50 mmol",
+            "formula": "SbCl3",
+            "name": "antimony trichloride",
+            "role": "Sb source"
+          },
+          {
+            "amount": "87 mg, 0.18 mmol",
+            "formula": "Na4Fe(CN)6·10H2O",
+            "name": "sodium hexacyanoferrate(II) decahydrate",
+            "role": "Fe(CN)6 source"
+          },
+          {
+            "amount": "10 mg, 0.06 mmol",
+            "formula": null,
+            "name": "terephthalic acid (1,4-bdc)",
+            "role": "additive"
+          },
+          {
+            "amount": "58 mg, 0.30 mmol",
+            "formula": null,
+            "name": "2,2′-bipyridine",
+            "role": "ligand"
+          },
+          {
+            "amount": "1.5 mL",
+            "formula": "H2O",
+            "name": "water",
+            "role": "solvent"
+          },
+          {
+            "amount": "6 mL",
+            "formula": null,
+            "name": "2-methylpyridine",
+            "role": "solvent"
+          }
+        ],
         "solvents": [
           "2-methylpyridine",
           "water"
         ],
-        "temperature": null,
-        "time": null,
+        "temperature": "423 K",
+        "time": "3 days",
         "ph": null,
         "vessel_or_method": "Solvothermal reaction",
-        "workup_and_crystallization": null,
-        "yield": null
+        "workup_and_crystallization": "Cooled to room temperature at 0.1 K/min; red block-like crystals were obtained.",
+        "yield": "35 mg; 8.3% based on PrCl3·6H2O"
       },
       "properties": {
         "reported": true,
@@ -166,6 +251,11 @@
           "field": "properties",
           "source": "main_text",
           "location": "Properties discussion; Figure S16 cited"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Supporting Information, §1, “Synthesis of 2”"
         }
       ],
       "structure_description": "All {Pr4Sb12} secondary building units aggregate into discrete cubic superclusters; unlike compound 1, no separate {Pr4Sb12} clusters coexist in the crystal."
@@ -173,11 +263,13 @@
     {
       "compound_label": "3",
       "compound_name": "Pr–Sb oxohalide superstructure with discrete cubic superclusters and two-dimensional layers",
-      "formula": null,
+      "formula": "Fe(CN)6]6}{(H2O)3@[Pr32Sb96O144Cl44-(OH)22(H2O)32[Fe(CN)6]6}·22(2-Mepy)·60(H2O),",
       "ccdc_numbers": [
         "2224464"
       ],
-      "ccdc_refcodes": [],
+      "ccdc_refcodes": [
+        "YIJGUX"
+      ],
       "material_class": {
         "material_type": "cluster",
         "nuclearity": 128,
@@ -194,19 +286,62 @@
       },
       "synthesis": {
         "main_text_has_explicit_synthesis": false,
-        "si_used": false,
+        "si_used": true,
         "procedure": "The main article describes solvothermal assembly in a mixture of 2-methylpyridine and water but refers to the Supporting Information for preparation details.",
-        "reagents": [],
+        "reagents": [
+          {
+            "amount": "204 mg, 0.50 mmol",
+            "formula": "Pr(Ac)3·5H2O",
+            "name": "praseodymium(III) acetate pentahydrate",
+            "role": "Pr source"
+          },
+          {
+            "amount": "393 mg, 1.80 mmol",
+            "formula": "SbCl3",
+            "name": "antimony trichloride",
+            "role": "Sb source"
+          },
+          {
+            "amount": "87 mg, 0.18 mmol",
+            "formula": "Na4Fe(CN)6·10H2O",
+            "name": "sodium hexacyanoferrate(II) decahydrate",
+            "role": "Fe(CN)6 source"
+          },
+          {
+            "amount": "6 mg, 0.06 mmol",
+            "formula": null,
+            "name": "malonic acid",
+            "role": "additive"
+          },
+          {
+            "amount": "58 mg, 0.30 mmol",
+            "formula": null,
+            "name": "2,2′-bipyridine",
+            "role": "ligand"
+          },
+          {
+            "amount": "1.5 mL",
+            "formula": "H2O",
+            "name": "water",
+            "role": "solvent"
+          },
+          {
+            "amount": "6 mL",
+            "formula": null,
+            "name": "2-methylpyridine",
+            "role": "solvent"
+          }
+        ],
         "solvents": [
           "2-methylpyridine",
           "water"
         ],
-        "temperature": null,
-        "time": null,
+        "temperature": "150 °C",
+        "time": "3 days",
         "ph": null,
         "vessel_or_method": "Solvothermal reaction",
-        "workup_and_crystallization": null,
-        "yield": null
+        "workup_and_crystallization": "Cooled to room temperature; red plate-like crystals were obtained.",
+        "yield": "41 mg; 5.2% based on Pr"
       },
       "properties": {
         "reported": true,
@@ -237,6 +372,11 @@
           "field": "properties",
           "source": "main_text",
           "location": "Properties discussion; Figure S16 cited"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Supporting Information, §1, “Synthesis of 3”"
         }
       ],
       "structure_description": "One set of cubic superclusters interconnects through Pr–Cl–Pr and Sb–O–Cl connections into uneven two-dimensional layers, while another set remains discrete. The layers and arrays of discrete cubes alternate along the crystallographic c-axis."
@@ -248,7 +388,9 @@
       "ccdc_numbers": [
         "2224465"
       ],
-      "ccdc_refcodes": [],
+      "ccdc_refcodes": [
+        "YIJHAE"
+      ],
       "material_class": {
         "material_type": "cluster",
         "nuclearity": 128,
@@ -265,19 +407,50 @@
       },
       "synthesis": {
         "main_text_has_explicit_synthesis": false,
-        "si_used": false,
+        "si_used": true,
         "procedure": "The main article describes solvothermal assembly in a mixture of 2-methylpyridine and water but refers to the Supporting Information for preparation details.",
-        "reagents": [],
+        "reagents": [
+          {
+            "amount": "204 mg, 0.50 mmol",
+            "formula": "Pr(Ac)3·5H2O",
+            "name": "praseodymium(III) acetate pentahydrate",
+            "role": "Pr source"
+          },
+          {
+            "amount": "399 mg, 1.75 mmol",
+            "formula": "SbCl3",
+            "name": "antimony trichloride",
+            "role": "Sb source"
+          },
+          {
+            "amount": "87 mg, 0.18 mmol",
+            "formula": "Na4Fe(CN)6·10H2O",
+            "name": "sodium hexacyanoferrate(II) decahydrate",
+            "role": "Fe(CN)6 source"
+          },
+          {
+            "amount": "1.5 mL",
+            "formula": "H2O",
+            "name": "water",
+            "role": "solvent"
+          },
+          {
+            "amount": "6 mL",
+            "formula": null,
+            "name": "2-methylpyridine",
+            "role": "solvent"
+          }
+        ],
         "solvents": [
           "2-methylpyridine",
           "water"
         ],
-        "temperature": null,
-        "time": null,
+        "temperature": "150 °C",
+        "time": "4 days and 6 hours",
         "ph": null,
         "vessel_or_method": "Solvothermal reaction",
-        "workup_and_crystallization": null,
-        "yield": null
+        "workup_and_crystallization": "Cooled to room temperature; red square plate-like crystals were obtained.",
+        "yield": "14 mg; 3.4% based on Pr"
       },
       "properties": {
         "reported": false,
@@ -295,6 +468,11 @@
           "field": "ccdc_numbers",
           "source": "main_text",
           "location": "Reference [15]"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Supporting Information, §1, “Synthesis of 4” (the Pr reagent name is garbled in the extracted line; identified from the SI starting-material list and matching amount in “Synthesis of 3”)"
         }
       ],
       "structure_description": "Eight {Pr4Sb12} units form a rhombic cubic supercluster with two hexacyanoferrate and four acetate linkers. Each supercluster connects to eight neighboring superclusters through Pr–O–Pr connections, forming a three-dimensional open framework."

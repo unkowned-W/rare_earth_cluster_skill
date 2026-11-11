@@ -1,0 +1,74 @@
+{
+  "refcode": "SOFWAO",
+  "ccdc_number": "1900931",
+  "dois": [
+    "10.1039/c9dt01162e"
+  ],
+  "source_data_block": "SOFWAO",
+  "source_cif": "CIFs\\1900931.cif",
+  "formula_moiety": "C48 H73 I2 N4 O2 Yb1",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "10.0868(7)",
+    "b": "27.7319(18)",
+    "c": "17.9352(12)",
+    "alpha": "90",
+    "beta": "90.1840(10)",
+    "gamma": "90",
+    "volume": "5016.92",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "occupancy": null,
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Yb1"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "SOFWAO crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C48 H73 I2 N4 O2 Yb1. From the CIF bond table, Yb1 (Yb) has 2 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C48H73I2N4O2Yb. Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c9dt01162e",
+    "formula": "C48H73I2N4O2Yb",
+    "compound_name": "Yb(III) diiodo amidinate–amidine bis(THF) complex",
+    "match_basis": "ccdc_number"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 1,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

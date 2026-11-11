@@ -24,6 +24,7 @@
     {
       "label": "Dy1",
       "element": "Dy",
+      "occupancy": null,
       "oxygen_coordination_number": 8,
       "oxygen_neighbor_labels": [
         "O11_2",
@@ -39,6 +40,7 @@
     {
       "label": "Dy1A",
       "element": "Dy",
+      "occupancy": null,
       "oxygen_coordination_number": 6,
       "oxygen_neighbor_labels": [
         "O11_2",
@@ -52,6 +54,7 @@
     {
       "label": "Dy2",
       "element": "Dy",
+      "occupancy": null,
       "oxygen_coordination_number": 8,
       "oxygen_neighbor_labels": [
         "O1",
@@ -67,6 +70,7 @@
     {
       "label": "Dy2A",
       "element": "Dy",
+      "occupancy": null,
       "oxygen_coordination_number": 7,
       "oxygen_neighbor_labels": [
         "O1",
@@ -81,6 +85,7 @@
     {
       "label": "Dy1_2",
       "element": "Dy",
+      "occupancy": null,
       "oxygen_coordination_number": 3,
       "oxygen_neighbor_labels": [
         "O11",
@@ -91,6 +96,7 @@
     {
       "label": "Dy1A_2",
       "element": "Dy",
+      "occupancy": null,
       "oxygen_coordination_number": 3,
       "oxygen_neighbor_labels": [
         "O11",
@@ -303,17 +309,12 @@
     "omitted_nonidentity_symmetry_bonds": 0,
     "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
   },
-  "description": "VAVDII crystallizes in the orthorhombic crystal system with space group P 21 21 21. Reported CIF formula moiety: (C20 Dy2 F30 O20)n. From the CIF bond table, Dy1 (Dy) has 8 O neighbors; Dy1A (Dy) has 6 O neighbors; Dy2 (Dy) has 8 O neighbors; Dy2A (Dy) has 7 O neighbors; Dy1_2 (Dy) has 3 O neighbors; Dy1A_2 (Dy) has 3 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 0.809-0.880 Å (not direct metal-metal bonds). Computed M-O-M angles span 12.95-22.08°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C14H3F21Lu2O15.",
-  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
-  "article_compound": {
-    "doi": "10.1016/j.poly.2017.04.032",
-    "formula": "C14H3F21Lu2O15",
-    "compound_name": "[Lu(μ-TFA)4Lu(μ-TFA)3·H3O+]n",
-    "match_basis": "ccdc_number"
-  },
-  "formula_annotations": {
-    "ligand_counts": [],
-    "explicit_core_charges": [],
-    "explicit_oxidation_states": []
+  "description": "VAVDII crystallizes in the orthorhombic crystal system with space group P 21 21 21. Reported CIF formula moiety: (C20 Dy2 F30 O20)n. From the CIF bond table, Dy1 (Dy) has 8 O neighbors; Dy1A (Dy) has 6 O neighbors; Dy2 (Dy) has 8 O neighbors; Dy2A (Dy) has 7 O neighbors; Dy1_2 (Dy) has 3 O neighbors; Dy1A_2 (Dy) has 3 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 3 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 0.809-0.880 Å (not direct metal-metal bonds). Computed M-O-M angles span 12.95-22.08°; individual values and O labels are in metal_framework.links.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review.",
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": null,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
   }
 }

@@ -1,0 +1,152 @@
+{
+  "title": "Lanthanide-Titanium Oxo Clusters as the Luminescence Sensor for Nitrobenzene Detection",
+  "doi": "10.1021/acs.inorgchem.0c01494",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "Eu2Ti4-phentbza",
+      "formula": "Eu2Ti4(μ2-O)2(μ3-O)4(phen)2(tbza)10·4CH3CN",
+      "ccdc_numbers": [
+        "2000300"
+      ],
+      "ccdc_refcodes": [],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 6,
+        "metal_composition": "heterometallic",
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "other_metal_elements": [
+          "Ti"
+        ],
+        "dimensionality": "0D",
+        "structural_family": "Lanthanide–titanium oxo cluster"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "si_used": false,
+        "procedure": "Europium(III) acetate hydrate, 4-tert-butylbenzoic acid, and 1,10-phenanthroline monohydrate were dissolved in acetonitrile in a Pyrex vial. Titanium tetraisopropanolate was added, and the mixture was sonicated for 10 min, then heated at 80 °C for 1 day. After cooling to room temperature, colorless crystals of 1 were obtained.",
+        "reagents": [
+          {
+            "name": "Europium(III) acetate hydrate",
+            "formula": "Eu(CH3COO)3·xH2O",
+            "role": "europium precursor",
+            "amount": "0.026 g, 0.08 mmol"
+          },
+          {
+            "name": "4-tert-butylbenzoic acid",
+            "formula": null,
+            "role": "tbza ligand precursor",
+            "amount": "0.062 g, 0.35 mmol"
+          },
+          {
+            "name": "1,10-phenanthroline monohydrate",
+            "formula": null,
+            "role": "phen ligand precursor",
+            "amount": "0.020 g, 0.1 mmol"
+          },
+          {
+            "name": "Titanium tetraisopropanolate",
+            "formula": "Ti(OiPr)4",
+            "role": "titanium precursor",
+            "amount": "48 μL, 0.16 mmol"
+          }
+        ],
+        "solvents": [
+          "Acetonitrile (5 mL)"
+        ],
+        "temperature": "80 °C",
+        "time": "Sonication for 10 min; heating for 1 day",
+        "ph": null,
+        "vessel_or_method": "Pyrex vial; sonication followed by oven heating",
+        "workup_and_crystallization": "Cooled to room temperature to obtain colorless crystals.",
+        "yield": "35.1%"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "optical",
+        "summary": "The cluster shows Eu(III) red emission in the solid state and in dichloromethane. Its emission is quenched by nitrobenzene, with visible quenching at 40 ppm; the authors report predominantly static quenching at low nitrobenzene concentrations.",
+        "measurements": [
+          {
+            "property_type": "optical",
+            "name": "Overall absolute quantum yield",
+            "value": 65.4,
+            "unit": "%",
+            "conditions": "Solid state"
+          },
+          {
+            "property_type": "optical",
+            "name": "Overall absolute quantum yield",
+            "value": 30.2,
+            "unit": "%",
+            "conditions": "In CH2Cl2"
+          },
+          {
+            "property_type": "optical",
+            "name": "Luminescence lifetime",
+            "value": 1.8,
+            "unit": "ms",
+            "conditions": "Solid state"
+          },
+          {
+            "property_type": "optical",
+            "name": "Luminescence lifetime",
+            "value": 1.73,
+            "unit": "ms",
+            "conditions": "In CH2Cl2"
+          },
+          {
+            "property_type": "optical",
+            "name": "Nitrobenzene detection limit",
+            "value": 10.5,
+            "unit": "ppb",
+            "conditions": "Luminescence quenching in CH2Cl2; also reported as 85.4 nM"
+          },
+          {
+            "property_type": "optical",
+            "name": "Nitrobenzene quenching efficiency",
+            "value": 91.3,
+            "unit": "%",
+            "conditions": "40 ppm nitrobenzene; Table 1"
+          },
+          {
+            "property_type": "optical",
+            "name": "Stern–Volmer quenching constant",
+            "value": 0.095,
+            "unit": "ppm^-1",
+            "conditions": "Nitrobenzene in CH2Cl2; low-concentration linear fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "compound_label, compound_name, formula",
+          "source": "main_text",
+          "location": "Abstract and Introduction"
+        },
+        {
+          "field": "structure_description, material_class",
+          "source": "main_text",
+          "location": "Results and Discussion, Synthesis and Crystallography; Figure 1"
+        },
+        {
+          "field": "synthesis",
+          "source": "main_text",
+          "location": "Experimental Section, Synthetic Procedures"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Results and Discussion, Luminescence Property and Luminescence Sensor for NB Detection; Figures 2–3 and Table 1"
+        },
+        {
+          "field": "ccdc_numbers",
+          "source": "main_text",
+          "location": "Experimental Section, X-ray Crystallography; Accession Codes"
+        }
+      ],
+      "structure_description": "The [Eu2Ti4O6]10+ core consists of two triangular EuTi2(μ3-O) units connected by two additional μ3-O bridges and two μ2-O bridges. Its six metal ions form an elongated octahedron, with four Ti ions in equatorial positions and two Eu ions at the apices. Two chelating phen ligands and ten tbza ligands complete the discrete cluster; four acetonitrile molecules occur as guests."
+    }
+  ]
+}

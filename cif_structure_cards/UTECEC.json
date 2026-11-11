@@ -1,0 +1,187 @@
+{
+  "refcode": "UTECEC",
+  "ccdc_number": "817729",
+  "dois": ["10.1039/c1cc11516b"],
+  "source_data_block": "UTECEC",
+  "source_cif": "addition\\cif\\817729.cif",
+  "formula_moiety": "C85 H157 Cr6 F8 O36 Y2 1-,C4 H12 N1 1+,0.5(C4 H10 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "46.4797(9)",
+    "b": "19.2626(5)",
+    "c": "34.6490(10)",
+    "alpha": "90",
+    "beta": "116.349(2)",
+    "gamma": "90",
+    "volume": "27799",
+    "Z": "8"
+  },
+  "metal_sites": [
+    {
+      "label": "Cr1",
+      "element": "Cr",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O22",
+        "O24",
+        "O25",
+        "O27"
+      ]
+    },
+    {
+      "label": "Cr2",
+      "element": "Cr",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O18",
+        "O20",
+        "O21",
+        "O23"
+      ]
+    },
+    {
+      "label": "Cr3",
+      "element": "Cr",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O16",
+        "O17",
+        "O19"
+      ]
+    },
+    {
+      "label": "Cr4",
+      "element": "Cr",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O12",
+        "O13",
+        "O15"
+      ]
+    },
+    {
+      "label": "Cr5",
+      "element": "Cr",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O6",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Cr6",
+      "element": "Cr",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3",
+        "O5",
+        "O7"
+      ]
+    },
+    {
+      "label": "Y1",
+      "element": "Y",
+      "occupancy": null,
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O32",
+        "O34",
+        "O36",
+        "O39",
+        "O4"
+      ]
+    },
+    {
+      "label": "Y2",
+      "element": "Y",
+      "occupancy": null,
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O26",
+        "O28",
+        "O29",
+        "O32",
+        "O33",
+        "O35",
+        "O38"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Y1",
+          "Y2"
+        ],
+        "shared_oxygen_labels": [
+          "O32"
+        ],
+        "metal_metal_separation_angstrom": 3.667,
+        "bridge_geometry": [
+          {
+            "oxygen": "O32",
+            "angle_deg": 96.57,
+            "metal_oxygen_distances_angstrom": [
+              2.157,
+              2.729
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Cr1"
+      ],
+      [
+        "Cr2"
+      ],
+      [
+        "Cr3"
+      ],
+      [
+        "Cr4"
+      ],
+      [
+        "Cr5"
+      ],
+      [
+        "Cr6"
+      ],
+      [
+        "Y1",
+        "Y2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "UTECEC crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C85 H157 Cr6 F8 O36 Y2 1-,C4 H12 N1 1+,0.5(C4 H10 O1). From the CIF bond table, Cr1 (Cr) has 4 O neighbors; Cr2 (Cr) has 4 O neighbors; Cr3 (Cr) has 4 O neighbors; Cr4 (Cr) has 4 O neighbors; Cr5 (Cr) has 4 O neighbors; Cr6 (Cr) has 4 O neighbors; Y1 (Y) has 6 O neighbors; Y2 (Y) has 7 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 7 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 3.667-3.667 Å (not direct metal-metal bonds). Computed M-O-M angles span 96.57-96.57°; individual values and O labels are in metal_framework.links.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review.",
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": null,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  }
+}

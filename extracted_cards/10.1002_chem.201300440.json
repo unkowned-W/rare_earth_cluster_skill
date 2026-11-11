@@ -1,94 +1,174 @@
 {
-  "title": "Methylidene Rare-Earth-Metal Complex Mediated Transformations of C=N, N=N and N-H Bonds: New Routes to Imido Rare-Earth-Metal Clusters",
   "doi": "10.1002/chem.201300440",
   "list_of_rare_earth_compounds": [
     {
-      "compound_label": "9b",
-      "compound_name": "[L3Lu3(μ-η1:η1-O2CCH3)3(μ-η1:η2-O2CCH3)(μ-η1:η1:η2-O2CNPh)] (L = [PhC(NC6H3iPr2-2,6)2]−)",
-      "formula": "C108H134N7O10Lu3",
       "ccdc_numbers": [
         "895202"
       ],
       "ccdc_refcodes": [
         "VIQQOD"
       ],
+      "compound_label": "9b",
+      "compound_name": "Trinuclear lutetium carboxylate/iminocarboxylate cluster",
+      "formula": "C108H134Lu3N7O10",
       "material_class": {
+        "dimensionality": "0D",
         "material_type": "cluster",
-        "nuclearity": 3,
         "metal_composition": "homometallic",
+        "nuclearity": 3,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Lu"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "0D",
-        "structural_family": "trinuclear lutetium carboxylate/carbamate amidinate cluster"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "A solution of complex 2b (0.200 g, 0.1 mmol) in toluene (10 mL) was placed in a tube with a Teflon stopcock and degassed by a freeze–pump–thaw cycle. 2 atm of CO2 were introduced; a color change from yellow to colorless was observed within 10 min. The mixture was stirred for 0.5 h at room temperature, concentrated to saturation under vacuum, and pale-yellow crystals of 9b (0.191 g, 86%) formed after standing at room temperature for 2 days. All manipulations were performed with exclusion of air and water using Schlenk techniques or a glovebox.",
-        "reagents": [
-          {
-            "name": "complex 2b ([L3Lu3(μ2-Me)3(μ3-Me)(μ-η1:η1:η3-NPh)])",
-            "formula": "C103H134N7Lu3",
-            "role": "starting cluster",
-            "amount": "0.200 g, 0.1 mmol"
-          },
-          {
-            "name": "carbon dioxide",
-            "formula": "CO2",
-            "role": "insertion substrate",
-            "amount": "2 atm"
-          }
-        ],
-        "solvents": [
-          "toluene"
-        ],
-        "temperature": "room temperature",
-        "time": "color change within 10 min; stirred 0.5 h; crystallized 2 days",
-        "ph": null,
-        "vessel_or_method": "Teflon-stopcock tube; freeze–pump–thaw degassing; Schlenk/glovebox",
-        "workup_and_crystallization": "concentrated to saturation under vacuum; pale-yellow crystals obtained after standing at room temperature for 2 days",
-        "yield": "0.191 g, 86%"
+        "structural_family": "Trinuclear imido-derived lutetium carboxylate cluster"
       },
       "properties": {
-        "reported": false,
+        "measurements": [],
         "property_type": "none",
-        "summary": null,
-        "measurements": []
+        "reported": false,
+        "summary": null
       },
       "source_locations": [
         {
           "field": "compound_label",
-          "source": "main_text",
-          "location": "Abstract; Experimental synthesis of 9b"
+          "location": "Abstract; Experimental Section; CCDC list",
+          "source": "main_text"
         },
         {
           "field": "formula",
-          "source": "main_text",
-          "location": "Table 5 crystal data for 9b; elemental analysis of 9b"
+          "location": "Table 5, crystal data for 9b; supplied CCDC catalog",
+          "source": "external_metadata"
         },
         {
           "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "X-ray crystallographic analysis, CCDC-895202 (9b)"
-        },
-        {
-          "field": "ccdc_refcodes",
-          "source": "external_metadata",
-          "location": "CCDC row VIQQOD / 895202"
-        },
-        {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "Results: CO2 insertion of 2b; Table 2; Figure S23 referenced"
+          "location": "CCDC list: 9b",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, Synthesis of 9b"
+          "location": "Results and Discussion; Experimental Section, synthesis of 9b",
+          "source": "main_text"
+        },
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, CO2 insertion discussion; Supporting Information Figure S23 cited",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "A trinuclear Lu cluster in which CO2 insertion is reported at all Lu–methyl bonds and one Lu–N bond, giving multiple bridging carboxylate bonding modes and a bridging iminocarboxylate ligand.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "ph": null,
+        "procedure": "Complex 2b was treated with excess CO2 at room temperature in toluene to afford 9b; colorless crystals were isolated.",
+        "reagents": [
+          {
+            "amount": "excess",
+            "formula": "CO2",
+            "name": "carbon dioxide",
+            "role": "carboxylation reagent"
+          },
+          {
+            "amount": null,
+            "formula": null,
+            "name": "complex 2b",
+            "role": "starting material"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "toluene"
+        ],
+        "temperature": "room temperature",
+        "time": null,
+        "vessel_or_method": null,
+        "workup_and_crystallization": "Colorless crystals; further work-up details not specified in the available main-text passage.",
+        "yield": "86%"
+      }
+    },
+    {
+      "ccdc_numbers": [
+        "906025"
+      ],
+      "ccdc_refcodes": [
+        "PEWMIP"
+      ],
+      "compound_label": "11b",
+      "compound_name": "Trinuclear lutetium phenylimido methyl/thiophenolate cluster",
+      "formula": "C108H136Lu3N7S",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "homometallic",
+        "nuclearity": 3,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Lu"
+        ],
+        "structural_family": "Trinuclear imido cluster with bridging methyl and thiophenolate ligands"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "compound_label",
+          "location": "Abstract; Experimental Section, synthesis of 11b",
+          "source": "main_text"
+        },
+        {
+          "field": "formula",
+          "location": "Experimental Section, synthesis of 11b; supplied CCDC catalog",
+          "source": "external_metadata"
+        },
+        {
+          "field": "ccdc_numbers",
+          "location": "CCDC list: 11b",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, synthesis of 11b",
+          "source": "main_text"
+        },
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 1 and Scheme 4 discussion; Table 5",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "A trinuclear Lu cluster retaining the bridging phenylimido motif and methyl ligands, with an additional bridging thiophenolate (SPh) ligand.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Thiophenol in toluene was added to complex 2b; 11b was obtained as a colorless crystalline product, following the analogous preparation described for 11a.",
+        "reagents": [
+          {
+            "amount": "0.200 g, 0.1 mmol",
+            "formula": null,
+            "name": "complex 2b",
+            "role": "starting material"
+          },
+          {
+            "amount": "10.3 mL, 0.1 mmol",
+            "formula": "C6H5SH",
+            "name": "thiophenol",
+            "role": "reagent"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "toluene"
+        ],
+        "temperature": null,
+        "time": null,
+        "vessel_or_method": null,
+        "workup_and_crystallization": "Colorless crystalline product; further crystallization details are not specified in the cited procedure.",
+        "yield": "92% (0.192 g)"
+      }
     }
-  ]
+  ],
+  "title": "Methylidene Rare-Earth-Metal Complex Mediated Transformations of C=N, N=N and N-H Bonds: New Routes to Imido Rare-Earth-Metal Clusters"
 }

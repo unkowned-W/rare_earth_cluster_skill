@@ -1,0 +1,96 @@
+{
+  "refcode": "KEDSES",
+  "ccdc_number": "281265",
+  "dois": [
+    "10.1039/b511609k"
+  ],
+  "source_data_block": "KEDSES",
+  "source_cif": "addition\\cif\\281265.cif",
+  "formula_moiety": "C76 H124 Er3 F5 O12,C4 H8 O1,0.5(C6 H14)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "15.049(3)",
+    "b": "19.045(4)",
+    "c": "32.230(6)",
+    "alpha": "90",
+    "beta": "95.77(3)",
+    "gamma": "90",
+    "volume": "9190.58",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Er1",
+      "element": "Er",
+      "occupancy": null,
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3"
+      ]
+    },
+    {
+      "label": "Er2",
+      "element": "Er",
+      "occupancy": null,
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O5",
+        "O9"
+      ]
+    },
+    {
+      "label": "Er3",
+      "element": "Er",
+      "occupancy": null,
+      "oxygen_coordination_number": 3,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O12",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Er1"
+      ],
+      [
+        "Er2"
+      ],
+      [
+        "Er3"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "KEDSES crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C76 H124 Er3 F5 O12,C4 H8 O1,0.5(C6 H14). From the CIF bond table, Er1 (Er) has 2 O neighbors; Er2 (Er) has 3 O neighbors; Er3 (Er) has 3 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C83H139Er3F5O13.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/b511609k",
+    "formula": "C83H139Er3F5O13",
+    "compound_name": "erbium aryloxide fluoride cage with tetrahydrofuran and hexane solvate",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 3,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

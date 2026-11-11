@@ -1,0 +1,106 @@
+{
+  "refcode": "CITBEQ",
+  "ccdc_number": "2269122",
+  "dois": [
+    "10.1039/d3nj02735j"
+  ],
+  "source_data_block": "CITBEQ",
+  "source_cif": "CIFs\\2269122.cif",
+  "formula_moiety": "C42 H38 O22 Tb2,4(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "9.0067(7)",
+    "b": "11.0069(9)",
+    "c": "12.9695(10)",
+    "alpha": "91.8950(10)",
+    "beta": "108.879(2)",
+    "gamma": "93.5260(10)",
+    "volume": "1212.36",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Tb1",
+      "element": "Tb",
+      "occupancy": null,
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O11",
+        "O2",
+        "O21",
+        "O4",
+        "O5",
+        "O7"
+      ]
+    },
+    {
+      "label": "Tb2",
+      "element": "Tb",
+      "occupancy": null,
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O15",
+        "O17",
+        "O18",
+        "O20",
+        "O23",
+        "O24",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Tb1"
+      ],
+      [
+        "Tb2"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "CITBEQ crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C42 H38 O22 Tb2,4(H2 O1). From the CIF bond table, Tb1 (Tb) has 8 O neighbors; Tb2 (Tb) has 8 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula [Tb2(4hob)6(H2O)4]·4H2O. Explicit grouped units in the article formula/name: 4 H2O (explicit grouped unit in article formula). Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d3nj02735j",
+    "formula": "[Tb2(4hob)6(H2O)4]·4H2O",
+    "compound_name": "Terbium(III) 4-hydroxybenzoate tetraaqua dimer tetrahydrate",
+    "match_basis": "ccdc_number"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 2,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 4,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  },
+  "external_cif_metadata": "D:\\workspace\\Cluster_agent\\data\\process_csv\\cif_card_ready_metadata.csv"
+}

@@ -3,438 +3,428 @@
   "doi": "10.1039/d4ce01245c",
   "list_of_rare_earth_compounds": [
     {
-      "compound_label": "DFX-Ce",
-      "compound_name": "[Ce2(μ-H2O)(μ-H2L)6]n (H3L = 4-[3,5-bis(2-hydroxyphenyl)-1,2,4-triazol-1-yl]benzoic acid)",
-      "formula": "C126H86N18O25Ce2",
       "ccdc_numbers": [
         "2335115"
       ],
-      "ccdc_refcodes": [],
+      "ccdc_refcodes": ["SAJFIT02"],
+      "compound_label": "DFX-Ce",
+      "compound_name": "[Ce2(μ-H2O)(μ-H2L)6]n",
+      "formula": "C126H86Ce2N18O25",
       "material_class": {
+        "dimensionality": "1D",
         "material_type": "complex",
-        "nuclearity": 2,
         "metal_composition": "homometallic",
+        "nuclearity": null,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Ce"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "1D",
-        "structural_family": "lanthanide coordination polymer-based MHOF with cruciform-like 1D chains"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "A mixture of Ce(NO3)3·6H2O (0.20 mmol) and DFX (0.2 mmol) in 10 mL H2O was stirred for 10 min at room temperature and transferred into a 20 mL Teflon-lined stainless-steel vessel. The mixture was heated at 180 °C for five days under autogenous pressure. After slow cooling to room temperature, yellow-green prism crystals of DFX-Ce were filtered off, washed with distilled water, and dried in air. No deprotonating reagent was used; pure water and lanthanide nitrate were required for crystallization.",
-        "reagents": [
-          {
-            "name": "cerium(III) nitrate hexahydrate",
-            "formula": "Ce(NO3)3·6H2O",
-            "role": "metal source",
-            "amount": "0.20 mmol"
-          },
-          {
-            "name": "deferasirox (DFX / H3L)",
-            "formula": "C21H15N3O4",
-            "role": "ligand",
-            "amount": "0.2 mmol"
-          }
-        ],
-        "solvents": [
-          "H2O"
-        ],
-        "temperature": "180 °C (hydrothermal); stirred 10 min at room temperature before heating",
-        "time": "5 days",
-        "ph": null,
-        "vessel_or_method": "20 mL Teflon-lined stainless-steel autoclave under autogenous pressure",
-        "workup_and_crystallization": "slow cool to room temperature; yellow-green prism crystals filtered, washed with distilled water, dried in air",
-        "yield": "~45%"
+        "structural_family": "lanthanide coordination polymer-based metallo hydrogen-bonded organic framework"
       },
       "properties": {
-        "reported": true,
-        "property_type": "optical",
-        "summary": "Solid-state DFX-Ce shows faint yellow-green photoluminescence (CIE 0.3452, 0.482) dominated by ligand π*→π emission at 553 nm (λex = 340 nm), blue-shifted versus free DFX, plus weaker Ce3+ 5d→4f bands at 700 and 759 nm. Ligand-to-Ce antenna transfer is inefficient.",
         "measurements": [
           {
+            "conditions": "Solid state, room temperature; excitation at 340 nm",
+            "name": "Dominant emission maximum",
             "property_type": "optical",
-            "name": "emission maximum (ligand π*→π)",
-            "value": 553,
             "unit": "nm",
-            "conditions": "solid state, room temperature, λex = 340 nm"
+            "value": 553
           },
           {
+            "conditions": "Solid state, room temperature; excitation at 340 nm",
+            "name": "Additional Ce(III) emission peaks",
             "property_type": "optical",
-            "name": "Ce3+ 5d→4f emission peaks",
-            "value": "700 and 759",
             "unit": "nm",
-            "conditions": "solid state, λex = 340 nm; assigned to 5d1(2D3/2)→4f1(2F7/2) and 5d1(2D3/2)→4f1(2F5/2)"
+            "value": "700, 759"
           },
           {
+            "conditions": "Solid state, room temperature; excitation at 340 nm",
+            "name": "Emission color coordinates",
             "property_type": "optical",
-            "name": "CIE chromaticity coordinates",
-            "value": "(0.3452, 0.482)",
             "unit": null,
-            "conditions": "solid-state emission, λex = 340 nm"
+            "value": "(0.3452, 0.482)"
           }
-        ]
+        ],
+        "property_type": "optical",
+        "reported": true,
+        "summary": "Faint yellow-green photoluminescence is dominated by ligand emission, with smaller Ce(III) 5d-to-4f contributions."
       },
       "source_locations": [
         {
-          "field": "formula",
-          "source": "main_text",
-          "location": "Table 1; Experimental synthesis of DFX-Ce"
+          "field": "formula and CCDC number",
+          "location": "Table 1; Experimental section, Single-crystal X-ray crystallography",
+          "source": "main_text"
         },
         {
-          "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Single-crystal X-ray crystallography (CCDC 2335115)"
+          "field": "structure_description",
+          "location": "Description of crystal structures; Crystal structure of DFX-Eu, Fig. 4 (isostructural Ce/Eu/Gd series)",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental section, Synthesis of DFX-Ce; In situ metallization-induced synthesis"
+          "location": "Experimental section, Synthesis of DFX-Ce",
+          "source": "main_text"
         },
         {
           "field": "properties",
-          "source": "main_text",
-          "location": "Photoluminescence for DFX and DFX-Ce; Fig. 6b"
+          "location": "Photoluminescence for DFX and DFX-Ce, Fig. 6",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "DFX-Ce is isostructural with DFX-Eu and DFX-Gd. Bridging carboxylate ligands and a bridging water molecule connect lanthanide centers into cruciform-like one-dimensional coordination-polymer chains; hydrogen bonding and C–H⋯π contacts associate the chains into a three-dimensional supramolecular architecture.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Ce(NO3)3·6H2O and deferasirox were stirred in water for 10 min at room temperature, transferred to a Teflon-lined stainless-steel vessel, and heated under autogenous pressure. After slow cooling to room temperature, the crystals were filtered, washed with distilled water, and dried in air.",
+        "reagents": [
+          {
+            "amount": "0.20 mmol",
+            "formula": "Ce(NO3)3·6H2O",
+            "name": "cerium(III) nitrate hexahydrate",
+            "role": "metal source"
+          },
+          {
+            "amount": "0.2 mmol",
+            "formula": "C21H15N3O4",
+            "name": "deferasirox (DFX)",
+            "role": "organic ligand precursor"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "water, 10 mL"
+        ],
+        "temperature": "180 °C",
+        "time": "5 days (following 10 min stirring)",
+        "vessel_or_method": "20 mL Teflon-lined stainless-steel vessel; hydrothermal reaction",
+        "workup_and_crystallization": "Slow cooling to room temperature yielded yellow-green prism crystals; filtered, washed with distilled water, and dried in air.",
+        "yield": null
+      }
     },
     {
-      "compound_label": "DFX-Eu",
-      "compound_name": "[Eu2(μ-H2O)(μ-H2L)6]n",
-      "formula": "C126H86N18O25Eu2",
       "ccdc_numbers": [
         "2335116"
       ],
-      "ccdc_refcodes": [],
+      "ccdc_refcodes": ["ZULMIG"],
+      "compound_label": "DFX-Eu",
+      "compound_name": "[Eu2(μ-H2O)(μ-H2L)6]n",
+      "formula": "C126H86Eu2N18O25",
       "material_class": {
+        "dimensionality": "1D",
         "material_type": "complex",
-        "nuclearity": 2,
         "metal_composition": "homometallic",
+        "nuclearity": null,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Eu"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "1D",
-        "structural_family": "isostructural lanthanide coordination polymer-based MHOF with cruciform-like 1D chains"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Prepared analogously to DFX-Ce, replacing Ce(NO3)3·6H2O with Eu(NO3)3·6H2O under the same hydrothermal conditions (stir 10 min at room temperature in 10 mL water, 20 mL Teflon-lined vessel, 180 °C, five days, autogenous pressure). After slow cooling, yellow-green prism crystals were filtered, washed with distilled water, and dried in air.",
-        "reagents": [
-          {
-            "name": "europium(III) nitrate hexahydrate",
-            "formula": "Eu(NO3)3·6H2O",
-            "role": "metal source",
-            "amount": "0.20 mmol (as for DFX-Ce analogue)"
-          },
-          {
-            "name": "deferasirox (DFX / H3L)",
-            "formula": "C21H15N3O4",
-            "role": "ligand",
-            "amount": "0.2 mmol (as for DFX-Ce analogue)"
-          }
-        ],
-        "solvents": [
-          "H2O"
-        ],
-        "temperature": "180 °C (hydrothermal, same as DFX-Ce)",
-        "time": "5 days",
-        "ph": null,
-        "vessel_or_method": "20 mL Teflon-lined stainless-steel autoclave under autogenous pressure",
-        "workup_and_crystallization": "slow cool to room temperature; yellow-green prism crystals filtered, washed with distilled water, dried in air",
-        "yield": "~40%"
+        "structural_family": "lanthanide coordination polymer-based metallo hydrogen-bonded organic framework"
       },
       "properties": {
-        "reported": true,
-        "property_type": "optical",
-        "summary": "Solid-state DFX-Eu shows faint red Eu3+ 4f→4f emission (CIE 0.6319, 0.3594). Direct Eu3+ excitation (especially 7F0→5L6 at 394 nm) dominates over ligand sensitization. Lifetime 0.223 ms; absolute QY 1.15%.",
         "measurements": [
           {
+            "conditions": "Solid state, room temperature; excitation at 318 or 394 nm",
+            "name": "Strongest emission peak",
             "property_type": "optical",
-            "name": "Eu3+ emission peaks (5D0→7FJ)",
-            "value": "579, 592, 616, 653, 700",
             "unit": "nm",
-            "conditions": "solid state, λex = 318 and 394 nm; strongest at 616 nm (5D0→7F2)"
+            "value": 616
           },
           {
+            "conditions": "Solid state, room temperature",
+            "name": "Emission color coordinates",
             "property_type": "optical",
-            "name": "CIE chromaticity coordinates",
-            "value": "(0.6319, 0.3594)",
             "unit": null,
-            "conditions": "solid-state emission"
+            "value": "(0.6319, 0.3594)"
           },
           {
+            "conditions": "Room temperature; emission monitored at 616 nm",
+            "name": "Luminescence lifetime",
             "property_type": "optical",
-            "name": "luminescence lifetime",
-            "value": 0.223,
             "unit": "ms",
-            "conditions": "room temperature, λem = 616 nm, monoexponential fit, R2 = 0.99346"
+            "value": 0.223
           },
           {
+            "conditions": "Solid state, room temperature; excitation at 394 nm",
+            "name": "Absolute photoluminescence quantum yield",
             "property_type": "optical",
-            "name": "absolute quantum yield",
-            "value": "1.15 ± 0.035",
             "unit": "%",
-            "conditions": "solid state, room temperature, λex = 394 nm"
+            "value": 1.15
           }
-        ]
+        ],
+        "property_type": "optical",
+        "reported": true,
+        "summary": "DFX-Eu shows faint red, characteristic Eu(III) 4f emission. Direct Eu(III) excitation predominates over ligand sensitization."
       },
       "source_locations": [
         {
-          "field": "formula",
-          "source": "main_text",
-          "location": "Table 1; Crystal structure of DFX-Eu"
+          "field": "formula and CCDC number",
+          "location": "Table 1; Experimental section, Single-crystal X-ray crystallography",
+          "source": "main_text"
         },
         {
-          "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Single-crystal X-ray crystallography (CCDC 2335116)"
+          "field": "structure_description",
+          "location": "Crystal structure of DFX-Eu, Fig. 4",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental section, Synthesis of DFX-Eu"
+          "location": "Experimental section, Syntheses of DFX-Ce and DFX-Eu",
+          "source": "main_text"
         },
         {
           "field": "properties",
-          "source": "main_text",
-          "location": "Photoluminescence for DFX-Eu and DFX-Tb; Fig. 7a; lifetime/QY paragraphs"
+          "location": "Photoluminescence for DFX-Eu and DFX-Tb, Fig. 7; Luminescence lifetime and solid-state absolute quantum yield",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "The asymmetric unit contains two independent Eu(III) centers, six bridging H2L− ligands, and one bridging water molecule. Carboxylate bridges and water connect the Eu centers into a cruciform-like one-dimensional chain along the a axis. Interchain hydrogen bonds and C–H⋯π interactions produce a three-dimensional supramolecular architecture.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "The DFX-Ce procedure was followed with Eu(NO3)3·6H2O replacing Ce(NO3)3·6H2O: the metal salt and DFX were stirred in water for 10 min at room temperature and heated in a Teflon-lined stainless-steel vessel under autogenous pressure. After slow cooling, crystals were filtered, washed with distilled water, and dried in air.",
+        "reagents": [
+          {
+            "amount": "0.20 mmol (amount from the shared DFX-Ce procedure)",
+            "formula": "Eu(NO3)3·6H2O",
+            "name": "europium(III) nitrate hexahydrate",
+            "role": "metal source"
+          },
+          {
+            "amount": "0.2 mmol (shared procedure)",
+            "formula": "C21H15N3O4",
+            "name": "deferasirox (DFX)",
+            "role": "organic ligand precursor"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "water, 10 mL (shared procedure)"
+        ],
+        "temperature": "180 °C (shared procedure)",
+        "time": "5 days (following 10 min stirring; shared procedure)",
+        "vessel_or_method": "20 mL Teflon-lined stainless-steel vessel; hydrothermal reaction (shared procedure)",
+        "workup_and_crystallization": "Slow cooling to room temperature yielded yellow-green prism crystals; filtered, washed with distilled water, and dried in air.",
+        "yield": null
+      }
     },
     {
-      "compound_label": "DFX-Gd",
-      "compound_name": "[Gd2(μ-H2O)(μ-H2L)6]n",
-      "formula": "C126H86N18O25Gd2",
       "ccdc_numbers": [
         "2335117"
       ],
-      "ccdc_refcodes": [],
+      "ccdc_refcodes": ["ZULMOM"],
+      "compound_label": "DFX-Gd",
+      "compound_name": "[Gd2(μ-H2O)(μ-H2L)6]n",
+      "formula": "C126H86Gd2N18O25",
       "material_class": {
+        "dimensionality": "1D",
         "material_type": "complex",
-        "nuclearity": 2,
         "metal_composition": "homometallic",
+        "nuclearity": null,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Gd"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "1D",
-        "structural_family": "isostructural lanthanide coordination polymer-based MHOF with cruciform-like 1D chains"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Prepared analogously to DFX-Ce, replacing Ce(NO3)3·6H2O with Gd(NO3)3·6H2O (stir 10 min at room temperature in 10 mL water, 20 mL Teflon-lined vessel, 180 °C, five days, autogenous pressure). After slow cooling, yellow-green prism crystals were filtered, washed with distilled water, and dried in air.",
-        "reagents": [
-          {
-            "name": "gadolinium(III) nitrate hexahydrate",
-            "formula": "Gd(NO3)3·6H2O",
-            "role": "metal source",
-            "amount": "0.20 mmol (as for DFX-Ce analogue)"
-          },
-          {
-            "name": "deferasirox (DFX / H3L)",
-            "formula": "C21H15N3O4",
-            "role": "ligand",
-            "amount": "0.2 mmol (as for DFX-Ce analogue)"
-          }
-        ],
-        "solvents": [
-          "H2O"
-        ],
-        "temperature": "180 °C (hydrothermal, same as DFX-Ce)",
-        "time": "5 days",
-        "ph": null,
-        "vessel_or_method": "20 mL Teflon-lined stainless-steel autoclave under autogenous pressure",
-        "workup_and_crystallization": "slow cool to room temperature; yellow-green prism crystals filtered, washed with distilled water, dried in air",
-        "yield": "~40%"
+        "structural_family": "lanthanide coordination polymer-based metallo hydrogen-bonded organic framework"
       },
       "properties": {
-        "reported": true,
-        "property_type": "magnetic",
-        "summary": "Variable-temperature χMT indicates weak intrachain antiferromagnetic coupling between neighboring Gd3+ ions via H2L- above ~3.5 K, with a possible ferromagnetic upturn below 3.5 K. Magnetization saturates near 14.15 Nβ at 2.0 K and 7 T. A significant magnetocaloric effect is observed, with -ΔSm = 12.75 J kg-1 K-1 at 2.0 K and ΔH = 7.0 T (below the 13.47 J kg-1 K-1 uncoupled two-Gd3+ limit).",
         "measurements": [
           {
-            "property_type": "magnetic",
+            "conditions": "300 K; applied dc field 1 kOe",
             "name": "χMT",
-            "value": 15.74,
-            "unit": "cm3 K mol-1",
-            "conditions": "300 K, 1 kOe dc field; two uncoupled Gd3+ expected 15.76 cm3 K mol-1"
+            "property_type": "magnetic",
+            "unit": "cm³ K mol⁻¹",
+            "value": 15.74
           },
           {
-            "property_type": "magnetic",
+            "conditions": "3.5 K; applied dc field 1 kOe",
             "name": "χMT",
-            "value": 13.73,
-            "unit": "cm3 K mol-1",
-            "conditions": "3.5 K, 1 kOe"
+            "property_type": "magnetic",
+            "unit": "cm³ K mol⁻¹",
+            "value": 13.73
           },
           {
-            "property_type": "magnetic",
+            "conditions": "2.0 K; applied dc field 1 kOe",
             "name": "χMT",
-            "value": 14.22,
-            "unit": "cm3 K mol-1",
-            "conditions": "2.0 K, 1 kOe"
+            "property_type": "magnetic",
+            "unit": "cm³ K mol⁻¹",
+            "value": 14.22
           },
           {
+            "conditions": "2.0 K; field 7.0 T",
+            "name": "Magnetization",
             "property_type": "magnetic",
-            "name": "saturation magnetization",
-            "value": 14.15,
             "unit": "Nβ",
-            "conditions": "2.0 K, 7.0 T; theoretical 14.0 Nβ for two Gd3+"
+            "value": 14.15
           },
           {
+            "conditions": "2.0 K; applied field change 7.0 T",
+            "name": "Magnetic entropy change −ΔSm",
             "property_type": "magnetic",
-            "name": "magnetic entropy change -ΔSm",
-            "value": 12.75,
-            "unit": "J kg-1 K-1",
-            "conditions": "2.0 K, ΔH = 7.0 T"
+            "unit": "J kg⁻¹ K⁻¹",
+            "value": 12.75
           }
-        ]
+        ],
+        "property_type": "magnetic",
+        "reported": true,
+        "summary": "Temperature-dependent susceptibility indicates predominantly weak intrachain antiferromagnetic interactions above 3.5 K, with a low-temperature upturn. Field-dependent measurements show a magnetocaloric effect."
       },
       "source_locations": [
         {
-          "field": "formula",
-          "source": "main_text",
-          "location": "Table 1; Experimental synthesis of DFX-Gd"
+          "field": "formula and CCDC number",
+          "location": "Table 1; Experimental section, Single-crystal X-ray crystallography",
+          "source": "main_text"
         },
         {
-          "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Single-crystal X-ray crystallography (CCDC 2335117)"
+          "field": "structure_description",
+          "location": "Description of crystal structures; Crystal structure of DFX-Eu, Fig. 4 (isostructural Ce/Eu/Gd series)",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental section, Synthesis of DFX-Gd"
+          "location": "Experimental section, Syntheses of DFX-Ce and DFX-Gd",
+          "source": "main_text"
         },
         {
           "field": "properties",
-          "source": "main_text",
-          "location": "Static magnetic property studies; Fig. 8; Fig. 9"
+          "location": "Static magnetic property studies, Figs. 8 and 9",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "DFX-Gd is isostructural with DFX-Ce and DFX-Eu. Bridging carboxylate ligands and a bridging water molecule connect lanthanide centers into cruciform-like one-dimensional coordination-polymer chains; hydrogen bonding and C–H⋯π contacts associate the chains into a three-dimensional supramolecular architecture.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "The DFX-Ce procedure was followed with Gd(NO3)3·6H2O replacing Ce(NO3)3·6H2O: the metal salt and DFX were stirred in water for 10 min at room temperature and heated in a Teflon-lined stainless-steel vessel under autogenous pressure. After slow cooling, crystals were filtered, washed with distilled water, and dried in air.",
+        "reagents": [
+          {
+            "amount": "0.20 mmol (amount from the shared DFX-Ce procedure)",
+            "formula": "Gd(NO3)3·6H2O",
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "role": "metal source"
+          },
+          {
+            "amount": "0.2 mmol (shared procedure)",
+            "formula": "C21H15N3O4",
+            "name": "deferasirox (DFX)",
+            "role": "organic ligand precursor"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "water, 10 mL (shared procedure)"
+        ],
+        "temperature": "180 °C (shared procedure)",
+        "time": "5 days (following 10 min stirring; shared procedure)",
+        "vessel_or_method": "20 mL Teflon-lined stainless-steel vessel; hydrothermal reaction (shared procedure)",
+        "workup_and_crystallization": "Slow cooling to room temperature yielded yellow-green prism crystals; filtered, washed with distilled water, and dried in air.",
+        "yield": null
+      }
     },
     {
-      "compound_label": "DFX-Tb",
-      "compound_name": "[Tb4(μ-H2O)2(μ-H2L)10(H2O)(H2L)2·2H2O]2n",
-      "formula": "C252H178N36O53Tb4",
       "ccdc_numbers": [
         "2335118"
       ],
-      "ccdc_refcodes": [
-        "ZULMUS"
-      ],
+      "ccdc_refcodes": ["ZULMUS"],
+      "compound_label": "DFX-Tb",
+      "compound_name": "[Tb4(μ-H2O)2(μ-H2L)10(H2O)(H2L)2·2H2O]2n",
+      "formula": "C252H178N36O53Tb4",
       "material_class": {
+        "dimensionality": "1D",
         "material_type": "complex",
-        "nuclearity": 4,
         "metal_composition": "homometallic",
+        "nuclearity": null,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Tb"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "1D",
-        "structural_family": "lanthanide coordination polymer-based MHOF with dimer fragments and cruciform-like 1D chains"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "A mixture of Tb(NO3)3·6H2O (0.30 mmol) and DFX (0.25 mmol) in 10 mL H2O was stirred for 10 min at room temperature and transferred into a 20 mL Teflon-lined stainless-steel vessel. The mixture was heated at 200 °C for six days under autogenous pressure. After slow cooling to room temperature, yellow-green prism crystals of DFX-Tb were filtered off, washed with distilled water, and dried in air. Two guest water molecules were included in the formula on the basis of TG and elemental analysis after SQUEEZE.",
-        "reagents": [
-          {
-            "name": "terbium(III) nitrate hexahydrate",
-            "formula": "Tb(NO3)3·6H2O",
-            "role": "metal source",
-            "amount": "0.30 mmol"
-          },
-          {
-            "name": "deferasirox (DFX / H3L)",
-            "formula": "C21H15N3O4",
-            "role": "ligand",
-            "amount": "0.25 mmol"
-          }
-        ],
-        "solvents": [
-          "H2O"
-        ],
-        "temperature": "200 °C (hydrothermal); stirred 10 min at room temperature before heating",
-        "time": "6 days",
-        "ph": null,
-        "vessel_or_method": "20 mL Teflon-lined stainless-steel autoclave under autogenous pressure",
-        "workup_and_crystallization": "slow cool to room temperature; yellow-green prism crystals filtered, washed with distilled water, dried in air",
-        "yield": "~40%"
+        "structural_family": "lanthanide coordination polymer-based metallo hydrogen-bonded organic framework"
       },
       "properties": {
-        "reported": true,
-        "property_type": "optical",
-        "summary": "DFX is an efficient sensitizer for Tb3+. Solid-state DFX-Tb shows bright green 4f→4f emission (CIE 0.331, 0.602) with no residual ligand fluorescence. Lifetime 0.599 ms; absolute QY 10.81%, much higher than DFX-Eu because the ligand triplet matches the Tb3+ resonance level.",
         "measurements": [
           {
+            "conditions": "Solid state, room temperature; excitation at 291 or 356 nm",
+            "name": "Dominant emission peak",
             "property_type": "optical",
-            "name": "excitation band maxima (ligand)",
-            "value": "291 and 356",
             "unit": "nm",
-            "conditions": "solid state, monitored at 540 nm (5D4→7F5)"
+            "value": 540
           },
           {
+            "conditions": "Solid state, room temperature",
+            "name": "Emission color coordinates",
             "property_type": "optical",
-            "name": "Tb3+ emission peaks (5D4→7FJ)",
-            "value": "484, 540, 588, 621, 652, 669, 709",
-            "unit": "nm",
-            "conditions": "solid state, λex = 291 and 356 nm; hypersensitive 5D4→7F5 at 540 nm"
-          },
-          {
-            "property_type": "optical",
-            "name": "CIE chromaticity coordinates",
-            "value": "(0.331, 0.602)",
             "unit": null,
-            "conditions": "solid-state green emission"
+            "value": "(0.331, 0.602)"
           },
           {
+            "conditions": "Room temperature; emission monitored at 540 nm",
+            "name": "Luminescence lifetime",
             "property_type": "optical",
-            "name": "luminescence lifetime",
-            "value": 0.599,
             "unit": "ms",
-            "conditions": "room temperature, λem = 540 nm, monoexponential fit, R2 = 0.99963"
+            "value": 0.599
           },
           {
+            "conditions": "Solid state, room temperature; excitation at 356 nm",
+            "name": "Absolute photoluminescence quantum yield",
             "property_type": "optical",
-            "name": "absolute quantum yield",
-            "value": "10.81 ± 0.027",
             "unit": "%",
-            "conditions": "solid state, room temperature, λex = 356 nm"
+            "value": 10.81
           }
-        ]
+        ],
+        "property_type": "optical",
+        "reported": true,
+        "summary": "DFX-Tb emits bright green characteristic Tb(III) photoluminescence. Ligand sensitization is more effective than for DFX-Eu."
       },
       "source_locations": [
         {
-          "field": "formula",
-          "source": "main_text",
-          "location": "Table 1; Experimental synthesis of DFX-Tb"
+          "field": "formula and CCDC number",
+          "location": "Table 1; Experimental section, Single-crystal X-ray crystallography",
+          "source": "main_text"
         },
         {
-          "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Single-crystal X-ray crystallography (CCDC 2335118)"
-        },
-        {
-          "field": "ccdc_refcodes",
-          "source": "external_metadata",
-          "location": "supplied CCDC row ZULMUS / 2335118"
+          "field": "structure_description",
+          "location": "Crystal structure of DFX-Tb, Fig. 5",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental section, Synthesis of DFX-Tb"
+          "location": "Experimental section, Synthesis of DFX-Tb",
+          "source": "main_text"
         },
         {
           "field": "properties",
-          "source": "main_text",
-          "location": "Photoluminescence for DFX-Eu and DFX-Tb; Fig. 7b; lifetime/QY paragraphs"
+          "location": "Photoluminescence for DFX-Eu and DFX-Tb, Fig. 7; Luminescence lifetime and solid-state absolute quantum yield",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "The asymmetric unit contains four independent Tb(III) centers, ten bridging and two terminal chelating H2L− ligands, two bridging waters, and one terminal coordinated water. The reported Tb-containing dimer fragment contributes to cruciform-like one-dimensional chains; hydrogen bonds involving terminal groups connect the fragments, and further interchain hydrogen bonding and C–H⋯π interactions form a three-dimensional supramolecular architecture.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Tb(NO3)3·6H2O and deferasirox were stirred in water for 10 min at room temperature, transferred to a Teflon-lined stainless-steel vessel, and heated under autogenous pressure. After slow cooling to room temperature, the crystals were filtered, washed with distilled water, and dried in air.",
+        "reagents": [
+          {
+            "amount": "0.30 mmol",
+            "formula": "Tb(NO3)3·6H2O",
+            "name": "terbium(III) nitrate hexahydrate",
+            "role": "metal source"
+          },
+          {
+            "amount": "0.25 mmol",
+            "formula": "C21H15N3O4",
+            "name": "deferasirox (DFX)",
+            "role": "organic ligand precursor"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "water, 10 mL"
+        ],
+        "temperature": "200 °C",
+        "time": "6 days (following 10 min stirring)",
+        "vessel_or_method": "20 mL Teflon-lined stainless-steel vessel; hydrothermal reaction",
+        "workup_and_crystallization": "Slow cooling to room temperature yielded yellow-green prism crystals; filtered, washed with distilled water, and dried in air.",
+        "yield": null
+      }
     }
   ]
 }

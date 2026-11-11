@@ -1,9 +1,7 @@
 {
   "refcode": "PAMHOC",
   "ccdc_number": "827124",
-  "dois": [
-    "10.1021/cg200985m"
-  ],
+  "dois": ["10.1021/cg200985m"],
   "source_data_block": null,
   "source_cif": "CIFs\\827124.cif",
   "formula_moiety": "(C2 H10 Ce1 Cl3 O3)n",
@@ -24,6 +22,7 @@
     {
       "label": "Ce1",
       "element": "Ce",
+      "occupancy": null,
       "oxygen_coordination_number": 3,
       "oxygen_neighbor_labels": [
         "O1",
@@ -34,12 +33,14 @@
     {
       "label": "Ce1A",
       "element": "Ce",
+      "occupancy": null,
       "oxygen_coordination_number": 0,
       "oxygen_neighbor_labels": []
     },
     {
       "label": "Ce1A_2",
       "element": "Ce",
+      "occupancy": null,
       "oxygen_coordination_number": 0,
       "oxygen_neighbor_labels": []
     }
@@ -64,29 +65,12 @@
     "omitted_nonidentity_symmetry_bonds": 0,
     "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
   },
-  "description": "PAMHOC crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: (C2 H10 Ce1 Cl3 O3)n. From the CIF bond table, Ce1 (Ce) has 3 O neighbors; Ce1A (Ce) has 0 O neighbors; Ce1A_2 (Ce) has 0 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula CeCl3(CH3OH)2(H2O). Explicit grouped units in the article formula/name: 1 H2O (explicit grouped unit in article formula). Article name explicitly identifies I(II).",
-  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
-  "article_compound": {
-    "doi": "10.1021/cg200985m",
-    "formula": "CeCl3(CH3OH)2(H2O)",
-    "compound_name": "diaqua-bis(methanol)trichlorocerium(III) coordination isomer 3a",
-    "match_basis": "ccdc_number"
-  },
-  "formula_annotations": {
-    "ligand_counts": [
-      {
-        "unit": "H2O",
-        "count": 1,
-        "basis": "explicit grouped unit in article formula"
-      }
-    ],
-    "explicit_core_charges": [],
-    "explicit_oxidation_states": [
-      {
-        "element": "I",
-        "state": "II",
-        "basis": "article compound name"
-      }
-    ]
+  "description": "PAMHOC crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: (C2 H10 Ce1 Cl3 O3)n. From the CIF bond table, Ce1 (Ce) has 3 O neighbors; Ce1A (Ce) has 0 O neighbors; Ce1A_2 (Ce) has 0 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review.",
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": null,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
   }
 }

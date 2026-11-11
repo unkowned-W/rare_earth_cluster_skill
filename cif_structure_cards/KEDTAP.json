@@ -1,0 +1,70 @@
+{
+  "refcode": "KEDTAP",
+  "ccdc_number": "281269",
+  "dois": [
+    "10.1039/b511609k"
+  ],
+  "source_data_block": "KEDTAP",
+  "source_cif": "addition\\cif\\281269.cif",
+  "formula_moiety": "C46 H67 Er1 O6,0.25(C6 H14)",
+  "crystal_system": "hexagonal",
+  "space_group_hm": "P 61",
+  "international_tables_number": "169",
+  "unit_cell": {
+    "a": "28.49(3)",
+    "b": "28.49(3)",
+    "c": "10.210(10)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "120",
+    "volume": "7176.97",
+    "Z": "6"
+  },
+  "metal_sites": [
+    {
+      "label": "Er1",
+      "element": "Er",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O3",
+        "O5",
+        "O6"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Er1"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "KEDTAP crystallizes in the hexagonal crystal system with space group P 61. Reported CIF formula moiety: C46 H67 Er1 O6,0.25(C6 H14). From the CIF bond table, Er1 (Er) has 4 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C47.5H70.5ErO6.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/b511609k",
+    "formula": "C47.5H70.5ErO6",
+    "compound_name": "erbium bis[2,6-di-tert-butyl-4-methoxyphenoxide] phenylethynyl bis(tetrahydrofuran) hexane solvate",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 1,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

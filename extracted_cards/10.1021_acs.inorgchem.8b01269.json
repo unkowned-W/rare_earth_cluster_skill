@@ -1,0 +1,362 @@
+{
+  "title": "Tuning the Magnetic Interactions in Dy(III) Single-Molecule Magnets",
+  "doi": "10.1021/acs.inorgchem.8b01269",
+  "list_of_rare_earth_compounds": [
+    {
+      "compound_label": "1",
+      "compound_name": "Tetranuclear dysprosium(III) nitrate/DMF complex",
+      "formula": "[Dy4(L)4(OH)2(DMF)4(NO3)2]·2DMF·H2O",
+      "ccdc_numbers": ["1830054"],
+      "ccdc_refcodes": ["CIKFIO"],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "Nearly coplanar Dy4 parallelogram with a distorted defective-dicubane Dy4O8 core"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Prepared from Dy(NO3)3·6H2O, H2L and NEt3 by a previously reported solvent-evaporation procedure. The main article gives no reagent quantities. Crystals had begun to form after 24 h.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source",
+            "amount": "0.3 mmol, 131.6 mg"
+          },
+          {
+            "name": "2-(2-hydroxy-3-methoxybenzylideneamino)phenol",
+            "formula": "H2L",
+            "role": "bridging ligand precursor",
+            "amount": "0.2 mmol, 48.6 mg"
+          },
+          {
+            "name": "NEt3",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": null
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base",
+            "amount": "0.4 mmol, 0.06 mL"
+          }
+        ],
+        "solvents": [
+          "acetonitrile (5 mL)",
+          "DMF (5 mL)"
+        ],
+        "temperature": "Ambient conditions",
+        "time": "Crystals began forming after 24 h",
+        "ph": null,
+        "vessel_or_method": "Solvent evaporation",
+        "workup_and_crystallization": "Crystallization by solvent evaporation; further details are not given in the main article.",
+        "yield": "42% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "A single-molecule magnet showing slow magnetization relaxation and antiferromagnetic intramolecular interactions. No hysteresis was detected at 1.8 K; its spin-reversal blocking temperature was inferred to be below 2 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 56.86,
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "300 K; 500 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 36.26,
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "1.8 K; 500 Oe dc field"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula; synthesis",
+          "source": "main_text",
+          "location": "Section 2.1"
+        },
+        {
+          "field": "material_class; structure_description",
+          "source": "main_text",
+          "location": "Section 2.2; Figure 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 2.4; Figure 3"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental section, Syntheses of the Complexes, synthesis of 1"
+        }
+      ],
+      "structure_description": "Four nearly coplanar Dy(III) ions form a parallelogram-shaped, distorted defective-dicubane Dy4O8 core. Two symmetry-related Dy2(L)2 units are linked through μ3-hydroxide bridges; Dy1 is nine-coordinate and Dy2 is eight-coordinate."
+    },
+    {
+      "compound_label": "2",
+      "compound_name": "Tetranuclear dysprosium(III) trifluoroacetylacetonate complex",
+      "formula": "[Dy4(L)4(OH)2(DMF)2(tfaa)2]·2CH3CN",
+      "ccdc_numbers": ["1830055"],
+      "ccdc_refcodes": ["CIKFOU"],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "Dy4O8-core tetranuclear cluster related to 1"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "The preparation of 1 was repeated with trifluoroacetylactone (Htfaa) added to the reaction solution as a replacement axial-ligand precursor. No reagent quantity is given in the main article.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source in the shared preparation",
+            "amount": "0.3 mmol, 131.6 mg"
+          },
+          {
+            "name": "2-(2-hydroxy-3-methoxybenzylideneamino)phenol",
+            "formula": "H2L",
+            "role": "bridging ligand precursor",
+            "amount": "0.2 mmol, 48.6 mg"
+          },
+          {
+            "name": "NEt3",
+            "formula": "NEt3",
+            "role": "base in the shared preparation",
+            "amount": null
+          },
+          {
+            "name": "trifluoroacetylactone",
+            "formula": "Htfaa",
+            "role": "axial-ligand precursor",
+            "amount": "0.2 mmol, 0.03 mL"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base; added in two portions",
+            "amount": "0.4 mmol, 0.06 mL initially; 0.2 mmol, 0.03 mL with Htfaa"
+          }
+        ],
+        "solvents": [
+          "acetonitrile (5 mL)",
+          "DMF (5 mL)"
+        ],
+        "temperature": "Room temperature during crystallization",
+        "time": "Stirred for 10 min before adding the Dy salt, then 30 min; stirred for 1 h after addition of the DMF solution; filtrate stood for two days",
+        "ph": null,
+        "vessel_or_method": "Modification of the solvent-evaporation preparation of 1",
+        "workup_and_crystallization": "Filtered; the filtrate stood at room temperature, and yellow block-shaped crystals formed by slow solvent evaporation over two days and were collected by careful filtration.",
+        "yield": "44% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "A single-molecule magnet with antiferromagnetic intramolecular interactions and two relaxation regimes. No hysteresis was detected at 1.8 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 57.13,
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "300 K; 500 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 44.23,
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "1.8 K; 500 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Effective relaxation barrier Ueff/kB",
+            "value": 39,
+            "unit": "K",
+            "conditions": "Fit of slow-relaxation data to Raman and Orbach processes"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Orbach prefactor τ0",
+            "value": "2.09 × 10⁻⁵",
+            "unit": "s",
+            "conditions": "Raman–Orbach fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula; synthesis",
+          "source": "main_text",
+          "location": "Section 2.1"
+        },
+        {
+          "field": "material_class; structure_description",
+          "source": "main_text",
+          "location": "Section 2.2; Figure 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 2.4; Figures 3, 5 and 6"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental section, Syntheses of the Complexes, synthesis of 2"
+        }
+      ],
+      "structure_description": "Related to the Dy4 core of 1, but tfaa occupies the changeable axial sites at Dy1/Dy1a in place of the axial ligands of 1. These two Dy sites become eight-coordinate, while the Dy2/Dy2a coordination spheres remain substantially unchanged."
+    },
+    {
+      "compound_label": "3",
+      "compound_name": "Tetranuclear dysprosium(III) acetylacetonate complex",
+      "formula": "[Dy4(L)4(OH)2(DMF)2(acac)2]·2DMF",
+      "ccdc_numbers": ["1830056"],
+      "ccdc_refcodes": ["CIKFUA"],
+      "material_class": {
+        "material_type": "cluster",
+        "nuclearity": 4,
+        "metal_composition": "homometallic",
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "other_metal_elements": [],
+        "dimensionality": "0D",
+        "structural_family": "Dy4O8-core tetranuclear cluster related to 2"
+      },
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "si_used": true,
+        "procedure": "Prepared in the same way as 2, substituting acetylacetonate precursor Hacac for Htfaa as the modified axial ligand. No reagent quantity is given in the main article.",
+        "reagents": [
+          {
+            "name": "dysprosium(III) nitrate hexahydrate",
+            "formula": "Dy(NO3)3·6H2O",
+            "role": "metal source in the shared preparation",
+            "amount": "0.3 mmol, 131.6 mg"
+          },
+          {
+            "name": "2-(2-hydroxy-3-methoxybenzylideneamino)phenol",
+            "formula": "H2L",
+            "role": "bridging ligand precursor",
+            "amount": "0.2 mmol, 48.6 mg"
+          },
+          {
+            "name": "NEt3",
+            "formula": "NEt3",
+            "role": "base in the shared preparation",
+            "amount": null
+          },
+          {
+            "name": "acetylacetone",
+            "formula": "Hacac",
+            "role": "axial-ligand precursor",
+            "amount": "0.2 mmol, 0.03 mL"
+          },
+          {
+            "name": "triethylamine",
+            "formula": "NEt3",
+            "role": "base in the procedure for 2; added in two portions",
+            "amount": "0.4 mmol, 0.06 mL initially; 0.2 mmol, 0.03 mL with the axial-ligand precursor"
+          }
+        ],
+        "solvents": [
+          "acetonitrile (5 mL)",
+          "DMF (5 mL)"
+        ],
+        "temperature": "Room temperature during crystallization, following the procedure for 2",
+        "time": "Slow solvent evaporation for two days",
+        "ph": null,
+        "vessel_or_method": "Modification of the preparation of 2",
+        "workup_and_crystallization": "Yellow block-shaped crystals formed by slow solvent evaporation over two days and were collected by careful filtration.",
+        "yield": "37% based on Dy"
+      },
+      "properties": {
+        "reported": true,
+        "property_type": "magnetic",
+        "summary": "A single-molecule magnet with ferromagnetic intramolecular interactions and two relaxation regimes. Replacing tfaa in 2 with acac increases the fitted effective relaxation barrier. No hysteresis was detected at 1.8 K.",
+        "measurements": [
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 57.64,
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "300 K; 500 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 51.26,
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "12 K; 500 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "χMT",
+            "value": 54.75,
+            "unit": "cm³ K mol⁻¹",
+            "conditions": "1.8 K; 500 Oe dc field"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Effective relaxation barrier Ueff/kB",
+            "value": 94,
+            "unit": "K",
+            "conditions": "Fit of slow-relaxation data to Raman and Orbach processes"
+          },
+          {
+            "property_type": "magnetic",
+            "name": "Orbach prefactor τ0",
+            "value": "9.62 × 10⁻⁷",
+            "unit": "s",
+            "conditions": "Raman–Orbach fit"
+          }
+        ]
+      },
+      "source_locations": [
+        {
+          "field": "formula; synthesis",
+          "source": "main_text",
+          "location": "Section 2.1"
+        },
+        {
+          "field": "material_class; structure_description",
+          "source": "main_text",
+          "location": "Section 2.2; Figure 1"
+        },
+        {
+          "field": "properties",
+          "source": "main_text",
+          "location": "Section 2.4; Figures 3, 5 and 6"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Experimental section, Syntheses of the Complexes, synthesis of 3 (similar process to 2)"
+        }
+      ],
+      "structure_description": "Retains a Dy4O8 core closely related to that of 2. Acac replaces tfaa at the axial Dy1/Dy1a sites, which remain eight-coordinate; the Dy2/Dy2a coordination spheres and overall core change only slightly."
+    }
+  ]
+}

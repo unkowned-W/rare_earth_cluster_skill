@@ -1,9 +1,7 @@
 {
   "refcode": "MUFNOU",
   "ccdc_number": "2384464",
-  "dois": [
-    "10.1039/d4ce00966e"
-  ],
+  "dois": ["10.1039/D4CE00966E"],
   "source_data_block": null,
   "source_cif": "CIFs\\2384464.cif",
   "formula_moiety": "(C16 H12 Cl8 K1 O14 Tb1)n,H2 O1",
@@ -24,6 +22,7 @@
     {
       "label": "Tb1",
       "element": "Tb",
+      "occupancy": null,
       "oxygen_coordination_number": 8,
       "oxygen_neighbor_labels": [
         "O1",
@@ -39,6 +38,7 @@
     {
       "label": "Tb1_2",
       "element": "Tb",
+      "occupancy": null,
       "oxygen_coordination_number": 2,
       "oxygen_neighbor_labels": [
         "O7",
@@ -63,23 +63,12 @@
     "omitted_nonidentity_symmetry_bonds": 0,
     "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
   },
-  "description": "MUFNOU crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: (C16 H12 Cl8 K1 O14 Tb1)n,H2 O1. From the CIF bond table, Tb1 (Tb) has 8 O neighbors; Tb1_2 (Tb) has 2 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula [KTb(tcpa)2(H2O)6·H2O]∞. Explicit grouped units in the article formula/name: 6 H2O (explicit grouped unit in article formula).",
-  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
-  "article_compound": {
-    "doi": "10.1039/d4ce00966e",
-    "formula": "[KTb(tcpa)2(H2O)6·H2O]∞",
-    "compound_name": "catena-[potassium terbium bis(3,4,5,6-tetrachlorophthalate) hexaaqua monohydrate]",
-    "match_basis": "ccdc_number"
-  },
-  "formula_annotations": {
-    "ligand_counts": [
-      {
-        "unit": "H2O",
-        "count": 6,
-        "basis": "explicit grouped unit in article formula"
-      }
-    ],
-    "explicit_core_charges": [],
-    "explicit_oxidation_states": []
+  "description": "MUFNOU crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: (C16 H12 Cl8 K1 O14 Tb1)n,H2 O1. From the CIF bond table, Tb1 (Tb) has 8 O neighbors; Tb1_2 (Tb) has 2 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review.",
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": null,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
   }
 }

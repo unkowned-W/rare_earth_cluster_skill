@@ -1,91 +1,1377 @@
 {
-  "title": "Fluoride Bridges as Structure-Directing Motifs in 3d-4f Cluster Chemistry",
   "doi": "10.1021/ic300421x",
   "list_of_rare_earth_compounds": [
     {
-      "compound_label": "14",
-      "compound_name": "[{{CrF3(Me3tacn)}2Nd3(NO3)8(μ3-F)(H2O)]·6CH3CN",
-      "formula": "C18H44Cr2F7N14Nd3O25·6(C2H3N)",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "1",
+      "compound_name": "Cr2Ce2 phenanthroline–nitrate square",
+      "formula": "[{CrF2(phen)2}2{Ce(NO3)4}2]·4MeOH·H2O",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Ce"
+        ],
+        "structural_family": "fluoride-bridged Ln2Cr2 square"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 1",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, general synthesis and compound 1",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "A discrete Cr2Ce2 square linked by nearly linear Cr–F–Ce bridges; the Ce centers carry bidentate nitrate ligands.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "The general phenanthroline-series procedure mixed filtered methanolic solutions of cis-[CrF2(phen)2]NO3 and hydrated Ce(NO3)3, then allowed crystals to form at room temperature.",
+        "reagents": [
+          {
+            "amount": "0.82 mmol",
+            "formula": "[CrF2(phen)2]NO3",
+            "name": "cis-[CrF2(phen)2]NO3",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "0.81 mmol",
+            "formula": "Ce(NO3)3·aq",
+            "name": "hydrated cerium(III) nitrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "30 min precursor stirring; 24 h crystallization",
+        "vessel_or_method": "solution mixing and crystallization",
+        "workup_and_crystallization": "Filter precursor solution twice; decant suspended byproduct, wash crystals with methanol, and dry under dynamic vacuum; drying causes solvent loss.",
+        "yield": "74% based on Ce"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "2",
+      "compound_name": "Cr2Pr2 phenanthroline–nitrate square",
+      "formula": "[{CrF2(phen)2}2{Pr(NO3)4}2]·4MeOH·H2O",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Pr"
+        ],
+        "structural_family": "fluoride-bridged Ln2Cr2 square"
+      },
+      "properties": {
+        "measurements": [
+          {
+            "conditions": "300 K",
+            "name": "χT",
+            "property_type": "magnetic",
+            "unit": "cm3 K mol−1",
+            "value": "approximately 6.3"
+          }
+        ],
+        "property_type": "magnetic",
+        "reported": true,
+        "summary": "Temperature-dependent susceptibility was measured; χT falls steeply at low temperature. No out-of-phase ac susceptibility signal was observed."
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 1",
+          "source": "main_text"
+        },
+        {
+          "field": "properties",
+          "location": "Results and Discussion, Figure 6",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, general synthesis and compound 2",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "A discrete Cr2Pr2 square with nearly linear bridging Cr–F–Pr units.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Apply the general phenanthroline-series methanolic solution-mixing and room-temperature crystallization procedure.",
+        "reagents": [
+          {
+            "amount": "0.82 mmol",
+            "formula": "[CrF2(phen)2]NO3",
+            "name": "cis-[CrF2(phen)2]NO3",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "0.81 mmol",
+            "formula": "Pr(NO3)3·aq",
+            "name": "hydrated praseodymium(III) nitrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "30 min precursor stirring; 24 h crystallization",
+        "vessel_or_method": "solution mixing and crystallization",
+        "workup_and_crystallization": "Filter precursor solution, decant byproduct, wash crystals with methanol, and dry under dynamic vacuum.",
+        "yield": "82% based on Pr"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "3",
+      "compound_name": "Cr2Nd2 phenanthroline–nitrate square",
+      "formula": "[{CrF2(phen)2}2{Nd(NO3)4}2]·4MeOH·H2O",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Nd"
+        ],
+        "structural_family": "fluoride-bridged Ln2Cr2 square"
+      },
+      "properties": {
+        "measurements": [
+          {
+            "conditions": "300 K",
+            "name": "χT",
+            "property_type": "magnetic",
+            "unit": "cm3 K mol−1",
+            "value": "approximately 6.2"
+          }
+        ],
+        "property_type": "magnetic",
+        "reported": true,
+        "summary": "Temperature-dependent susceptibility was measured; χT rises again at the lowest temperatures after a local minimum. No out-of-phase ac susceptibility signal was observed."
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 2",
+          "source": "main_text"
+        },
+        {
+          "field": "properties",
+          "location": "Results and Discussion, Figure 6",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, general synthesis and compound 3",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "The crystallographically illustrated Cr2Nd2 square has nearly linear Cr–F–Nd bridges; each Nd is bound by four bidentate nitrates and two bridging fluorides.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Apply the general phenanthroline-series methanolic solution-mixing and room-temperature crystallization procedure.",
+        "reagents": [
+          {
+            "amount": "0.82 mmol",
+            "formula": "[CrF2(phen)2]NO3",
+            "name": "cis-[CrF2(phen)2]NO3",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "0.81 mmol",
+            "formula": "Nd(NO3)3·aq",
+            "name": "hydrated neodymium(III) nitrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "30 min precursor stirring; 24 h crystallization",
+        "vessel_or_method": "solution mixing and crystallization",
+        "workup_and_crystallization": "Filter precursor solution, decant byproduct, wash crystals with methanol, and dry under dynamic vacuum.",
+        "yield": "87% based on Nd"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "4",
+      "compound_name": "Cr2Sm2 phenanthroline–nitrate square",
+      "formula": "[{CrF2(phen)2}2{Sm(NO3)4}2]·4MeOH·H2O",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Sm"
+        ],
+        "structural_family": "fluoride-bridged Ln2Cr2 square"
+      },
+      "properties": {
+        "measurements": [
+          {
+            "conditions": "300 K",
+            "name": "χT",
+            "property_type": "magnetic",
+            "unit": "cm3 K mol−1",
+            "value": "approximately 4.0"
+          }
+        ],
+        "property_type": "magnetic",
+        "reported": true,
+        "summary": "Temperature-dependent susceptibility was measured; χT increases again below a low-temperature minimum. No out-of-phase ac susceptibility signal was observed."
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 1",
+          "source": "main_text"
+        },
+        {
+          "field": "properties",
+          "location": "Results and Discussion, Figure 6",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, general synthesis and compound 4",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "A discrete Cr2Sm2 square joined by nearly linear fluoride bridges.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Apply the general phenanthroline-series methanolic solution-mixing and room-temperature crystallization procedure.",
+        "reagents": [
+          {
+            "amount": "0.82 mmol",
+            "formula": "[CrF2(phen)2]NO3",
+            "name": "cis-[CrF2(phen)2]NO3",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "0.81 mmol",
+            "formula": "Sm(NO3)3·aq",
+            "name": "hydrated samarium(III) nitrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "30 min precursor stirring; 24 h crystallization",
+        "vessel_or_method": "solution mixing and crystallization",
+        "workup_and_crystallization": "Filter precursor solution, decant byproduct, wash crystals with methanol, and dry under dynamic vacuum.",
+        "yield": "87% based on Sm"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "5",
+      "compound_name": "Cr2Eu2 phenanthroline–nitrate square",
+      "formula": "[{CrF2(phen)2}2{Eu(NO3)4}2]·4MeOH·H2O",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "structural_family": "fluoride-bridged Ln2Cr2 square"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 1",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, general synthesis and compound 5",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "A discrete Cr2Eu2 square joined by nearly linear fluoride bridges.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Apply the general phenanthroline-series methanolic solution-mixing and room-temperature crystallization procedure.",
+        "reagents": [
+          {
+            "amount": "0.82 mmol",
+            "formula": "[CrF2(phen)2]NO3",
+            "name": "cis-[CrF2(phen)2]NO3",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "0.81 mmol",
+            "formula": "Eu(NO3)3·aq",
+            "name": "hydrated europium(III) nitrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "30 min precursor stirring; 24 h crystallization",
+        "vessel_or_method": "solution mixing and crystallization",
+        "workup_and_crystallization": "Filter precursor solution, decant byproduct, wash crystals with methanol, and dry under dynamic vacuum.",
+        "yield": "37% based on Eu"
+      }
+    },
+    {
+      "ccdc_numbers": [
+        "837951"
+      ],
+      "ccdc_refcodes": [],
+      "compound_label": "6",
+      "compound_name": "Cr2Gd2 phenanthroline–nitrate square",
+      "formula": "[{CrF2(phen)2}2{Gd(NO3)4}2]·MeOH·H2O",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "structural_family": "fluoride-bridged Ln2Cr2 square"
+      },
+      "properties": {
+        "measurements": [
+          {
+            "conditions": "Methanol/acetonitrile 1:4, room temperature; Gd nitrate added to chromium precursor, spectra recorded over 30 min",
+            "name": "blue shift of first spin-allowed Cr(III) ligand-field band",
+            "property_type": "optical",
+            "unit": "cm−1",
+            "value": 460
+          },
+          {
+            "conditions": "Fit of χT and magnetization data; Hamiltonian H = J S1·S2",
+            "name": "Cr–Gd exchange coupling J",
+            "property_type": "magnetic",
+            "unit": "cm−1",
+            "value": 0.71
+          }
+        ],
+        "property_type": "both",
+        "reported": true,
+        "summary": "Antiferromagnetic fluoride-mediated Cr–Gd exchange was quantified. UV–vis spectra of the forming assembly show a ligand-field-band shift."
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 2",
+          "source": "main_text"
+        },
+        {
+          "field": "properties",
+          "location": "Results and Discussion, Figures 4 and 7",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, general synthesis and compound 6",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_numbers",
+          "location": "Experimental Section, X-ray Crystallography",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "The crystallographically characterized Cr2Gd2 square has nearly linear Cr–F–Gd bridges; each Gd is coordinated by four bidentate nitrates and two bridging fluorides.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Apply the general phenanthroline-series methanolic solution-mixing and room-temperature crystallization procedure.",
+        "reagents": [
+          {
+            "amount": "0.82 mmol",
+            "formula": "[CrF2(phen)2]NO3",
+            "name": "cis-[CrF2(phen)2]NO3",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "0.81 mmol",
+            "formula": "Gd(NO3)3·aq",
+            "name": "hydrated gadolinium(III) nitrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "30 min precursor stirring; 24 h crystallization",
+        "vessel_or_method": "solution mixing and crystallization",
+        "workup_and_crystallization": "Filter precursor solution, decant byproduct, wash crystals with methanol, and dry under dynamic vacuum.",
+        "yield": "27% based on Gd"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "7",
+      "compound_name": "Cr2Tb2 phenanthroline–nitrate square",
+      "formula": "[{CrF2(phen)2}2{Tb(NO3)4}2]·4MeOH·H2O",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "structural_family": "fluoride-bridged Ln2Cr2 square"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 1",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, general synthesis and compound 7",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "A discrete Cr2Tb2 square joined by nearly linear fluoride bridges.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Apply the general phenanthroline-series methanolic solution-mixing and room-temperature crystallization procedure.",
+        "reagents": [
+          {
+            "amount": "0.82 mmol",
+            "formula": "[CrF2(phen)2]NO3",
+            "name": "cis-[CrF2(phen)2]NO3",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "0.81 mmol",
+            "formula": "Tb(NO3)3·aq",
+            "name": "hydrated terbium(III) nitrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "30 min precursor stirring; 24 h crystallization",
+        "vessel_or_method": "solution mixing and crystallization",
+        "workup_and_crystallization": "Filter precursor solution, decant byproduct, wash crystals with methanol, and dry under dynamic vacuum.",
+        "yield": "5.5% based on Tb"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "8",
+      "compound_name": "Cr2Dy2 phenanthroline–nitrate square",
+      "formula": "[{CrF2(phen)2}2{Dy(NO3)4}2]·4MeOH·H2O",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "structural_family": "fluoride-bridged Ln2Cr2 square"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "magnetic",
+        "reported": true,
+        "summary": "Ac susceptibility showed no out-of-phase signal and no single-molecule-magnet behavior; the isolated crystalline sample contained an impurity."
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 1",
+          "source": "main_text"
+        },
+        {
+          "field": "properties",
+          "location": "Results and Discussion, ac susceptibility discussion",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, general synthesis and compound 8",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Assigned to the fluoride-bridged Cr2Dy2 square series by powder diffraction; the reported sample contains a crystalline impurity.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Apply the general phenanthroline-series methanolic solution-mixing and room-temperature crystallization procedure.",
+        "reagents": [
+          {
+            "amount": "0.82 mmol",
+            "formula": "[CrF2(phen)2]NO3",
+            "name": "cis-[CrF2(phen)2]NO3",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "0.81 mmol",
+            "formula": "Dy(NO3)3·aq",
+            "name": "hydrated dysprosium(III) nitrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "30 min precursor stirring; 24 h crystallization",
+        "vessel_or_method": "solution mixing and crystallization",
+        "workup_and_crystallization": "Filter precursor solution, decant byproduct, wash crystals with methanol, and dry under dynamic vacuum.",
+        "yield": "1.8% based on Dy"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "9",
+      "compound_name": "Cr2Ho2 phenanthroline–nitrate square",
+      "formula": "[{CrF2(phen)2}2{Ho(NO3)4}2]·4MeOH·H2O",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "structural_family": "fluoride-bridged Ln2Cr2 square"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, compounds 1–9",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, general synthesis and compound 9",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Reported as the Ho analogue of the discrete fluoride-bridged Cr2Ln2 square series; only a few crystals were obtained.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Apply the general phenanthroline-series methanolic solution-mixing and room-temperature crystallization procedure.",
+        "reagents": [
+          {
+            "amount": "0.82 mmol",
+            "formula": "[CrF2(phen)2]NO3",
+            "name": "cis-[CrF2(phen)2]NO3",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "0.81 mmol",
+            "formula": "Ho(NO3)3·aq",
+            "name": "hydrated holmium(III) nitrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "room temperature",
+        "time": "30 min precursor stirring; 24 h crystallization",
+        "vessel_or_method": "solution mixing and crystallization",
+        "workup_and_crystallization": "Filter precursor solution, decant byproduct, wash crystals with methanol, and dry under dynamic vacuum.",
+        "yield": "few crystals"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "10",
+      "compound_name": "Cr2Sm3 Me3tame–hfac fluoride-bridged cluster",
+      "formula": "[{CrF3(Me3tame)}2Sm3(hfac)6(μ-F)3]·7CH3CN",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 5,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Sm"
+        ],
+        "structural_family": "fluoride-bridged Ln3Cr2 trigonal bipyramid"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, pentanuclear-cluster discussion",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, synthesis of compounds 10–13",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Three Sm ions form an equatorial fluoride-bridged triangle, capped on both faces by nonchelating {CrF3(Me3tame)} units.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Add a solution of hydrated Sm(hfac)3 in acetonitrile to a suspension of fac-[CrF3(Me3tame)]·3H2O in acetonitrile, stir, filter, and retain the filtrate for crystallization.",
+        "reagents": [
+          {
+            "amount": "0.61 mmol",
+            "formula": "Sm(hfac)3(H2O)2",
+            "name": "hydrated samarium(III) hexafluoroacetylacetonate",
+            "role": "lanthanide source"
+          },
+          {
+            "amount": "0.41 mmol",
+            "formula": "[CrF3(Me3tame)]·3H2O",
+            "name": "fac-[CrF3(Me3tame)]·3H2O",
+            "role": "chromium precursor"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "acetonitrile"
+        ],
+        "temperature": null,
+        "time": "2 min stirring; 24 h crystallization",
+        "vessel_or_method": "solution addition to suspension followed by filtration",
+        "workup_and_crystallization": "Red-purple crystals form from the filtrate; removal from mother liquor causes desolvation and deterioration.",
+        "yield": "20–25% based on Sm"
+      }
+    },
+    {
+      "ccdc_numbers": [
+        "838474"
+      ],
+      "ccdc_refcodes": [
+        "GAYLOJ"
+      ],
+      "compound_label": "11",
+      "compound_name": "Cr2Gd3 Me3tame–hfac fluoride-bridged cluster",
+      "formula": "[{CrF3(Me3tame)}2Gd3(hfac)6(μ-F)3]·7CH3CN",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 5,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "structural_family": "fluoride-bridged Ln3Cr2 trigonal bipyramid"
+      },
+      "properties": {
+        "measurements": [
+          {
+            "conditions": "Fit of χT and magnetization data; Hamiltonian H = J S1·S2",
+            "name": "Cr–Gd exchange coupling J",
+            "property_type": "magnetic",
+            "unit": "cm−1",
+            "value": "0.14(0)"
+          },
+          {
+            "conditions": "Same magnetic fit",
+            "name": "Gd–Gd exchange coupling J",
+            "property_type": "magnetic",
+            "unit": "cm−1",
+            "value": "0.06(0)"
+          },
+          {
+            "conditions": "2.2 K; field change 90 to 0 kOe",
+            "name": "maximum magnetic entropy change −ΔSm",
+            "property_type": "magnetic",
+            "unit": "J kg−1 K−1",
+            "value": 28.7
+          }
+        ],
+        "property_type": "magnetic",
+        "reported": true,
+        "summary": "Weak antiferromagnetic exchange accompanies a large measured low-temperature magnetocaloric effect."
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 3",
+          "source": "main_text"
+        },
+        {
+          "field": "properties",
+          "location": "Results and Discussion, Figures 7–9",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, synthesis of compounds 10–13",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_numbers",
+          "location": "Experimental Section, X-ray Crystallography: 838473 assigned to 11",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "location": "Supplied catalog: GAYLOJ has Gd formula but pairs it with 838474, contrary to the article's CCDC assignment",
+          "source": "external_metadata"
+        }
+      ],
+      "structure_description": "A Cr2Gd3 trigonal bipyramid: an equatorial triangle of fluoride-bridged Gd ions is capped above and below by {CrF3(Me3tame)} units; Cr–F–Gd and Gd–F–Gd bridges are bent near 140°.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Add a solution of hydrated Gd(hfac)3 in acetonitrile to a suspension of fac-[CrF3(Me3tame)]·3H2O in acetonitrile, stir, filter, and retain the filtrate for crystallization.",
+        "reagents": [
+          {
+            "amount": "0.61 mmol",
+            "formula": "Gd(hfac)3(H2O)2",
+            "name": "hydrated gadolinium(III) hexafluoroacetylacetonate",
+            "role": "lanthanide source"
+          },
+          {
+            "amount": "0.41 mmol",
+            "formula": "[CrF3(Me3tame)]·3H2O",
+            "name": "fac-[CrF3(Me3tame)]·3H2O",
+            "role": "chromium precursor"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "acetonitrile"
+        ],
+        "temperature": null,
+        "time": "2 min stirring; 24 h crystallization",
+        "vessel_or_method": "solution addition to suspension followed by filtration",
+        "workup_and_crystallization": "Red-purple crystals form from the filtrate; removal from mother liquor causes desolvation and deterioration.",
+        "yield": "20–25% based on Gd"
+      }
+    },
+    {
+      "ccdc_numbers": [
+        "838473"
+      ],
+      "ccdc_refcodes": [
+        "GAYLID"
+      ],
+      "compound_label": "12",
+      "compound_name": "Cr2Ho3 Me3tame–hfac fluoride-bridged cluster",
+      "formula": "[{CrF3(Me3tame)}2Ho3(hfac)6(μ-F)3]·7CH3CN",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 5,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Ho"
+        ],
+        "structural_family": "fluoride-bridged Ln3Cr2 trigonal bipyramid"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 3",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, synthesis of compounds 10–13",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_numbers",
+          "location": "Experimental Section, X-ray Crystallography: 838474 assigned to 12",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "location": "Supplied catalog: GAYLID has Ho formula but pairs it with 838473, contrary to the article's CCDC assignment",
+          "source": "external_metadata"
+        }
+      ],
+      "structure_description": "A Cr2Ho3 trigonal bipyramid with a fluoride-bridged equatorial Ho triangle capped on both faces by {CrF3(Me3tame)} units.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Add a solution of hydrated Ho(hfac)3 in acetonitrile to a suspension of fac-[CrF3(Me3tame)]·3H2O in acetonitrile, stir, filter, and retain the filtrate for crystallization.",
+        "reagents": [
+          {
+            "amount": "0.61 mmol",
+            "formula": "Ho(hfac)3(H2O)2",
+            "name": "hydrated holmium(III) hexafluoroacetylacetonate",
+            "role": "lanthanide source"
+          },
+          {
+            "amount": "0.41 mmol",
+            "formula": "[CrF3(Me3tame)]·3H2O",
+            "name": "fac-[CrF3(Me3tame)]·3H2O",
+            "role": "chromium precursor"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "acetonitrile"
+        ],
+        "temperature": null,
+        "time": "2 min stirring; 24 h crystallization",
+        "vessel_or_method": "solution addition to suspension followed by filtration",
+        "workup_and_crystallization": "Red-purple crystals form from the filtrate; removal from mother liquor causes desolvation and deterioration.",
+        "yield": "20–25% based on Ho"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "13",
+      "compound_name": "Cr2Yb3 Me3tame–hfac fluoride-bridged cluster",
+      "formula": "[{CrF3(Me3tame)}2Yb3(hfac)6(μ-F)3]·7CH3CN",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 5,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "structural_family": "fluoride-bridged Ln3Cr2 trigonal bipyramid"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, compounds 10–13",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, synthesis of compounds 10–13",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Reported as a Cr2Yb3 member of the fluoride-bridged trigonal-bipyramidal series, with a Yb triangle capped by two {CrF3(Me3tame)} units.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Add a solution of hydrated Yb(hfac)3 in acetonitrile to a suspension of fac-[CrF3(Me3tame)]·3H2O in acetonitrile, stir, filter, and retain the filtrate for crystallization.",
+        "reagents": [
+          {
+            "amount": "0.61 mmol",
+            "formula": "Yb(hfac)3(H2O)2",
+            "name": "hydrated ytterbium(III) hexafluoroacetylacetonate",
+            "role": "lanthanide source"
+          },
+          {
+            "amount": "0.41 mmol",
+            "formula": "[CrF3(Me3tame)]·3H2O",
+            "name": "fac-[CrF3(Me3tame)]·3H2O",
+            "role": "chromium precursor"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "acetonitrile"
+        ],
+        "temperature": null,
+        "time": "2 min stirring; 24 h crystallization",
+        "vessel_or_method": "solution addition to suspension followed by filtration",
+        "workup_and_crystallization": "Red-purple crystals form from the filtrate; removal from mother liquor causes desolvation and deterioration.",
+        "yield": "20–25% based on Yb"
+      }
+    },
+    {
       "ccdc_numbers": [
         "861406"
       ],
       "ccdc_refcodes": [
         "GAYMAW"
       ],
+      "compound_label": "14",
+      "compound_name": "Cr2Nd3 Me3tacn–nitrate fluoride-centered cluster",
+      "formula": "[{CrF3(Me3tacn)}2Nd3(NO3)8(μ3-F)(H2O)]·6CH3CN",
       "material_class": {
+        "dimensionality": "0D",
         "material_type": "cluster",
-        "nuclearity": 5,
         "metal_composition": "heterometallic",
-        "rare_earth_elements": [
-          "Nd"
-        ],
+        "nuclearity": 5,
         "other_metal_elements": [
           "Cr"
         ],
-        "dimensionality": "0D",
-        "structural_family": "fluoride-centered pentanuclear {Nd3Cr2} trigonal bipyramid"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "A solution of fac-[CrF3(Me3tacn)] (0.100 g, 0.36 mmol) in MeCN (10 mL) was allowed to diffuse through a porous glass frit (D4) into a solution of Nd(NO3)3·6H2O (0.205 g, 0.47 mmol) in MeCN (20 mL) at 5 °C. Over a period of days pink rod-shaped crystals of 14 develop. The crystals are often hollow and encapsulate mother liquor; upon drying they lose solvent and crumble. The best elemental analyses were obtained by gently crushing the crystalline product, repeated washing with MeCN, and storage below 0 °C.",
-        "reagents": [
-          {
-            "name": "fac-[CrF3(Me3tacn)]",
-            "formula": "CrF3(C9H21N3)",
-            "role": "Cr(III) fluoride building block",
-            "amount": "0.100 g, 0.36 mmol"
-          },
-          {
-            "name": "neodymium(III) nitrate hexahydrate",
-            "formula": "Nd(NO3)3·6H2O",
-            "role": "lanthanide source",
-            "amount": "0.205 g, 0.47 mmol"
-          }
+        "rare_earth_elements": [
+          "Nd"
         ],
-        "solvents": [
-          "MeCN"
-        ],
-        "temperature": "5 °C",
-        "time": "over a period of days",
-        "ph": null,
-        "vessel_or_method": "slow diffusion through a porous glass frit (D4)",
-        "workup_and_crystallization": "Pink rod-shaped crystals form from the diffusion setup. Best analyses: gently crush crystals, wash repeatedly with MeCN, and store below 0 °C.",
-        "yield": null
+        "structural_family": "fluoride-centered Ln3Cr2 trigonal bipyramid"
       },
       "properties": {
-        "reported": false,
+        "measurements": [],
         "property_type": "none",
-        "summary": null,
-        "measurements": []
+        "reported": false,
+        "summary": null
       },
       "source_locations": [
         {
-          "field": "compound_label",
-          "source": "main_text",
-          "location": "Experimental Section, synthesis of 14; X-ray Crystallography (CCDC 861406)"
-        },
-        {
-          "field": "formula",
-          "source": "external_metadata",
-          "location": "CCDC GAYMAW / 861406"
-        },
-        {
-          "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "X-ray Crystallography paragraph"
-        },
-        {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "Abstract; Results and Discussion; Figure 3; Scheme 1"
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 3",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, synthesis of 14"
+          "location": "Experimental Section, synthesis of compound 14",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_numbers",
+          "location": "Experimental Section, X-ray Crystallography",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_refcodes",
+          "location": "Supplied catalog, GAYMAW Nd3Cr2 formula",
+          "source": "external_metadata"
         }
-      ]
+      ],
+      "structure_description": "A pentanuclear cluster with three Nd centers in a nitrate-bridged equatorial triangle around a central μ3-fluoride, capped above and below by nonchelating {CrF3(Me3tacn)} units.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Allow an acetonitrile solution of fac-[CrF3(Me3tacn)] to diffuse through a porous glass frit into an acetonitrile solution of Nd(NO3)3·6H2O at 5 °C.",
+        "reagents": [
+          {
+            "amount": "0.100 g; 0.36 mmol",
+            "formula": "[CrF3(Me3tacn)]",
+            "name": "fac-[CrF3(Me3tacn)]",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "0.205 g; 0.47 mmol",
+            "formula": "Nd(NO3)3·6H2O",
+            "name": "neodymium(III) nitrate hexahydrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "acetonitrile"
+        ],
+        "temperature": "5 °C; storage below 0 °C for analytical sample",
+        "time": "crystals develop over several days",
+        "vessel_or_method": "diffusion through a D4 porous glass frit",
+        "workup_and_crystallization": "Pink rod-shaped crystals develop; gently crush, wash repeatedly with acetonitrile, and store below 0 °C to limit solvent loss.",
+        "yield": null
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": null,
+      "compound_name": "Cr2Nd2 bipyridine–nitrate square",
+      "formula": "[{CrF2(bpy)2}2{Nd(NO3)4}2]",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Nd"
+        ],
+        "structural_family": "fluoride-bridged Ln2Cr2 square"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, bipyridine analogue discussion",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, bipyridine-series synthesis; details stated to be in Supporting Information",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_numbers",
+          "location": "Experimental Section, X-ray Crystallography gives 860725 for this Nd bipyridine structure",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Supporting Information, §S4, common synthesis procedure and yields (Ln = Nd)"
+        }
+      ],
+      "structure_description": "A solvent-free Cr2Nd2 fluoride-bridged square related to the phenanthroline series; the bipyridine structures crystallize in orthorhombic I222.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "ph": null,
+        "procedure": "The main article says the preparation proceeds similarly to the phenanthroline analogues, but places its details in the unsupplied Supporting Information.",
+        "reagents": [
+          {
+            "amount": "1.00 g; 2.15 mmol",
+            "formula": "cis-[CrF2(bipy)2](NO3)",
+            "name": "cis-[CrF2(bipy)2](NO3)",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "ca. 1.1 g; 2.15 mmol",
+            "formula": "Nd(NO3)3·6H2O",
+            "name": "neodymium(III) nitrate hexahydrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": true,
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "ice bath before mixing",
+        "time": "30 min cooling; 30 min stirring after mixing",
+        "vessel_or_method": "mixing separately prepared methanolic solutions followed by precipitation",
+        "workup_and_crystallization": "Filter the chromium solution through a 0.22 μm Teflon filter before mixing. Isolate the precipitate by filtration, wash repeatedly with methanol (4 × 5 mL), and air-dry.",
+        "yield": "1.370 g (80%)"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": null,
+      "compound_name": "Cr2Sm2 bipyridine–nitrate square",
+      "formula": "[{CrF2(bpy)2}2{Sm(NO3)4}2]",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Sm"
+        ],
+        "structural_family": "fluoride-bridged Ln2Cr2 square"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, bipyridine analogue discussion",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, bipyridine-series synthesis; details stated to be in Supporting Information",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Supporting Information, §S4, common synthesis procedure and yields (Ln = Sm)"
+        }
+      ],
+      "structure_description": "A solvent-free Cr2Sm2 fluoride-bridged square in the reported bipyridine analogue series.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "ph": null,
+        "procedure": "The main article says the preparation proceeds similarly to the phenanthroline analogues, but places its details in the unsupplied Supporting Information.",
+        "reagents": [
+          {
+            "amount": "1.00 g; 2.15 mmol",
+            "formula": "cis-[CrF2(bipy)2](NO3)",
+            "name": "cis-[CrF2(bipy)2](NO3)",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "ca. 1.1 g; 2.15 mmol",
+            "formula": "Sm(NO3)3·6H2O",
+            "name": "samarium(III) nitrate hexahydrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": true,
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "ice bath before mixing",
+        "time": "30 min cooling; 30 min stirring after mixing",
+        "vessel_or_method": "mixing separately prepared methanolic solutions followed by precipitation",
+        "workup_and_crystallization": "Filter the chromium solution through a 0.22 μm Teflon filter before mixing. Isolate the precipitate by filtration, wash repeatedly with methanol (4 × 5 mL), and air-dry.",
+        "yield": "1.270 g (74%)"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": null,
+      "compound_name": "Cr2Eu2 bipyridine–nitrate square",
+      "formula": "[{CrF2(bpy)2}2{Eu(NO3)4}2]",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "structural_family": "fluoride-bridged Ln2Cr2 square"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, bipyridine analogue discussion",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, bipyridine-series synthesis; details stated to be in Supporting Information",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Supporting Information, §S4, common synthesis procedure and yields (Ln = Eu)"
+        }
+      ],
+      "structure_description": "A solvent-free Cr2Eu2 fluoride-bridged square in the reported bipyridine analogue series.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "ph": null,
+        "procedure": "The main article says the preparation proceeds similarly to the phenanthroline analogues, but places its details in the unsupplied Supporting Information.",
+        "reagents": [
+          {
+            "amount": "1.00 g; 2.15 mmol",
+            "formula": "cis-[CrF2(bipy)2](NO3)",
+            "name": "cis-[CrF2(bipy)2](NO3)",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "ca. 1.1 g; 2.15 mmol",
+            "formula": "Eu(NO3)3·6H2O",
+            "name": "europium(III) nitrate hexahydrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": true,
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "ice bath before mixing",
+        "time": "30 min cooling; 30 min stirring after mixing",
+        "vessel_or_method": "mixing separately prepared methanolic solutions followed by precipitation",
+        "workup_and_crystallization": "Filter the chromium solution through a 0.22 μm Teflon filter before mixing. Isolate the precipitate by filtration, wash repeatedly with methanol (4 × 5 mL), and air-dry.",
+        "yield": "1.558 g (90%)"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": null,
+      "compound_name": "Cr2Gd2 bipyridine–nitrate square",
+      "formula": "[{CrF2(bpy)2}2{Gd(NO3)4}2]",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "Cr"
+        ],
+        "rare_earth_elements": [
+          "Gd"
+        ],
+        "structural_family": "fluoride-bridged Ln2Cr2 square"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, bipyridine analogue discussion",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, bipyridine-series synthesis; details stated to be in Supporting Information",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Supporting Information, §S4, common synthesis procedure and yields (Ln = Gd)"
+        }
+      ],
+      "structure_description": "A solvent-free Cr2Gd2 fluoride-bridged square in the reported bipyridine analogue series.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "ph": null,
+        "procedure": "The main article says the preparation proceeds similarly to the phenanthroline analogues, but places its details in the unsupplied Supporting Information.",
+        "reagents": [
+          {
+            "amount": "1.00 g; 2.15 mmol",
+            "formula": "cis-[CrF2(bipy)2](NO3)",
+            "name": "cis-[CrF2(bipy)2](NO3)",
+            "role": "chromium precursor"
+          },
+          {
+            "amount": "ca. 1.1 g; 2.15 mmol",
+            "formula": "Gd(NO3)3·6H2O",
+            "name": "gadolinium(III) nitrate hexahydrate",
+            "role": "lanthanide source"
+          }
+        ],
+        "si_used": true,
+        "solvents": [
+          "methanol"
+        ],
+        "temperature": "ice bath before mixing",
+        "time": "30 min cooling; 30 min stirring after mixing",
+        "vessel_or_method": "mixing separately prepared methanolic solutions followed by precipitation",
+        "workup_and_crystallization": "Filter the chromium solution through a 0.22 μm Teflon filter before mixing. Isolate the precipitate by filtration, wash repeatedly with methanol (4 × 5 mL), and air-dry.",
+        "yield": "1.202 g (69%)"
+      }
     }
-  ]
+  ],
+  "title": "Fluoride Bridges as Structure-Directing Motifs in 3d-4f Cluster Chemistry"
 }

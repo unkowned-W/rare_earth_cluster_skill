@@ -1,0 +1,91 @@
+{
+  "refcode": "FIRKOG",
+  "ccdc_number": "1156991",
+  "dois": [
+    "10.1021/ja00247a017"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\1156991.cif",
+  "formula_moiety": "C60 H90 Cl3 Sm3",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "C 2/c",
+  "international_tables_number": "15",
+  "unit_cell": {
+    "a": "21.665(10)",
+    "b": "14.203(8)",
+    "c": "20.234(8)",
+    "alpha": "90",
+    "beta": "108.63(6)",
+    "gamma": "90",
+    "volume": "5899.92",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm1",
+      "element": "Sm",
+      "occupancy": null,
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Sm2",
+      "element": "Sm",
+      "occupancy": null,
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Sm1B",
+      "element": "Sm",
+      "occupancy": null,
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Sm1"
+      ],
+      [
+        "Sm1B"
+      ],
+      [
+        "Sm2"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "FIRKOG crystallizes in the monoclinic crystal system with space group C 2/c. Reported CIF formula moiety: C60 H90 Cl3 Sm3. From the CIF bond table, Sm1 (Sm) has 0 O neighbors; Sm2 (Sm) has 0 O neighbors; Sm1B (Sm) has 0 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula [(C5Me5)2Sm(μ-Cl)]3. Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/ja00247a017",
+    "formula": "[(C5Me5)2Sm(μ-Cl)]3",
+    "compound_name": "tris[bis(pentamethylcyclopentadienyl)samarium(III) μ-chloride]",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 3,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

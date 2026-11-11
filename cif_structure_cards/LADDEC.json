@@ -1,0 +1,176 @@
+{
+  "refcode": "LADDEC",
+  "ccdc_number": "1442143",
+  "dois": [
+    "10.1039/c5ce02503f"
+  ],
+  "source_data_block": "LADDEC",
+  "source_cif": "CIFs\\1442143.cif",
+  "formula_moiety": "C28 H52 Dy2 N6 Ni2 O30,8(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "9.1672(18)",
+    "b": "12.170(2)",
+    "c": "12.442(3)",
+    "alpha": "85.92(3)",
+    "beta": "79.65(3)",
+    "gamma": "68.68(3)",
+    "volume": "1272.03",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "occupancy": null,
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O17",
+        "O26",
+        "O31",
+        "O4",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Ni1",
+      "element": "Ni",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O24",
+        "O36",
+        "O4"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "occupancy": null,
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O18",
+        "O19",
+        "O20",
+        "O22",
+        "O25",
+        "O27",
+        "O28",
+        "O32"
+      ]
+    },
+    {
+      "label": "Ni2",
+      "element": "Ni",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O18",
+        "O30",
+        "O33",
+        "O35"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Ni1"
+        ],
+        "shared_oxygen_labels": [
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 4.448,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 153.79,
+            "metal_oxygen_distances_angstrom": [
+              2.459,
+              2.108
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Ni2"
+        ],
+        "shared_oxygen_labels": [
+          "O18"
+        ],
+        "metal_metal_separation_angstrom": 4.448,
+        "bridge_geometry": [
+          {
+            "oxygen": "O18",
+            "angle_deg": 153.79,
+            "metal_oxygen_distances_angstrom": [
+              2.459,
+              2.108
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Ni1"
+      ],
+      [
+        "Dy2",
+        "Ni2"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LADDEC crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C28 H52 Dy2 N6 Ni2 O30,8(H2 O1). From the CIF bond table, Dy1 (Dy) has 9 O neighbors; Ni1 (Ni) has 4 O neighbors; Dy2 (Dy) has 9 O neighbors; Ni2 (Ni) has 4 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.448-4.448 Å (not direct metal-metal bonds). Computed M-O-M angles span 153.79-153.79°; individual values and O labels are in metal_framework.links. Article card reports molecular formula {[LaNi(dcta)(H2O)6](ClO4)·(H2O)3}n. Explicit grouped units in the article formula/name: 6 H2O (explicit grouped unit in article formula), 3 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c5ce02503f",
+    "formula": "{[LaNi(dcta)(H2O)6](ClO4)·(H2O)3}n",
+    "compound_name": "La–Ni dcta perchlorate coordination polymer",
+    "match_basis": "ccdc_number"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": null,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 6,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 3,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  },
+  "external_cif_metadata": "D:\\workspace\\Cluster_agent\\data\\process_csv\\cif_card_ready_metadata.csv"
+}

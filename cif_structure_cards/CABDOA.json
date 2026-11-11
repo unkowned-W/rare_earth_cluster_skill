@@ -1,0 +1,201 @@
+{
+  "refcode": "CABDOA",
+  "ccdc_number": "765410",
+  "dois": [
+    "10.1002/ejic.201000325"
+  ],
+  "source_data_block": "CABDOA",
+  "source_cif": "CIFs\\765410.cif",
+  "formula_moiety": "C71 H56 Eu3 N7 O10",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "13.6229(3)",
+    "b": "23.7329(5)",
+    "c": "19.6912(4)",
+    "alpha": "90",
+    "beta": "106.2920(10)",
+    "gamma": "90",
+    "volume": "6110.73",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O9"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O3",
+        "O4",
+        "O5",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Eu1",
+          "Eu2"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O4",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.586,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 97.54,
+            "metal_oxygen_distances_angstrom": [
+              2.397,
+              2.371
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 98.92,
+            "metal_oxygen_distances_angstrom": [
+              2.352,
+              2.367
+            ]
+          },
+          {
+            "oxygen": "O9",
+            "angle_deg": 91.85,
+            "metal_oxygen_distances_angstrom": [
+              2.535,
+              2.455
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu1",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 4.984,
+        "bridge_geometry": [
+          {
+            "oxygen": "O9",
+            "angle_deg": 159.07,
+            "metal_oxygen_distances_angstrom": [
+              2.535,
+              2.533
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Eu2",
+          "Eu3"
+        ],
+        "shared_oxygen_labels": [
+          "O7",
+          "O8",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 3.565,
+        "bridge_geometry": [
+          {
+            "oxygen": "O7",
+            "angle_deg": 95.56,
+            "metal_oxygen_distances_angstrom": [
+              2.397,
+              2.417
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 99.26,
+            "metal_oxygen_distances_angstrom": [
+              2.316,
+              2.364
+            ]
+          },
+          {
+            "oxygen": "O9",
+            "angle_deg": 91.23,
+            "metal_oxygen_distances_angstrom": [
+              2.455,
+              2.533
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Eu1",
+        "Eu2",
+        "Eu3"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "CABDOA crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C71 H56 Eu3 N7 O10. From the CIF bond table, Eu1 (Eu) has 5 O neighbors; Eu2 (Eu) has 6 O neighbors; Eu3 (Eu) has 5 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a network with cycles with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.565-4.984 Å (not direct metal-metal bonds). Computed M-O-M angles span 91.23-159.07°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C71H56Eu3N7O10.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/ejic.201000325",
+    "formula": "C71H56Eu3N7O10",
+    "compound_name": "Trieuropium 8-quinaldinolate carbonate",
+    "match_basis": "ccdc_number"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 3,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  },
+  "external_cif_metadata": "D:\\workspace\\Cluster_agent\\data\\process_csv\\cif_card_ready_metadata.csv"
+}

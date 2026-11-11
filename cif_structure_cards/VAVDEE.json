@@ -24,6 +24,7 @@
     {
       "label": "La3A",
       "element": "La",
+      "occupancy": null,
       "oxygen_coordination_number": 9,
       "oxygen_neighbor_labels": [
         "O19",
@@ -40,6 +41,7 @@
     {
       "label": "La4A",
       "element": "La",
+      "occupancy": null,
       "oxygen_coordination_number": 9,
       "oxygen_neighbor_labels": [
         "O20",
@@ -56,6 +58,7 @@
     {
       "label": "La3A_2",
       "element": "La",
+      "occupancy": null,
       "oxygen_coordination_number": 2,
       "oxygen_neighbor_labels": [
         "O32",
@@ -65,6 +68,7 @@
     {
       "label": "La4A_2",
       "element": "La",
+      "occupancy": null,
       "oxygen_coordination_number": 1,
       "oxygen_neighbor_labels": [
         "O38"
@@ -73,6 +77,7 @@
     {
       "label": "La1",
       "element": "La",
+      "occupancy": null,
       "oxygen_coordination_number": 9,
       "oxygen_neighbor_labels": [
         "O1",
@@ -89,6 +94,7 @@
     {
       "label": "La2",
       "element": "La",
+      "occupancy": null,
       "oxygen_coordination_number": 9,
       "oxygen_neighbor_labels": [
         "O10",
@@ -105,6 +111,7 @@
     {
       "label": "La1_2",
       "element": "La",
+      "occupancy": null,
       "oxygen_coordination_number": 4,
       "oxygen_neighbor_labels": [
         "O2",
@@ -116,6 +123,7 @@
     {
       "label": "La2_2",
       "element": "La",
+      "occupancy": null,
       "oxygen_coordination_number": 4,
       "oxygen_neighbor_labels": [
         "O14",
@@ -127,12 +135,14 @@
     {
       "label": "La3?",
       "element": "La",
+      "occupancy": null,
       "oxygen_coordination_number": 0,
       "oxygen_neighbor_labels": []
     },
     {
       "label": "La4?",
       "element": "La",
+      "occupancy": null,
       "oxygen_coordination_number": 0,
       "oxygen_neighbor_labels": []
     }
@@ -263,17 +273,12 @@
     "omitted_nonidentity_symmetry_bonds": 0,
     "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
   },
-  "description": "VAVDEE crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: (C18 H2 F27 La2 O18)n,n(C18 H1 F27 La2 O18),1.03(C2 H1 F3 O2),1.12(H2 O1). From the CIF bond table, La3A (La) has 9 O neighbors; La4A (La) has 9 O neighbors; La3A_2 (La) has 2 O neighbors; La4A_2 (La) has 1 O neighbors; La1 (La) has 9 O neighbors; La2 (La) has 9 O neighbors; La1_2 (La) has 4 O neighbors; La2_2 (La) has 4 O neighbors; La3? (La) has 0 O neighbors; La4? (La) has 0 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 7 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.314-4.326 Å (not direct metal-metal bonds). Computed M-O-M angles span 109.94-111.50°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C16H10F9N2O6Tm.",
-  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
-  "article_compound": {
-    "doi": "10.1016/j.poly.2017.04.032",
-    "formula": "C16H10F9N2O6Tm",
-    "compound_name": "[(py)2Tm(μ-TFA)3]n",
-    "match_basis": "ccdc_number"
-  },
-  "formula_annotations": {
-    "ligand_counts": [],
-    "explicit_core_charges": [],
-    "explicit_oxidation_states": []
+  "description": "VAVDEE crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: (C18 H2 F27 La2 O18)n,n(C18 H1 F27 La2 O18),1.03(C2 H1 F3 O2),1.12(H2 O1). From the CIF bond table, La3A (La) has 9 O neighbors; La4A (La) has 9 O neighbors; La3A_2 (La) has 2 O neighbors; La4A_2 (La) has 1 O neighbors; La1 (La) has 9 O neighbors; La2 (La) has 9 O neighbors; La1_2 (La) has 4 O neighbors; La2_2 (La) has 4 O neighbors; La3? (La) has 0 O neighbors; La4? (La) has 0 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 7 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.314-4.326 Å (not direct metal-metal bonds). Computed M-O-M angles span 109.94-111.50°; individual values and O labels are in metal_framework.links.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review.",
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": null,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
   }
 }

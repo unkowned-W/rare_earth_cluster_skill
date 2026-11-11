@@ -1,9 +1,7 @@
 {
   "refcode": "HAVFAN",
   "ccdc_number": "838754",
-  "dois": [
-    "10.1021/ic2018314"
-  ],
+  "dois": ["10.1021/ic2018314"],
   "source_data_block": null,
   "source_cif": "CIFs\\838754.cif",
   "formula_moiety": "(C7 H13 Gd1 O7)n",
@@ -24,6 +22,7 @@
     {
       "label": "Gd1",
       "element": "Gd",
+      "occupancy": null,
       "oxygen_coordination_number": 9,
       "oxygen_neighbor_labels": [
         "O1",
@@ -40,6 +39,7 @@
     {
       "label": "Gd1C",
       "element": "Gd",
+      "occupancy": null,
       "oxygen_coordination_number": 2,
       "oxygen_neighbor_labels": [
         "O1C",
@@ -49,6 +49,7 @@
     {
       "label": "Gd1C_2",
       "element": "Gd",
+      "occupancy": null,
       "oxygen_coordination_number": 3,
       "oxygen_neighbor_labels": [
         "O1",
@@ -134,29 +135,12 @@
     "omitted_nonidentity_symmetry_bonds": 0,
     "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
   },
-  "description": "HAVFAN crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: (C7 H13 Gd1 O7)n. From the CIF bond table, Gd1 (Gd) has 9 O neighbors; Gd1C (Gd) has 2 O neighbors; Gd1C_2 (Gd) has 3 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 4.055-4.055 Å (not direct metal-metal bonds). Computed M-O-M angles span 110.01-112.62°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Gd(OAc)3(MeOH)]n. Explicit grouped units in the article formula/name: 3 OAc (explicit grouped unit in article formula). Article name explicitly identifies I(II).",
-  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
-  "article_compound": {
-    "doi": "10.1021/ic2018314",
-    "formula": "[Gd(OAc)3(MeOH)]n",
-    "compound_name": "catena-poly[[methanolgadolinium(III)]-tri-μ-acetato]",
-    "match_basis": "ccdc_number"
-  },
-  "formula_annotations": {
-    "ligand_counts": [
-      {
-        "unit": "OAc",
-        "count": 3,
-        "basis": "explicit grouped unit in article formula"
-      }
-    ],
-    "explicit_core_charges": [],
-    "explicit_oxidation_states": [
-      {
-        "element": "I",
-        "state": "II",
-        "basis": "article compound name"
-      }
-    ]
+  "description": "HAVFAN crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: (C7 H13 Gd1 O7)n. From the CIF bond table, Gd1 (Gd) has 9 O neighbors; Gd1C (Gd) has 2 O neighbors; Gd1C_2 (Gd) has 3 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately linear metal-site arrangement. Computed bridged metal-metal separations span 4.055-4.055 Å (not direct metal-metal bonds). Computed M-O-M angles span 110.01-112.62°; individual values and O labels are in metal_framework.links.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review.",
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": null,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
   }
 }

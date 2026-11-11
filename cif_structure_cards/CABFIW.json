@@ -1,0 +1,116 @@
+{
+  "refcode": "CABFIW",
+  "ccdc_number": "765414",
+  "dois": [
+    "10.1002/ejic.201000325"
+  ],
+  "source_data_block": "CABFIW",
+  "source_cif": "CIFs\\765414.cif",
+  "formula_moiety": "C80 H64 Gd2 Mg1 N8 O8,0.33(C10 H14)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "13.031(3)",
+    "b": "16.197(3)",
+    "c": "26.778(5)",
+    "alpha": "100.63(3)",
+    "beta": "101.97(3)",
+    "gamma": "103.35(3)",
+    "volume": "5216.8",
+    "Z": "3"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "label": "Gd1A",
+      "element": "Gd",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O2A",
+        "O3A",
+        "O4A"
+      ]
+    },
+    {
+      "label": "Gd2",
+      "element": "Gd",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Gd3",
+      "element": "Gd",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Gd1"
+      ],
+      [
+        "Gd1A"
+      ],
+      [
+        "Gd2"
+      ],
+      [
+        "Gd3"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "CABFIW crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C80 H64 Gd2 Mg1 N8 O8,0.33(C10 H14). From the CIF bond table, Gd1 (Gd) has 4 O neighbors; Gd1A (Gd) has 4 O neighbors; Gd2 (Gd) has 4 O neighbors; Gd3 (Gd) has 4 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C250H206Gd6Mg3N24O24.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/ejic.201000325",
+    "formula": "C250H206Gd6Mg3N24O24",
+    "compound_name": "Gadolinium–magnesium 8-quinaldinolate 1,2,4,5-tetramethylbenzene solvate",
+    "match_basis": "ccdc_number"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 3,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  },
+  "external_cif_metadata": "D:\\workspace\\Cluster_agent\\data\\process_csv\\cif_card_ready_metadata.csv"
+}

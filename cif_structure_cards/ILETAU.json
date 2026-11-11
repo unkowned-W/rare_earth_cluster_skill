@@ -1,0 +1,75 @@
+{
+  "refcode": "ILETAU",
+  "ccdc_number": "209936",
+  "dois": [
+    "10.1039/b305041f"
+  ],
+  "source_data_block": "CSD_CIF_ILETAU",
+  "source_cif": "CIFs/ILETAU.cif",
+  "formula_moiety": "C206 H270 Eu2 O22 S4,14(C3 H6 O1),H2 O1",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "19.062(4)",
+    "b": "18.531(4)",
+    "c": "35.801(7)",
+    "alpha": "90",
+    "beta": "92.080(5)",
+    "gamma": "90",
+    "volume": "12637.939",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": null,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Eu1B",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": null,
+      "oxygen_neighbor_labels": []
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": false,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Eu1"
+      ],
+      [
+        "Eu1B"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "undetermined (missing bonds, symmetry links, or consistent periodic-image geometry)",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "ILETAU crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C206 H270 Eu2 O22 S4,14(C3 H6 O1),H2 O1. Metal?O coordination is not determined because atom sites or bond data are absent. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C248H356Eu2O37S4.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/b305041f",
+    "formula": "C248H356Eu2O37S4",
+    "compound_name": "[Eu2(p-t-Bu-calix[9]arene-3H)2(dmso)4]·≈14Me2CO·H2O",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 2,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

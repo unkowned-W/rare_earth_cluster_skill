@@ -1,0 +1,121 @@
+{
+  "doi": "10.1039/c9cc09774k",
+  "list_of_rare_earth_compounds": [
+    {
+      "ccdc_numbers": [
+        "1972215"
+      ],
+      "ccdc_refcodes": [
+        "IHASOC"
+      ],
+      "compound_label": "[Cp*Dy]6",
+      "compound_name": "Hexanuclear dysprosium cyclopentadienyl cluster",
+      "formula": "[(Cp*Dy)6K4Cl16(THF)6]",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 6,
+        "other_metal_elements": [
+          "K"
+        ],
+        "rare_earth_elements": [
+          "Dy"
+        ],
+        "structural_family": "Cp*-capped, chloride-bridged organometallic cluster"
+      },
+      "properties": {
+        "measurements": [
+          {
+            "conditions": "210 K; applied dc field 5000 Oe",
+            "name": "χMT",
+            "property_type": "magnetic",
+            "unit": "cm³ K mol⁻¹",
+            "value": 85.4
+          },
+          {
+            "conditions": "2 K; applied dc field 5000 Oe",
+            "name": "χMT",
+            "property_type": "magnetic",
+            "unit": "cm³ K mol⁻¹",
+            "value": 57.6
+          },
+          {
+            "conditions": "Zero dc field; fitted slow thermal relaxation",
+            "name": "Effective relaxation barrier Ueff",
+            "property_type": "magnetic",
+            "unit": "K",
+            "value": 454
+          },
+          {
+            "conditions": "Applied dc field 1500 Oe; fitted thermal relaxation",
+            "name": "Effective relaxation barrier Ueff",
+            "property_type": "magnetic",
+            "unit": "K",
+            "value": 561
+          }
+        ],
+        "property_type": "magnetic",
+        "reported": true,
+        "summary": "Single-molecule-magnet behavior includes slow thermal relaxation and fast quantum tunneling at zero field. A 1500 Oe dc field suppresses the observed tunneling relaxation; butterfly-shaped hysteresis loops occur at low temperature."
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "location": "Abstract and structural discussion, Markdown lines 20 and 34",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_numbers; ccdc_refcodes",
+          "location": "Supplied DOI-specific structures-catalog row",
+          "source": "external_metadata"
+        },
+        {
+          "field": "structure_description",
+          "location": "Structural discussion and Fig. 1, Markdown lines 32–34",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Structural discussion, Markdown line 34",
+          "source": "main_text"
+        },
+        {
+          "field": "properties",
+          "location": "Magnetic discussion and Figs. 2–4, Markdown lines 36–55",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Six Cp*-capped Dy(III) units form two nearly parallel, chloride-linked (Cp*Dy)3 triangles. Chloride and four potassium ions connect the triangles; two distorted heterometallic octahedral portions share a K···K edge, giving the discrete cluster a curved peanut-like shape. Each Dy is capped by one Cp* ligand and bound to five chloride ligands.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "KCp* and DyCl3 were reacted in a 1:1 stoichiometric ratio in THF to give [(Cp*Dy)6K4Cl16(THF)6]. The main article does not report reagent masses or mole quantities.",
+        "reagents": [
+          {
+            "amount": "1:1 stoichiometric ratio with DyCl3",
+            "formula": "KCp*",
+            "name": "potassium pentamethylcyclopentadienide",
+            "role": "Cp* source"
+          },
+          {
+            "amount": "1:1 stoichiometric ratio with KCp*",
+            "formula": "DyCl3",
+            "name": "dysprosium trichloride",
+            "role": "dysprosium and chloride source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "THF"
+        ],
+        "temperature": null,
+        "time": null,
+        "vessel_or_method": null,
+        "workup_and_crystallization": "Isolated as large yellow crystals; further work-up and crystallization conditions are not given in the main article.",
+        "yield": null
+      }
+    }
+  ],
+  "title": "Hexanuclear [Cp*Dy] single-molecule magnet"
+}

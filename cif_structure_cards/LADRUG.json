@@ -1,0 +1,126 @@
+{
+  "refcode": "LADRUG",
+  "ccdc_number": "1442140",
+  "dois": [
+    "10.1039/c5ce02503f"
+  ],
+  "source_data_block": "LADRUG",
+  "source_cif": "CIFs\\1442140.cif",
+  "formula_moiety": "(C14 H30 La1 N2 Ni1 O14 1+)n,n(Cl1 O4 1-),3n(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "18.7646(7)",
+    "b": "9.0729(2)",
+    "c": "18.6765(7)",
+    "alpha": "90.00",
+    "beta": "116.804(4)",
+    "gamma": "90.00",
+    "volume": "2838.02",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "La1",
+      "element": "La",
+      "occupancy": null,
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O2_2",
+        "O3_2",
+        "O4W",
+        "O5",
+        "O5W",
+        "O6W",
+        "O7W",
+        "O8W",
+        "O9W"
+      ]
+    },
+    {
+      "label": "Ni1",
+      "element": "Ni",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O4",
+        "O6",
+        "O8"
+      ]
+    },
+    {
+      "label": "La1_2",
+      "element": "La",
+      "occupancy": null,
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O2"
+      ]
+    },
+    {
+      "label": "La1_3",
+      "element": "La",
+      "occupancy": null,
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O3"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "La1"
+      ],
+      [
+        "La1_2"
+      ],
+      [
+        "La1_3"
+      ],
+      [
+        "Ni1"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LADRUG crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: (C14 H30 La1 N2 Ni1 O14 1+)n,n(Cl1 O4 1-),3n(H2 O1). From the CIF bond table, La1 (La) has 9 O neighbors; Ni1 (Ni) has 4 O neighbors; La1_2 (La) has 1 O neighbors; La1_3 (La) has 1 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula [Nd2Ni2(dcta)2(H2O)8(NO3)2]·8H2O. Explicit grouped units in the article formula/name: 8 H2O (explicit grouped unit in article formula), 2 NO3 (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c5ce02503f",
+    "formula": "[Nd2Ni2(dcta)2(H2O)8(NO3)2]·8H2O",
+    "compound_name": "Nd–Ni dcta tetranuclear cluster",
+    "match_basis": "ccdc_number"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 4,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 8,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "NO3",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  },
+  "external_cif_metadata": "D:\\workspace\\Cluster_agent\\data\\process_csv\\cif_card_ready_metadata.csv"
+}

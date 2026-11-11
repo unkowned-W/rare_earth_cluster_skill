@@ -1,0 +1,86 @@
+{
+  "refcode": "CABFES",
+  "ccdc_number": "765413",
+  "dois": [
+    "10.1002/ejic.201000325"
+  ],
+  "source_data_block": "CABFES",
+  "source_cif": "CIFs\\765413.cif",
+  "formula_moiety": "C80 H64 Ca1 Eu2 N8 O8",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "11.101(2)",
+    "b": "12.546(3)",
+    "c": "13.348(3)",
+    "alpha": "76.66(3)",
+    "beta": "73.97(3)",
+    "gamma": "73.41(3)",
+    "volume": "1688.92",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "label": "Eu1A",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1A",
+        "O2A",
+        "O3A",
+        "O4A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Eu1"
+      ],
+      [
+        "Eu1A"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "CABFES crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C80 H64 Ca1 Eu2 N8 O8. From the CIF bond table, Eu1 (Eu) has 4 O neighbors; Eu1A (Eu) has 4 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C80H64CaEu2N8O8.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1002/ejic.201000325",
+    "formula": "C80H64CaEu2N8O8",
+    "compound_name": "Europium–calcium 8-quinaldinolate",
+    "match_basis": "ccdc_number"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 3,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  },
+  "external_cif_metadata": "D:\\workspace\\Cluster_agent\\data\\process_csv\\cif_card_ready_metadata.csv"
+}

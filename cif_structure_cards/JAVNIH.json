@@ -1,0 +1,157 @@
+{
+  "refcode": "JAVNIH",
+  "ccdc_number": "2125848",
+  "dois": [
+    "10.1039/d1dt04204a"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2125848.cif",
+  "formula_moiety": "C54 H6 Eu6 F98 O36 2-,8(C3 H1 F5 O2),2(H4 N1 1+)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "17.6214(13)",
+    "b": "33.280(2)",
+    "c": "26.1987(19)",
+    "alpha": "90",
+    "beta": "91.721(4)",
+    "gamma": "90",
+    "volume": "15357",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O13",
+        "O15",
+        "O17",
+        "O19"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O22",
+        "O23",
+        "O3",
+        "O32"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O24",
+        "O25",
+        "O30",
+        "O5"
+      ]
+    },
+    {
+      "label": "Eu4",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O18",
+        "O26",
+        "O27",
+        "O36",
+        "O7"
+      ]
+    },
+    {
+      "label": "Eu5",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O20",
+        "O21",
+        "O28",
+        "O34",
+        "O9"
+      ]
+    },
+    {
+      "label": "Eu6",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O29",
+        "O31",
+        "O33",
+        "O35"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Eu1"
+      ],
+      [
+        "Eu2"
+      ],
+      [
+        "Eu3"
+      ],
+      [
+        "Eu4"
+      ],
+      [
+        "Eu5"
+      ],
+      [
+        "Eu6"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "JAVNIH crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: C54 H6 Eu6 F98 O36 2-,8(C3 H1 F5 O2),2(H4 N1 1+). From the CIF bond table, Eu1 (Eu) has 5 O neighbors; Eu2 (Eu) has 5 O neighbors; Eu3 (Eu) has 5 O neighbors; Eu4 (Eu) has 5 O neighbors; Eu5 (Eu) has 5 O neighbors; Eu6 (Eu) has 5 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula (NH4)2[Eu6F8(O2CC2F5)12(C2F5COOH)6]·8C2F5COOH. Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d1dt04204a",
+    "formula": "(NH4)2[Eu6F8(O2CC2F5)12(C2F5COOH)6]·8C2F5COOH",
+    "compound_name": "Bis(ammonium)[dodecakis(μ2-pentafluoropropionato)hexakis(pentafluoropropionic acid)octa-μ3-fluorido-octahedro-hexaeuropiate(III)] pentafluoropropionic acid octasolvate",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 6,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

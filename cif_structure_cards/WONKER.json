@@ -1,9 +1,7 @@
 {
   "refcode": "WONKER",
   "ccdc_number": "959634",
-  "dois": [
-    "10.1038/nchem.1982"
-  ],
+  "dois": [],
   "source_data_block": null,
   "source_cif": "CIFs\\959634.cif",
   "formula_moiety": "C80 H71 F11 N2 O40 Tb6",
@@ -24,6 +22,7 @@
     {
       "label": "Tb2",
       "element": "Tb",
+      "occupancy": null,
       "oxygen_coordination_number": 8,
       "oxygen_neighbor_labels": [
         "O1",
@@ -39,6 +38,7 @@
     {
       "label": "Tb1",
       "element": "Tb",
+      "occupancy": null,
       "oxygen_coordination_number": 9,
       "oxygen_neighbor_labels": [
         "O1",
@@ -55,6 +55,7 @@
     {
       "label": "Tb3",
       "element": "Tb",
+      "occupancy": null,
       "oxygen_coordination_number": 8,
       "oxygen_neighbor_labels": [
         "O13",
@@ -70,6 +71,7 @@
     {
       "label": "Tb4",
       "element": "Tb",
+      "occupancy": null,
       "oxygen_coordination_number": 8,
       "oxygen_neighbor_labels": [
         "O11",
@@ -85,6 +87,7 @@
     {
       "label": "Tb5",
       "element": "Tb",
+      "occupancy": null,
       "oxygen_coordination_number": 8,
       "oxygen_neighbor_labels": [
         "O1",
@@ -100,6 +103,7 @@
     {
       "label": "Tb6",
       "element": "Tb",
+      "occupancy": null,
       "oxygen_coordination_number": 9,
       "oxygen_neighbor_labels": [
         "O22",
@@ -495,5 +499,11 @@
     "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
   },
   "description": "WONKER crystallizes in the tetragonal crystal system with space group I 4/m. Reported CIF formula moiety: C80 H71 F11 N2 O40 Tb6. From the CIF bond table, Tb2 (Tb) has 8 O neighbors; Tb1 (Tb) has 9 O neighbors; Tb3 (Tb) has 8 O neighbors; Tb4 (Tb) has 8 O neighbors; Tb5 (Tb) has 8 O neighbors; Tb6 (Tb) has 9 O neighbors. Oxygen-bridged metal-site graph: 12 pairs, 1 components; largest component is a network with cycles with three-dimensional metal-site arrangement. Computed bridged metal-metal separations span 3.912-3.927 Å (not direct metal-metal bonds). Computed M-O-M angles span 113.21-113.89°; individual values and O labels are in metal_framework.links.",
-  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review."
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review.",
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": null,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  }
 }

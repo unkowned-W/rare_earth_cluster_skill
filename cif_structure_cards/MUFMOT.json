@@ -1,9 +1,7 @@
 {
   "refcode": "MUFMOT",
   "ccdc_number": "2118210",
-  "dois": [
-    "10.1039/d4ce00966e"
-  ],
+  "dois": ["10.1039/D4CE00966E"],
   "source_data_block": null,
   "source_cif": "CIFs\\2118210.cif",
   "formula_moiety": "(C8 H7 Cl4 O8 Y1)n",
@@ -24,6 +22,7 @@
     {
       "label": "Y1",
       "element": "Y",
+      "occupancy": null,
       "oxygen_coordination_number": 8,
       "oxygen_neighbor_labels": [
         "O1",
@@ -39,6 +38,7 @@
     {
       "label": "Y1_2",
       "element": "Y",
+      "occupancy": null,
       "oxygen_coordination_number": 1,
       "oxygen_neighbor_labels": [
         "O6"
@@ -47,6 +47,7 @@
     {
       "label": "Y1_3",
       "element": "Y",
+      "occupancy": null,
       "oxygen_coordination_number": 3,
       "oxygen_neighbor_labels": [
         "O1",
@@ -123,34 +124,12 @@
     "omitted_nonidentity_symmetry_bonds": 0,
     "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
   },
-  "description": "MUFMOT crystallizes in the monoclinic crystal system with space group P 21/m. Reported CIF formula moiety: (C8 H7 Cl4 O8 Y1)n. From the CIF bond table, Y1 (Y) has 8 O neighbors; Y1_2 (Y) has 1 O neighbors; Y1_3 (Y) has 3 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 4.111-4.111 Å (not direct metal-metal bonds). Computed M-O-M angles span 109.40-109.40°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Y(tcpa)(OH)(H2O)3]∞. Explicit grouped units in the article formula/name: 1 OH (explicit grouped unit in article formula), 3 H2O (explicit grouped unit in article formula). Article name explicitly identifies I(II).",
-  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
-  "article_compound": {
-    "doi": "10.1039/d4ce00966e",
-    "formula": "[Y(tcpa)(OH)(H2O)3]∞",
-    "compound_name": "catena-[yttrium(III) 3,4,5,6-tetrachlorophthalate hydroxide trihydrate]",
-    "match_basis": "ccdc_number"
-  },
-  "formula_annotations": {
-    "ligand_counts": [
-      {
-        "unit": "OH",
-        "count": 1,
-        "basis": "explicit grouped unit in article formula"
-      },
-      {
-        "unit": "H2O",
-        "count": 3,
-        "basis": "explicit grouped unit in article formula"
-      }
-    ],
-    "explicit_core_charges": [],
-    "explicit_oxidation_states": [
-      {
-        "element": "I",
-        "state": "II",
-        "basis": "article compound name"
-      }
-    ]
+  "description": "MUFMOT crystallizes in the monoclinic crystal system with space group P 21/m. Reported CIF formula moiety: (C8 H7 Cl4 O8 Y1)n. From the CIF bond table, Y1 (Y) has 8 O neighbors; Y1_2 (Y) has 1 O neighbors; Y1_3 (Y) has 3 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 4.111-4.111 Å (not direct metal-metal bonds). Computed M-O-M angles span 109.40-109.40°; individual values and O labels are in metal_framework.links.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review.",
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": null,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
   }
 }

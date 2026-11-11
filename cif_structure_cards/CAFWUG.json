@@ -1,0 +1,304 @@
+{
+  "refcode": "CAFWUG",
+  "ccdc_number": "2376558",
+  "dois": [
+    "10.1021/acs.inorgchem.5c01665"
+  ],
+  "source_data_block": "CAFWUG",
+  "source_cif": "CIFs\\2376558.cif",
+  "formula_moiety": "C108 H132 B6 O7 Sm4,C6 H14",
+  "crystal_system": "tetragonal",
+  "space_group_hm": "P 43 21 2",
+  "international_tables_number": "96",
+  "unit_cell": {
+    "a": "16.2359(5)",
+    "b": "16.2359(5)",
+    "c": "40.5064(13)",
+    "alpha": "90",
+    "beta": "90",
+    "gamma": "90",
+    "volume": "10677.7",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Sm01",
+      "element": "Sm",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O003",
+        "O005",
+        "O007",
+        "O6"
+      ]
+    },
+    {
+      "label": "Sm02",
+      "element": "Sm",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O003",
+        "O004",
+        "O006",
+        "O007"
+      ]
+    },
+    {
+      "label": "Sm3",
+      "element": "Sm",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O003",
+        "O004",
+        "O005",
+        "O7"
+      ]
+    },
+    {
+      "label": "Sm4",
+      "element": "Sm",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O003",
+        "O006",
+        "O6",
+        "O7"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Sm01",
+          "Sm02"
+        ],
+        "shared_oxygen_labels": [
+          "O003",
+          "O007"
+        ],
+        "metal_metal_separation_angstrom": 3.766,
+        "bridge_geometry": [
+          {
+            "oxygen": "O003",
+            "angle_deg": 108.79,
+            "metal_oxygen_distances_angstrom": [
+              2.312,
+              2.32
+            ]
+          },
+          {
+            "oxygen": "O007",
+            "angle_deg": 98.64,
+            "metal_oxygen_distances_angstrom": [
+              2.439,
+              2.527
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm01",
+          "Sm3"
+        ],
+        "shared_oxygen_labels": [
+          "O003",
+          "O005"
+        ],
+        "metal_metal_separation_angstrom": 3.765,
+        "bridge_geometry": [
+          {
+            "oxygen": "O003",
+            "angle_deg": 109.03,
+            "metal_oxygen_distances_angstrom": [
+              2.312,
+              2.312
+            ]
+          },
+          {
+            "oxygen": "O005",
+            "angle_deg": 100.46,
+            "metal_oxygen_distances_angstrom": [
+              2.449,
+              2.449
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm01",
+          "Sm4"
+        ],
+        "shared_oxygen_labels": [
+          "O003",
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 3.805,
+        "bridge_geometry": [
+          {
+            "oxygen": "O003",
+            "angle_deg": 110.47,
+            "metal_oxygen_distances_angstrom": [
+              2.312,
+              2.32
+            ]
+          },
+          {
+            "oxygen": "O6",
+            "angle_deg": 100.7,
+            "metal_oxygen_distances_angstrom": [
+              2.493,
+              2.449
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm02",
+          "Sm3"
+        ],
+        "shared_oxygen_labels": [
+          "O003",
+          "O004"
+        ],
+        "metal_metal_separation_angstrom": 3.805,
+        "bridge_geometry": [
+          {
+            "oxygen": "O003",
+            "angle_deg": 110.47,
+            "metal_oxygen_distances_angstrom": [
+              2.32,
+              2.312
+            ]
+          },
+          {
+            "oxygen": "O004",
+            "angle_deg": 100.7,
+            "metal_oxygen_distances_angstrom": [
+              2.449,
+              2.493
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm02",
+          "Sm4"
+        ],
+        "shared_oxygen_labels": [
+          "O003",
+          "O006"
+        ],
+        "metal_metal_separation_angstrom": 3.784,
+        "bridge_geometry": [
+          {
+            "oxygen": "O003",
+            "angle_deg": 109.29,
+            "metal_oxygen_distances_angstrom": [
+              2.32,
+              2.32
+            ]
+          },
+          {
+            "oxygen": "O006",
+            "angle_deg": 100.26,
+            "metal_oxygen_distances_angstrom": [
+              2.465,
+              2.465
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Sm3",
+          "Sm4"
+        ],
+        "shared_oxygen_labels": [
+          "O003",
+          "O7"
+        ],
+        "metal_metal_separation_angstrom": 3.766,
+        "bridge_geometry": [
+          {
+            "oxygen": "O003",
+            "angle_deg": 108.79,
+            "metal_oxygen_distances_angstrom": [
+              2.312,
+              2.32
+            ]
+          },
+          {
+            "oxygen": "O7",
+            "angle_deg": 98.64,
+            "metal_oxygen_distances_angstrom": [
+              2.439,
+              2.527
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Sm01",
+        "Sm02",
+        "Sm3",
+        "Sm4"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "three-dimensional metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "CAFWUG crystallizes in the tetragonal crystal system with space group P 43 21 2. Reported CIF formula moiety: C108 H132 B6 O7 Sm4,C6 H14. From the CIF bond table, Sm01 (Sm) has 4 O neighbors; Sm02 (Sm) has 4 O neighbors; Sm3 (Sm) has 4 O neighbors; Sm4 (Sm) has 4 O neighbors. Oxygen-bridged metal-site graph: 6 pairs, 1 components; largest component is a network with cycles with three-dimensional metal-site arrangement. Computed bridged metal-metal separations span 3.765-3.805 Å (not direct metal-metal bonds). Computed M-O-M angles span 98.64-110.47°; individual values and O labels are in metal_framework.links. Article card reports molecular formula Sm4(μ-OBMes2)6(μ4-O).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.5c01665",
+    "formula": "Sm4(μ-OBMes2)6(μ4-O)",
+    "compound_name": "Tetranuclear samarium(II) di(mesityl)boroxide oxo cluster",
+    "compound_label": "6",
+    "match_basis": "article_card_ccdc_number_and_cif_formula"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 4,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ4-O",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "I",
+        "basis": "article compound name"
+      }
+    ]
+  },
+  "article_alignment_note": ""
+}

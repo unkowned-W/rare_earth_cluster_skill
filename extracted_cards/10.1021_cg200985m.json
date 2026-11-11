@@ -1,584 +1,559 @@
 {
-  "title": "Crystal Growth, Structural Motifs, and Optical Properties of Molecular and Polymeric Cerium Halide Materials",
   "doi": "10.1021/cg200985m",
   "list_of_rare_earth_compounds": [
     {
-      "compound_label": "1",
-      "compound_name": "octakis(methanol)hexabromodicerium(III)",
-      "formula": "Ce2Br6(CH3OH)8",
       "ccdc_numbers": [
         "827126"
       ],
       "ccdc_refcodes": [],
+      "compound_label": "1",
+      "compound_name": "Cerium(III) bromide methanol adduct",
+      "formula": "Ce2Br6(CH3OH)8",
       "material_class": {
+        "dimensionality": "0D",
         "material_type": "cluster",
-        "nuclearity": 2,
         "metal_composition": "homometallic",
+        "nuclearity": 2,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Ce"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "0D",
-        "structural_family": "edge-sharing square-antiprism Ce2Br6 methanol dimer"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "In an argon glovebox, approximately 0.5 g of CeBr3 was placed in a round-bottom flask and septa-sealed. After removal from the glovebox, approximately 10 mL of anhydrous methanol was syringed in to give a supersaturated solution with some undissolved solid. The solution was syringe-filtered into a purged glass vessel and allowed to slowly evaporate under nitrogen, with care to exclude water. Colorless plate crystals of 1 formed.",
-        "reagents": [
-          {
-            "name": "cerium(III) bromide",
-            "formula": "CeBr3",
-            "role": "metal salt",
-            "amount": "approximately 0.5 g"
-          }
-        ],
-        "solvents": [
-          "anhydrous methanol"
-        ],
-        "temperature": null,
-        "time": null,
-        "ph": null,
-        "vessel_or_method": "slow evaporation under nitrogen from a syringe-filtered supersaturated solution in a purged glass vessel; salt loaded in an argon glovebox",
-        "workup_and_crystallization": "syringe filtration into a purged vessel followed by slow evaporation; colorless plate crystals",
-        "yield": null
+        "structural_family": "edge-sharing square-antiprismatic dimer"
       },
       "properties": {
-        "reported": true,
-        "property_type": "optical",
-        "summary": "Room-temperature photoluminescence of polycrystalline 1 (excitation 232 nm) shows a maximum emission at 368 nm, slightly blue-shifted versus CeBr3 (371 nm). Compound 1 was previously reported to scintillate.",
         "measurements": [
           {
+            "conditions": "Room temperature; excitation at 232 nm",
+            "name": "Maximum emission wavelength",
             "property_type": "optical",
-            "name": "excitation wavelength",
-            "value": 232,
             "unit": "nm",
-            "conditions": "room temperature; polycrystalline powder sealed under nitrogen"
-          },
-          {
-            "property_type": "optical",
-            "name": "emission maximum",
-            "value": 368,
-            "unit": "nm",
-            "conditions": "excitation 232 nm; room temperature"
+            "value": 368
           }
-        ]
+        ],
+        "property_type": "optical",
+        "reported": true,
+        "summary": "Photoluminescence is slightly blue-shifted relative to CeBr3, whose maximum emission is 371 nm under the reported comparison."
       },
       "source_locations": [
         {
           "field": "formula",
-          "source": "main_text",
-          "location": "Abstract; Table 1"
+          "location": "Abstract; Table 1",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, Synthesis"
+          "location": "Experimental Section, Synthesis",
+          "source": "main_text"
         },
         {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "Results and Discussion, Crystal Structure of 1"
+          "field": "structure_description",
+          "location": "Results and Discussion, compound 1; Figures 1–2",
+          "source": "main_text"
         },
         {
           "field": "properties",
-          "source": "main_text",
-          "location": "Photoluminescence; Figure 15; Luminescence of Compounds 1 and 2"
+          "location": "Luminescence of Compounds 1 and 2; Figure 15",
+          "source": "main_text"
         },
         {
           "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Associated Content, CCDC numbers"
+          "location": "Associated Content",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "Two eight-coordinate Ce(III) square antiprisms share a bromide-containing edge to form an isolated dimer; four methanol oxygen atoms complete each Ce coordination sphere. The dimers pack through hydrogen bonding.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "In an argon glovebox, approximately 0.5 g of CeBr3 was placed in a round-bottom flask and sealed with a septum. After removal from the glovebox, approximately 10 mL of anhydrous methanol was added by syringe to form a supersaturated solution with some undissolved solid. The solution was syringe-filtered into a purged glass vessel and allowed to evaporate slowly under nitrogen while excluding water.",
+        "reagents": [
+          {
+            "amount": "approximately 0.5 g",
+            "formula": "CeBr3",
+            "name": "cerium(III) bromide",
+            "role": "starting material"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "anhydrous methanol (approximately 10 mL)"
+        ],
+        "temperature": null,
+        "time": null,
+        "vessel_or_method": "Septum-sealed round-bottom flask; slow evaporation in a purged glass vessel",
+        "workup_and_crystallization": "Syringe filtration followed by slow evaporation under nitrogen",
+        "yield": null
+      }
     },
     {
-      "compound_label": "2",
-      "compound_name": "octakis(ethanol)hexabromodicerium(III)",
-      "formula": "Ce2Br6(C2H5OH)8",
       "ccdc_numbers": [
         "827127"
       ],
       "ccdc_refcodes": [],
+      "compound_label": "2",
+      "compound_name": "Cerium(III) bromide ethanol adduct",
+      "formula": "Ce2Br6(C2H5OH)8",
       "material_class": {
+        "dimensionality": "0D",
         "material_type": "cluster",
-        "nuclearity": 2,
         "metal_composition": "homometallic",
+        "nuclearity": 2,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Ce"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "0D",
-        "structural_family": "edge-sharing square-antiprism Ce2Br6 ethanol dimer"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Prepared by the same slow-evaporation method as 1, using CeBr3 with anhydrous ethanol in place of methanol (approximately 0.5 g salt in a glovebox-loaded flask, alcohol added by syringe to a supersaturated solution, syringe-filtered, slow evaporation under nitrogen). A small amount of water was inadvertently incorporated during the process.",
-        "reagents": [
-          {
-            "name": "cerium(III) bromide",
-            "formula": "CeBr3",
-            "role": "metal salt",
-            "amount": "approximately 0.5 g (same method as 1)"
-          }
-        ],
-        "solvents": [
-          "anhydrous ethanol"
-        ],
-        "temperature": null,
-        "time": null,
-        "ph": null,
-        "vessel_or_method": "slow evaporation under nitrogen, same method as 1",
-        "workup_and_crystallization": "syringe filtration and slow evaporation; colorless plate crystals",
-        "yield": null
+        "structural_family": "edge-sharing square-antiprismatic dimer"
       },
       "properties": {
-        "reported": true,
-        "property_type": "optical",
-        "summary": "Room-temperature photoluminescence of polycrystalline 2 (excitation 232 nm) shows a maximum emission at 360 nm, blue-shifted versus CeBr3 (371 nm).",
         "measurements": [
           {
+            "conditions": "Room temperature; excitation at 232 nm",
+            "name": "Maximum emission wavelength",
             "property_type": "optical",
-            "name": "excitation wavelength",
-            "value": 232,
             "unit": "nm",
-            "conditions": "room temperature; polycrystalline powder sealed under nitrogen"
-          },
-          {
-            "property_type": "optical",
-            "name": "emission maximum",
-            "value": 360,
-            "unit": "nm",
-            "conditions": "excitation 232 nm; room temperature"
+            "value": 360
           }
-        ]
+        ],
+        "property_type": "optical",
+        "reported": true,
+        "summary": "Photoluminescence is blue-shifted relative to CeBr3, whose maximum emission is 371 nm under the reported comparison. Scintillation of compound 2 was proposed for future investigation, not demonstrated here."
       },
       "source_locations": [
         {
           "field": "formula",
-          "source": "main_text",
-          "location": "Abstract; Table 1"
+          "location": "Abstract; Table 1",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, Synthesis"
+          "location": "Experimental Section, Synthesis",
+          "source": "main_text"
         },
         {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "Results and Discussion, Crystal Structure of 2"
+          "field": "structure_description",
+          "location": "Results and Discussion, compound 2; Figures 3–4",
+          "source": "main_text"
         },
         {
           "field": "properties",
-          "source": "main_text",
-          "location": "Photoluminescence; Figure 15; Luminescence of Compounds 1 and 2"
+          "location": "Luminescence of Compounds 1 and 2; Figure 15",
+          "source": "main_text"
         },
         {
           "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Associated Content, CCDC numbers"
+          "location": "Associated Content",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "An isolated dimer of edge-sharing, eight-coordinate Ce(III) square antiprisms analogous to compound 1, with ethanol rather than methanol ligands. Hydrogen bonding connects the molecular dimers in the crystal packing.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Prepared by the explicit slow-evaporation method described for compound 1, substituting anhydrous ethanol for methanol: approximately 0.5 g of CeBr3 was handled in an argon glovebox, solvent was added to make a supersaturated solution, and the filtered solution was slowly evaporated under nitrogen. The article notes inadvertent introduction of a small amount of water during preparations including compound 2; no amount is specified.",
+        "reagents": [
+          {
+            "amount": "approximately 0.5 g in the shared procedure",
+            "formula": "CeBr3",
+            "name": "cerium(III) bromide",
+            "role": "starting material"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "anhydrous ethanol; approximately 10 mL in the shared procedure, with volume adjusted according to solubility"
+        ],
+        "temperature": null,
+        "time": null,
+        "vessel_or_method": "Septum-sealed round-bottom flask; slow evaporation in a purged glass vessel",
+        "workup_and_crystallization": "Syringe filtration followed by slow evaporation under nitrogen",
+        "yield": null
+      }
     },
     {
-      "compound_label": "3a",
-      "compound_name": "diaqua-bis(methanol)trichlorocerium(III) coordination isomer 3a",
-      "formula": "CeCl3(CH3OH)2(H2O)",
       "ccdc_numbers": [
         "827124"
       ],
       "ccdc_refcodes": [],
+      "compound_label": "3a",
+      "compound_name": "Cerium(III) chloride methanol–water coordination isomer 3a",
+      "formula": "CeCl3(CH3OH)2(H2O)",
       "material_class": {
+        "dimensionality": "1D",
         "material_type": "complex",
-        "nuclearity": 1,
         "metal_composition": "homometallic",
+        "nuclearity": null,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Ce"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "1D",
-        "structural_family": "edge-sharing 1-D CeCl3 methanol/water chain (coordination isomer 3a)"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Prepared by the same slow-evaporation method as 1 using CeCl3 and methanol. A small amount of water was inadvertently incorporated, producing the hydrated 1-D chain. 3a and 3b were isolated from the same batch under identical conditions. Semihydrated species can also be obtained deliberately by stirring the saturated solvent open to air for approximately 30–40 s.",
-        "reagents": [
-          {
-            "name": "cerium(III) chloride",
-            "formula": "CeCl3",
-            "role": "metal salt",
-            "amount": "approximately 0.5 g (same method as 1)"
-          },
-          {
-            "name": "water",
-            "formula": "H2O",
-            "role": "inadvertent hydrate ligand",
-            "amount": "small amount (inadvertent)"
-          }
-        ],
-        "solvents": [
-          "anhydrous methanol",
-          "water"
-        ],
-        "temperature": null,
-        "time": "optional deliberate hydration by stirring 30–40 s in air",
-        "ph": null,
-        "vessel_or_method": "slow evaporation, same method as 1, with inadvertent water",
-        "workup_and_crystallization": "colorless irregular crystals; 3a and 3b from the same batch",
-        "yield": null
+        "structural_family": "edge-sharing square-antiprismatic coordination chain"
       },
       "properties": {
-        "reported": false,
+        "measurements": [],
         "property_type": "none",
-        "summary": null,
-        "measurements": []
+        "reported": false,
+        "summary": null
       },
       "source_locations": [
         {
           "field": "formula",
-          "source": "main_text",
-          "location": "Abstract; Table 1"
+          "location": "Abstract; Table 1",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, Synthesis"
+          "location": "Experimental Section, Synthesis",
+          "source": "main_text"
         },
         {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "Results and Discussion, Crystal Structure of 3a and 3b"
+          "field": "structure_description",
+          "location": "Results and Discussion, compounds 3a and 3b; Figures 5–7",
+          "source": "main_text"
         },
         {
           "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Associated Content, CCDC numbers"
+          "location": "Associated Content",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "Eight-coordinate Ce(III) square antiprisms share edges on both sides to form a one-dimensional chloride-bridged chain. Methanol and water occupy oxygen-donor sites; 3a differs from 3b by exchange of the O2 and O3 positions. Hydrogen bonding links the chains in the extended packing.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Prepared by the explicit shared slow-evaporation procedure: approximately 0.5 g of CeCl3 was handled under argon in a septum-sealed flask, anhydrous methanol was added to form a supersaturated solution, and the syringe-filtered solution was allowed to evaporate under nitrogen. A small amount of water was inadvertently incorporated. Isomers 3a and 3b crystallized from the same batch under identical conditions.",
+        "reagents": [
+          {
+            "amount": "approximately 0.5 g in the shared procedure",
+            "formula": "CeCl3",
+            "name": "cerium(III) chloride",
+            "role": "starting material"
+          },
+          {
+            "amount": null,
+            "formula": "H2O",
+            "name": "water",
+            "role": "inadvertently incorporated"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "anhydrous methanol; approximately 10 mL in the shared procedure, with volume adjusted according to solubility"
+        ],
+        "temperature": null,
+        "time": null,
+        "vessel_or_method": "Septum-sealed round-bottom flask; slow evaporation in a purged glass vessel",
+        "workup_and_crystallization": "Syringe filtration followed by slow evaporation under nitrogen; isolated from the same batch as 3b",
+        "yield": null
+      }
     },
     {
-      "compound_label": "3b",
-      "compound_name": "diaqua-bis(methanol)trichlorocerium(III) coordination isomer 3b",
-      "formula": "CeCl3(CH3OH)2(H2O)",
       "ccdc_numbers": [
         "827125"
       ],
       "ccdc_refcodes": [],
+      "compound_label": "3b",
+      "compound_name": "Cerium(III) chloride methanol–water coordination isomer 3b",
+      "formula": "CeCl3(CH3OH)2(H2O)",
       "material_class": {
+        "dimensionality": "1D",
         "material_type": "complex",
-        "nuclearity": 1,
         "metal_composition": "homometallic",
+        "nuclearity": null,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Ce"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "1D",
-        "structural_family": "edge-sharing 1-D CeCl3 methanol/water chain (coordination isomer 3b)"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Isolated together with 3a from the same slow-evaporation CeCl3/methanol batch after inadvertent incorporation of water, using the same general procedure as 1.",
-        "reagents": [
-          {
-            "name": "cerium(III) chloride",
-            "formula": "CeCl3",
-            "role": "metal salt",
-            "amount": "approximately 0.5 g (same method as 1)"
-          },
-          {
-            "name": "water",
-            "formula": "H2O",
-            "role": "inadvertent hydrate ligand",
-            "amount": "small amount (inadvertent)"
-          }
-        ],
-        "solvents": [
-          "anhydrous methanol",
-          "water"
-        ],
-        "temperature": null,
-        "time": "optional deliberate hydration by stirring 30–40 s in air",
-        "ph": null,
-        "vessel_or_method": "slow evaporation, same method as 1, with inadvertent water",
-        "workup_and_crystallization": "colorless irregular crystals from the same batch as 3a",
-        "yield": null
+        "structural_family": "edge-sharing square-antiprismatic coordination chain"
       },
       "properties": {
-        "reported": false,
+        "measurements": [],
         "property_type": "none",
-        "summary": null,
-        "measurements": []
+        "reported": false,
+        "summary": null
       },
       "source_locations": [
         {
           "field": "formula",
-          "source": "main_text",
-          "location": "Abstract; Table 1"
+          "location": "Abstract; Table 1",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, Synthesis"
+          "location": "Experimental Section, Synthesis",
+          "source": "main_text"
         },
         {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "Results and Discussion, Crystal Structure of 3a and 3b"
+          "field": "structure_description",
+          "location": "Results and Discussion, compounds 3a and 3b; Figures 5–7",
+          "source": "main_text"
         },
         {
           "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Associated Content, CCDC numbers"
+          "location": "Associated Content",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "Eight-coordinate Ce(III) square antiprisms share edges on both sides to form a one-dimensional chloride-bridged chain. Methanol and water occupy oxygen-donor sites; 3b differs from 3a by exchange of the O2 and O3 positions and has a distinct unit cell. Hydrogen bonding links the chains in the extended packing.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Prepared by the explicit shared slow-evaporation procedure: approximately 0.5 g of CeCl3 was handled under argon in a septum-sealed flask, anhydrous methanol was added to form a supersaturated solution, and the syringe-filtered solution was allowed to evaporate under nitrogen. A small amount of water was inadvertently incorporated. Isomers 3a and 3b crystallized from the same batch under identical conditions.",
+        "reagents": [
+          {
+            "amount": "approximately 0.5 g in the shared procedure",
+            "formula": "CeCl3",
+            "name": "cerium(III) chloride",
+            "role": "starting material"
+          },
+          {
+            "amount": null,
+            "formula": "H2O",
+            "name": "water",
+            "role": "inadvertently incorporated"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "anhydrous methanol; approximately 10 mL in the shared procedure, with volume adjusted according to solubility"
+        ],
+        "temperature": null,
+        "time": null,
+        "vessel_or_method": "Septum-sealed round-bottom flask; slow evaporation in a purged glass vessel",
+        "workup_and_crystallization": "Syringe filtration followed by slow evaporation under nitrogen; isolated from the same batch as 3a",
+        "yield": null
+      }
     },
     {
-      "compound_label": "4",
-      "compound_name": "aqua-bis(isopropanol)tribromocerium(III)",
-      "formula": "CeBr3((CH3)2CHOH)2(H2O)",
       "ccdc_numbers": [
         "827134"
       ],
       "ccdc_refcodes": [],
+      "compound_label": "4",
+      "compound_name": "Cerium(III) bromide isopropanol–water coordination polymer",
+      "formula": "CeBr3((CH3)2CHOH)2(H2O)",
       "material_class": {
+        "dimensionality": "1D",
         "material_type": "complex",
-        "nuclearity": 1,
         "metal_composition": "homometallic",
+        "nuclearity": null,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Ce"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "1D",
-        "structural_family": "edge-sharing 1-D CeBr3 isopropanol/water chain"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Prepared by the same slow-evaporation method as 1 using CeBr3 and anhydrous 2-propanol, with inadvertent incorporation of water leading to the hydrated 1-D chain.",
-        "reagents": [
-          {
-            "name": "cerium(III) bromide",
-            "formula": "CeBr3",
-            "role": "metal salt",
-            "amount": "approximately 0.5 g (same method as 1)"
-          },
-          {
-            "name": "water",
-            "formula": "H2O",
-            "role": "inadvertent hydrate ligand",
-            "amount": "small amount (inadvertent)"
-          }
-        ],
-        "solvents": [
-          "anhydrous 2-propanol",
-          "water"
-        ],
-        "temperature": null,
-        "time": "optional deliberate hydration by stirring 30–40 s in air",
-        "ph": null,
-        "vessel_or_method": "slow evaporation, same method as 1, with inadvertent water",
-        "workup_and_crystallization": "colorless plate crystals",
-        "yield": null
+        "structural_family": "edge-sharing square-antiprismatic coordination chain"
       },
       "properties": {
-        "reported": false,
+        "measurements": [],
         "property_type": "none",
-        "summary": null,
-        "measurements": []
+        "reported": false,
+        "summary": null
       },
       "source_locations": [
         {
           "field": "formula",
-          "source": "main_text",
-          "location": "Abstract; Table 1"
+          "location": "Abstract; Table 1",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, Synthesis"
+          "location": "Experimental Section, Synthesis",
+          "source": "main_text"
         },
         {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "Results and Discussion, Crystal Structure of 4"
+          "field": "structure_description",
+          "location": "Results and Discussion, compound 4; Figures 8–9",
+          "source": "main_text"
         },
         {
           "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Associated Content, CCDC numbers"
+          "location": "Associated Content",
+          "source": "main_text"
         }
-      ]
-    },
-    {
-      "compound_label": "5",
-      "compound_name": "decakis(isopropanol)diaqua-dihydroxido-decabromotetracerium(III) bis(isopropanol) solvate",
-      "formula": "Ce4Br10((CH3)2CHOH)10(H2O)2(OH)2 · 2((CH3)2CHOH)",
-      "ccdc_numbers": [
-        "827133"
       ],
-      "ccdc_refcodes": [
-        "PAMJIY"
-      ],
-      "material_class": {
-        "material_type": "cluster",
-        "nuclearity": 4,
-        "metal_composition": "homometallic",
-        "rare_earth_elements": [
-          "Ce"
-        ],
-        "other_metal_elements": [],
-        "dimensionality": "0D",
-        "structural_family": "hydroxide-bridged Ce4Br10 tetramer"
-      },
+      "structure_description": "Each eight-coordinate Ce(III) square antiprism is bound to two isopropanol molecules, one water molecule and bromide donors. Edge-sharing on both sides generates one-dimensional chains; four distinct chains occur in the unit cell and are associated through hydrogen bonding.",
       "synthesis": {
         "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Prepared by the same slow-evaporation method as 1 using CeBr3 and anhydrous 2-propanol. Water was inadvertently incorporated, and hydroxide ions, believed to arise from KOH residue after washing glassware in a standard base bath, were also incorporated, giving the tetramer. Colorless block crystals of 5 were obtained.",
+        "ph": null,
+        "procedure": "Prepared by the explicit shared slow-evaporation procedure using CeBr3 and anhydrous 2-propanol: approximately 0.5 g of salt was handled under argon, solvent was added to give a supersaturated solution, and the syringe-filtered solution was evaporated under nitrogen. A small amount of water was inadvertently incorporated.",
         "reagents": [
           {
-            "name": "cerium(III) bromide",
+            "amount": "approximately 0.5 g in the shared procedure",
             "formula": "CeBr3",
-            "role": "metal salt",
-            "amount": "approximately 0.5 g (same method as 1)"
+            "name": "cerium(III) bromide",
+            "role": "starting material"
           },
           {
-            "name": "water",
+            "amount": null,
             "formula": "H2O",
-            "role": "inadvertent hydrate ligand",
-            "amount": "small amount (inadvertent)"
-          },
-          {
-            "name": "hydroxide (KOH residue from base-bath glassware)",
-            "formula": "OH-",
-            "role": "bridging ligand source",
-            "amount": "residue (unquantified)"
+            "name": "water",
+            "role": "inadvertently incorporated"
           }
         ],
+        "si_used": false,
         "solvents": [
-          "anhydrous 2-propanol",
-          "water"
+          "anhydrous 2-propanol; approximately 10 mL in the shared procedure, with volume adjusted according to solubility"
         ],
         "temperature": null,
         "time": null,
-        "ph": null,
-        "vessel_or_method": "slow evaporation, same method as 1, with inadvertent water and hydroxide from glassware",
-        "workup_and_crystallization": "colorless block crystals; lattice isopropanol in the unit cell",
+        "vessel_or_method": "Septum-sealed round-bottom flask; slow evaporation in a purged glass vessel",
+        "workup_and_crystallization": "Syringe filtration followed by slow evaporation under nitrogen",
         "yield": null
+      }
+    },
+    {
+      "ccdc_numbers": [
+        "827133"
+      ],
+      "ccdc_refcodes": [],
+      "compound_label": "5",
+      "compound_name": "Cerium(III) bromide isopropanol–water–hydroxide tetramer",
+      "formula": "Ce4Br10((CH3)2CHOH)10(H2O)2(OH)2",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "homometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Ce"
+        ],
+        "structural_family": "bromide- and hydroxide-bridged tetramer"
       },
       "properties": {
-        "reported": false,
+        "measurements": [],
         "property_type": "none",
-        "summary": null,
-        "measurements": []
+        "reported": false,
+        "summary": null
       },
       "source_locations": [
         {
           "field": "formula",
-          "source": "main_text",
-          "location": "Abstract; Table 1; Crystal Structure of 5"
-        },
-        {
-          "field": "ccdc_numbers",
-          "source": "external_metadata",
-          "location": "CCDC 827133 / PAMJIY"
-        },
-        {
-          "field": "ccdc_refcodes",
-          "source": "external_metadata",
-          "location": "PAMJIY"
+          "location": "Abstract; Table 1",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, Synthesis"
+          "location": "Experimental Section, Synthesis",
+          "source": "main_text"
         },
         {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "Results and Discussion, Crystal Structure of 5"
+          "field": "structure_description",
+          "location": "Results and Discussion, compound 5; Figures 10–11",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_numbers",
+          "location": "Associated Content",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "A discrete tetramer has two distinct eight-coordinate Ce(III) environments. Each hydroxide bridges three Ce centers, with additional bromide bridges completing the tetramer. The tetrameric units are held together in the crystal through intermolecular hydrogen bonding.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Prepared by the explicit shared slow-evaporation procedure using approximately 0.5 g of CeBr3 and anhydrous 2-propanol, with handling under argon, syringe filtration and slow evaporation under nitrogen. Water was inadvertently incorporated. The authors attribute incorporated hydroxide to possible KOH residue from washing the glassware in a base bath; KOH was not reported as a deliberately measured addition.",
+        "reagents": [
+          {
+            "amount": "approximately 0.5 g in the shared procedure",
+            "formula": "CeBr3",
+            "name": "cerium(III) bromide",
+            "role": "starting material"
+          },
+          {
+            "amount": null,
+            "formula": "H2O",
+            "name": "water",
+            "role": "inadvertently incorporated"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "anhydrous 2-propanol; approximately 10 mL in the shared procedure, with volume adjusted according to solubility"
+        ],
+        "temperature": null,
+        "time": null,
+        "vessel_or_method": "Septum-sealed round-bottom flask; slow evaporation in a purged glass vessel",
+        "workup_and_crystallization": "Syringe filtration followed by slow evaporation under nitrogen",
+        "yield": null
+      }
     },
     {
-      "compound_label": "6",
-      "compound_name": "aqua-bis(isopropanol)trichlorocerium(III)",
-      "formula": "CeCl3((CH3)2CHOH)2(H2O)",
       "ccdc_numbers": [
         "836625"
       ],
       "ccdc_refcodes": [],
+      "compound_label": "6",
+      "compound_name": "Cerium(III) chloride isopropanol–water coordination polymer",
+      "formula": "CeCl3((CH3)2CHOH)2(H2O)",
       "material_class": {
+        "dimensionality": "1D",
         "material_type": "complex",
-        "nuclearity": 1,
         "metal_composition": "homometallic",
+        "nuclearity": null,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Ce"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "1D",
-        "structural_family": "edge-sharing 1-D CeCl3 isopropanol/water chain (isostructural with 4)"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Prepared by the same slow-evaporation method as 1 using CeCl3 and anhydrous 2-propanol, with inadvertent incorporation of water.",
-        "reagents": [
-          {
-            "name": "cerium(III) chloride",
-            "formula": "CeCl3",
-            "role": "metal salt",
-            "amount": "approximately 0.5 g (same method as 1)"
-          },
-          {
-            "name": "water",
-            "formula": "H2O",
-            "role": "inadvertent hydrate ligand",
-            "amount": "small amount (inadvertent)"
-          }
-        ],
-        "solvents": [
-          "anhydrous 2-propanol",
-          "water"
-        ],
-        "temperature": null,
-        "time": "optional deliberate hydration by stirring 30–40 s in air",
-        "ph": null,
-        "vessel_or_method": "slow evaporation, same method as 1, with inadvertent water",
-        "workup_and_crystallization": "colorless plate crystals",
-        "yield": null
+        "structural_family": "edge-sharing square-antiprismatic coordination chain"
       },
       "properties": {
-        "reported": false,
+        "measurements": [],
         "property_type": "none",
-        "summary": null,
-        "measurements": []
+        "reported": false,
+        "summary": null
       },
       "source_locations": [
         {
           "field": "formula",
-          "source": "main_text",
-          "location": "Abstract; Table 1"
+          "location": "Abstract; Table 1",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, Synthesis"
+          "location": "Experimental Section, Synthesis",
+          "source": "main_text"
         },
         {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "Results and Discussion, Crystal Structure of 6"
+          "field": "structure_description",
+          "location": "Results and Discussion, compound 6; Figures 12–13",
+          "source": "main_text"
         },
         {
           "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Associated Content, CCDC numbers"
+          "location": "Associated Content",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "Eight-coordinate Ce(III) square antiprisms, each with two isopropanol and one water ligand, share chloride-containing edges on both sides to form one-dimensional chains.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Prepared by the explicit shared slow-evaporation procedure using CeCl3 and anhydrous 2-propanol: approximately 0.5 g of salt was handled under argon, solvent was added to form a supersaturated solution, and the syringe-filtered solution was slowly evaporated under nitrogen. A small amount of water was inadvertently incorporated.",
+        "reagents": [
+          {
+            "amount": "approximately 0.5 g in the shared procedure",
+            "formula": "CeCl3",
+            "name": "cerium(III) chloride",
+            "role": "starting material"
+          },
+          {
+            "amount": null,
+            "formula": "H2O",
+            "name": "water",
+            "role": "inadvertently incorporated"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "anhydrous 2-propanol; approximately 10 mL in the shared procedure, with volume adjusted according to solubility"
+        ],
+        "temperature": null,
+        "time": null,
+        "vessel_or_method": "Septum-sealed round-bottom flask; slow evaporation in a purged glass vessel",
+        "workup_and_crystallization": "Syringe filtration followed by slow evaporation under nitrogen",
+        "yield": null
+      }
     }
-  ]
+  ],
+  "title": "Crystal Growth, Structural Motifs, and Optical Properties of Molecular and Polymeric Cerium Halide Materials"
 }

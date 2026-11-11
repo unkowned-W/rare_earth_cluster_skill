@@ -1,262 +1,405 @@
 {
-  "title": "Cubic lanthanide sulfido clusters: Ln8S6(SPh)12(thf)8 (Ln = Pr, Nd, Gd)",
   "doi": "10.1039/a706129c",
   "list_of_rare_earth_compounds": [
     {
+      "ccdc_numbers": [
+        "1223179"
+      ],
+      "ccdc_refcodes": [
+        "NOYHEO"
+      ],
       "compound_label": "1",
-      "compound_name": "octagadolinium hexasulfido dodecanethiolate octakis(tetrahydrofuran)",
+      "compound_name": "Octagadolinium sulfido phenylthiolate tetrahydrofuran cluster",
       "formula": "Gd8S6(SPh)12(thf)8·2.9thf",
-      "ccdc_numbers": [],
-      "ccdc_refcodes": [],
       "material_class": {
+        "dimensionality": "0D",
         "material_type": "cluster",
-        "nuclearity": 8,
         "metal_composition": "homometallic",
+        "nuclearity": 8,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Gd"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "0D",
-        "structural_family": "cubic Ln8S6 cluster with face-capping S2− and edge-bridging μ-SPh"
+        "structural_family": "Cubic lanthanide sulfido cluster"
       },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "formula and compound_label",
+          "location": "Fig. 1 caption and synthesis footnote, Markdown lines 22 and 34",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_numbers and ccdc_refcodes",
+          "location": "Supplied CCDC catalog row NOYHEO",
+          "source": "external_metadata"
+        },
+        {
+          "field": "structure_description",
+          "location": "Structural discussion and Fig. 1, Markdown lines 19–22",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Synthesis footnote, Markdown line 34",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Eight Gd(III) ions form a cube. Six sulfide ions cap its faces, twelve bridging phenylthiolates span its edges, and eight thf ligands complete the molecular cluster. The crystal contains two independent half-molecules differing mainly in phenyl-group orientation.",
       "synthesis": {
         "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Under nitrogen, Gd metal (2.42 mmol), PhSSPh (0.791 g, 3.62 mmol), and Hg (0.06 g, 0.3 mmol) were combined in thf (35 ml) and stirred for 1 d to give Ln(SPh)3. Elemental sulfur (0.058 g, 1.8 mmol, 0.75 equiv. to Ln) was added; after 3 d the yellow-green solution was filtered to remove a trace of black solid and the filtrate was layered with hexane. Colorless crystals of Gd8S6(SPh)12(thf)8·2.9thf were collected. The crystals lose lattice thf and become amorphous within hours of isolation.",
+        "ph": null,
+        "procedure": "Under nitrogen, Gd, PhSSPh and Hg were combined in thf and stirred for 1 day. Elemental sulfur was added; after 3 days the solution was filtered and the filtrate layered with hexane.",
         "reagents": [
           {
-            "name": "gadolinium metal",
+            "amount": "2.42 mmol",
             "formula": "Gd",
-            "role": "lanthanide source",
-            "amount": "2.42 mmol"
+            "name": "Gadolinium",
+            "role": "Rare-earth starting material"
           },
           {
-            "name": "diphenyl disulfide",
+            "amount": "0.791 g (3.62 mmol)",
             "formula": "PhSSPh",
-            "role": "thiolate precursor",
-            "amount": "0.791 g, 3.62 mmol"
+            "name": "Diphenyl disulfide",
+            "role": "Thiolate source"
           },
           {
-            "name": "mercury",
+            "amount": "0.06 g (0.3 mmol)",
             "formula": "Hg",
-            "role": "catalyst/activator",
-            "amount": "0.06 g, 0.3 mmol"
+            "name": "Mercury",
+            "role": null
           },
           {
-            "name": "elemental sulfur",
+            "amount": "0.058 g (1.8 mmol; 0.75 equiv. relative to Gd)",
             "formula": "S",
-            "role": "sulfide source",
-            "amount": "0.058 g, 1.8 mmol, 0.75 equiv. to Ln"
+            "name": "Elemental sulfur",
+            "role": "Sulfide source"
           }
         ],
+        "si_used": false,
         "solvents": [
           "thf",
           "hexane"
         ],
-        "temperature": "room temperature",
-        "time": "1 d for Ln(SPh)3 formation, then 3 d after sulfur addition",
-        "ph": null,
-        "vessel_or_method": "nitrogen atmosphere; filtration then hexane layering crystallization",
-        "workup_and_crystallization": "filtered to remove a trace of black solid; filtrate layered with hexane to give colorless crystals",
-        "yield": "0.44–0.57 g, 42–57% (range for the Pr/Nd/Gd series; longer saturation times give larger yields)"
-      },
-      "properties": {
-        "reported": false,
-        "property_type": "none",
-        "summary": null,
-        "measurements": []
-      },
-      "source_locations": [
-        {
-          "field": "compound_label",
-          "source": "main_text",
-          "location": "Fig. 1 caption; footnote ‡"
-        },
-        {
-          "field": "formula",
-          "source": "main_text",
-          "location": "title; eqn. (1); footnote †"
-        },
-        {
-          "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "footnote ‡"
-        },
-        {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "structure discussion; Fig. 1"
-        },
-        {
-          "field": "synthesis",
-          "source": "main_text",
-          "location": "footnote † Cluster synthesis"
-        }
-      ]
+        "temperature": "Room temperature",
+        "time": "1 day before sulfur addition; 3 days afterward",
+        "vessel_or_method": "Solution reaction under nitrogen; hexane layering",
+        "workup_and_crystallization": "Filtered to remove a trace of black solid; the filtrate was layered with hexane to obtain colorless crystals. Crystals lose thf and become amorphous within hours of isolation.",
+        "yield": "0.44–0.57 g and 42–57% across the Pr, Nd and Gd preparations; no Gd-specific yield stated"
+      }
     },
     {
-      "compound_label": "Pr analogue",
-      "compound_name": "octapraseodymium hexasulfido dodecanethiolate octakis(tetrahydrofuran)",
+      "ccdc_numbers": [
+        "1223180"
+      ],
+      "ccdc_refcodes": [
+        "NOYHIS"
+      ],
+      "compound_label": null,
+      "compound_name": "Octapraseodymium sulfido phenylthiolate tetrahydrofuran cluster",
       "formula": "Pr8S6(SPh)12(thf)8·2.9thf",
-      "ccdc_numbers": [],
-      "ccdc_refcodes": [],
       "material_class": {
+        "dimensionality": "0D",
         "material_type": "cluster",
-        "nuclearity": 8,
         "metal_composition": "homometallic",
+        "nuclearity": 8,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Pr"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "0D",
-        "structural_family": "cubic Ln8S6 cluster, isostructural with the Gd derivative"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Under nitrogen, Pr metal (2.42 mmol), PhSSPh (0.791 g, 3.62 mmol), and Hg (0.06 g, 0.3 mmol) were combined in thf (35 ml) and stirred for 1 d. Elemental sulfur (0.058 g, 1.8 mmol, 0.75 equiv. to Ln) was added; after 3 d the blue-green solution was filtered to remove a trace of black solid and the filtrate was layered with hexane. Light green crystals of Pr8S6(SPh)12(thf)8·2.9thf were collected. Crystals lose thf upon isolation.",
-        "reagents": [
-          {
-            "name": "praseodymium metal",
-            "formula": "Pr",
-            "role": "lanthanide source",
-            "amount": "2.42 mmol"
-          },
-          {
-            "name": "diphenyl disulfide",
-            "formula": "PhSSPh",
-            "role": "thiolate precursor",
-            "amount": "0.791 g, 3.62 mmol"
-          },
-          {
-            "name": "mercury",
-            "formula": "Hg",
-            "role": "catalyst/activator",
-            "amount": "0.06 g, 0.3 mmol"
-          },
-          {
-            "name": "elemental sulfur",
-            "formula": "S",
-            "role": "sulfide source",
-            "amount": "0.058 g, 1.8 mmol, 0.75 equiv. to Ln"
-          }
-        ],
-        "solvents": [
-          "thf",
-          "hexane"
-        ],
-        "temperature": "room temperature",
-        "time": "1 d for Ln(SPh)3 formation, then 3 d after sulfur addition",
-        "ph": null,
-        "vessel_or_method": "nitrogen atmosphere; filtration then hexane layering crystallization",
-        "workup_and_crystallization": "filtered; filtrate layered with hexane to give light green crystals",
-        "yield": "0.44–0.57 g, 42–57% (series range; longer saturation times give larger yields)"
+        "structural_family": "Cubic lanthanide sulfido cluster"
       },
       "properties": {
-        "reported": false,
+        "measurements": [],
         "property_type": "none",
-        "summary": null,
-        "measurements": []
+        "reported": false,
+        "summary": null
       },
       "source_locations": [
         {
           "field": "formula",
-          "source": "main_text",
-          "location": "title; eqn. (1); footnote †"
+          "location": "Title and synthesis footnote, Markdown lines 1 and 34",
+          "source": "main_text"
         },
         {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "unit-cell data for Pr; isostructural statement"
+          "field": "ccdc_numbers and ccdc_refcodes",
+          "location": "Supplied CCDC catalog row NOYHIS",
+          "source": "external_metadata"
+        },
+        {
+          "field": "structure_description",
+          "location": "Structural discussion and Fig. 1 caption, Markdown lines 19–22",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "footnote † Cluster synthesis"
+          "location": "Synthesis footnote, Markdown line 34",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "The Pr analogue is reported as isostructural with the Gd cluster: eight Pr(III) ions form a cube with sulfide ions capping its six faces and bridging phenylthiolates spanning its twelve edges.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Under nitrogen, Pr, PhSSPh and Hg were combined in thf and stirred for 1 day. Elemental sulfur was added; after 3 days the solution was filtered and the filtrate layered with hexane.",
+        "reagents": [
+          {
+            "amount": "2.42 mmol",
+            "formula": "Pr",
+            "name": "Praseodymium",
+            "role": "Rare-earth starting material"
+          },
+          {
+            "amount": "0.791 g (3.62 mmol)",
+            "formula": "PhSSPh",
+            "name": "Diphenyl disulfide",
+            "role": "Thiolate source"
+          },
+          {
+            "amount": "0.06 g (0.3 mmol)",
+            "formula": "Hg",
+            "name": "Mercury",
+            "role": null
+          },
+          {
+            "amount": "0.058 g (1.8 mmol; 0.75 equiv. relative to Pr)",
+            "formula": "S",
+            "name": "Elemental sulfur",
+            "role": "Sulfide source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "thf",
+          "hexane"
+        ],
+        "temperature": "Room temperature",
+        "time": "1 day before sulfur addition; 3 days afterward",
+        "vessel_or_method": "Solution reaction under nitrogen; hexane layering",
+        "workup_and_crystallization": "Filtered to remove a trace of black solid; the filtrate was layered with hexane to obtain light-green crystals. Crystals lose thf and become amorphous within hours of isolation.",
+        "yield": "0.44–0.57 g and 42–57% across the Pr, Nd and Gd preparations; no Pr-specific yield stated"
+      }
     },
     {
-      "compound_label": "Nd analogue",
-      "compound_name": "octaneodymium hexasulfido dodecanethiolate octakis(tetrahydrofuran)",
-      "formula": "Nd8S6(SPh)12(thf)8·2.9thf",
-      "ccdc_numbers": [],
-      "ccdc_refcodes": [],
+      "ccdc_numbers": [
+        "1223181"
+      ],
+      "ccdc_refcodes": [
+        "NOYHUE"
+      ],
+      "compound_label": null,
+      "compound_name": "Octaneodymium sulfido phenylthiolate tetrahydrofuran cluster",
+      "formula": "Nd8S6(SPh)12(thf)8·3thf",
       "material_class": {
+        "dimensionality": "0D",
         "material_type": "cluster",
-        "nuclearity": 8,
         "metal_composition": "homometallic",
+        "nuclearity": 8,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Nd"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "0D",
-        "structural_family": "cubic Ln8S6 cluster, isostructural with the Gd derivative"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Under nitrogen, Nd metal (2.42 mmol), PhSSPh (0.791 g, 3.62 mmol), and Hg (0.06 g, 0.3 mmol) were combined in thf (35 ml) and stirred for 1 d. Elemental sulfur (0.058 g, 1.8 mmol, 0.75 equiv. to Ln) was added; after 3 d the blue solution was filtered to remove a trace of black solid and the filtrate was layered with hexane. Light blue crystals of Nd8S6(SPh)12(thf)8·2.9thf were collected. Crystals lose thf upon isolation.",
-        "reagents": [
-          {
-            "name": "neodymium metal",
-            "formula": "Nd",
-            "role": "lanthanide source",
-            "amount": "2.42 mmol"
-          },
-          {
-            "name": "diphenyl disulfide",
-            "formula": "PhSSPh",
-            "role": "thiolate precursor",
-            "amount": "0.791 g, 3.62 mmol"
-          },
-          {
-            "name": "mercury",
-            "formula": "Hg",
-            "role": "catalyst/activator",
-            "amount": "0.06 g, 0.3 mmol"
-          },
-          {
-            "name": "elemental sulfur",
-            "formula": "S",
-            "role": "sulfide source",
-            "amount": "0.058 g, 1.8 mmol, 0.75 equiv. to Ln"
-          }
-        ],
-        "solvents": [
-          "thf",
-          "hexane"
-        ],
-        "temperature": "room temperature",
-        "time": "1 d for Ln(SPh)3 formation, then 3 d after sulfur addition",
-        "ph": null,
-        "vessel_or_method": "nitrogen atmosphere; filtration then hexane layering crystallization",
-        "workup_and_crystallization": "filtered; filtrate layered with hexane to give light blue crystals",
-        "yield": "0.44–0.57 g, 42–57% (series range; longer saturation times give larger yields)"
+        "structural_family": "Cubic lanthanide sulfido cluster"
       },
       "properties": {
-        "reported": false,
+        "measurements": [],
         "property_type": "none",
-        "summary": null,
-        "measurements": []
+        "reported": false,
+        "summary": null
       },
       "source_locations": [
         {
           "field": "formula",
-          "source": "main_text",
-          "location": "title; eqn. (1); footnote †"
+          "location": "Title and synthesis footnote, Markdown lines 1 and 34; lattice-thf count from supplied catalog row",
+          "source": "main_text"
         },
         {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "unit-cell data for Nd; isostructural statement"
+          "field": "ccdc_numbers and ccdc_refcodes",
+          "location": "Supplied CCDC catalog row NOYHUE",
+          "source": "external_metadata"
+        },
+        {
+          "field": "structure_description",
+          "location": "Structural discussion and Fig. 1 caption, Markdown lines 19–22",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "footnote † Cluster synthesis"
+          "location": "Synthesis footnote, Markdown line 34",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "The Nd analogue is reported as isostructural with the Gd cluster: eight Nd(III) ions form a cube with sulfide ions capping its six faces and bridging phenylthiolates spanning its twelve edges.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Under nitrogen, Nd, PhSSPh and Hg were combined in thf and stirred for 1 day. Elemental sulfur was added; after 3 days the solution was filtered and the filtrate layered with hexane.",
+        "reagents": [
+          {
+            "amount": "2.42 mmol",
+            "formula": "Nd",
+            "name": "Neodymium",
+            "role": "Rare-earth starting material"
+          },
+          {
+            "amount": "0.791 g (3.62 mmol)",
+            "formula": "PhSSPh",
+            "name": "Diphenyl disulfide",
+            "role": "Thiolate source"
+          },
+          {
+            "amount": "0.06 g (0.3 mmol)",
+            "formula": "Hg",
+            "name": "Mercury",
+            "role": null
+          },
+          {
+            "amount": "0.058 g (1.8 mmol; 0.75 equiv. relative to Nd)",
+            "formula": "S",
+            "name": "Elemental sulfur",
+            "role": "Sulfide source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "thf",
+          "hexane"
+        ],
+        "temperature": "Room temperature",
+        "time": "1 day before sulfur addition; 3 days afterward",
+        "vessel_or_method": "Solution reaction under nitrogen; hexane layering",
+        "workup_and_crystallization": "Filtered to remove a trace of black solid; the filtrate was layered with hexane to obtain light-blue crystals. Crystals lose thf and become amorphous within hours of isolation.",
+        "yield": "0.44–0.57 g and 42–57% across the Pr, Nd and Gd preparations; no Nd-specific yield stated"
+      }
+    },
+    {
+      "ccdc_numbers": [
+        "115651"
+      ],
+      "ccdc_refcodes": [
+        "NOYHOY"
+      ],
+      "compound_label": null,
+      "compound_name": "Octaterbium sulfido phenylthiolate tetrahydrofuran cluster",
+      "formula": "Tb8S6(SPh)12(thf)8·3thf",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "homometallic",
+        "nuclearity": 8,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Tb"
+        ],
+        "structural_family": "Cubic lanthanide sulfido cluster"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "formula and ccdc_numbers and ccdc_refcodes",
+          "location": "Supplied CCDC catalog row NOYHOY",
+          "source": "external_metadata"
+        },
+        {
+          "field": "structure_description",
+          "location": "Structural discussion and terbium crystallographic footnote, Markdown lines 19 and 42",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Terbium crystallographic footnote, Markdown line 42",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Reported as a member of the cubic Ln8S6(SPh)12(thf)8 cluster family, with a cube of eight lanthanide ions, six face-capping sulfides and twelve edge-spanning phenylthiolates. The Tb crystal is reported in monoclinic space group C2/c, a distinct phase from the triclinic Pr, Nd and Gd crystals.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "ph": null,
+        "procedure": null,
+        "reagents": [],
+        "si_used": false,
+        "solvents": [
+          "thf"
+        ],
+        "temperature": null,
+        "time": null,
+        "vessel_or_method": null,
+        "workup_and_crystallization": "The terbium complex is reported to crystallize from thf solution; no Tb-specific preparation quantities or work-up are given.",
+        "yield": null
+      }
+    },
+    {
+      "ccdc_numbers": [
+        "115650"
+      ],
+      "ccdc_refcodes": [
+        "NOYJAM"
+      ],
+      "compound_label": null,
+      "compound_name": "Octasamarium sulfido phenylthiolate tetrahydrofuran cluster",
+      "formula": "Sm8S6(SPh)12(thf)8·6dme",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "homometallic",
+        "nuclearity": 8,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Sm"
+        ],
+        "structural_family": "Cubic lanthanide sulfido cluster"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "formula and ccdc_numbers and ccdc_refcodes",
+          "location": "Supplied CCDC catalog row NOYJAM",
+          "source": "external_metadata"
+        },
+        {
+          "field": "structure_description",
+          "location": "Structural discussion and samarium crystallographic footnote, Markdown lines 19 and 42",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Samarium crystallographic footnote, Markdown line 42",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Reported as a member of the cubic Ln8S6(SPh)12(thf)8 cluster family, with a cube of eight lanthanide ions, six face-capping sulfides and twelve edge-spanning phenylthiolates. The Sm crystal is reported in tetragonal space group I4/m and crystallizes from thf–dme.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "ph": null,
+        "procedure": null,
+        "reagents": [],
+        "si_used": false,
+        "solvents": [
+          "thf",
+          "dme"
+        ],
+        "temperature": null,
+        "time": null,
+        "vessel_or_method": null,
+        "workup_and_crystallization": "The Sm compound crystallizes from thf–dme; no Sm-specific preparation quantities or work-up are given.",
+        "yield": null
+      }
     }
-  ]
+  ],
+  "title": "Cubic lanthanide sulfido clusters: Ln8S6(SPh)12(thf)8 (Ln = Pr, Nd, Gd)"
 }

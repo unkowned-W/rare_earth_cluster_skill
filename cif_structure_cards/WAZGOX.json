@@ -1,0 +1,161 @@
+{
+  "refcode": "WAZGOX",
+  "ccdc_number": "2170493",
+  "dois": [
+    "10.1107/s2056989022004790"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2170493.cif",
+  "formula_moiety": "1.5(H4 N1 1+),0.5(H3 O1 1+),C24 H14 F38 O28 Yb6 2-,4(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/n",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "12.1449(13)",
+    "b": "17.5051(16)",
+    "c": "15.1885(16)",
+    "alpha": "90",
+    "beta": "102.999(4)",
+    "gamma": "90",
+    "volume": "3146.29",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O12",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O27",
+        "O29",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O14",
+        "O16",
+        "O25",
+        "O4",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb4",
+      "element": "Yb",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O21",
+        "O22",
+        "O24",
+        "O26"
+      ]
+    },
+    {
+      "label": "Yb5",
+      "element": "Yb",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O13",
+        "O15",
+        "O18",
+        "O23",
+        "O31"
+      ]
+    },
+    {
+      "label": "Yb6",
+      "element": "Yb",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O19",
+        "O20",
+        "O28",
+        "O30"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Yb1"
+      ],
+      [
+        "Yb2"
+      ],
+      [
+        "Yb3"
+      ],
+      [
+        "Yb4"
+      ],
+      [
+        "Yb5"
+      ],
+      [
+        "Yb6"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "WAZGOX crystallizes in the monoclinic crystal system with space group P 21/n. Reported CIF formula moiety: 1.5(H4 N1 1+),0.5(H3 O1 1+),C24 H14 F38 O28 Yb6 2-,4(H2 O1). From the CIF bond table, Yb1 (Yb) has 4 O neighbors; Yb2 (Yb) has 5 O neighbors; Yb3 (Yb) has 5 O neighbors; Yb4 (Yb) has 4 O neighbors; Yb5 (Yb) has 5 O neighbors; Yb6 (Yb) has 5 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula [(NH4)0.75(H3O)0.25]2[Yb6F8(O2CCF3)12(H2O)4]·4H2O. Explicit grouped units in the article formula/name: 4 H2O (explicit grouped unit in article formula). Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1107/s2056989022004790",
+    "formula": "[(NH4)0.75(H3O)0.25]2[Yb6F8(O2CCF3)12(H2O)4]·4H2O",
+    "compound_name": "Mixed ammonium/oxonium octahedro-hexaytterbium(III) fluorido-trifluoroacetate tetrahydrate",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 6,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 4,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}

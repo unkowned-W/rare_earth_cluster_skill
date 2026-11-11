@@ -1,0 +1,171 @@
+{
+  "refcode": "CEJVUK",
+  "ccdc_number": "844788",
+  "dois": [
+    "10.1002/ejic.201200357"
+  ],
+  "source_data_block": "CEJVUK",
+  "source_cif": "CIFs\\844788.cif",
+  "formula_moiety": "C62 H50 Dy3 N9 O17,C1 H4 O1,2(H2 O1),C1 H2 Cl2",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "13.785(3)",
+    "b": "15.175(3)",
+    "c": "19.161(4)",
+    "alpha": "86.08(3)",
+    "beta": "71.73(3)",
+    "gamma": "73.39(3)",
+    "volume": "3646.37",
+    "Z": "2"
+  },
+  "metal_sites": [
+    {
+      "label": "Dy1",
+      "element": "Dy",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O17",
+        "O3",
+        "O4",
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Dy2",
+      "element": "Dy",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "label": "Dy3",
+      "element": "Dy",
+      "occupancy": null,
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O12",
+        "O13",
+        "O15",
+        "O16",
+        "O2",
+        "O7",
+        "O9"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Dy1",
+          "Dy2"
+        ],
+        "shared_oxygen_labels": [
+          "O3",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.802,
+        "bridge_geometry": [
+          {
+            "oxygen": "O3",
+            "angle_deg": 110.09,
+            "metal_oxygen_distances_angstrom": [
+              2.326,
+              2.313
+            ]
+          },
+          {
+            "oxygen": "O4",
+            "angle_deg": 109.18,
+            "metal_oxygen_distances_angstrom": [
+              2.349,
+              2.316
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Dy2",
+          "Dy3"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O2"
+        ],
+        "metal_metal_separation_angstrom": 3.779,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 108.56,
+            "metal_oxygen_distances_angstrom": [
+              2.33,
+              2.324
+            ]
+          },
+          {
+            "oxygen": "O2",
+            "angle_deg": 108.72,
+            "metal_oxygen_distances_angstrom": [
+              2.348,
+              2.301
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Dy1",
+        "Dy2",
+        "Dy3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "approximately planar metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "CEJVUK crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C62 H50 Dy3 N9 O17,C1 H4 O1,2(H2 O1),C1 H2 Cl2. From the CIF bond table, Dy1 (Dy) has 5 O neighbors; Dy2 (Dy) has 4 O neighbors; Dy3 (Dy) has 9 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 3.779-3.802 Å (not direct metal-metal bonds). Computed M-O-M angles span 108.56-110.09°; individual values and O labels are in metal_framework.links. Article card reports molecular formula C64H60Cl2Dy3N9O20.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review.",
+  "article_compound": {
+    "doi": "10.1002/ejic.201200357",
+    "formula": "C64H60Cl2Dy3N9O20",
+    "compound_name": "[Dy3(L^a)3(CH3OH)2(NO3)3]·CH2Cl2·CH3OH·2H2O",
+    "compound_label": "1",
+    "match_basis": "article_card_ccdc_number_and_cif_formula"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 3,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "NO3",
+        "count": 3,
+        "basis": "explicit grouped unit in article compound name (structural notation)"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  },
+  "article_alignment_note": ""
+}

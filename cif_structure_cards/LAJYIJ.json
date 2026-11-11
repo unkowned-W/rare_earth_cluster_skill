@@ -1,0 +1,159 @@
+{
+  "refcode": "LAJYIJ",
+  "ccdc_number": "2391139",
+  "dois": [
+    "10.1039/d5dt01105a"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2391139.cif",
+  "formula_moiety": "C24 H8 F44 O28 Yb6 2-,2(C2 H1 F3 O2),2(H2 O1),2(K1 1+)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "11.6426(6)",
+    "b": "12.2776(6)",
+    "c": "14.2779(7)",
+    "alpha": "107.4030(10)",
+    "beta": "108.1910(10)",
+    "gamma": "104.197(2)",
+    "volume": "1716.24",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Yb1",
+      "element": "Yb",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O2",
+        "O23",
+        "O27",
+        "O4",
+        "O9"
+      ]
+    },
+    {
+      "label": "Yb2",
+      "element": "Yb",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O12A",
+        "O12B",
+        "O6",
+        "O7"
+      ]
+    },
+    {
+      "label": "Yb3",
+      "element": "Yb",
+      "occupancy": null,
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11A",
+        "O20",
+        "O21",
+        "O22B",
+        "O24"
+      ]
+    },
+    {
+      "label": "Yb4",
+      "element": "Yb",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O19",
+        "O22",
+        "O28",
+        "O31",
+        "O8"
+      ]
+    },
+    {
+      "label": "Yb5",
+      "element": "Yb",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O18",
+        "O25",
+        "O26",
+        "O33",
+        "O36"
+      ]
+    },
+    {
+      "label": "Yb6",
+      "element": "Yb",
+      "occupancy": null,
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O29",
+        "O3",
+        "O30",
+        "O34",
+        "O35",
+        "O5"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Yb1"
+      ],
+      [
+        "Yb2"
+      ],
+      [
+        "Yb3"
+      ],
+      [
+        "Yb4"
+      ],
+      [
+        "Yb5"
+      ],
+      [
+        "Yb6"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "LAJYIJ crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C24 H8 F44 O28 Yb6 2-,2(C2 H1 F3 O2),2(H2 O1),2(K1 1+). From the CIF bond table, Yb1 (Yb) has 5 O neighbors; Yb2 (Yb) has 5 O neighbors; Yb3 (Yb) has 6 O neighbors; Yb4 (Yb) has 5 O neighbors; Yb5 (Yb) has 5 O neighbors; Yb6 (Yb) has 6 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula K2[Yb6(μ3-F)8(tfa)12(H2O)5]·2Htfa·H2O. Explicit grouped units in the article formula/name: 5 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d5dt01105a",
+    "formula": "K2[Yb6(μ3-F)8(tfa)12(H2O)5]·2Htfa·H2O",
+    "compound_name": "Potassium hexaytterbium fluorotrifluoroacetate trifluoroacetic-acid hydrate",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 6,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 5,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

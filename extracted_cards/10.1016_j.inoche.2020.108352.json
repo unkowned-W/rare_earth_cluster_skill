@@ -1,0 +1,158 @@
+{
+  "doi": "10.1016/j.inoche.2020.108352",
+  "list_of_rare_earth_compounds": [
+    {
+      "ccdc_numbers": [
+        "2011204"
+      ],
+      "ccdc_refcodes": [
+        "EKATAO"
+      ],
+      "compound_label": "1",
+      "compound_name": "Chiral trinuclear cerium(III) complex based on (R)-1,1′-binaphthyl-2,2′-diyl phosphate",
+      "formula": "[Ce3Cl(R-L)6(EtOH)8(H2O)]Cl2·5EtOH·2H2O (R-L = (R)-1,1′-binaphthyl-2,2′-diyl phosphate)",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "homometallic",
+        "nuclearity": 3,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Ce"
+        ],
+        "structural_family": "chloride-templated trinuclear triangle"
+      },
+      "properties": {
+        "measurements": [
+          {
+            "conditions": "Ethanol solution; UV absorption spectrum",
+            "name": "Absorption bands",
+            "property_type": "optical",
+            "unit": "nm",
+            "value": "217, 226, 302, 324"
+          },
+          {
+            "conditions": "Ethanol solution; circular dichroism spectrum",
+            "name": "Positive Cotton effect",
+            "property_type": "optical",
+            "unit": "nm",
+            "value": 215
+          },
+          {
+            "conditions": "Ethanol solution; circular dichroism spectrum",
+            "name": "Negative Cotton effect",
+            "property_type": "optical",
+            "unit": "nm",
+            "value": 228
+          },
+          {
+            "conditions": "Ethanol solution; circular dichroism spectrum",
+            "name": "Weak negative Cotton effects",
+            "property_type": "optical",
+            "unit": "nm",
+            "value": "243, 260"
+          },
+          {
+            "conditions": "Ethanol solution; circular dichroism spectrum",
+            "name": "Weak positive Cotton effect",
+            "property_type": "optical",
+            "unit": "nm",
+            "value": 325
+          },
+          {
+            "conditions": "300 K",
+            "name": "χMT",
+            "property_type": "magnetic",
+            "unit": "cm³ K mol⁻¹",
+            "value": 2.02
+          },
+          {
+            "conditions": "2 K, 7 T",
+            "name": "Magnetization",
+            "property_type": "magnetic",
+            "unit": "NμB",
+            "value": 3.01
+          },
+          {
+            "conditions": "AC susceptibility; zero field and 1000 Oe",
+            "name": "Out-of-phase χM″ signal / slow magnetic relaxation",
+            "property_type": "magnetic",
+            "unit": null,
+            "value": "Not observed"
+          }
+        ],
+        "property_type": "both",
+        "reported": true,
+        "summary": "Magnetic susceptibility and magnetization were measured; χMT decreases on cooling, attributed to thermal depopulation of excited mJ states and antiferromagnetic interactions. No slow magnetic relaxation was observed. UV absorption and CD were reported, with strong positive and negative Cotton effects attributed to the chiral ligand."
+      },
+      "source_locations": [
+        {
+          "field": "compound_label, formula",
+          "location": "Abstract; Section 1; Section 2.1",
+          "source": "main_text"
+        },
+        {
+          "field": "CCDC numbers, CCDC refcodes",
+          "location": "Supplied CCDC structure catalog",
+          "source": "external_metadata"
+        },
+        {
+          "field": "material_class, structure_description",
+          "location": "Section 2.1; Figures 1–2",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Section 2, paragraph preceding Section 2.1; Scheme 1",
+          "source": "main_text"
+        },
+        {
+          "field": "properties",
+          "location": "Sections 2.3–2.4; Figures 4–6",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Supporting Information, Experimental section, “Synthesis of [Ce3Cl(R-L)6(EtOH)8(H2O)]Cl2·5EtOH·2H2O (1)”"
+        }
+      ],
+      "structure_description": "The three Ce(III) ions form an approximately equilateral triangle. Adjacent ions are bridged by phosphate O–P–O groups from the R-L ligands, and a central μ3-Cl− anion bridges and templates the Ce3 core. The discrete trinuclear cations are connected through hydrogen-bonding interactions.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "ph": null,
+        "procedure": "Reported as a solvothermal reaction of R-HL, triethylamine, and CeCl3·7H2O at 75 °C. The main text gives no reagent quantities or further procedural details.",
+        "reagents": [
+          {
+            "amount": "70 mg (0.2 mmol)",
+            "formula": null,
+            "name": "(R)-1,1′-binaphthyl-2,2′-diyl hydrogenphosphate (R-HL)",
+            "role": "ligand"
+          },
+          {
+            "amount": "14 μL",
+            "formula": null,
+            "name": "Triethylamine",
+            "role": "reagent/base"
+          },
+          {
+            "amount": "37 mg (0.1 mmol)",
+            "formula": "CeCl3·7H2O",
+            "name": "Cerium(III) chloride heptahydrate",
+            "role": "rare-earth starting material"
+          }
+        ],
+        "si_used": true,
+        "solvents": [
+          "Ethanol (8 mL)"
+        ],
+        "temperature": "75 °C",
+        "time": "48 h at 75 °C; cooled to room temperature over 20 h",
+        "vessel_or_method": "Solvothermal reaction",
+        "workup_and_crystallization": "Colorless block crystals were obtained and washed with ethanol.",
+        "yield": "52%"
+      }
+    }
+  ],
+  "title": "Trinuclear cerium complex based on a chiral ligand of 1,1′-binaphthyl-2,2′-diyl phosphate: Synthesis, characterization, and template effect of chloride ion"
+}

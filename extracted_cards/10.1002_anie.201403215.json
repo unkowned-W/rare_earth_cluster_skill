@@ -1,0 +1,137 @@
+{
+  "doi": "10.1002/anie.201403215",
+  "list_of_rare_earth_compounds": [
+    {
+      "ccdc_numbers": [
+        "983118"
+      ],
+      "ccdc_refcodes": [
+        "ZOCVIY"
+      ],
+      "compound_label": "CePOM",
+      "compound_name": "Tetrabutylammonium tetranuclear cerium(III)-containing sandwich-type silicotungstate",
+      "formula": "(TBA)6[{Ce(H2O)}2{Ce(CH3CN)}2(μ4-O)(γ-SiW10O36)2]",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "heterometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [
+          "W"
+        ],
+        "rare_earth_elements": [
+          "Ce"
+        ],
+        "structural_family": "γ-Keggin silicotungstate sandwich cluster"
+      },
+      "properties": {
+        "measurements": [
+          {
+            "conditions": "CePOM in acetonitrile; original sample",
+            "name": "Absorption band",
+            "property_type": "optical",
+            "unit": "nm",
+            "value": "around 460"
+          },
+          {
+            "conditions": "Visible-light irradiation (λ > 400 nm) for 4 h",
+            "name": "W(V)–W(VI) intervalence charge-transfer absorption; molar absorptivity",
+            "property_type": "optical",
+            "unit": "nm; M−1 cm−1",
+            "value": "around 830 nm; ε = 4200"
+          }
+        ],
+        "property_type": "optical",
+        "reported": true,
+        "summary": "CePOM exhibits visible-light absorption attributed to intramolecular Ce(III)-to-POM(W(VI)) charge transfer. Irradiation produces a W(V) species with an absorption band around 830 nm; the compound is used as a visible-light photocatalyst."
+      },
+      "source_locations": [
+        {
+          "field": "formula",
+          "location": "Equation (1); structural discussion",
+          "source": "main_text"
+        },
+        {
+          "field": "structure_description",
+          "location": "Figure 1 and structural discussion",
+          "source": "main_text"
+        },
+        {
+          "field": "properties",
+          "location": "UV/Vis discussion; Figure 2",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_numbers",
+          "location": "CCDC/refcode catalog row for DOI",
+          "source": "external_metadata"
+        },
+        {
+          "field": "synthesis",
+          "source": "supporting_information",
+          "location": "Supporting Information, “Synthesis of CePOM”"
+        }
+      ],
+      "structure_description": "A tetranuclear cerium(III) core, [{Ce(H2O)}2{Ce(CH3CN)}2(μ4-O)], is sandwiched between two divacant γ-SiW10O36 units; each cerium is eight-coordinate.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": false,
+        "ph": null,
+        "procedure": "The article states that CePOM was prepared by reacting TBA4H4[γ-SiW10O36] with Ce(acac)3 in acetone. Equation (1) also identifies TsOH, water, and acetonitrile in the formation stoichiometry, but the main text provides no numerical reagent amounts for the preparation.",
+        "reagents": [
+          {
+            "amount": "2.00 g, 0.582 mmol",
+            "formula": "TBA4H4[γ-SiW10O36]",
+            "name": "Tetrabutylammonium hydrogen γ-silicotungstate",
+            "role": "Starting material"
+          },
+          {
+            "amount": null,
+            "formula": "Ce(acac)3",
+            "name": "Cerium(III) acetylacetonate",
+            "role": "Starting material"
+          },
+          {
+            "amount": null,
+            "formula": "TsOH",
+            "name": "p-Toluenesulfonic acid",
+            "role": "Reaction component in Equation (1)"
+          },
+          {
+            "amount": null,
+            "formula": "H2O",
+            "name": "Water",
+            "role": "Reaction component in Equation (1)"
+          },
+          {
+            "amount": null,
+            "formula": "CH3CN",
+            "name": "Acetonitrile",
+            "role": "Reaction component in Equation (1)"
+          },
+          {
+            "amount": "528 mg, 1.16 mmol (2 equiv relative to silicotungstate)",
+            "formula": "Ce(acac)3·H2O",
+            "name": "Cerium(III) acetylacetonate monohydrate",
+            "role": "Starting material"
+          },
+          {
+            "amount": "110 mg, 0.580 mmol",
+            "formula": "p-TsOH·H2O",
+            "name": "p-Toluenesulfonic acid monohydrate",
+            "role": "Added reagent"
+          }
+        ],
+        "si_used": true,
+        "solvents": [
+          "acetone"
+        ],
+        "temperature": "ca. 20 °C for initial stirring; 25 °C after acid addition",
+        "time": "5 min initial stirring; 5 h after acid addition",
+        "vessel_or_method": null,
+        "workup_and_crystallization": "Single crystals suitable for X-ray analysis were obtained by recrystallization from acetonitrile and diethyl ether.",
+        "yield": "92% based on TBA4H4[γ-SiW10O36]"
+      }
+    }
+  ],
+  "title": "Visible-Light-Induced Photoredox Catalysis with a Tetracerium-Containing Silicotungstate"
+}

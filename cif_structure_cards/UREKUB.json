@@ -1,0 +1,97 @@
+{
+  "refcode": "UREKUB",
+  "ccdc_number": "2471879",
+  "dois": [
+    "10.1021/acs.inorgchem.5c03187"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2471879.cif",
+  "formula_moiety": "C54 H82 Ce4 Cl6 N4 O1,1.5(C6 H14)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "14.9419(14)",
+    "b": "25.021(2)",
+    "c": "20.7964(19)",
+    "alpha": "90",
+    "beta": "100.2930(10)",
+    "gamma": "90",
+    "volume": "7649.85",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Ce1",
+      "element": "Ce",
+      "occupancy": null,
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Ce2",
+      "element": "Ce",
+      "occupancy": null,
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Ce3",
+      "element": "Ce",
+      "occupancy": null,
+      "oxygen_coordination_number": 0,
+      "oxygen_neighbor_labels": []
+    },
+    {
+      "label": "Ce4",
+      "element": "Ce",
+      "occupancy": null,
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O1"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Ce1"
+      ],
+      [
+        "Ce2"
+      ],
+      [
+        "Ce3"
+      ],
+      [
+        "Ce4"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "UREKUB crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: C54 H82 Ce4 Cl6 N4 O1,1.5(C6 H14). From the CIF bond table, Ce1 (Ce) has 0 O neighbors; Ce2 (Ce) has 0 O neighbors; Ce3 (Ce) has 0 O neighbors; Ce4 (Ce) has 1 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C54H82Ce4Cl6N4O·1.5(C6H14).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/acs.inorgchem.5c03187",
+    "formula": "C54H82Ce4Cl6N4O·1.5(C6H14)",
+    "compound_name": "Cp*4Ce4Cl6(pzMe,Me)2(thf)",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 4,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

@@ -1,112 +1,827 @@
 {
-  "title": "Exploring the effect of the LnIII/LnII redox potential on C–F activation and on oxidation of some lanthanoid organoamides",
   "doi": "10.1039/c5dt04239a",
   "list_of_rare_earth_compounds": [
     {
-      "compound_label": "[Eu4(LEt)6F2O2]·PhMe",
-      "compound_name": "tetranuclear europium(III) mixed fluoride/oxide cluster toluene solvate",
-      "formula": "[Eu4(LEt)6F2O2]·PhMe (LEt = p-HC6F4N(CH2)2NEt2); C79H98F26N12O2Eu4",
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "[Eu(L^Me)2(thf)2]",
+      "compound_name": "Bis(tetrafluorophenylamido-dimethylamino ligand)bis(tetrahydrofuran)europium(II)",
+      "formula": "C28H38EuF8N4O2",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "complex",
+        "metal_composition": "homometallic",
+        "nuclearity": 1,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "structural_family": "Divalent europium organoamide"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Molecular structures, Fig. 2 and Table 1",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental, synthesis of [Eu(L^Me)2(thf)2]",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Mononuclear, eight-coordinate Eu(II) with two N,N′,F-chelating L^Me ligands and two coordinated thf oxygen atoms; short Eu–F(C) contacts are present.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Eu powder, Hg(C6F5)2, L^MeH and a drop of Hg were stirred in thf for three days under inert-atmosphere conditions, with protection from light during crystallization.",
+        "reagents": [
+          {
+            "amount": "0.46 g, 3.0 mmol",
+            "formula": "Eu",
+            "name": "europium powder",
+            "role": "metal starting material"
+          },
+          {
+            "amount": "0.80 g, 1.5 mmol",
+            "formula": "Hg(C6F5)2",
+            "name": "bis(pentafluorophenyl)mercury",
+            "role": "redox-transmetallation reagent"
+          },
+          {
+            "amount": "0.71 g, 3.0 mmol",
+            "formula": null,
+            "name": "L^MeH",
+            "role": "proligand"
+          },
+          {
+            "amount": "one drop",
+            "formula": "Hg",
+            "name": "mercury",
+            "role": null
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "thf",
+          "toluene"
+        ],
+        "temperature": null,
+        "time": "three days; overnight crystallization",
+        "vessel_or_method": "redox-transmetallation/protolysis",
+        "workup_and_crystallization": "Removed thf under vacuum, added toluene (30 mL), filtered, concentrated to 3 mL and stored overnight in a foil-wrapped flask.",
+        "yield": "0.62 g, 54%"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "[Eu(L^Et)2(thf)2]",
+      "compound_name": "Bis(tetrafluorophenylamido-diethylamino ligand)bis(tetrahydrofuran)europium(II)",
+      "formula": "C32H46EuF8N4O2",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "complex",
+        "metal_composition": "homometallic",
+        "nuclearity": 1,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "structural_family": "Divalent europium organoamide"
+      },
+      "properties": {
+        "measurements": [
+          {
+            "conditions": "thf solution exposed to a halogen light for 6 h; band of the developing purple reaction mixture, not the isolated starting complex",
+            "name": "photoreaction product absorption maximum",
+            "property_type": "optical",
+            "unit": "nm",
+            "value": 521
+          }
+        ],
+        "property_type": "optical",
+        "reported": true,
+        "summary": "UV–vis monitoring of light-induced C–F activation showed a new 521 nm absorption as the solution changed from yellow to purple."
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Molecular structures and Table 1",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental, synthesis of [Eu(L^Et)2(thf)2]",
+          "source": "main_text"
+        },
+        {
+          "field": "properties",
+          "location": "Results and discussion, Fig. 10; Experimental, C–F activation",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Mononuclear, eight-coordinate Eu(II) with two N,N′,F-chelating L^Et ligands and two thf oxygen donors.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Eu powder, Hg(C6F5)2, L^EtH and a drop of Hg were stirred in thf for three days under inert-atmosphere conditions.",
+        "reagents": [
+          {
+            "amount": "0.91 g, 6.0 mmol",
+            "formula": "Eu",
+            "name": "europium powder",
+            "role": "metal starting material"
+          },
+          {
+            "amount": "1.60 g, 3.0 mmol",
+            "formula": "Hg(C6F5)2",
+            "name": "bis(pentafluorophenyl)mercury",
+            "role": "redox-transmetallation reagent"
+          },
+          {
+            "amount": "1.59 g, 6.0 mmol",
+            "formula": null,
+            "name": "L^EtH",
+            "role": "proligand"
+          },
+          {
+            "amount": "one drop",
+            "formula": "Hg",
+            "name": "mercury",
+            "role": null
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "thf"
+        ],
+        "temperature": "−30 °C for crystallization",
+        "time": "three days; overnight crystallization",
+        "vessel_or_method": "redox-transmetallation/protolysis",
+        "workup_and_crystallization": "Filtered, concentrated the solution to 10 mL under vacuum and stored overnight at −30 °C to obtain yellow crystals.",
+        "yield": "1.77 g, 72%"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "[Eu(L^Et)2(dme)]",
+      "compound_name": "Bis(tetrafluorophenylamido-diethylamino ligand)(1,2-dimethoxyethane)europium(II)",
+      "formula": "C28H40EuF8N4O2",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "complex",
+        "metal_composition": "homometallic",
+        "nuclearity": 1,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "structural_family": "Divalent europium organoamide"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Molecular structures and Table 1",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental, synthesis of [Eu(L^Et)2(dme)]",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Mononuclear, eight-coordinate Eu(II) with two N,N′,F-chelating L^Et ligands and two oxygen donors from one chelating dme molecule.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "The isolated thf adduct was dissolved in dme with gentle heating; standing yielded the dme adduct.",
+        "reagents": [
+          {
+            "amount": "1.22 g, 1.5 mmol",
+            "formula": "[Eu(L^Et)2(thf)2]",
+            "name": "[Eu(L^Et)2(thf)2]",
+            "role": "starting complex"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "dme (10 mL)"
+        ],
+        "temperature": "gentle heating to dissolve; then left to stand",
+        "time": "1 h after dissolution",
+        "vessel_or_method": "solvent-ligand exchange in a Schlenk flask",
+        "workup_and_crystallization": "Bright yellow crystals deposited on standing.",
+        "yield": "0.53 g, 46%"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "[Eu(L^Me)2I(thf)]",
+      "compound_name": "Iodido-bis(tetrafluorophenylamido-dimethylamino ligand)(tetrahydrofuran)europium(III)",
+      "formula": "C24H30EuF8IN4O",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "complex",
+        "metal_composition": "homometallic",
+        "nuclearity": 1,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "structural_family": "Trivalent lanthanoid iodo organoamide"
+      },
+      "properties": {
+        "measurements": [
+          {
+            "conditions": "solution",
+            "name": "absorption maximum",
+            "property_type": "optical",
+            "unit": "nm",
+            "value": 613
+          },
+          {
+            "conditions": "solid",
+            "name": "absorption maximum",
+            "property_type": "optical",
+            "unit": "nm",
+            "value": 609
+          },
+          {
+            "conditions": "solution, at 613 nm",
+            "name": "molar absorptivity",
+            "property_type": "optical",
+            "unit": "M^-1 cm^-1",
+            "value": 759
+          }
+        ],
+        "property_type": "optical",
+        "reported": true,
+        "summary": "The blue complex has visible absorption tentatively attributed to ligand-to-Eu(III) charge transfer."
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Molecular structures, Fig. 5 and Table 3",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental, joint synthesis of Eu iodo and tris-ligand products",
+          "source": "main_text"
+        },
+        {
+          "field": "properties",
+          "location": "Results and discussion, UV–vis characterization; Experimental",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Mononuclear, eight-coordinate Eu(III) bearing two tridentate N,N′,F amide ligands, an iodide and one thf oxygen donor.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Iodine solution was added to [Eu(L^Me)2(thf)2] in toluene at ambient temperature under inert-atmosphere conditions and stirred for one hour.",
+        "reagents": [
+          {
+            "amount": "0.13 g, 0.50 mmol",
+            "formula": "I2",
+            "name": "iodine",
+            "role": "oxidant and iodide source"
+          },
+          {
+            "amount": "0.77 g, 1.0 mmol",
+            "formula": "[Eu(L^Me)2(thf)2]",
+            "name": "[Eu(L^Me)2(thf)2]",
+            "role": "starting complex"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "toluene (10 mL for each solution)"
+        ],
+        "temperature": "ambient",
+        "time": "1 h reaction; overnight crystallization",
+        "vessel_or_method": "oxidation with iodine",
+        "workup_and_crystallization": "Filtered, reduced filtrate volume to 5 mL under vacuum and left overnight; blue rhombus crystals precipitated.",
+        "yield": "0.61 g, 58%"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "[Eu(L^Me)3]",
+      "compound_name": "Tris(tetrafluorophenylamido-dimethylamino ligand)europium(III)",
+      "formula": "C30H33EuF12N6",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "complex",
+        "metal_composition": "homometallic",
+        "nuclearity": 1,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Eu"
+        ],
+        "structural_family": "Trivalent homoleptic lanthanoid organoamide"
+      },
+      "properties": {
+        "measurements": [
+          {
+            "conditions": "UV–vis measurement; phase not specified for this value",
+            "name": "absorption maximum",
+            "property_type": "optical",
+            "unit": "nm",
+            "value": 573
+          }
+        ],
+        "property_type": "optical",
+        "reported": true,
+        "summary": "Visible absorption of the blue complex is presumed to arise from ligand-to-metal charge transfer."
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Molecular structures, Fig. 3 and Table 2",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental, joint synthesis of Eu iodo and tris-ligand products",
+          "source": "main_text"
+        },
+        {
+          "field": "properties",
+          "location": "Results and discussion, UV–vis characterization; Experimental",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Mononuclear, eight-coordinate Eu(III); two L^Me ligands bind through N,N′,F and the third through N,N′, with nonbonding Eu–F(C) contacts for the third ligand.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Formed alongside the iodo complex when iodine was added to [Eu(L^Me)2(thf)2] in toluene under inert-atmosphere conditions.",
+        "reagents": [
+          {
+            "amount": "0.13 g, 0.50 mmol",
+            "formula": "I2",
+            "name": "iodine",
+            "role": "oxidant"
+          },
+          {
+            "amount": "0.77 g, 1.0 mmol",
+            "formula": "[Eu(L^Me)2(thf)2]",
+            "name": "[Eu(L^Me)2(thf)2]",
+            "role": "starting complex"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "toluene (10 mL for each solution)"
+        ],
+        "temperature": "ambient",
+        "time": "1 h initial reaction; subsequent concentration",
+        "vessel_or_method": "oxidation with iodine",
+        "workup_and_crystallization": "After isolation of the iodo product, further concentration of the remaining solution gave a few bright blue crystals.",
+        "yield": "a few crystals; numerical yield not reported"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "[Yb(L^Et)2I]",
+      "compound_name": "Iodido-bis(tetrafluorophenylamido-diethylamino ligand)ytterbium(III)",
+      "formula": "C24H30F8IN4Yb",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "complex",
+        "metal_composition": "homometallic",
+        "nuclearity": 1,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "structural_family": "Trivalent lanthanoid iodo organoamide"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Molecular structures, Fig. 6 and Table 3",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental, synthesis of [Yb(L^Et)2I]",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Mononuclear, seven-coordinate Yb(III) with two N,N′,F amide ligands and iodide; one ligand has comparatively weakened Yb–F(C) coordination.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Iodine was added to [Yb(L^Et)2(thf)2] in toluene at ambient temperature under inert-atmosphere conditions and stirred for one hour.",
+        "reagents": [
+          {
+            "amount": "0.13 g, 0.50 mmol",
+            "formula": "I2",
+            "name": "iodine",
+            "role": "oxidant and iodide source"
+          },
+          {
+            "amount": "0.77 g, 1.0 mmol",
+            "formula": "[Yb(L^Et)2(thf)2]",
+            "name": "[Yb(L^Et)2(thf)2]",
+            "role": "starting complex"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "toluene (10 mL for each solution)",
+          "hexane (20 mL)"
+        ],
+        "temperature": "ambient reaction; heated hexane slurry to dissolve",
+        "time": "1 h reaction; two days crystallization",
+        "vessel_or_method": "oxidation with iodine",
+        "workup_and_crystallization": "Filtered, removed solvent under vacuum, added hexane and heated the slurry; dark red rhombus crystals formed after two days.",
+        "yield": "0.31 g, 38%"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "[Yb(L^Et)3]",
+      "compound_name": "Tris(tetrafluorophenylamido-diethylamino ligand)ytterbium(III)",
+      "formula": "C36H45F12N6Yb",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "complex",
+        "metal_composition": "homometallic",
+        "nuclearity": 1,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Yb"
+        ],
+        "structural_family": "Trivalent homoleptic lanthanoid organoamide"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Molecular structures, Fig. 4 and Table 2",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental, synthesis of [Yb(L^Et)3]",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Mononuclear, eight-coordinate Yb(III) with two tridentate N,N′,F L^Et ligands and a third ligand binding through N,F, leaving an amine donor uncoordinated.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Iodine solution was added to [Yb(L^Et)2(thf)2] in toluene at ambient temperature under inert-atmosphere conditions and stirred for one hour.",
+        "reagents": [
+          {
+            "amount": "0.10 g, 0.39 mmol",
+            "formula": "I2",
+            "name": "iodine",
+            "role": "oxidant"
+          },
+          {
+            "amount": "0.39 g, 0.46 mmol",
+            "formula": "[Yb(L^Et)2(thf)2]",
+            "name": "[Yb(L^Et)2(thf)2]",
+            "role": "starting complex"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "toluene (5 mL for each solution)"
+        ],
+        "temperature": "ambient",
+        "time": "1 h reaction; three days crystallization",
+        "vessel_or_method": "oxidation with iodine",
+        "workup_and_crystallization": "Filtered, concentrated filtrate to 2 mL and stored for three days to obtain red crystals.",
+        "yield": "0.11 g, 34%"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "[Sm(L^Me)3]",
+      "compound_name": "Tris(tetrafluorophenylamido-dimethylamino ligand)samarium(III)",
+      "formula": "C30H33F12N6Sm",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "complex",
+        "metal_composition": "homometallic",
+        "nuclearity": 1,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Sm"
+        ],
+        "structural_family": "Trivalent homoleptic lanthanoid organoamide"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Molecular structures and Table 2",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental, synthesis of [Sm(L^Me)3]",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Mononuclear, eight-coordinate Sm(III); two L^Me ligands chelate through N,N′,F and the third through N,N′, with its Sm–F(C) contacts nonbonding.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "L^MeH was added to a solution of the samarium benzyl complex in toluene at ambient temperature under inert-atmosphere conditions; the mixture was stirred for three hours.",
+        "reagents": [
+          {
+            "amount": "0.42 g, 1.8 mmol",
+            "formula": null,
+            "name": "L^MeH",
+            "role": "proligand"
+          },
+          {
+            "amount": "0.27 g, 0.50 mmol",
+            "formula": "[Sm(CH2C6H4-NMe2-o)3]",
+            "name": "tris(ortho-dimethylaminobenzyl)samarium",
+            "role": "samarium starting complex"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "toluene (10 mL, then 5 mL)",
+          "hexane (2 mL wash)"
+        ],
+        "temperature": "ambient",
+        "time": "3 h reaction; overnight crystallization",
+        "vessel_or_method": "protolysis",
+        "workup_and_crystallization": "Removed solvent under vacuum, washed residue with hexane, redissolved in toluene, concentrated to 1 mL and stored overnight; isolated crystals were dried under vacuum.",
+        "yield": "0.31 g, 72%"
+      }
+    },
+    {
+      "ccdc_numbers": [
+        "1433698"
+      ],
+      "ccdc_refcodes": [
+        "PACNUF"
+      ],
+      "compound_label": "[Sm(L^Me)2F]3·1.5PhMe",
+      "compound_name": "Tris[fluorido-bis(tetrafluorophenylamido-dimethylamino ligand)samarium(III)] toluene sesquisolvate",
+      "formula": "C60H66F27N12Sm3·1.5C7H8",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "homometallic",
+        "nuclearity": 3,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Sm"
+        ],
+        "structural_family": "Cyclic trinuclear samarium fluoride"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Molecular structures, Fig. 7 and Table 4",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental, synthesis of [Sm(L^Me)2F]3·1.5PhMe",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_numbers",
+          "location": "Supplied DOI-specific structures catalog row PACNUF",
+          "source": "external_metadata"
+        }
+      ],
+      "structure_description": "Three equivalent Sm centers, each with two tridentate N,N′,F L^Me ligands, are joined by bridging fluorides into a distorted hexagonal Sm3F3 core.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Sm powder, Hg(C6F5)2 and L^MeH were stirred in thf for one week at room temperature under inert-atmosphere conditions. Only a small number of crystals of the identified fluoride cluster were recovered from a similar preparation; the analyzed bulk solid was impure.",
+        "reagents": [
+          {
+            "amount": "0.37 g, 2.5 mmol",
+            "formula": "Sm",
+            "name": "samarium powder",
+            "role": "metal starting material"
+          },
+          {
+            "amount": "0.42 g, 0.79 mmol",
+            "formula": "Hg(C6F5)2",
+            "name": "bis(pentafluorophenyl)mercury",
+            "role": "redox-transmetallation reagent"
+          },
+          {
+            "amount": "0.37 g, 1.6 mmol",
+            "formula": null,
+            "name": "L^MeH",
+            "role": "proligand"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "thf (10 mL)",
+          "toluene (10 mL)"
+        ],
+        "temperature": "room temperature",
+        "time": "one week",
+        "vessel_or_method": "redox-transmetallation/protolysis; Schlenk flask",
+        "workup_and_crystallization": "Filtered, removed thf under vacuum, added toluene and filtered again. Orange single crystals from a similar synthesis were hand-picked; insufficient pure material was obtained for bulk analysis.",
+        "yield": "very low; not quantified for the pure crystalline cluster"
+      }
+    },
+    {
+      "ccdc_numbers": [],
+      "ccdc_refcodes": [],
+      "compound_label": "[Sm(DippForm)(L^Me)F]2·2C6D6",
+      "compound_name": "Bis[fluorido(DippForm)(tetrafluorophenylamido-dimethylamino ligand)samarium(III)] benzene-d6 disolvate",
+      "formula": "C82H92D12F10N8Sm2",
+      "material_class": {
+        "dimensionality": "0D",
+        "material_type": "cluster",
+        "metal_composition": "homometallic",
+        "nuclearity": 2,
+        "other_metal_elements": [],
+        "rare_earth_elements": [
+          "Sm"
+        ],
+        "structural_family": "Dinuclear samarium fluoride"
+      },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "structure_description",
+          "location": "Molecular structures, Fig. 8 and Table 4",
+          "source": "main_text"
+        },
+        {
+          "field": "synthesis",
+          "location": "Experimental, synthesis of [Sm(DippForm)(L^Me)F]2·2C6D6",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Two Sm centers are connected by two bridging fluoride ligands to form an Sm2F2 core. Each Sm has a tridentate N,N′,F L^Me ligand and a κ2-N,N′ formamidinate ligand.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "L^MeH was added at ambient temperature to [Sm(DippForm)2(thf)2] in benzene-d6 under inert-atmosphere conditions. The solution became light yellow after three minutes; several crystals formed on standing.",
+        "reagents": [
+          {
+            "amount": "0.028 g, 0.12 mmol",
+            "formula": null,
+            "name": "L^MeH",
+            "role": "proligand"
+          },
+          {
+            "amount": "0.030 g, 0.030 mmol",
+            "formula": "[Sm(DippForm)2(thf)2]",
+            "name": "bis(DippForm)bis(tetrahydrofuran)samarium",
+            "role": "samarium starting complex"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "C6D6 (0.7 mL)"
+        ],
+        "temperature": "ambient",
+        "time": "two days standing",
+        "vessel_or_method": "attempted protolysis",
+        "workup_and_crystallization": "Several light yellow crystals formed directly from the solution.",
+        "yield": "several crystals; numerical yield not reported"
+      }
+    },
+    {
       "ccdc_numbers": [
         "1433700"
       ],
       "ccdc_refcodes": [
         "PACPER"
       ],
+      "compound_label": "[Eu4(L^Et)6F2O2]·PhMe",
+      "compound_name": "Tetranuclear europium(III) mixed fluoride–oxide organoamide toluene solvate",
+      "formula": "C72H90Eu4F26N12O2·C7H8",
       "material_class": {
+        "dimensionality": "0D",
         "material_type": "cluster",
-        "nuclearity": 4,
         "metal_composition": "homometallic",
+        "nuclearity": 4,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Eu"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "0D",
-        "structural_family": "tetranuclear Eu4 mixed fluoride/oxide cluster with two eight-coordinate and two seven-coordinate Eu(III) centres"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "The precursor [Eu(LEt)2(thf)2] was first prepared by an RTP reaction: europium powder (0.32 g, 1.3 mmol), Hg(C6F5)2 (0.62 g, 1.2 mmol) and LEtH (0.62 g, 2.3 mmol) were reacted as in the bulk [Eu(LEt)2(thf)2] synthesis (stirred in thf). The mixture was filtered and the solvent was removed under vacuum. Toluene (5 mL) was added and the solution was left exposed to light. The colour gradually changed to red/purple. Over time, red/purple crystals precipitated together with a smaller number of orange crystals of [Eu4(LEt)6F2O2]·PhMe, which were hand-picked for X-ray crystallography. A related experiment placing a thf solution of [Eu(LEt)2(thf)2] under a halogen lamp for 6 h likewise changed the colour from bright yellow to purple.",
-        "reagents": [
-          {
-            "name": "europium powder",
-            "formula": "Eu",
-            "role": "metal source for precursor [Eu(LEt)2(thf)2]",
-            "amount": "0.32 g, 1.3 mmol"
-          },
-          {
-            "name": "bis(pentafluorophenyl)mercury",
-            "formula": "Hg(C6F5)2",
-            "role": "RTP oxidant/transmetallation reagent",
-            "amount": "0.62 g, 1.2 mmol"
-          },
-          {
-            "name": "N,N-diethyl-N'-(2,3,5,6-tetrafluorophenyl)ethane-1,2-diamine",
-            "formula": "LEtH = p-HC6F4N(CH2)2NEt2H",
-            "role": "proligand",
-            "amount": "0.62 g, 2.3 mmol"
-          },
-          {
-            "name": "[Eu(LEt)2(thf)2]",
-            "formula": "[Eu(LEt)2(thf)2]",
-            "role": "isolated precursor subjected to light-induced C–F activation",
-            "amount": "prepared in situ from the RTP mixture above"
-          }
-        ],
-        "solvents": [
-          "thf",
-          "toluene"
-        ],
-        "temperature": "ambient (light exposure); related halogen-lamp experiment 6 h in thf",
-        "time": "over time (days) for crystallization after light exposure; 6 h under halogen light in thf for colour change",
-        "ph": null,
-        "vessel_or_method": "redox-transmetallation/protolysis (RTP) followed by light-induced C–F activation; halogen lamp used in a related thf experiment",
-        "workup_and_crystallization": "filter RTP mixture, remove solvent under vacuum, add toluene (5 mL), leave exposed to light; orange crystals of [Eu4(LEt)6F2O2]·PhMe hand-picked from a mixture with poorly diffracting red/purple crystals",
-        "yield": "not reported (minor orange crystals hand-picked from a mixed precipitate)"
+        "structural_family": "Tetranuclear mixed fluoride–oxide europium cluster"
       },
       "properties": {
-        "reported": false,
+        "measurements": [],
         "property_type": "none",
-        "summary": "No magnetic or optical measurements are reported for the isolated [Eu4(LEt)6F2O2]·PhMe crystals. Related UV-vis data (λmax = 521 nm) refer to a light-activated thf solution of the Eu(II) precursor, not to the cluster.",
-        "measurements": []
+        "reported": false,
+        "summary": null
       },
       "source_locations": [
         {
-          "field": "compound_label",
-          "source": "main_text",
-          "location": "abstract; Structure of [Eu4(LEt)6F2O2]·PhMe; Fig. 9; Table 4–5"
-        },
-        {
-          "field": "formula",
-          "source": "main_text",
-          "location": "Table 5 crystal data C79H98F26N12O2Eu4"
-        },
-        {
-          "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "crystallography paragraph CCDC 1433692–1433700"
-        },
-        {
-          "field": "ccdc_refcodes",
-          "source": "external_metadata",
-          "location": "PACPER / 1433700"
-        },
-        {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "Structure of [Eu4(LEt)6F2O2]·PhMe; Fig. 9"
+          "field": "structure_description",
+          "location": "Molecular structures, Fig. 9 and Table 4",
+          "source": "main_text"
         },
         {
           "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental: Light-induced C–F activation of [Eu(LEt)2(thf)2]; C–F activation of [Eu(LEt)2(thf)2]"
+          "location": "Experimental, light-induced C–F activation of [Eu(L^Et)2(thf)2]",
+          "source": "main_text"
         },
         {
-          "field": "properties",
-          "source": "main_text",
-          "location": "Experimental C–F activation UV-vis of precursor solution only"
+          "field": "ccdc_numbers",
+          "location": "Supplied DOI-specific structures catalog row PACPER",
+          "source": "external_metadata"
         }
-      ]
+      ],
+      "structure_description": "Four Eu(III) centers occur in two environments: two are eight-coordinate and two seven-coordinate. Bridging fluoride, oxide and L^Et amide-nitrogen donors link the centers; the L^Et ligands display tridentate or bridging monodentate coordination.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "An [Eu(L^Et)2(thf)2] reaction solution prepared from Eu, Hg(C6F5)2 and L^EtH was filtered, evaporated, redissolved in toluene and exposed to light under the reported inert-atmosphere handling conditions. The cluster was isolated as a minor crystalline product of light-induced C–F activation.",
+        "reagents": [
+          {
+            "amount": "0.32 g, 1.3 mmol",
+            "formula": "Eu",
+            "name": "europium powder",
+            "role": "starting material for precursor"
+          },
+          {
+            "amount": "0.62 g, 1.2 mmol",
+            "formula": "Hg(C6F5)2",
+            "name": "bis(pentafluorophenyl)mercury",
+            "role": "redox-transmetallation reagent"
+          },
+          {
+            "amount": "0.62 g, 2.3 mmol",
+            "formula": null,
+            "name": "L^EtH",
+            "role": "proligand"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "thf",
+          "toluene (5 mL)"
+        ],
+        "temperature": null,
+        "time": "over time during exposure to light; exact crystallization time not stated",
+        "vessel_or_method": "light-induced C–F activation",
+        "workup_and_crystallization": "Filtered the precursor solution, removed solvent under vacuum, added toluene and left exposed to light. Orange cluster crystals formed among red/purple crystals and were hand-picked for X-ray analysis.",
+        "yield": "a small number of crystals; numerical yield not reported"
+      }
     }
-  ]
+  ],
+  "title": "Exploring the effect of the LnIII/LnII redox potential on C–F activation and on oxidation of some lanthanoid organoamides"
 }

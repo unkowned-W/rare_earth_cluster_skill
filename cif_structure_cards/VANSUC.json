@@ -1,0 +1,133 @@
+{
+  "refcode": "VANSUC",
+  "ccdc_number": "2119490",
+  "dois": [
+    "10.1039/d1ce01554k"
+  ],
+  "source_data_block": null,
+  "source_cif": "CIFs\\2119490.cif",
+  "formula_moiety": "C176 H152 Cl2 Eu4 O44 P8 2+,2(Cl1 1-),7(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P 1",
+  "international_tables_number": "1",
+  "unit_cell": {
+    "a": "13.7311(9)",
+    "b": "18.3631(12)",
+    "c": "20.1893(13)",
+    "alpha": "108.665(3)",
+    "beta": "107.697(3)",
+    "gamma": "97.375(3)",
+    "volume": "4448.77",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Eu1",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O1W",
+        "O20",
+        "O24",
+        "O28",
+        "O33",
+        "O34"
+      ]
+    },
+    {
+      "label": "Eu2",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O15",
+        "O19",
+        "O23",
+        "O2W",
+        "O32",
+        "O35",
+        "O36"
+      ]
+    },
+    {
+      "label": "Eu3",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O12",
+        "O27",
+        "O37",
+        "O3W",
+        "O4",
+        "O40",
+        "O7"
+      ]
+    },
+    {
+      "label": "Eu4",
+      "element": "Eu",
+      "occupancy": null,
+      "oxygen_coordination_number": 7,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O3",
+        "O31",
+        "O38",
+        "O39",
+        "O4W",
+        "O8"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [],
+    "connected_components": [
+      [
+        "Eu1"
+      ],
+      [
+        "Eu2"
+      ],
+      [
+        "Eu3"
+      ],
+      [
+        "Eu4"
+      ]
+    ],
+    "topology": "no oxygen-bridged metal pairs established",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "VANSUC crystallizes in the triclinic crystal system with space group P 1. Reported CIF formula moiety: C176 H152 Cl2 Eu4 O44 P8 2+,2(Cl1 1-),7(H2 O1). From the CIF bond table, Eu1 (Eu) has 7 O neighbors; Eu2 (Eu) has 7 O neighbors; Eu3 (Eu) has 7 O neighbors; Eu4 (Eu) has 7 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula [Eu4Cl2(S-BNP)8(EtOH)8(H2O)4]Cl2·7H2O. Explicit grouped units in the article formula/name: 4 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d1ce01554k",
+    "formula": "[Eu4Cl2(S-BNP)8(EtOH)8(H2O)4]Cl2·7H2O",
+    "compound_name": "Axially chiral tetranuclear europium cluster with S-BNP ligands",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 4,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 4,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  }
+}

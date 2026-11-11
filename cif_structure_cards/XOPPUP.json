@@ -24,6 +24,7 @@
     {
       "label": "Ce1",
       "element": "Ce",
+      "occupancy": null,
       "oxygen_coordination_number": 7,
       "oxygen_neighbor_labels": [
         "O1",
@@ -38,6 +39,7 @@
     {
       "label": "Ce1_2",
       "element": "Ce",
+      "occupancy": null,
       "oxygen_coordination_number": 3,
       "oxygen_neighbor_labels": [
         "O4",
@@ -48,6 +50,7 @@
     {
       "label": "Ce1_3",
       "element": "Ce",
+      "occupancy": null,
       "oxygen_coordination_number": 1,
       "oxygen_neighbor_labels": [
         "O2"
@@ -103,28 +106,12 @@
     "omitted_nonidentity_symmetry_bonds": 0,
     "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
   },
-  "description": "XOPPUP crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: (C19 H16 Ce1 N5 O6)n. From the CIF bond table, Ce1 (Ce) has 7 O neighbors; Ce1_2 (Ce) has 3 O neighbors; Ce1_3 (Ce) has 1 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.269-4.269 Å (not direct metal-metal bonds). Computed M-O-M angles span 107.41-107.41°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Ce(ccnm)(OAc)2(phen)]n. Explicit grouped units in the article formula/name: 2 OAc (explicit grouped unit in article formula), 2 OAc (explicit grouped unit in article compound name (structural notation)).",
-  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
-  "article_compound": {
-    "doi": "10.1021/ic5016115",
-    "formula": "[Ce(ccnm)(OAc)2(phen)]n",
-    "compound_name": "[Ce(ccnm)(OAc)2(phen)]",
-    "match_basis": "ccdc_number"
-  },
-  "formula_annotations": {
-    "ligand_counts": [
-      {
-        "unit": "OAc",
-        "count": 2,
-        "basis": "explicit grouped unit in article formula"
-      },
-      {
-        "unit": "OAc",
-        "count": 2,
-        "basis": "explicit grouped unit in article compound name (structural notation)"
-      }
-    ],
-    "explicit_core_charges": [],
-    "explicit_oxidation_states": []
+  "description": "XOPPUP crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: (C19 H16 Ce1 N5 O6)n. From the CIF bond table, Ce1 (Ce) has 7 O neighbors; Ce1_2 (Ce) has 3 O neighbors; Ce1_3 (Ce) has 1 O neighbors. Oxygen-bridged metal-site graph: 1 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.269-4.269 Å (not direct metal-metal bonds). Computed M-O-M angles span 107.41-107.41°; individual values and O labels are in metal_framework.links.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review.",
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": null,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
   }
 }

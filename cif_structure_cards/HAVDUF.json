@@ -1,9 +1,7 @@
 {
   "refcode": "HAVDUF",
   "ccdc_number": "828785",
-  "dois": [
-    "10.1021/ic2018314"
-  ],
+  "dois": ["10.1021/ic2018314"],
   "source_data_block": null,
   "source_cif": "CIFs\\828785.cif",
   "formula_moiety": "C48 H76 Gd4 O28",
@@ -24,6 +22,7 @@
     {
       "label": "Gd1",
       "element": "Gd",
+      "occupancy": null,
       "oxygen_coordination_number": 8,
       "oxygen_neighbor_labels": [
         "O1",
@@ -39,6 +38,7 @@
     {
       "label": "Gd2",
       "element": "Gd",
+      "occupancy": null,
       "oxygen_coordination_number": 9,
       "oxygen_neighbor_labels": [
         "O10",
@@ -55,6 +55,7 @@
     {
       "label": "Gd1A",
       "element": "Gd",
+      "occupancy": null,
       "oxygen_coordination_number": 8,
       "oxygen_neighbor_labels": [
         "O11A",
@@ -70,6 +71,7 @@
     {
       "label": "Gd2A",
       "element": "Gd",
+      "occupancy": null,
       "oxygen_coordination_number": 9,
       "oxygen_neighbor_labels": [
         "O10A",
@@ -192,28 +194,12 @@
     "omitted_nonidentity_symmetry_bonds": 0,
     "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
   },
-  "description": "HAVDUF crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C48 H76 Gd4 O28. From the CIF bond table, Gd1 (Gd) has 8 O neighbors; Gd2 (Gd) has 9 O neighbors; Gd1A (Gd) has 8 O neighbors; Gd2A (Gd) has 9 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 4.271-4.334 Å (not direct metal-metal bonds). Computed M-O-M angles span 114.45-117.71°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Gd4(OAc)4(acac)8(H2O)4]. Explicit grouped units in the article formula/name: 4 OAc (explicit grouped unit in article formula), 4 H2O (explicit grouped unit in article formula).",
-  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
-  "article_compound": {
-    "doi": "10.1021/ic2018314",
-    "formula": "[Gd4(OAc)4(acac)8(H2O)4]",
-    "compound_name": "tetrakis(μ-acetato)octakis(acetylacetonato)tetraaquatetragadolinium",
-    "match_basis": "refcode"
-  },
-  "formula_annotations": {
-    "ligand_counts": [
-      {
-        "unit": "OAc",
-        "count": 4,
-        "basis": "explicit grouped unit in article formula"
-      },
-      {
-        "unit": "H2O",
-        "count": 4,
-        "basis": "explicit grouped unit in article formula"
-      }
-    ],
-    "explicit_core_charges": [],
-    "explicit_oxidation_states": []
+  "description": "HAVDUF crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C48 H76 Gd4 O28. From the CIF bond table, Gd1 (Gd) has 8 O neighbors; Gd2 (Gd) has 9 O neighbors; Gd1A (Gd) has 8 O neighbors; Gd2A (Gd) has 9 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 1 components; largest component is a chain with approximately planar metal-site arrangement. Computed bridged metal-metal separations span 4.271-4.334 Å (not direct metal-metal bonds). Computed M-O-M angles span 114.45-117.71°; individual values and O labels are in metal_framework.links.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review.",
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": null,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
   }
 }

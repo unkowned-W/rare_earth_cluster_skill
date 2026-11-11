@@ -1,515 +1,460 @@
 {
-  "title": "Synthesis and Structure of New Lanthanoid Carbonate “Lanthaballs”",
   "doi": "10.1021/ic5016115",
   "list_of_rare_earth_compounds": [
     {
-      "compound_label": "β-1Ce",
-      "compound_name": "[Ce13(ccnm)6(CO3)14(H2O)6(phen)18]Cl3(CO3)·25H2O",
-      "formula": "[Ce13(ccnm)6(CO3)14(H2O)6(phen)18]Cl3(CO3)·25H2O",
       "ccdc_numbers": [
         "1012371"
       ],
-      "ccdc_refcodes": [
-        "DUDXEG01"
-      ],
+      "ccdc_refcodes": [],
+      "compound_label": "β-1Ce",
+      "compound_name": "Cerium lanthaball pseudopolymorph",
+      "formula": "[Ce13(ccnm)6(CO3)14(H2O)6(phen)18]Cl3(CO3)·xH2O",
       "material_class": {
+        "dimensionality": "0D",
         "material_type": "cluster",
-        "nuclearity": 13,
         "metal_composition": "homometallic",
+        "nuclearity": 13,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Ce"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "0D",
-        "structural_family": "lanthaball (tridecanuclear polycarbonatolanthanoid)"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "(Et4N)(dcnm) (100 mg, 446 μmol) in methanol (1 mL) was added to 1,10-phenanthroline monohydrate (44 mg, 222 μmol) in methanol (4 mL). CeCl3·7H2O (41 mg, 110 μmol) in methanol (1 mL) was then added, and the solution was allowed to evaporate to dryness over 1 month. A small orange crystal of β-1Ce was removed from an amorphous white precipitate. Carbonate formed by atmospheric CO2 fixation and ccnm by in situ hydration of dcnm. Insufficient material for further analysis of solvation.",
-        "reagents": [
-          {
-            "name": "tetraethylammonium dicyanonitrosomethanide",
-            "formula": "(Et4N)(dcnm)",
-            "role": "ligand precursor",
-            "amount": "100 mg, 446 μmol"
-          },
-          {
-            "name": "1,10-phenanthroline monohydrate",
-            "formula": "C12H8N2·H2O",
-            "role": "coligand",
-            "amount": "44 mg, 222 μmol"
-          },
-          {
-            "name": "cerium(III) chloride heptahydrate",
-            "formula": "CeCl3·7H2O",
-            "role": "metal source",
-            "amount": "41 mg, 110 μmol"
-          }
-        ],
-        "solvents": [
-          "methanol"
-        ],
-        "temperature": null,
-        "time": "1 month (evaporation to dryness)",
-        "ph": null,
-        "vessel_or_method": "evaporation of methanolic solution in air (CO2 fixation)",
-        "workup_and_crystallization": "evaporation to dryness; orange crystal picked from amorphous white precipitate",
-        "yield": "single small crystal; insufficient material for further analysis"
+        "structural_family": "lanthaball"
       },
       "properties": {
-        "reported": false,
+        "measurements": [],
         "property_type": "none",
-        "summary": null,
-        "measurements": []
+        "reported": false,
+        "summary": null
       },
       "source_locations": [
         {
-          "field": "compound_label",
-          "source": "main_text",
-          "location": "Abstract; Experimental Section"
-        },
-        {
-          "field": "formula",
-          "source": "main_text",
-          "location": "Abstract; Crystal data for β-1Ce"
+          "field": "synthesis",
+          "location": "Experimental Section, synthesis of β-1Ce",
+          "source": "main_text"
         },
         {
           "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Experimental Section, CCDC deposition sentence"
+          "location": "Experimental Section, X-ray Crystallography",
+          "source": "main_text"
         },
         {
-          "field": "ccdc_refcodes",
-          "source": "external_metadata",
-          "location": "CCDC row DUDXEG01 / 1012371"
-        },
-        {
-          "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, Synthesis of β-1Ce"
+          "field": "structure_description",
+          "location": "Introduction, Figure 1; Results and Discussion, Figure 2",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "A discrete spherical tridecanuclear lanthaball has a central 12-coordinate Ce bound by six carbonate ligands, surrounded by 12 further Ce centers and additional bridging carbonates in a [Ce13(CO3)14] core. Its molecular structure is essentially that of the previously reported α-1Ce, but β-1Ce is a distinct packing pseudopolymorph.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Add methanolic (Et4N)(dcnm) to 1,10-phenanthroline monohydrate in methanol, then add methanolic CeCl3·7H2O. Allow the solution to evaporate to dryness over one month; carbonate forms through atmospheric CO2 fixation. Only one crystal was obtained, and its degree of solvation could not be determined.",
+        "reagents": [
+          {
+            "amount": "100 mg, 446 μmol",
+            "formula": "(Et4N)(dcnm)",
+            "name": "tetraethylammonium dicyanonitrosomethanide",
+            "role": "ccnm precursor"
+          },
+          {
+            "amount": "44 mg, 222 μmol",
+            "formula": null,
+            "name": "1,10-phenanthroline monohydrate",
+            "role": "ligand"
+          },
+          {
+            "amount": "41 mg, 110 μmol",
+            "formula": "CeCl3·7H2O",
+            "name": "cerium(III) chloride heptahydrate",
+            "role": "metal source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "methanol (1 mL for dcnm salt, 4 mL for phenanthroline, 1 mL for cerium salt)"
+        ],
+        "temperature": null,
+        "time": "1 month",
+        "vessel_or_method": "Solution evaporation",
+        "workup_and_crystallization": "A single small orange crystal was removed from an amorphous white precipitate.",
+        "yield": "One crystal; bulk yield not reported"
+      }
     },
     {
-      "compound_label": "2Ce",
-      "compound_name": "Na[Ce13(ccnm)6(CO3)14(H2O)6(phen)18](NO3)6·20H2O",
-      "formula": "Na[Ce13(ccnm)6(CO3)14(H2O)6(phen)18](NO3)6·20H2O",
       "ccdc_numbers": [
         "1012372"
       ],
-      "ccdc_refcodes": [
-        "XOPPID"
-      ],
+      "ccdc_refcodes": [],
+      "compound_label": "2Ce",
+      "compound_name": "Nitrate-containing cerium lanthaball",
+      "formula": "Na[Ce13(ccnm)6(CO3)14(H2O)6(phen)18](NO3)6·20H2O",
       "material_class": {
+        "dimensionality": "0D",
         "material_type": "cluster",
-        "nuclearity": 13,
         "metal_composition": "homometallic",
+        "nuclearity": 13,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Ce"
         ],
-        "other_metal_elements": [
-          "Na"
-        ],
-        "dimensionality": "0D",
-        "structural_family": "lanthaball (tridecanuclear polycarbonatolanthanoid)"
+        "structural_family": "lanthaball"
       },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, synthesis and alternate synthesis of 2Ce",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_numbers",
+          "location": "Experimental Section, X-ray Crystallography",
+          "source": "main_text"
+        },
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 3",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "A discrete tridecanuclear lanthaball retains the [Ce13(CO3)14] core of α-1Ce. Six nitrate counteranions replace the chloride/carbonate lattice counteranions; surface aqua ligands hydrogen-bond through lattice water to nitrate. Sodium is inferred as the charge-balancing countercation from elemental analysis, rather than located crystallographically.",
       "synthesis": {
         "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Primary route: Ce(NO3)3·6H2O (178 mg, 410 μmol) in methanol (3 mL) was added to (Et4N)(ccnm) (100 mg, 412 μmol) in methanol (2 mL). 1,10-Phenanthroline monohydrate (164 mg, 827 μmol) in methanol (2 mL) and NaHCO3 (34 mg, 404 μmol) in water (1 mL) were added, immediately forming a suspension. After 1 week, orange needle crystals were manually separated and washed with methanol (40 mg, 19%). Alternate route: Na2CO3 (22 mg, 208 μmol) in water (1 mL) was added to Ce(NO3)3·6H2O (89 mg, 206 μmol) in methanol (2 mL), giving a white precipitate; phen monohydrate (81 mg, 407 μmol) in methanol (2 mL) and (Et4N)(ccnm) (50 mg, 206 μmol) in methanol (1 mL) were added. After 1 month, orange crystals of 2Ce formed.",
+        "ph": null,
+        "procedure": "Add methanolic Ce(NO3)3·6H2O to methanolic (Et4N)(ccnm), followed by methanolic 1,10-phenanthroline monohydrate and aqueous NaHCO3. A suspension forms immediately. After one week, manually separate the orange needles and wash with methanol. An alternate preparation uses aqueous Na2CO3, giving a white precipitate before the phenanthroline and ccnm salt are added; orange crystals then form after one month.",
         "reagents": [
           {
-            "name": "cerium(III) nitrate hexahydrate",
+            "amount": "178 mg, 410 μmol; alternate: 89 mg, 206 μmol",
             "formula": "Ce(NO3)3·6H2O",
-            "role": "metal source",
-            "amount": "178 mg, 410 μmol (primary); 89 mg, 206 μmol (alternate)"
+            "name": "cerium(III) nitrate hexahydrate",
+            "role": "metal source"
           },
           {
-            "name": "tetraethylammonium carbamoylcyanonitrosomethanide",
+            "amount": "100 mg, 412 μmol; alternate: 50 mg, 206 μmol",
             "formula": "(Et4N)(ccnm)",
-            "role": "ligand",
-            "amount": "100 mg, 412 μmol (primary); 50 mg, 206 μmol (alternate)"
+            "name": "tetraethylammonium carbamoylcyanonitrosomethanide",
+            "role": "ligand source"
           },
           {
+            "amount": "164 mg, 827 μmol; alternate: 81 mg, 407 μmol",
+            "formula": null,
             "name": "1,10-phenanthroline monohydrate",
-            "formula": "C12H8N2·H2O",
-            "role": "coligand",
-            "amount": "164 mg, 827 μmol (primary); 81 mg, 407 μmol (alternate)"
+            "role": "ligand"
           },
           {
-            "name": "sodium hydrogen carbonate",
+            "amount": "34 mg, 404 μmol",
             "formula": "NaHCO3",
-            "role": "carbonate source / countercation source",
-            "amount": "34 mg, 404 μmol (primary)"
+            "name": "sodium hydrogen carbonate",
+            "role": "carbonate source in primary preparation"
           },
           {
-            "name": "sodium carbonate",
+            "amount": "22 mg, 208 μmol",
             "formula": "Na2CO3",
-            "role": "carbonate source",
-            "amount": "22 mg, 208 μmol (alternate)"
+            "name": "sodium carbonate",
+            "role": "carbonate source in alternate preparation"
           }
         ],
+        "si_used": false,
         "solvents": [
           "methanol",
           "water"
         ],
         "temperature": null,
-        "time": "1 week (primary); 1 month (alternate)",
-        "ph": null,
-        "vessel_or_method": "solution reaction in aqueous methanol; crystallization from the reaction mixture",
-        "workup_and_crystallization": "orange needles manually separated from precipitate and washed with methanol",
-        "yield": "40 mg, 19% (primary route)"
-      },
-      "properties": {
-        "reported": false,
-        "property_type": "none",
-        "summary": null,
-        "measurements": []
-      },
-      "source_locations": [
-        {
-          "field": "compound_label",
-          "source": "main_text",
-          "location": "Abstract; Experimental Section"
-        },
-        {
-          "field": "formula",
-          "source": "main_text",
-          "location": "Abstract; Crystal data for 2Ce"
-        },
-        {
-          "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Experimental Section, CCDC 1012372"
-        },
-        {
-          "field": "ccdc_refcodes",
-          "source": "external_metadata",
-          "location": "CCDC row XOPPID / 1012372"
-        },
-        {
-          "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, Synthesis and Alternate Synthesis of 2Ce"
-        }
-      ]
+        "time": "1 week; alternate preparation: 1 month",
+        "vessel_or_method": "Solution reaction and crystallization",
+        "workup_and_crystallization": "Orange needles were manually separated from precipitate and washed with methanol; the alternate preparation yielded several orange crystals.",
+        "yield": "40 mg, 19% (primary preparation)"
+      }
     },
     {
-      "compound_label": "3",
-      "compound_name": "[CeNa(ccnm)4(phen)3]·MeOH",
-      "formula": "[CeNa(ccnm)4(phen)3]·MeOH",
       "ccdc_numbers": [
         "1012373"
       ],
       "ccdc_refcodes": [],
+      "compound_label": "3",
+      "compound_name": "Cerium–sodium ccnm coordination polymer",
+      "formula": "[CeNa(ccnm)4(phen)3]·MeOH",
       "material_class": {
+        "dimensionality": "2D",
         "material_type": "complex",
-        "nuclearity": 2,
         "metal_composition": "heterometallic",
-        "rare_earth_elements": [
-          "Ce"
-        ],
+        "nuclearity": null,
         "other_metal_elements": [
           "Na"
         ],
-        "dimensionality": "0D",
-        "structural_family": "Ce/Na ccnm–phen complex"
+        "rare_earth_elements": [
+          "Ce"
+        ],
+        "structural_family": "(4,4) coordination-polymer sheet"
       },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, synthesis of 3",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_numbers",
+          "location": "Experimental Section, X-ray Crystallography",
+          "source": "main_text"
+        },
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 4",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Ce(ccnm)4(phen)2 units and sodium centers are linked through carbamoyl oxygen atoms of ccnm ligands into two-dimensional (4,4) sheets. Each metal center is a four-connected node, with ccnm acting as a ditopic bridge; lattice methanol lies between the stacked sheets.",
       "synthesis": {
         "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Ce(NO3)3·6H2O (116 mg, 267 μmol) in methanol (2 mL) was added to Na2CO3 (28 mg, 264 μmol) in water (1 mL), immediately forming a white precipitate. 1,10-Phenanthroline monohydrate (106 mg, 535 μmol) in methanol (2 mL) and (Me4N)(ccnm) (50 mg, 269 μmol) in water (1 mL) were added. Over 5 months, red needles of 3 formed among orange needles of 2Ce. Product 3 was manually isolated, washed with methanol and diethyl ether, and air-dried (5 mg, 6%). Elemental analysis indicates exchange of lattice methanol for water upon atmospheric exposure.",
+        "ph": null,
+        "procedure": "Add methanolic Ce(NO3)3·6H2O to aqueous Na2CO3, forming a white precipitate. Add methanolic 1,10-phenanthroline monohydrate and aqueous (Me4N)(ccnm). Red needles of 3 crystallize alongside orange needles of 2Ce over five months.",
         "reagents": [
           {
-            "name": "cerium(III) nitrate hexahydrate",
+            "amount": "116 mg, 267 μmol",
             "formula": "Ce(NO3)3·6H2O",
-            "role": "metal source",
-            "amount": "116 mg, 267 μmol"
+            "name": "cerium(III) nitrate hexahydrate",
+            "role": "metal source"
           },
           {
-            "name": "sodium carbonate",
+            "amount": "28 mg, 264 μmol",
             "formula": "Na2CO3",
-            "role": "base / Na source",
-            "amount": "28 mg, 264 μmol"
+            "name": "sodium carbonate",
+            "role": "sodium and carbonate source"
           },
           {
+            "amount": "106 mg, 535 μmol",
+            "formula": null,
             "name": "1,10-phenanthroline monohydrate",
-            "formula": "C12H8N2·H2O",
-            "role": "coligand",
-            "amount": "106 mg, 535 μmol"
+            "role": "ligand"
           },
           {
-            "name": "tetramethylammonium carbamoylcyanonitrosomethanide",
+            "amount": "50 mg, 269 μmol",
             "formula": "(Me4N)(ccnm)",
-            "role": "ligand",
-            "amount": "50 mg, 269 μmol"
+            "name": "tetramethylammonium carbamoylcyanonitrosomethanide",
+            "role": "ligand source"
           }
         ],
+        "si_used": false,
         "solvents": [
           "methanol",
           "water"
         ],
         "temperature": null,
         "time": "5 months",
-        "ph": null,
-        "vessel_or_method": "solution reaction; slow crystallization",
-        "workup_and_crystallization": "red needles manually isolated from orange 2Ce needles; washed with methanol and diethyl ether; air-dried",
+        "vessel_or_method": "Solution reaction and crystallization",
+        "workup_and_crystallization": "Red needles were manually separated from the cocrystallized orange 2Ce needles, washed with methanol and diethyl ether, and air-dried. Elemental analysis indicated exchange of lattice methanol for water upon atmospheric exposure.",
         "yield": "5 mg, 6%"
-      },
-      "properties": {
-        "reported": false,
-        "property_type": "none",
-        "summary": null,
-        "measurements": []
-      },
-      "source_locations": [
-        {
-          "field": "compound_label",
-          "source": "main_text",
-          "location": "Abstract; Experimental Section"
-        },
-        {
-          "field": "formula",
-          "source": "main_text",
-          "location": "Abstract; Crystal data for 3"
-        },
-        {
-          "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Experimental Section, CCDC 1012373"
-        },
-        {
-          "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, Synthesis of 3"
-        }
-      ]
+      }
     },
     {
-      "compound_label": "4",
-      "compound_name": "[Ce(ccnm)(OAc)2(phen)]",
-      "formula": "[Ce(ccnm)(OAc)2(phen)]n",
       "ccdc_numbers": [
         "1012374"
       ],
       "ccdc_refcodes": [],
+      "compound_label": "4",
+      "compound_name": "Cerium ccnm–acetate coordination polymer",
+      "formula": "[Ce(ccnm)(OAc)2(phen)]n",
       "material_class": {
+        "dimensionality": "2D",
         "material_type": "complex",
-        "nuclearity": 1,
         "metal_composition": "homometallic",
+        "nuclearity": null,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Ce"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "1D",
-        "structural_family": "coordination polymer"
+        "structural_family": "(4,4) coordination-polymer sheet built from Ce2 dimers"
       },
+      "properties": {
+        "measurements": [],
+        "property_type": "none",
+        "reported": false,
+        "summary": null
+      },
+      "source_locations": [
+        {
+          "field": "synthesis",
+          "location": "Experimental Section, synthesis of 4",
+          "source": "main_text"
+        },
+        {
+          "field": "ccdc_numbers",
+          "location": "Experimental Section, X-ray Crystallography",
+          "source": "main_text"
+        },
+        {
+          "field": "structure_description",
+          "location": "Results and Discussion, Figure 5",
+          "source": "main_text"
+        }
+      ],
+      "structure_description": "Acetate-bridged [Ce2(ccnm)2(OAc)4(phen)2] dimers are joined by ccnm ligands into two-dimensional (4,4) sheets. Each dimer is a four-connected node; phenanthroline ligands of adjacent sheets participate in π-stacking.",
       "synthesis": {
         "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Ce(OAc)3 (131 mg, 413 μmol) was suspended in methanol (3 mL) and water (1 mL) and added to (Et4N)(ccnm) (100 mg, 412 μmol) in methanol (2 mL). 1,10-Phenanthroline monohydrate (164 mg, 827 μmol) in methanol (2 mL) and NaHCO3 (34 mg, 404 μmol) in water (1 mL) were added. Over 3 months an isolated crystal of 4 formed with no evidence of polycarbonatolanthanoid complexes. The single crystal was used for X-ray diffraction; insufficient sample for further analysis.",
+        "ph": null,
+        "procedure": "Add a suspension of Ce(OAc)3 in methanol and water to methanolic (Et4N)(ccnm), then add methanolic 1,10-phenanthroline monohydrate and aqueous NaHCO3. One crystal of 4 formed over three months and was removed for X-ray analysis.",
         "reagents": [
           {
-            "name": "cerium(III) acetate",
+            "amount": "131 mg, 413 μmol",
             "formula": "Ce(OAc)3",
-            "role": "metal source",
-            "amount": "131 mg, 413 μmol"
+            "name": "cerium(III) acetate",
+            "role": "metal and acetate source"
           },
           {
-            "name": "tetraethylammonium carbamoylcyanonitrosomethanide",
+            "amount": "100 mg, 412 μmol",
             "formula": "(Et4N)(ccnm)",
-            "role": "ligand",
-            "amount": "100 mg, 412 μmol"
+            "name": "tetraethylammonium carbamoylcyanonitrosomethanide",
+            "role": "ligand source"
           },
           {
+            "amount": "164 mg, 827 μmol",
+            "formula": null,
             "name": "1,10-phenanthroline monohydrate",
-            "formula": "C12H8N2·H2O",
-            "role": "coligand",
-            "amount": "164 mg, 827 μmol"
+            "role": "ligand"
           },
           {
-            "name": "sodium hydrogen carbonate",
+            "amount": "34 mg, 404 μmol",
             "formula": "NaHCO3",
-            "role": "carbonate source (attempted lanthaball synthesis)",
-            "amount": "34 mg, 404 μmol"
+            "name": "sodium hydrogen carbonate",
+            "role": "added reagent"
           }
         ],
+        "si_used": false,
         "solvents": [
           "methanol",
           "water"
         ],
         "temperature": null,
         "time": "3 months",
-        "ph": null,
-        "vessel_or_method": "suspension/solution reaction in aqueous methanol",
-        "workup_and_crystallization": "isolated single crystal removed for X-ray diffraction",
-        "yield": "single crystal; insufficient sample for further analysis"
-      },
-      "properties": {
-        "reported": false,
-        "property_type": "none",
-        "summary": null,
-        "measurements": []
-      },
-      "source_locations": [
-        {
-          "field": "compound_label",
-          "source": "main_text",
-          "location": "Abstract; Experimental Section"
-        },
-        {
-          "field": "formula",
-          "source": "main_text",
-          "location": "Crystal data for 4 (C19H16CeN5O6)"
-        },
-        {
-          "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Experimental Section, CCDC 1012374"
-        },
-        {
-          "field": "material_class",
-          "source": "main_text",
-          "location": "Results and Discussion, Compound 4"
-        },
-        {
-          "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, Synthesis of 4"
-        }
-      ]
+        "vessel_or_method": "Solution reaction and crystallization",
+        "workup_and_crystallization": "An isolated crystal was removed directly from the reaction solution for diffraction; insufficient material was available for bulk analysis.",
+        "yield": "One crystal; bulk yield not reported"
+      }
     },
     {
-      "compound_label": "5Nd",
-      "compound_name": "[Nd13(ccnm)4(CO3)14(NO3)4(H2O)7(phen)15](NO3)3·10H2O",
-      "formula": "[Nd13(ccnm)4(CO3)14(NO3)4(H2O)7(phen)15](NO3)3·10H2O",
       "ccdc_numbers": [
         "1012375"
       ],
-      "ccdc_refcodes": [
-        "ZOXVOZ"
-      ],
+      "ccdc_refcodes": [],
+      "compound_label": "5Nd",
+      "compound_name": "Neodymium nitrate-containing lanthaball",
+      "formula": "[Nd13(ccnm)4(CO3)14(NO3)4(H2O)7(phen)15](NO3)3·10H2O",
       "material_class": {
+        "dimensionality": "0D",
         "material_type": "cluster",
-        "nuclearity": 13,
         "metal_composition": "homometallic",
+        "nuclearity": 13,
+        "other_metal_elements": [],
         "rare_earth_elements": [
           "Nd"
         ],
-        "other_metal_elements": [],
-        "dimensionality": "0D",
-        "structural_family": "lanthaball (tridecanuclear polycarbonatolanthanoid)"
-      },
-      "synthesis": {
-        "main_text_has_explicit_synthesis": true,
-        "si_used": false,
-        "procedure": "Na2CO3 (22 mg, 208 μmol) in water (1 mL) was added to Nd(NO3)3·6H2O (90 mg, 206 μmol) in methanol (2 mL), forming a white precipitate. 1,10-Phenanthroline monohydrate (81 mg, 407 μmol) in methanol (2 mL) and (Et4N)(ccnm) (50 mg, 206 μmol) in methanol (1 mL) were added. After 1 month, puce crystals formed. The white precipitate was manually removed as a suspension in ethanol; the remaining product was washed with ethanol and air-dried (17 mg, 17%).",
-        "reagents": [
-          {
-            "name": "neodymium(III) nitrate hexahydrate",
-            "formula": "Nd(NO3)3·6H2O",
-            "role": "metal source",
-            "amount": "90 mg, 206 μmol"
-          },
-          {
-            "name": "sodium carbonate",
-            "formula": "Na2CO3",
-            "role": "carbonate source",
-            "amount": "22 mg, 208 μmol"
-          },
-          {
-            "name": "1,10-phenanthroline monohydrate",
-            "formula": "C12H8N2·H2O",
-            "role": "coligand",
-            "amount": "81 mg, 407 μmol"
-          },
-          {
-            "name": "tetraethylammonium carbamoylcyanonitrosomethanide",
-            "formula": "(Et4N)(ccnm)",
-            "role": "ligand",
-            "amount": "50 mg, 206 μmol"
-          }
-        ],
-        "solvents": [
-          "methanol",
-          "water",
-          "ethanol"
-        ],
-        "temperature": null,
-        "time": "1 month",
-        "ph": null,
-        "vessel_or_method": "solution reaction analogous to the alternate 2Ce preparation",
-        "workup_and_crystallization": "puce crystals; white precipitate removed as ethanol suspension; product washed with ethanol and air-dried",
-        "yield": "17 mg, 17%"
+        "structural_family": "lanthaball"
       },
       "properties": {
-        "reported": true,
-        "property_type": "magnetic",
-        "summary": "dc susceptibility of polycrystalline 5Nd (2–300 K, 1 T) shows χMT = 16.38 cm3 K mol−1 at room temperature (below 21.32 cm3 K mol−1 calculated for 13 uncoupled NdIII), decreasing to 6.53 cm3 K mol−1 at 2 K, consistent with crystal-field depopulation and dominant antiferromagnetic exchange. Magnetization at 2 K reaches 15.85 μB at 5 T without saturation (vs 42.51 μB uncoupled). No out-of-phase ac signals and no SMM behavior above 1.8 K.",
         "measurements": [
           {
-            "property_type": "magnetic",
+            "conditions": "Approximately room temperature; dc field 1 T",
             "name": "χMT",
-            "value": 16.38,
-            "unit": "cm3 K mol−1",
-            "conditions": "room temperature; dc field 1 T; polycrystalline sample in Vaseline"
+            "property_type": "magnetic",
+            "unit": "cm³ K mol⁻¹",
+            "value": 16.38
           },
           {
-            "property_type": "magnetic",
+            "conditions": "2 K; dc field 1 T",
             "name": "χMT",
-            "value": 6.53,
-            "unit": "cm3 K mol−1",
-            "conditions": "2 K; dc field 1 T"
+            "property_type": "magnetic",
+            "unit": "cm³ K mol⁻¹",
+            "value": 6.53
           },
           {
+            "conditions": "2 K, applied field 5 T",
+            "name": "Magnetization",
             "property_type": "magnetic",
-            "name": "magnetization M",
-            "value": 15.85,
             "unit": "μB",
-            "conditions": "2 K, 5 T; no saturation"
-          },
-          {
-            "property_type": "magnetic",
-            "name": "ac out-of-phase susceptibility χ″",
-            "value": "no signal; no SMM behavior above 1.8 K",
-            "unit": null,
-            "conditions": "ac field 3.5 Oe; frequencies 0.1–1500 Hz"
+            "value": 15.85
           }
-        ]
+        ],
+        "property_type": "magnetic",
+        "reported": true,
+        "summary": "The susceptibility and magnetization are consistent with predominantly antiferromagnetic intracluster interactions, although crystal-field effects also contribute. No out-of-phase ac susceptibility signal or single-molecule-magnet behavior was observed above 1.8 K."
       },
       "source_locations": [
         {
-          "field": "compound_label",
-          "source": "main_text",
-          "location": "Abstract; Experimental Section"
-        },
-        {
-          "field": "formula",
-          "source": "main_text",
-          "location": "Abstract; Crystal data for 5Nd"
+          "field": "synthesis",
+          "location": "Experimental Section, synthesis of 5Nd",
+          "source": "main_text"
         },
         {
           "field": "ccdc_numbers",
-          "source": "main_text",
-          "location": "Experimental Section, CCDC 1012375"
+          "location": "Experimental Section, X-ray Crystallography",
+          "source": "main_text"
         },
         {
-          "field": "ccdc_refcodes",
-          "source": "external_metadata",
-          "location": "CCDC row ZOXVOZ / 1012375"
-        },
-        {
-          "field": "synthesis",
-          "source": "main_text",
-          "location": "Experimental Section, Synthesis of 5Nd"
+          "field": "structure_description",
+          "location": "Results and Discussion, Figures 6–7",
+          "source": "main_text"
         },
         {
           "field": "properties",
-          "source": "main_text",
-          "location": "Results and Discussion, Magnetic Susceptibility Measurements; Figure 8"
+          "location": "Results and Discussion, Magnetic Properties, Figure 8",
+          "source": "main_text"
         }
-      ]
+      ],
+      "structure_description": "The discrete tridecanuclear complex retains a central Nd atom chelated by six carbonates within a [Nd13(CO3)14] core. Unlike the cerium lanthaballs, its peripheral ccnm, nitrate, aqua and phenanthroline ligands form an irregular, lower-symmetry surface; four nitrate ligands chelate peripheral Nd centers.",
+      "synthesis": {
+        "main_text_has_explicit_synthesis": true,
+        "ph": null,
+        "procedure": "Add aqueous Na2CO3 to methanolic Nd(NO3)3·6H2O, producing a white precipitate. Add methanolic 1,10-phenanthroline monohydrate and (Et4N)(ccnm). Puce product crystals form after one month.",
+        "reagents": [
+          {
+            "amount": "22 mg, 208 μmol",
+            "formula": "Na2CO3",
+            "name": "sodium carbonate",
+            "role": "carbonate source"
+          },
+          {
+            "amount": "90 mg, 206 μmol",
+            "formula": "Nd(NO3)3·6H2O",
+            "name": "neodymium(III) nitrate hexahydrate",
+            "role": "metal source"
+          },
+          {
+            "amount": "81 mg, 407 μmol",
+            "formula": null,
+            "name": "1,10-phenanthroline monohydrate",
+            "role": "ligand"
+          },
+          {
+            "amount": "50 mg, 206 μmol",
+            "formula": "(Et4N)(ccnm)",
+            "name": "tetraethylammonium carbamoylcyanonitrosomethanide",
+            "role": "ligand source"
+          }
+        ],
+        "si_used": false,
+        "solvents": [
+          "water",
+          "methanol",
+          "ethanol for washing"
+        ],
+        "temperature": null,
+        "time": "1 month",
+        "vessel_or_method": "Solution reaction and crystallization",
+        "workup_and_crystallization": "The white precipitate was removed as a suspension in ethanol; the crystals were washed with ethanol and air-dried.",
+        "yield": "17 mg, 17%"
+      }
     }
-  ]
+  ],
+  "title": "Synthesis and Structure of New Lanthanoid Carbonate “Lanthaballs”"
 }

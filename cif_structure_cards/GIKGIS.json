@@ -1,0 +1,353 @@
+{
+  "refcode": "GIKGIS",
+  "ccdc_number": "857678",
+  "dois": [
+    "10.1021/cg400206s"
+  ],
+  "source_data_block": "GIKGIS",
+  "source_cif": "CIFs\\857678.cif",
+  "formula_moiety": "(C14 H38 Cl1 Cu4 Gd1 N2 O25 S2)n,7.5n(H2 O1)",
+  "crystal_system": "monoclinic",
+  "space_group_hm": "P 21/c",
+  "international_tables_number": "14",
+  "unit_cell": {
+    "a": "16.055(3)",
+    "b": "13.127(3)",
+    "c": "19.940(4)",
+    "alpha": "90.00",
+    "beta": "109.10(3)",
+    "gamma": "90.00",
+    "volume": "3971.09",
+    "Z": "4"
+  },
+  "metal_sites": [
+    {
+      "label": "Gd1",
+      "element": "Gd",
+      "occupancy": null,
+      "oxygen_coordination_number": 8,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O13",
+        "O15",
+        "O1W",
+        "O2W",
+        "O3W",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "label": "Cu1",
+      "element": "Cu",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O11",
+        "O15",
+        "O26",
+        "O9"
+      ]
+    },
+    {
+      "label": "Cu2",
+      "element": "Cu",
+      "occupancy": null,
+      "oxygen_coordination_number": 5,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O17",
+        "O2",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Cu3",
+      "element": "Cu",
+      "occupancy": null,
+      "oxygen_coordination_number": 4,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O15",
+        "O4",
+        "O4W"
+      ]
+    },
+    {
+      "label": "Cu4",
+      "element": "Cu",
+      "occupancy": null,
+      "oxygen_coordination_number": 6,
+      "oxygen_neighbor_labels": [
+        "O12W",
+        "O13W",
+        "O16",
+        "O2",
+        "O27",
+        "O8"
+      ]
+    },
+    {
+      "label": "Cu5",
+      "element": "Cu",
+      "occupancy": null,
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O12"
+      ]
+    },
+    {
+      "label": "Cu6",
+      "element": "Cu",
+      "occupancy": null,
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O16",
+        "O27"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Cu1",
+          "Cu2"
+        ],
+        "shared_oxygen_labels": [
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 2.888,
+        "bridge_geometry": [
+          {
+            "oxygen": "O9",
+            "angle_deg": 94.64,
+            "metal_oxygen_distances_angstrom": [
+              1.961,
+              1.968
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Cu1",
+          "Cu3"
+        ],
+        "shared_oxygen_labels": [
+          "O15"
+        ],
+        "metal_metal_separation_angstrom": 3.241,
+        "bridge_geometry": [
+          {
+            "oxygen": "O15",
+            "angle_deg": 113.28,
+            "metal_oxygen_distances_angstrom": [
+              1.936,
+              1.945
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Cu1",
+          "Gd1"
+        ],
+        "shared_oxygen_labels": [
+          "O11",
+          "O15"
+        ],
+        "metal_metal_separation_angstrom": 3.427,
+        "bridge_geometry": [
+          {
+            "oxygen": "O11",
+            "angle_deg": 108.36,
+            "metal_oxygen_distances_angstrom": [
+              1.924,
+              2.294
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 98.52,
+            "metal_oxygen_distances_angstrom": [
+              1.936,
+              2.555
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Cu2",
+          "Cu3"
+        ],
+        "shared_oxygen_labels": [
+          "O1"
+        ],
+        "metal_metal_separation_angstrom": 2.916,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 96.37,
+            "metal_oxygen_distances_angstrom": [
+              1.943,
+              1.97
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Cu2",
+          "Cu4"
+        ],
+        "shared_oxygen_labels": [
+          "O2",
+          "O8"
+        ],
+        "metal_metal_separation_angstrom": 2.991,
+        "bridge_geometry": [
+          {
+            "oxygen": "O2",
+            "angle_deg": 101.08,
+            "metal_oxygen_distances_angstrom": [
+              1.942,
+              1.932
+            ]
+          },
+          {
+            "oxygen": "O8",
+            "angle_deg": 102.23,
+            "metal_oxygen_distances_angstrom": [
+              1.921,
+              1.921
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Cu3",
+          "Gd1"
+        ],
+        "shared_oxygen_labels": [
+          "O15",
+          "O4"
+        ],
+        "metal_metal_separation_angstrom": 3.468,
+        "bridge_geometry": [
+          {
+            "oxygen": "O4",
+            "angle_deg": 107.24,
+            "metal_oxygen_distances_angstrom": [
+              1.923,
+              2.372
+            ]
+          },
+          {
+            "oxygen": "O15",
+            "angle_deg": 99.92,
+            "metal_oxygen_distances_angstrom": [
+              1.945,
+              2.555
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Cu4",
+          "Cu6"
+        ],
+        "shared_oxygen_labels": [
+          "O16",
+          "O27"
+        ],
+        "metal_metal_separation_angstrom": 2.885,
+        "bridge_geometry": [
+          {
+            "oxygen": "O16",
+            "angle_deg": 96.17,
+            "metal_oxygen_distances_angstrom": [
+              1.946,
+              1.931
+            ]
+          },
+          {
+            "oxygen": "O27",
+            "angle_deg": 96.17,
+            "metal_oxygen_distances_angstrom": [
+              1.931,
+              1.946
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Cu1",
+        "Cu2",
+        "Cu3",
+        "Cu4",
+        "Cu6",
+        "Gd1"
+      ],
+      [
+        "Cu5"
+      ]
+    ],
+    "topology": "network with cycles",
+    "approximate_shape": "three-dimensional metal-site arrangement",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "GIKGIS crystallizes in the monoclinic crystal system with space group P 21/c. Reported CIF formula moiety: (C14 H38 Cl1 Cu4 Gd1 N2 O25 S2)n,7.5n(H2 O1). From the CIF bond table, Gd1 (Gd) has 8 O neighbors; Cu1 (Cu) has 4 O neighbors; Cu2 (Cu) has 5 O neighbors; Cu3 (Cu) has 4 O neighbors; Cu4 (Cu) has 6 O neighbors; Cu5 (Cu) has 1 O neighbors; Cu6 (Cu) has 2 O neighbors. Oxygen-bridged metal-site graph: 7 pairs, 2 components; largest component is a network with cycles with three-dimensional metal-site arrangement. Computed bridged metal-metal separations span 2.885-3.468 Å (not direct metal-metal bonds). Computed M-O-M angles span 94.64-113.28°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Gd2Cu8(μ2-OH)2(μ3-OH)2(ClO4)2(HTMHSA)4(H2O)10]·15H2O. Explicit grouped units in the article formula/name: 2 μ2-OH (explicit grouped unit in article formula), 2 μ3-OH (explicit grouped unit in article formula), 10 H2O (explicit grouped unit in article formula).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1021/cg400206s",
+    "formula": "[Gd2Cu8(μ2-OH)2(μ3-OH)2(ClO4)2(HTMHSA)4(H2O)10]·15H2O",
+    "compound_name": "Gd2Cu8",
+    "match_basis": "ccdc_number"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 10,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "μ2-OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "μ3-OH",
+        "count": 2,
+        "basis": "explicit grouped unit in article formula"
+      },
+      {
+        "unit": "H2O",
+        "count": 10,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": []
+  },
+  "external_cif_metadata": "D:\\workspace\\Cluster_agent\\data\\process_csv\\cif_card_ready_metadata.csv"
+}

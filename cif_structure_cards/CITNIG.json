@@ -1,0 +1,205 @@
+{
+  "refcode": "CITNIG",
+  "ccdc_number": "2269118",
+  "dois": [
+    "10.1039/d3nj02735j"
+  ],
+  "source_data_block": "CITNIG",
+  "source_cif": "CIFs\\2269118.cif",
+  "formula_moiety": "C84 H76 O44 Pr4,4(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "12.0467(3)",
+    "b": "14.1840(4)",
+    "c": "14.6821(4)",
+    "alpha": "93.1860(10)",
+    "beta": "102.7450(10)",
+    "gamma": "105.5620(10)",
+    "volume": "2339.57",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Pr1",
+      "element": "Pr",
+      "occupancy": null,
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O2",
+        "O3",
+        "O34",
+        "O5",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "label": "Pr2",
+      "element": "Pr",
+      "occupancy": null,
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O10",
+        "O11",
+        "O12",
+        "O13",
+        "O14",
+        "O15",
+        "O16",
+        "O6",
+        "O9"
+      ]
+    },
+    {
+      "label": "Pr3",
+      "element": "Pr",
+      "occupancy": null,
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O25",
+        "O26",
+        "O27",
+        "O29",
+        "O31",
+        "O36",
+        "O37",
+        "O4",
+        "O42"
+      ]
+    },
+    {
+      "label": "Pr4",
+      "element": "Pr",
+      "occupancy": null,
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O27",
+        "O28",
+        "O30",
+        "O31",
+        "O33",
+        "O35",
+        "O38",
+        "O39",
+        "O43"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Pr1",
+          "Pr2"
+        ],
+        "shared_oxygen_labels": [
+          "O6",
+          "O9"
+        ],
+        "metal_metal_separation_angstrom": 4.318,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 112.47,
+            "metal_oxygen_distances_angstrom": [
+              2.763,
+              2.427
+            ]
+          },
+          {
+            "oxygen": "O9",
+            "angle_deg": 111.29,
+            "metal_oxygen_distances_angstrom": [
+              2.544,
+              2.686
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Pr3",
+          "Pr4"
+        ],
+        "shared_oxygen_labels": [
+          "O27",
+          "O31"
+        ],
+        "metal_metal_separation_angstrom": 4.318,
+        "bridge_geometry": [
+          {
+            "oxygen": "O27",
+            "angle_deg": 112.47,
+            "metal_oxygen_distances_angstrom": [
+              2.763,
+              2.427
+            ]
+          },
+          {
+            "oxygen": "O31",
+            "angle_deg": 111.29,
+            "metal_oxygen_distances_angstrom": [
+              2.544,
+              2.686
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Pr1",
+        "Pr2"
+      ],
+      [
+        "Pr3",
+        "Pr4"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "CITNIG crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: C84 H76 O44 Pr4,4(H2 O1). From the CIF bond table, Pr1 (Pr) has 9 O neighbors; Pr2 (Pr) has 9 O neighbors; Pr3 (Pr) has 9 O neighbors; Pr4 (Pr) has 9 O neighbors. Oxygen-bridged metal-site graph: 2 pairs, 2 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.318-4.318 Å (not direct metal-metal bonds). Computed M-O-M angles span 111.29-112.47°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Pr4(4hob)12(H2O)8]·4H2O. Explicit grouped units in the article formula/name: 8 H2O (explicit grouped unit in article formula). Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/d3nj02735j",
+    "formula": "[Pr4(4hob)12(H2O)8]·4H2O",
+    "compound_name": "Tetranuclear praseodymium(III) 4-hydroxybenzoate aqua complex tetrahydrate",
+    "match_basis": "ccdc_number"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": 4,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 8,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  },
+  "external_cif_metadata": "D:\\workspace\\Cluster_agent\\data\\process_csv\\cif_card_ready_metadata.csv"
+}

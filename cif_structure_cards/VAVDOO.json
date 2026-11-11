@@ -24,6 +24,7 @@
     {
       "label": "Ce1",
       "element": "Ce",
+      "occupancy": null,
       "oxygen_coordination_number": 8,
       "oxygen_neighbor_labels": [
         "O1",
@@ -39,6 +40,7 @@
     {
       "label": "Ce1_2",
       "element": "Ce",
+      "occupancy": null,
       "oxygen_coordination_number": 1,
       "oxygen_neighbor_labels": [
         "O7"
@@ -47,6 +49,7 @@
     {
       "label": "Ce1_3",
       "element": "Ce",
+      "occupancy": null,
       "oxygen_coordination_number": 2,
       "oxygen_neighbor_labels": [
         "O6",
@@ -74,17 +77,12 @@
     "omitted_nonidentity_symmetry_bonds": 0,
     "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
   },
-  "description": "VAVDOO crystallizes in the orthorhombic crystal system with space group P b c a. Reported CIF formula moiety: (C10 H2 Ce1 F15 O10)n. From the CIF bond table, Ce1 (Ce) has 8 O neighbors; Ce1_2 (Ce) has 1 O neighbors; Ce1_3 (Ce) has 2 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table. Article card reports molecular formula C10H2CeF15O10.",
-  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
-  "article_compound": {
-    "doi": "10.1016/j.poly.2017.04.032",
-    "formula": "C10H2CeF15O10",
-    "compound_name": "[Ce(μ-TFA)3(H-TFA)2]n",
-    "match_basis": "ccdc_number"
-  },
-  "formula_annotations": {
-    "ligand_counts": [],
-    "explicit_core_charges": [],
-    "explicit_oxidation_states": []
+  "description": "VAVDOO crystallizes in the orthorhombic crystal system with space group P b c a. Reported CIF formula moiety: (C10 H2 Ce1 F15 O10)n. From the CIF bond table, Ce1 (Ce) has 8 O neighbors; Ce1_2 (Ce) has 1 O neighbors; Ce1_3 (Ce) has 2 O neighbors. Oxygen-bridged metal connectivity is not established from the available bond table.",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review.",
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": null,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
   }
 }

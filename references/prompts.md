@@ -1,10 +1,14 @@
-﻿# Prompt patterns and initial evaluation
+# Prompt patterns and initial evaluation
 
 Use these as **user-facing test prompts** or adapt them to the task. The instruction in `SKILL.md` remains authoritative; prompts do not themselves supply chemical facts.
 
 ## Grounded lookup
 
 > 请基于本目录 cards 查找 DOI `{doi}` 中化合物 `{label}` 的合成条件、核数与结构依据。逐项给出 JSON 路径及字段，区分正文/SI 提取与 CIF 推导；缺失条件写“卡片未给出”，不要补全。
+
+## Article-internal analogous synthesis
+
+> 请查 `{doi}` 中化合物 `{target_label}`。如果卡片说它按另一化合物的方法制备，先在同篇文献 card 按 `compound_label` 精确定位所引用的基准化合物，并分别核对两者的 `synthesis`（必要时 SI）。按“基准步骤/文献明确更换的试剂和条件/目标化合物展开后的步骤”列出，仅在文献明确共享时沿用数值；每步标明证据来源与缺失/推断部分。如果标签、计量或参照链有歧义，不要编造完整配方。
 
 ## Matched structure audit
 
@@ -35,4 +39,4 @@ Use these as **user-facing test prompts** or adapt them to the task. The instruc
 
 ## Missing crystallographic evidence
 
-> 对 `{compound_key}` 核对 `structure_availability`。如果为 `no_corresponding_cif`，区分“项目负责人已人工确认无对应 CIF”的项目状态与“CCDC 数据库没有记录”这一尚未由账本证明的说法。列出合成卡中可用的文章报告结构描述，同时说明哪些晶体学信息无法从结构卡验证。
+> 对 `{compound_key}` 核对 `structure_availability`。若为 `ambiguous_local_cif_match`，查 `compound_structure_review.csv`，列出候选但不作唯一归属；若为 `no_local_cif_match`，仅说明当前 skill card 未能建立精确对应，不能声称数据库没有 CIF。引用文献 card 中已有的结构描述，区分其与 CIF 验证的晶体学信息。
