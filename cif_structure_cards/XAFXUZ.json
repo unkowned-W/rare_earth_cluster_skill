@@ -1,0 +1,248 @@
+{
+  "refcode": "XAFXUZ",
+  "ccdc_number": "763313",
+  "dois": [
+    "10.1039/c001537g"
+  ],
+  "source_data_block": "XAFXUZ",
+  "source_cif": "addition\\cif\\763313.cif",
+  "formula_moiety": "(C24 H28 N6 O20 Pr2)n,2n(H2 O1)",
+  "crystal_system": "triclinic",
+  "space_group_hm": "P -1",
+  "international_tables_number": "2",
+  "unit_cell": {
+    "a": "8.5017(3)",
+    "b": "9.4822(3)",
+    "c": "10.8767(5)",
+    "alpha": "106.740(4)",
+    "beta": "101.306(4)",
+    "gamma": "92.424(3)",
+    "volume": "818.804",
+    "Z": "1"
+  },
+  "metal_sites": [
+    {
+      "label": "Pr1",
+      "element": "Pr",
+      "occupancy": null,
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10",
+        "O1A",
+        "O2A",
+        "O5A_2",
+        "O6A_2",
+        "O6_2",
+        "O7",
+        "O8A_2"
+      ]
+    },
+    {
+      "label": "Pr1A",
+      "element": "Pr",
+      "occupancy": null,
+      "oxygen_coordination_number": 9,
+      "oxygen_neighbor_labels": [
+        "O1",
+        "O10A",
+        "O1A",
+        "O2",
+        "O5_2",
+        "O6A_3",
+        "O6_3",
+        "O7A_2",
+        "O8"
+      ]
+    },
+    {
+      "label": "Pr1A_2",
+      "element": "Pr",
+      "occupancy": null,
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "label": "Pr1_2",
+      "element": "Pr",
+      "occupancy": null,
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O6"
+      ]
+    },
+    {
+      "label": "Pr1A_3",
+      "element": "Pr",
+      "occupancy": null,
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O7A"
+      ]
+    },
+    {
+      "label": "Pr1_3",
+      "element": "Pr",
+      "occupancy": null,
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O8A"
+      ]
+    },
+    {
+      "label": "Pr1_4",
+      "element": "Pr",
+      "occupancy": null,
+      "oxygen_coordination_number": 2,
+      "oxygen_neighbor_labels": [
+        "O5A",
+        "O6A"
+      ]
+    },
+    {
+      "label": "Pr1A_4",
+      "element": "Pr",
+      "occupancy": null,
+      "oxygen_coordination_number": 1,
+      "oxygen_neighbor_labels": [
+        "O6A"
+      ]
+    }
+  ],
+  "atom_sites_available": true,
+  "bond_table_available": true,
+  "metal_framework": {
+    "links": [
+      {
+        "metals": [
+          "Pr1",
+          "Pr1A"
+        ],
+        "shared_oxygen_labels": [
+          "O1",
+          "O1A"
+        ],
+        "metal_metal_separation_angstrom": 4.2,
+        "bridge_geometry": [
+          {
+            "oxygen": "O1",
+            "angle_deg": 113.59,
+            "metal_oxygen_distances_angstrom": [
+              2.442,
+              2.576
+            ]
+          },
+          {
+            "oxygen": "O1A",
+            "angle_deg": 113.59,
+            "metal_oxygen_distances_angstrom": [
+              2.576,
+              2.442
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Pr1A_2",
+          "Pr1_2"
+        ],
+        "shared_oxygen_labels": [
+          "O6"
+        ],
+        "metal_metal_separation_angstrom": 4.318,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6",
+            "angle_deg": 116.92,
+            "metal_oxygen_distances_angstrom": [
+              2.624,
+              2.441
+            ]
+          }
+        ],
+        "geometry_warning": null
+      },
+      {
+        "metals": [
+          "Pr1A_4",
+          "Pr1_4"
+        ],
+        "shared_oxygen_labels": [
+          "O6A"
+        ],
+        "metal_metal_separation_angstrom": 4.318,
+        "bridge_geometry": [
+          {
+            "oxygen": "O6A",
+            "angle_deg": 116.92,
+            "metal_oxygen_distances_angstrom": [
+              2.441,
+              2.624
+            ]
+          }
+        ],
+        "geometry_warning": null
+      }
+    ],
+    "connected_components": [
+      [
+        "Pr1",
+        "Pr1A"
+      ],
+      [
+        "Pr1A_2",
+        "Pr1_2"
+      ],
+      [
+        "Pr1A_3"
+      ],
+      [
+        "Pr1A_4",
+        "Pr1_4"
+      ],
+      [
+        "Pr1_3"
+      ]
+    ],
+    "topology": "chain",
+    "approximate_shape": "insufficient metal sites for a 3D shape classification",
+    "omitted_nonidentity_symmetry_bonds": 0,
+    "geometry_basis": "Shared oxygen in CIF bond table (identity symmetry only); M-O vectors use nearest periodic images, M-M separations use the same bridge images, and the metal-site shape uses bridge-connected unwrapped coordinates. M-M values are separations, not metal-metal bonds."
+  },
+  "description": "XAFXUZ crystallizes in the triclinic crystal system with space group P -1. Reported CIF formula moiety: (C24 H28 N6 O20 Pr2)n,2n(H2 O1). From the CIF bond table, Pr1 (Pr) has 9 O neighbors; Pr1A (Pr) has 9 O neighbors; Pr1A_2 (Pr) has 2 O neighbors; Pr1_2 (Pr) has 1 O neighbors; Pr1A_3 (Pr) has 1 O neighbors; Pr1_3 (Pr) has 1 O neighbors; Pr1_4 (Pr) has 2 O neighbors; Pr1A_4 (Pr) has 1 O neighbors. Oxygen-bridged metal-site graph: 3 pairs, 5 components; largest component is a chain with insufficient metal sites for a 3D shape classification. Computed bridged metal-metal separations span 4.200-4.318 Å (not direct metal-metal bonds). Computed M-O-M angles span 113.59-116.92°; individual values and O labels are in metal_framework.links. Article card reports molecular formula [Pr(PODC)1.5(H2O)]·H2O. Explicit grouped units in the article formula/name: 1 H2O (explicit grouped unit in article formula). Article name explicitly identifies I(II).",
+  "interpretation_limit": "Oxidation states, nuclearity, oxo/hydroxo bridging, core charge and ligand identities/counts require article/SI or manual verification; atom-site counts are asymmetric-unit counts, not molecular stoichiometry. Graph topology is limited to identity-symmetry bonds in the CIF table. Approximate shape is based only on bridge-unwrapped metal-site coordinates in the largest component; symmetry-related bonds or periodic structures require manual crystallographic review. Empirical formulas alone do not establish unique oxidation-state assignments or ligand connectivity; annotations above reproduce explicit structural notation only.",
+  "article_compound": {
+    "doi": "10.1039/c001537g",
+    "formula": "[Pr(PODC)1.5(H2O)]·H2O",
+    "compound_name": "Praseodymium(III) PODC coordination polymer monohydrate",
+    "match_basis": "refcode"
+  },
+  "candidate_structural_motifs": {
+    "status": "not_assessed",
+    "nuclearity": null,
+    "nuclearity_basis": "matched article compound material_class.nuclearity",
+    "method": "agglomerative weighted modularity; edge weight = shared oxygen count"
+  },
+  "formula_annotations": {
+    "ligand_counts": [
+      {
+        "unit": "H2O",
+        "count": 1,
+        "basis": "explicit grouped unit in article formula"
+      }
+    ],
+    "explicit_core_charges": [],
+    "explicit_oxidation_states": [
+      {
+        "element": "I",
+        "state": "II",
+        "basis": "article compound name"
+      }
+    ]
+  }
+}
